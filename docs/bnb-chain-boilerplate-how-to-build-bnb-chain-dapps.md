@@ -162,6 +162,6 @@ yarn run dev
 
 如果你觉得这篇文章有帮助，仔细看看 Moralis 的 [Web3 博客](https://moralis.io/blog/)上的一些附加内容。例如，学习如何[用 Web3](https://moralis.io/how-to-connect-playfab-with-web3-using-azure-functions/) 连接到 PlayFab 或者[创建自己的索拉纳·NFT](https://moralis.io/solana-nft-mint-tools-create-your-own-solana-nft/)。此外，如果你想为其他网络开发 dapps，我们还有一些其他指南。例如，学习如何[建立一个以太坊 dapp](https://moralis.io/full-guide-how-to-build-an-ethereum-dapp-in-5-steps/) 或者建立并[连接一个 dapp 到多边形](https://moralis.io/tutorial-how-to-connect-a-dapp-to-polygon-network/)！
 
-此外，如果你是区块链发展的新手，我们建议你去看看[道德学院](https://academy.moralis.io/)。该学院为新的和有经验的开发人员提供一些最复杂的区块链课程。如果你想学习基础知识，可以看看下面的课程:“[以太坊基础 101](https://academy.moralis.io/courses/ethereum-101) ”。开始您的 Web3 开发之旅，立即成为区块链认证！
+此外，如果你是区块链发展的新手，我们建议你去看看[Moralis 学院](https://academy.moralis.io/)。该学院为新的和有经验的开发人员提供一些最复杂的区块链课程。如果你想学习基础知识，可以看看下面的课程:“[以太坊基础 101](https://academy.moralis.io/courses/ethereum-101) ”。开始您的 Web3 开发之旅，立即成为区块链认证！
 
-然而，如果你想建立任何类型的 dapp，[注册 Moralis](https://admin.moralis.io/register) ！Moralis 的工具大大提高了开发体验的可访问性，这使得您可以为任何进一步的 Web3 项目节省宝贵的时间和资源。更重要的是，创建你自己的道德账户是完全免费的，所以你不会有任何损失！
+然而，如果你想建立任何类型的 dapp，[注册 Moralis](https://admin.moralis.io/register) ！Moralis 的工具大大提高了开发体验的可访问性，这使得您可以为任何进一步的 Web3 项目节省宝贵的时间和资源。更重要的是，创建你自己的 Moralis 账户是完全免费的，所以你不会有任何损失！

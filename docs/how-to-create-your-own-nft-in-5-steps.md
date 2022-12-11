@@ -2,11 +2,11 @@
 
 > 原文：<https://moralis.io/how-to-create-your-own-nft-in-5-steps/>
 
-NFT，或不可替代的代币，最近大受欢迎。此外，随着 NFT 的概念越来越多地进入主流，NFT 甚至在加密领域之外也获得了发展。从艺术、音乐到迷因，一切都在成为数字资产，以高价出售，在某些情况下，价格高得离谱。使用道德，你甚至可以在五个步骤中创建自己的 NFT！这篇文章将介绍什么是 NFT，以及如何创建一个。这些问题将在本文中得到解答，我们将展示如何通过简单的五个步骤创建自己的 NFT。
+NFT，或不可替代的代币，最近大受欢迎。此外，随着 NFT 的概念越来越多地进入主流，NFT 甚至在加密领域之外也获得了发展。从艺术、音乐到迷因，一切都在成为数字资产，以高价出售，在某些情况下，价格高得离谱。使用 Moralis，你甚至可以在五个步骤中创建自己的 NFT！这篇文章将介绍什么是 NFT，以及如何创建一个。这些问题将在本文中得到解答，我们将展示如何通过简单的五个步骤创建自己的 NFT。
 
 [web 3 开发](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/) 可能看起来过于繁琐，而且历来也很复杂。原因是 Web3 开发领域还不完整，因为这个行业缺少一些基本的开发工具。随着我们看到每天都有新的平台和解决方案开发出来，这种情况已经不再存在。然而，首要的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发工具是 Moralis。Moralis 是 Web3 开发的头号中间件，该平台为用户提供了完全托管的后端基础设施。此外，Moralis 还具有强大的工具，如[Moralis NFT API](https://moralis.io/announcing-the-moralis-nft-api/)[价格 API](https://moralis.io/introducing-the-moralis-price-api/)[Moralis 快速节点](https://moralis.io/speedy-nodes/) 。
 
-如果你是 Moralis 的老读者，你可能会偶然发现其他文章，如:“ [如何在 10 分钟内创建自己的 ERC-20 令牌](https://moralis.io/how-to-create-your-own-erc-20-token-in-10-minutes/) ”和“ [如何在 5 个步骤中创建 BSC 令牌](https://moralis.io/how-to-create-a-bsc-token-in-5-steps/) ”。然而，在这篇文章中，我们将探索用道德创造你自己的 NFT 是多么容易。因此，注册 Moralis 是开始你的 Web3 和 NFT 发展之旅的一个很好的方式。您可以免费加入并立即使用该平台的工具！
+如果你是 Moralis 的老读者，你可能会偶然发现其他文章，如:“ [如何在 10 分钟内创建自己的 ERC-20 令牌](https://moralis.io/how-to-create-your-own-erc-20-token-in-10-minutes/) ”和“ [如何在 5 个步骤中创建 BSC 令牌](https://moralis.io/how-to-create-a-bsc-token-in-5-steps/) ”。然而，在这篇文章中，我们将探索用 Moralis 创造你自己的 NFT 是多么容易。因此，注册 Moralis 是开始你的 Web3 和 NFT 发展之旅的一个很好的方式。您可以免费加入并立即使用该平台的工具！
 
 ### 什么是 NFT(不可替换令牌)？
 
@@ -70,7 +70,7 @@ HTML 索引文件完成后，我们可以继续深入了解该应用程序的逻
 
 ## 第三步:如何创建自己的 NFT —登录功能
 
-对于我们流程中的第三步，我们可以返回到[JavaScript](https://moralis.io/web3-and-javascript-what-is-javascript-and-web3-js/)文件，在这里我们初始化了道德并实现了智能契约。这里，我们将创建一个函数，使我们的用户能够登录并验证自己。这是一个简单的功能，由点击“连接元掩码”按钮的人触发。一旦函数完成，它将看起来像这样:
+对于我们流程中的第三步，我们可以返回到[JavaScript](https://moralis.io/web3-and-javascript-what-is-javascript-and-web3-js/)文件，在这里我们初始化了 Moralis 并实现了智能契约。这里，我们将创建一个函数，使我们的用户能够登录并验证自己。这是一个简单的功能，由点击“连接元掩码”按钮的人触发。一旦函数完成，它将看起来像这样:
 
 ![](img/c0a33891743b1ee46f42fb59ece1fb40.png)
 
@@ -114,7 +114,7 @@ HTML 索引文件完成后，我们可以继续深入了解该应用程序的逻
 
 因此，通过遵循这五个简单的步骤，我们已经能够创建一个 dApp，它可以用来在几秒钟内创建你自己的 NFT。但是，请注意，每次应用程序用于铸造 NFT，我们将被收取少量费用来完成交易。
 
-如果您对本教程仍有疑问，我们推荐您观看以下来自 [道德 YouTube 频道](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw) 的视频，该视频详细解释了这一过程:
+如果您对本教程仍有疑问，我们推荐您观看以下来自 [Moralis YouTube 频道](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw) 的视频，该视频详细解释了这一过程:
 
 [https://www.youtube.com/embed/WdQHnb_5m5Q?feature=oembed](https://www.youtube.com/embed/WdQHnb_5m5Q?feature=oembed)
 

@@ -6,7 +6,7 @@
 
 ![](img/e2b0f10fdfa5807af979942420cf7b61.png)
 
-除非你一直生活在岩石下，否则你可能听说过道德。这个终极的 Web3 开发平台使前端开发人员能够轻松地过渡到区块链开发，并显著更快地交付非凡的 dApps。这要感谢 Moralis 的服务，包括 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) 、服务器、强大的 [Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 和广泛的 API。通过这些工具的力量，Moralis 使区块链开发变得尽可能简单。此外，随着其最新添加的 [React 原生支持](https://moralis.io/moralis-introduces-react-native-support/)，它还涵盖了移动以太坊 dApp 开发。通过使用 React 本地模板，您可以用最少的努力创建用户友好的移动 dApps。此外，Moralis 从一开始就考虑到了跨链的互操作性。因此，你的移动以太坊 dApp，由 Moralis 构建，可以部署在其他著名的连锁店。这样，你也可以让你的 dApps 适应未来，并在任何连锁店失去人气的情况下消除很多风险。
+除非你一直生活在岩石下，否则你可能听说过 Moralis。这个终极的 Web3 开发平台使前端开发人员能够轻松地过渡到区块链开发，并显著更快地交付非凡的 dApps。这要感谢 Moralis 的服务，包括 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) 、服务器、强大的 [Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 和广泛的 API。通过这些工具的力量，Moralis 使区块链开发变得尽可能简单。此外，随着其最新添加的 [React 原生支持](https://moralis.io/moralis-introduces-react-native-support/)，它还涵盖了移动以太坊 dApp 开发。通过使用 React 本地模板，您可以用最少的努力创建用户友好的移动 dApps。此外，Moralis 从一开始就考虑到了跨链的互操作性。因此，你的移动以太坊 dApp，由 Moralis 构建，可以部署在其他著名的连锁店。这样，你也可以让你的 dApps 适应未来，并在任何连锁店失去人气的情况下消除很多风险。
 
 ![](img/97a2b2aac6fd955e571075e4fcab50bf.png)
 
@@ -20,11 +20,11 @@
 
 因此，React 原生模板是为移动应用预先编写的 React 原生代码，带有文档和一组基于移动应用设计的功能。像任何模板一样，这是一个极好的起点；然而，它需要一些调整来满足您的需求。查看我们的 [React dApp 模板](https://moralis.io/react-dapp-template-how-to-build-a-react-dapp/)获得逐步指导！
 
-如果你是一个完全的初学者，想要成为一名区块链开发人员，你首先需要确保你知道至少一种 T2 最好的区块链开发语言。JavaScript 结合 React 相当强大；因此，我们建议报名参加[道德学院](https://academy.moralis.io/)的[区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)和 [React Web 开发 101](https://academy.moralis.io/courses/react-web-development-101) 课程。
+如果你是一个完全的初学者，想要成为一名区块链开发人员，你首先需要确保你知道至少一种 T2 最好的区块链开发语言。JavaScript 结合 React 相当强大；因此，我们建议报名参加[Moralis 学院](https://academy.moralis.io/)的[区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)和 [React Web 开发 101](https://academy.moralis.io/courses/react-web-development-101) 课程。
 
 ## react-Moralis–移动 dApps 开发变得简单
 
-什么是[反应——道德](https://github.com/MoralisWeb3/react-moralis)？React-Moralis 是指 Moralis 对 React 和 React Native 的支持，使移动以太坊 dApp 开发者能够使用 Moralis 强大的平台轻松调用功能和显示数据。本质上，React-Moralis 使您能够在任何移动平台上使用 Moralis 和 Web3 的力量。通过使用这种集成，您可以轻松克服大多数 dApps 面临的限制。因此，您可以满足网络和移动用户的需求。这样，您就可以轻松地为对分散式应用感兴趣的移动设备用户提供出色的用户体验。
+什么是[反应——Moralis](https://github.com/MoralisWeb3/react-moralis)？React-Moralis 是指 Moralis 对 React 和 React Native 的支持，使移动以太坊 dApp 开发者能够使用 Moralis 强大的平台轻松调用功能和显示数据。本质上，React-Moralis 使您能够在任何移动平台上使用 Moralis 和 Web3 的力量。通过使用这种集成，您可以轻松克服大多数 dApps 面临的限制。因此，您可以满足网络和移动用户的需求。这样，您就可以轻松地为对分散式应用感兴趣的移动设备用户提供出色的用户体验。
 
 ### 创建一个用户友好的移动以太坊 dApp-React-Moralis 快速入门
 
@@ -33,7 +33,7 @@
 *   如果使用 npm 包管理器: ***npm 安装 react react-DOM moralis react-moralis***
 *   如果使用纱包管理器: ***纱添加 react react-DOM moralis react-moralis***
 
-然后，你需要把你的 app 用一个“ ***<道德提供者>*** ”包装起来。此外，您应该提供您的“appId”和“serverUrl”(更多信息，请参见下一小节):
+然后，你需要把你的 app 用一个“ ***<Moralis 提供者>*** ”包装起来。此外，您应该提供您的“appId”和“serverUrl”(更多信息，请参见下一小节):
 
 ```js
 import React from "react";
@@ -77,7 +77,7 @@ function App() {
 
 要获取 Moralis 服务器的应用程序 ID 和服务器 URL，请按照下列步骤操作:
 
-1.  [**创建你的道德家账户**](https://admin.moralis.io/register)——如果你还没有创建你的道德家账户，请确保现在就创建。只需点击上面的链接，输入您的电子邮件地址，并创建您的密码。然后，确认您的电子邮件地址(您将收到一封带有确认链接的电子邮件)。如果你已经有一个道德账户，只需[登录](https://admin.moralis.io/login)。
+1.  [**创建你的 Moralis 家账户**](https://admin.moralis.io/register)——如果你还没有创建你的 Moralis 家账户，请确保现在就创建。只需点击上面的链接，输入您的电子邮件地址，并创建您的密码。然后，确认您的电子邮件地址(您将收到一封带有确认链接的电子邮件)。如果你已经有一个 Moralis 账户，只需[登录](https://admin.moralis.io/login)。
 2.  **创建新服务器**–登录您的 Moralis 帐户后，您想要创建一个新服务器。只需点击右上角的“+创建新服务器”按钮，并从下拉菜单中选择首选网络类型(见下图)。在开发一个新项目时,“Testnet Server”选项是一个很好的选择。
 
 ![](img/62d7713df00e48962bd7a3dc53442400.png)
@@ -98,7 +98,7 @@ function App() {
 
 # 使用 React 本地模板创建移动以太坊 dApp 一个示例项目
 
-现在，终于到了使用 React 原生模板并创建一个移动以太坊 dApp 作为示例项目的时候了。这样，你会看到道德如何简化事情。例如，Moralis 还使 dApp 的[以太坊认证](https://moralis.io/ethereum-authentication-full-tutorial-to-ethereum-login-programming/)的实现变得简单明了。对于我们的演示 dApp，我们将使用 [WalletConnect](https://moralis.io/how-to-connect-users-with-walletconnect/) 。这是我们的演示应用程序的样子:
+现在，终于到了使用 React 原生模板并创建一个移动以太坊 dApp 作为示例项目的时候了。这样，你会看到 Moralis 如何简化事情。例如，Moralis 还使 dApp 的[以太坊认证](https://moralis.io/ethereum-authentication-full-tutorial-to-ethereum-login-programming/)的实现变得简单明了。对于我们的演示 dApp，我们将使用 [WalletConnect](https://moralis.io/how-to-connect-users-with-walletconnect/) 。这是我们的演示应用程序的样子:
 
 ![](img/312abb7315938c66d4e7860603374d08.png)
 
@@ -216,7 +216,7 @@ https://youtu.be/FRilwynjW1c
 
 Moralis 让创建移动 dApps 变得更加容易。通过使用 Moralis 支持 React Native 的终极 Web3 开发平台，您可以利用并受益于最先进的 [Web3 API](https://docs.moralis.io/moralis-server/web3-sdk/intro) 。通过使用简短的代码片段，您可以涵盖单调乏味且耗时的区块链相关后端编码。这些代码片段整齐地提供在 [Moralis 的文档](https://docs.moralis.io/)中，并附有例子来帮助你快速理解。有了 Moralis 的 React 原生支持，您可以抢先运行其他项目，这些项目仅限于 web 用户或那些不知道如何为其移动用户提供访问 Web3 世界的简单方法的用户。
 
-此外，请记住，有了道德，你绝不是局限于以太坊链条上的移动 dApps。Moralis 的创建是为了完全跨链互操作，并不断增加对新的声誉良好的链的支持。虽然以太坊被认为是本机选项，但您可以通过简单地添加一个指定另一个链的附加参数来关注任何其他受支持的链。此外，这种跨链的互操作性使得 Moralis 成为 Avalanche 的最佳 [Infura 和 BSC](https://moralis.io/infura-for-avalanche-exploring-infura-avalanche-alternatives/) 的最佳 [Infura。因此，它也使您能够克服 RPC 节点](https://moralis.io/infura-bsc-alternatives-the-best-alternative-to-infura-for-bsc/)的所有[限制。](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)
+此外，请记住，有了 Moralis，你绝不是局限于以太坊链条上的移动 dApps。Moralis 的创建是为了完全跨链互操作，并不断增加对新的声誉良好的链的支持。虽然以太坊被认为是本机选项，但您可以通过简单地添加一个指定另一个链的附加参数来关注任何其他受支持的链。此外，这种跨链的互操作性使得 Moralis 成为 Avalanche 的最佳 [Infura 和 BSC](https://moralis.io/infura-for-avalanche-exploring-infura-avalanche-alternatives/) 的最佳 [Infura。因此，它也使您能够克服 RPC 节点](https://moralis.io/infura-bsc-alternatives-the-best-alternative-to-infura-for-bsc/)的所有[限制。](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)
 
 此外，我们建议探索我们继续在 [Moralis 的博客](https://moralis.io/blog/)和 [Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)上提供的免费内容。除了解释区块链发展的各个方面，我们还涵盖了许多范例项目，这些项目可能是很好的学习和启发材料。
 

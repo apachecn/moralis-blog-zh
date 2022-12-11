@@ -4,7 +4,7 @@
 
 你知道增强现实早在 1968 年就被发明了吗？然而，直到 1990 年，“增强现实”这个术语才被创造出来。尽管如此，这项令人兴奋的技术在过去几年里才真正开始得到更广泛的应用。尽管如此，大多数增强现实应用程序仍然运行在集中式 Web2 技术上。而且，由于我们相信去中心化的未来，我们决定向您展示如何轻松创建 Web3 增强现实 dapp ( [**去中心化应用**](https://moralis.io/decentralized-applications-explained-what-are-dapps/) **)。用右边的**[**Web3 tech stack**](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)**，你可以使用 Unity 为你的 web 3 增强现实功勋。这要归功于 Moralis，最终的 Web3 开发平台**[**Moralis**](https://moralis.io/)**。这款**[**Firebase for crypto**](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/)**提供了一种非常直接的方式来为你的 Unity 应用配备 Web3 功能。这样，你可以在几分钟内实现** [**Web3 认证**](https://moralis.io/web3-authentication-the-full-guide/) **。此外，** [**Moralis 的 SDK**](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) **也使您能够轻松处理**[](https://moralis.io/web3-data-science-importing-on-chain-events/)****链上事件，并创建一个** [**链上库存系统**](https://moralis.io/create-an-nft-on-chain-inventory-system-for-gaming/) **。****
 
-**在我们看来，Web3 增强现实有很多优点。在现实世界中实现虚拟物体是一件很酷的事情。当然，Web3 引入的真正所有权为用户增加了很多价值。后者可以通过引入不可替换令牌(NFT)很容易地实现。当然，如果你是第一次接触 [dapp 开发](https://moralis.io/dapp-development-tutorial-full-guide-to-building-a-dapp/)，创建自己的 Web3 增强现实(AR) dapp 听起来可能会非常棘手。然而，在这里你将有机会在大约一个小时内建造你自己的 AR NFT 战利品箱。此外，即使您是 Unity 的新手，完成这个示例项目应该没有问题。此外，在这个过程中，你将学会如何利用最好的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)。此外，您还将熟悉坚固性基础知识和安全帽。所以，请务必[创建您的免费道德账户](https://admin.moralis.io/register)并跟随我们。**
+**在我们看来，Web3 增强现实有很多优点。在现实世界中实现虚拟物体是一件很酷的事情。当然，Web3 引入的真正所有权为用户增加了很多价值。后者可以通过引入不可替换令牌(NFT)很容易地实现。当然，如果你是第一次接触 [dapp 开发](https://moralis.io/dapp-development-tutorial-full-guide-to-building-a-dapp/)，创建自己的 Web3 增强现实(AR) dapp 听起来可能会非常棘手。然而，在这里你将有机会在大约一个小时内建造你自己的 AR NFT 战利品箱。此外，即使您是 Unity 的新手，完成这个示例项目应该没有问题。此外，在这个过程中，你将学会如何利用最好的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)。此外，您还将熟悉坚固性基础知识和安全帽。所以，请务必[创建您的免费 Moralis 账户](https://admin.moralis.io/register)并跟随我们。**
 
 **![](img/86eddca2d616a3c1f5617c96d231f5e4.png)
 
@@ -80,14 +80,14 @@
 
 # 用 Unity、Hardhat 和 Moralis 构建一个 Web3 增强现实 NFT 战利品箱
 
-现在是时候动手打造自己的 Web3 增强现实 dapp 了。当然，你不必从头开始——相反，你可以使用我们在 [GitHub](https://github.com/MoralisWeb3/unity-web3-sample-ar-metaverse) 上等待你的示例项目。此外，正如在简介中提到的，Moralis 是一个强大的工具，可以让你毫不费力地完成所有的 [Unity Web3](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/) 集成。因此，如果你还没有创建你的免费道德账户，请务必创建。
+现在是时候动手打造自己的 Web3 增强现实 dapp 了。当然，你不必从头开始——相反，你可以使用我们在 [GitHub](https://github.com/MoralisWeb3/unity-web3-sample-ar-metaverse) 上等待你的示例项目。此外，正如在简介中提到的，Moralis 是一个强大的工具，可以让你毫不费力地完成所有的 [Unity Web3](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/) 集成。因此，如果你还没有创建你的免费 Moralis 账户，请务必创建。
 
 ![](img/2e527f7146ac594952aa380b62b956fc.png)
 
 接下来，我们将分六个主要阶段处理今天的示例项目:
 
 1.  首先，我们将重点关注使用 Unity 进行 AR 开发所需的项目设置和要求。
-2.  第二，我们将帮助您完成初始道德设置。在这里，您将获得您的 dapp 证书以连接 Unity 和 Web3。
+2.  第二，我们将帮助您完成初始 Moralis 设置。在这里，您将获得您的 dapp 证书以连接 Unity 和 Web3。
 3.  第三，我们将做项目概述。结合上面的演示，这将确保您知道需要实现什么功能。
 4.  第四，我们将向您展示如何创建一个元宇宙项目。在这里，你将熟悉从 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 加载数据以从战利品箱中创建物品。
 5.  第五，您将可以使用我们的智能合约，并使用 Hardhat 进行部署。这一阶段还将包括一些初步的安全帽设置。
@@ -128,7 +128,7 @@
 
 所有的设置都应该与我们的相匹配；但是，我们鼓励您使用下面的视频(7:38)手动检查。
 
-## 第二阶段:建立你的道德观
+## 第二阶段:建立你的 Moralis 观
 
 如果您已经执行了上述设置检查，您将首先需要重新打开“Moralis Web3 设置”窗口:
 
@@ -218,7 +218,7 @@
 
 ## 第六阶段:铸造一个 NFT
 
-至此，您已经成功部署了您的智能合约，并将您的 [Web3 合约](https://moralis.io/what-are-web3-contracts-exploring-smart-contracts/)的 ABI 和地址粘贴到“GameManager”脚本中。因此，您已经准备好了解关于“铸造”脚本的更多细节(57:00)。本质上，“ExecuteMinting”函数通过将上面讨论的元数据 URL 作为参数来完成所有繁重的工作。此外，由于道德，你可以很容易地做到这一点:
+至此，您已经成功部署了您的智能合约，并将您的 [Web3 合约](https://moralis.io/what-are-web3-contracts-exploring-smart-contracts/)的 ABI 和地址粘贴到“GameManager”脚本中。因此，您已经准备好了解关于“铸造”脚本的更多细节(57:00)。本质上，“ExecuteMinting”函数通过将上面讨论的元数据 URL 作为参数来完成所有繁重的工作。此外，由于 Moralis，你可以很容易地做到这一点:
 
 ![](img/5497d69292ec279c6dfc0a8928e49ec0.png)
 
@@ -228,8 +228,8 @@ https://www.youtube.com/watch?v=Ne33FSVnMzw
 
 ## 如何建立一个 Web3 增强现实 NFT 战利品箱-总结
 
-在今天的文章中，你了解到，由于道德的力量，你可以用 Unity 创建很酷的 Web3 增强现实 dapps。此外，使用我们的示例项目，您有机会创建自己的 Web3 增强现实 dapp。因此，您学习了如何将 Unity 与 Web3 功能连接起来，以及如何使用 Hardhat 来部署智能合同。此外，通过仔细查看一些最重要的脚本，您也有机会了解更多关于用 Unity 创建的 AR 游戏的所有重要活动部分。
+在今天的文章中，你了解到，由于 Moralis 的力量，你可以用 Unity 创建很酷的 Web3 增强现实 dapps。此外，使用我们的示例项目，您有机会创建自己的 Web3 增强现实 dapp。因此，您学习了如何将 Unity 与 Web3 功能连接起来，以及如何使用 Hardhat 来部署智能合同。此外，通过仔细查看一些最重要的脚本，您也有机会了解更多关于用 Unity 创建的 AR 游戏的所有重要活动部分。
 
-如果你喜欢这个示例项目，我们鼓励你访问[道德的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德的博客](https://moralis.io/blog/)。例如，你可以学习构建一个 [Web3 角色扮演游戏](https://moralis.io/how-to-build-a-web3-action-role-playing-game/)或 [Web3 MMORPG](https://moralis.io/build-a-web3-mmorpg-with-unity-in-10-minutes/) 。另一方面，也可以随意探讨其他话题。一些最新的文章解释了我们的[以太坊 dapp API](https://moralis.io/what-is-an-ethereum-dapp-api-build-ethereum-dapps-easily/) ，如何建立一个 [Web3 博客 dapp](https://moralis.io/guide-to-creating-a-web3-blog-dapp/) ，[以太坊合并](https://moralis.io/ethereum-merge-what-is-ethereum-2-0-and-the-merge/)，或者我们的[以太坊 NFT API](https://moralis.io/what-is-an-ethereum-nft-api-ethereum-nft-apis-explained/)——这是任何有抱负的 [NFT 程序员](https://nftcoders.com/)的必备。不难理解为什么 Moralis 最近被评为[最佳 web3 创业公司之一](https://moralis.io/moralis-named-among-top-web3-startups-in-sifteds-europe-rising-100-report/)！
+如果你喜欢这个示例项目，我们鼓励你访问[Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 的博客](https://moralis.io/blog/)。例如，你可以学习构建一个 [Web3 角色扮演游戏](https://moralis.io/how-to-build-a-web3-action-role-playing-game/)或 [Web3 MMORPG](https://moralis.io/build-a-web3-mmorpg-with-unity-in-10-minutes/) 。另一方面，也可以随意探讨其他话题。一些最新的文章解释了我们的[以太坊 dapp API](https://moralis.io/what-is-an-ethereum-dapp-api-build-ethereum-dapps-easily/) ，如何建立一个 [Web3 博客 dapp](https://moralis.io/guide-to-creating-a-web3-blog-dapp/) ，[以太坊合并](https://moralis.io/ethereum-merge-what-is-ethereum-2-0-and-the-merge/)，或者我们的[以太坊 NFT API](https://moralis.io/what-is-an-ethereum-nft-api-ethereum-nft-apis-explained/)——这是任何有抱负的 [NFT 程序员](https://nftcoders.com/)的必备。不难理解为什么 Moralis 最近被评为[最佳 web3 创业公司之一](https://moralis.io/moralis-named-among-top-web3-startups-in-sifteds-europe-rising-100-report/)！
 
-而且，如果你想快速自信地成为一名 Web3 开发者，我们推荐 T2 道德学院。在这里，您可以报名参加专业的[区块链发展课程](https://academy.moralis.io/all-courses/)，获得个性化的学习路径和专家指导，并成为业内最先进社区的一员。**
+而且，如果你想快速自信地成为一名 Web3 开发者，我们推荐 T2 Moralis 学院。在这里，您可以报名参加专业的[区块链发展课程](https://academy.moralis.io/all-courses/)，获得个性化的学习路径和专家指导，并成为业内最先进社区的一员。**

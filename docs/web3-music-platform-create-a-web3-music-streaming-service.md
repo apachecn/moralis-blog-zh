@@ -34,7 +34,7 @@
 
 ## 创建 Web3 音乐流媒体服务–示例项目
 
-看了上面的预告，你就知道我们即将打造的是一个多么优秀的 dApp 了。因此，你最有可能渴望在旅途中开始表演。然而，在我们向您展示如何正确设置这个项目之前，您需要了解您的选择。因此，你可以克隆[完成的代码](https://github.com/IAmJaysWay/Decentralized-Spotify)并在几分钟内创建一个 Web3 音乐流媒体服务。另一方面，您从[起始代码](https://github.com/IAmJaysWay/Spotify-Starter)开始，并跟随我们的领导进行构建。这两个模板在 GitHub 上都可以找到。然而，选择权在你。从“起始代码”开始将使你从本教程中获得最大收益。尽管如此，这也是创建你的免费道德账户的好时机。一旦我们到达这个示例项目的 Web3 后端部分，您将需要它。
+看了上面的预告，你就知道我们即将打造的是一个多么优秀的 dApp 了。因此，你最有可能渴望在旅途中开始表演。然而，在我们向您展示如何正确设置这个项目之前，您需要了解您的选择。因此，你可以克隆[完成的代码](https://github.com/IAmJaysWay/Decentralized-Spotify)并在几分钟内创建一个 Web3 音乐流媒体服务。另一方面，您从[起始代码](https://github.com/IAmJaysWay/Spotify-Starter)开始，并跟随我们的领导进行构建。这两个模板在 GitHub 上都可以找到。然而，选择权在你。从“起始代码”开始将使你从本教程中获得最大收益。尽管如此，这也是创建你的免费 Moralis 账户的好时机。一旦我们到达这个示例项目的 Web3 后端部分，您将需要它。
 
 ### 项目初始设置示例
 
@@ -76,7 +76,7 @@
 
 此时，您应该已经完成了初始项目设置。因此，是时候专注于创建一个伟大的 Web3 UI 了。因此，你将有机会在本文底部的视频中跟随 Moralis 的专家之一。他会给你提供非常详细的指导。首先，从 03:11 开始，他将向您展示如何创建侧边栏。从 11:17 开始，你将学习如何建立一个合适的主页。然后，在 20:43，你将开始处理专辑页。最后，从 31:31 开始，您将为 Web3 音乐平台实现一个音频播放器。
 
-完成所有这些 UI 开发阶段后，您将拥有一个看起来像“我们的 Web3 音乐平台示例预览”一节中展示的应用程序。但到目前为止，我们还没有添加任何 Web3 功能。因此，是时候利用道德的力量，将我们的应用程序转换成 dApp 了。我们将通过连接 Moralis 的 SDK 来实现这一点。因此，我们将访问 Moralis 的所有工具，包括其 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 集成。我们将使用后者以分散的方式存储我们的 Web3 音乐流服务的音频文件。我们的下一站将是使用 Remix 部署我们的智能合约。这样，我们将负责 [NFT 铸造](https://moralis.io/how-to-launch-an-nft-minting-page-full-walkthrough/)过程。最后，我们将使用 [Moralis 的 Web3 API](https://docs.moralis.io/moralis-server/web3-sdk/intro) 来包含所有其他区块链特性。
+完成所有这些 UI 开发阶段后，您将拥有一个看起来像“我们的 Web3 音乐平台示例预览”一节中展示的应用程序。但到目前为止，我们还没有添加任何 Web3 功能。因此，是时候利用 Moralis 的力量，将我们的应用程序转换成 dApp 了。我们将通过连接 Moralis 的 SDK 来实现这一点。因此，我们将访问 Moralis 的所有工具，包括其 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 集成。我们将使用后者以分散的方式存储我们的 Web3 音乐流服务的音频文件。我们的下一站将是使用 Remix 部署我们的智能合约。这样，我们将负责 [NFT 铸造](https://moralis.io/how-to-launch-an-nft-minting-page-full-walkthrough/)过程。最后，我们将使用 [Moralis 的 Web3 API](https://docs.moralis.io/moralis-server/web3-sdk/intro) 来包含所有其他区块链特性。
 
 ![](img/6ebb58fb5fc6d51507180c0aed05bc0e.png)
 
@@ -86,7 +86,7 @@
 
 ![](img/9cf9677b4c8265d8328010264666056b.png)
 
-初始 Moralis 设置包括四个步骤。首先，你需要 [**创建你的免费道德账户**](https://admin.moralis.io/register) 或[登录](https://admin.moralis.io/login)到你现有的账户。接下来，您 [**创建一个新的服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server) 。接下来，您必须**访问该服务器的详细信息**并使用它们**填充您的编码文件**。在我们的示例中，“index.js”文件是您需要替换占位符的地方:
+初始 Moralis 设置包括四个步骤。首先，你需要 [**创建你的免费 Moralis 账户**](https://admin.moralis.io/register) 或[登录](https://admin.moralis.io/login)到你现有的账户。接下来，您 [**创建一个新的服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server) 。接下来，您必须**访问该服务器的详细信息**并使用它们**填充您的编码文件**。在我们的示例中，“index.js”文件是您需要替换占位符的地方:
 
 ![](img/42ea24093053d24348cd0e72f6fde8c0.png)
 
@@ -108,7 +108,7 @@
 
 ### 在我们的音乐流媒体服务中显示专辑 NFTs
 
-剩下要做的就是显示相册 NFTs。幸运的是，您可以为此使用 Moralis 的 Web3 API。在 React 应用程序中使用适当的 Moralis 端点将获取上面生成的 NFT。一旦获取，你可以很容易地在你的 Web3 音乐平台中显示它们。同样，我们会把你交给道德专家。在下面的视频中(01:09:22)，他将向您展示如何在“useAlbum.js”中使用“getAllTokenIds”端点。
+剩下要做的就是显示相册 NFTs。幸运的是，您可以为此使用 Moralis 的 Web3 API。在 React 应用程序中使用适当的 Moralis 端点将获取上面生成的 NFT。一旦获取，你可以很容易地在你的 Web3 音乐平台中显示它们。同样，我们会把你交给 Moralis 专家。在下面的视频中(01:09:22)，他将向您展示如何在“useAlbum.js”中使用“getAllTokenIds”端点。
 
 **最后，这里是视频教程，详细介绍了如何创建 Web3 音乐流媒体服务:**
 
@@ -118,8 +118,8 @@ https://www.youtube.com/watch?v=E7R1gX-pEAs
 
 如果这是你第一次使用 Web3 开发，你会学到很多。您现在知道，使用正确的工具，您可以在相对较短的时间内建立并运行强大的 dApps。此外，如果你跟随我们的领导，你也学会了如何创建一个 Web3 音乐流媒体服务，这不是一个小任务。因此，你知道除了创建一个伟大的用户界面，你需要合并分散的文件存储。一旦文件被正确存储，你需要使用一个适当的智能合同来制造 NFT。然后，剩下要做的就是用你的 Web3 音乐平台获取这些 NFT。
 
-如果你对这个例子感兴趣，我们鼓励你访问[道德博客](https://moralis.io/blog/)和[道德 YouTube](https://www.youtube.com/c/MoralisWeb3) 频道。除了详细的教程，你会发现那里解释了区块链开发的各个方面。我们最近的一些话题包括[无气元宇宙互动](https://moralis.io/gasless-metaverse-interactions-exploring-zero-fee-dapps/)、[如何创建 ERC-721 NFT](https://moralis.io/how-to-create-an-erc-721-nft/) 、 [Unity Web3](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/) 开发、[如何启动白牌 NFT 市场](https://moralis.io/how-to-launch-a-white-label-nft-marketplace/)、[将 Unity 游戏与 Web3 登录连接起来](https://moralis.io/connecting-a-unity-game-with-web3-login/)、[元宇宙智能合约](https://moralis.io/metaverse-smart-contract-how-to-build-a-metaverse-game-smart-contract/)示例、[如何用 ReactJS 构建跨链 Zapper dApp】，如何](https://moralis.io/how-to-build-a-cross-chain-zapper-dapp-with-reactjs-using-moralis-api-and-serverless-real-time-transactions/)[构建因此，这两个出口都是继续你的免费加密教育的最佳方式之一。](https://moralis.io/build-a-web3-mmorpg-with-unity-in-10-minutes/)
+如果你对这个例子感兴趣，我们鼓励你访问[Moralis 博客](https://moralis.io/blog/)和[Moralis YouTube](https://www.youtube.com/c/MoralisWeb3) 频道。除了详细的教程，你会发现那里解释了区块链开发的各个方面。我们最近的一些话题包括[无气元宇宙互动](https://moralis.io/gasless-metaverse-interactions-exploring-zero-fee-dapps/)、[如何创建 ERC-721 NFT](https://moralis.io/how-to-create-an-erc-721-nft/) 、 [Unity Web3](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/) 开发、[如何启动白牌 NFT 市场](https://moralis.io/how-to-launch-a-white-label-nft-marketplace/)、[将 Unity 游戏与 Web3 登录连接起来](https://moralis.io/connecting-a-unity-game-with-web3-login/)、[元宇宙智能合约](https://moralis.io/metaverse-smart-contract-how-to-build-a-metaverse-game-smart-contract/)示例、[如何用 ReactJS 构建跨链 Zapper dApp】，如何](https://moralis.io/how-to-build-a-cross-chain-zapper-dapp-with-reactjs-using-moralis-api-and-serverless-real-time-transactions/)[构建因此，这两个出口都是继续你的免费加密教育的最佳方式之一。](https://moralis.io/build-a-web3-mmorpg-with-unity-in-10-minutes/)
 
-然而，如果你想尽早成为 Web3 开发者，那么你应该采取更专业的方法。因此，[道德学院](https://academy.moralis.io/)可能正是你要找的。这个在线加密教育平台将为您提供顶级的[课程](https://academy.moralis.io/all-courses)和个性化的学习路径。尽管如此，更大的价值正以道德社区和专家指导的形式等待着你。
+然而，如果你想尽早成为 Web3 开发者，那么你应该采取更专业的方法。因此，[Moralis 学院](https://academy.moralis.io/)可能正是你要找的。这个在线加密教育平台将为您提供顶级的[课程](https://academy.moralis.io/all-courses)和个性化的学习路径。尽管如此，更大的价值正以 Moralis 社区和专家指导的形式等待着你。
 
 ![](img/5c204e3cb593ae96c5285fc6b5e6a0c3.png)

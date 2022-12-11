@@ -6,7 +6,7 @@
 
 为了快速启动这个简短的指南，我们将仔细看看多边形网络及其包含的内容。接下来，我们将深入探讨 API 以及它们在多边形网络环境中的作用。我们还将进一步了解如何通过 [Moralis](https://moralis.io/) 获得多边形 dapp API。最后，我们将演示 Moralis 的 Polygon dapp API 是如何工作的，并提供一些应用领域的例子。作为阅读的结果，您将获得一个多边形 dapp API 的全面概述！
 
-除了提供 Polygon dapp API，Moralis 还提供强大的开发工具，如 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) 、Moralis 的 [Price API](https://moralis.io/introducing-the-moralis-price-api/) 、对 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 的本地支持等等。更重要的是，你可以完全免费注册道德！此外，在 Moralis 的博客上，你可以了解更多关于[为什么 Web3 很重要](https://moralis.io/why-is-web3-important-a-beginners-guide/)，区块链开发的[最佳语言](https://moralis.io/best-languages-for-blockchain-development-full-tutorial/)， [Web3 前端开发](https://moralis.io/web3-frontend-everything-you-need-to-learn-about-building-dapp-frontends/)等等。因此，如果你想成为一名区块链开发者，你来对地方了。
+除了提供 Polygon dapp API，Moralis 还提供强大的开发工具，如 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) 、Moralis 的 [Price API](https://moralis.io/introducing-the-moralis-price-api/) 、对 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 的本地支持等等。更重要的是，你可以完全免费注册 Moralis！此外，在 Moralis 的博客上，你可以了解更多关于[为什么 Web3 很重要](https://moralis.io/why-is-web3-important-a-beginners-guide/)，区块链开发的[最佳语言](https://moralis.io/best-languages-for-blockchain-development-full-tutorial/)， [Web3 前端开发](https://moralis.io/web3-frontend-everything-you-need-to-learn-about-building-dapp-frontends/)等等。因此，如果你想成为一名区块链开发者，你来对地方了。
 
 ### 什么是多边形网络？
 
@@ -72,13 +72,13 @@ Moralis.authenticate().then(function (user) {
 
 此外，在接下来的章节中，我们将关注多边形网络。然而，由于 API 支持跨链兼容性，我们将要深入研究的函数和代码片段也同样适用于其他网络，如 BNB 链和以太坊。因此，即使你有雄心[创建 BSC dapp](https://moralis.io/how-to-create-bsc-dapps-quickly/)或想要[创建以太坊 dapp](https://moralis.io/how-to-create-an-ethereum-dapp-instantly/) ，请跟随 Moralis 的 Web3 API 的分解！
 
-### 你的道德数据库
+### 你的 Moralis 数据库
 
 如果您注册了 Moralis，只需简单点击几下，您就可以快速设置自己的服务器。一旦您手头有了一台服务器，您将额外获得一个可以填充各种信息的数据库。每当用户[使用元掩码](https://moralis.io/how-to-authenticate-with-metamask/)进行身份验证时，数据库会自动填充有用的数据。
 
 ![](img/b50f834287282ad59b53b81df2c38016.png)
 
-*默认为道德家。我们之前介绍的 authenticate()* 函数是[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)。但是，您可以选择使用其他类似的替代方案。首先，你可以看看我们关于如何用 WalletConnect 连接用户的[指南。在移动 Web3 开发方面，WalletConnect](https://moralis.io/how-to-connect-users-with-walletconnect/) 非常出色。
+*默认为 Moralis 家。我们之前介绍的 authenticate()* 函数是[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)。但是，您可以选择使用其他类似的替代方案。首先，你可以看看我们关于如何用 WalletConnect 连接用户的[指南。在移动 Web3 开发方面，WalletConnect](https://moralis.io/how-to-connect-users-with-walletconnect/) 非常出色。
 
 尽管如此，一旦用户通过 meta mask——或任何其他替代方式——进行了身份验证，服务器的数据库将自动填充。数据库中的所有信息都会实时更新，让您能够访问最相关的供应链数据。在下面的屏幕截图中，您可以看到 Moralis 用户可以访问哪些类型的信息:
 
@@ -90,11 +90,11 @@ Moralis.authenticate().then(function (user) {
 
 **获取用户的本地令牌余额:**
 
-*   const balance =等待道德。web 3 API . account . getnative balance()；
+*   const balance =等待 Moralis。web 3 API . account . getnative balance()；
 
 **获取用户的代币余额:**
 
-*   常数余额=等待道德。web 3 API . account . gettokenbalances()；
+*   常数余额=等待 Moralis。web 3 API . account . gettokenbalances()；
 
 **获取用户的交易历史:**
 
@@ -151,8 +151,8 @@ let result = await Moralis.transfer(options);
 
 凭借 Moralis 的 Web3 API 的跨链兼容性，可以为多个不同的网络创建应用程序。其中一个选项是多边形网络。Moralis 的 Polygon dapp API 可以让您通过几行代码验证用户、获取用户信息和发送资产。因此，如果你想成为一名区块链开发者，那么 Moralis 可能就是适合你的操作系统！
 
-更重要的是，这只是创建道德账户的众多理由之一。如果你想了解更多关于 Moralis 的信息，请随意浏览 Moralis 的博客。在这里你可以找到额外的内容，比如如何创建 [Web3 Spotify](https://moralis.io/how-to-build-a-web3-spotify-clone/) 和 [Web3 Twitter](https://moralis.io/how-to-build-a-web3-twitter-clone/) 的复制品。如果你想创建 Web3 项目，[注册 Moralis](https://admin.moralis.io/register) 并在几分钟内制作你的第一个 dapp！
+更重要的是，这只是创建 Moralis 账户的众多理由之一。如果你想了解更多关于 Moralis 的信息，请随意浏览 Moralis 的博客。在这里你可以找到额外的内容，比如如何创建 [Web3 Spotify](https://moralis.io/how-to-build-a-web3-spotify-clone/) 和 [Web3 Twitter](https://moralis.io/how-to-build-a-web3-twitter-clone/) 的复制品。如果你想创建 Web3 项目，[注册 Moralis](https://admin.moralis.io/register) 并在几分钟内制作你的第一个 dapp！
 
 ![](img/29019b5f891dd418ba41ae1e5fa68d65.png)
 
-你也应该去看看道德学院，在那里你可以磨练你的 Web3 开发技能。例如，报名参加“[区块链&比特币 101](https://academy.moralis.io/courses/blockchain-bitcoin-101) 课程，开始你的区块链认证之旅！
+你也应该去看看 Moralis 学院，在那里你可以磨练你的 Web3 开发技能。例如，报名参加“[区块链&比特币 101](https://academy.moralis.io/courses/blockchain-bitcoin-101) 课程，开始你的区块链认证之旅！

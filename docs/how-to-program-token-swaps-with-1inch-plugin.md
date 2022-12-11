@@ -54,7 +54,7 @@
 
 ![](img/b46a98c8f4004689716b9ed92cd29d83.png)
 
-如果您还没有创建您的 Moralis 帐户，请务必现在就创建。这样，您就可以轻松地按照下一节提供的步骤进行操作了。因此，您将能够充分利用 [*道德的 SDK*](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) *的优势，并适当地学习如何轻松地编程令牌交换。*
+如果您还没有创建您的 Moralis 帐户，请务必现在就创建。这样，您就可以轻松地按照下一节提供的步骤进行操作了。因此，您将能够充分利用 [*Moralis 的 SDK*](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) *的优势，并适当地学习如何轻松地编程令牌交换。*
 
 # 如何快速简便地编写令牌交换程序
 
@@ -96,7 +96,7 @@
 
 ### 如何对令牌交换进行编程–步骤 3:编码
 
-我们终于到达了示例项目的编码部分。在这里，你会看到道德的真正力量。在这一节中，我们将只提供特定代码行的屏幕截图。然而，如果你想获得完整的代码，你可以在 [GitHub](https://github.com/ivan-liljeqvist/tutorials/blob/main/1inch/index.html) 上找到。现在，让我们从初始化插件开始:
+我们终于到达了示例项目的编码部分。在这里，你会看到 Moralis 的真正力量。在这一节中，我们将只提供特定代码行的屏幕截图。然而，如果你想获得完整的代码，你可以在 [GitHub](https://github.com/ivan-liljeqvist/tutorials/blob/main/1inch/index.html) 上找到。现在，让我们从初始化插件开始:
 
 ![](img/1eade5c8d9d73cf1f292796fd098324c.png)
 

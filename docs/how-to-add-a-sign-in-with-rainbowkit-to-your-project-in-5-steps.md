@@ -12,7 +12,7 @@
 
 **在向您展示如何使用 RainbowKit 添加登录之前，我们先来了解一下 RainbowKit。一旦我们掌握了这个概念，我们将更深入地研究这个过程，并通过仅用五个步骤创建一个简单的身份验证应用程序来演示 Moralis 的可访问性。因此，如果您继续学习，您将能够轻松地将 RainbowKit 身份验证添加到所有未来的区块链项目中！**
 
-**因此，如果你想创建复杂的 dapps，立即注册道德！**
+**因此，如果你想创建复杂的 dapps，立即注册 Moralis！**
 
 ## **什么是 RainbowKit？**
 
@@ -52,7 +52,7 @@
 
 ![](img/616c114f5185586b638ac3dcd58e6933.png)
 
-然而，在我们进入这个简短指南的第一步之前，您需要处理一些先决条件。首先，你需要一个道德账户。因此，如果你还没有，一定要马上注册。另外，你需要一个 IDE(集成开发环境)。在我们的例子中，我们使用的是 Visual Studio 代码；但是，您可以自由使用任何您熟悉的 IDE。最后，需要创建一个 Next.js 应用程序。如果你在这方面有问题，请查阅“[创建下一个应用程序](https://nextjs.org/docs/api-reference/create-next-app)”文档或遵循 Moralis 的 [NextJS dapp](https://docs.moralis.io/docs/nextjs-dapp) 指南。
+然而，在我们进入这个简短指南的第一步之前，您需要处理一些先决条件。首先，你需要一个 Moralis 账户。因此，如果你还没有，一定要马上注册。另外，你需要一个 IDE(集成开发环境)。在我们的例子中，我们使用的是 Visual Studio 代码；但是，您可以自由使用任何您熟悉的 IDE。最后，需要创建一个 Next.js 应用程序。如果你在这方面有问题，请查阅“[创建下一个应用程序](https://nextjs.org/docs/api-reference/create-next-app)”文档或遵循 Moralis 的 [NextJS dapp](https://docs.moralis.io/docs/nextjs-dapp) 指南。
 
 完成所有先决条件后，我们将更仔细地看一下安装依赖项、库和 RainbowKit！
 
@@ -139,7 +139,7 @@ export default MyApp;
 
 ### 步骤 3–创建请求消息端点
 
-我们的页面被包装在“ *WagmiConfig* 和“ *SessionProvider* 中”，您需要创建一个请求消息端点。此外，该端点将向“*道德家发出请求。Auth"* 并生成在客户端签名的唯一消息。此外，要添加端点，您可以创建一个名为“pages/API/auth/request-message . js”的新 API 文件，并添加以下内容:
+我们的页面被包装在“ *WagmiConfig* 和“ *SessionProvider* 中”，您需要创建一个请求消息端点。此外，该端点将向“*Moralis 家发出请求。Auth"* 并生成在客户端签名的唯一消息。此外，要添加端点，您可以创建一个名为“pages/API/auth/request-message . js”的新 API 文件，并添加以下内容:
 
 ```js
 import Moralis from 'moralis';
@@ -376,4 +376,4 @@ export default User;
 
 然而，Web3 认证只是 Moralis 大放异彩的领域之一。例如，你也可以很容易地实现 [Web3 同步](https://moralis.io/syncs/)和 [Web3 webhooks](https://moralis.io/web3-webhooks-the-ultimate-guide-to-blockchain-webhooks/) 。此外，Moralis 还提供了一系列优秀的[web 3 API](https://docs.moralis.io/docs/our-products)。此外，如果你想成为一名区块链开发者，我们强烈推荐你查看 Moralis 的 NFT API。这些工具允许您快速、轻松地创建 dapps 和令牌。
 
-此外，如果你想扩展你的知识，了解更多关于 Web3 开发的知识，请访问 Moralis 的[博客](https://moralis.io/blog/)。在那里，你会找到关于道德家的 [NodeJS SDK for Web3](https://moralis.io/nodejs-sdk-for-web3-exploring-moralis-nodejs-sdk/) 、[区块链同步](https://moralis.io/blockchain-syncs-exploring-on-chain-syncing/)，或者不同[类型的 Dao](https://moralis.io/full-2022-guide-to-different-types-of-daos/)的内容。此外，您可以学习如何获取 NFT，并通过五个步骤编写区块链应用程序！此外，道德工作室教你如何克隆 Web2 应用程序。此外，优秀的 API、SDK 和内容是[注册 Moralis](https://admin.moralis.io/register) 的几个原因！**
+此外，如果你想扩展你的知识，了解更多关于 Web3 开发的知识，请访问 Moralis 的[博客](https://moralis.io/blog/)。在那里，你会找到关于 Moralis 家的 [NodeJS SDK for Web3](https://moralis.io/nodejs-sdk-for-web3-exploring-moralis-nodejs-sdk/) 、[区块链同步](https://moralis.io/blockchain-syncs-exploring-on-chain-syncing/)，或者不同[类型的 Dao](https://moralis.io/full-2022-guide-to-different-types-of-daos/)的内容。此外，您可以学习如何获取 NFT，并通过五个步骤编写区块链应用程序！此外，Moralis 工作室教你如何克隆 Web2 应用程序。此外，优秀的 API、SDK 和内容是[注册 Moralis](https://admin.moralis.io/register) 的几个原因！**

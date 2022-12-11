@@ -4,7 +4,7 @@
 
 [**分散的应用**](https://moralis.io/decentralized-applications-explained-what-are-dapps/) **(dApps)每天都被部署在可编程的区块链上，如** [**以太坊**](https://moralis.io/full-guide-what-is-ethereum/) **。作为一名** [**区块链开发者**](https://moralis.io/how-to-become-a-blockchain-developer/) **，利用工具使 dApp 开发过程更加简单是必不可少的。因此，使用元掩码构建**[**web 3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/)**应用程序及其** [**以太坊认证**](https://moralis.io/ethereum-authentication-full-tutorial-to-ethereum-login-programming/) **功能使事情变得简单了许多。此外，当使用 Moralis 时，您可以在创建 dApps 时利用它的默认元掩码集成。所以用 MetaMask 和 Moralis 开发 dApps 是每个开发者都应该做的事情。**
 
-难怪 MetaMask 仍然是最受欢迎的钱包。不仅在 DeFi 用户中，而且在开发者中。此外，使用 MetaMask 结合正确的工具构建 dApps 变得非常简单。如果有一种工具能让一切变得不同，那就是[道德。这个终极的 Web3 开发平台提供了与 MetaMask 的完全集成。因此，它使您能够使用这个钱包作为您和您的用户进入 Web3 领域的门户。因此，我们邀请你加入我们，让我们更仔细地看看如何用 MetaMask 构建 dApps。](https://moralis.io/)
+难怪 MetaMask 仍然是最受欢迎的钱包。不仅在 DeFi 用户中，而且在开发者中。此外，使用 MetaMask 结合正确的工具构建 dApps 变得非常简单。如果有一种工具能让一切变得不同，那就是[Moralis。这个终极的 Web3 开发平台提供了与 MetaMask 的完全集成。因此，它使您能够使用这个钱包作为您和您的用户进入 Web3 领域的门户。因此，我们邀请你加入我们，让我们更仔细地看看如何用 MetaMask 构建 dApps。](https://moralis.io/)
 
 ![](img/fe33ceecea74b8b1cf825b899f47e139.png)
 
@@ -14,8 +14,8 @@
 
 1.  **下载/安装 MetaMask 浏览器扩展。**
 2.  创建您的元掩码帐户。
-3.  创建您的免费道德账户。
-4.  创建您的道德服务器。
+3.  创建您的免费 Moralis 账户。
+4.  创建您的 Moralis 服务器。
 5.  使用终极以太坊 dApp 样板在几分钟内创建你的第一个 dApp。
 
 这五个步骤是用 MetaMask 构建 dApps 的要点。此外，它们也是我们将在此讨论的内容，我们邀请你跟随。因此，如果你能够承诺采取行动，那么在本文结束时，你可以很容易地[建立你的第一个 dApp](https://moralis.io/build-your-first-dapp-ethereum-tutorial/) 。
@@ -92,7 +92,7 @@ https://www.youtube.com/watch?v=9kdVAeZ7knk
 
 我们可以在元掩码中手动完成这项工作；然而，通过使用 Moralis，我们只需点击一个按钮就可以做到这一点。方法如下:
 
-1.  [**创建你的道德家账户**](https://admin.moralis.io/register)——如果你还没有创建你的免费道德家账户，现在就创建吧。按照链接，输入您的电子邮件地址，并创建您的密码。不要忘记通过确认您的电子邮件地址来完成该过程(您将收到一封带有确认链接的电子邮件)。*如果您已经拥有一个有效的 Moralis 账户，只需登录*。
+1.  [**创建你的 Moralis 家账户**](https://admin.moralis.io/register)——如果你还没有创建你的免费 Moralis 家账户，现在就创建吧。按照链接，输入您的电子邮件地址，并创建您的密码。不要忘记通过确认您的电子邮件地址来完成该过程(您将收到一封带有确认链接的电子邮件)。*如果您已经拥有一个有效的 Moralis 账户，只需登录*。
 2.  **转到 Speedy Nodes**–在你的 Moralis 管理区内，从左侧菜单中选择 [Speedy Nodes](https://moralis.io/speedy-nodes/) 部分。
 
 ![](img/5e8dfcea5aa3293f5f106514282d6cba.png)
@@ -108,7 +108,7 @@ https://www.youtube.com/watch?v=9kdVAeZ7knk
 
 如果你有兴趣观看在 Polygon 上使用 MetaMask 进行简单交易的演示，请务必观看 9:27 的视频。
 
-## 使用元掩码和道德标准构建 dApps
+## 使用元掩码和 Moralis 标准构建 dApps
 
 最后，我们将向您展示 Moralis 如何让使用 MetaMask 构建 dApps 变得极其简单。通过创建一个免费的 Moralis 帐户，你可以完全使用这个强大的工具。这包括[终极 Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 和 [API](https://docs.moralis.io/moralis-server/web3-sdk/intro) ，包括终极[以太坊 API](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) 、 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 等等。然而，为了让事情变得更简单，我们创建了最好的[以太坊 dApp 样板](https://moralis.io/ethereum-dapp-boilerplate-full-ethereum-react-boilerplate-tutorial/)，在 GitHub 上可以公开获得。后者包括多个组件，使您能够在几分钟内实现功能和 UI。
 
@@ -134,11 +134,11 @@ https://www.youtube.com/watch?v=9kdVAeZ7knk
 
 如果您不想使用样板文件的任何特定部分，请导航到“App.jsx”文件并进行必要的编辑。详细说明看以上视频(16:22)。视频还涵盖了上述所有步骤(12:45)。
 
-#### 道德设置
+#### Moralis 设置
 
 任何时候你想创建一个项目并使用 MetaMask 和 Moralis 构建 dApps，你总是需要完成以下步骤:
 
-1.  **登录你的道德利斯账户**–*此时，你应该已经准备好了你的道德利斯账户。所以，只要[登录](https://admin.moralis.io/login)进入你的管理区。然而，如果你还没有创建你的免费道德账户，请确保现在就创建。*
+1.  **登录你的 Moralis 利斯账户**–*此时，你应该已经准备好了你的 Moralis 利斯账户。所以，只要[登录](https://admin.moralis.io/login)进入你的管理区。然而，如果你还没有创建你的免费 Moralis 账户，请确保现在就创建。*
 
 ***创建新服务器**–在您的 Moralis 管理区内，点击右上角的“+创建新服务器”按钮。从出现的下拉菜单中，选择最适合您需求的网络类型(见下图)。*
 
@@ -156,7 +156,7 @@ https://www.youtube.com/watch?v=9kdVAeZ7knk
 
 ![](img/72253ffd557605e0d9bb76c506007c52.png)
 
-4.  **初始化道德规范**–现在填充您的”。env”文件，其中包含 Moralis 服务器的详细信息(应用程序 ID 和服务器 URL ),以获得 Moralis 涵盖的所需后端功能:
+4.  **初始化 Moralis 规范**–现在填充您的”。env”文件，其中包含 Moralis 服务器的详细信息(应用程序 ID 和服务器 URL ),以获得 Moralis 涵盖的所需后端功能:
 
 ![](img/58d21894b4c63bfb1fc46e16f46be50b.png)
 
@@ -168,8 +168,8 @@ https://www.youtube.com/watch?v=9kdVAeZ7knk
 
 1.  下载/安装 MetaMask 浏览器扩展。
 2.  创建您的元掩码帐户。
-3.  创建您的免费道德账户。
-4.  创建你的道德服务器。
+3.  创建您的免费 Moralis 账户。
+4.  创建你的 Moralis 服务器。
 5.  使用终极以太坊 dApp 样板在几分钟内创建您的第一个 dApp。
 
 当然，这只是一个起点。除了使用样板文件的组件，您还可以关注它的钩子。这样，您可以运用您的 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 技能，创建最佳用户界面(UI)来促进 Moralis 为您提供的后端功能。有了这个优秀的工具，您可以创建各种各样的 Web3 应用程序，而不用担心与区块链相关的后端编程。

@@ -10,11 +10,11 @@
 
 **Dao 有许多不同的目的和功能。例如，它们可以用于[以太坊 dApps](https://moralis.io/ultimate-guide-how-to-build-ethereum-dapps/) 的治理。它们还可以用于在任何分散的平台上提议和决定变更。因此，它们避免了开发商或所有者之间的集中控制。此外，Dao 在游戏中也有一个用例。拥有巨大的游戏和互动可能性的元宇宙有许多部署 Dao 的机会。因此，对于任何一个对区块链开发感兴趣的人来说，知道如何创建一个 DAO 是非常重要的。**
 
-## **用道德快速造刀**
+## **用 Moralis 快速造刀**
 
 **虽然学习如何创建一个 DAO 的想法看起来相当令人畏惧和复杂，但是 DAO 现在已经变得很容易构建了。多亏了最终的 Web3 开发套件 Moralis，DAO 构建已经成为一个更快、更简化的过程。**
 
-**如果你想直接进入视频教程，看看这个来自道德 YouTube 频道的简单指南:**
+**如果你想直接进入视频教程，看看这个来自 Moralis YouTube 频道的简单指南:**
 
 **https://www.youtube.com/watch?v=S-yBqLWEtGw
 
@@ -78,13 +78,13 @@ DAO 标记是 DAO 设计的重要部分，也是创建 DAO 生态系统时必不
 
 ![](img/0fc097cee3c5d3aaa33647bc2bbf6aff.png)
 
-### 步骤 2-获取道德调查代码库
+### 步骤 2-获取 Moralis 调查代码库
 
-前往 [GitHub repo 进行道德调查](https://github.com/ashbeech/moralis-poll)。道德调查代码库是来自 [Web3 社交网络样板](https://github.com/ethereum-boilerpla...)的派生或克隆。这一步为您节省了大量时间，因为它处理了许多关于用户和连接到 Web3 所需的功能。您可以使用它作为基础样板文件，而不是从头开始编写代码。
+前往 [GitHub repo 进行 Moralis 调查](https://github.com/ashbeech/moralis-poll)。Moralis 调查代码库是来自 [Web3 社交网络样板](https://github.com/ethereum-boilerpla...)的派生或克隆。这一步为您节省了大量时间，因为它处理了许多关于用户和连接到 Web3 所需的功能。您可以使用它作为基础样板文件，而不是从头开始编写代码。
 
 ![](img/566fd23f022120f0d047caa6295b85f5.png)
 
-所以，克隆道德投票代码。然后，将链接复制到 GitHub repo，如下所示。而且，还有一个选择就是给自己叉。
+所以，克隆 Moralis 投票代码。然后，将链接复制到 GitHub repo，如下所示。而且，还有一个选择就是给自己叉。
 
 ![](img/01aa4527ccc56b53442ec3613eb1d91a.png)
 
@@ -96,7 +96,7 @@ DAO 标记是 DAO 设计的重要部分，也是创建 DAO 生态系统时必不
 
 ### 步骤 3–将 dApp 代码库链接到 Moralis 服务器实例
 
-去你的道德账户。然后，通过点击右上角的按钮“create a new server”来创建一个新的服务器，并选择 testnet 选项。
+去你的 Moralis 账户。然后，通过点击右上角的按钮“create a new server”来创建一个新的服务器，并选择 testnet 选项。
 
 ![](img/944342dc3ec5bc26f2463ac2a39a0dcb.png)
 
@@ -134,7 +134,7 @@ DAO 标记是 DAO 设计的重要部分，也是创建 DAO 生态系统时必不
 
 此外，所有这些都是通过 Moralis 无缝完成的，它允许您创建一个新的服务器，并在方便的时候点击一下就可以选择您的测试链。此外，您可以连接到区块链，而无需在后端做任何繁重的工作。
 
-#### 验证道德
+#### 验证 Moralis
 
 要检查 dApp 是否连接到 Moralis 服务器实例，请转到 Moralis 仪表板。为此，只需点击如下所示的按钮:
 
@@ -154,7 +154,7 @@ DAO 标记是 DAO 设计的重要部分，也是创建 DAO 生态系统时必不
 
 ![](img/676ccf8031477137eb002177a3885b53.png)
 
-此外，“反应-道德”包含所有的道德功能。这意味着它拥有用户组件、本机余额和钱包检查功能。在这种情况下，Moralis 检查 Polygon Mumbai testnet 的令牌余额信息。
+此外，“反应-Moralis”包含所有的 Moralis 功能。这意味着它拥有用户组件、本机余额和钱包检查功能。在这种情况下，Moralis 检查 Polygon Mumbai testnet 的令牌余额信息。
 
 对于其余的代码分解，请务必观看视频教程。
 
@@ -164,6 +164,6 @@ DAO 标记是 DAO 设计的重要部分，也是创建 DAO 生态系统时必不
 
 考虑到设置区块链服务器的后端需求，创建 DAO 通常需要更长的时间。然而，Moralis 为您提供了出色的功能，当您使用其即时服务器创建功能和其他令人兴奋的功能(允许您连接到各种区块链)时，可以将开发时间缩短至十分钟。
 
-测试您的新 DAO 变得像点击几下鼠标一样简单。此外，有了[道德学院](https://academy.moralis.io/)提供的令人兴奋的资源，你可以进一步增强你的 dApp 创作。例如，[以太坊智能合约编程 101](https://academy.moralis.io/courses/ethereum-smart-contract-programming-101) 课程可以让你了解 Dao 和去中心化应用程序世界中正在发生的事情。
+测试您的新 DAO 变得像点击几下鼠标一样简单。此外，有了[Moralis 学院](https://academy.moralis.io/)提供的令人兴奋的资源，你可以进一步增强你的 dApp 创作。例如，[以太坊智能合约编程 101](https://academy.moralis.io/courses/ethereum-smart-contract-programming-101) 课程可以让你了解 Dao 和去中心化应用程序世界中正在发生的事情。
 
 处理完后端，前端简化到几个步骤，您可以看到 Moralis 如何让您在所有 Web3 和 dApp 项目中获得优势。只需在网站上注册，查看上面发布的内容，您就可以开始构建自己的 DAO 了！**

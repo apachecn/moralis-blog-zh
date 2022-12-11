@@ -28,7 +28,7 @@
 
 现在你已经知道了基础知识，包括理解什么是铸造，你已经准备好学习如何铸造 NFT。如前所述，创建 NFT 有不同的方法。因此，你需要知道你的喜好。例如，如果你想在尽可能短的时间内铸造一个 NFT，你不知道如何编码，你可以看看过去的集中方面，你可能想使用一个有信誉的 NFT 市场。
 
-另一方面，如果你精通 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) ，对 Web3 有基本的了解，并且是去中心化的真正倡导者，使用道德来创建你自己的铸造 [dApp](https://moralis.io/decentralized-applications-explained-what-are-dapps/) 可能是正确的方式。
+另一方面，如果你精通 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) ，对 Web3 有基本的了解，并且是去中心化的真正倡导者，使用 Moralis 来创建你自己的铸造 [dApp](https://moralis.io/decentralized-applications-explained-what-are-dapps/) 可能是正确的方式。
 
 此外，请注意，我们将在这里重点关注非功能性测试的铸造方面。这意味着我们假设您已经准备好要转换成 NFT 的数字文件。此外，您应该能够确定希望分配给 NFT 的属性类型。此外，您还需要明确您希望 NFT 具备的功能(如果有的话)。清楚这些方面也将帮助你确定你是否能够在一个已知的 NFT 市场满足你的 NFT 需求和期望，或者你是否需要卷起袖子自己打造一个造币 dApp。
 
@@ -76,17 +76,17 @@
 
 如前所述，这就是铸造 NFT 的方式。此外，这种 NFT 造币法仍然使你能够使用一些集中的方面或者采用完全分散的方法。对于后者，我们指的是您的数字文件(将被转换为 NFT 的文件)存储解决方案。您可以将文件放在任何一种集中式云存储选项中。或者您可以使用与 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 完全兼容的 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 分散存储解决方案。同样，我们更喜欢关注分散的解决方案。
 
-当以分散的方式铸造 NFT 时，诸如运行自己的[节点](https://moralis.io/node-js-explained-what-is-node-js/)和精通[可靠性](https://moralis.io/solidity-explained-what-is-solidity/)之类的事情可能看起来很麻烦。然而，当你使用道德，你不必担心这些事情。此外，一旦你创建了免费的道德家账户，你就可以使用[道德家快捷节点](https://moralis.io/speedy-nodes/)。此外，使用 Moralis 的 SDK 及其先进的 [Web3 API](https://docs.moralis.io/moralis-server/web3-sdk/intro) ，你将能够用你的 JavaScript 知识覆盖所有的编程。此外，您将拥有加密行业中最好的[文档之一](https://docs.moralis.io/)，在整个过程中为您提供帮助。因此，您将通过复制和粘贴简短的代码片段来涵盖所有后端编码。
+当以分散的方式铸造 NFT 时，诸如运行自己的[节点](https://moralis.io/node-js-explained-what-is-node-js/)和精通[可靠性](https://moralis.io/solidity-explained-what-is-solidity/)之类的事情可能看起来很麻烦。然而，当你使用 Moralis，你不必担心这些事情。此外，一旦你创建了免费的 Moralis 家账户，你就可以使用[Moralis 家快捷节点](https://moralis.io/speedy-nodes/)。此外，使用 Moralis 的 SDK 及其先进的 [Web3 API](https://docs.moralis.io/moralis-server/web3-sdk/intro) ，你将能够用你的 JavaScript 知识覆盖所有的编程。此外，您将拥有加密行业中最好的[文档之一](https://docs.moralis.io/)，在整个过程中为您提供帮助。因此，您将通过复制和粘贴简短的代码片段来涵盖所有后端编码。
 
 要创建您自己的 NFT 铸币 dApp，请遵循以下视频中提供的说明。在这里，你将有机会跟随 Moralis 的专家解释整个过程。但是，在观看视频之前，请确保完成设置 Moralis 服务器的过程。我们将在本文的下一节解释所有的步骤。
 
 https://youtu.be/WdQHnb_5m5Q
 
-### 用道德铸造 with 设置
+### 用 Moralis 铸造 with 设置
 
 设置 Moralis 非常简单，只需以下四个步骤:
 
-1.  [**创建你的道德家账户**](https://admin.moralis.io/register)——如果你还没有创建你的道德家账户，确保现在就创建。该链接会将您带到注册页面，在这里您可以输入您的电子邮件地址并创建您的密码。接下来，您通过点击发送到您的电子邮件地址的确认链接来确认您的电子邮件地址。如果你已经有了一个有效的 Moralis 账户，只需[登录](https://admin.moralis.io/login)。
+1.  [**创建你的 Moralis 家账户**](https://admin.moralis.io/register)——如果你还没有创建你的 Moralis 家账户，确保现在就创建。该链接会将您带到注册页面，在这里您可以输入您的电子邮件地址并创建您的密码。接下来，您通过点击发送到您的电子邮件地址的确认链接来确认您的电子邮件地址。如果你已经有了一个有效的 Moralis 账户，只需[登录](https://admin.moralis.io/login)。
 
 2.  **创建新服务器**–登录您的 Moralis 账户后，您可以创建新服务器；只需点击 Moralis 管理页面右上角的“+创建新服务器”按钮。接下来，从出现的下拉菜单中单击给定的选项之一(见下图)。
 
@@ -112,6 +112,6 @@ https://youtu.be/WdQHnb_5m5Q
 
 ![](img/7fb133e47f3f0a6dc6f84e22451a8b6d.png)
 
-能够铸造 NFT 是一项非常有用的技能；然而，如果道德站在你这边，你还可以做更多的事情。得益于 Moralis 的跨链互操作性，您的 dApps 能够适应未来。此外，您可以在所有主要的区块链上部署 Web3 应用程序。因此，如果您想在 BSC 或 [Avalanche](https://moralis.io/how-to-build-avalanche-dapps-in-minutes/) 上开发，您不需要处理 RPC 节点的[限制，因为 Moralis Speedy 节点是 BSC 的最佳](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)[Infura](https://moralis.io/infura-bsc-alternatives-the-best-alternative-to-infura-for-bsc/)和 Avalanche 的最佳[Infura](https://moralis.io/infura-for-avalanche-exploring-infura-avalanche-alternatives/)替代品。
+能够铸造 NFT 是一项非常有用的技能；然而，如果 Moralis 站在你这边，你还可以做更多的事情。得益于 Moralis 的跨链互操作性，您的 dApps 能够适应未来。此外，您可以在所有主要的区块链上部署 Web3 应用程序。因此，如果您想在 BSC 或 [Avalanche](https://moralis.io/how-to-build-avalanche-dapps-in-minutes/) 上开发，您不需要处理 RPC 节点的[限制，因为 Moralis Speedy 节点是 BSC 的最佳](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)[Infura](https://moralis.io/infura-bsc-alternatives-the-best-alternative-to-infura-for-bsc/)和 Avalanche 的最佳[Infura](https://moralis.io/infura-for-avalanche-exploring-infura-avalanche-alternatives/)替代品。
 
 此外，请务必查看 [Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 的博客](https://moralis.io/blog/)以获取更多深入的文章和示例项目。例如，学习如何使用 Moralis 的[以太坊 API](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) ，一个示例 [React dApp 模板](https://moralis.io/react-dapp-template-how-to-build-a-react-dapp/)，或者[区块链开发的最佳语言](https://moralis.io/best-languages-for-blockchain-development-full-tutorial/)——仅举几个例子。因此，通过让 Moralis 从头到尾指导你的开发过程来解决你独特的项目！

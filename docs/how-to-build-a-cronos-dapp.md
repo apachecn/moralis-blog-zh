@@ -6,11 +6,11 @@
 
 ***请务必*** [***报名参加 Moralis Cronos Gaming 元宇宙黑客马拉松***](https://moralis.io/cronos-hackathon/) ***现在就有机会从黑客马拉松的总奖金池中赢得 100，000 美元！黑客马拉松的报名截止日期是 8 月 15 日！*T13】**
 
-传统上来说，区块链开发的最大障碍是 Web3 后端开发。另一方面，Web3 前端开发更类似于传统的 Web2 实践。因此，那些开发 Web3 项目的人更喜欢专注于打造一个优秀的前端，而把后端的复杂工作留给其他人。这就是道德的用武之地。
+传统上来说，区块链开发的最大障碍是 Web3 后端开发。另一方面，Web3 前端开发更类似于传统的 Web2 实践。因此，那些开发 Web3 项目的人更喜欢专注于打造一个优秀的前端，而把后端的复杂工作留给其他人。这就是 Moralis 的用武之地。
 
 Moralis 是 Web3 开发的领先平台之一。所有 Moralis 用户都可以访问 Moralis 强大的后端基础设施，这意味着开发者不必担心他们的后端。Moralis 为 Web3 开发的各个方面提供了更加无缝的开发体验。一个例子是 Moralis 的 [web3uikit](https://moralis.io/web3ui-kit-the-ultimate-web3-user-interface-kit/) ，它使得用户界面(UI)开发更加容易。因此，有了 Moralis，你将能够[轻松地为你未来的所有项目创建一个伟大的 dapp UI](https://moralis.io/web3-ui-how-to-create-a-great-dapp-ui/) ！
 
-所以，如果你想建立一个 Cronos dapp，请确保现在就免费注册 Moralis！我们将在本指南中使用道德。现在，事不宜迟，让我们仔细看看在 Cronos 上构建 dapps 需要什么！
+所以，如果你想建立一个 Cronos dapp，请确保现在就免费注册 Moralis！我们将在本指南中使用 Moralis。现在，事不宜迟，让我们仔细看看在 Cronos 上构建 dapps 需要什么！
 
 ## 克罗诺斯是什么？
 
@@ -205,7 +205,7 @@ getNFTs = async () => {
 
 ![](img/a3ea17466bcae67f9937d059005a31e4.png)
 
-这说明了道德的力量；然而，这只是与道德合作潜力的皮毛。如果你想了解更多关于操作系统的知识，请浏览 [Moralis 博客](https://moralis.io/blog/)。在这里，你会发现更多令人兴奋的内容，帮助你成为更好的 Web3 开发者。
+这说明了 Moralis 的力量；然而，这只是与 Moralis 合作潜力的皮毛。如果你想了解更多关于操作系统的知识，请浏览 [Moralis 博客](https://moralis.io/blog/)。在这里，你会发现更多令人兴奋的内容，帮助你成为更好的 Web3 开发者。
 
 例如，你可能对 Moralis 的[元宇宙 SDK](https://moralis.io/metaverse/) 感兴趣，它允许你创建复杂的[元宇宙](https://moralis.io/what-is-the-metaverse-full-guide/)项目。如果是这样，你可以，例如，学习建立一个[元宇宙智能合同](https://moralis.io/metaverse-smart-contract-how-to-build-a-metaverse-game-smart-contract/)，或者甚至[创建你自己的元宇宙](https://moralis.io/how-to-create-your-own-metaverse/)！
 

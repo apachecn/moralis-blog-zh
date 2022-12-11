@@ -8,7 +8,7 @@ NFT 元数据的存储解决方案多种多样，从流行的集中式存储服�
 const response = await Moralis.EvmApi.ipfs.uploadFolder({ abi });
 ```
 
-如果你以前使用过 [Moralis](https://moralis.io/) ，你可能知道如何实现上面的代码片段。然而，这可能是你第一次听说道德。如果是这样，请完成今天的“NFT·IPFS”教程，并学习如何将 IPFS 用于 NFT 元数据。此外，要完成本教程，你需要一个免费的 Moralis 帐户和大约五分钟的时间。
+如果你以前使用过 [Moralis](https://moralis.io/) ，你可能知道如何实现上面的代码片段。然而，这可能是你第一次听说 Moralis。如果是这样，请完成今天的“NFT·IPFS”教程，并学习如何将 IPFS 用于 NFT 元数据。此外，要完成本教程，你需要一个免费的 Moralis 帐户和大约五分钟的时间。
 
 ![Sign up with Moralis to Use IPFS for NFT metadata](img/776315699d4da3e5c69ca048fbcedf78.png)[**Sign Up with Moralis and Unlock the Power of Blockchain**](https://admin.moralis.io/register)
 
@@ -91,7 +91,7 @@ IPFS·NFT 不是 IPFS“拥有”或“铸造”的不可替代的象征。相�
 
 ### 步骤 1:获取您的 Web3 API 密钥并安装 Moralis SDK
 
-如果您还没有这样做，现在就[创建您的免费道德账户](https://admin.moralis.io/register)。这样，您就可以访问您的管理区域，在那里您可以获得您的 Web3 API 密钥:
+如果您还没有这样做，现在就[创建您的免费 Moralis 账户](https://admin.moralis.io/register)。这样，您就可以访问您的管理区域，在那里您可以获得您的 Web3 API 密钥:
 
 ![](img/6bec08678d6564c7d8ff6ebfdc9be38e.png)
 
@@ -185,4 +185,4 @@ node index.js
 
 为了充分利用在此获得的知识和技能，我们鼓励你尝试并创造你自己的 NFT 范例。然后，通过使用 Moralis Web3 [Auth API](https://moralis.io/authentication/) 、 [NFT API](https://moralis.io/nft-api/) 和 [Streams API](https://moralis.io/streams/) 构建包含这些 NFT 的 dapp(去中心化应用程序)，将事情推进到下一个层次。当然，你可以在 [Moralis 文档](https://docs.moralis.io/)、 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)中找到如何做到这一点的确切说明。后两种途径也非常有助于拓展你在区块链的发展视野。例如，一些最新的主题集中在如何[获得 NFT 元数据](https://moralis.io/get-nft-metadata-how-to-get-the-metadata-of-an-nft/)，[通过三个步骤从集合中获得所有的 NFT](https://moralis.io/how-to-get-all-nfts-from-a-collection-in-3-steps/)，[如何获得地址拥有的所有 NFT](https://moralis.io/how-to-get-all-nfts-owned-by-an-address-3-step-process/)，在 Solana 上创建 NFT 的最简单方法[等等。](https://moralis.io/the-easiest-way-to-create-nfts-on-solana/)
 
-尽管如此，你可能渴望尽快成为全职加密员。如果是这样，通过获得区块链认证，你可以大大增加在这个颠覆性行业获得梦想工作的机会。因此，一定要报名参加[道德学院](https://academy.moralis.io/all-courses)，从掌握[以太坊基础](https://academy.moralis.io/courses/ethereum-101)开始。
+尽管如此，你可能渴望尽快成为全职加密员。如果是这样，通过获得区块链认证，你可以大大增加在这个颠覆性行业获得梦想工作的机会。因此，一定要报名参加[Moralis 学院](https://academy.moralis.io/all-courses)，从掌握[以太坊基础](https://academy.moralis.io/courses/ethereum-101)开始。

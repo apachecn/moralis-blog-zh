@@ -4,7 +4,7 @@
 
 **区块链行业充斥着** [**去中心化的应用**](https://moralis.io/decentralized-applications-explained-what-are-dapps/) **(dapps)我们可以与之互动。但是，为了与** [**Web3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) **领域进行交互，我们必须利用所有 dapps 都包含的一个基本特性——**[**web 3 认证**](https://moralis.io/web3-authentication-the-full-guide/) **。此外，由于市场上有如此多的** [**Web3 钱包**](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/) **用于身份验证，您的网站必须包括一个功能，用户可以连接他们可能已经安装在移动设备上的任何类型的钱包。幸运的是，有了 WalletConnect 和 Moralis，我们可以在你的网站上实现一个 Web3“连接钱包”按钮，让用户验证自己。听起来令人畏惧？放心吧！请跟随我们向您展示如何快速轻松地在您的网站上添加 Web3 connect wallet 按钮！**
 
-如果你已经探索加密领域有一段时间了，你就会知道在这个不断发展的行业中，事情发展得很快。是的，我们已经看到了区块链和 Web3 用例的指数增长。此外，随着程序员毫不费力地构建下一代应用程序，我们已经看到了 dapp 开发的进步。如果程序员使用原始的工具，这样的进步是不可能的。今天，有一些实用的工具供您使用，使您能够避免处理 RPC 节点的[限制。这些工具包括开源平台和在线 ide，它们提供模板并让你部署智能合约，比如](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/) [Remix](https://moralis.io/remix-explained-what-is-remix/) 和 OpenZeppelin。然而，当前 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)的顶峰是[道德](https://moralis.io/)。Moralis 是最好的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)，具有跨链、跨平台的互操作性。它包括强大的插件和集成，如 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 、MetaMask 和 [WalletConnect](https://moralis.io/what-is-walletconnect-the-ultimate-walletconnect-guide/) 。使用 Moralis，您可以毫不费力地实现 Web3 connect 钱包按钮。因此，[创建你的免费道德账户](https://admin.moralis.io/register)。
+如果你已经探索加密领域有一段时间了，你就会知道在这个不断发展的行业中，事情发展得很快。是的，我们已经看到了区块链和 Web3 用例的指数增长。此外，随着程序员毫不费力地构建下一代应用程序，我们已经看到了 dapp 开发的进步。如果程序员使用原始的工具，这样的进步是不可能的。今天，有一些实用的工具供您使用，使您能够避免处理 RPC 节点的[限制。这些工具包括开源平台和在线 ide，它们提供模板并让你部署智能合约，比如](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/) [Remix](https://moralis.io/remix-explained-what-is-remix/) 和 OpenZeppelin。然而，当前 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)的顶峰是[Moralis](https://moralis.io/)。Moralis 是最好的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)，具有跨链、跨平台的互操作性。它包括强大的插件和集成，如 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 、MetaMask 和 [WalletConnect](https://moralis.io/what-is-walletconnect-the-ultimate-walletconnect-guide/) 。使用 Moralis，您可以毫不费力地实现 Web3 connect 钱包按钮。因此，[创建你的免费 Moralis 账户](https://admin.moralis.io/register)。
 
 ![](img/12e6fa17a40e01010233e79fb7a51651.png)
 
@@ -12,7 +12,7 @@
 
 ## 使用 Moralis 将 Web3 Connect Wallet 按钮添加到您的网站
 
-如前所述，我们将在本文中演示向网站添加 Web3 connect wallet 按钮是多么容易。因此，我们将采取一个例子项目，我们将创建一个非常简单的网站。为此，我们将使用 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) (JS)。此外，我们将通过 Moralis 满足所有与区块链相关的需求。此外，Moralis 集成了各种 Web3 认证解决方案，这将使我们的工作变得非常简单。因此，使用以上链接创建您的免费道德账户。
+如前所述，我们将在本文中演示向网站添加 Web3 connect wallet 按钮是多么容易。因此，我们将采取一个例子项目，我们将创建一个非常简单的网站。为此，我们将使用 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) (JS)。此外，我们将通过 Moralis 满足所有与区块链相关的需求。此外，Moralis 集成了各种 Web3 认证解决方案，这将使我们的工作变得非常简单。因此，使用以上链接创建您的免费 Moralis 账户。
 
 Moralis 附带 MetaMask 和 WalletConnect 集成。这两个选项足以将 Web3 connect wallet 按钮集成到任何网站。默认情况下，Moralis 会让您使用 MetaMask 进行[认证。然而，通过对你的代码进行一些毫不费力的调整，你可以很容易地](https://moralis.io/how-to-authenticate-with-metamask/)[用 WalletConnect](https://moralis.io/how-to-connect-users-with-walletconnect/) 连接用户。
 
@@ -26,7 +26,7 @@ Moralis 附带 MetaMask 和 WalletConnect 集成。这两个选项足以将 Web3
 
 ![](img/042d9f265259fef9efbfd7f5c58a8607.png)
 
-一旦用户点击“登录”按钮，他们的元掩码扩展就会提示他们签名请求。他们需要点击“签名”按钮以确认“道德认证”消息。这样，用户会收到一条欢迎消息，后跟他们的地址。此外，现在他们可以选择注销或进行测试签名呼叫。这封信是一个交易的例子。因此，为了演示起见，让我们单击“测试信号呼叫”按钮:
+一旦用户点击“登录”按钮，他们的元掩码扩展就会提示他们签名请求。他们需要点击“签名”按钮以确认“Moralis 认证”消息。这样，用户会收到一条欢迎消息，后跟他们的地址。此外，现在他们可以选择注销或进行测试签名呼叫。这封信是一个交易的例子。因此，为了演示起见，让我们单击“测试信号呼叫”按钮:
 
 ![](img/4e310838219f4d43230e9b9fcd5436c8.png)
 
@@ -48,7 +48,7 @@ const appId = "YOUR_APP_ID"; // Application id from moralis.io
 Moralis.start({ serverUrl, appId });
 ```
 
-这就是我们的代码需要我们的道德服务器的细节的地方。这样，它就可以连接到 [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 并使用它来满足它的 Web3 需求。
+这就是我们的代码需要我们的 Moralis 服务器的细节的地方。这样，它就可以连接到 [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 并使用它来满足它的 Web3 需求。
 
 *注意* *:如果您想创建自己的 dapp 实例，您需要获得自己的 Moralis 服务器 URL 和应用程序 ID。为此，请使用本文末尾的“初始 Moralis 设置”一节。*
 
@@ -160,7 +160,7 @@ const provider = 'walletconnect';
 
 ![](img/7065affa97ae49829870bd41ab0d8356.png)
 
-要连接，用户需要点击“连接”按钮。接下来，用户还需要签署“道德认证”消息以完成认证过程:
+要连接，用户需要点击“连接”按钮。接下来，用户还需要签署“Moralis 认证”消息以完成认证过程:
 
 ![](img/55074d687aea0efa78fa1b9713cb9f96.png)
 
@@ -182,11 +182,11 @@ const provider = 'walletconnect';
 
 https://www.youtube.com/watch?v=3Ij6wp0fuXw
 
-#### 初始道德设置
+#### 初始 Moralis 设置
 
 当您想要使用 Moralis 创建 dapps 或 [Unity Web3](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/) 游戏时，您需要完成以下步骤:
 
-1.  **登录您的 Moralis 账户**–使用[链接登录您的 Moralis 账户](https://admin.moralis.io/login)。另一方面，如果你还没有创建你的道德账户，现在就创建吧。你可以使用本文开头提到的“创建你的免费道德账户”链接。
+1.  **登录您的 Moralis 账户**–使用[链接登录您的 Moralis 账户](https://admin.moralis.io/login)。另一方面，如果你还没有创建你的 Moralis 账户，现在就创建吧。你可以使用本文开头提到的“创建你的免费 Moralis 账户”链接。
 
 ![](img/3e8f663a283722979b1963709e968834.png)
 
@@ -216,8 +216,8 @@ https://www.youtube.com/watch?v=3Ij6wp0fuXw
 
 ## 如何将 Web3 Connect Wallet 按钮添加到您的网站–摘要
 
-在这篇文章中，我们已经走了相当长的一段路。我们完成了一个示例项目，其中我们创建了一个 Web3 连接钱包按钮。最初，我们利用该按钮来启动元掩码身份验证过程。后者也是使用 Moralis 时的默认选项。然而，在第二幅图中，我们使用了 WalletConnect。从第一个例子到第二个例子的过渡毫不费力。我们只需要在“Moralis.authenticate()”和“Moralis.enableWeb3()”方法中添加正确的参数。尽管如此，在这个过程中，你也学会了如何通过四个简单的步骤来完成最初的道德规范。因此，您现在已经准备好接受其他的示例项目了。你可以在道德博客和 T2 的 YouTube 频道上找到这些。
+在这篇文章中，我们已经走了相当长的一段路。我们完成了一个示例项目，其中我们创建了一个 Web3 连接钱包按钮。最初，我们利用该按钮来启动元掩码身份验证过程。后者也是使用 Moralis 时的默认选项。然而，在第二幅图中，我们使用了 WalletConnect。从第一个例子到第二个例子的过渡毫不费力。我们只需要在“Moralis.authenticate()”和“Moralis.enableWeb3()”方法中添加正确的参数。尽管如此，在这个过程中，你也学会了如何通过四个简单的步骤来完成最初的 Moralis 规范。因此，您现在已经准备好接受其他的示例项目了。你可以在 Moralis 博客和 T2 的 YouTube 频道上找到这些。
 
 如果您喜欢更深入地研究 Web3 认证，我们建议您探索不带元掩码的 [Web3。接下来，您将学习如何通过电子邮件](https://moralis.io/web3-without-metamask-web3-authentication-alternatives/)进行 [Web3 认证，以及如何实现](https://moralis.io/how-to-do-web3-authentication-via-email/) [Web3 社交登录](https://moralis.io/web3-social-login-sign-in-dapp-users-with-google-email-or-twitter/)。因此，你将能够提高 [Web3 用户加入](https://moralis.io/how-to-boost-web3-user-onboarding-success-rates/)的成功率。然而，这两个出口涵盖了许多其他主题。例如，一些最新的文章包括如何[构建一个玩赚游戏](https://moralis.io/how-to-build-a-play-to-earn-p2e-game/)、 [Mumbai testnet 水龙头](https://moralis.io/mumbai-testnet-faucet-how-to-get-free-testnet-matic-tokens/)、创建[一个币安 NFT](https://moralis.io/how-to-create-a-binance-nft-in-5-steps/) 、如何[申请一个游戏内 NFT](https://moralis.io/how-to-claim-an-in-game-nft-full-guide/) 的完整指南、什么是[以太坊名称服务](https://moralis.io/what-is-ethereum-name-service-full-ens-guide/) (ENS)、什么是 [Web3 合同](https://moralis.io/what-are-web3-contracts-exploring-smart-contracts/)等等。
 
-如果你想成为一名区块链开发者，并马上成为全职加密员，你可能会考虑报名参加 T2 道德学院。这将让你有机会进入一流的[区块链发展课程](https://academy.moralis.io/all-courses)。您还将获得个性化的学习路径、专家指导，并成为进步和支持社区的一部分。
+如果你想成为一名区块链开发者，并马上成为全职加密员，你可能会考虑报名参加 T2 Moralis 学院。这将让你有机会进入一流的[区块链发展课程](https://academy.moralis.io/all-courses)。您还将获得个性化的学习路径、专家指导，并成为进步和支持社区的一部分。

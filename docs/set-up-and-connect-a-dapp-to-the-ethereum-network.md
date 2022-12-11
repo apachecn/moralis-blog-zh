@@ -4,7 +4,7 @@
 
 了解如何以简单的方式设置 dapps 并将其连接到以太坊！本教程让您设置一个功能齐全的 Web3 应用程序，并以创纪录的速度将您的 dapp 连接到以太坊网络。你所需要做的就是 Moralis ( [**领先的企业级 API 提供商**](http://moralis.io/) **)和我们的以太坊样板。然而，由于我们的主要焦点是在后端，我们鼓励你坚持到这篇文章的结尾，在那里你将使用一个** [**Web3 网站模板**](https://moralis.io/web3-template-build-a-dapp-using-a-web3-website-template/) **。而且，在撸起袖子之前，一定要了解基础。因此，我们将从解释什么是分散式应用程序开始这篇文章。接下来，我们将看看构建 dapp 并将其连接到以太坊所需的组件。此外，我们将检查以太坊网络的基础！**
 
-一旦您掌握了速度，我们将带您从头开始使用 NodeJS 和 Moralis 构建 dapp 的步骤。前者是一个开源、跨平台、后端 JavaScript (JS)运行时环境，在 web 浏览器之外执行 JS 代码。另一方面，Moralis 是权威的 Web3 API 提供者。它使您能够用单行代码整合 Web3 功能。此外，Moralis 是跨链互操作的，并支持所有领先的区块链。因此，通过学习如何连接到以太坊，你也学习如何连接到其他 EVM 兼容链。因此，如果你想加入网络 3 革命，[创建你的免费道德账户](https://admin.moralis.io/register)并开始“建设”通过 Moralis，你可以很容易地将 dapp 连接到以太坊或任何其他领先的连锁店。
+一旦您掌握了速度，我们将带您从头开始使用 NodeJS 和 Moralis 构建 dapp 的步骤。前者是一个开源、跨平台、后端 JavaScript (JS)运行时环境，在 web 浏览器之外执行 JS 代码。另一方面，Moralis 是权威的 Web3 API 提供者。它使您能够用单行代码整合 Web3 功能。此外，Moralis 是跨链互操作的，并支持所有领先的区块链。因此，通过学习如何连接到以太坊，你也学习如何连接到其他 EVM 兼容链。因此，如果你想加入网络 3 革命，[创建你的免费 Moralis 账户](https://admin.moralis.io/register)并开始“建设”通过 Moralis，你可以很容易地将 dapp 连接到以太坊或任何其他领先的连锁店。
 
 ## 什么是分散式应用？
 
@@ -35,7 +35,7 @@
 
 以太坊是第一个可编程区块链，它仍然是 dapp 开发的最大区块链。此外，以太坊网络包括自己的原生硬币/令牌 ETH(以太)。后者是市值第二大的加密资产。此外，以太坊为任何能上网的人提供了获取数字货币和数据友好型服务的途径，无论他们身处何地。最终，以太坊网络是一种社区构建的技术，由不同领域(金融、游戏、营销等)的无数分散应用组成。).由于网络的 EVM(以太坊虚拟机)，所有这些 dapps 都与以太坊链进行操作和交互。有趣的是，大多数其他可编程链也依赖于 EVM。
 
-此外，由于以太坊网络，用户可以向任何拥有有效以太网地址的人发送以太网和其他 EVM 兼容令牌。然而，以太坊的主要优势是其可编程性和对智能合约的支持，这是 dapp 开发的支柱。当然，今天，我们有其他几个可编程的区块链；然而，以太坊仍然是最受欢迎的。以太坊是同类建筑中的第一个，这一事实创造了一个广泛的世界性社区。这种去中心化的社区赋予以太坊网络很多价值。因此，作为开发者，知道如何连接以太坊是很重要的。*如果你想了解更多关于以太坊的知识，我们推荐你报名参加道德学院的“* [*以太坊基础*](https://academy.moralis.io/courses/ethereum-101) *”课程。*
+此外，由于以太坊网络，用户可以向任何拥有有效以太网地址的人发送以太网和其他 EVM 兼容令牌。然而，以太坊的主要优势是其可编程性和对智能合约的支持，这是 dapp 开发的支柱。当然，今天，我们有其他几个可编程的区块链；然而，以太坊仍然是最受欢迎的。以太坊是同类建筑中的第一个，这一事实创造了一个广泛的世界性社区。这种去中心化的社区赋予以太坊网络很多价值。因此，作为开发者，知道如何连接以太坊是很重要的。*如果你想了解更多关于以太坊的知识，我们推荐你报名参加 Moralis 学院的“* [*以太坊基础*](https://academy.moralis.io/courses/ethereum-101) *”课程。*
 
 ![](img/41365ba78c29fbf36ff9eb431d170368.png)
 
@@ -114,7 +114,7 @@ const chain = EvmChain.ETHEREUM
 
 #### 获取您的 Moralis Web3 API 密钥
 
-如果你还没有创建你的免费道德账户，现在就创建吧。您可以使用简介中的“[创建您的免费 Moralis 帐户](https://admin.moralis.io/register)”链接或 Moralis 主页上的“[免费启动](https://admin.moralis.io/register)”按钮:
+如果你还没有创建你的免费 Moralis 账户，现在就创建吧。您可以使用简介中的“[创建您的免费 Moralis 帐户](https://admin.moralis.io/register)”链接或 Moralis 主页上的“[免费启动](https://admin.moralis.io/register)”按钮:
 
 ![](img/6c63c0ddcc901d1d0c8ee6d08e3cc1db.png)
 
@@ -250,8 +250,8 @@ https://www.youtube.com/watch?v=Bb5Pc–kyAY&t=10s
 
 今天的文章教你如何设置和连接 dapp 到以太坊。我们主要关注使用 NodeJS 和 Moralis 的 EVM API 建立一个后端 dapp。例如，我们演示了如何获取本机余额、ERC-20 余额和 NFTs。你也有机会了解 dapps 是什么。此外，我们还向您介绍了构建 dapps 和连接以太坊所需的组件。此外，我们为您提供了以太坊网络的简单解释。最后但同样重要的是，您有机会使用终极以太坊样板，并在六分钟内准备好一份整洁的 dapp。
 
-有了这里获得的技能和知识，你就可以将你的 Web3 开发带到下一个层次。如果你有自己的想法，无论如何，专注于实现它们。然而，你可能会欣赏一些额外的实践。如果是这样，一定要访问道德文件、 [Web3 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德博客](https://moralis.io/blog/)。一些最新的话题集中在如何[构建一个 Web3 应用](https://moralis.io/how-to-build-a-web3-app/)和[如何将 MetaMask 连接到网站](https://moralis.io/how-to-connect-metamask-to-website-with-nextjs/)。此外，您可以探索[顶级区块链 API](https://moralis.io/web3-apis-exploring-the-top-5-blockchain-apis/)，如何构建 [Web3 FIFA 克隆](https://moralis.io/how-to-build-a-web3-fifa-clone/)等等。本质上，有了这三个途径，你可以免费成为一个自信的 Web3 开发者。
+有了这里获得的技能和知识，你就可以将你的 Web3 开发带到下一个层次。如果你有自己的想法，无论如何，专注于实现它们。然而，你可能会欣赏一些额外的实践。如果是这样，一定要访问 Moralis 文件、 [Web3 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 博客](https://moralis.io/blog/)。一些最新的话题集中在如何[构建一个 Web3 应用](https://moralis.io/how-to-build-a-web3-app/)和[如何将 MetaMask 连接到网站](https://moralis.io/how-to-connect-metamask-to-website-with-nextjs/)。此外，您可以探索[顶级区块链 API](https://moralis.io/web3-apis-exploring-the-top-5-blockchain-apis/)，如何构建 [Web3 FIFA 克隆](https://moralis.io/how-to-build-a-web3-fifa-clone/)等等。本质上，有了这三个途径，你可以免费成为一个自信的 Web3 开发者。
 
-另一方面，你可能有兴趣尽快在区块链行业找到一份好工作。在这种情况下，成为区块链认证可以大大提高你的机会。所以，如果你梦想成为全职加密员，考虑报名参加道德学院。除了上面提到的“以太坊基础”课程，在这里你可以参加各种各样的区块链发展课程。尽管如此，这也是加入行业中最先进的社区之一的地方。
+另一方面，你可能有兴趣尽快在区块链行业找到一份好工作。在这种情况下，成为区块链认证可以大大提高你的机会。所以，如果你梦想成为全职加密员，考虑报名参加 Moralis 学院。除了上面提到的“以太坊基础”课程，在这里你可以参加各种各样的区块链发展课程。尽管如此，这也是加入行业中最先进的社区之一的地方。
 
 ![](img/74bd8b771af036173c9e9dd6359895e9.png)

@@ -19,7 +19,7 @@
 
 Medium 是最受欢迎的博客平台之一。因此，这个创建 Web3 博客 dapp 的指南将有效地指导你创建一个 [Web3 媒体](https://moralis.io/how-to-build-a-web3-medium-clone/)克隆的过程。在这个过程中，你将学会使用一些优秀的工具来帮助你[成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)。既然我们决定以[不可替代代币](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/) (NFTs)的形式发布我们的博文，我们也将涵盖[铸币](https://moralis.io/how-to-mint-nfts-full-tutorial-to-minting-an-nft/)。因此，我们将向您展示如何使用 ERC-721 合同。因此，你将学习[坚固性](https://moralis.io/solidity-explained-what-is-solidity/)的基础知识以及如何利用[安全帽](https://moralis.io/hardhat-explained-what-is-hardhat/)。就 [Web3 前端](https://moralis.io/web3-frontend-everything-you-need-to-learn-about-building-dapp-frontends/)而言，我们将向您展示您的 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 技能与 [React](https://moralis.io/react-explained-what-is-react/) 相结合是如何做到这一点的。
 
-然而，最终的 Web3 开发平台将使我们能够把它们联系在一起。因此，我们将向你展示如何使用[道德规范](https://moralis.io/)。此外，您将看到 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 如何简化所有与区块链相关的后端需求。此外，使用 Moralis，您可以用简短的代码片段替换多行代码。而且，Moralis 不仅仅是最好的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)；它还能帮助你创建一个伟大的 Web3 UI。
+然而，最终的 Web3 开发平台将使我们能够把它们联系在一起。因此，我们将向你展示如何使用[Moralis 规范](https://moralis.io/)。此外，您将看到 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 如何简化所有与区块链相关的后端需求。此外，使用 Moralis，您可以用简短的代码片段替换多行代码。而且，Moralis 不仅仅是最好的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)；它还能帮助你创建一个伟大的 Web3 UI。
 
 ![](img/91a26043201fa6db003b1fd5474244a1.png)
 
@@ -152,7 +152,7 @@ Medium 是最受欢迎的博客平台之一。因此，这个创建 Web3 博客 
 
 ## 我们的 Web3 博客 Dapp 的前端
 
-作为 Web3 开发人员，您希望确保前端是直观的。因此，它应该遵循 Web2 应用程序的例子。因此，我们可以利用 React。从下面视频教程的 22:04 开始，你将学习如何初始化一个 React 项目。这也是您需要用您的道德 dapp 的详细信息填充“index.js”文件的地方。同样，使用下面的“使用 Moralis 的新管理用户界面”部分获得更多指导。接下来，您将准备好输入“yarn start”命令并查看空的应用程序。然而，如果你正确地遵循了我们的指南，我们的 Web3 博客 dapp 的结构应该已经在那里了:
+作为 Web3 开发人员，您希望确保前端是直观的。因此，它应该遵循 Web2 应用程序的例子。因此，我们可以利用 React。从下面视频教程的 22:04 开始，你将学习如何初始化一个 React 项目。这也是您需要用您的 Moralis dapp 的详细信息填充“index.js”文件的地方。同样，使用下面的“使用 Moralis 的新管理用户界面”部分获得更多指导。接下来，您将准备好输入“yarn start”命令并查看空的应用程序。然而，如果你正确地遵循了我们的指南，我们的 Web3 博客 dapp 的结构应该已经在那里了:
 
 ![](img/c17977864f4222714587e42c9aec07f4.png)
 
@@ -177,13 +177,13 @@ Medium 是最受欢迎的博客平台之一。因此，这个创建 Web3 博客 
 
 ### 使用 Moralis 的新管理用户界面
 
-道德最近切换到一个新的管理用户界面。因此，如果您愿意，您仍然可以切换到传统用户界面:
+Moralis 最近切换到一个新的管理用户界面。因此，如果您愿意，您仍然可以切换到传统用户界面:
 
 ![](img/f2c8a69cd303e19f5ae2160453ef28ac.png)
 
 然而，我们鼓励你习惯新的用户界面。下面的说明将帮助你:
 
-1.  [*创建您的免费道德家账户*](https://admin.moralis.io/register) *或* [*登录*](https://admin.moralis.io/login) *到您现有的账户，进入您的道德家管理区。*
+1.  [*创建您的免费 Moralis 家账户*](https://admin.moralis.io/register) *或* [*登录*](https://admin.moralis.io/login) *到您现有的账户，进入您的 Moralis 家管理区。*
 
 2.  *创建新的 dapp:*
 
@@ -239,8 +239,8 @@ https://www.youtube.com/watch?v=8S8unFCq0fM
 
 在这篇创建 Web3 博客 dapp 的指南中，你首先学习了如何创建 ERC-721 智能合同。接下来，您学习了如何使用 Hardhat 来编译、部署和验证智能契约。此外，您有机会看到 React 如何使您能够利用您的 JavaScript 熟练程度满足所有 Web3 前端需求。当然，Moralis 的 web3uikit 提供了几个额外的快捷方式，您也亲身体验过。最后，我们使用 Moralis 将它们联系在一起，这使您能够轻松地用简短的代码片段查询 NFT。
 
-有了所有这些新技能，您就可以着手处理其他示例项目，从而获得额外的编程信心。因此，访问[道德博客](https://moralis.io/blog/)和[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。那里的一些最新主题包括[多边形 dapp API](https://moralis.io/polygon-dapp-api-how-to-efficiently-create-polygon-dapps/) ，如何构建 [Web3 角色扮演游戏](https://moralis.io/how-to-build-a-web3-action-role-playing-game/)，如何创建[社交媒体 dapp](https://moralis.io/how-to-create-a-social-media-dapp/) ，探索最佳[币安 dapp API](https://moralis.io/binance-dapp-api-how-to-easily-build-projects-on-binance/) ，[以太坊 NFT API](https://moralis.io/what-is-an-ethereum-nft-api-ethereum-nft-apis-explained/) ，以及[多边形 NFT API](https://moralis.io/what-is-a-polygon-nft-api-polygon-nft-apis-explained/) 。此外，你可以深入研究[以太坊合并](https://moralis.io/ethereum-merge-what-is-ethereum-2-0-and-the-merge/)，如何[获得索拉纳 NFT 元数据](https://moralis.io/how-to-get-solana-nft-metadata/)，以及更多。因此，你可以通过这两个途径免费接受区块链教育。
+有了所有这些新技能，您就可以着手处理其他示例项目，从而获得额外的编程信心。因此，访问[Moralis 博客](https://moralis.io/blog/)和[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。那里的一些最新主题包括[多边形 dapp API](https://moralis.io/polygon-dapp-api-how-to-efficiently-create-polygon-dapps/) ，如何构建 [Web3 角色扮演游戏](https://moralis.io/how-to-build-a-web3-action-role-playing-game/)，如何创建[社交媒体 dapp](https://moralis.io/how-to-create-a-social-media-dapp/) ，探索最佳[币安 dapp API](https://moralis.io/binance-dapp-api-how-to-easily-build-projects-on-binance/) ，[以太坊 NFT API](https://moralis.io/what-is-an-ethereum-nft-api-ethereum-nft-apis-explained/) ，以及[多边形 NFT API](https://moralis.io/what-is-a-polygon-nft-api-polygon-nft-apis-explained/) 。此外，你可以深入研究[以太坊合并](https://moralis.io/ethereum-merge-what-is-ethereum-2-0-and-the-merge/)，如何[获得索拉纳 NFT 元数据](https://moralis.io/how-to-get-solana-nft-metadata/)，以及更多。因此，你可以通过这两个途径免费接受区块链教育。
 
-然而，如果你想快速自信地成为 Web3 开发者，你应该考虑采取更专业的方法。因此，你可能想报名参加[道德学院](https://academy.moralis.io/)。除了顶尖的[区块链发展课程](https://academy.moralis.io/all-courses/)，这里也是你获得个性化学习路径、专家指导，并成为加密领域最先进社区之一的成员的地方。
+然而，如果你想快速自信地成为 Web3 开发者，你应该考虑采取更专业的方法。因此，你可能想报名参加[Moralis 学院](https://academy.moralis.io/)。除了顶尖的[区块链发展课程](https://academy.moralis.io/all-courses/)，这里也是你获得个性化学习路径、专家指导，并成为加密领域最先进社区之一的成员的地方。
 
 ![](img/6b05abd34255e620889f03faa0849875.png)

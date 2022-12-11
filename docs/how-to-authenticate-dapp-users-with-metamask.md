@@ -4,7 +4,7 @@
 
 **Web3 认证是所有**[](https://moralis.io/decentralized-applications-explained-what-are-dapps/)****(dapps)分散应用的一个积分点。因此，如果你想成为一名 Web3 开发者，你需要能够认证你的 dapp 的用户。此外，如果你以前使用过任何 DeFi 平台或其他 Web3 应用程序，你知道你可以使用流行的加密钱包，如 MetaMask。那么，如何使用这些** [**Web3 钱包**](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/) **来认证 dapp 用户呢？我们可以告诉你，使用正确的工具，这比你想象的要简单得多。事实上，它只需要不到十分钟的时间，包括完成初始设置。我们知道这听起来难以置信。然而，多亏了**[**Moralis**](https://moralis.io/)**每一个具备一些基本 JavaScript 技能的人都可以很快拥有一个支持 Web3 登录并运行的 web 应用程序。如果这是你想了解更多的东西，一定要跟随我们的领导。****
 
-**接下来，我们将介绍一个使用 Moralis SDK 的简单示例项目。我们将向您展示如何用 Vanilla JS 连接它。但是，我们首先需要完成一些初始的 Moralis 设置，这将为我们提供 dapp 凭证。本质上，在这个示例项目中没有编码——我们将复制粘贴 Moralis 文档提供的代码行。不过，我们会带您浏览代码，以确保事情是清楚的。此外，通过查看 Moralis 数据库，您还将看到这个 Firebase 如何灵活地为加密日志和用户建立索引。然而，我们必须首先为那些从未听说过道德的人提供更多的背景。因此，您将见到 Moralis，并了解它如何使您能够毫不费力地认证 dapp 用户。然后，我们将卷起袖子，着手今天的示例项目。**
+**接下来，我们将介绍一个使用 Moralis SDK 的简单示例项目。我们将向您展示如何用 Vanilla JS 连接它。但是，我们首先需要完成一些初始的 Moralis 设置，这将为我们提供 dapp 凭证。本质上，在这个示例项目中没有编码——我们将复制粘贴 Moralis 文档提供的代码行。不过，我们会带您浏览代码，以确保事情是清楚的。此外，通过查看 Moralis 数据库，您还将看到这个 Firebase 如何灵活地为加密日志和用户建立索引。然而，我们必须首先为那些从未听说过 Moralis 的人提供更多的背景。因此，您将见到 Moralis，并了解它如何使您能够毫不费力地认证 dapp 用户。然后，我们将卷起袖子，着手今天的示例项目。**
 
 **![](img/e222b25e35b094d81db7d4561f05a90e.png)
 
@@ -12,13 +12,13 @@
 
 Moralis 是最终的 Web3 开发平台。它的目标是帮助传统开发者[连接 Web2 和 Web3](https://moralis.io/web2-to-web3-bridging-web2-and-web3/) 。因此，Moralis 专注于 dapp 开发的三个关键领域—[web 3 认证](https://moralis.io/authentication/)、Web3 API 和同步链上事件。而且，因为认证 dapp 用户的需求是起点，所以我们将在这里集中讨论这一部分。
 
-Moralis 使您能够在应用程序中轻松统一 Web3 钱包和 Web2 账户。因此，对于那些从零开始构建 dapps 的人和那些想要将 Web3 功能添加到他们现有的 Web2 应用程序的人来说，它是首选工具。此外，道德认证兼容任何技术栈。当然，你也拥有和控制所有的用户数据。此外，当您使用 Moralis 处理 Web3 身份验证时，您还可以利用诸如 OpenID、OAuth、DIDs 等标准。所以，如果你是:
+Moralis 使您能够在应用程序中轻松统一 Web3 钱包和 Web2 账户。因此，对于那些从零开始构建 dapps 的人和那些想要将 Web3 功能添加到他们现有的 Web2 应用程序的人来说，它是首选工具。此外，Moralis 认证兼容任何技术栈。当然，你也拥有和控制所有的用户数据。此外，当您使用 Moralis 处理 Web3 身份验证时，您还可以利用诸如 OpenID、OAuth、DIDs 等标准。所以，如果你是:
 
 *   构建新的 Web3 应用程序
 *   使用 Web3 身份验证连接现有的 Web2 用户数据库
 *   对将身份验证聚合器用于您企业的 Web3 身份验证流感兴趣
 
-那么你应该确保使用道德！
+那么你应该确保使用 Moralis！
 
 ![](img/c0ed0cbe1187c67510f89f250074c4fe.png)
 
@@ -88,7 +88,7 @@ Moralis 的 Web3 Auth API 使您能够轻松认证 dapp 用户。基本上，它
 
 ![](img/59691c99a693e564bd45516a369673a4.png)
 
-6.  创建道德 dapp 的最后一步需要你给它命名。这可以是你想要的任何东西，但要避免过度思考这一步。输入姓名后，只需点击“创建您的 Dapp”按钮:
+6.  创建 Moralis dapp 的最后一步需要你给它命名。这可以是你想要的任何东西，但要避免过度思考这一步。输入姓名后，只需点击“创建您的 Dapp”按钮:
 
 ![](img/4806394d4bbd64760ff6c28278f43aca.png)
 
@@ -136,7 +136,7 @@ Moralis 的 Web3 Auth API 使您能够轻松认证 dapp 用户。基本上，它
 
 ![](img/233026891567e7bbe8d3b6d87337dee7.png)
 
-然后，返回 VSC，将代码粘贴到上面创建的“main.js”文件中。看上面的图像，你可以看到最上面的四行覆盖了 Moralis 集成。这是你需要粘贴你的道德 dapp 的凭据:
+然后，返回 VSC，将代码粘贴到上面创建的“main.js”文件中。看上面的图像，你可以看到最上面的四行覆盖了 Moralis 集成。这是你需要粘贴你的 Moralis dapp 的凭据:
 
 ![](img/18a814a0b5ef483a1e0f0a266c937eff.png)
 
@@ -160,4 +160,4 @@ https://www.youtube.com/watch?v=Xuh6UWcgDjk
 
 现在，您已经知道如何轻松地认证 dapp 用户，您已经准备好接受更复杂的项目了。如果你对 Web3 应用有自己的想法，那就着手去做吧。但是，如果您需要一些额外的实践，尝试其他示例项目可能是一个好主意。你可以在 [Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 的博客](https://moralis.io/blog/)上挑选。因此，您将学习如何处理智能合同事件，从而利用“同步”功能，这是 Moralis SDK 的另一个核心工具。这也是一个了解为什么[要在 Solana](https://moralis.io/why-build-on-solana-solana-development-explained/) 的基础上发展的地方。
 
-此外，如果你正在为你的区块链发展教育寻找一种专业的方法，道德学院应该在你的考虑范围之内。这是你参加顶级 Web3 开发课程的地方。此外，您还可以获得个性化的学习路径、专家指导以及最先进社区之一的会员资格。**
+此外，如果你正在为你的区块链发展教育寻找一种专业的方法，Moralis 学院应该在你的考虑范围之内。这是你参加顶级 Web3 开发课程的地方。此外，您还可以获得个性化的学习路径、专家指导以及最先进社区之一的会员资格。**

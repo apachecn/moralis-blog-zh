@@ -4,7 +4,7 @@
 
 你很可能听说过 DeFi。DeFi staking 怎么样？你很有可能熟悉这些术语。然而，事实证明，大多数人对这些相对较新的金融概念缺乏正确的理解。此外，这个领域仍然存在许多不确定性和灰色地带。因此，我们决定创建这个完整的指南，并回答许多人思考的问题，“什么是定义赌注？”。几分钟后，您将对 DeFi 的潜在未来有一个更清晰的了解。那么，什么是定义赌注？让我们找出答案，好吗！
 
-我们想指出，涉及 DeFi 的投资机会数不胜数。但是，最重要的潜力等待着区块链的开发人员，他们将帮助构建 dapps ( [去中心化应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))以确保 DeFi 成为主流。利用本文中获得的知识，您可以轻松地测试您的前端开发技能，并开始构建 DeFi staking dapps。有了终极 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台， [Moralis](https://moralis.io/) ，就可以开门见山了。这个" [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) "操作系统可以让你在几分钟内创建非凡的 Web3 应用程序。此外，这个先进的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)涵盖了您所有的后端需求。因此，你可以专注于创造最好的 Web3 UI。因此，[今天就创建你的免费道德账户](https://admin.moralis.io/register)！然而，今天指南的任务是告诉你 DeFi 和 DeFi staking 涉及什么。此外，我们还将讨论定义堆栈的机制及其现有用例。
+我们想指出，涉及 DeFi 的投资机会数不胜数。但是，最重要的潜力等待着区块链的开发人员，他们将帮助构建 dapps ( [去中心化应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))以确保 DeFi 成为主流。利用本文中获得的知识，您可以轻松地测试您的前端开发技能，并开始构建 DeFi staking dapps。有了终极 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台， [Moralis](https://moralis.io/) ，就可以开门见山了。这个" [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) "操作系统可以让你在几分钟内创建非凡的 Web3 应用程序。此外，这个先进的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)涵盖了您所有的后端需求。因此，你可以专注于创造最好的 Web3 UI。因此，[今天就创建你的免费 Moralis 账户](https://admin.moralis.io/register)！然而，今天指南的任务是告诉你 DeFi 和 DeFi staking 涉及什么。此外，我们还将讨论定义堆栈的机制及其现有用例。
 
 ![](img/7df4837e572d34fffd1b61520955b0ac.png)
 
@@ -81,7 +81,7 @@
 
 目前 DeFi 和 CeFi 用户不到全球人口的 5%。因此，我们离主流采用还很远。未来，不希望对其财务进行最高级别控制的用户很可能会继续使用现代化的银行或集中交易所，这将是 CeFi 的核心。另一方面，将有许多人喜欢最大限度地控制自己的生活，他们将选择接受 DeFi 服务。
 
-在我们看来，我们都应该把 DeFi 作为未来金融的主导形式。至少在理论上，这个概念提供了一个更加“公正”的世界。因此，创建用户友好的 DeFi 平台就取决于您了，我们的下一代区块链开发人员。请记住，无缝的用户体验是主流采用 DeFi 的关键。幸运的是，Moralis 让你将最大的注意力和资源投入到创建最好的前端成为可能。因此，请确保您了解如何毫不费力地[创建 DeFi 仪表板](https://moralis.io/how-to-create-a-defi-dashboard-in-5-steps/)。使用道德，成为改变世界的金融和互联网发展的一部分！
+在我们看来，我们都应该把 DeFi 作为未来金融的主导形式。至少在理论上，这个概念提供了一个更加“公正”的世界。因此，创建用户友好的 DeFi 平台就取决于您了，我们的下一代区块链开发人员。请记住，无缝的用户体验是主流采用 DeFi 的关键。幸运的是，Moralis 让你将最大的注意力和资源投入到创建最好的前端成为可能。因此，请确保您了解如何毫不费力地[创建 DeFi 仪表板](https://moralis.io/how-to-create-a-defi-dashboard-in-5-steps/)。使用 Moralis，成为改变世界的金融和互联网发展的一部分！
 
 ![](img/b9d7b07131a9b85b975add039bfb28b3.png)
 
@@ -89,6 +89,6 @@
 
 您现在知道了定义堆栈是 PoS 共识机制的核心部分。您还了解了其他 DeFi staking 用例。此外，您还发现了定义赌注的好处。尽管如此，沿着这条路，你已经简要地看了 Moralis，当前的 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)的顶峰。因此，你知道从哪里开始你创造非凡的 DeFi dapps 或其他类型的 Web3 应用程序的旅程。如果您想进一步了解 DeFi 知识，我们推荐您了解一下[闪贷](https://moralis.io/how-do-flash-loans-work-full-walkthrough/)和[道智能合约](https://moralis.io/dao-smart-contract-example-dao-guide/)的例子。
 
-让我们提醒你，[进入 Web3](https://moralis.io/how-to-get-into-web3-in-2022/) 的最好方法是[成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，尤其是如果你精通 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 或 Unity。如果是这样，你可以立即用 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 处理更高级的项目。此外，如果你想继续你的免费加密教育，道德博客和 YouTube 频道是你应该去的地方。这两个出口都提供了大量高质量的内容，包括许多示例项目。例如，一些最新的话题集中在[如何建立一个元宇宙游戏](https://moralis.io/how-to-build-a-metaverse-game-in-25-minutes/)，如何[与来自 Unity 的 Web3 数据库](https://moralis.io/how-to-communicate-with-a-web3-database-from-unity/)，[为什么 Web3 很重要](https://moralis.io/why-is-web3-important-a-beginners-guide/)，如何[存储离线数据](https://moralis.io/how-to-store-off-chain-data-unity-web3-database/)，如何[降低固体气体成本](https://moralis.io/how-to-reduce-solidity-gas-costs-full-guide/)，如何[创建一个以太坊 NFT](https://moralis.io/how-to-create-an-ethereum-nft-full-guide/) ，如何建立一个 [2D Web3 游戏](https://moralis.io/how-to-build-a-2d-web3-game-full-guide%ef%bf%bc/)，如何创建一个
+让我们提醒你，[进入 Web3](https://moralis.io/how-to-get-into-web3-in-2022/) 的最好方法是[成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，尤其是如果你精通 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 或 Unity。如果是这样，你可以立即用 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 处理更高级的项目。此外，如果你想继续你的免费加密教育，Moralis 博客和 YouTube 频道是你应该去的地方。这两个出口都提供了大量高质量的内容，包括许多示例项目。例如，一些最新的话题集中在[如何建立一个元宇宙游戏](https://moralis.io/how-to-build-a-metaverse-game-in-25-minutes/)，如何[与来自 Unity 的 Web3 数据库](https://moralis.io/how-to-communicate-with-a-web3-database-from-unity/)，[为什么 Web3 很重要](https://moralis.io/why-is-web3-important-a-beginners-guide/)，如何[存储离线数据](https://moralis.io/how-to-store-off-chain-data-unity-web3-database/)，如何[降低固体气体成本](https://moralis.io/how-to-reduce-solidity-gas-costs-full-guide/)，如何[创建一个以太坊 NFT](https://moralis.io/how-to-create-an-ethereum-nft-full-guide/) ，如何建立一个 [2D Web3 游戏](https://moralis.io/how-to-build-a-2d-web3-game-full-guide%ef%bf%bc/)，如何创建一个
 
-然而，如果你想尽快成为一名 Web3 开发者，你可以考虑报名参加 T2 道德学院。除了获得高质量的[课程](https://academy.moralis.io/all-courses)，你将成为一个了不起的社区的一部分，获得个性化的学习路径，并获得专家指导。
+然而，如果你想尽快成为一名 Web3 开发者，你可以考虑报名参加 T2 Moralis 学院。除了获得高质量的[课程](https://academy.moralis.io/all-courses)，你将成为一个了不起的社区的一部分，获得个性化的学习路径，并获得专家指导。

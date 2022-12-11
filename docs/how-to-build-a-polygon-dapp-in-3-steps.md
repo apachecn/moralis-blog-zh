@@ -8,7 +8,7 @@
 
 本教程将向你展示如何建立一个多边形 dapp 的三个步骤。dapp 将允许用户用他们的 Web3 钱包登录，并访问他们的交易历史等信息。该过程的可访问性部分源于 Moralis 的以太坊样板，我们将在本指南中使用它。然而，这可能有点令人困惑；一个搭建多边形 dapp 的以太坊模板？嗯，您应该使用 Moralis 的一个突出原因是该平台是跨链兼容的。因此，您可以使用这个样板文件为任何 [EVM](https://moralis.io/evm-explained-what-is-ethereum-virtual-machine/) 系统构建 dapps，包括 Polygon！
 
-结合以太坊样板，额外的道德工具有助于这个过程的可访问性。例如，Moralis 的[认证 API](https://docs.moralis.io/reference/auth-api-overview) 使得[的 Web3 认证](https://moralis.io/authentication/)更容易访问。此外，这允许你很容易地集成 [EIP-4361](https://moralis.io/exploring-eip-4361-sign-in-with-ethereum/) 兼容的认证方法，模板的特点。
+结合以太坊样板，额外的 Moralis 工具有助于这个过程的可访问性。例如，Moralis 的[认证 API](https://docs.moralis.io/reference/auth-api-overview) 使得[的 Web3 认证](https://moralis.io/authentication/)更容易访问。此外，这允许你很容易地集成 [EIP-4361](https://moralis.io/exploring-eip-4361-sign-in-with-ethereum/) 兼容的认证方法，模板的特点。
 
 因此，如果你有雄心建立一个多边形 dapp，你应该立即与 Moralis 签约。几秒钟就可以创建一个账户，而且完全免费！
 
@@ -40,7 +40,7 @@ Dapps 与传统应用程序非常相似，因为它们实现了许多相同的�
 
 然而，在我们深入本指南的第一步之前，我们将通过下面的部分来展示我们的目标。因此，我们将更详细地探讨 dapp 的功能。
 
-此外，如果你更想看一段解释本指南步骤的视频，可以看看下面这个来自[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)的视频:
+此外，如果你更想看一段解释本指南步骤的视频，可以看看下面这个来自[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)的视频:
 
 https://www.youtube.com/watch?v=Bb5Pc–kyAY
 
@@ -120,7 +120,7 @@ GitHub repo 克隆完成后，您可以进入第二步，我们将配置一些�
 
 所以，让我们一个一个地分解变量，仔细看看你需要考虑的必要配置。首先，您有一个“ *APP_CHAIN_ID* ”变量，最初设置为“ *0x1* ”。这是区块链以太坊的 ID。然而，由于这是一个如何构建多边形 dapp 的指南，您需要改变这个变量。此外，由于这是一个教程，我们仍处于开发阶段，我们将选择多边形孟买测试网。相应地，您可以将“ *APP_CHAIN_ID* ”更改为等于“ *0x13881* ”，它对应于多边形孟买链 ID。
 
-第二个变量“ *APP_DOMAIN* ”可以保持不变。然而，第三个变量，称为“*道德 _API_KEY* ”，是您需要考虑的一个变量。这个变量需要等于您的 API 键。要获得密钥，请登录 Moralis，点击“Account ”,导航到“Keys”选项卡，并点击 Web3 API 密钥的复制按钮。你需要做的就是将变量设置为这个值。
+第二个变量“ *APP_DOMAIN* ”可以保持不变。然而，第三个变量，称为“*Moralis _API_KEY* ”，是您需要考虑的一个变量。这个变量需要等于您的 API 键。要获得密钥，请登录 Moralis，点击“Account ”,导航到“Keys”选项卡，并点击 Web3 API 密钥的复制按钮。你需要做的就是将变量设置为这个值。
 
 ![](img/ac03d681e24d3497e62c5f101ce169f1.png)
 
@@ -160,7 +160,7 @@ yarn run dev
 
 如果你想为你的第一个项目寻找灵感，可以考虑看看 Moralis 的博客。例如，你可以了解不同的[类型的 Dao](https://moralis.io/full-2022-guide-to-different-types-of-daos/)或[区块链 syncs](https://moralis.io/blockchain-syncs-exploring-on-chain-syncing/) ，这对你未来的区块链发展努力会有帮助。
 
-此外，考虑检查额外的道德工具。例如，该平台使得实现 [Web3 流](https://moralis.io/streams/)或创建 [Web3 webhooks](https://moralis.io/web3-webhooks-the-ultimate-guide-to-blockchain-webhooks/) 变得容易。然而，这些只是 Moralis 如何提供更无缝的开发者体验的几个例子。因此，如果你想成为一名区块链开发者，请立即注册 Moralis！
+此外，考虑检查额外的 Moralis 工具。例如，该平台使得实现 [Web3 流](https://moralis.io/streams/)或创建 [Web3 webhooks](https://moralis.io/web3-webhooks-the-ultimate-guide-to-blockchain-webhooks/) 变得容易。然而，这些只是 Moralis 如何提供更无缝的开发者体验的几个例子。因此，如果你想成为一名区块链开发者，请立即注册 Moralis！
 
 ## 如何构建多边形 Dapp–摘要
 
@@ -176,4 +176,4 @@ yarn run dev
 
 更重要的是，甚至可以使用 Moralis 的以太坊样板来为 Solana 网络创建 dapps。所以，如果你对 [Solana 编程](https://moralis.io/solana-programming-the-ultimate-guide-to-solana-development/)特别感兴趣，我们建议你仔细看看 Moralis 的 [Solana API](https://docs.moralis.io/reference/solana-api) 。这个工具允许你为 Solana 创建复杂的 dapps 和 Web3 项目。
 
-此外，如果你正在寻找建立一个多边形 dapp 或 Solana 网络项目，这并不重要；道德将在所有这些过程中提供帮助。因此，您应该[立即注册 Moralis](https://admin.moralis.io/register) 并享受更加无缝的开发者体验！
+此外，如果你正在寻找建立一个多边形 dapp 或 Solana 网络项目，这并不重要；Moralis 将在所有这些过程中提供帮助。因此，您应该[立即注册 Moralis](https://admin.moralis.io/register) 并享受更加无缝的开发者体验！

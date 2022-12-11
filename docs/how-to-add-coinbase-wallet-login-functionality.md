@@ -10,7 +10,7 @@
 
 统一的标识层是 Web3 的一个优秀特性，因为它允许用户通过他们的 [Web3 钱包](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/)与分散的应用程序和其他令人兴奋的 Web3 项目进行交互。因此，为了创造引人注目的用户体验，允许用户在使用你的应用程序时验证他们的 [Web3 身份](https://moralis.io/web3-identity-the-full-guide-to-authentication-identity-and-web3/)是至关重要的。一个突出的例子是比特币基地钱包，这是我们在这篇文章中要关注的地方。更具体地说，我们将说明如何使用 [Moralis](https://moralis.io/) 为所有应用添加比特币基地钱包登录功能！
 
-Web3 认证只是 Moralis 大放异彩的领域之一。如果你努力成为一名区块链开发者，你也会从道德教育中获益匪浅。因此，请务必立即在 Moralis 创建一个帐户。这样做只需要几秒钟，你可以完全免费开始！此外，如果你想创建 dapps，你可以额外使用 Moralis 轻松实现 [Web3 syncs](https://moralis.io/syncs/) 和 [Web3 webhooks](https://moralis.io/web3-webhooks-the-ultimate-guide-to-blockchain-webhooks/) 。此外，这些只是一些工具和功能，以一种可访问的方式帮助弥合 Web2 和 Web3 之间的差距！
+Web3 认证只是 Moralis 大放异彩的领域之一。如果你努力成为一名区块链开发者，你也会从 Moralis 教育中获益匪浅。因此，请务必立即在 Moralis 创建一个帐户。这样做只需要几秒钟，你可以完全免费开始！此外，如果你想创建 dapps，你可以额外使用 Moralis 轻松实现 [Web3 syncs](https://moralis.io/syncs/) 和 [Web3 webhooks](https://moralis.io/web3-webhooks-the-ultimate-guide-to-blockchain-webhooks/) 。此外，这些只是一些工具和功能，以一种可访问的方式帮助弥合 Web2 和 Web3 之间的差距！
 
 ## 什么是比特币基地钱包？
 
@@ -42,7 +42,7 @@ Web3 认证只是 Moralis 大放异彩的领域之一。如果你努力成为一
 
 ![](img/6b6cf790403f56d27441076cc1e0904c.png)
 
-然而，在我们继续本教程之前，您需要考虑一些先决条件。首先，你需要一个道德账户。创建一个道德账户只需要点击几下，而且完全免费。手头有了一个账户，就需要安装一个 IDE 或者集成开发环境。在这种情况下，我们将使用 Visual Studio 代码(VSC)。最后，您还需要一个 Next.js 应用程序。此外，如果你想在这方面得到更多的帮助，你可以使用“ [create-next-app](https://nextjs.org/docs/api-reference/create-next-app) 创建应用程序，或者仔细看看 [Next.js dapp](https://moralis.readme.io/docs/nextjs-dapp) 教程！
+然而，在我们继续本教程之前，您需要考虑一些先决条件。首先，你需要一个 Moralis 账户。创建一个 Moralis 账户只需要点击几下，而且完全免费。手头有了一个账户，就需要安装一个 IDE 或者集成开发环境。在这种情况下，我们将使用 Visual Studio 代码(VSC)。最后，您还需要一个 Next.js 应用程序。此外，如果你想在这方面得到更多的帮助，你可以使用“ [create-next-app](https://nextjs.org/docs/api-reference/create-next-app) 创建应用程序，或者仔细看看 [Next.js dapp](https://moralis.readme.io/docs/nextjs-dapp) 教程！
 
 完成所有先决条件后，我们可以进一步了解如何将比特币基地钱包登录功能添加到您的应用程序中。
 
@@ -340,6 +340,6 @@ Web3 认证允许用户使用他们的加密钱包登录并访问 dapps 的扩�
 
 ![](img/f3e4781ba1307db58eb197f2e5631951.png)
 
-此外，如果你想更加精通 Web3 开发，一定要报名参加[道德学院](https://academy.moralis.io/)。道德学院为初学者和更有经验的开发者提供了大量的[区块链课程](https://academy.moralis.io/all-courses)。
+此外，如果你想更加精通 Web3 开发，一定要报名参加[Moralis 学院](https://academy.moralis.io/)。Moralis 学院为初学者和更有经验的开发者提供了大量的[区块链课程](https://academy.moralis.io/all-courses)。
 
 尽管如此，如果你想了解更多关于区块链开发的知识，并成为一名 Web3 开发者，请注册 Moralis 。创建帐户是免费的，你可以在几秒钟内完成！

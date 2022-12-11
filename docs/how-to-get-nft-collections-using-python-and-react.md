@@ -4,7 +4,7 @@
 
 您是否正在寻找一种使用 Python 获取 NFT 作品集的便捷方式？如果是这样，你应该熟悉 Moralis 的 NFT API 和 Python SDK。使用这些工具，您可以通过两个简单的步骤轻松查询特定 Web3 钱包的所有 NFT 收藏:
 
-1.  安装道德标准:
+1.  安装 Moralis 标准:
 
 ```js
 pip install moralis
@@ -113,7 +113,7 @@ result = evm_api.nft.get_wallet_nft_collections(
 print(result)
 ```
 
-通过进一步检查上面的代码，您可以看到，您需要添加一些参数。首先，您必须添加您的 Moralis API 密钥。所以，如果你还需要的话，现在就去道德学院注册吧。从那里登录，导航到“Web3 APIs”选项卡，复制密钥，并将其粘贴到您的代码中:
+通过进一步检查上面的代码，您可以看到，您需要添加一些参数。首先，您必须添加您的 Moralis API 密钥。所以，如果你还需要的话，现在就去 Moralis 学院注册吧。从那里登录，导航到“Web3 APIs”选项卡，复制密钥，并将其粘贴到您的代码中:
 
 ![web3 api page showing an api key](img/6181c7fccff2e3afcd8b12c898745752.png)
 
@@ -228,8 +228,8 @@ npm start
 
 也就是说，如果你觉得这篇文章有帮助，可以考虑看看 Web3 博客上的其他内容。如果你对 Python 开发特别感兴趣，我们强烈推荐关于如何[设置自动化 Web3 通知电子邮件](https://moralis.io/how-to-set-up-automated-web3-notification-emails-with-python/)的指南。或者，如果你想让 [Python Web3 开发变得简单](https://moralis.io/web3-python-python-web3-development-made-easy/)，请查看链接文章。此外，还有其他有趣的文章，你可能会觉得激动人心。例如，了解更多关于[区块链基础设施公司](https://moralis.io/blockchain-infrastructure-companies-how-to-choose-the-right-provider/)或探索 [ethers.js vs Web3 streams](https://moralis.io/ethers-js-vs-web3-streams-the-best-option-for-blockchain-developers/) ！
 
-此外，如果你想成为一名更熟练的 Web3 开发者，可以考虑报名参加道德学院。该学院为新手和有经验的开发人员提供了一些最好的区块链开发课程。无论你目前的技能水平如何，你都很可能会发现课程对你有吸引力。例如，如果你是区块链开发的新手，可以去看看[以太坊基础](https://academy.moralis.io/courses/ethereum-101)的课程。
+此外，如果你想成为一名更熟练的 Web3 开发者，可以考虑报名参加 Moralis 学院。该学院为新手和有经验的开发人员提供了一些最好的区块链开发课程。无论你目前的技能水平如何，你都很可能会发现课程对你有吸引力。例如，如果你是区块链开发的新手，可以去看看[以太坊基础](https://academy.moralis.io/courses/ethereum-101)的课程。
 
 ![academy in grey letters](img/09399197c88fcd583e7d685c9e3645f9.png)
 
-尽管如此，如果您想使用 Python 获得所有 NFT 集合或者开发其他 dapps，这并不重要；[现在就向 Moralis](https://admin.moralis.io/register) 报名吧！你可以免费创建一个账户，只需要几秒钟。有了帐户，你就可以立即使用各种道德工具。这使您能够充分利用区块链技术的力量！**
+尽管如此，如果您想使用 Python 获得所有 NFT 集合或者开发其他 dapps，这并不重要；[现在就向 Moralis](https://admin.moralis.io/register) 报名吧！你可以免费创建一个账户，只需要几秒钟。有了帐户，你就可以立即使用各种 Moralis 工具。这使您能够充分利用区块链技术的力量！**

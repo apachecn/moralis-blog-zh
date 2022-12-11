@@ -2,13 +2,13 @@
 
 > 原文：<https://moralis.io/blockchain-syncs-exploring-on-chain-syncing/>
 
-**开发 dapps(去中心化应用)时，必不可少的是使用活的** [**链上数据**](https://moralis.io/on-chain-data-the-ultimate-guide-to-understanding-and-accessing-on-chain-data/) **来提供更引人注目的 UX(用户体验)。此外，在处理实时数据时，你需要确保正确的同步，尤其是在区块链，那里的连锁事件经常发生。这些频繁发生的事件使得为所有未来项目实现可靠的 Web3 同步变得迫切和必要。然而，不幸的是，这在过去是相当麻烦和资源密集型的过程，因为对区块链进行指数化可能是具有挑战性的。好在** [**Web3 开发**](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/) **空间已经走得很远，RPC 节点** **的** [**限制不再是问题。而且，有了道德家的**](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)[**web 3 syncs**](https://moralis.io/syncs/)**，就可以让区块链毫不费力地同步。此工具允许您索引和同步智能合同事件，这对于区块链同步至关重要！**
+**开发 dapps(去中心化应用)时，必不可少的是使用活的** [**链上数据**](https://moralis.io/on-chain-data-the-ultimate-guide-to-understanding-and-accessing-on-chain-data/) **来提供更引人注目的 UX(用户体验)。此外，在处理实时数据时，你需要确保正确的同步，尤其是在区块链，那里的连锁事件经常发生。这些频繁发生的事件使得为所有未来项目实现可靠的 Web3 同步变得迫切和必要。然而，不幸的是，这在过去是相当麻烦和资源密集型的过程，因为对区块链进行指数化可能是具有挑战性的。好在** [**Web3 开发**](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/) **空间已经走得很远，RPC 节点** **的** [**限制不再是问题。而且，有了 Moralis 家的**](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)[**web 3 syncs**](https://moralis.io/syncs/)**，就可以让区块链毫不费力地同步。此工具允许您索引和同步智能合同事件，这对于区块链同步至关重要！**
 
-您可能知道，智能合约对于以太坊、BNB 智能链等可编程链是必不可少的。 [Web3 合同](https://moralis.io/what-are-web3-contracts-exploring-smart-contracts/)基本上是支持这些区块链的链上软件。这些契约确保预定义的操作在满足预定义的条件时执行。作为 Web3 开发世界的基本特征，我们需要关于智能联系人的信息，实现 Web3 同步的最佳方式是通过[道德](https://moralis.io/)。
+您可能知道，智能合约对于以太坊、BNB 智能链等可编程链是必不可少的。 [Web3 合同](https://moralis.io/what-are-web3-contracts-exploring-smart-contracts/)基本上是支持这些区块链的链上软件。这些契约确保预定义的操作在满足预定义的条件时执行。作为 Web3 开发世界的基本特征，我们需要关于智能联系人的信息，实现 Web3 同步的最佳方式是通过[Moralis](https://moralis.io/)。
 
 然而，这只是 Moralis 大放异彩的领域之一。除了为区块链同步提供出色的服务，Moralis 还让 [Web3 认证](https://moralis.io/authentication/)和 [Web3 webhooks](https://moralis.io/web3-webhooks-the-ultimate-guide-to-blockchain-webhooks/) 更易访问。此外，Moralis 提供了一些市场上最好的 API(应用程序编程接口)。在这些接口中，你会发现 [Web3 API](https://docs.moralis.io/moralis-dapp/web3-api) 和 [NFT API](https://moralis.io/nft-api/) 。这些允许您轻松创建 dapps 和 NFT！
 
-所以，如果你想成为区块链开发者，现在就创建你的道德账户吧！可以免费报名；只需要几秒钟。
+所以，如果你想成为区块链开发者，现在就创建你的 Moralis 账户吧！可以免费报名；只需要几秒钟。
 
 ### 什么是智能合同事件
 
@@ -22,7 +22,7 @@
 
 现在，随着对智能合约及其事件有了更深刻的理解，我们可以向前看，更仔细地了解 Web3 同步。在接下来的部分中，我们将展示这个简单的任务，并强烈建议您遵循它。这将让您了解区块链同步的复杂性。此外，它将使您能够在未来创建更复杂的 dapps。
 
-## 区块链与道德同步
+## 区块链与 Moralis 同步
 
 随着 NFT 或不可替代令牌在 2021 年和 2022 年不断成为头条新闻，我们将举例说明如何通过索引和同步加密朋克的智能合约事件来实现区块链同步。此外，我们将假设我们已经有了一个 dapp，我们需要在其中跟踪这些 NFT。基于此，我们需要 CryptoPunks 集合的实时和历史数据。
 
@@ -32,9 +32,9 @@
 
 此外，如果你对 NFT 收藏有进一步的兴趣，比如 CryptoPunks，我们鼓励你学习更多关于创建你自己的收藏。因此，请务必阅读我们的文章，并学习如何在几分钟内开始生成 NFT。
 
-### 创建道德 Dapp
+### 创建 Moralis Dapp
 
-为了获得 Moralis 后端基础设施和功能的力量，我们建议创建一个 Moralis dapp。此外，创建一个分散的应用程序对于区块链同步和智能合同事件的索引非常重要。因此，要创建一个道德账户，你需要做的第一件事就是创建一个道德账户。
+为了获得 Moralis 后端基础设施和功能的力量，我们建议创建一个 Moralis dapp。此外，创建一个分散的应用程序对于区块链同步和智能合同事件的索引非常重要。因此，要创建一个 Moralis 账户，你需要做的第一件事就是创建一个 Moralis 账户。
 
 ![](img/1aa38d1743bf97b9a6829f163faef168.png)
 
@@ -58,7 +58,7 @@
 
 ![](img/04ffa85e2ae590a2dfd4a8fc2410b43d.png)
 
-第二页，即“同步设置(第 2 页，共 2 页)”，是您需要输入与项目目标一致的具体信息的地方。因此，在我们的例子中，我们需要添加允许我们跟踪 CryptoPunks 转账的数据。然而，由于你是与道德一起工作，这个过程变得相对容易。所有你需要做的就是复制粘贴公开可用的链上数据！
+第二页，即“同步设置(第 2 页，共 2 页)”，是您需要输入与项目目标一致的具体信息的地方。因此，在我们的例子中，我们需要添加允许我们跟踪 CryptoPunks 转账的数据。然而，由于你是与 Moralis 一起工作，这个过程变得相对容易。所有你需要做的就是复制粘贴公开可用的链上数据！
 
 ## 使用公开可用的链上数据进行区块链同步
 
@@ -134,7 +134,7 @@ https://www.youtube.com/watch?v=LMqqxkuo7b0
 
 如果你喜欢这个指南，并发现它很有帮助，我们强烈建议你进一步探索 [Moralis 博客](https://moralis.io/blog/)。你会发现大量高质量和有趣的内容，让你成为一个更深刻的 Web3 开发者。例如，你可以了解不同的[类型的道](https://moralis.io/full-2022-guide-to-different-types-of-daos/)，如何[创建一个 NFT 糖果机](https://moralis.io/how-to-create-an-nft-candy-machine/)，或者探索[以太坊认证](https://moralis.io/sign-in-with-ethereum-ethereum-auth-guide/)。
 
-此外，如果你想获得区块链认证，可以考虑道德学院。在那里，你会发现最令人惊叹的[区块链课程](https://academy.moralis.io/all-courses)，教你从基础到更高级技能的一切。
+此外，如果你想获得区块链认证，可以考虑 Moralis 学院。在那里，你会发现最令人惊叹的[区块链课程](https://academy.moralis.io/all-courses)，教你从基础到更高级技能的一切。
 
 ![](img/51a024db4200bf1b51e62ed13ba6fb50.png)
 

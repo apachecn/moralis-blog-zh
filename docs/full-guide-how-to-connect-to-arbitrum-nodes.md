@@ -26,7 +26,7 @@ Arbitrum 是 [Offchain Labs](https://offchainlabs.com/) 的成果，该平台利
 
 ### 解释 Arbitrum 节点
 
-如果你是道德博客的老读者，你可能已经通过像“[什么是归档节点”这样的文章熟悉了节点的概念。](https://moralis.io/what-are-full-archive-nodes/)”。不过，不用担心；如果你是密码世界的新手，我们将提供一个简短的解释。
+如果你是 Moralis 博客的老读者，你可能已经通过像“[什么是归档节点”这样的文章熟悉了节点的概念。](https://moralis.io/what-are-full-archive-nodes/)”。不过，不用担心；如果你是密码世界的新手，我们将提供一个简短的解释。
 
 ![](img/91b11fb9a27613e52a54003f8da713c8.png)
 
@@ -78,13 +78,13 @@ const web3 = new Web3(provider);
 
 端点派上用场的第二个例子是在更改元掩码网络时。如果你有元掩码作为浏览器扩展，你需要做的就是点击“添加到元掩码”按钮。
 
-### 探索道德的快速节点
+### 探索 Moralis 的快速节点
 
-在整篇文章中，我们不断提到 Moralis 的[快速节点](https://moralis.io/speedy-nodes/)。因此，我们更深入地研究这个道德工具是合乎逻辑的。如果你已经是 Moralis 的用户，你会知道 Moralis 的快速节点是一个非常受欢迎的功能。从本质上讲，Moralis 快速节点可以让您访问所有与普通节点相同的功能。
+在整篇文章中，我们不断提到 Moralis 的[快速节点](https://moralis.io/speedy-nodes/)。因此，我们更深入地研究这个 Moralis 工具是合乎逻辑的。如果你已经是 Moralis 的用户，你会知道 Moralis 的快速节点是一个非常受欢迎的功能。从本质上讲，Moralis 快速节点可以让您访问所有与普通节点相同的功能。
 
 ![](img/6d6633697e370f5f2fa4ebf1649e8335.png)
 
-此外，Moralis Speedy Nodes 与所有 Moralis 服务完全集成。这意味着您将能够快速轻松地构建 dApps。此外，考虑到道德的快速节点只是道德的许多功能之一。尽管它使连接到 Arbitrum 节点基础设施变得异常容易。
+此外，Moralis Speedy Nodes 与所有 Moralis 服务完全集成。这意味着您将能够快速轻松地构建 dApps。此外，考虑到 Moralis 的快速节点只是 Moralis 的许多功能之一。尽管它使连接到 Arbitrum 节点基础设施变得异常容易。
 
 因此，Moralis 快速节点有效地使 Moralis 成为最易于使用和最强大的区块链节点提供商之一。更重要的是，看到 Moralis 不断推出对新的链和特性的支持，很容易理解为什么许多人已经选择了 Moralis。
 
@@ -92,6 +92,6 @@ const web3 = new Web3(provider);
 
 节点对于区块链的基础设施至关重要，因为它们提供安全性，并在本质上使网络运转。此外，节点也是非常有用的开发工具，因为它们为我们的项目提供了一种与各种区块链通信的方式。因此，我们可以使用节点[获得用户 ERC-20 令牌余额](https://moralis.io/how-to-get-user-erc-20-tokens-in-4-steps/)，部署合同，甚至改变[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)网络。然而，获取节点并不总是一帆风顺的，因为自己运行一个节点会非常麻烦。因此，找到像 Moralis 这样可靠的节点提供商至关重要。
 
-作为 Moralis 的用户，你可以免费使用 Speedy Nodes 服务，在这里你可以找到六个不同网络的区块链节点。Moralis 提供的节点不仅速度快，而且高度可靠，这使得区块链开发更容易实现。然而，道德的快速节点应该用于正确的目的，因为用户并不总是正确地利用它们。有关这方面的更多信息，请阅读下面关于[以太坊 RPC 节点](https://moralis.io/ethereum-rpc-nodes-what-they-are-and-why-you-shouldnt-use-them/)的文章，解释何时不使用区块链节点。
+作为 Moralis 的用户，你可以免费使用 Speedy Nodes 服务，在这里你可以找到六个不同网络的区块链节点。Moralis 提供的节点不仅速度快，而且高度可靠，这使得区块链开发更容易实现。然而，Moralis 的快速节点应该用于正确的目的，因为用户并不总是正确地利用它们。有关这方面的更多信息，请阅读下面关于[以太坊 RPC 节点](https://moralis.io/ethereum-rpc-nodes-what-they-are-and-why-you-shouldnt-use-them/)的文章，解释何时不使用区块链节点。
 
-此外，这只是道德的冰山一角。Moralis 提供了额外的开发工具，如 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 、[价格 API](https://moralis.io/introducing-the-moralis-price-api/) 、对 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 、 [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 等。因此，如果你想[建立你的第一个 dApp](https://moralis.io/build-your-first-dapp-ethereum-tutorial/) 并进入区块链发展，那么第一步应该是[与道德家](https://admin.moralis.io/register)签约。它是完全免费的，你可以立即使用该平台的所有工具，所以你不会有任何损失！**
+此外，这只是 Moralis 的冰山一角。Moralis 提供了额外的开发工具，如 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 、[价格 API](https://moralis.io/introducing-the-moralis-price-api/) 、对 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 、 [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 等。因此，如果你想[建立你的第一个 dApp](https://moralis.io/build-your-first-dapp-ethereum-tutorial/) 并进入区块链发展，那么第一步应该是[与 Moralis 家](https://admin.moralis.io/register)签约。它是完全免费的，你可以立即使用该平台的所有工具，所以你不会有任何损失！**

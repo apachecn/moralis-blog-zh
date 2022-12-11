@@ -64,7 +64,7 @@ NFT 有许多使用案例和类型，在某些情况下，稀有性并不适用�
 
 看着上面的图片，你可以看到我们甚至考虑了它的特征数量，结果发现许多 BAYC NFTs 有 7 个特征中的 5 个。此外，他们中的许多人没有帽子或耳环，因此我们的例子 NFT 得到了这些属性的低稀有分数。为了得到最终的 NFT 稀有度分数，我们只需将每个特征的稀有度分数相加。
 
-## 与道德家一起开发 NFT 稀有等级 dApp
+## 与 Moralis 家一起开发 NFT 稀有等级 dApp
 
 既然您已经清楚地了解了如何计算 NFT 稀有度，以及我们将要构建什么，那么是时候卷起袖子开始编码了。你可以跟随我们的领导，从头开始，或者你可以使用我们在 [GitHub](https://github.com/IAmJaysWay/Rarity-Ranking-NFT) 上提供的代码。正如上面所承诺的，我们将使用 Moralis 来极大地加速这个过程。此外，Moralis 在其核心中内置了跨链互操作性，这意味着您可以在多个链上轻松部署 dApps。当然，在 NFTs 的情况下，你需要把重点放在作为特定集合的家的链上(BAYC 集合基于[以太坊](https://moralis.io/full-guide-what-is-ethereum/))。要使用 Moralis 的 SDK，您需要创建您的免费帐户和一个 Moralis 服务器。要完成这个简单的设置，请遵循下面小节中提供的说明。
 
@@ -74,7 +74,7 @@ NFT 有许多使用案例和类型，在某些情况下，稀有性并不适用�
 
 无论你是想使用 Moralis 来开发 NFT 稀有等级 dApp 还是其他任何 dApp，你都需要从创建一个 Moralis 服务器开始。要正确做到这一点，您应该遵循以下步骤:
 
-1.  [**创建您的免费 Moralis 账户**](https://admin.moralis.io/register)–点击链接进入注册页面，在这里您需要输入您的电子邮件地址并创建您的密码。此外，不要忘记点击确认链接，这将发送到您的电子邮件。另一方面，如果你已经有一个道德账户，只需[登录](https://admin.moralis.io/login)到你的管理区。
+1.  [**创建您的免费 Moralis 账户**](https://admin.moralis.io/register)–点击链接进入注册页面，在这里您需要输入您的电子邮件地址并创建您的密码。此外，不要忘记点击确认链接，这将发送到您的电子邮件。另一方面，如果你已经有一个 Moralis 账户，只需[登录](https://admin.moralis.io/login)到你的管理区。
 
 2.  [**创建一个 Moralis 服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)–登录到您的 Moralis 管理区域后，进入“服务器”选项卡(导航选项卡的左侧)。进入该选项卡后，单击右上角的“+创建新服务器”按钮。然后从下拉菜单中选择最适合您需求的网络类型(见下图)。*在示例项目的情况下，我们建议选择“Testnet 服务器”选项(* [*连接到以太坊 Testnet*](https://moralis.io/ethereum-testnet-guide-connect-to-ethereum-testnets/)*)。但是，由于 BAYC 是以太坊 mainnet 上的一个活动项目，所以选择“Mainnet 服务器”。*
 

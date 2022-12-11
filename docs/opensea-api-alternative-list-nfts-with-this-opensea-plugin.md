@@ -4,7 +4,7 @@
 
 2021 年初，很少有密码专家预计 OpenSea 等市场上的[](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/)****将成为 NFT 热潮的“爆发点”。虽然有些人可能想抓住机会并通过交易 NFT 获利，但真正的金矿等待着开发人员创建平台和 dApps，在这些平台和 dApps 中，NFT 可以发挥作用。OpenSea 创建了这样一个平台，他们的早期行动已经得到了回报，因为他们是迄今为止领先的 NFT 市场之一。然而，请记住，我们仍然处于游戏的早期。因此，Moralis 通过他们的 OpenSea 插件** [**创建了一个 OpenSea 克隆**](https://moralis.io/create-an-opensea-clone-build-an-nft-marketplace-like-opensea/) **并列出 NFT 以获得额外的优势。因此，您可以使用这个 OpenSea 插件快速方便地列出 NFT，使其成为领先的 OpenSea API 替代方案。****
 
-**接下来，我们将进行一个示例项目，我们将使用由终极 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台—[Moralis](https://moralis.io/)(又名 [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) )提供的 OpenSea API 替代方案。因此，您将能够看到在任何 dApp 中实现 NFT 市场功能是多么容易。这包括在 OpenSea 上列出 NFT 和在 OpenSea 上提交列出的 NFT 的报价，所有这些都直接来自您的 dApps。此外，虽然您可能会使用 OpenSea API，但您即将看到的替代方案会使编码过程简单得多。一旦完成了正确的初始设置，并且安装了 OpenSea 插件，您所需要的就是您的 JavaScript 熟练程度和[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)扩展。此外，由于我们相信在行动中学习，我们邀请您亲自完成我们的范例项目。因此，在继续下一步之前，请确保[创建您的道德账户](https://admin.moralis.io/register)。**
+**接下来，我们将进行一个示例项目，我们将使用由终极 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台—[Moralis](https://moralis.io/)(又名 [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) )提供的 OpenSea API 替代方案。因此，您将能够看到在任何 dApp 中实现 NFT 市场功能是多么容易。这包括在 OpenSea 上列出 NFT 和在 OpenSea 上提交列出的 NFT 的报价，所有这些都直接来自您的 dApps。此外，虽然您可能会使用 OpenSea API，但您即将看到的替代方案会使编码过程简单得多。一旦完成了正确的初始设置，并且安装了 OpenSea 插件，您所需要的就是您的 JavaScript 熟练程度和[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)扩展。此外，由于我们相信在行动中学习，我们邀请您亲自完成我们的范例项目。因此，在继续下一步之前，请确保[创建您的 Moralis 账户](https://admin.moralis.io/register)。**
 
 **![](img/fb766d12090b489d990ea9a81b9fe058.png)
 
@@ -16,7 +16,7 @@
 
 要获得最佳 OpenSea API 替代方案，请完成以下步骤:
 
-1.  [**创建您的道德家账户**](https://admin.moralis.io/register)——如果您还没有创建您的免费道德家账户，请务必现在就创建。只需按照上面的链接，输入您的电子邮件地址，决定您的密码，并通过点击发送到您的地址的确认链接来确认您的电子邮件地址。*如果您已经拥有一个有效的 Moralis 账户，请点击* [*登录*](https://admin.moralis.io/login) *立即进入您的管理区。
+1.  [**创建您的 Moralis 家账户**](https://admin.moralis.io/register)——如果您还没有创建您的免费 Moralis 家账户，请务必现在就创建。只需按照上面的链接，输入您的电子邮件地址，决定您的密码，并通过点击发送到您的地址的确认链接来确认您的电子邮件地址。*如果您已经拥有一个有效的 Moralis 账户，请点击* [*登录*](https://admin.moralis.io/login) *立即进入您的管理区。
     T12】*
 2.  [**创建一个 Moralis 服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)——登录后，你将进入你的 Moralis 管理区。确保您在“服务器”选项卡上，并单击右上角的“+创建新服务器”按钮。将出现一个提供不同类型网络的下拉菜单(见下图)。鉴于这是一个示例项目，我们将使用“Testnet Server”选项。*然而，一旦你准备好部署全功能的* [*Web3 应用*](https://moralis.io/metamask-for-developers-how-to-launch-web3-apps-with-metamask/) *，你就需要选择“Mainnet 服务器”选项。*
 
@@ -44,7 +44,7 @@
 
 ![](img/fc0f4b6e2dca11f80e430d7b4820bdb3.png)
 
-你会看到所有的道德插件；然而，我们将关注 OpenSea 插件。接下来，点击 Moralis 的 OpenSea 插件上的“阅读更多”按钮，选择该插件(见下图):
+你会看到所有的 Moralis 插件；然而，我们将关注 OpenSea 插件。接下来，点击 Moralis 的 OpenSea 插件上的“阅读更多”按钮，选择该插件(见下图):
 
 ![](img/40db8ce0fa7bd19b1dff3c54fe5b15c6.png)
 
@@ -170,7 +170,7 @@ function App() {
 
 ![](img/4c45936a524acf3169095645f1648c7c.png)
 
-此外，**道德家。Plugins.opensea.getAsset** "获取与特定令牌地址和令牌 ID 相关的链上信息。为了帮助您正确理解这一点，我们鼓励您使用一个示例资产，并在 dApp 的两个提示字段中输入其合同地址和令牌 ID。您的浏览器控制台将向您显示您的 dApp 正确地获取了有关所述资产的所有详细信息:
+此外，**Moralis 家。Plugins.opensea.getAsset** "获取与特定令牌地址和令牌 ID 相关的链上信息。为了帮助您正确理解这一点，我们鼓励您使用一个示例资产，并在 dApp 的两个提示字段中输入其合同地址和令牌 ID。您的浏览器控制台将向您显示您的 dApp 正确地获取了有关所述资产的所有详细信息:
 
 ![](img/2ff38f57bfc91edc74ab9ac5c51612a1.png)
 
@@ -256,6 +256,6 @@ https://www.youtube.com/watch?v=r2YFhfjIb3k
 
 我们希望你已经成功地遵循了我们的指导，并创建了你自己的 dApp 范例。如果是这样，您现在知道如何利用最好的 OpenSea API 替代方案来为您的 dApps 添加 NFT 功能。结合 Moralis 的 [ultimate NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) ，这为您提供了完善您的 [NFT 开发](https://moralis.io/nft-token-development-the-ultimate-guide/)技能所需的所有工具。现在你可以接手自己或客户的项目，并尽可能地从这个改变世界的行业中获益。
 
-然而，如果你还不精通 JavaScript，我们建议你报名参加[道德学院](https://academy.moralis.io/)的 [2021 区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)课程。此外，许多高质量的课程可以帮助你更快地成为全职加密员。此外，一定要访问 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)，那里有大量免费的教育和励志内容，可以帮助你[成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)。我们的一些最新文章向您展示了[如何在以太坊](https://moralis.io/how-to-do-gasless-transactions-on-ethereum/)上进行无气体交易，如何[建立跨链桥](https://moralis.io/how-to-build-a-cross-chain-bridge/)，如何[快速创建 DAO](https://moralis.io/how-to-create-a-dao-in-10-minutes/) ，如何[创建预测市场 dApp](https://moralis.io/how-to-build-a-prediction-market-dapp/) ，开发者的[元掩码的来龙去脉](https://moralis.io/metamask-for-developers-how-to-launch-web3-apps-with-metamask/)，如何[用短信获取 Web3 事件](https://moralis.io/get-web3-events-with-sms-messages/)，如何[创建免费令牌](https://moralis.io/create-free-token-how-to-deploy-your-own-testnet-crypto-token-in-10-mins/)，如何
+然而，如果你还不精通 JavaScript，我们建议你报名参加[Moralis 学院](https://academy.moralis.io/)的 [2021 区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)课程。此外，许多高质量的课程可以帮助你更快地成为全职加密员。此外，一定要访问 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)，那里有大量免费的教育和励志内容，可以帮助你[成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)。我们的一些最新文章向您展示了[如何在以太坊](https://moralis.io/how-to-do-gasless-transactions-on-ethereum/)上进行无气体交易，如何[建立跨链桥](https://moralis.io/how-to-build-a-cross-chain-bridge/)，如何[快速创建 DAO](https://moralis.io/how-to-create-a-dao-in-10-minutes/) ，如何[创建预测市场 dApp](https://moralis.io/how-to-build-a-prediction-market-dapp/) ，开发者的[元掩码的来龙去脉](https://moralis.io/metamask-for-developers-how-to-launch-web3-apps-with-metamask/)，如何[用短信获取 Web3 事件](https://moralis.io/get-web3-events-with-sms-messages/)，如何[创建免费令牌](https://moralis.io/create-free-token-how-to-deploy-your-own-testnet-crypto-token-in-10-mins/)，如何
 
 ![](img/8b42b95727b171b6c81ec90878f2068b.png)**

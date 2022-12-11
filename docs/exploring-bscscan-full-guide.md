@@ -112,7 +112,7 @@
 
 注:BscScan 将 NFTs 称为 ERC-721，这是以太坊上的 NFT 标准。然而，币安智能链上的 NFT 实际上遵循 BEP-721 标准。您将会在“概述”表旁边看到这一指示(见上图)。
 
-## **道德与理学学士编程**
+## **Moralis 与理学学士编程**
 
 如果你真的想在币安智能链上发展，了解 BscScan 对你的帮助会让你受益匪浅。然而，了解这一点对于成为一名 BSC 开发人员来说并不重要。如果您使用 Moralis，您可以在不熟悉 BscScan 的情况下开始在 BSC 上创建分散式应用程序。多亏了 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) ，你只需使用 [Moralis 文档](https://docs.moralis.io/)中提供的简短代码片段，就可以访问所有重要的链上数据。你基本上只需要知道 JavaScript 和如何使用元掩码。一旦你完成了初始设置(注册/登录你的 Moralis 账户，创建你的服务器，启动 Moralis 的 SDK)，你就可以很容易地[构建 BSC dApps](https://moralis.io/how-to-build-bsc-dapps-easily/) 。最棒的是，Moralis 的 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 让 [NFT 开发](https://moralis.io/how-to-create-your-own-nft-in-5-steps/)比以往任何时候都更容易！
 
@@ -131,6 +131,6 @@
 
 除了提供有关 BSC 交易、令牌和钱包的详细信息之外，它还为开发人员提供了一些有用的资源。因此，每个 BSC 用户，尤其是开发人员，可能都有兴趣了解他们对 BscScan 的理解。此外，使用本文中的信息，您应该能够满足获取 BSC 交易、令牌和钱包详细信息的所有基本需求。Moralis 允许您毫不费力地访问 [BEP20 测试网](https://moralis.io/bep20-testnet-create-a-bep20-token-in-15-mins/)。此外，Moralis 还为 BSC 提供了一个“ [Infura”选项，以及更多其他选项！](https://moralis.io/infura-bsc-alternatives-the-best-alternative-to-infura-for-bsc/)
 
-通过[创建你的免费道德账户](https://admin.moralis.io/register)，你可以显著加快你的 Web3 开发进程。使用 Moralis，您可以通过复制和粘贴单行代码来多次覆盖所有后端编码。因此，原本耗时且繁琐的开发过程变得简单了，使您能够在创纪录的时间内创建和启动 dApps。因此，[与 Moralis](https://admin.moralis.io/register) 签约，今天就承担其中一个推荐的范例项目，看看 Moralis 如何让区块链的发展变得轻而易举！如果你喜欢这个指南，一定要去看看 Moralis 的博客，寻找更多高价值的内容，这样你就可以进一步拓展你的区块链知识。
+通过[创建你的免费 Moralis 账户](https://admin.moralis.io/register)，你可以显著加快你的 Web3 开发进程。使用 Moralis，您可以通过复制和粘贴单行代码来多次覆盖所有后端编码。因此，原本耗时且繁琐的开发过程变得简单了，使您能够在创纪录的时间内创建和启动 dApps。因此，[与 Moralis](https://admin.moralis.io/register) 签约，今天就承担其中一个推荐的范例项目，看看 Moralis 如何让区块链的发展变得轻而易举！如果你喜欢这个指南，一定要去看看 Moralis 的博客，寻找更多高价值的内容，这样你就可以进一步拓展你的区块链知识。
 
 ![](img/09b8eaa12c95874eb2e84672f147e8e7.png)**

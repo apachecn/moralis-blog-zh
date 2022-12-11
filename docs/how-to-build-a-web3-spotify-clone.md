@@ -78,19 +78,19 @@ dApp 的音乐播放器使我们能够跳过该专辑中的歌曲，点击暂停
 
 因为你们中的大多数人都精通 JavaScript，并且有相当多的前端编程经验，所以我们不会详细介绍构建我们的 Web3 Spotify 克隆版 UI 的细节。相反，我们鼓励您使用本文底部的视频。在那里，Moralis 专家将为您提供详细的指导。他将首先向您展示如何创建侧栏(03:11)。接下来，从 11:17 开始，您将有机会学习如何创建一个合适的主页。在 20:43，你将开始处理专辑页。然后，作为我们的 Web3 Spotify 克隆版 UI 的最后一部分，您将实现一个音频播放器(31:31)。
 
-通过完成所有这些阶段，您将拥有一个看起来像“我们的 Web3 Spotify 克隆预览”部分中展示的应用程序。然而，要将这个应用程序转换为 dApp，您需要包含 Web3 功能。因此，是时候给道德让路了。
+通过完成所有这些阶段，您将拥有一个看起来像“我们的 Web3 Spotify 克隆预览”部分中展示的应用程序。然而，要将这个应用程序转换为 dApp，您需要包含 Web3 功能。因此，是时候给 Moralis 让路了。
 
 ![](img/acb69bd51b7c4f2f56d3b06d30e905ae.png)
 
-## Web3 Spotify 克隆和道德
+## Web3 Spotify 克隆和 Moralis
 
 正如介绍中提到的，当您希望克服 RPC 节点的所有[限制时，Moralis 是游戏的名称。除了为](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/) [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/)提供最实用的解决方案，这个非凡的工具还提供了无数的快捷方式。此外，一旦您创建了您的 Moralis 服务器，您还可以访问您的 Moralis 仪表板。后者与 Moralis 的“同步”功能相结合，使您能够[同步和索引智能合约事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/)。另外，Moralis 包括多个集成，包括 [WalletConnect](https://moralis.io/what-is-walletconnect-the-ultimate-walletconnect-guide/) 、 [MetaMask](https://moralis.io/metamask-explained-what-is-metamask/) 和 IPFS。我们将使用后者[向 IPFS](https://moralis.io/full-guide-how-to-upload-to-ipfs/) 上传文件。此外，如果你更喜欢创作游戏， [Moralis 的元宇宙 SDK](https://moralis.io/metaverse/) 也能让你轻松处理 [Unity Web3](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/) 编程。
 
-解决了这个问题，让我们把注意力放回到我们的示例项目上；是时候完成最初的道德设置了。
+解决了这个问题，让我们把注意力放回到我们的示例项目上；是时候完成最初的 Moralis 设置了。
 
 ![](img/58519d287a773f40b5405904207bc86b.png)
 
-### 初始道德设置
+### 初始 Moralis 设置
 
 1.  **创建您的免费 Moralis 账户**–使用本文开头的链接访问注册页面。在那里，你可以创建你的免费账户。只需输入您的电子邮件地址，创建您的密码，并通过点击确认链接(检查您的收件箱)来确认您的帐户。*不过，如果你已经有一个活跃的 Moralis 账号，只需* [*登录*](https://admin.moralis.io/login) *。*
 
@@ -146,8 +146,8 @@ https://www.youtube.com/watch?v=E7R1gX-pEAs
 
 ## 如何构建 Web3 Spotify 克隆版——总结
 
-在这篇文章中，我们已经涉及了相当多的内容。在本指南的帮助下，通过观看我们的道德专家的视频教程，我们成功地指导您完成了创建 Web3 Spotify 克隆的整个过程。此外，尽管事实上这是一个相当广泛的项目，你可以在一个多小时内完成。也就是说，如果您从我们的“starter”代码开始，并自己完成上述步骤。然而，如果你使用我们完成的代码，你可以在几分钟内克隆并运行你的 Web3 Spotify。这是一个完美的 Web3 项目，看看周围有大量的 Web3 增长。
+在这篇文章中，我们已经涉及了相当多的内容。在本指南的帮助下，通过观看我们的 Moralis 专家的视频教程，我们成功地指导您完成了创建 Web3 Spotify 克隆的整个过程。此外，尽管事实上这是一个相当广泛的项目，你可以在一个多小时内完成。也就是说，如果您从我们的“starter”代码开始，并自己完成上述步骤。然而，如果你使用我们完成的代码，你可以在几分钟内克隆并运行你的 Web3 Spotify。这是一个完美的 Web3 项目，看看周围有大量的 Web3 增长。
 
-如果你喜欢这个示例项目，一定要看看[道德的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德的博客](https://moralis.io/blog/)。除了无数其他的例子项目，这些都是你可以继续你的免费区块链发展教育的好地方。一些最新的话题涵盖了如何[建立一个 Web3 亚马逊市场](https://moralis.io/how-to-build-a-web3-amazon-marketplace/)，一个[中世纪元宇宙游戏](https://moralis.io/how-to-build-a-medieval-metaverse-game/)，一个 [Web3 MMORPG](https://moralis.io/build-a-web3-mmorpg-with-unity-in-10-minutes/) 与 Unity，一个[跨链 Zapper dApp 与 ReactJS](https://moralis.io/how-to-build-a-cross-chain-zapper-dapp-with-reactjs-using-moralis-api-and-serverless-real-time-transactions/) ，如何[推出一个白色标签 NFT 市场](https://moralis.io/how-to-launch-a-white-label-nft-marketplace/)，等等。
+如果你喜欢这个示例项目，一定要看看[Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 的博客](https://moralis.io/blog/)。除了无数其他的例子项目，这些都是你可以继续你的免费区块链发展教育的好地方。一些最新的话题涵盖了如何[建立一个 Web3 亚马逊市场](https://moralis.io/how-to-build-a-web3-amazon-marketplace/)，一个[中世纪元宇宙游戏](https://moralis.io/how-to-build-a-medieval-metaverse-game/)，一个 [Web3 MMORPG](https://moralis.io/build-a-web3-mmorpg-with-unity-in-10-minutes/) 与 Unity，一个[跨链 Zapper dApp 与 ReactJS](https://moralis.io/how-to-build-a-cross-chain-zapper-dapp-with-reactjs-using-moralis-api-and-serverless-real-time-transactions/) ，如何[推出一个白色标签 NFT 市场](https://moralis.io/how-to-launch-a-white-label-nft-marketplace/)，等等。
 
-另一方面，你可能会更认真，希望[相对更快地成为 Web3 开发者](https://moralis.io/how-to-become-a-web3-developer-full-guide/)。如果是这样的话，你需要采取专业的方法。幸运的是，在[道德学院](https://academy.moralis.io/)，有一个支持和进步的开发者社区在等着你。除了获得高价值的[课程](https://academy.moralis.io/all-courses)，你还将获得个性化的学习路径和专业指导。因此，你将有你需要的一切去全职加密宜早不宜迟。
+另一方面，你可能会更认真，希望[相对更快地成为 Web3 开发者](https://moralis.io/how-to-become-a-web3-developer-full-guide/)。如果是这样的话，你需要采取专业的方法。幸运的是，在[Moralis 学院](https://academy.moralis.io/)，有一个支持和进步的开发者社区在等着你。除了获得高价值的[课程](https://academy.moralis.io/all-courses)，你还将获得个性化的学习路径和专业指导。因此，你将有你需要的一切去全职加密宜早不宜迟。

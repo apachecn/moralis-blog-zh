@@ -2,13 +2,13 @@
 
 > 原文：<https://moralis.io/web3-apis-exploring-the-top-5-blockchain-apis/>
 
-在基于 Web3 构建时，Web3 APIs 至关重要，因为这些 API 能够带来流畅的开发体验。您是否知道 [**道德家**](https://moralis.io/) **提供了一些业界最强大的 Web3 APIs？此外，你知道你可以利用这些连接任何技术栈到区块链网络吗？如果您想进一步研究这些，请跟随我们探索排名前五的区块链 API！**
+在基于 Web3 构建时，Web3 APIs 至关重要，因为这些 API 能够带来流畅的开发体验。您是否知道 [**Moralis 家**](https://moralis.io/) **提供了一些业界最强大的 Web3 APIs？此外，你知道你可以利用这些连接任何技术栈到区块链网络吗？如果您想进一步研究这些，请跟随我们探索排名前五的区块链 API！**
 
 在探索最佳 Web3 APIs 之前，我们将通过解释 API 的复杂性来开始本指南。这样做将提供什么是 API 以及它们如何对开发人员有所帮助的简要概述。接下来，我们将探讨五大 Web3 APIs。具体来说，我们将仔细研究 Moralis 的 NFT、认证、流、Solana 和 EVM API。
 
 上面的 API 在几个不同的 [Web3 开发](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/)领域有很大的帮助。因此，有可能将 Moralis 集成到任何后端，使您作为开发人员的任务更加简单明了。更重要的是，Moralis 在 Web2 和 Web3 之间架起了一座桥梁，允许您创建功能强大的 dapps(分散式应用程序),并具有传统 Web2 开发的可访问性。此外，由于 Moralis 本身是跨链兼容的，所以 Web3 APIs 支持几种不同的网络。因此，在与 Moralis 合作时，你不会将自己或项目局限于某个特定的网络。
 
-因此，如果你想[创建一个 Web3 dapp](https://moralis.io/how-to-create-a-web3-dapp-in-3-steps/) 、DeFi 平台或其他 Web3 项目，可以考虑与 Moralis 签约。作为 Moralis 会员，您将立即获得所有 API，简化区块链相关数据与任何项目的集成。更重要的是，创建一个道德账户是免费的，所以你不会有任何损失！
+因此，如果你想[创建一个 Web3 dapp](https://moralis.io/how-to-create-a-web3-dapp-in-3-steps/) 、DeFi 平台或其他 Web3 项目，可以考虑与 Moralis 签约。作为 Moralis 会员，您将立即获得所有 API，简化区块链相关数据与任何项目的集成。更重要的是，创建一个 Moralis 账户是免费的，所以你不会有任何损失！
 
 ## 什么是 Web3 APIs？
 
@@ -46,7 +46,7 @@ Moralis 的 [NFT API](https://moralis.io/nft-api/) 集合了构建复杂的 NFT 
 
 ![](img/c805cf68151d6bdabd290181404b7eb7.png)
 
-在 Moralis 的 NFT API 之前，获取 NFT 数据是一项相对麻烦的任务。它通常要求您解析单个智能契约、对不规则数据集进行排序、查询元数据节点等。但是，您现在可以避免这些不必要的任务。相反，你所需要的是一个单一的调用来检索任何区块链道德支持的 NFT 信息！
+在 Moralis 的 NFT API 之前，获取 NFT 数据是一项相对麻烦的任务。它通常要求您解析单个智能契约、对不规则数据集进行排序、查询元数据节点等。但是，您现在可以避免这些不必要的任务。相反，你所需要的是一个单一的调用来检索任何区块链 Moralis 支持的 NFT 信息！
 
 以下是 Moralis NFT API 的一些主要特性:
 
@@ -60,7 +60,7 @@ Web3 开发的一个重要部分是认证用户。从传统的角度来看，这
 
 ![](img/d15c5f1402ce6fef5baa9ba7bfd6dda2.png)
 
-如果您创建一个新的 Web3 应用程序，想要使用身份验证聚合器，或者使用 Web3 身份验证机制连接您现有的 Web2 用户数据库，这都没有关系；道德会罩着你的。
+如果您创建一个新的 Web3 应用程序，想要使用身份验证聚合器，或者使用 Web3 身份验证机制连接您现有的 Web2 用户数据库，这都没有关系；Moralis 会罩着你的。
 
 从传统的角度来看，Web3 身份验证通常要求您理解 Web3 身份验证流程，将用户重定向到第三方界面，了解钱包如何签名/验证消息，等等。然而，现在您可以选择使用 Moralis 的认证 API。该接口提供了一个复杂的 SDK(软件开发工具包)，一个用于所有身份验证方法的统一 API，并且与身份验证聚合器兼容！
 
@@ -110,7 +110,7 @@ Web3 APIs 负责通过翻译指令来促进软件之间的通信，以便相互�
 
 前面提到的 API 提供了更有吸引力的开发人员体验，允许您更有效地创建 Web3 项目。更重要的是，由于 Moralis 的跨链能力，在为多个不同的网络开发项目时，您可以选择使用这些 API。此外，如果你想了解更多关于 Moralis 的能力，请点击 Moralis 查看更多内容。例如，我们推荐查看我们关于 Web3 的终极[NodeJS SDK](https://moralis.io/nodejs-sdk-for-web3-exploring-moralis-nodejs-sdk/)或者如何[设置自托管解析服务器](https://moralis.io/how-to-set-up-a-self-hosted-parse-server/)的文章。
 
-此外，如果你想更加精通 Web3 开发，可以考虑报名参加[道德学院](https://academy.moralis.io/)。该学院为有经验和新手开发人员提供[区块链课程](https://academy.moralis.io/all-courses)。例如，如果你是这个领域的新手，就报名参加“[区块链&比特币 101](https://academy.moralis.io/courses/blockchain-bitcoin-101) ”课程，学习基础知识。
+此外，如果你想更加精通 Web3 开发，可以考虑报名参加[Moralis 学院](https://academy.moralis.io/)。该学院为有经验和新手开发人员提供[区块链课程](https://academy.moralis.io/all-courses)。例如，如果你是这个领域的新手，就报名参加“[区块链&比特币 101](https://academy.moralis.io/courses/blockchain-bitcoin-101) ”课程，学习基础知识。
 
 ![](img/ae6fea2393984ebfea3c54447b084dd8.png)
 

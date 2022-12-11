@@ -18,9 +18,9 @@
 
 说到游戏类型，我们都有不同的偏好。然而，我们大多数人认为多人游戏是最有趣的。有了 Web3，事情变得更加激动人心！尽管 Web3 仍处于起步阶段，但它已经颠覆了游戏行业。因此，现在可能是学习如何构建 Web3 多人游戏的最佳时机。此外，由于 Unity Multiplayer 等工具，现在开发这类游戏比以往任何时候都容易。就集成 Web3 功能而言， [Moralis](https://moralis.io/) 是首选。这个终极的 Web3 API 提供者使您能够获取链上数据，实现 [Web3 认证](https://moralis.io/authentication/)，甚至与智能合约交互。
 
-接下来，我们将进一步了解什么是 Unity 多人游戏。然后，我们还将快速回顾道德的特点。毕竟，这些是我们在制作如何构建 Web3 多人游戏的教程时使用的工具。当然，我们还会仔细看看我们的示例多人 Web3 游戏。基本上，我们会对我们的游戏做一个适当的演示，以确保你可以把它作为一个概念来使用。事实上，您可以使用我们的存储库在几分钟内构建一个具有多人游戏功能的游戏。你需要做的就是克隆我们的代码，完成初始设置，并输入你的道德细节。
+接下来，我们将进一步了解什么是 Unity 多人游戏。然后，我们还将快速回顾 Moralis 的特点。毕竟，这些是我们在制作如何构建 Web3 多人游戏的教程时使用的工具。当然，我们还会仔细看看我们的示例多人 Web3 游戏。基本上，我们会对我们的游戏做一个适当的演示，以确保你可以把它作为一个概念来使用。事实上，您可以使用我们的存储库在几分钟内构建一个具有多人游戏功能的游戏。你需要做的就是克隆我们的代码，完成初始设置，并输入你的 Moralis 细节。
 
-此外，我们还将看看我们的网络伙伴 dapp，它是对我们的示例多人游戏的一个很好的实用补充。因此，如果你想学习如何简单地构建一个 Web3 多人游戏，请确保[创建你的免费道德账户](https://admin.moralis.io/register)并跟随我们。
+此外，我们还将看看我们的网络伙伴 dapp，它是对我们的示例多人游戏的一个很好的实用补充。因此，如果你想学习如何简单地构建一个 Web3 多人游戏，请确保[创建你的免费 Moralis 账户](https://admin.moralis.io/register)并跟随我们。
 
 ![](img/3674ce016d2ff85a28b6f202f724ed49.png)
 
@@ -54,7 +54,7 @@ Unity Multiplayer 指的是“Unity 多人联网”，是 Unity 用于多人游�
 
 使用上面介绍的工具，你可以很容易地构建各种 Web3 多人游戏。在操场上，我们确保多人游戏功能将玩家匹配在一起，并同步他们的数据。因此，每个玩家都可以看到其他玩家的角色位置、帐户详情等。我们用 Unity 涵盖了这些方面。另一方面，我们使用 Moralis 将 ERC-20 和 ERC-721 代币整合到游戏中。
 
-*注:* *每个代币背后都有智能合约，包括我们的游戏内实例资产。然而，这些契约的创建和部署超出了本教程的目的。然而，你可以从我们之前在道德 YouTube 频道和 Web3 博客上的 Unity 教程中了解更多。此外，我们不会在本文中详细讨论 Web3 认证。*
+*注:* *每个代币背后都有智能合约，包括我们的游戏内实例资产。然而，这些契约的创建和部署超出了本教程的目的。然而，你可以从我们之前在 Moralis YouTube 频道和 Web3 博客上的 Unity 教程中了解更多。此外，我们不会在本文中详细讨论 Web3 认证。*
 
 在操场上，我们的 ERC-20 代币代表金币，而 ERC-721 代币代表 NFT 奖。这也意味着玩家拥有自己的游戏内资产。此外，这些资产是不可变的，可以转移到其他账户。玩家可以在游戏内或游戏外使用他们的 Web3 钱包来完成这项工作。尽管如此，由于这些资产存放在区块链，有关转让和所有权的细节是完全透明的。
 
@@ -144,7 +144,7 @@ Unity Multiplayer 指的是“Unity 多人联网”，是 Unity 用于多人游�
 
 ![We see a code editor and a user clicking on Lan and then clicking on the Build a Web3 Multiplayer Game button.](img/2ae481e191d6d8e0eb4aa8b96090afb3.png)
 
-此外，在通过玩游乐场获得足够的信心后，你可能会想专注于创建自己的 Web3 多人游戏。这是你充分利用 Unity 的多人游戏功能和道德力量的时候。此外，拥有一个“网络伴侣”dapp 可以带来巨大的不同。毕竟，这样的 dapps 使您能够创建记分板，提供整洁的仪表板，为员工管理员提供访问权限，或者实现许多其他管理目的。要查看我们的操场网络伙伴 dapp 示例，请使用下面的视频，从 13:16 开始。
+此外，在通过玩游乐场获得足够的信心后，你可能会想专注于创建自己的 Web3 多人游戏。这是你充分利用 Unity 的多人游戏功能和 Moralis 力量的时候。此外，拥有一个“网络伴侣”dapp 可以带来巨大的不同。毕竟，这样的 dapps 使您能够创建记分板，提供整洁的仪表板，为员工管理员提供访问权限，或者实现许多其他管理目的。要查看我们的操场网络伙伴 dapp 示例，请使用下面的视频，从 13:16 开始。
 
 最后，这是我们在“构建一个 Web3 多人游戏”的过程中一直参考的视频教程:
 
@@ -156,4 +156,4 @@ Unity Multiplayer 指的是“Unity 多人联网”，是 Unity 用于多人游�
 
 至此，您知道了使用什么工具以及构建 Web3 多人游戏的步骤。如果你是 Web3 开发的新手，我们鼓励你从一些其他初学者友好的挑战开始。例如，你可以使用 Moralis 文档，用 Unity 和 PlayFab 创建你的第一个 dapp。接下来，使用现有的 Unity 教程，你可以在 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)上找到。当然，这些渠道也是探索其他区块链发展主题的重要资源。我们的一些最新文章关注于[构建以太坊 dapps](https://moralis.io/building-ethereum-dapps-create-test-and-deploy/) ，用 MetaMask 创建[web 3 Firebase 登录，在以太坊上创建](https://moralis.io/create-a-web3-firebase-login-with-metamask/)[去中心化网站](https://moralis.io/how-to-create-a-decentralized-website-on-ethereum/)，构建 [Solana 智能合约](https://moralis.io/solana-smart-contract-building/)，等等。
 
-除了上述免费资源，你也可以考虑成为区块链认证。实现这一目标的最佳地点是道德学院。如果你对 Web3 开发感兴趣，那么“ [Unity 区块链游戏开发 101](https://academy.moralis.io/courses/unity-blockchain-game-development-101) 课程应该是你的起点。
+除了上述免费资源，你也可以考虑成为区块链认证。实现这一目标的最佳地点是 Moralis 学院。如果你对 Web3 开发感兴趣，那么“ [Unity 区块链游戏开发 101](https://academy.moralis.io/courses/unity-blockchain-game-development-101) 课程应该是你的起点。

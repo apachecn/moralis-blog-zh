@@ -8,7 +8,7 @@
 
 **这是可能的，因为 Moralis 提供了优秀的开发工具，如 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/?utm_source=blog&utm_medium=post&utm_campaign=How%2520to%2520Lazy%2520Mint%2520NFTs) 、Moralis 的 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/?utm_source=blog&utm_medium=post&utm_campaign=How%2520to%2520Lazy%2520Mint%2520NFTs) 和 [Price API](https://moralis.io/introducing-the-moralis-price-api/?utm_source=blog&utm_medium=post&utm_campaign=How%2520to%2520Lazy%2520Mint%2520NFTs) ，更重要的是，还有一个完全托管的后端基础设施。这不仅为非功能性测试，也为所有未来的区块链项目提供了一个更容易使用的开发过程。**
 
-**出于这些原因，如果你正在寻找参与区块链行业的扩散，第一步是注册与道德！**
+**出于这些原因，如果你正在寻找参与区块链行业的扩散，第一步是注册与 Moralis！**
 
 ### **什么是 NFT？**
 
@@ -34,16 +34,16 @@
 
 ## 如何在没有汽油费的情况下制造 NFT
 
-如果没有合适的工具，懒惰制造 NFT 可能是一项相当复杂的工作。因此，我们将在整个教程中使用 Moralis，因为这使得这个过程更容易理解。在这种情况下，我们将创建我们自己的懒惰铸币 NFT dApp。这种 dApp 将允许我们连续铸造 NFT，而不必支付任何天然气费用。因为我们要使用道德，这个过程可以通过四个简单的步骤实现:
+如果没有合适的工具，懒惰制造 NFT 可能是一项相当复杂的工作。因此，我们将在整个教程中使用 Moralis，因为这使得这个过程更容易理解。在这种情况下，我们将创建我们自己的懒惰铸币 NFT dApp。这种 dApp 将允许我们连续铸造 NFT，而不必支付任何天然气费用。因为我们要使用 Moralis，这个过程可以通过四个简单的步骤实现:
 
-1.  创建一个道德服务器。
+1.  创建一个 Moralis 服务器。
 2.  从 Moralis 添加“稀有 NFT 工具”插件。
 3.  创建一个 HTML 文件。
 4.  加上 dApp 的逻辑。
 
 Moralis 的众多特性之一是[插件商店](https://moralis.io/plugins/)。在这里我们会找到“[稀有 NFT 工具](https://moralis.io/plugins/rarible-nft-tools/)”插件，每个拥有 Moralis 账户的人都可以使用。这个插件使我们能够用一行代码轻松创建 NFT。这与已经管理的后端基础设施相结合，使得创建这个 dApp 变得轻而易举。因此，没有任何进一步的麻烦，让我们进入如何薄荷无油费的过程！
 
-### 第一步:如何在没有汽油费的情况下制造 NFTs 创建一个道德服务器
+### 第一步:如何在没有汽油费的情况下制造 NFTs 创建一个 Moralis 服务器
 
 如果您还没有，本教程的第一部分是创建一个 Moralis 帐户。这只需要几秒钟，而且完全免费！登录后，您可以通过点击界面右上角的“+创建新服务器”来创建新的 Moralis 服务器。这将提供三种选择；然而，对于本教程，选择哪一个并不重要。
 
@@ -71,7 +71,7 @@ Moralis 的众多特性之一是[插件商店](https://moralis.io/plugins/)。�
 
 服务器启动并运行，安装了适当的插件后，下一步是使用 HTML 代码构建网站的内容。为此，我们需要做的第一件事是打开首选的 IDE(集成开发环境)并创建一个名为“index.html”的新文件。
 
-构建 dApp 的内容应该根据你自己的喜好来完成，这取决于你想要的 UI(用户界面)的外观。然而，为了让你了解一个懒惰的铸造 dApp 可能是什么样子，我们从道德 YouTube 频道中选取了一个例子:
+构建 dApp 的内容应该根据你自己的喜好来完成，这取决于你想要的 UI(用户界面)的外观。然而，为了让你了解一个懒惰的铸造 dApp 可能是什么样子，我们从 Moralis YouTube 频道中选取了一个例子:
 
 ![](img/76ddc7502f361130094ceddfebce3bf3.png)
 
@@ -134,7 +134,7 @@ let metadataHash = jsonFile.hash();
     })
 ```
 
-随着元数据对象上传到 IPFS，该函数通过调用“道德”继续。Plugins.rarible.lazyMint()"函数。这一行代码允许我们偷工减料，以避免最初的天然气价格。当调用时，我们包括网络、用户地址、令牌类型、令牌 URI 和版税金额。
+随着元数据对象上传到 IPFS，该函数通过调用“Moralis”继续。Plugins.rarible.lazyMint()"函数。这一行代码允许我们偷工减料，以避免最初的天然气价格。当调用时，我们包括网络、用户地址、令牌类型、令牌 URI 和版税金额。
 
 ```js
 console.log(res);
@@ -159,12 +159,12 @@ https://www.youtube.com/watch?v=n6rPr0sStTI
 
 懒惰铸造消除了艺术家和开发商的经济压力，因为 NFT 的实际铸造过程转移到了购买的时候。此外，由于只有出售的非功能性食品是铸造的，区块链网络的一些压力被消除了。
 
-然而，惰性制造 NFT 可能是一项相对复杂的工作。幸运的是，有解决这些问题的方法，其中之一就是道德。Moralis 是 Web3 开发的头号操作系统，有了这个平台，用一行代码就可以轻松地创建 NFT。
+然而，惰性制造 NFT 可能是一项相对复杂的工作。幸运的是，有解决这些问题的方法，其中之一就是 Moralis。Moralis 是 Web3 开发的头号操作系统，有了这个平台，用一行代码就可以轻松地创建 NFT。
 
-然而，这远不是道德家的极限，你可以随时收听道德家的博客获取更多内容。在这里你可以找到一些指南，例如，[如何建立以太坊 dApps](https://moralis.io/ultimate-guide-how-to-build-ethereum-dapps/) ，[如何创建 BSC 令牌](https://moralis.io/how-to-create-a-bsc-token-in-5-steps/)，[如何开发你自己的 NFT 市场](https://moralis.io/develop-your-own-nft-marketplace-step-by-step-guide/)，等等。
+然而，这远不是 Moralis 家的极限，你可以随时收听 Moralis 家的博客获取更多内容。在这里你可以找到一些指南，例如，[如何建立以太坊 dApps](https://moralis.io/ultimate-guide-how-to-build-ethereum-dapps/) ，[如何创建 BSC 令牌](https://moralis.io/how-to-create-a-bsc-token-in-5-steps/)，[如何开发你自己的 NFT 市场](https://moralis.io/develop-your-own-nft-marketplace-step-by-step-guide/)，等等。
 
 ![](img/005d1e596d7b45c01a36c58a0df21ca5.png)
 
-此外，如果你想提高你的发展技能，那么一定要去看看道德学院。在道德学院，我们教区块链从零开始发展。因此，如果有兴趣，请查看我们的 [2021 区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)课程。在那里，您将学习开始编程之旅所需的一切。完成后，你将能够继续在道德学院的其他课程！
+此外，如果你想提高你的发展技能，那么一定要去看看 Moralis 学院。在 Moralis 学院，我们教区块链从零开始发展。因此，如果有兴趣，请查看我们的 [2021 区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)课程。在那里，您将学习开始编程之旅所需的一切。完成后，你将能够继续在 Moralis 学院的其他课程！
 
 ![](img/b35e0f2891a4d841988a21aadcce4c22.png)**

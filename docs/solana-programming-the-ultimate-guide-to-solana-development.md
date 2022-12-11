@@ -2,9 +2,9 @@
 
 > 原文：<https://moralis.io/solana-programming-the-ultimate-guide-to-solana-development/>
 
-索拉纳是定义 2021 年的可编程区块链之一。然而，索拉纳还有比 2021 年价格上涨更多的东西。具体来说，很多开发人员都在关注 Solana 编程。此外，与以太坊不同的是，该连锁店的汽油费要低得多，这使其比以太坊等更具优势。此外，索拉纳链上有无数项目——更不用说 SPL 代币和索拉纳 NFT(不可替代代币)了。此外，与大多数其他流行的区块链网络不同，索拉纳不是 EVM 兼容的。因此，Solana 不使用 Solidity 作为它的编程语言。尽管如此，我们将涵盖您需要了解的关于 Solana 编程的所有知识，不管您以前有什么知识。首先，你应该知道有一些工具可以让 Solana 编程变得简单很多。这就是最终的 Web3 开发平台 [**道德家**](https://moralis.io/) **的不同之处。而且，由于熊市是为了建设，现在是学习更多关于索拉纳开发的最佳时机。**
+索拉纳是定义 2021 年的可编程区块链之一。然而，索拉纳还有比 2021 年价格上涨更多的东西。具体来说，很多开发人员都在关注 Solana 编程。此外，与以太坊不同的是，该连锁店的汽油费要低得多，这使其比以太坊等更具优势。此外，索拉纳链上有无数项目——更不用说 SPL 代币和索拉纳 NFT(不可替代代币)了。此外，与大多数其他流行的区块链网络不同，索拉纳不是 EVM 兼容的。因此，Solana 不使用 Solidity 作为它的编程语言。尽管如此，我们将涵盖您需要了解的关于 Solana 编程的所有知识，不管您以前有什么知识。首先，你应该知道有一些工具可以让 Solana 编程变得简单很多。这就是最终的 Web3 开发平台 [**Moralis 家**](https://moralis.io/) **的不同之处。而且，由于熊市是为了建设，现在是学习更多关于索拉纳开发的最佳时机。**
 
-接下来，我们将从基础开始，确保你们都了解索拉纳。然后，我们再来仔细看看如何做索拉纳编程。在这里，您还可以学到更多关于 Solana 编程语言选项的知识。接下来，我们将深入探讨 Moralis 的索拉纳 API，包括[索拉纳 NFT API](https://moralis.io/solana-nft-api-exploring-the-ultimate-nft-api-for-solana/) 。后者使您能够毫不费力地围绕 Solana NFTs 构建分散式应用程序(dapps)。最后但同样重要的是，我们还将快速概述一些简洁的示例项目，它们可以帮助您学习如何进行 Solana 编程。然后，你就可以更深入地研究这些项目了。如果你决定这样做，你将学会利用道德和 Metaplex 等工具的力量。因此，你将有机会创造自己的索拉纳令牌，SPL 仪表板，和其他杀手索拉纳 dapps！
+接下来，我们将从基础开始，确保你们都了解索拉纳。然后，我们再来仔细看看如何做索拉纳编程。在这里，您还可以学到更多关于 Solana 编程语言选项的知识。接下来，我们将深入探讨 Moralis 的索拉纳 API，包括[索拉纳 NFT API](https://moralis.io/solana-nft-api-exploring-the-ultimate-nft-api-for-solana/) 。后者使您能够毫不费力地围绕 Solana NFTs 构建分散式应用程序(dapps)。最后但同样重要的是，我们还将快速概述一些简洁的示例项目，它们可以帮助您学习如何进行 Solana 编程。然后，你就可以更深入地研究这些项目了。如果你决定这样做，你将学会利用 Moralis 和 Metaplex 等工具的力量。因此，你将有机会创造自己的索拉纳令牌，SPL 仪表板，和其他杀手索拉纳 dapps！
 
 ![](img/bd6b0a315800b0a584b69ea7afa7932b.png)
 
@@ -46,7 +46,7 @@ Rust 的另一个优点是它没有运行时或垃圾收集器。因此，它可
 
 Moralis 的 Solana API 是开始 Solana 编程的最简单的方法。有了这个快速而强大的 API，您可以毫不费力地从索拉纳区块链查询数据。本质上，Solana API 是一个非常强大的 REST API。此外，它使您能够获取用户令牌余额、NFT 元数据等等。此外，与 REST APIs 一样，您可以在任何编程语言中默认调用 Solana API。因此，您可以毫不费力地在多个应用程序和平台中获取 Solana 数据
 
-然而，使用这个 API 最简单的方法是使用 Moralis 的 SDK 调用它。这样，只需要几行代码。此外,“道德。SolanaAPI”名称空间是所有这些强大函数的所在。此外，“Moralis.start()”会自动加载“Moralis”。SolanaAPI”模块。此外，为了更加方便，上述名称空间分为两类——“solanaapi . account”和“SolanaAPI.nft”。而且，由于索拉纳 NFTs 继续风靡一时，让我们仔细看看索拉纳 NFT API。
+然而，使用这个 API 最简单的方法是使用 Moralis 的 SDK 调用它。这样，只需要几行代码。此外,“Moralis。SolanaAPI”名称空间是所有这些强大函数的所在。此外，“Moralis.start()”会自动加载“Moralis”。SolanaAPI”模块。此外，为了更加方便，上述名称空间分为两类——“solanaapi . account”和“SolanaAPI.nft”。而且，由于索拉纳 NFTs 继续风靡一时，让我们仔细看看索拉纳 NFT API。
 
 ![](img/62496a521ef9a22b388d2e647abd6ebd.png)
 
@@ -103,4 +103,4 @@ const nftMetadata = await Moralis.SolanaAPI.nft.getNFTMetadata(options);
 
 此外，您还知道要成为一名 Solana 程序员并不需要精通 Rust。事实上，您有机会了解开始创建 Solana dapps 的最简单方法，那就是通过 Moralis 的 Solana API。而且，由于 Moralis 提供免费计划，这也是一种省钱的方法。此外，我们还分享了一些我们的 Solana 项目示例，可以帮助您获得初始牵引力。然而，如果你真的想成为一名索拉纳专家，采取更专业的方法可能是你的道路。在这种情况下，我们建议报名参加[索拉纳编程 101](https://academy.moralis.io/courses/solana-programming-101) 。
 
-另一方面，你可能想探索其他区块链发展的话题，而不是关注索拉纳。如果是这样，道德家的 Web3 YouTube 频道和道德家的 Web3 博客是你的出路。在那里，您可以找到大量的示例项目，教您如何在不同的可编程区块链上创建令牌和构建各种 dapps。而且，由于 Moralis 的跨链互操作性，您不会被任何特定的网络所束缚。除了可操作的示例项目，这两个出口还提供了易于理解的加密术语和概念的解释。当然，你也可以从经验丰富的 [NFT 程序员](https://nftcoders.com/)那里了解非功能性测试，例如了解[生成非功能性测试](https://nftcoders.com/begin-generating-nfts-in-15-minutes/)，如何[创建一个 NFT 造币网站](https://nftcoders.com/create-an-nft-minting-website-in-5-steps/)，或者了解更多关于 [NFT 用例](https://nftcoders.com/learning-all-about-nft-use-cases-in-2022/)。此外，如果你想要更有条理的课程，你可以去道德学院。此外，这也是获得专业指导的地方，并成为最支持和进步的区块链社区的一员。
+另一方面，你可能想探索其他区块链发展的话题，而不是关注索拉纳。如果是这样，Moralis 家的 Web3 YouTube 频道和 Moralis 家的 Web3 博客是你的出路。在那里，您可以找到大量的示例项目，教您如何在不同的可编程区块链上创建令牌和构建各种 dapps。而且，由于 Moralis 的跨链互操作性，您不会被任何特定的网络所束缚。除了可操作的示例项目，这两个出口还提供了易于理解的加密术语和概念的解释。当然，你也可以从经验丰富的 [NFT 程序员](https://nftcoders.com/)那里了解非功能性测试，例如了解[生成非功能性测试](https://nftcoders.com/begin-generating-nfts-in-15-minutes/)，如何[创建一个 NFT 造币网站](https://nftcoders.com/create-an-nft-minting-website-in-5-steps/)，或者了解更多关于 [NFT 用例](https://nftcoders.com/learning-all-about-nft-use-cases-in-2022/)。此外，如果你想要更有条理的课程，你可以去 Moralis 学院。此外，这也是获得专业指导的地方，并成为最支持和进步的区块链社区的一员。

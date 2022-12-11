@@ -56,7 +56,7 @@
 
 ![](img/ac84b40f77960f4eeb063c26394f03b6.png)
 
-我们的道德仪表板清楚地记录了最新的登录。此外，我们的示例 dApp 还显示用户已经登录:
+我们的 Moralis 仪表板清楚地记录了最新的登录。此外，我们的示例 dApp 还显示用户已经登录:
 
 ![](img/ceef6689700c205ff3c7709e78f5e83d.png)
 
@@ -121,7 +121,7 @@ const user = await Moralis.authenticate({
 
 尽管如此，要完成上述工作，您还需要访问 [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 。因此，您需要首先完成初始的 Moralis 设置。
 
-#### 初始道德系统设置-第 1 部分
+#### 初始 Moralis 系统设置-第 1 部分
 
 如果您想最轻松地创建 dApps，您需要完成 Moralis 设置。以下步骤是它的要点:
 
@@ -135,7 +135,7 @@ const user = await Moralis.authenticate({
 
 ![](img/4849f61e606368cb474fb8d636be236f.png)
 
-#### 初始道德标准设置-第 2 部分
+#### 初始 Moralis 标准设置-第 2 部分
 
 3.  **访问服务器详情**–成功创建服务器后，您可以访问 Moralis 的所有 SDK 特性。其中，您可以访问上述 Moralis 仪表板(点击三个点)。此外，您还可以访问服务器的详细信息。因此，请确保点击“查看详情”按钮:
 
@@ -147,7 +147,7 @@ const user = await Moralis.authenticate({
 
 *注意* *:上述窗口也是您访问 Moralis“同步”功能的地方，通过该功能您可以* [*同步和索引智能合同事件*](https://moralis.io/sync-and-index-smart-contract-events-full-guide/) *。*
 
-4.  **初始化道德规范***–*在这里，根据你正在处理的项目类型，你有几种不同的选择。然而，你要么从头开始，要么使用终极[以太坊 dApp 样板](https://moralis.io/ethereum-dapp-boilerplate-full-ethereum-react-boilerplate-tutorial/)。从头开始时，您需要将服务器的详细信息填充到。js“，”。jsx“，”。html”或其他一些文件。另一方面，当使用 [Web3 样板文件](https://moralis.io/web3-boilerplate-beginners-guide-to-web3/)时，你将把注意力集中在。env”文件(见下图)。
+4.  **初始化 Moralis 规范***–*在这里，根据你正在处理的项目类型，你有几种不同的选择。然而，你要么从头开始，要么使用终极[以太坊 dApp 样板](https://moralis.io/ethereum-dapp-boilerplate-full-ethereum-react-boilerplate-tutorial/)。从头开始时，您需要将服务器的详细信息填充到。js“，”。jsx“，”。html”或其他一些文件。另一方面，当使用 [Web3 样板文件](https://moralis.io/web3-boilerplate-beginners-guide-to-web3/)时，你将把注意力集中在。env”文件(见下图)。
 
 ![](img/0bcc5e986ef36d114d33acbd8a2464ac.png)
 
@@ -161,8 +161,8 @@ https://www.youtube.com/watch?v=44ItBuw86AA
 
 ## Web3 社交登录–使用 Google 或 Twitter 登录 dApp 用户–摘要
 
-在这一点上，你应该渴望开始建立一些非凡的 dApps。知道您可以轻松无缝地加入非加密人员是一个真正的游戏改变者。此外，当你将这种 Web3Auth 能力与 Moralis 的 SDK 及其终极 [Web3 API](https://docs.moralis.io/moralis-server/web3-sdk/intro) 相结合时，你应该会击败你的竞争对手。为了进一步掌握 Web3 社交登录的实现，我们建议您承担一些额外的示例项目。然后，只需调整代码，让 dApp 用户通过 Google 或 Twitter 登录。因此，浏览[道德博客](https://moralis.io/blog/)和[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)以获得指导和灵感。这些网点也是继续你的免费加密教育的好地方。例如，我们的一些最新文章涵盖了一个[可重入智能合约示例](https://moralis.io/what-is-reentrancy-reentrancy-smart-contract-example/)、[什么是元宇宙](https://moralis.io/what-is-the-metaverse-full-guide/)、 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)、 [React Native Web3](https://moralis.io/react-native-web3-full-react-native-web3-dev-guide/) 、 [Web3 游戏化](https://moralis.io/web3-gamification-creating-a-coinmarketcap-diamonds-dapp/)、 [NFT 游戏角色](https://moralis.io/nft-game-characters-how-to-mint-in-game-nft-characters/)、[如何铸造 10，000 个 NFT](https://moralis.io/how-to-mint-10000-nfts-full-walkthrough/)以及 [Web3 数据科学](https://moralis.io/web3-data-science-importing-on-chain-events/)。
+在这一点上，你应该渴望开始建立一些非凡的 dApps。知道您可以轻松无缝地加入非加密人员是一个真正的游戏改变者。此外，当你将这种 Web3Auth 能力与 Moralis 的 SDK 及其终极 [Web3 API](https://docs.moralis.io/moralis-server/web3-sdk/intro) 相结合时，你应该会击败你的竞争对手。为了进一步掌握 Web3 社交登录的实现，我们建议您承担一些额外的示例项目。然后，只需调整代码，让 dApp 用户通过 Google 或 Twitter 登录。因此，浏览[Moralis 博客](https://moralis.io/blog/)和[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)以获得指导和灵感。这些网点也是继续你的免费加密教育的好地方。例如，我们的一些最新文章涵盖了一个[可重入智能合约示例](https://moralis.io/what-is-reentrancy-reentrancy-smart-contract-example/)、[什么是元宇宙](https://moralis.io/what-is-the-metaverse-full-guide/)、 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)、 [React Native Web3](https://moralis.io/react-native-web3-full-react-native-web3-dev-guide/) 、 [Web3 游戏化](https://moralis.io/web3-gamification-creating-a-coinmarketcap-diamonds-dapp/)、 [NFT 游戏角色](https://moralis.io/nft-game-characters-how-to-mint-in-game-nft-characters/)、[如何铸造 10，000 个 NFT](https://moralis.io/how-to-mint-10000-nfts-full-walkthrough/)以及 [Web3 数据科学](https://moralis.io/web3-data-science-importing-on-chain-events/)。
 
-然而，如果你准备好更进一步，一定要报名参加[道德学院](https://academy.moralis.io/)。然后，报名参加最符合你目前阶段的[课程](https://academy.moralis.io/all-courses)。说到初学者课程， [JavaScript 编程 101](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers) 和[初学者密码](https://academy.moralis.io/courses/crypto-for-beginners/)可能正是你需要的。但是，如果你想找中级课程，[技术分析 101](https://academy.moralis.io/courses/technical-analysis-101) 和[以太坊智能合约 101](https://academy.moralis.io/courses/ethereum-smart-contract-programming-101/) 等着你。尽管如此，如果你准备好了更高级的话题，[区块链商业大师班](https://academy.moralis.io/courses/blockchain-business-masterclass)、 [DeFi 101](https://academy.moralis.io/courses/defi-101/) 和 [DeFi 201](https://academy.moralis.io/courses/defi-201) 可能是你最好的选择。除了专业课程，道德学院还为您提供最支持的社区和专家指导。有了这些优势，你应该[成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)并立刻成为全职加密员。
+然而，如果你准备好更进一步，一定要报名参加[Moralis 学院](https://academy.moralis.io/)。然后，报名参加最符合你目前阶段的[课程](https://academy.moralis.io/all-courses)。说到初学者课程， [JavaScript 编程 101](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers) 和[初学者密码](https://academy.moralis.io/courses/crypto-for-beginners/)可能正是你需要的。但是，如果你想找中级课程，[技术分析 101](https://academy.moralis.io/courses/technical-analysis-101) 和[以太坊智能合约 101](https://academy.moralis.io/courses/ethereum-smart-contract-programming-101/) 等着你。尽管如此，如果你准备好了更高级的话题，[区块链商业大师班](https://academy.moralis.io/courses/blockchain-business-masterclass)、 [DeFi 101](https://academy.moralis.io/courses/defi-101/) 和 [DeFi 201](https://academy.moralis.io/courses/defi-201) 可能是你最好的选择。除了专业课程，Moralis 学院还为您提供最支持的社区和专家指导。有了这些优势，你应该[成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)并立刻成为全职加密员。
 
 ![](img/26b1a419759fd98196845edd976aa284.png)*

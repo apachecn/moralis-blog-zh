@@ -2,7 +2,7 @@
 
 > 原文：<https://moralis.io/how-to-launch-an-nft-marketplace/>
 
-不可替代的代币，对于任何对在区块链建造 dApps 的人来说都是一个热门话题。具体来说，学习如何创建和启动 NFT 市场应该会让那些想开始学习 NFT 令牌开发的人感兴趣。此外，由于我们几乎没有触及这一新区块链运动的表面，所以现在是探索 NFT 及其区块链用例的最佳时机。因此，任何有抱负的 [**区块链开发者**](https://moralis.io/how-to-become-a-blockchain-developer/) **都应该通过学习 NFTs 的基础知识立即开始。但是，假设你已经知道了基础知识，包括** [**如何生成不可替代令牌**](https://moralis.io/nft-generate-and-mint-how-to-generate-non-fungible-tokens/) **。在这种情况下，你会更加欣赏这个指南，因为我们将探索如何推出一个道德 NFT 市场。**
+不可替代的代币，对于任何对在区块链建造 dApps 的人来说都是一个热门话题。具体来说，学习如何创建和启动 NFT 市场应该会让那些想开始学习 NFT 令牌开发的人感兴趣。此外，由于我们几乎没有触及这一新区块链运动的表面，所以现在是探索 NFT 及其区块链用例的最佳时机。因此，任何有抱负的 [**区块链开发者**](https://moralis.io/how-to-become-a-blockchain-developer/) **都应该通过学习 NFTs 的基础知识立即开始。但是，假设你已经知道了基础知识，包括** [**如何生成不可替代令牌**](https://moralis.io/nft-generate-and-mint-how-to-generate-non-fungible-tokens/) **。在这种情况下，你会更加欣赏这个指南，因为我们将探索如何推出一个 Moralis NFT 市场。**
 
 NFT 市场为数字艺术创造了曝光率。此外，它们与大品牌和大公司相关。几个世界顶级的 NFT 市场已经推出了独家品牌和公司所有的内容。因此，掌握如何启动 NFT 市场或 NFT 商店是一项非常重要的 Web3 技能，可以促进你作为开发人员的职业生涯。借助当今市场上最全面的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/?utm_source=blog&utm_medium=post&utm_campaign=How%2520to%2520Create%2520an%2520NFT%2520Marketplace) 开发工具 Moralis，学习如何[创建一个 NFT 市场](https://moralis.io/how-to-create-an-nft-marketplace/)成为一个简化且明显更快的过程。
 
@@ -20,7 +20,7 @@ NFT 市场是任何允许你买卖非功能性交易的 Web3 应用程序。大�
 
 然而，一些 NFT 市场控制着 NFT 的列表，并可能将它们限制在特定的创作者或品牌。其他人对出售的商品有监管权。因此，在这种情况下，用户不会简单地创建并列出他们自己的 NFT。市场也可以销售不一定是艺术品或创意作品的产品。你将会了解到，如果你决定推出一个 NFT 市场，定制的空间是绰绰有余的。因此，NFT 市场可以像任何其他在线集市一样进行定制和处理，具有针对业务目标的独特功能。
 
-在这方面，最终的 Web3 开发平台 Moralis 为任何想建立 NFT 市场的人提供了最好的选择。使用 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) ，任何人都可以连接到各种区块链。此外，Moralis 允许你[连接以太坊节点](https://moralis.io/how-to-connect-to-ethereum-nodes/)。它还支持[多边形节点](https://moralis.io/how-to-connect-to-polygon-nodes/)和[仲裁节点](https://moralis.io/announcing-moralis-speedy-nodes-support-of-arbitrum-nodes/)。最近，Moralis 刚刚宣布其[完全支持雪崩](https://moralis.io/moralis-announces-full-support-for-avalanche/)节点。因此，您可以轻松启动具有跨链功能的 NFT 市场，允许在一家 NFT 商店中使用来自多个区块链的代币。更重要的是，通过强大的[道德 NFT API](https://moralis.io/announcing-the-moralis-nft-api/?utm_source=blog&utm_medium=post&utm_campaign=Moralis%2520Announces%2520Full%2520Support%2520for%2520Avalanche) ，你可以获得关于 NFT 的元数据，获得集合中的所有 NFT，并且只需一行代码就可以增强你的 NFT 构建。
+在这方面，最终的 Web3 开发平台 Moralis 为任何想建立 NFT 市场的人提供了最好的选择。使用 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) ，任何人都可以连接到各种区块链。此外，Moralis 允许你[连接以太坊节点](https://moralis.io/how-to-connect-to-ethereum-nodes/)。它还支持[多边形节点](https://moralis.io/how-to-connect-to-polygon-nodes/)和[仲裁节点](https://moralis.io/announcing-moralis-speedy-nodes-support-of-arbitrum-nodes/)。最近，Moralis 刚刚宣布其[完全支持雪崩](https://moralis.io/moralis-announces-full-support-for-avalanche/)节点。因此，您可以轻松启动具有跨链功能的 NFT 市场，允许在一家 NFT 商店中使用来自多个区块链的代币。更重要的是，通过强大的[Moralis NFT API](https://moralis.io/announcing-the-moralis-nft-api/?utm_source=blog&utm_medium=post&utm_campaign=Moralis%2520Announces%2520Full%2520Support%2520for%2520Avalanche) ，你可以获得关于 NFT 的元数据，获得集合中的所有 NFT，并且只需一行代码就可以增强你的 NFT 构建。
 
 ## 启动 NFT 市场–演示
 
@@ -69,7 +69,7 @@ NFT 市场是任何允许你买卖非功能性交易的 Web3 应用程序。大�
 
 因此，有了 Moralis 设备齐全的开发工具包，您的后端可以无缝处理，让您可以直接致力于用户体验。
 
-## 与道德家一起启动 NFT 市场
+## 与 Moralis 家一起启动 NFT 市场
 
 要用 Moralis 启动 NFT 市场，我们需要记住某些后端功能。如演示所示，这些组件是:
 
@@ -83,7 +83,7 @@ NFT 市场是任何允许你买卖非功能性交易的 Web3 应用程序。大�
 
 ### 从后端开始
 
-1.  注册一个免费的道德帐户，并创建一个新的服务器
+1.  注册一个免费的 Moralis 帐户，并创建一个新的服务器
 
 通过在 Moralis 上注册，您可以为您的项目创建一个新的服务器，并以“免费层”级别免费访问许多优秀的 Web3 工具。有了 Moralis，你可以[快速创建移动以太坊 dapp](https://moralis.io/create-mobile-ethereum-dapp-with-react-native-template/)，使用[以太坊 API](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/?utm_source=blog&utm_medium=post&utm_campaign=How%2520to%2520Create%2520an%2520NFT%2520Marketplace) 在坚实的基础设施上建立 NFT 市场，等等！
 
@@ -147,7 +147,7 @@ dApp 有三个组成部分，即:
 
 我们将强调“logic.js”文件的某些部分，因为它负责 dApp 的主要功能。
 
-### 初始化道德
+### 初始化 Moralis
 
 “logic.js”文件首先使用以下代码初始化 Moralis:
 
@@ -177,19 +177,19 @@ Moralis.authenticate().then(function(){
 
 ![](img/28c3133a282e6e56877473058cd83ccf.png)
 
-### 道德片段
+### Moralis 片段
 
-在整个代码中，您会发现使用了各种道德规范片段，例如:
+在整个代码中，您会发现使用了各种 Moralis 规范片段，例如:
 
-*   道德。查询(" PlacedOfferings ")
-*   道德。查询(" ClosedOfferings ")
-*   道德。查询("多边形所有者")
-*   道德。Cloud.run("getBalance "，params)
-*   道德。单位. FromWei(当前余额)
-*   道德。Cloud.run("placeOffering "，params)
-*   道德。Units.ETH(报价.价格)
+*   Moralis。查询(" PlacedOfferings ")
+*   Moralis。查询(" ClosedOfferings ")
+*   Moralis。查询("多边形所有者")
+*   Moralis。Cloud.run("getBalance "，params)
+*   Moralis。单位. FromWei(当前余额)
+*   Moralis。Cloud.run("placeOffering "，params)
+*   Moralis。Units.ETH(报价.价格)
 
-这证明了道德是多么强大。它使你能够通过为你做所有的后台工作来创建一个完整的 NFT 市场 dApp。只需几段代码，您就可以利用来自 Moralis 数据库的数据，并将其包含在 dApp 中。
+这证明了 Moralis 是多么强大。它使你能够通过为你做所有的后台工作来创建一个完整的 NFT 市场 dApp。只需几段代码，您就可以利用来自 Moralis 数据库的数据，并将其包含在 dApp 中。
 
 ## 启动 NFT 市场-完整教程
 

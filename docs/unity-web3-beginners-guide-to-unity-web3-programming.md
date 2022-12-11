@@ -4,7 +4,7 @@
 
 https://www.youtube.com/watch?v=rZSPIyB-0R4&list=PLFPZ8ai7J-iQcI05EXqRUPK2VXDQaAPIr
 
-你是 Unity 的开发者吗？如果是这样， [**Web3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) **博彩业的崛起为你呈现了一个巨大的机会。许多大玩家已经投入巨资来创建他们的集中式元宇宙，Meta 是其中的佼佼者。然而，人类渴望分散的替代方案。因此，知道如何创建 Unity Web3 应用程序是必须的。当然，这需要知道使用什么 Unity Web3 开发工具。如果您想要一个平稳的开发过程并创建成功的 dApps，选择正确的工具是必不可少的。现在，在搜索您喜欢的**[**web 3 tech stack**](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)**时，您可能已经探索了** [**Alchemy API 替代方案**](https://moralis.io/alchemy-api-alternatives-web3-development-platforms/) **。然而，虽然节点** [**和 Web3 的 API**](https://docs.moralis.io/moralis-server/web3-sdk/intro) **提供者都是很棒的工具，真正的威力在于** [**Web3 的后端平台**](https://moralis.io/exploring-the-best-web3-backend-platform/) **。因此，** [**道德家**](http://moralis.io/) **是您不容错过的首要平台。让这个终极的 Web3 开发平台(“**[**Firebase for crypto**](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/)**”)照顾你的后端需求。** [**现在就创建你的免费账户**](https://admin.moralis.io/register) **！**
+你是 Unity 的开发者吗？如果是这样， [**Web3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) **博彩业的崛起为你呈现了一个巨大的机会。许多大玩家已经投入巨资来创建他们的集中式元宇宙，Meta 是其中的佼佼者。然而，人类渴望分散的替代方案。因此，知道如何创建 Unity Web3 应用程序是必须的。当然，这需要知道使用什么 Unity Web3 开发工具。如果您想要一个平稳的开发过程并创建成功的 dApps，选择正确的工具是必不可少的。现在，在搜索您喜欢的**[**web 3 tech stack**](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)**时，您可能已经探索了** [**Alchemy API 替代方案**](https://moralis.io/alchemy-api-alternatives-web3-development-platforms/) **。然而，虽然节点** [**和 Web3 的 API**](https://docs.moralis.io/moralis-server/web3-sdk/intro) **提供者都是很棒的工具，真正的威力在于** [**Web3 的后端平台**](https://moralis.io/exploring-the-best-web3-backend-platform/) **。因此，** [**Moralis 家**](http://moralis.io/) **是您不容错过的首要平台。让这个终极的 Web3 开发平台(“**[**Firebase for crypto**](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/)**”)照顾你的后端需求。** [**现在就创建你的免费账户**](https://admin.moralis.io/register) **！**
 
 从 Unity 到“Unity Web3”编程的过渡通常并不简单。事实上，许多编码人员仍然会陷入直接在[以太坊 RPC 节点](https://moralis.io/ethereum-rpc-nodes-what-they-are-and-why-you-shouldnt-use-them/)之上构建的陷阱。因此，他们最终面临 RPC 节点的所有[限制。但是，当你使用上面提到的快捷方式时，你不需要担心 Web3 后端的额外开销。您只需通过快速的初始设置将 Unity 与](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/) [Moralis 元宇宙 SDK](https://moralis.io/metaverse/) 连接。然后，你可以将所有的精力投入到创造一个有吸引力的 Web3 UI 和最好的用户体验上。因此，你的 Unity Web3 游戏成功的机会会自动增加。接下来，我们将为您提供更多关于 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 的细节。希望这能帮助你决定下一步该做什么。尽管如此，我们也有一步一步的 Unity Web3 初始设置指南在这里等着您。
 
@@ -40,7 +40,7 @@ https://www.youtube.com/watch?v=rZSPIyB-0R4&list=PLFPZ8ai7J-iQcI05EXqRUPK2VXDQaA
 
 假设你至少有一些 Unity 的经验，你可能知道如何创建 3D 世界和他们的场景。这也是你创建 Web3 游戏的起点。然而，一旦你准备好场景，真正的 Web3 魔术就开始了。在这一点上，是时候专注于将一个 [Unity 游戏与 Web3 登录](https://moralis.io/connecting-a-unity-game-with-web3-login/)连接起来，并访问所有其他 Web3 功能了。
 
-首先，您需要访问 Moralis 的元宇宙 SDK。你可以使用介绍中的相应链接，或者使用谷歌搜索“道德元宇宙 SDK”。登陆道德元宇宙 SDK 页面后，您需要向下滚动一点。您会看到“立即开始”按钮:
+首先，您需要访问 Moralis 的元宇宙 SDK。你可以使用介绍中的相应链接，或者使用谷歌搜索“Moralis 元宇宙 SDK”。登陆 Moralis 元宇宙 SDK 页面后，您需要向下滚动一点。您会看到“立即开始”按钮:
 
 ![](img/d0dd190a50a608a301cd6c3bd3df6681.png)
 
@@ -58,7 +58,7 @@ https://www.youtube.com/watch?v=rZSPIyB-0R4&list=PLFPZ8ai7J-iQcI05EXqRUPK2VXDQaA
 
 ![](img/2b26de33fd14ba6fab49d9975fdd3568.png)
 
-接下来，选择使用哪种道德预设取决于你正在开发的项目或游戏的类型。然而，在所有情况下，你都想从“道德设置”预设开始。请注意，您总是可以通过使用搜索选项来查找该组件，从而加快速度。下面的例子告诉你如何为“WalletConnect”预设这样做。但在添加“道德设置”时，同样的原则也适用。你只需简单地将有问题的预设拖放到你的“层级”标签中:
+接下来，选择使用哪种 Moralis 预设取决于你正在开发的项目或游戏的类型。然而，在所有情况下，你都想从“Moralis 设置”预设开始。请注意，您总是可以通过使用搜索选项来查找该组件，从而加快速度。下面的例子告诉你如何为“WalletConnect”预设这样做。但在添加“Moralis 设置”时，同样的原则也适用。你只需简单地将有问题的预设拖放到你的“层级”标签中:
 
 ![](img/9b76c768386fac68e1f2a4bc6320cde7.png)
 
@@ -68,7 +68,7 @@ https://www.youtube.com/watch?v=rZSPIyB-0R4&list=PLFPZ8ai7J-iQcI05EXqRUPK2VXDQaA
 
 如果你想知道这些细节是什么，这意味着你以前没有和 Moralis 合作过。因此，让我们来引导您完成初始的 Moralis 设置。
 
-### 访问您的道德管理区，并创建一个新的服务器
+### 访问您的 Moralis 管理区，并创建一个新的服务器
 
 无论你的目标是创建一个元宇宙，一个简单的 Web3 游戏，还是使用终极[以太坊 dApp 样板](https://moralis.io/ethereum-dapp-boilerplate-full-ethereum-react-boilerplate-tutorial/)的 dApps ( [分散应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))，你都需要创建一个 Moralis 服务器。请按照以下步骤进行操作:
 
@@ -106,7 +106,7 @@ https://www.youtube.com/watch?v=rZSPIyB-0R4&list=PLFPZ8ai7J-iQcI05EXqRUPK2VXDQaA
 
 *注意* *:虽然上面提到的 Moralis 服务器设置是必不可少的，但是使用 Moralis 快速节点却不是。但是，在许多情况下，您还需要完成此设置才能获得更高级的功能。*
 
-您可以通过从您的 Moralis 管理区域复制并粘贴相应的 URL 来使用 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) 。因此，你需要回到你的道德管理区。这次选择“快速节点”标签。在那里，单击在上述设置过程中为服务器选择的网络下的“端点”按钮:
+您可以通过从您的 Moralis 管理区域复制并粘贴相应的 URL 来使用 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) 。因此，你需要回到你的 Moralis 管理区。这次选择“快速节点”标签。在那里，单击在上述设置过程中为服务器选择的网络下的“端点”按钮:
 
 ![](img/5a977b040a11e1a2b158f8b8956770cc.png)
 
@@ -124,8 +124,8 @@ https://www.youtube.com/watch?v=rZSPIyB-0R4&list=PLFPZ8ai7J-iQcI05EXqRUPK2VXDQaA
 
 https://www.youtube.com/watch?v=rZSPIyB-0R4
 
-另一方面，你可能有兴趣了解更多关于区块链发展的其他领域。如果是这样的话，[道德博客](https://moralis.io/blog/)和[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)是值得一去的地方。这两个出口是继续你的免费加密教育的两个最好的方法。它们不仅涵盖了区块链发展的全部主题，而且还提供了无数的范例项目。一些最新的话题包括用 ReactJS 建立一个[跨链 Zapper dApp，创建一个](https://moralis.io/how-to-build-a-cross-chain-zapper-dapp-with-reactjs-using-moralis-api-and-serverless-real-time-transactions/) [Web3 电子商务平台](https://moralis.io/web3-e-commerce-create-a-web3-e-commerce-platform-in-5-steps/)或 [Web3 亚马逊市场](https://moralis.io/how-to-build-a-web3-amazon-marketplace/)，[将一个 Unity 应用程序连接到 Web3 钱包](https://moralis.io/how-to-connect-a-unity-app-to-a-web3-wallet/)，创建一个 [BNB 链令牌](https://moralis.io/how-to-create-a-bnb-chain-token-in-5-minutes/)，克隆[比特币基地钱包](https://moralis.io/cloning-coinbase-wallet-how-to-create-a-coinbase-clone/)等等。
+另一方面，你可能有兴趣了解更多关于区块链发展的其他领域。如果是这样的话，[Moralis 博客](https://moralis.io/blog/)和[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)是值得一去的地方。这两个出口是继续你的免费加密教育的两个最好的方法。它们不仅涵盖了区块链发展的全部主题，而且还提供了无数的范例项目。一些最新的话题包括用 ReactJS 建立一个[跨链 Zapper dApp，创建一个](https://moralis.io/how-to-build-a-cross-chain-zapper-dapp-with-reactjs-using-moralis-api-and-serverless-real-time-transactions/) [Web3 电子商务平台](https://moralis.io/web3-e-commerce-create-a-web3-e-commerce-platform-in-5-steps/)或 [Web3 亚马逊市场](https://moralis.io/how-to-build-a-web3-amazon-marketplace/)，[将一个 Unity 应用程序连接到 Web3 钱包](https://moralis.io/how-to-connect-a-unity-app-to-a-web3-wallet/)，创建一个 [BNB 链令牌](https://moralis.io/how-to-create-a-bnb-chain-token-in-5-minutes/)，克隆[比特币基地钱包](https://moralis.io/cloning-coinbase-wallet-how-to-create-a-coinbase-clone/)等等。
 
-然而，如果你真的想尽快成为一名区块链开发者，我们建议你走一条更专业的道路。因此，报名参加[道德学院](https://academy.moralis.io/)可能是你的正确道路。除了获得高质量的课程，你还将成为最先进的 Web3 社区的一员。
+然而，如果你真的想尽快成为一名区块链开发者，我们建议你走一条更专业的道路。因此，报名参加[Moralis 学院](https://academy.moralis.io/)可能是你的正确道路。除了获得高质量的课程，你还将成为最先进的 Web3 社区的一员。
 
 ![](img/0b8a0197b21871128e035e581758f671.png)

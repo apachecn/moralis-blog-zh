@@ -89,7 +89,7 @@ dapps 提供的许多优势都围绕着保护用户隐私。使用 Web3 应用�
 
 简要总结了 Web3 开发的三个最流行的区块链，我们将在接下来的部分探索构建 Web3 应用程序的最快方法！
 
-## 构建 Web3 应用的最简单方法——探索道德
+## 构建 Web3 应用的最简单方法——探索 Moralis
 
 回答“什么是 dapps？”问题，本节将探索构建应用程序的最简单方法。开发你的第一个 Web3 应用程序似乎是一项艰巨的任务；然而，有了适当的工具和指导，你将能够立即启动 dapps。现在，你可能已经猜到了，构建 dapps 最简单的方法就是借助 Moralis！
 
@@ -113,7 +113,7 @@ Moralis 提供企业级 Web3 APIs，允许您将任何技术栈连接到几个�
 
 此外，一旦我们回答了这个问题，“dapps 是什么？”，我们探索了区块链的一些最突出的发展。具体来说，我们仔细观察了以太坊、BNB 智能链和 Polygon。最重要的是，我们深入研究了 Moralis，这是开发 dapps 最简单的方法。
 
-如果你觉得这个指南有帮助，可以考虑进一步浏览 Moralis 的 [Web3 博客](https://moralis.io/blog/)。您可以探索更多的 Web3 开发内容，成为一名更熟练的区块链开发人员。例如，我们建议查看我们的指南，了解如何[用 Web3](https://moralis.io/how-to-connect-playfab-with-web3-using-azure-functions/) 连接到 PlayFab 或者[构建以太坊 dapp](https://moralis.io/full-guide-how-to-build-an-ethereum-dapp-in-5-steps/) ！更重要的是，如果你想磨练你的 Web3 开发技能，去看看[道德学院](https://academy.moralis.io/)令人惊叹的区块链课程。
+如果你觉得这个指南有帮助，可以考虑进一步浏览 Moralis 的 [Web3 博客](https://moralis.io/blog/)。您可以探索更多的 Web3 开发内容，成为一名更熟练的区块链开发人员。例如，我们建议查看我们的指南，了解如何[用 Web3](https://moralis.io/how-to-connect-playfab-with-web3-using-azure-functions/) 连接到 PlayFab 或者[构建以太坊 dapp](https://moralis.io/full-guide-how-to-build-an-ethereum-dapp-in-5-steps/) ！更重要的是，如果你想磨练你的 Web3 开发技能，去看看[Moralis 学院](https://academy.moralis.io/)令人惊叹的区块链课程。
 
 ![](img/f10883aaad1ad162ef5f99fe456f4271.png)
 

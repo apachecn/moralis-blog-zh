@@ -14,7 +14,7 @@ const response = await Moralis.EvmApi.balance.getNativeBalance(options)
 const response = await Moralis.EvmApi.token.getWalletTokenBalances(options)
 ```
 
-如果您以前使用过 Moralis，那么您会确切地知道如何实现上面的代码行来充分利用 [best token API](https://moralis.io/token-api/) 。然而，如果这是你第一次听说市场上领先的 [Web3 提供商](https://moralis.io/web3-provider-why-blockchain-developers-should-use-one/)，创建你的免费道德账户，并跟随我们学习今天的教程。
+如果您以前使用过 Moralis，那么您会确切地知道如何实现上面的代码行来充分利用 [best token API](https://moralis.io/token-api/) 。然而，如果这是你第一次听说市场上领先的 [Web3 提供商](https://moralis.io/web3-provider-why-blockchain-developers-should-use-one/)，创建你的免费 Moralis 账户，并跟随我们学习今天的教程。
 
 ![Sign Up with Moralis](img/776315699d4da3e5c69ca048fbcedf78.png)[**Sign Up with Moralis**](https://admin.moralis.io/register)
 
@@ -46,7 +46,7 @@ ERC20 令牌 API 是一个特定的 Web3 API，它围绕着关于 ERC20 令牌�
 
 ## 介绍最佳的 ERC20 令牌平衡 API
 
-至此，您已经知道 Moralis 为您带来了最好的 ERC20 令牌平衡 API。然而，令牌 API 只是这个企业级 Web3 API 提供商提供的众多产品之一。当您将它与 [Auth API](https://moralis.io/authentication/) 、 [Streams API](https://moralis.io/streams/) 和 [NFT API](https://moralis.io/nft-api/) 结合起来时，您可以轻松地创建任何类型的 dapp。此外，Moralis 是 Web2-Web3 的桥梁，使您能够使用您喜欢的遗留开发平台、编程语言和框架来加入 Web3 革命。此外，您可以使用 Moralis 的跨平台互操作性来创建多链 dapps。毕竟，Moralis 支持所有领先的可编程区块链。因此，一定要探索道德力量的全部范围。
+至此，您已经知道 Moralis 为您带来了最好的 ERC20 令牌平衡 API。然而，令牌 API 只是这个企业级 Web3 API 提供商提供的众多产品之一。当您将它与 [Auth API](https://moralis.io/authentication/) 、 [Streams API](https://moralis.io/streams/) 和 [NFT API](https://moralis.io/nft-api/) 结合起来时，您可以轻松地创建任何类型的 dapp。此外，Moralis 是 Web2-Web3 的桥梁，使您能够使用您喜欢的遗留开发平台、编程语言和框架来加入 Web3 革命。此外，您可以使用 Moralis 的跨平台互操作性来创建多链 dapps。毕竟，Moralis 支持所有领先的可编程区块链。因此，一定要探索 Moralis 力量的全部范围。
 
 ![moralis' cross-chain compatible chart showing supported networks](img/8b9f6faaac4203f9529e0acb981cb04d.png)
 
@@ -83,7 +83,7 @@ ERC20 令牌 API 是一个特定的 Web3 API，它围绕着关于 ERC20 令牌�
 
 *至此，您已经对最好的 ERC20 令牌平衡 API 有了足够的了解，可以看到它的实际应用。因此，我们邀请您卷起袖子，跟随我们完成这三个步骤:*
 
-**   创建 NodeJS 后端 Dapp*   初始化道德*   创建一个 ReactJS 前端 Dapp*
+**   创建 NodeJS 后端 Dapp*   初始化 Moralis*   创建一个 ReactJS 前端 Dapp*
 
 *通过完成以上三个步骤，您将拥有自己的“获取钱包本机余额”示例 dapp 的实例:*
 
@@ -146,7 +146,7 @@ app.get("/balance", async (req, res) => {
 
 上面的代码将使您的 NodeJS dapp 能够从输入字段中查询详细信息。一旦你将它链接到你的前端，这将正确运行，在那里你将创建“*获得平衡*按钮。
 
-### 初始化道德——步骤 2
+### 初始化 Moralis——步骤 2
 
 要初始化 Moralis，您需要用下面几行填充上面创建的“index.js”脚本:
 
@@ -208,4 +208,4 @@ async function fetchBalance() {
 
 在今天的文章中，您了解了用于 dapp 开发的最佳 ERC20 令牌平衡 API 是什么，以及如何使用它。因此，您现在知道这个优秀的工具来自 Moralis 的 Token API 和 Balance API。您还有机会按照我们的步骤完成一个获取本机令牌余额的示例 dapp。通过对代码进行一些小的调整，这个相同的 dapp 可以用于获取 ERC20 令牌余额。此外，如果您学习了今天的教程，您就学会了如何获得 Web3 API 密钥。因此，您现在可以利用 Moralis 的其他 Web3 APIs 了。
 
-我们相信在行动中学习。因此，我们建议您集中精力完成尽可能多的教程，这些教程在[道德文件](https://docs.moralis.io/docs)中等待着您。此外，一定要继续你的免费区块链发展教育，探索[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和我们的[加密博客](https://moralis.io/blog/)。这两个出口涵盖了广泛的有用的话题。例如，一些最新的文章关注于 [Web3 AWS Lambda](https://moralis.io/web3-aws-lambda-use-aws-for-web3-with-an-aws-lambda-web3-provider/) 、 [Python Web3 开发](https://moralis.io/web3-python-python-web3-development-made-easy/)、 [NFT 元数据](https://moralis.io/nft-metadata-exploring-metadata-for-nft-storage/)、[区块链基础设施](https://moralis.io/blockchain-infrastructure-the-tech-and-landscape-empowering-developers/)等等。尽管如此，你也可以通过完成[道德学院](https://academy.moralis.io/)提供的课程获得区块链认证。为了更好地理解可编程链，你可以从[以太坊基础](https://academy.moralis.io/courses/ethereum-101)开始。**
+我们相信在行动中学习。因此，我们建议您集中精力完成尽可能多的教程，这些教程在[Moralis 文件](https://docs.moralis.io/docs)中等待着您。此外，一定要继续你的免费区块链发展教育，探索[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和我们的[加密博客](https://moralis.io/blog/)。这两个出口涵盖了广泛的有用的话题。例如，一些最新的文章关注于 [Web3 AWS Lambda](https://moralis.io/web3-aws-lambda-use-aws-for-web3-with-an-aws-lambda-web3-provider/) 、 [Python Web3 开发](https://moralis.io/web3-python-python-web3-development-made-easy/)、 [NFT 元数据](https://moralis.io/nft-metadata-exploring-metadata-for-nft-storage/)、[区块链基础设施](https://moralis.io/blockchain-infrastructure-the-tech-and-landscape-empowering-developers/)等等。尽管如此，你也可以通过完成[Moralis 学院](https://academy.moralis.io/)提供的课程获得区块链认证。为了更好地理解可编程链，你可以从[以太坊基础](https://academy.moralis.io/courses/ethereum-101)开始。**

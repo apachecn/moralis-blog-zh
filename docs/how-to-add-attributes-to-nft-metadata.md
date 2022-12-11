@@ -6,7 +6,7 @@
 
 在本文中，我们将探索如何在一个简单的 Unity 应用程序的帮助下轻松实现这一点。此外，通过克隆我们的代码，您可以使用我们的 Unity IPFS uploader v2 功能来获取元数据 URL。但是，我们将从介绍什么是 NFT 元数据属性开始这篇文章！
 
-然后，我们将向您展示如何使用我们的 Unity IPFS 上传器 v2 向 NFT 元数据添加属性。在看了我们的应用程序的演示之后，我们将指导您完成安装过程，这将使您能够自己使用这个应用程序。我们还将看看上传应用程序代码中最关键的部分。在此过程中，您将学习如何完成初始的 Moralis 设置，这将是您进行 Web3 开发的门户。知道如何使用 [Moralis](https://moralis.io/) 并获得它的全部能力将使你能够创建各种 dapp([分散应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))。这意味着你将能够利用你的 Unity 技能创造一个优秀的 Web3 游戏。因此，要学习如何轻松地向 NFT 元数据添加属性，请务必[创建您的免费道德账户](https://admin.moralis.io/register)！
+然后，我们将向您展示如何使用我们的 Unity IPFS 上传器 v2 向 NFT 元数据添加属性。在看了我们的应用程序的演示之后，我们将指导您完成安装过程，这将使您能够自己使用这个应用程序。我们还将看看上传应用程序代码中最关键的部分。在此过程中，您将学习如何完成初始的 Moralis 设置，这将是您进行 Web3 开发的门户。知道如何使用 [Moralis](https://moralis.io/) 并获得它的全部能力将使你能够创建各种 dapp([分散应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))。这意味着你将能够利用你的 Unity 技能创造一个优秀的 Web3 游戏。因此，要学习如何轻松地向 NFT 元数据添加属性，请务必[创建您的免费 Moralis 账户](https://admin.moralis.io/register)！
 
 ![](img/b0d7ae98cd72b9b0a4acc910c7f15b4e.png)
 
@@ -234,6 +234,6 @@
 
 在以上各节中，您了解了如何向 NFT 元数据添加属性并将该元数据上传到 IPFS。使用我们的 IPFS 上传应用程序，只需要几分钟就可以完成 NFT 创作的重要部分。在此过程中，您还学习了如何完成初始的 Moralis 设置，包括创建新的 Moralis dapp 并获取其证书。您必须将后者粘贴到 Unity 中才能访问 Moralis 的 Unity Web3 SDK。后者包括 IPFS 一体化。
 
-创建元数据是创建 NFT 的重要部分，但这只是旅程的一部分。您仍然需要执行一个实际的链上事务来将您的元数据转换成 NFTs。同样，有几种选择来铸造 NFT。然而，如果您想走阻力最小的道路，使用我们的 Unity NFT 敏特 dapp 是正确的选择。你可以在[道德博客](https://moralis.io/blog/)上了解所有你需要知道的关于如何[打造一个团结的 NFT](https://moralis.io/how-to-mint-a-unity-nft/) 。这也是一个很好的地方来了解更多关于 dapp 开发的全部内容。当然，你也应该访问[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)，在那里你会找到大量优秀的教程。最终，这是两个可以免费帮助你成为 Web3 开发者的途径。
+创建元数据是创建 NFT 的重要部分，但这只是旅程的一部分。您仍然需要执行一个实际的链上事务来将您的元数据转换成 NFTs。同样，有几种选择来铸造 NFT。然而，如果您想走阻力最小的道路，使用我们的 Unity NFT 敏特 dapp 是正确的选择。你可以在[Moralis 博客](https://moralis.io/blog/)上了解所有你需要知道的关于如何[打造一个团结的 NFT](https://moralis.io/how-to-mint-a-unity-nft/) 。这也是一个很好的地方来了解更多关于 dapp 开发的全部内容。当然，你也应该访问[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)，在那里你会找到大量优秀的教程。最终，这是两个可以免费帮助你成为 Web3 开发者的途径。
 
-我们希望你能好好利用 IPFS 上传器和 NFT minter 工具，创造出一些杀手级的 Web3 游戏。然而，如果你还没有足够的信心来处理你自己的项目，请确保通过完成我们的示例项目来练习。尽管如此，你可能渴望尽快成为全职加密员。如果是这样的话，获得区块链认证是一条必经之路，这也是道德学院为你提供支持的地方。
+我们希望你能好好利用 IPFS 上传器和 NFT minter 工具，创造出一些杀手级的 Web3 游戏。然而，如果你还没有足够的信心来处理你自己的项目，请确保通过完成我们的示例项目来练习。尽管如此，你可能渴望尽快成为全职加密员。如果是这样的话，获得区块链认证是一条必经之路，这也是 Moralis 学院为你提供支持的地方。

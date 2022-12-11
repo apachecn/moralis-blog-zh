@@ -10,7 +10,7 @@
 
 为了演示 OpenSea 上的无气 NFT 交易是如何工作的，我们将仔细观察一个使用 [Moralis](https://moralis.io/) 开发的 Web3 项目。该项目将允许我们为游戏中的项目生成优惠券，可以分发给用户。反过来，用户可以在我们的 UI 中申请优惠券来接收商品。因此，我们正在推动交易，因此，汽油费，当用户要求他们的优惠券。
 
-通过 Moralis，创建这个项目的过程变得相对容易。事实上，操作系统的后端基础设施承担了大部分繁重的工作。这使得我们将区块链项目的开发时间平均缩短了 87%。此外，像道德家[元宇宙 SDK](https://moralis.io/metaverse/) 、[速度节点](https://moralis.io/speedy-nodes/)和 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 这样的工具可以让你[快速轻松地构建 dapp](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/)。
+通过 Moralis，创建这个项目的过程变得相对容易。事实上，操作系统的后端基础设施承担了大部分繁重的工作。这使得我们将区块链项目的开发时间平均缩短了 87%。此外，像 Moralis 家[元宇宙 SDK](https://moralis.io/metaverse/) 、[速度节点](https://moralis.io/speedy-nodes/)和 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 这样的工具可以让你[快速轻松地构建 dapp](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/)。
 
 如果你想成为一名区块链开发者，马上注册 Moralis，开始你的 Web3 之旅吧！
 
@@ -210,7 +210,7 @@ https://www.youtube.com/watch?v=AQfjB4TxYtI
 
 这个项目的这三个部分允许我们提供与 OpenSea 类似的无汽油 NFT 交易功能。此外，由于我们使用的是 Moralis 操作系统，我们能够在几分钟内完成这项工作。
 
-然而，这只是道德闪耀的众多例子之一。如果你对区块链的发展有进一步的兴趣，请查看道德博客。在这里你可以找到更多的教程，例如，[如何创建你自己的 NFT](https://moralis.io/how-to-create-your-own-nft-in-5-steps/) ，[如何创建一个 Web3 Spotify 克隆](https://moralis.io/how-to-build-a-web3-spotify-clone/)，[如何创建一个 ERC-721 NFT](https://moralis.io/how-to-create-an-erc-721-nft/) ，等等！
+然而，这只是 Moralis 闪耀的众多例子之一。如果你对区块链的发展有进一步的兴趣，请查看 Moralis 博客。在这里你可以找到更多的教程，例如，[如何创建你自己的 NFT](https://moralis.io/how-to-create-your-own-nft-in-5-steps/) ，[如何创建一个 Web3 Spotify 克隆](https://moralis.io/how-to-build-a-web3-spotify-clone/)，[如何创建一个 ERC-721 NFT](https://moralis.io/how-to-create-an-erc-721-nft/) ，等等！
 
 ![](img/4652cde2d31ae73e0c4cb2a99d2a004a.png)
 

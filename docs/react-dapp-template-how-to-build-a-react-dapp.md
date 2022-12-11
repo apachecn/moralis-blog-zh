@@ -13,7 +13,7 @@
 像任何其他编程任务一样，即使你是一个完全的初学者，你也可以开始着手一些初级的 Web3 项目。但是，要使用 React dApp 模板并最好地了解如何构建 React dApp，我们建议您牢牢掌握并充分理解以下内容:
 
 1.  精通 JavaScript(JS)——这种简单且非常受欢迎的编程语言在与 Moralis 结合使用时会让你受益匪浅。如果你还不精通 Javascript，我们推荐你参加伊凡科技学院的“[区块链开发者 JavaScript 编程](https://academy.ivanontech.com/courses/javascript-programming-for-blockchain-developers)课程。
-2.  **了解道德基础知识**–这款终极 Web3 操作系统提供了轻松快速部署杀手级 dApps 所需的工具和专业知识。它为你提供 [Moralis 的 Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) ，一个主要的 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) ， [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) ，整洁的[文档](https://docs.moralis.io/)(业界最好的之一)，免费的高价值内容( [Moralis 的博客](https://moralis.io/blog/)和 [Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3))，以及一个知识渊博的社区。
+2.  **了解 Moralis 基础知识**–这款终极 Web3 操作系统提供了轻松快速部署杀手级 dApps 所需的工具和专业知识。它为你提供 [Moralis 的 Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) ，一个主要的 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) ， [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) ，整洁的[文档](https://docs.moralis.io/)(业界最好的之一)，免费的高价值内容( [Moralis 的博客](https://moralis.io/blog/)和 [Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3))，以及一个知识渊博的社区。
 
 ![](img/4f14c5e069573a343e76d17fe14f8018.png)
 
@@ -26,7 +26,7 @@
 
 ## **React dApp 模板——如何使用 Moralis 构建 React dApp**
 
-在我们继续之前，我们首先建议您设置并准备好您的[免费道德账户](https://admin.moralis.io/register)。为此，只需输入您的电子邮件地址，并创建您的密码。然后通过确认您的电子邮件(单击确认电子邮件中的链接)来完成这个过程，您就万事俱备了。
+在我们继续之前，我们首先建议您设置并准备好您的[免费 Moralis 账户](https://admin.moralis.io/register)。为此，只需输入您的电子邮件地址，并创建您的密码。然后通过确认您的电子邮件(单击确认电子邮件中的链接)来完成这个过程，您就万事俱备了。
 
 除了 Moralis、MetaMask 和 React.js 库，我们还将使用 VSC 的代码编辑器(Visual Studio Code)、包管理器(npm)和开源 CSS 框架(称为“Chakra”)。如果你需要帮助来获得和设置 MetaMask 和 VSC，我们推荐你看看我们的文章，内容是为初学者开发以太坊。
 
@@ -95,7 +95,7 @@ Visual Studio Code (VSC)是市场上最流行的代码编辑器之一，大多�
 
 *![](img/82d671a939b68ca0882366c72c1a1340.png)
 
-## 如何用道德建立一个反应的 dApp
+## 如何用 Moralis 建立一个反应的 dApp
 
 正如在开始时提到的，我们将用 Moralis 覆盖大部分链上相关的后端编码。为了增加 Moralis 的功能，我们需要安装 Moralis 并对 Moralis 的依赖关系做出反应。这将使 React dApp 的创建成为一个简单的过程。
 
@@ -107,7 +107,7 @@ Visual Studio Code (VSC)是市场上最流行的代码编辑器之一，大多�
 
 下面是将与我们的 Moralis 服务器建立连接的最重要的一行代码:
 
-***<道德提供者 appId = { appId } server URL = { server URL }>***
+***<Moralis 提供者 appId = { appId } server URL = { server URL }>***
 
 我们将上面的代码行添加到“index.js”文件中，添加方式与添加*“chakra provider”*的方式相同。这意味着我们必须把它包在*<App/>*周围。此外，我们将*"****const appId = " "****"**"****const serverUrl = " "****"*添加到“index.js”文件中。在引号内，您将添加您的 Moralis 服务器的详细信息(下面提供了设置您的 Moralis 服务器的说明)。还要加上****从“react-moralis”导入{ moralis provider }；****在我们的“index.js”文件里面。**
 
@@ -117,7 +117,7 @@ Visual Studio Code (VSC)是市场上最流行的代码编辑器之一，大多�
 
 #### **通过 4 个步骤获得应用程序 ID 和服务器 URL**
 
-***   创建你的道德账户——如果你还没有[创建你的道德账户](https://admin.moralis.io/register)，现在就创建吧。如果您已经有了一个有效的 Moralis 帐户，只需[登录](https://admin.moralis.io/login)。*   **创建新服务器**–登录您的 Moralis 帐户后，您可以选择创建新服务器。只需点击 Moralis 管理页面右上角的“+创建新服务器”按钮。接下来，将出现一个下拉菜单，提供不同类型的网络(见下图)。我们建议从“Testnet 服务器”选项开始。**
+***   创建你的 Moralis 账户——如果你还没有[创建你的 Moralis 账户](https://admin.moralis.io/register)，现在就创建吧。如果您已经有了一个有效的 Moralis 帐户，只需[登录](https://admin.moralis.io/login)。*   **创建新服务器**–登录您的 Moralis 帐户后，您可以选择创建新服务器。只需点击 Moralis 管理页面右上角的“+创建新服务器”按钮。接下来，将出现一个下拉菜单，提供不同类型的网络(见下图)。我们建议从“Testnet 服务器”选项开始。**
 
 **![](img/b50aa3204c46fbece5f772a7dd20c84f.png)
 

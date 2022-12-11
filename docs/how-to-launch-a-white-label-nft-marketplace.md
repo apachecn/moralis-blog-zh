@@ -64,7 +64,7 @@ https://www.youtube.com/watch?v=EMOYpgl5S1w
 
 ## 第 1 部分:设置 Moralis 服务器
 
-你必须做的第一件事是注册道德。创建一个账户是完全免费的，只需要几秒钟。有了您的帐户，您可以通过点击 Moralis 管理面板顶部的“+创建新服务器”来创建 Moralis 服务器。这将为您提供一个包含三个选项的下拉菜单。在这种情况下，因为这是一个教程，我们选择了一个 testnet 服务器。
+你必须做的第一件事是注册 Moralis。创建一个账户是完全免费的，只需要几秒钟。有了您的帐户，您可以通过点击 Moralis 管理面板顶部的“+创建新服务器”来创建 Moralis 服务器。这将为您提供一个包含三个选项的下拉菜单。在这种情况下，因为这是一个教程，我们选择了一个 testnet 服务器。
 
 ![](img/ed08a5e04a48eff60135e4ad1e2f6ce1.png)
 
@@ -118,7 +118,7 @@ Moralis.initialize(""); // Application ID from moralis.io
 Moralis.serverURL = ""; // Server URL from moralis.io
 ```
 
-### 道德认证()
+### Moralis 认证()
 
 接下来，我们有一个名为“Moralis.authenticate()”的基本函数。您可以看到下面的函数，这确保了当用户验证他们自己时，所有正确的函数都被执行:
 
@@ -145,9 +145,9 @@ Moralis.Cloud.run(“placeOffering”, params)
 Moralis.Units.ETH(offering.price)
 ```
 
-### 道德。Cloud.run("placeOffering "，params)
+### Moralis。Cloud.run("placeOffering "，params)
 
-上面提到的最重要的功能之一是“道德”。Cloud.run("placeOffering "，params)"。该函数具有一些额外的意义，因此值得特别关注，因为该函数确保 dApp 在后台签署事务并保护所有私钥。而且，这也是“云”的所在。Code.js”文件进入等式。在这个文件中，您需要添加对应于您正在使用的以太坊地址的私钥。
+上面提到的最重要的功能之一是“Moralis”。Cloud.run("placeOffering "，params)"。该函数具有一些额外的意义，因此值得特别关注，因为该函数确保 dApp 在后台签署事务并保护所有私钥。而且，这也是“云”的所在。Code.js”文件进入等式。在这个文件中，您需要添加对应于您正在使用的以太坊地址的私钥。
 
 现在，这基本上是本教程如何启动一个白色标签 NFT 市场！
 
@@ -161,6 +161,6 @@ Moralis.Units.ETH(offering.price)
 
 由于 Moralis 操作系统的工具和后端基础设施，这一切都是可能的。您真正需要的是精通 JavaScript 来完成前端开发，剩下的就交给 Moralis 了。此外，出于这个原因，Moralis 不仅适用于推出白牌 NFT 市场，也适用于其他类似的区块链项目。
 
-因此，如果你有雄心加快你的 [Web3 开发](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/)游戏，查看[道德博客](https://moralis.io/blog/)获得更多令人难以置信的内容。在这里，你可以阅读[如何建立一个 Web3 MMORPG](https://moralis.io/build-a-web3-mmorpg-with-unity-in-10-minutes/) 、[如何建立一个 Web3 亚马逊市场](https://moralis.io/how-to-build-a-web3-amazon-marketplace/)、[如何建立一个中世纪的元宇宙游戏](https://moralis.io/how-to-build-a-medieval-metaverse-game/)等等。
+因此，如果你有雄心加快你的 [Web3 开发](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/)游戏，查看[Moralis 博客](https://moralis.io/blog/)获得更多令人难以置信的内容。在这里，你可以阅读[如何建立一个 Web3 MMORPG](https://moralis.io/build-a-web3-mmorpg-with-unity-in-10-minutes/) 、[如何建立一个 Web3 亚马逊市场](https://moralis.io/how-to-build-a-web3-amazon-marketplace/)、[如何建立一个中世纪的元宇宙游戏](https://moralis.io/how-to-build-a-medieval-metaverse-game/)等等。
 
-因此，如果你对区块链发展感兴趣，请务必今天就[向道德家](https://admin.moralis.io/register)报名！创建一个帐户只需要几秒钟，你就可以立即使用该平台的所有工具。因此，加入 Moralis 将为您未来所有的区块链项目提供更便捷的开发流程！****
+因此，如果你对区块链发展感兴趣，请务必今天就[向 Moralis 家](https://admin.moralis.io/register)报名！创建一个帐户只需要几秒钟，你就可以立即使用该平台的所有工具。因此，加入 Moralis 将为您未来所有的区块链项目提供更便捷的开发流程！****

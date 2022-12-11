@@ -1,8 +1,8 @@
-# WalletConnect Android SDK 替代方案–使用道德认证 Android 应用
+# WalletConnect Android SDK 替代方案–使用 Moralis 认证 Android 应用
 
 > 原文：<https://moralis.io/walletconnect-android-sdk-alternative-authenticate-android-apps-withmoralis/>
 
-**用户认证对于** [**Web3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) **开发****[**构建去中心化应用(dApps)**](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/) **至关重要，以确定用户是加密钱包的合法所有者。此外，一旦用户通过身份验证，我们的**[**dApps**](https://moralis.io/decentralized-applications-explained-what-are-dapps/?utm_source=blog&utm_medium=post&utm_campaign=How%2520to%2520Connect%2520to%2520Avalanche%2520Nodes)**就可以获取有关令牌和 NFT 余额、交易历史等更多信息。然而，如果没有底层的后端基础设施和适当的工具，对用户进行身份验证会非常麻烦。在这个过程中有一个辅助工具就是** [**道德软件开发工具包**](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) **。该 SDK 允许您使用 WalletConnect 或 MetaMask 轻松验证用户。此外，随着 React Native 的 Moralis 集成，该操作系统现在减少了对 WalletConnect Android SDK 的需求，因为 Moralis 现在支持 WalletConnect 和 Android 开发，从而更容易开发移动兼容的 dApps。因此，在本文中，我们将进一步了解 Moralis 如何消除对 WalletConnect Android SDK 的需求。****
+**用户认证对于** [**Web3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) **开发****[**构建去中心化应用(dApps)**](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/) **至关重要，以确定用户是加密钱包的合法所有者。此外，一旦用户通过身份验证，我们的**[**dApps**](https://moralis.io/decentralized-applications-explained-what-are-dapps/?utm_source=blog&utm_medium=post&utm_campaign=How%2520to%2520Connect%2520to%2520Avalanche%2520Nodes)**就可以获取有关令牌和 NFT 余额、交易历史等更多信息。然而，如果没有底层的后端基础设施和适当的工具，对用户进行身份验证会非常麻烦。在这个过程中有一个辅助工具就是** [**Moralis 软件开发工具包**](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) **。该 SDK 允许您使用 WalletConnect 或 MetaMask 轻松验证用户。此外，随着 React Native 的 Moralis 集成，该操作系统现在减少了对 WalletConnect Android SDK 的需求，因为 Moralis 现在支持 WalletConnect 和 Android 开发，从而更容易开发移动兼容的 dApps。因此，在本文中，我们将进一步了解 Moralis 如何消除对 WalletConnect Android SDK 的需求。****
 
 **Moralis 是 Web3 开发的首要操作系统，作为一名用户，你可以访问该系统提供的底层后端基础设施。这使得您可以显著降低所有未来区块链项目的开发时间。**
 
@@ -16,7 +16,7 @@
 
 **![](img/5cd66d6894380176622a0fb91aa1317b.png)
 
-我们可以使用大量不同的替代方法来认证用户。然而，最重要的两个是 [WalletConnect](https://moralis.io/what-is-walletconnect-the-ultimate-walletconnect-guide/) 和 MetaMask。在本节中，我们将更深入地研究并关注 WalletConnect，而不是 MetaMask。但是，如果你有兴趣了解更多关于后者的信息，你可以去访问[的道德博客](https://moralis.io/blog/)，获得[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)的完整解析。
+我们可以使用大量不同的替代方法来认证用户。然而，最重要的两个是 [WalletConnect](https://moralis.io/what-is-walletconnect-the-ultimate-walletconnect-guide/) 和 MetaMask。在本节中，我们将更深入地研究并关注 WalletConnect，而不是 MetaMask。但是，如果你有兴趣了解更多关于后者的信息，你可以去访问[的 Moralis 博客](https://moralis.io/blog/)，获得[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)的完整解析。
 
 对 WalletConnect 的一个常见误解是，人们经常把它误认为是一个应用程序。然而，事实并非如此，因为 WalletConnect 是一个 Web3 协议，它将移动加密钱包连接到各种 dApps。
 
@@ -106,7 +106,7 @@ function App() {
 
 然而，这并没有涵盖让应用程序工作的所有必要步骤。例如，您还需要初始化 WalletConnect 和 Moralis。然而，如果你继续读下去，我们会提供一个链接，链接到一个关于开发移动友好以太坊 dApps 的更广泛的指南。
 
-## WalletConnect Android SDK 示例–道德反应本机模板
+## WalletConnect Android SDK 示例–Moralis 反应本机模板
 
 现在，在应用程序内部调用钩子后，WalletConnect Android SDK 示例的下一部分将继续利用和探索 [Moralis React 本机模板](https://github.com/MoralisWeb3/demo-apps/tree/main/react-native-boilerplate)。你可以在 [Moralis GitHub](https://github.com/MoralisWeb3) 页面上找到这个模板和更多信息。而且，以后构建自己的以太坊移动应用时，可以自由使用这个模板。
 
@@ -158,7 +158,7 @@ function App(): JSX.Element {
 
 然而，这只是模板的一小部分。此外，它还专门介绍了如何在移动友好的以太坊 dApp 中使用 WalletConnect 对用户进行身份验证。假设您想要关于应用程序其他部分的更多信息。这可能是如何指定提供者或初始化 Moralis 和 WalletConnect(使应用程序工作的重要步骤)。在这种情况下，请查看以下来自 Moralis 博客的关于创建[移动以太坊 dApp](https://moralis.io/create-mobile-ethereum-dapp-with-react-native-template/) 的指南。
 
-此外，如果你对 Web3 游戏开发等领域感兴趣，你绝对应该去看看道德元宇宙 SDK。这使得你可以通过 Unity 快速开发适用于 Xbox、PlayStation、Android 和 iOS 等多个平台的元宇宙游戏。
+此外，如果你对 Web3 游戏开发等领域感兴趣，你绝对应该去看看 Moralis 元宇宙 SDK。这使得你可以通过 Unity 快速开发适用于 Xbox、PlayStation、Android 和 iOS 等多个平台的元宇宙游戏。
 
 ## WalletConnect Android SDK 替代方案–摘要
 
@@ -168,6 +168,6 @@ function App(): JSX.Element {
 
 在本文中，我们通过仔细研究如何使用兼容移动设备的以太坊 dApp，说明了如何使用 Moralis 作为 WalletConnect Android SDK 的替代品。随着启动过程的进行，我们仔细研究了 Moralis React 本机模板，重点关注[如何将用户与 WalletConnect](https://moralis.io/how-to-connect-users-with-walletconnect/) 连接起来。
 
-然而，这远远不是道德的极限，因为操作系统使所有 Web3 开发更容易实现。如果你愿意，你绝对应该看看 Moralis 博客的更多内容。在那里，您可以找到更多的文章，例如， [ERC20 契约](https://moralis.io/what-are-erc20-contracts-full-erc20-contract-guide/)、[智能契约索引](https://moralis.io/the-graph-alternative-for-smart-contract-indexing/)、[如何连接到雪崩节点](https://moralis.io/how-to-connect-to-avalanche-nodes/)等等。
+然而，这远远不是 Moralis 的极限，因为操作系统使所有 Web3 开发更容易实现。如果你愿意，你绝对应该看看 Moralis 博客的更多内容。在那里，您可以找到更多的文章，例如， [ERC20 契约](https://moralis.io/what-are-erc20-contracts-full-erc20-contract-guide/)、[智能契约索引](https://moralis.io/the-graph-alternative-for-smart-contract-indexing/)、[如何连接到雪崩节点](https://moralis.io/how-to-connect-to-avalanche-nodes/)等等。
 
 所以，如果你想成为区块链的开发者，第一步就是和 T2 签约。一旦成为会员，你就可以在几分钟内[建造你的第一个区块链 dApp](https://moralis.io/build-your-first-dapp-ethereum-tutorial/) 。此外，您还可以毫无困难地满足桌面和移动用户的需求！**

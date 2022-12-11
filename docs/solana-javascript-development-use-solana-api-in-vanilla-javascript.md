@@ -52,7 +52,7 @@ JavaScript 最早出现在 90 年代，现在是最重要的编程语言之一�
 
 这表明 JavaScript 是许多不同领域的敲门砖。这也是 JavaScript 被广泛采用并成为最受欢迎的语言之一的众多原因之一。
 
-如果你想了解更多关于 JavaScript 的知识，请考虑[道德学院](https://academy.moralis.io/)。该学院提供一系列课程，帮助你成为更熟练的 Web3 开发者。在[区块链课程](https://academy.moralis.io/all-courses)中，您会发现“[学习 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)课程让您的 JavaScript 技能更上一层楼！
+如果你想了解更多关于 JavaScript 的知识，请考虑[Moralis 学院](https://academy.moralis.io/)。该学院提供一系列课程，帮助你成为更熟练的 Web3 开发者。在[区块链课程](https://academy.moralis.io/all-courses)中，您会发现“[学习 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)课程让您的 JavaScript 技能更上一层楼！
 
 ![](img/0376c8648037474c010b80e32a4f401d.png)
 
@@ -66,13 +66,13 @@ JavaScript 最早出现在 90 年代，现在是最重要的编程语言之一�
 
 为了使这个过程更容易理解，我们将把这个过程分成以下三个步骤:
 
-1.  创建道德 Dapp
+1.  创建 Moralis Dapp
 2.  设置 HTML 文件
 3.  添加 JavaScript 逻辑
 
-所以，让我们从仔细看看如何创建你自己的道德开始吧！
+所以，让我们从仔细看看如何创建你自己的 Moralis 开始吧！
 
-## 步骤 1: Solana JavaScript 开发——创建一个道德 Dapp
+## 步骤 1: Solana JavaScript 开发——创建一个 Moralis Dapp
 
 如果您还没有，您需要先创建一个 Moralis 帐户。这是完全免费的，只需要几秒钟。有了自己的账户，你可以通过导航到 Moralis 管理面板并点击“创建新的 Dapp”按钮来启动这个过程。
 
@@ -154,7 +154,7 @@ https://www.youtube.com/watch?v=ax5scht_s4U
 
 在本文中，我们花时间探索了 Solana JavaScript 开发的复杂性。在这个过程中，我们利用 Moralis 的 Solana API 和普通的 JavaScript 来使这个过程更容易理解。通过使用 Moralis SDK 和 Solana API，我们只用了三个步骤就创建了一个简单的 Solana JavaScript 演示 dapp:
 
-1.  创建道德 Dapp
+1.  创建 Moralis Dapp
 2.  设置 HTML 文件
 3.  添加 JavaScript 逻辑
 
@@ -162,6 +162,6 @@ https://www.youtube.com/watch?v=ax5scht_s4U
 
 ![](img/e07ef9b095605f8b334625e5830434dc.png)
 
-然而，这仅仅触及了与道德家合作潜力的表面。如果你对 API 有进一步的兴趣，请随意仔细看看 Moralis 的[以太坊 dapp API](https://moralis.io/what-is-an-ethereum-dapp-api-build-ethereum-dapps-easily/) 或[多边形 dapp API](https://moralis.io/polygon-dapp-api-how-to-efficiently-create-polygon-dapps/) 。这些工具允许你创建复杂的 dapps，比如说，一个 [Web3 Spotify](https://moralis.io/how-to-build-a-web3-spotify-clone/) 或 [Web3 Twitter](https://moralis.io/how-to-build-a-web3-twitter-clone/) 的克隆！此外，如果您对 NFT 和令牌更感兴趣，您还可以学习关于令牌开发所需的一切。例如，学习[创建自己的 ERC-20 令牌](https://moralis.io/how-to-create-your-own-erc-20-token-in-10-minutes/)或[在短短 15 分钟内开始生成 NFT](https://nftcoders.com/begin-generating-nfts-in-15-minutes/)！
+然而，这仅仅触及了与 Moralis 家合作潜力的表面。如果你对 API 有进一步的兴趣，请随意仔细看看 Moralis 的[以太坊 dapp API](https://moralis.io/what-is-an-ethereum-dapp-api-build-ethereum-dapps-easily/) 或[多边形 dapp API](https://moralis.io/polygon-dapp-api-how-to-efficiently-create-polygon-dapps/) 。这些工具允许你创建复杂的 dapps，比如说，一个 [Web3 Spotify](https://moralis.io/how-to-build-a-web3-spotify-clone/) 或 [Web3 Twitter](https://moralis.io/how-to-build-a-web3-twitter-clone/) 的克隆！此外，如果您对 NFT 和令牌更感兴趣，您还可以学习关于令牌开发所需的一切。例如，学习[创建自己的 ERC-20 令牌](https://moralis.io/how-to-create-your-own-erc-20-token-in-10-minutes/)或[在短短 15 分钟内开始生成 NFT](https://nftcoders.com/begin-generating-nfts-in-15-minutes/)！
 
 所以，如果你对 Solana JavaScript 开发感兴趣，你绝对应该[注册 Moralis](https://admin.moralis.io/register) ！****

@@ -212,7 +212,7 @@ CORS(app)
 api_key = "xxx"
 ```
 
-确保将代码中的“ *xxx* ”替换为您实际的 Web3 API 密钥，如果您拥有 Moralis 帐户，则可以获得该密钥。所以，如果你还没有，那么[向道德家](https://admin.moralis.io/register)报名吧。然后，登录 Moralis 管理面板，导航到“Web3 APIs”选项卡，复制密钥，并将其输入代码:
+确保将代码中的“ *xxx* ”替换为您实际的 Web3 API 密钥，如果您拥有 Moralis 帐户，则可以获得该密钥。所以，如果你还没有，那么[向 Moralis 家](https://admin.moralis.io/register)报名吧。然后，登录 Moralis 管理面板，导航到“Web3 APIs”选项卡，复制密钥，并将其输入代码:
 
 ![step one, click on web3 apis, and step two, click on the copy button to copy the web3 api key](img/41b2a203e4c7084dedb2d08bc93ccc4b.png)
 
@@ -352,7 +352,7 @@ python3 app.py
 
 从那里，你现在可以在一个新的终端上运行" *npm run start* "来启动这个应用程序！
 
-本文到此为止！如果还有问题或者你在教程中遇到了麻烦，请随时查看官方的 [Web3 Python SDK 文档](https://docs.moralis.io/docs/your-first-dapp-python)，它将回答你的任何问题！你也可以从[道德 YouTube](https://www.youtube.com/@MoralisWeb3) 频道观看下面的视频。以下片段从头到尾详细介绍了该教程，其中我们一位才华横溢的工程师将带领您完成整个过程:
+本文到此为止！如果还有问题或者你在教程中遇到了麻烦，请随时查看官方的 [Web3 Python SDK 文档](https://docs.moralis.io/docs/your-first-dapp-python)，它将回答你的任何问题！你也可以从[Moralis YouTube](https://www.youtube.com/@MoralisWeb3) 频道观看下面的视频。以下片段从头到尾详细介绍了该教程，其中我们一位才华横溢的工程师将带领您完成整个过程:
 
 [https://www.youtube.com/embed/eIYd_FOT3Fw?feature=oembed](https://www.youtube.com/embed/eIYd_FOT3Fw?feature=oembed)
 
@@ -366,7 +366,7 @@ python3 app.py
 
 如果你觉得这个教程很有帮助，可以考虑在 Moralis 的 [Web3 博客](https://moralis.io/blog/)查看更多的指南。例如，学习如何[设置自动的 Web3 通知邮件](https://moralis.io/how-to-set-up-automated-web3-notification-emails-with-python/)或者阅读 [Ethers.js vs Web3 streams](https://moralis.io/ethers-js-vs-web3-streams-the-best-option-for-blockchain-developers/) ！
 
-此外，如果你想成为一名更熟练的区块链开发者，立即报名参加[道德学院](https://academy.moralis.io)！该学院为新的和更有经验的开发人员提供了一系列课程。例如，通过以下课程学习 React 开发的基础知识:“ [React Web 开发 101](https://academy.moralis.io/courses/react-web-development-101) ”。
+此外，如果你想成为一名更熟练的区块链开发者，立即报名参加[Moralis 学院](https://academy.moralis.io)！该学院为新的和更有经验的开发人员提供了一系列课程。例如，通过以下课程学习 React 开发的基础知识:“ [React Web 开发 101](https://academy.moralis.io/courses/react-web-development-101) ”。
 
 ![academy in grey letters](img/df256d9337d3bf52537ab8c013ff5380.png)
 

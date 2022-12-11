@@ -4,9 +4,9 @@
 
 从市值角度来看，比特币是最大的加密货币，而“区块链”的概念通常与比特币联系在一起。然而，即使比特币是市值最大的加密货币，以太坊在 dApp 开发中也胜过它。以太坊无疑是最大的支持智能合约的区块链，并且托管着一个由[**【dApps】**](https://moralis.io/decentralized-applications-explained-what-are-dapps/)**(去中心化应用)组成的庞大生态系统。这些 dApps 和 DeFi 项目通常运行在基于以太坊的 ERC-20 令牌上。再者，以太坊是** [**EVM**](https://moralis.io/evm-explained-what-is-ethereum-virtual-machine/) **(以太坊虚拟机)的起源，现在被 Polygon 等其他流行链广泛使用。因此，许多连锁店也将以太坊 ERC-20 令牌标准应用于自己的网络。因此，我们将在 10 分钟内详细了解如何创建自己的 ERC-20 令牌。**
 
-现在你可能会问自己“在 10 分钟内创造你自己的 ERC-20 代币？这是什么巫术？”。事实上，它既不是巫术也不是魔法——它只是 [道德](https://moralis.io/) 。创建 ERC-20 令牌并不困难，只要有合适的工具。这项工作的最佳工具和平台是 Moralis，它会为您完成所有繁重的后端工作。您将很快发现为什么 Moralis 成为首要的 [Web3 开发](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/) 平台，因为它为开发和部署您自己的 dApps 和令牌提供了一切。因此，在本文中，我们将使用 Moralis 来创建 ERC-20 令牌。
+现在你可能会问自己“在 10 分钟内创造你自己的 ERC-20 代币？这是什么巫术？”。事实上，它既不是巫术也不是魔法——它只是 [Moralis](https://moralis.io/) 。创建 ERC-20 令牌并不困难，只要有合适的工具。这项工作的最佳工具和平台是 Moralis，它会为您完成所有繁重的后端工作。您将很快发现为什么 Moralis 成为首要的 [Web3 开发](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/) 平台，因为它为开发和部署您自己的 dApps 和令牌提供了一切。因此，在本文中，我们将使用 Moralis 来创建 ERC-20 令牌。
 
-此外，Moralis 还提供了大量其他强大的工具供开发过程中使用。一个例子是 [道德斯快速节点](https://moralis.io/speedy-nodes/) ，我们将使用它来开发我们的 ERC-20 令牌。此外，Moralis 提供了一个完全托管的后端基础设施，允许您作为开发人员专注于前端。因此，无论您是开发 dApps 还是创建令牌，Moralis 都可以提供帮助。免费加入 Moralis，立即开始使用该平台的工具！
+此外，Moralis 还提供了大量其他强大的工具供开发过程中使用。一个例子是 [Moralis 斯快速节点](https://moralis.io/speedy-nodes/) ，我们将使用它来开发我们的 ERC-20 令牌。此外，Moralis 提供了一个完全托管的后端基础设施，允许您作为开发人员专注于前端。因此，无论您是开发 dApps 还是创建令牌，Moralis 都可以提供帮助。免费加入 Moralis，立即开始使用该平台的工具！
 
 ### 什么是 ERC 20 代币？
 
@@ -153,15 +153,15 @@ Moralis 是目前最快的 [区块链节点提供商](https://moralis.io/infura-
 
 ![](img/53a3c214950f082eaf0095c6a4dc463d.png)
 
-这是创建、编译、测试和将合同部署到区块链的完整过程。如果有人问你，你现在将知道如何在 10 分钟内使用 Moralis 创建自己的 ERC-20 令牌的四个简单步骤！如果你对这个过程还有疑问，我们推荐你从 [道德 YouTube 频道](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw) : 查看这个视频
+这是创建、编译、测试和将合同部署到区块链的完整过程。如果有人问你，你现在将知道如何在 10 分钟内使用 Moralis 创建自己的 ERC-20 令牌的四个简单步骤！如果你对这个过程还有疑问，我们推荐你从 [Moralis YouTube 频道](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw) : 查看这个视频
 
 [https://www.youtube.com/embed/KNBneUpFaGo?feature=oembed](https://www.youtube.com/embed/KNBneUpFaGo?feature=oembed)
 
 ## 如何在 10 分钟内制作自己的 ERC-20 代币——摘要
 
-创造你自己的 ERC-20 代币并不困难，尤其是在使用道德的时候。有了 Moralis，按照这个“如何做”指南，你可以在 10 分钟内制作出自己的 ERC-20 代币。你需要做的只是做一些准备，然后遵循以下四个简单的步骤:
+创造你自己的 ERC-20 代币并不困难，尤其是在使用 Moralis 的时候。有了 Moralis，按照这个“如何做”指南，你可以在 10 分钟内制作出自己的 ERC-20 代币。你需要做的只是做一些准备，然后遵循以下四个简单的步骤:
 
-1.  建立一个道德迅速的节点。
+1.  建立一个 Moralis 迅速的节点。
 2.  添加一个 pragma 行，同时导入适当的 OpenZeppelin 包。
 3.  创建以太坊令牌契约本身。
 4.  测试合同。
@@ -170,4 +170,4 @@ Moralis 是目前最快的 [区块链节点提供商](https://moralis.io/infura-
 
 此外，Moralis 平台不仅有助于创建以太坊代币。有了 Moralis 提供的全面管理的后端基础设施，就有可能缩短所有区块链项目的上市时间。除此之外，该网站还提供了大量优秀的指南。这里只是众多例子中的两个:“ [如何在几分钟内搭建一个 NFT 游戏 App](https://moralis.io/nft-game-development-how-to-build-an-nft-game-app-in-minutes/)”或者“ [如何用 WalletConnect](https://moralis.io/how-to-connect-users-with-walletconnect/) 认证用户”。
 
-因此，如果您希望提高开发区块链项目的效率，我们强烈推荐您今天就与道德家 签约 [！您可以免费这样做，这将使您能够访问该平台的所有服务，比如本文中使用的 Speedy Nodes。](https://admin.moralis.io/register)
+因此，如果您希望提高开发区块链项目的效率，我们强烈推荐您今天就与 Moralis 家 签约 [！您可以免费这样做，这将使您能够访问该平台的所有服务，比如本文中使用的 Speedy Nodes。](https://admin.moralis.io/register)

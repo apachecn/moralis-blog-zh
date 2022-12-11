@@ -48,7 +48,7 @@
 
 ![](img/71abb9fecd87400a5454c43b376ce667.png)
 
-如果您继续操作，您可以在 Unity 屏幕的底部看到一条错误消息。这表明我们还没有输入我们的 Moralis 服务器 URL 和应用程序 ID。要查看这些详细信息的输入字段，您需要选择“道德设置”预置:
+如果您继续操作，您可以在 Unity 屏幕的底部看到一条错误消息。这表明我们还没有输入我们的 Moralis 服务器 URL 和应用程序 ID。要查看这些详细信息的输入字段，您需要选择“Moralis 设置”预置:
 
 ![](img/22dc6f1725c2b98a62a50e8db01d2ddc.png)
 
@@ -56,7 +56,7 @@
 
 ![](img/39f3a9e11ceebcc670f48426835eb7ee.png)
 
-### 初始道德设置
+### 初始 Moralis 设置
 
 无论你只是用 Web3 登录连接一个 Unity 游戏，索引区块链，还是使用终极[以太坊 dApp 样板](https://moralis.io/ethereum-dapp-boilerplate-full-ethereum-react-boilerplate-tutorial/)创建 dApp，你都需要从初始的 Moralis 设置开始。这让你可以访问 Moralis 的 SDK。此外，这个设置的主要目标是让您的 Moralis 服务器启动并运行。只有那时你才能看到它的细节。
 
@@ -168,7 +168,7 @@ using Moralis.WebGL.Platform.Objects;
 
 多亏了莫利斯，”。“ethAddress”是获取用户地址的唯一途径。如果您对我们的“使用 Web3 登录的 Unity 游戏”示例中使用的主脚本的更多细节感兴趣，请查看下面 4:40 的视频。
 
-### 道德仪表板
+### Moralis 仪表板
 
 创建 Moralis 服务器后，您可以使用的另一个强大工具是 Moralis dashboard(数据库)。此外，您可以通过单击“查看详细信息”按钮旁边的箭头来访问该数据库(见下图)。接下来，您只需点击“仪表板”按钮:
 
@@ -210,8 +210,8 @@ https://www.youtube.com/watch?v=FY77ImUpciI
 
 在这一点上，你知道当使用 Moralis 的元宇宙 SDK 时，用 Web3 登录连接一个 Unity 游戏是一件轻而易举的事情。此外，当您使用我们的项目 ZIP 文件时，您只需要添加您的 Moralis 服务器的详细信息。此外，您还了解了支持许多平台。因此，我们真的鼓励你更上一层楼。因此，请确保使用此处获得的知识将您独特的 Unity 游戏与 Web3 登录连接起来。
 
-然而，如果你缺乏想法或需要更多的实践，我们建议检查我们的其他元宇宙的例子项目。例如，你可以学习如何[构建一个中世纪的元宇宙游戏](https://moralis.io/how-to-build-a-medieval-metaverse-game/)或者一个[网络 3 MMORPG](https://moralis.io/build-a-web3-mmorpg-with-unity-in-10-minutes/) 。另一方面，您可能对探索其他区块链发展主题感兴趣。如果是这样，我们鼓励你访问[道德伦理 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德伦理博客](https://moralis.io/blog/)。这两个出口都可以完美地服务于你的免费加密教育进程。此外，一些最新的话题包括 [Web3 电子商务](https://moralis.io/web3-e-commerce-create-a-web3-e-commerce-platform-in-5-steps/)，一个 [Web3 亚马逊市场](https://moralis.io/how-to-build-a-web3-amazon-marketplace/)，[炼金术 API 替代品](https://moralis.io/alchemy-api-alternatives-web3-development-platforms/)，创建一个 [BNB 链令牌](https://moralis.io/how-to-create-a-bnb-chain-token-in-5-minutes/)，克隆[比特币基地钱包](https://moralis.io/cloning-coinbase-wallet-how-to-create-a-coinbase-clone/)，创建一个[索拉纳令牌](https://moralis.io/how-to-create-a-solana-token-in-5-steps/)，以及一个 [NFT 铸币页面](https://moralis.io/how-to-launch-an-nft-minting-page-full-walkthrough/)演练。
+然而，如果你缺乏想法或需要更多的实践，我们建议检查我们的其他元宇宙的例子项目。例如，你可以学习如何[构建一个中世纪的元宇宙游戏](https://moralis.io/how-to-build-a-medieval-metaverse-game/)或者一个[网络 3 MMORPG](https://moralis.io/build-a-web3-mmorpg-with-unity-in-10-minutes/) 。另一方面，您可能对探索其他区块链发展主题感兴趣。如果是这样，我们鼓励你访问[Moralis 伦理 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 伦理博客](https://moralis.io/blog/)。这两个出口都可以完美地服务于你的免费加密教育进程。此外，一些最新的话题包括 [Web3 电子商务](https://moralis.io/web3-e-commerce-create-a-web3-e-commerce-platform-in-5-steps/)，一个 [Web3 亚马逊市场](https://moralis.io/how-to-build-a-web3-amazon-marketplace/)，[炼金术 API 替代品](https://moralis.io/alchemy-api-alternatives-web3-development-platforms/)，创建一个 [BNB 链令牌](https://moralis.io/how-to-create-a-bnb-chain-token-in-5-minutes/)，克隆[比特币基地钱包](https://moralis.io/cloning-coinbase-wallet-how-to-create-a-coinbase-clone/)，创建一个[索拉纳令牌](https://moralis.io/how-to-create-a-solana-token-in-5-steps/)，以及一个 [NFT 铸币页面](https://moralis.io/how-to-launch-an-nft-minting-page-full-walkthrough/)演练。
 
-然而，免费教育很少获得最佳结果。如果你想尽快成为一名区块链开发者，这一点尤其重要。因此，您可能会对更专业的方法感兴趣。如果是这样的话，报名参加[道德学院](https://academy.moralis.io/)可能正是你所需要的。
+然而，免费教育很少获得最佳结果。如果你想尽快成为一名区块链开发者，这一点尤其重要。因此，您可能会对更专业的方法感兴趣。如果是这样的话，报名参加[Moralis 学院](https://academy.moralis.io/)可能正是你所需要的。
 
 ![](img/9753eb6eaf2c8de635a78409c4d476a1.png)**

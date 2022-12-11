@@ -2,13 +2,13 @@
 
 > 原文：<https://moralis.io/web3-template-build-a-dapp-using-a-web3-website-template/>
 
-下一代互联网 Web3 将会打破现状。然而，我们仍处于 Web3 革命的早期阶段。因此，现在是开始构建 [**分散应用**](https://moralis.io/decentralized-applications-explained-what-are-dapps/) **(dapps)的绝佳时机。此外，多亏了 Moralis，任何人都可以开始使用它的 Web3 模板——以太坊样板来构建 dapp。有了这个快捷方式，您可以在几分钟内启动并运行一个全功能的 dapp。简而言之，只需在 GitHub 上克隆 Web3 网站模板，并添加您的 Web3 API 密钥。后者在 Moralis 管理区等着你，你可以用一个免费账户进入。当然，向前看，你将有机会跟随我们的领导，毫不费力地创建你的第一个 dapp。如果这听起来很有趣，** [**创建你的免费道德账户**](https://admin.moralis.io/register) **，卷起你的袖子。**
+下一代互联网 Web3 将会打破现状。然而，我们仍处于 Web3 革命的早期阶段。因此，现在是开始构建 [**分散应用**](https://moralis.io/decentralized-applications-explained-what-are-dapps/) **(dapps)的绝佳时机。此外，多亏了 Moralis，任何人都可以开始使用它的 Web3 模板——以太坊样板来构建 dapp。有了这个快捷方式，您可以在几分钟内启动并运行一个全功能的 dapp。简而言之，只需在 GitHub 上克隆 Web3 网站模板，并添加您的 Web3 API 密钥。后者在 Moralis 管理区等着你，你可以用一个免费账户进入。当然，向前看，你将有机会跟随我们的领导，毫不费力地创建你的第一个 dapp。如果这听起来很有趣，** [**创建你的免费 Moralis 账户**](https://admin.moralis.io/register) **，卷起你的袖子。**
 
 你是新来的吗？如果是这样，让我们带您熟悉一下这个强大的平台。领先的[企业级 Web3 API](http://moralis.io/) 提供商 Moralis 支持 Web2 开发人员轻松过渡到 Web3 开发。你可以把它想象成一个 Web2-Web3 的桥梁。此外，这个 Web3 开发费用完全是关于跨平台的互操作性。因此，您可以使用各种领先的遗留平台、框架和编程语言来参与其中。
 
 ![](img/393a754d1b377b5e9f20842766d99550.png)
 
-*加入* [*道德杂志*](https://moralis.io/joindiscord/) *了解 Web3 最新发展*
+*加入* [*Moralis 杂志*](https://moralis.io/joindiscord/) *了解 Web3 最新发展*
 
 此外，Moralis 具有跨链互操作性，支持所有领先的可编程链。因此，您将在这里了解的 Web3 模板是一个很好的起点。后者整合了 [Web3 认证](https://moralis.io/authentication/)——所有 dapps 的起点。毕竟，让用户将他们的 Web3 钱包连接到你的 dapp 是进入 Web3 领域的一个入口。尽管如此，我们在 GitHub 上的 Web3 网站模板包括一些简洁的功能，我们将在下面介绍。
 
@@ -105,11 +105,11 @@
 
 ### 获取您的 Moralis Web3 API 密钥
 
-要获得 API 密钥，您需要您的 Moralis 帐户。因此，如果你还没有这样做，请使用简介中的“创建你的免费道德账户”链接。或者，您也可以访问 Moralis 的主页，点击“免费开始”按钮:
+要获得 API 密钥，您需要您的 Moralis 帐户。因此，如果你还没有这样做，请使用简介中的“创建你的免费 Moralis 账户”链接。或者，您也可以访问 Moralis 的主页，点击“免费开始”按钮:
 
 ![](img/a36a8d8a640658195772465bcbac7905.png)
 
-随着您的帐户启动和运行，您将能够访问您的道德管理区。在那里，您可以通过两个简单的步骤获得您的 Moralis Web3 API 密钥。首先，点击侧边菜单中的“Web3 APIs”选项，然后复制您的 API 密钥:
+随着您的帐户启动和运行，您将能够访问您的 Moralis 管理区。在那里，您可以通过两个简单的步骤获得您的 Moralis Web3 API 密钥。首先，点击侧边菜单中的“Web3 APIs”选项，然后复制您的 API 密钥:
 
 ![](img/61a7f8c05de816eaadf56e2774e60ca1.png)
 
@@ -171,6 +171,6 @@ https://www.youtube.com/watch?v=Bb5Pc–kyAY
 
 在今天的文章中，您了解了借助 Moralis 和我们在 GitHub 上的 Web3 网站模板的力量，创建 dapp 可以轻松快捷地完成。初始过程包括克隆 Web3 模板(或以太坊样板代码)。此外，随着我们向前推进，您发现您可以将 dapp 部署到以太坊或任何其他受支持的 EVM 兼容链。您只需在“. env.local”文件中的指定位置输入相应的链 ID 即可。除了链 ID，我们还向您展示了如何通过两个简单的步骤获得您的 Moralis Web3 API 密钥。您还学习了如何获取您的“ *NEXTAUTH_SECRET* ”并在本地运行您的 dapp。
 
-我们希望您已经动手测试了我们示例 dapp 的实例。现在，您可以通过添加额外的页面和功能来使这个分散式应用程序变得独一无二。如果你需要更多的实践或一些新的想法，一定要去探索[道德博客](https://moralis.io/blog/)和[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。这两个渠道涵盖了从 DeFi dapps 到 Web3 游戏的各种示例项目。因此，你可以使用这些教程成为一个没有 Web3 开发经验的自信的 Web3 开发者。
+我们希望您已经动手测试了我们示例 dapp 的实例。现在，您可以通过添加额外的页面和功能来使这个分散式应用程序变得独一无二。如果你需要更多的实践或一些新的想法，一定要去探索[Moralis 博客](https://moralis.io/blog/)和[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。这两个渠道涵盖了从 DeFi dapps 到 Web3 游戏的各种示例项目。因此，你可以使用这些教程成为一个没有 Web3 开发经验的自信的 Web3 开发者。
 
-此外，值得指出的是，区块链行业提供了许多就业机会。然而，要得到你梦想中的加密工作，如果你是区块链认证的，那会很有帮助。因此，一定要考虑报名参加[道德学院](https://academy.moralis.io/)。除了顶尖的区块链发展课程，这是获得专家指导、个性化学习路径和密码领域最先进社区之一的会员资格的地方。
+此外，值得指出的是，区块链行业提供了许多就业机会。然而，要得到你梦想中的加密工作，如果你是区块链认证的，那会很有帮助。因此，一定要考虑报名参加[Moralis 学院](https://academy.moralis.io/)。除了顶尖的区块链发展课程，这是获得专家指导、个性化学习路径和密码领域最先进社区之一的会员资格的地方。

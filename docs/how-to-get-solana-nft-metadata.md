@@ -4,7 +4,7 @@
 
 毫无疑问，索拉纳是最活跃的网络社区之一。因此，Solana 社区对功能强大的 Web3 开发工具的需求越来越大。例如，想要在索拉纳 NFT 市场上发布 NFT 作品或关注 NFT 发展的创作者需要获得索拉纳 NFT 元数据。虽然在没有合适工具的情况下，获得 Solana 的 NFT 元数据可能具有挑战性，但只需点击几次鼠标，就可以获得正确的 [**Web3 技术堆栈**](https://moralis.io/exploring-the-web3-tech-stack-full-guide/) **。此外，有了 Moralis 强大的** [**索拉纳 NFT API**](https://moralis.io/solana-nft-api-exploring-the-ultimate-nft-api-for-solana/) **，你马上就能获得索拉纳 NFT 元数据！**
 
-Moralis(又名“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”)提供了一个强大的 Solana API，可以毫不费力地满足你所有与区块链相关的后端需求。在本文中，我们将集中使用我们的 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) ( [React](https://moralis.io/react-explained-what-is-react/) )技能来创建一个简单的 dapp(去中心化应用程序)。在这个过程中，您将学习如何完成初始的 Moralis 设置，以及如何导入 Solana API。有了这个设置，用一行代码就可以简单地获得索拉纳·NFT 元数据。然而，在我们专注于构建之前，我们需要确保你们都知道基础知识。因此，我们将首先回答“什么是索拉纳 NFT 元数据？”问题。然后，我们将添加我们的例子索拉纳 NFT dapp 的演示上下文。尽管如此，请确保[创建您的免费道德账户](https://admin.moralis.io/register)以便能够跟进。
+Moralis(又名“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”)提供了一个强大的 Solana API，可以毫不费力地满足你所有与区块链相关的后端需求。在本文中，我们将集中使用我们的 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) ( [React](https://moralis.io/react-explained-what-is-react/) )技能来创建一个简单的 dapp(去中心化应用程序)。在这个过程中，您将学习如何完成初始的 Moralis 设置，以及如何导入 Solana API。有了这个设置，用一行代码就可以简单地获得索拉纳·NFT 元数据。然而，在我们专注于构建之前，我们需要确保你们都知道基础知识。因此，我们将首先回答“什么是索拉纳 NFT 元数据？”问题。然后，我们将添加我们的例子索拉纳 NFT dapp 的演示上下文。尽管如此，请确保[创建您的免费 Moralis 账户](https://admin.moralis.io/register)以便能够跟进。
 
 ![](img/8012a97bf8fe9ac9116ad1c13e15390e.png)
 
@@ -20,9 +20,9 @@ Moralis(又名“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-t
 
 您必须注意，为了创建 NFT，您需要拥有它们的详细信息(元数据)和文件(图像、视频、gif、pdf 等)。)存放在某处。但这正是许多项目通过使用集中存储解决方案来“作弊”的地方。可悲的是，这损害了权力下放的整体目标。
 
-因此，关注以分散方式存储 NFTs 文件和元数据的项目是很重要的。说到道德，我们用 IPFS。因此，你的文件和元数据可以毫不费力地上传到 IPFS。你甚至可以[上传文件夹到 IPFS](https://moralis.io/how-to-upload-folders-to-ipfs/) ，这在[批量铸造 NFT](https://moralis.io/how-to-bulk-mint-nfts-batch-minting-guide/)时会非常有用。这样，您的项目就可以达到适当的分散化水平。
+因此，关注以分散方式存储 NFTs 文件和元数据的项目是很重要的。说到 Moralis，我们用 IPFS。因此，你的文件和元数据可以毫不费力地上传到 IPFS。你甚至可以[上传文件夹到 IPFS](https://moralis.io/how-to-upload-folders-to-ipfs/) ，这在[批量铸造 NFT](https://moralis.io/how-to-bulk-mint-nfts-batch-minting-guide/)时会非常有用。这样，您的项目就可以达到适当的分散化水平。
 
-另一方面，一个合适的索拉纳 NFT API 也能让你访问和利用现有的索拉纳 NFT。这就是这篇文章的内容。为此，我们需要获取索拉纳·NFT 的元数据。一旦你知道如何去做，你就可以围绕索拉纳 NFTs 创建各种 dapps。例如，你可以整洁地展示索拉纳 NFT，创建一个先进的索拉纳 NFT 搜索引擎，甚至[推出一个 NFT 市场](https://moralis.io/how-to-launch-an-nft-marketplace/)。最后，下面几节将向您展示如何开始索拉纳 NFT 编程。同样值得记住的是，道德家 [NFT API](https://moralis.io/nft-api/) 是跨链兼容的，所以它也是最好的以太坊 NFT API、币安 NFT API 等等！
+另一方面，一个合适的索拉纳 NFT API 也能让你访问和利用现有的索拉纳 NFT。这就是这篇文章的内容。为此，我们需要获取索拉纳·NFT 的元数据。一旦你知道如何去做，你就可以围绕索拉纳 NFTs 创建各种 dapps。例如，你可以整洁地展示索拉纳 NFT，创建一个先进的索拉纳 NFT 搜索引擎，甚至[推出一个 NFT 市场](https://moralis.io/how-to-launch-an-nft-marketplace/)。最后，下面几节将向您展示如何开始索拉纳 NFT 编程。同样值得记住的是，Moralis 家 [NFT API](https://moralis.io/nft-api/) 是跨链兼容的，所以它也是最好的以太坊 NFT API、币安 NFT API 等等！
 
 ## 获取索拉纳 NFT 元数据-我们的索拉纳 NFT Dapp 演示
 
@@ -54,11 +54,11 @@ Moralis(又名“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-t
 
 ![](img/6af4b20a09301ca5a6d0a0d53f60a762.png)
 
-### 道德入门
+### Moralis 入门
 
 要获得索拉纳·NFT 元数据，您需要完成初始的 Moralis 设置。幸运的是，开始使用 Moralis 非常简单。它包括以下六个步骤:
 
-1.  使用本文开头提到的“创建你的免费道德账户”链接。但是，如果您已经有一个活动帐户，请确保[登录](https://admin.moralis.io/login):
+1.  使用本文开头提到的“创建你的免费 Moralis 账户”链接。但是，如果您已经有一个活动帐户，请确保[登录](https://admin.moralis.io/login):
 
 ![](img/1f8364ead6bcb5c68917725f8aeec26c.png)
 
@@ -176,12 +176,12 @@ setName(nftResult.name);
 
 *注意* *:我们的代码(上面的“GitHub”链接)包含了所有的样式代码/文件。*
 
-*此外，这里还有一个内部道德专家完成上述项目的视频教程:*
+*此外，这里还有一个内部 Moralis 专家完成上述项目的视频教程:*
 
 https://www.youtube.com/watch?v=Ln0GEUsvcFM
 
 ## 如何获取索拉纳 NFT 元数据-摘要
 
-在本文中，您有机会学习如何用一行代码获得索拉纳·NFT 元数据。您现在知道“getNFTMetadata”方法可以实现这个目的。另外，你知道为了使用这个钩子，你需要正确地设置道德。随着 Moralis 服务器的启动和运行，您可以安装“moralis-react”并导入 Solana API。此外，我们鼓励您通过实现其他功能来进一步利用上述示例。此外，如果你对 Solana 编程很认真，你应该学习如何使用 Phantom wallet 对 Solana 用户进行身份验证。最重要的是，你可能还想[创建一个索拉纳令牌](https://moralis.io/how-to-create-a-solana-token-in-5-steps/)和建立一个[索拉纳令牌仪表板](https://moralis.io/how-to-build-a-solana-token-dashboard/)。然而，如果你还不熟悉 Solana 令牌标准，请务必查看一下 [SPL 与 ERC20 令牌](https://moralis.io/spl-vs-erc20-tokens-comparing-solana-and-ethereum-tokens/)的对比。
+在本文中，您有机会学习如何用一行代码获得索拉纳·NFT 元数据。您现在知道“getNFTMetadata”方法可以实现这个目的。另外，你知道为了使用这个钩子，你需要正确地设置 Moralis。随着 Moralis 服务器的启动和运行，您可以安装“moralis-react”并导入 Solana API。此外，我们鼓励您通过实现其他功能来进一步利用上述示例。此外，如果你对 Solana 编程很认真，你应该学习如何使用 Phantom wallet 对 Solana 用户进行身份验证。最重要的是，你可能还想[创建一个索拉纳令牌](https://moralis.io/how-to-create-a-solana-token-in-5-steps/)和建立一个[索拉纳令牌仪表板](https://moralis.io/how-to-build-a-solana-token-dashboard/)。然而，如果你还不熟悉 Solana 令牌标准，请务必查看一下 [SPL 与 ERC20 令牌](https://moralis.io/spl-vs-erc20-tokens-comparing-solana-and-ethereum-tokens/)的对比。
 
-另一方面，您可能想要探索其他区块链开发主题并处理其他示例项目。如果是这样的话，道德网 3 博客正是你要找的地方。一些最新的话题展示了[上传 Web3 Unity 元数据](https://moralis.io/uploading-web3-unity-metadata/)，如何创建 NFT [的链上库存系统](https://moralis.io/create-an-nft-on-chain-inventory-system-for-gaming/)，构建[去中心化 Twitter](https://moralis.io/2022-guide-to-building-a-decentralized-twitter/) ，你需要知道的关于 [Web3 前端](https://moralis.io/web3-frontend-everything-you-need-to-learn-about-building-dapp-frontends/)和 [dapp 开发](https://moralis.io/dapp-development-tutorial-full-guide-to-building-a-dapp/)的一切。最终，Moralis 拥有成为 Web3 开发者所需的一切。如果你正在寻找成为区块链开发者的职业道路，道德学院是最好的选择！
+另一方面，您可能想要探索其他区块链开发主题并处理其他示例项目。如果是这样的话，Moralis 网 3 博客正是你要找的地方。一些最新的话题展示了[上传 Web3 Unity 元数据](https://moralis.io/uploading-web3-unity-metadata/)，如何创建 NFT [的链上库存系统](https://moralis.io/create-an-nft-on-chain-inventory-system-for-gaming/)，构建[去中心化 Twitter](https://moralis.io/2022-guide-to-building-a-decentralized-twitter/) ，你需要知道的关于 [Web3 前端](https://moralis.io/web3-frontend-everything-you-need-to-learn-about-building-dapp-frontends/)和 [dapp 开发](https://moralis.io/dapp-development-tutorial-full-guide-to-building-a-dapp/)的一切。最终，Moralis 拥有成为 Web3 开发者所需的一切。如果你正在寻找成为区块链开发者的职业道路，Moralis 学院是最好的选择！

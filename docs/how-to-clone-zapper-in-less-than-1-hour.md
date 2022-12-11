@@ -4,7 +4,7 @@
 
 **您是否希望构建一个平台来探索和管理加密资产？如果是这样，请跟随本教程，我们将展示如何在不到一个小时的时间内克隆 Zapper！因此，您将能够整齐地组织区块链数据，如 DeFi 资产，并显示给您的 dapp 的用户。此外，您将快速轻松地实现后端功能。但是等等，还有更多。通过将我们一小时的教程延长一点，你也可以为你的 Zapper 克隆创建一个时尚的前端。**
 
-为了完成今天的挑战，我们将向您展示如何使用一些优秀的 Web3 工具来尽可能简化流程。我们将使用 NodeJS 创建一个后端服务器。然后，我们将使用 Moralis 的 [EVM API](https://moralis.io/evm-api/) 的能力，通过简短的代码片段获取各种链上数据。因此，请务必[创建你的免费道德账户](https://admin.moralis.io/register)。此外，我们将使用 [React](https://moralis.io/react-explained-what-is-react/) 来创建我们的示例 dapp 的前端部分。后者将从我们的后端查询数据。最后但同样重要的是，为了有风格地克隆 Zapper，我们还将使用 Moralis 的 [web3uikit](https://moralis.io/web3ui-kit-the-ultimate-web3-user-interface-kit/) 。因此，我们将在几分钟内准备好引人注目的按钮和其他组件。
+为了完成今天的挑战，我们将向您展示如何使用一些优秀的 Web3 工具来尽可能简化流程。我们将使用 NodeJS 创建一个后端服务器。然后，我们将使用 Moralis 的 [EVM API](https://moralis.io/evm-api/) 的能力，通过简短的代码片段获取各种链上数据。因此，请务必[创建你的免费 Moralis 账户](https://admin.moralis.io/register)。此外，我们将使用 [React](https://moralis.io/react-explained-what-is-react/) 来创建我们的示例 dapp 的前端部分。后者将从我们的后端查询数据。最后但同样重要的是，为了有风格地克隆 Zapper，我们还将使用 Moralis 的 [web3uikit](https://moralis.io/web3ui-kit-the-ultimate-web3-user-interface-kit/) 。因此，我们将在几分钟内准备好引人注目的按钮和其他组件。
 
 此外，值得指出的是 [Moralis](https://moralis.io/) 完全是关于跨链的互操作性。因此，您可以使用相同的代码行来定位所有的主链。但在本教程中，我们重点讨论以太坊和多边形链。然而，在我们向您展示您将有机会构建什么之前，我们需要了解一些基础知识。首先，在你克隆 Zapper 之前，你应该知道它是什么。
 
@@ -24,7 +24,7 @@ Zapper 是一个金融科技平台，使您能够从一个简单的界面探索�
 
 ## 如何用 NodeJS、React、Moralis 和 Web3UIKit 克隆 Zapper
 
-为了克隆 Zapper，我们必须设置 NodeJS 后端和 React 前端。然后，我们将向您展示如何使用这个后端通过道德 EVM API 获取链上数据。当然，我们还将确保前端获得数据并正确显示它。此外，在本教程中，我们将重点关注获取连接钱包的以下详细信息:
+为了克隆 Zapper，我们必须设置 NodeJS 后端和 React 前端。然后，我们将向您展示如何使用这个后端通过 Moralis EVM API 获取链上数据。当然，我们还将确保前端获得数据并正确显示它。此外，在本教程中，我们将重点关注获取连接钱包的以下详细信息:
 
 *   本地余额和本地余额的美元值
 *   ERC-20 代币余额
@@ -142,7 +142,7 @@ Zapper 是一个金融科技平台，使您能够从一个简单的界面探索�
 
 ## 通过 Moralis API 调用克隆 Zapper 功能
 
-要开始使用终极 EVM API，您需要您的 Moralis 帐户。因此，如果你还没有这样做，请使用简介中的“创建你的免费道德账户”链接。当然，你也可以访问 Moralis 的主页，点击“免费开始”按钮:
+要开始使用终极 EVM API，您需要您的 Moralis 帐户。因此，如果你还没有这样做，请使用简介中的“创建你的免费 Moralis 账户”链接。当然，你也可以访问 Moralis 的主页，点击“免费开始”按钮:
 
 ![](img/9d5f8fdf00ced77d2c1308a767d49e91.png)
 
@@ -154,11 +154,11 @@ Zapper 是一个金融科技平台，使您能够从一个简单的界面探索�
 
 ![](img/81dc12c1ea5119331e5d610debe0e463.png)
 
-接下来，返回到" index.js "文件并"*要求* " the "。env "文件。此外，确保导入道德规范:
+接下来，返回到" index.js "文件并"*要求* " the "。env "文件。此外，确保导入 Moralis 规范:
 
 ![](img/3fc650a88fdaa4916b88b6ce180b395d.png)
 
-### “ *getNativeBalance* ”和“ *getTokenPrice* ”道德 Web3 API 端点
+### “ *getNativeBalance* ”和“ *getTokenPrice* ”Moralis Web3 API 端点
 
 有了上面几行代码，您就可以使用 Moralis 的 EVM API 端点来获得本机平衡了。在 Moralis 文档中，您可以获得关于“ *getNativeBalance* ”和“ *getTokenPrice* ”端点的所有必要细节。此外，下面是“ *getNativeBalance* ”页面:
 
@@ -190,8 +190,8 @@ https://www.youtube.com/watch?v=C9yA8LcJsIY
 
 如果你浏览了上面所有的章节，并且使用了链接视频教程，你现在知道如何克隆 Zapper 了。在这个过程中，您学习了如何设置后端和前端应用程序，以及如何连接这两者。您还学习了如何获得 Moralis Web3 API 密钥。后者是您使用终极 EVM API 的门户。然后，您使用“ *getNativeBalance* ”、“ *getTokenPrice* ”、“ *getWalletTokenBalances* ”、“ *getWalletTokenTransfers* ”和“ *getWalletNFTs* ”端点来克隆 Zapper 特性。最后，您使用 CSS 和 web3uikit 调整了示例 dapp 的样式。
 
-能够克隆 Zapper 是一个非常有用的技能。它需要使用一些最流行的 Moralis Web3 API 端点。所以，你可以使用这里获得的技能和知识来创造其他种类的 DeFi dapps。然而，如果你需要更多的开发实践，你可以探索一下[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德博客](https://moralis.io/blog/)。除了各种 DeFi dapp 想法，这些都是学习更多关于 Web3 开发的地方。例如，你也可以将道德的力量与 Unity 或 Firebase 结合起来，专注于创建 Web3 游戏。
+能够克隆 Zapper 是一个非常有用的技能。它需要使用一些最流行的 Moralis Web3 API 端点。所以，你可以使用这里获得的技能和知识来创造其他种类的 DeFi dapps。然而，如果你需要更多的开发实践，你可以探索一下[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 博客](https://moralis.io/blog/)。除了各种 DeFi dapp 想法，这些都是学习更多关于 Web3 开发的地方。例如，你也可以将 Moralis 的力量与 Unity 或 Firebase 结合起来，专注于创建 Web3 游戏。
 
-另一方面，你可能想尽快成为全职加密员。如果是这样，成为区块链认证可以使世界变得不同。因此，一定要考虑报名参加道德学院。这个在线区块链发展教育平台也为你提供了一个个人学习的途径。此外，这也是获得专家指导并成为最先进的加密社区成员的地方。
+另一方面，你可能想尽快成为全职加密员。如果是这样，成为区块链认证可以使世界变得不同。因此，一定要考虑报名参加 Moralis 学院。这个在线区块链发展教育平台也为你提供了一个个人学习的途径。此外，这也是获得专家指导并成为最先进的加密社区成员的地方。
 
 ![](img/691628efd701ab1a875ab9fb0017cd49.png)

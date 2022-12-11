@@ -110,7 +110,7 @@ https://www.youtube.com/watch?v=gLJ4YejmG2E
 
 ### Moralis 初始设置-第 1 部分
 
-1.  [**创建您的免费道德账户**](https://admin.moralis.io/register)——使用左边的链接进入注册页面。然后，通过输入您的电子邮件地址和创建您的密码来创建您的免费帐户。此外，请务必确认您的帐户(点击发送到您电子邮件的确认链接)。*不过，如果你已经有一个活跃的 Moralis 账户，只需* [*登录*](https://admin.moralis.io/login) *。*
+1.  [**创建您的免费 Moralis 账户**](https://admin.moralis.io/register)——使用左边的链接进入注册页面。然后，通过输入您的电子邮件地址和创建您的密码来创建您的免费帐户。此外，请务必确认您的帐户(点击发送到您电子邮件的确认链接)。*不过，如果你已经有一个活跃的 Moralis 账户，只需* [*登录*](https://admin.moralis.io/login) *。*
 
 2.  [**创建一个新的服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)–一旦您成功登录到您的 Moralis 管理区，进入“服务器”选项卡。在那里，单击右上角的“+创建新服务器”按钮。从出现的下拉菜单中，选择符合您需求的网络类型(见下图)。*当处理示例项目或您自己项目的早期阶段时，使用“Testnet 服务器”选项是最有意义的。*
 
@@ -155,8 +155,8 @@ https://www.youtube.com/watch?v=gLJ4YejmG2E
 
 此时，你可能真的很激动。知道有一种方法可以让基本上对加密钱包一无所知的用户使用 Web3 应用程序是非常不可思议的。此外，将这一点与使用 Moralis 创建 dApps 的简单性结合起来，您就拥有了一个不错的兵工厂。
 
-展望未来，我们鼓励你运用这种力量。如果你有自己的想法，无论如何，马上着手去做。然而，如果你需要一些练习和指导，确保使用[道德博客](https://moralis.io/blog/)和[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。这两个出口都提供了许多示例项目和各种加密主题的精彩解释。例如，一些最新的话题围绕着 [React Native Web3 dev](https://moralis.io/react-native-web3-full-react-native-web3-dev-guide/) 、 [Web3 游戏化](https://moralis.io/web3-gamification-creating-a-coinmarketcap-diamonds-dapp/)、 [NFT 游戏人物](https://moralis.io/nft-game-characters-how-to-mint-in-game-nft-characters/)、[如何铸造 1 万个 NFT](https://moralis.io/how-to-mint-10000-nfts-full-walkthrough/)、 [Web3 数据科学](https://moralis.io/web3-data-science-importing-on-chain-events/)、终极 [Web3 UI 套件](https://moralis.io/web3ui-kit-the-ultimate-web3-user-interface-kit/)、 [ERC721 智能合约](https://moralis.io/erc721-contract-exploring-erc721-smart-contracts/)、[炼金术替代品](https://moralis.io/alchemy-alternatives-top-blockchain-apis/)、[可升级这种方法是最好的在线免费加密教育途径之一。](https://moralis.io/what-are-upgradable-smart-contracts-full-guide/)
+展望未来，我们鼓励你运用这种力量。如果你有自己的想法，无论如何，马上着手去做。然而，如果你需要一些练习和指导，确保使用[Moralis 博客](https://moralis.io/blog/)和[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。这两个出口都提供了许多示例项目和各种加密主题的精彩解释。例如，一些最新的话题围绕着 [React Native Web3 dev](https://moralis.io/react-native-web3-full-react-native-web3-dev-guide/) 、 [Web3 游戏化](https://moralis.io/web3-gamification-creating-a-coinmarketcap-diamonds-dapp/)、 [NFT 游戏人物](https://moralis.io/nft-game-characters-how-to-mint-in-game-nft-characters/)、[如何铸造 1 万个 NFT](https://moralis.io/how-to-mint-10000-nfts-full-walkthrough/)、 [Web3 数据科学](https://moralis.io/web3-data-science-importing-on-chain-events/)、终极 [Web3 UI 套件](https://moralis.io/web3ui-kit-the-ultimate-web3-user-interface-kit/)、 [ERC721 智能合约](https://moralis.io/erc721-contract-exploring-erc721-smart-contracts/)、[炼金术替代品](https://moralis.io/alchemy-alternatives-top-blockchain-apis/)、[可升级这种方法是最好的在线免费加密教育途径之一。](https://moralis.io/what-are-upgradable-smart-contracts-full-guide/)
 
 ![](img/4235f7160d6a9cea8ec0a783b319a706.png)
 
-然而，如果你对更专业的方法感兴趣，你需要考虑报名参加[道德学院](https://academy.moralis.io/)。通过这样做，你可以接触到无数的专业级区块链编程[课程](https://academy.moralis.io/all-courses)。最重要的是，你可以接触到最先进和最支持的社区之一。尽管如此，你会得到区块链专家的专业指导。因此，你应该[成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，并且马上成为全职加密员。
+然而，如果你对更专业的方法感兴趣，你需要考虑报名参加[Moralis 学院](https://academy.moralis.io/)。通过这样做，你可以接触到无数的专业级区块链编程[课程](https://academy.moralis.io/all-courses)。最重要的是，你可以接触到最先进和最支持的社区之一。尽管如此，你会得到区块链专家的专业指导。因此，你应该[成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，并且马上成为全职加密员。

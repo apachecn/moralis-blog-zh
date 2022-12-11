@@ -122,9 +122,9 @@ Ethers.js 是最常用的以太坊 JavaScript (JS)库之一，其主要目的是
 
 一个令人兴奋的 ethers.js 替代品是 Moralis 的 Web3 Streams API。有了这个接口，你可以很容易地设置 [Web3 webhooks](https://moralis.io/web3-webhooks-the-ultimate-guide-to-blockchain-webhooks/) 来很容易地将链上数据传输到任何项目的后端。因此，使用 Moralis，您可以通过充分利用区块链技术的力量来更有效和高效地创建 dapps。
 
-如果你喜欢这个教程，可以考虑在道德网的博客上查看更多的文章。例如，阅读我们在 [Goerli testnet](https://moralis.io/goerli-eth-what-is-the-goerli-testnet/) 上的指南，如何[创建 AWS Lambda 函数](https://moralis.io/creating-a-lambda-function-learn-how-to-create-an-aws-lambda-function/)，下一代 L2 链[Palm 网络](https://moralis.io/palm-blockchain-what-is-the-palm-network/)需要什么，等等！这个博客为新的和有经验的开发者提供了新鲜和激动人心的 Web3 开发内容。
+如果你喜欢这个教程，可以考虑在 Moralis 网的博客上查看更多的文章。例如，阅读我们在 [Goerli testnet](https://moralis.io/goerli-eth-what-is-the-goerli-testnet/) 上的指南，如何[创建 AWS Lambda 函数](https://moralis.io/creating-a-lambda-function-learn-how-to-create-an-aws-lambda-function/)，下一代 L2 链[Palm 网络](https://moralis.io/palm-blockchain-what-is-the-palm-network/)需要什么，等等！这个博客为新的和有经验的开发者提供了新鲜和激动人心的 Web3 开发内容。
 
-此外，如果你想成为一名更熟练的 Web3 开发者，可以考虑报名参加道德学院。该学院提供一系列信息丰富、激动人心的区块链发展课程。比如查看“[区块链&比特币基本面](https://academy.moralis.io/courses/blockchain-bitcoin-101)”了解区块链行业的基础知识！
+此外，如果你想成为一名更熟练的 Web3 开发者，可以考虑报名参加 Moralis 学院。该学院提供一系列信息丰富、激动人心的区块链发展课程。比如查看“[区块链&比特币基本面](https://academy.moralis.io/courses/blockchain-bitcoin-101)”了解区块链行业的基础知识！
 
 ![moralis academy](img/a35f9a33793c627c8d80fe10058ca8e8.png)
 

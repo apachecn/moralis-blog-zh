@@ -2,13 +2,13 @@
 
 > 原文：<https://moralis.io/polygon-boilerplate-how-to-build-polygon-dapps/>
 
-您是否正在寻找构建多边形 dapps 的最高效和最有效的方法？如果是这样，那你来对地方了！这篇文章展示了使用 Moralis 的 Polygon 样板构建 Web3 应用程序的最快方法。这个样板文件就像一个 [Web3 网站模板](https://moralis.io/web3-template-build-a-dapp-using-a-web3-website-template/)一样，使开发过程变得更加容易，让你可以立刻创建多边形 dapps！为了展示[道德规范](https://moralis.io)和 Polygon 样板文件的威力，我们展示了如何创建一个 dapp，用户可以在其中登录并查看关于他们的 Web3 钱包的[链上数据](https://moralis.io/on-chain-data-the-ultimate-guide-to-understanding-and-accessing-on-chain-data/)。此外，如果您想跳过教程并立即检查项目代码，请单击下面的链接:
+您是否正在寻找构建多边形 dapps 的最高效和最有效的方法？如果是这样，那你来对地方了！这篇文章展示了使用 Moralis 的 Polygon 样板构建 Web3 应用程序的最快方法。这个样板文件就像一个 [Web3 网站模板](https://moralis.io/web3-template-build-a-dapp-using-a-web3-website-template/)一样，使开发过程变得更加容易，让你可以立刻创建多边形 dapps！为了展示[Moralis 规范](https://moralis.io)和 Polygon 样板文件的威力，我们展示了如何创建一个 dapp，用户可以在其中登录并查看关于他们的 Web3 钱包的[链上数据](https://moralis.io/on-chain-data-the-ultimate-guide-to-understanding-and-accessing-on-chain-data/)。此外，如果您想跳过教程并立即检查项目代码，请单击下面的链接:
 
 **全多边形样板文档—**[**https://github . com/以太坊-样板/以太坊-样板**](https://github.com/ethereum-boilerplate/ethereum-boilerplate)
 
 如果你点击上面的链接，你会注意到这个库被称为“以太坊-样板”，这可能有点令人困惑。然而，这个模板是跨链兼容的，这表明你可以用它来构建多边形 dapps。您所需要做的就是对代码进行一些配置，这将在本指南中介绍。
 
-然而，Polygon 样板文件提供了一个更容易访问的 Web3 开发过程，使您能够更有效地启动 Polygon dapps。结合其他 Moralis 工具——如各种[web 3 API](https://moralis.io/web3-apis-exploring-the-top-5-blockchain-apis/)——您可以使用该模板比竞争对手更快地创建 dapps 并将其推向市场！不管你是想用 Moralis 的 Polygon 样板创建 Polygon dapps 还是任何其他 Web3 项目——都可以考虑注册 Moralis。有了帐户，您将立即获得各种道德工具。更重要的是，你可以[免费创建你的账户](https://admin.moralis.io/register)，只需要几秒钟！
+然而，Polygon 样板文件提供了一个更容易访问的 Web3 开发过程，使您能够更有效地启动 Polygon dapps。结合其他 Moralis 工具——如各种[web 3 API](https://moralis.io/web3-apis-exploring-the-top-5-blockchain-apis/)——您可以使用该模板比竞争对手更快地创建 dapps 并将其推向市场！不管你是想用 Moralis 的 Polygon 样板创建 Polygon dapps 还是任何其他 Web3 项目——都可以考虑注册 Moralis。有了帐户，您将立即获得各种 Moralis 工具。更重要的是，你可以[免费创建你的账户](https://admin.moralis.io/register)，只需要几秒钟！
 
 ## 多边形解释–什么是多边形？
 
@@ -34,7 +34,7 @@ Polygon 提供了一个更具经济可行性和可持续性的发展。因此，
 
 为了使教程更全面，我们将把指南分成四个部分。首先，我们将向您展示如何将项目克隆到您的本地目录。接下来，我们将看看环境变量的一些必要配置。最后，我们将向您展示如何启动和测试 dapp。
 
-此外，在我们开始学习本教程之前，您需要快速处理一个先决条件，即 Moralis 帐户。配置环境变量时，您将需要一个 Moralis 帐户。然而，创建一个道德帐户很容易，只需要几秒钟。您只需点击 Moralis 网站右上角的“[免费开始](https://admin.moralis.io/register)”按钮:
+此外，在我们开始学习本教程之前，您需要快速处理一个先决条件，即 Moralis 帐户。配置环境变量时，您将需要一个 Moralis 帐户。然而，创建一个 Moralis 帐户很容易，只需要几秒钟。您只需点击 Moralis 网站右上角的“[免费开始](https://admin.moralis.io/register)”按钮:
 
 ![To starting using the Polygon boilerplate, click on the "Start for Free" button on Moralis' homepage.](img/c391eb85c93c4bd5cd65ca8ab4bcb1b8.png)
 

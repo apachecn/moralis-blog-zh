@@ -2,7 +2,7 @@
 
 > 原文：<https://moralis.io/how-to-mint-a-solana-nft-with-metaplex/>
 
-想铸造索拉纳 NFT 代币吗？这仍然不是铸造 [**以太坊**](https://moralis.io/full-guide-what-is-ethereum/) **NFTs 那么简单，你可以在你的浏览器中使用** [**Remix**](https://moralis.io/remix-explained-what-is-remix/) **来完成。然而，多亏了 Metaplex，你可以毫不费力地铸造索拉纳 NFT 代币。这正是我们将在本文的示例项目中向您展示的内容。接下来，我们将首先解释一些基础知识，帮助大家快速掌握。在回答了“什么是索拉纳 NFT？”以及“什么是 Metaplex？”我们会给你一个卷起袖子的机会。因此，我们将指导您使用 Metaplex 创建一些 Solana NFTs 示例(** [**不可替换令牌**](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/) **)。而且，你还将学习如何使用终极的 Web3 开发平台，** [**【道德】**](https://moralis.io/) **，来创建一个简单的 dapp (** [**去中心化应用**](https://moralis.io/decentralized-applications-explained-what-are-dapps/) **)。后者将能够验证用户并显示来自用户的** [**Web3 钱包**](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/) **的 Solana NFTs。**
+想铸造索拉纳 NFT 代币吗？这仍然不是铸造 [**以太坊**](https://moralis.io/full-guide-what-is-ethereum/) **NFTs 那么简单，你可以在你的浏览器中使用** [**Remix**](https://moralis.io/remix-explained-what-is-remix/) **来完成。然而，多亏了 Metaplex，你可以毫不费力地铸造索拉纳 NFT 代币。这正是我们将在本文的示例项目中向您展示的内容。接下来，我们将首先解释一些基础知识，帮助大家快速掌握。在回答了“什么是索拉纳 NFT？”以及“什么是 Metaplex？”我们会给你一个卷起袖子的机会。因此，我们将指导您使用 Metaplex 创建一些 Solana NFTs 示例(** [**不可替换令牌**](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/) **)。而且，你还将学习如何使用终极的 Web3 开发平台，** [**【Moralis】**](https://moralis.io/) **，来创建一个简单的 dapp (** [**去中心化应用**](https://moralis.io/decentralized-applications-explained-what-are-dapps/) **)。后者将能够验证用户并显示来自用户的** [**Web3 钱包**](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/) **的 Solana NFTs。**
 
 此外，以下是我们将在今天的示例项目中涵盖的阶段:
 
@@ -15,7 +15,7 @@
 *   验证资产上传
 *   薄荷索拉纳 NFT 代币
 
-这些也是糖果机 v2 的 Metaplex 文档带您经历的阶段。此外，我们还将了解如何批量铸造索拉纳 NFT 代币([批量铸造](https://moralis.io/how-to-bulk-mint-nfts-batch-minting-guide/))。最后但同样重要的是，我们将帮助您完成初始 Moralis 设置，并向您展示一个示例 [Solana 令牌仪表板](https://moralis.io/how-to-build-a-solana-token-dashboard/)的快速演示。使用我们的视频教程，您将有机会创建自己的 dapp 实例。因此，请务必[创建您的免费道德账户](https://admin.moralis.io/register)，跟随我们的脚步。
+这些也是糖果机 v2 的 Metaplex 文档带您经历的阶段。此外，我们还将了解如何批量铸造索拉纳 NFT 代币([批量铸造](https://moralis.io/how-to-bulk-mint-nfts-batch-minting-guide/))。最后但同样重要的是，我们将帮助您完成初始 Moralis 设置，并向您展示一个示例 [Solana 令牌仪表板](https://moralis.io/how-to-build-a-solana-token-dashboard/)的快速演示。使用我们的视频教程，您将有机会创建自己的 dapp 实例。因此，请务必[创建您的免费 Moralis 账户](https://admin.moralis.io/register)，跟随我们的脚步。
 
 ![](img/e2fe196ba4758fbee29910840a187c2c.png)
 
@@ -136,7 +136,7 @@
 
 ![](img/476500abbd7626a532429d33adf4d508.png)
 
-多亏了 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) ，你将能够使用[索拉纳 NFT API](https://moralis.io/solana-nft-api-exploring-the-ultimate-nft-api-for-solana/) 并获取用户的 NFT。然而，要将这个 [Firebase 用于 crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ，您需要从初始的 Moralis 设置开始。因此，确保使用下面的视频教程(24:50)首先[创建一个道德 dapp](https://docs.moralis.io/moralis-dapp/getting-started/create-a-moralis-dapp) 。然后，在我们内部专家的带领下，创建你自己的上述索拉纳·NFT 投资组合追踪器实例。
+多亏了 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) ，你将能够使用[索拉纳 NFT API](https://moralis.io/solana-nft-api-exploring-the-ultimate-nft-api-for-solana/) 并获取用户的 NFT。然而，要将这个 [Firebase 用于 crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ，您需要从初始的 Moralis 设置开始。因此，确保使用下面的视频教程(24:50)首先[创建一个 Moralis dapp](https://docs.moralis.io/moralis-dapp/getting-started/create-a-moralis-dapp) 。然后，在我们内部专家的带领下，创建你自己的上述索拉纳·NFT 投资组合追踪器实例。
 
 *最后，这是我们在整篇文章中引用的视频教程:*
 
@@ -156,6 +156,6 @@ https://www.youtube.com/watch?v=BPQXek6lMUE
 *   薄荷索拉纳 NFT 代币
 *   创建自己的索拉纳 NFT 投资组合跟踪。
 
-因此，你现在知道如何轻松地铸造索拉纳 NFTs，也知道如何与道德工作，在几分钟内创造杀手 dapps。
+因此，你现在知道如何轻松地铸造索拉纳 NFTs，也知道如何与 Moralis 工作，在几分钟内创造杀手 dapps。
 
-如果你喜欢今天的教程，一定要访问[道德的博客](https://moralis.io/blog/)和[道德的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。这些渠道提供了大量的价值，可以满足您持续的加密教育需求。例如，一些最新的主题包括 [Web3 同步](https://moralis.io/web3-syncing-how-to-sync-smart-contract-web3-events/)、 [Web3 webhooks](https://moralis.io/web3-webhooks-the-ultimate-guide-to-blockchain-webhooks/) 、如何[快速构建 Web3](https://moralis.io/how-to-build-on-web3-in-minutes/) 、[全栈 Web3 开发](https://moralis.io/full-stack-web3-development-the-ultimate-guide-to-building-web3-projects/)、创建一个 [AR 元宇宙 NFT](https://moralis.io/how-to-create-an-ar-metaverse-nft-mystery-box/) 、构建一个 [Web3 增强现实](https://moralis.io/how-to-build-a-web3-augmented-reality-nft-loot-box/)等等。另一方面，如果你想快速自信地成为一名 Web3 开发者，你可以考虑报名参加道德学院。
+如果你喜欢今天的教程，一定要访问[Moralis 的博客](https://moralis.io/blog/)和[Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。这些渠道提供了大量的价值，可以满足您持续的加密教育需求。例如，一些最新的主题包括 [Web3 同步](https://moralis.io/web3-syncing-how-to-sync-smart-contract-web3-events/)、 [Web3 webhooks](https://moralis.io/web3-webhooks-the-ultimate-guide-to-blockchain-webhooks/) 、如何[快速构建 Web3](https://moralis.io/how-to-build-on-web3-in-minutes/) 、[全栈 Web3 开发](https://moralis.io/full-stack-web3-development-the-ultimate-guide-to-building-web3-projects/)、创建一个 [AR 元宇宙 NFT](https://moralis.io/how-to-create-an-ar-metaverse-nft-mystery-box/) 、构建一个 [Web3 增强现实](https://moralis.io/how-to-build-a-web3-augmented-reality-nft-loot-box/)等等。另一方面，如果你想快速自信地成为一名 Web3 开发者，你可以考虑报名参加 Moralis 学院。

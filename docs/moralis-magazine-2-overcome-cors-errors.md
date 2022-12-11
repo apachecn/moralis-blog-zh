@@ -1,16 +1,16 @@
-# 道德杂志# 2–克服 CORS 错误
+# Moralis 杂志# 2–克服 CORS 错误
 
 > 原文：<https://moralis.io/moralis-magazine-2-overcome-cors-errors/>
 
 每周我们都会深入探讨紧迫的区块链编程问题，并向您展示 Moralis 如何让解决这些问题变得简单。
 
-道德家在此为您提供支持，并渴望成为您的“僚机”，与我们一起打造金融的未来。
+Moralis 家在此为您提供支持，并渴望成为您的“僚机”，与我们一起打造金融的未来。
 
-如果你错过了我们关于 IPFS 的第一期，你可以在这里看《道德》杂志的第一版。
+如果你错过了我们关于 IPFS 的第一期，你可以在这里看《Moralis》杂志的第一版。
 
 ![](img/08e27d03d5fe7e529da1d14d139e2c2a.png)
 
-**看哪** :道德斯法师回来了！在这里阅读史诗 [道德家法师的故事](https://moralis.io/return-of-the-moralis-mage/) ！
+**看哪** :Moralis 斯法师回来了！在这里阅读史诗 [Moralis 家法师的故事](https://moralis.io/return-of-the-moralis-mage/) ！
 
 本周起: SOP 和 和
 
@@ -52,10 +52,10 @@ CORS 只是网络浏览器从一个站点调用另一个站点的一种安全措
 
 [https://www.youtube.com/embed/lX9A6yQXZ_8?feature=oembed](https://www.youtube.com/embed/lX9A6yQXZ_8?feature=oembed)
 
-感谢阅读！我们希望本周的道德杂志对你有用。
+感谢阅读！我们希望本周的 Moralis 杂志对你有用。
 
 继续建造！
 
 下次见💚
 
-道德研究小组
+Moralis 研究小组

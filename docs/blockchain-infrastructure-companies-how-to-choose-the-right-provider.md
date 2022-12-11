@@ -68,7 +68,7 @@
 
 *   **节点提供商**–节点是区块链网络的主干。因此，与分散式数字总账的所有通信都是通过节点进行的。然而，运行一个完整的节点是一项全职工作，大多数开发人员都不想做。幸运的是，有几个可靠的区块链基础设施公司提供开发人员使用他们的节点。因此，当/如果您决定开始部署智能合约时，您会希望研究以下节点提供商提供的服务:Alchemy、QuickNode、Chainstack、Infura、Pocket Network、RunNode 和 GetBlock。
 
-*   Web3 API 提供商–这些类型的区块链基础设施公司是 dapp 开发者最需要的。毕竟，Web3 APIs 使用简短的代码片段在稳定的环境中实现了一致的编码。因此，一个优秀的 Web3 API 提供者使您能够获得各种有用的预编译和预先计算的链上数据，而无需自己构建所需的基础设施。主要的例子包括图形，炼金术，双经济，共价，位查询，快速节点和道德。
+*   Web3 API 提供商–这些类型的区块链基础设施公司是 dapp 开发者最需要的。毕竟，Web3 APIs 使用简短的代码片段在稳定的环境中实现了一致的编码。因此，一个优秀的 Web3 API 提供者使您能够获得各种有用的预编译和预先计算的链上数据，而无需自己构建所需的基础设施。主要的例子包括图形，炼金术，双经济，共价，位查询，快速节点和 Moralis。
 
 ![Black and white image with the text stating picks and shovels providers for blockchain infrastructure.](img/a299e5d57cd30bec2aaabef07265f2db.png)
 
@@ -119,4 +119,4 @@ Moralis 是最终的 Web3 API 提供者。它的主要目标是使遗留开发�
 
 如果你是一个开发人员，想以简单的方式开始构建 dapps，创建一个[免费的 Moralis 账户](https://admin.moralis.io/register)并处理 [Moralis 文档](https://docs.moralis.io/docs)中等待你的教程。但是，如果您有好的想法，并且希望利用 Moralis 来实现它们，请使用上面的“可扩展的 Web3 基础设施”链接，并与我们的支持团队联系。
 
-使用 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)拓展你的区块链发展视野。那里的一些最新主题探索了 [NFT 元数据存储](https://moralis.io/nft-metadata-exploring-metadata-for-nft-storage/)、[部署 AWS Lambda 函数](https://moralis.io/deploying-lambda-functions-how-to-deploy-aws-lambda-function-tutorial/)、[终极 ERC20 令牌 API](https://moralis.io/exploring-the-ultimate-erc20-token-api/) 等等。当然，你也可以通过注册[道德学院](https://academy.moralis.io/)来采取更专业的方式来进行你的加密教育。“[区块链和比特币基础](https://academy.moralis.io/courses/blockchain-bitcoin-101)”课程是一个很好的起点。
+使用 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)拓展你的区块链发展视野。那里的一些最新主题探索了 [NFT 元数据存储](https://moralis.io/nft-metadata-exploring-metadata-for-nft-storage/)、[部署 AWS Lambda 函数](https://moralis.io/deploying-lambda-functions-how-to-deploy-aws-lambda-function-tutorial/)、[终极 ERC20 令牌 API](https://moralis.io/exploring-the-ultimate-erc20-token-api/) 等等。当然，你也可以通过注册[Moralis 学院](https://academy.moralis.io/)来采取更专业的方式来进行你的加密教育。“[区块链和比特币基础](https://academy.moralis.io/courses/blockchain-bitcoin-101)”课程是一个很好的起点。

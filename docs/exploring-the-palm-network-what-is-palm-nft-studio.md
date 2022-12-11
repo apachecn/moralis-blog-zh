@@ -4,7 +4,7 @@
 
 Palm NFT 工作室致力于更有效地创建、交易和管理非金融交易。此外，Palm Studio 有一些来自艺术和娱乐行业的大玩家支持他们的努力，他们正在与区块链行业的一些领先的名字和公司合作。也就是说，可以肯定地说，Palm NFT 工作室将为非功能性桌面系统的主流采用做出重大贡献。
 
-在今天的文章中，我们解释什么是棕榈 NFT 工作室和它做什么。一路上，我们很快了解了什么是棕榈区块链。此外，你还会发现你是否可以得到一个棕榈工作室 NFT，我们将仔细看看棕榈 NFT 工作室的合作和伙伴。最后但并非最不重要的是，你将学习如何使用 Palm Studio 的区块链与道德，并创建各种 NFT dapp 的简单方法。毕竟，在其他优秀的快捷方式中， [Moralis](https://moralis.io/) 提供了终极 [NFT API](https://moralis.io/nft-api/) 。有了这个 API，开发人员可以快速创建与 NFT 相关的项目，像开发人员是否必须[让所有 NFT 所有的](https://moralis.io/how-to-get-all-nfts-owned-by-an-address-3-step-process/)通过区块链网络这样的任务变得轻而易举。也就是说，如果你喜欢边做边学，创建你的[免费道德账户](https://admin.moralis.io/register)并开始“构建”。
+在今天的文章中，我们解释什么是棕榈 NFT 工作室和它做什么。一路上，我们很快了解了什么是棕榈区块链。此外，你还会发现你是否可以得到一个棕榈工作室 NFT，我们将仔细看看棕榈 NFT 工作室的合作和伙伴。最后但并非最不重要的是，你将学习如何使用 Palm Studio 的区块链与 Moralis，并创建各种 NFT dapp 的简单方法。毕竟，在其他优秀的快捷方式中， [Moralis](https://moralis.io/) 提供了终极 [NFT API](https://moralis.io/nft-api/) 。有了这个 API，开发人员可以快速创建与 NFT 相关的项目，像开发人员是否必须[让所有 NFT 所有的](https://moralis.io/how-to-get-all-nfts-owned-by-an-address-3-step-process/)通过区块链网络这样的任务变得轻而易举。也就是说，如果你喜欢边做边学，创建你的[免费 Moralis 账户](https://admin.moralis.io/register)并开始“构建”。
 
 ![square palm leaf and the title palm nft studio](img/72ac2d7b8394856279ebab5ebebfef8b.png)
 
@@ -89,7 +89,7 @@ Palm NFT 工作室致力于更有效地创建、交易和管理非金融交易�
 
 如果你不知道，Chainlink 实验室是参与建设 Chainlink 的开发团队。后者是最广泛采用的开源和分散式 oracle 网络。此外，Palm network 正在集成几个 Chainlink oracle 服务。这些服务包括针对汇率的 Chainlink 价格馈送、针对可验证随机数生成器的 Chain link VRF(RNG)以及针对跨链功能的 Chanlink 跨链互操作性协议(CCIP)。
 
-## 如何使用 Palm NFT 工作室与道德
+## 如何使用 Palm NFT 工作室与 Moralis
 
 除非你一直生活在岩石下，否则你知道 Moralis 是领先的企业级 Web3 API 提供商。这意味着开发人员可以构建分散的应用程序，而无需重新发明轮子。毕竟，在许多情况下，大多数 Web3 功能可以通过简单地从 Moralis 文档中复制粘贴代码片段来添加。
 
@@ -97,7 +97,7 @@ Moralis 也是关于跨链互操作性的。因此，它支持所有领先的 EV
 
 ![outlining supported networks from moralis, including ethereum, binance, polygon, solana, and palm nft studio network](img/332d321f9508d4bdcd9efc629527946f.png)
 
-这个领先的 Web3 API 提供者也是完全跨平台互操作的。因此，您可以使用遗留开发工具在 Palm 和其他受支持的链上构建 dapps。这使得 Moralis 以弥合 Web2 和 Web3 之间的发展差距而闻名。此外，Moralis 的一大优势是其清晰的交互式文档。后者包括教程，使完整的 Web3 初学者能够创建 dapps。此外，Moralis 文档也是学习如何正确使用 Moralis 的 Web3 APIs 的最佳地方。因此，如果您有兴趣通过构建 NFT dapps 来运用您的 Palm 网络知识，那么这是一个值得一游的地方。因此，请确保创建您的免费道德帐户，并开始建设。
+这个领先的 Web3 API 提供者也是完全跨平台互操作的。因此，您可以使用遗留开发工具在 Palm 和其他受支持的链上构建 dapps。这使得 Moralis 以弥合 Web2 和 Web3 之间的发展差距而闻名。此外，Moralis 的一大优势是其清晰的交互式文档。后者包括教程，使完整的 Web3 初学者能够创建 dapps。此外，Moralis 文档也是学习如何正确使用 Moralis 的 Web3 APIs 的最佳地方。因此，如果您有兴趣通过构建 NFT dapps 来运用您的 Palm 网络知识，那么这是一个值得一游的地方。因此，请确保创建您的免费 Moralis 帐户，并开始建设。
 
 ![unlock the power of blockchain with moralis](img/f40a352a93aaeca20df35b9b0763c287.png)[**Sign Up with Moralis**](https://admin.moralis.io/register)
 
@@ -119,6 +119,6 @@ Moralis 也是关于跨链互操作性的。因此，它支持所有领先的 EV
 
 ## 探索 Palm 网络——什么是 Palm NFT 工作室？–总结
 
-在今天的文章中，您了解到 Palm NFT 工作室是一家支持一些最大的 NFT 项目的技术公司，也是 Palm 区块链背后专注于支持 NFTs 的公司。在此过程中，您还了解了这家专注于 NFT 发展的公司的业务。此外，你现在知道，棕榈 NFT 工作室不认可任何官方的不可替代令牌(NFT)。然而，Palm 网络上已经有几百万个 NFT 了。我们还告诉您如何将此网络添加到 MetaMask，以及在哪里访问 Palm-Ethereum 桥。有了这些工具，您可以使用 Palm Studio。最后但并非最不重要的是，你还了解到，道德可以帮助你创造 NFT dapps 对棕榈或任何其他领先的区块链不费吹灰之力。我们甚至解释了如何开始，以及哪些额外的快捷方式可以为您节省大量时间。
+在今天的文章中，您了解到 Palm NFT 工作室是一家支持一些最大的 NFT 项目的技术公司，也是 Palm 区块链背后专注于支持 NFTs 的公司。在此过程中，您还了解了这家专注于 NFT 发展的公司的业务。此外，你现在知道，棕榈 NFT 工作室不认可任何官方的不可替代令牌(NFT)。然而，Palm 网络上已经有几百万个 NFT 了。我们还告诉您如何将此网络添加到 MetaMask，以及在哪里访问 Palm-Ethereum 桥。有了这些工具，您可以使用 Palm Studio。最后但并非最不重要的是，你还了解到，Moralis 可以帮助你创造 NFT dapps 对棕榈或任何其他领先的区块链不费吹灰之力。我们甚至解释了如何开始，以及哪些额外的快捷方式可以为您节省大量时间。
 
-因此，如果你有兴趣以简单的方式构建跨链 dapps，创建你的 Moralis 帐户并开始学习我们的教程。此外，您可能希望探索其他区块链发展主题。在这种情况下， [Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 的博客](https://moralis.io/blog/)就是你的出口。例如，一些最新的主题解释了如何用 Python 建立自动化的 [Web3 通知电子邮件](https://moralis.io/how-to-set-up-automated-web3-notification-emails-with-python/)，[用于 dapp 开发的最佳 ERC20 令牌平衡 API](https://moralis.io/the-best-erc20-token-balance-api-for-dapp-development/) ，什么是 [Goerli testnet](https://moralis.io/goerli-eth-what-is-the-goerli-testnet/) ，什么是[区块链基础设施公司](https://moralis.io/blockchain-infrastructure-companies-how-to-choose-the-right-provider/)等等。尽管如此，你可以通过注册[道德学院](https://academy.moralis.io/)成为区块链认证，在那里你可以完成各种高质量的课程。我们建议从[区块链和](https://academy.moralis.io/courses/blockchain-bitcoin-101)比特币基本面入手。*
+因此，如果你有兴趣以简单的方式构建跨链 dapps，创建你的 Moralis 帐户并开始学习我们的教程。此外，您可能希望探索其他区块链发展主题。在这种情况下， [Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 的博客](https://moralis.io/blog/)就是你的出口。例如，一些最新的主题解释了如何用 Python 建立自动化的 [Web3 通知电子邮件](https://moralis.io/how-to-set-up-automated-web3-notification-emails-with-python/)，[用于 dapp 开发的最佳 ERC20 令牌平衡 API](https://moralis.io/the-best-erc20-token-balance-api-for-dapp-development/) ，什么是 [Goerli testnet](https://moralis.io/goerli-eth-what-is-the-goerli-testnet/) ，什么是[区块链基础设施公司](https://moralis.io/blockchain-infrastructure-companies-how-to-choose-the-right-provider/)等等。尽管如此，你可以通过注册[Moralis 学院](https://academy.moralis.io/)成为区块链认证，在那里你可以完成各种高质量的课程。我们建议从[区块链和](https://academy.moralis.io/courses/blockchain-bitcoin-101)比特币基本面入手。*

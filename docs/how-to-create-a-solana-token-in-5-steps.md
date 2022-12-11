@@ -230,4 +230,4 @@ spl-token transfer <token-identifier> <token-amount> <wallet-address> --fund-rec
 
 如果你想了解更多关于代币开发和整个区块链行业的信息，那么一定要去看看 [Moralis 博客](https://moralis.io/blog/)。您可以了解更多关于区块链开发的[最佳语言](https://moralis.io/best-languages-for-blockchain-development-full-tutorial/)、[如何创建以太坊 dApp](https://moralis.io/how-to-create-an-ethereum-dapp-instantly/) 、[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)、[元宇宙](https://moralis.io/what-is-the-metaverse-full-guide/)等等。
 
-所以，如果你对区块链的发展感兴趣，一定要去道德学院注册。创建一个帐户是免费的，只需要几秒钟！
+所以，如果你对区块链的发展感兴趣，一定要去 Moralis 学院注册。创建一个帐户是免费的，只需要几秒钟！

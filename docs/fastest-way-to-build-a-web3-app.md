@@ -8,7 +8,7 @@
 
 本文展示了构建 Web3 应用程序的最简单方法。为了使开发过程尽可能无缝和可访问，我们将利用来自 Moralis 的以太坊样板。反过来，它将允许您在几分钟内构建具有几个优秀特性的复杂的 NextJS Web3 应用程序。此外，尽管该库被称为“以太坊样板”，但由于 Moralis SDK，代码可以进一步兼容任何 [EVM](https://moralis.io/evm-explained-what-is-ethereum-virtual-machine/) 系统，甚至 Solana！
 
-样板文件的可访问性和力量来源于道德的各种工具。例如，Moralis 的[认证 API](https://docs.moralis.io/reference/auth-api-overview) 允许你通过单一代码片段轻松实现 [EIP-4361](https://moralis.io/exploring-eip-4361-sign-in-with-ethereum/) 兼容的认证机制。然而，这只是一个例子，如果您想进一步探索 [Moralis](https://moralis.io/) 平台，请查看它的附加 API。例如，我们强烈推荐 Moralis 的 [NFT API](https://moralis.io/nft-api/) 和 [Solana API](https://docs.moralis.io/reference/solana-api) ！
+样板文件的可访问性和力量来源于 Moralis 的各种工具。例如，Moralis 的[认证 API](https://docs.moralis.io/reference/auth-api-overview) 允许你通过单一代码片段轻松实现 [EIP-4361](https://moralis.io/exploring-eip-4361-sign-in-with-ethereum/) 兼容的认证机制。然而，这只是一个例子，如果您想进一步探索 [Moralis](https://moralis.io/) 平台，请查看它的附加 API。例如，我们强烈推荐 Moralis 的 [NFT API](https://moralis.io/nft-api/) 和 [Solana API](https://docs.moralis.io/reference/solana-api) ！
 
 因此，如果你想增强你的 Web3 开发能力，一定要注册 Moralis，因为这是构建 Web3 应用的最佳方式。而且，创建一个账号只需要几秒钟，就可以免费上手！
 
@@ -30,7 +30,7 @@ dapps 中的关键词是“去中心化”，这提供了几个优点。由于�
 
 随着对 Web3 应用程序及其所包含的内容有了更好的理解，我们可以继续并演示构建 Web3 应用程序的最快方法！
 
-## 道德以太坊样板——构建 Web3 应用的最快方法
+## Moralis 以太坊样板——构建 Web3 应用的最快方法
 
 文章的这一部分将向您展示构建 Web3 应用程序的最快方法。然而，在我们深入这个过程之前，我们首先要向您展示您将要创建的应用程序的功能。因此，这将是登录页面:
 
@@ -98,7 +98,7 @@ cd ethereum-boilerplate
 
 让我们逐一查看这些变量，从“*APP _ CHAIN _ ID”*开始。该变量自动设置为“ *0x1* ”，以太坊网络的 ID。然而，由于 Moralis 支持跨链兼容性，您可以选择任何 EVM 兼容链。我们将选择孟买试验网。如果您也想这样做，请将“ *APP_CHAIN_ID* ”更改为“ *0x13881* ”。
 
-接下来，你有了" *APP_DOMAIN* "变量。这个你可以保持原样。接下来，您需要获取 API 密钥。您可以通过注册该平台来获得 Moralis API 密钥。因此，如果你还没有，马上创建你的道德账户。它是免费的，只需要片刻就可以开始使用。
+接下来，你有了" *APP_DOMAIN* "变量。这个你可以保持原样。接下来，您需要获取 API 密钥。您可以通过注册该平台来获得 Moralis API 密钥。因此，如果你还没有，马上创建你的 Moralis 账户。它是免费的，只需要片刻就可以开始使用。
 
 手头有了账号，可以访问以下页面:[https://admin.moralis.io/account/profile](https://admin.moralis.io/account/profile)。
 
@@ -166,6 +166,6 @@ https://www.youtube.com/watch?v=Bb5Pc–kyAY
 
 此外，你还可以在博客上找到其他有趣的指南。一个很好的例子是一篇关于 Moralis 的 NodeJS SDK for Web3 的文章。该套件包括几个基本功能，允许您轻松获取[链上数据](https://moralis.io/on-chain-data-the-ultimate-guide-to-understanding-and-accessing-on-chain-data/)，并为您未来的 dapps 实现强大的 Web3 功能。
 
-此外，如果你想成为一名更熟练的区块链开发者，一定要去看看[道德学院](https://academy.moralis.io/)。学院提供最高标准的[区块链课程](https://academy.moralis.io/all-courses)，让你在创纪录的时间内获得区块链认证。例如，查看[以太坊基础](https://academy.moralis.io/courses/ethereum-101)课程，开始你的 Web3 之旅！
+此外，如果你想成为一名更熟练的区块链开发者，一定要去看看[Moralis 学院](https://academy.moralis.io/)。学院提供最高标准的[区块链课程](https://academy.moralis.io/all-courses)，让你在创纪录的时间内获得区块链认证。例如，查看[以太坊基础](https://academy.moralis.io/courses/ethereum-101)课程，开始你的 Web3 之旅！
 
-尽管如此，你想要创建什么类型的 Web3 项目或 dapp 并不重要；道德将有助于你所有的发展努力。因此，你应该马上花时间[与 Moralis](https://admin.moralis.io/register) 签约，成为这个社区的一员！
+尽管如此，你想要创建什么类型的 Web3 项目或 dapp 并不重要；Moralis 将有助于你所有的发展努力。因此，你应该马上花时间[与 Moralis](https://admin.moralis.io/register) 签约，成为这个社区的一员！

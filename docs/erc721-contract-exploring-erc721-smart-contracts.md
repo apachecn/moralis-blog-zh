@@ -2,7 +2,7 @@
 
 > 原文：<https://moralis.io/erc721-contract-exploring-erc721-smart-contracts/>
 
-谈论 crypto 和 Web3 而不谈论令牌几乎是不可能的。此外，令牌通常分为两个独立的类别:可替换令牌和不可替换令牌(NFT)。可替换令牌和非功能性令牌都具有巨大的潜力，是当前 [**Web3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) **生态系统的基本要素。因此，作为强大的功能，有一个规范的标准使这些令牌普遍兼容是有益的。可替换令牌最流行的监管标准是以太坊的** [**ERC20**](https://moralis.io/erc20-exploring-the-erc-20-token-standard/) **标准，对于 NFTs，则是 ERC721。在本文中，我们将关注 NFTs，这意味着我们将更仔细地了解 ERC721 合同标准。此外，在探索 ERC721 智能合约的同时，我们将简要介绍 NFT 以及使用** [**道德规范**](https://moralis.io/) **创建 ERC721 令牌的必要步骤。**
+谈论 crypto 和 Web3 而不谈论令牌几乎是不可能的。此外，令牌通常分为两个独立的类别:可替换令牌和不可替换令牌(NFT)。可替换令牌和非功能性令牌都具有巨大的潜力，是当前 [**Web3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) **生态系统的基本要素。因此，作为强大的功能，有一个规范的标准使这些令牌普遍兼容是有益的。可替换令牌最流行的监管标准是以太坊的** [**ERC20**](https://moralis.io/erc20-exploring-the-erc-20-token-standard/) **标准，对于 NFTs，则是 ERC721。在本文中，我们将关注 NFTs，这意味着我们将更仔细地了解 ERC721 合同标准。此外，在探索 ERC721 智能合约的同时，我们将简要介绍 NFT 以及使用** [**Moralis 规范**](https://moralis.io/) **创建 ERC721 令牌的必要步骤。**
 
 Moralis 是 Web3 开发的最佳操作系统，作为用户，你将能够轻松地创建 NFT 和可替换令牌。事实上，有了 Moralis，我们所有未来区块链项目的平均开发时间有可能减少大约 87%！
 

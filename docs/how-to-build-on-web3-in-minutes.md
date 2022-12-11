@@ -30,7 +30,7 @@ Moralis 是在 Web3 上构建的最佳方式，因为该平台通过提供对完
 
 相反，例如，Moralis 的用户可以利用 Moralis 的 [Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 来利用已经开发的代码片段。这使得[使用元掩码](https://moralis.io/how-to-authenticate-with-metamask/)进行认证、发送 [ERC-20](https://moralis.io/erc20-exploring-the-erc-20-token-standard/) 令牌、获取用户交易历史等成为可能。，只有单行代码。
 
-此外，Moralis 还提供了一些业界最强大的开发工具和后端基础设施。突出的例子是[以太坊 NFT API](https://moralis.io/what-is-an-ethereum-nft-api-ethereum-nft-apis-explained/) 、[币安 NFT API](https://moralis.io/binance-nft-api-what-is-it-and-how-does-it-work/) 和[多边形 NFT API](https://moralis.io/what-is-a-polygon-nft-api-polygon-nft-apis-explained/) 。这些工具允许开发人员轻松创建跨链兼容的 dapps。此外，还可以更有效地[创建以太坊 dapp](https://moralis.io/how-to-create-an-ethereum-dapp-instantly/) 或[构建多边形 dapp](https://moralis.io/how-to-build-polygon-dapps-easily/)，从而提供更快的上市路径。因此，使用道德提供了巨大的竞争优势，让您有可能获得更大的市场份额！
+此外，Moralis 还提供了一些业界最强大的开发工具和后端基础设施。突出的例子是[以太坊 NFT API](https://moralis.io/what-is-an-ethereum-nft-api-ethereum-nft-apis-explained/) 、[币安 NFT API](https://moralis.io/binance-nft-api-what-is-it-and-how-does-it-work/) 和[多边形 NFT API](https://moralis.io/what-is-a-polygon-nft-api-polygon-nft-apis-explained/) 。这些工具允许开发人员轻松创建跨链兼容的 dapps。此外，还可以更有效地[创建以太坊 dapp](https://moralis.io/how-to-create-an-ethereum-dapp-instantly/) 或[构建多边形 dapp](https://moralis.io/how-to-build-polygon-dapps-easily/)，从而提供更快的上市路径。因此，使用 Moralis 提供了巨大的竞争优势，让您有可能获得更大的市场份额！
 
 由于 Web2 和 Web3 之间最显著的差异是在后端开发中发现的，Moralis 使传统的 Web2 开发人员更容易过渡到去中心化 Web。因此，Moralis 允许传统的 Web2 和 Web3 开发人员更快、更有效地创建 dapps。
 
@@ -44,13 +44,13 @@ Moralis 是在 Web3 上构建的最佳方式，因为该平台通过提供对完
 
 ![](img/8cfda398c4a210cf6dd24d40ec950b27.png)
 
-由于 Moralis 是跨链兼容的，您可以选择同时为多个区块链创建 dapps。最初，您需要选择一个环境并挑选您想要的网络。然后，你需要选择一个地区，输入一个名字，最后点击“创建你的 Dapp”按钮。这将旋转你自己的道德 dapp，你可以连接到你的项目。
+由于 Moralis 是跨链兼容的，您可以选择同时为多个区块链创建 dapps。最初，您需要选择一个环境并挑选您想要的网络。然后，你需要选择一个地区，输入一个名字，最后点击“创建你的 Dapp”按钮。这将旋转你自己的 Moralis dapp，你可以连接到你的项目。
 
 有了 dapp，您可以访问各种信息和功能。例如，如果您点击“设置”按钮，您将被定向到 dapp 的仪表板。在那里，您可以更改设置，查找 dapp 凭证，并访问您的 dapp 数据库。起初，数据库将是空的；但是，如果您对用户进行身份验证，数据库将自动填充您可以在开发工作中使用的各种信息。
 
 ![](img/8647fb6e8f8a938bfd8c5baf1bf6f864.png)
 
-从这里开始，剩下的就是为你的项目开发代码，并把它连接到你的道德 dapp。为了在这个过程中帮助你，安装 Moralis SDK 也是有益的。在下一节中，我们将向您展示如何初始化 Moralis 和安装 SDK！
+从这里开始，剩下的就是为你的项目开发代码，并把它连接到你的 Moralis dapp。为了在这个过程中帮助你，安装 Moralis SDK 也是有益的。在下一节中，我们将向您展示如何初始化 Moralis 和安装 SDK！
 
 ### 初始化 Moralis 并安装 Moralis SDK
 
@@ -66,7 +66,7 @@ const appId = "YOUR_APP_ID";
 Moralis.start({ serverUrl, appId });
 ```
 
-初始化道德的时候就是这样。您的代码现在已连接到您的 dapp！所以，当代码执行时，它会用各种有价值的信息填充你的数据库。现在，让我们仔细看看如何安装 Moralis SDK！
+初始化 Moralis 的时候就是这样。您的代码现在已连接到您的 dapp！所以，当代码执行时，它会用各种有价值的信息填充你的数据库。现在，让我们仔细看看如何安装 Moralis SDK！
 
 安装 SDK 甚至比初始化 Moralis 更简单。您所需要的就是在您的项目中实现以下内容:
 
@@ -75,7 +75,7 @@ Moralis.start({ serverUrl, appId });
 <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
 ```
 
-如果你想了解更多关于初始化道德的信息，请查阅官方文档。这将提供如何创建您的第一个 dapp 的详细分解。此外，你很可能在那里找到所有问题的答案。
+如果你想了解更多关于初始化 Moralis 的信息，请查阅官方文档。这将提供如何创建您的第一个 dapp 的详细分解。此外，你很可能在那里找到所有问题的答案。
 
 即使您手头有一个与您的项目相关的 dapp，您仍然需要使用您的编程技能来构建您的 dapp。因此，在最后一节中，我们将仔细看看 Web3 开发所需的必要技能！
 
@@ -117,10 +117,10 @@ Web2 和 Web3 开发之间最显著的区别通常是后端开发。然而，由
 
 Web3 开发的最大障碍是——至少从传统的角度来看——后端开发，这是我们发现 Web3 和更传统的开发实践最大的不同之处。然而，这不再是一个问题，因为像 Moralis 这样的平台已经出现，可以处理繁重的后端提升。
 
-这表明在 Web3 上构建的最好和最简单的方法是利用道德。正因为如此，这就是为什么我们致力于用 Moralis 更深入地构建 Web3 项目，并且只需简单的点击几下就能创建一个 dapp！
+这表明在 Web3 上构建的最好和最简单的方法是利用 Moralis。正因为如此，这就是为什么我们致力于用 Moralis 更深入地构建 Web3 项目，并且只需简单的点击几下就能创建一个 dapp！
 
-然而，这仅仅涵盖了与 Moralis 合作的基础，还有很多东西需要学习。因此，请随意浏览 [Moralis 博客](https://moralis.io/blog/)获取最新、最相关的 Web3 开发内容。例如，如果你觉得元宇宙很有趣，你可以更深入地了解 Moralis 的[元宇宙 SDK](https://moralis.io/metaverse/) 。SDK 允许你创建复杂的项目，如[中世纪元宇宙游戏](https://moralis.io/how-to-build-a-medieval-metaverse-game/)，AR 元宇宙 NFT 神秘盒子，甚至[创建你自己的元宇宙](https://moralis.io/how-to-create-your-own-metaverse/)！另外，如果你对 NFT 的发展感兴趣，你应该[和道德家](https://admin.moralis.io/register)签约！
+然而，这仅仅涵盖了与 Moralis 合作的基础，还有很多东西需要学习。因此，请随意浏览 [Moralis 博客](https://moralis.io/blog/)获取最新、最相关的 Web3 开发内容。例如，如果你觉得元宇宙很有趣，你可以更深入地了解 Moralis 的[元宇宙 SDK](https://moralis.io/metaverse/) 。SDK 允许你创建复杂的项目，如[中世纪元宇宙游戏](https://moralis.io/how-to-build-a-medieval-metaverse-game/)，AR 元宇宙 NFT 神秘盒子，甚至[创建你自己的元宇宙](https://moralis.io/how-to-create-your-own-metaverse/)！另外，如果你对 NFT 的发展感兴趣，你应该[和 Moralis 家](https://admin.moralis.io/register)签约！
 
 ![](img/6b444726345b12b36e3c714ebc01eedc.png)
 
-此外，如果你有磨练 Web3 开发技能的雄心，请查看[道德学院](https://academy.moralis.io/)。该学院提供了大量的[区块链课程](https://academy.moralis.io/all-courses)，如“[初学者密码](https://academy.moralis.io/courses/crypto-for-beginners)或“[2022 年硕士 DeFi](https://academy.moralis.io/courses/master-defi)”。因此，报名参加道德学院，并进一步成为区块链认证！**
+此外，如果你有磨练 Web3 开发技能的雄心，请查看[Moralis 学院](https://academy.moralis.io/)。该学院提供了大量的[区块链课程](https://academy.moralis.io/all-courses)，如“[初学者密码](https://academy.moralis.io/courses/crypto-for-beginners)或“[2022 年硕士 DeFi](https://academy.moralis.io/courses/master-defi)”。因此，报名参加 Moralis 学院，并进一步成为区块链认证！**

@@ -4,13 +4,13 @@
 
 **无论你是初学者还是经验丰富的区块链开发人员，币安智能链开发综合指南对构建 BSC 至关重要..此外，了解 BSC 开发是在该领域推进职业发展的先决条件。** **当以太坊及其生态系统保持其作为大多数** [**dApps**](https://moralis.io/decentralized-applications-explained-what-are-dapps/) **(去中心化应用)的领先环境的地位时，其他区块链正在快速追赶。** **特别是有一种链条一直很受欢迎——币安智能链条(BSC)。** **BSC 相对于以太坊的主要优势在于，尽管以太坊的燃气费非常高，但 BSC 提供的费用较低，这使得 BSC 对普通用户来说更实惠且更具吸引力。** **因此，学习 BSC 编程并将其添加到您的区块链开发库中是有意义的。此外，没有比这篇文章更好的起点了，在这里我们用十分钟解释币安智能连锁的发展！**
 
-在我们继续之前，我们想向您介绍一下 Moralis，它将加速您的 Web3 开发过程。无论你是 [创造令牌](https://moralis.io/how-to-create-a-bsc-token-in-5-steps/) ， [NFTs](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/) ，还是 dApps， [道德家](https://moralis.io/) 都有你罩着。这个强大的 Web3 开发平台使您能够将注意力放在项目的前端，而它负责后端的繁重工作。Moralis 支持多个链，BSC 就是其中之一。因此，我们将在本文中使用 Moralis 进行币安智能连锁开发。更棒的是，Moralis 完全免费。 [创建您的账户](https://admin.moralis.io/register) ，从今天开始快速轻松地开发吧！
+在我们继续之前，我们想向您介绍一下 Moralis，它将加速您的 Web3 开发过程。无论你是 [创造令牌](https://moralis.io/how-to-create-a-bsc-token-in-5-steps/) ， [NFTs](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/) ，还是 dApps， [Moralis 家](https://moralis.io/) 都有你罩着。这个强大的 Web3 开发平台使您能够将注意力放在项目的前端，而它负责后端的繁重工作。Moralis 支持多个链，BSC 就是其中之一。因此，我们将在本文中使用 Moralis 进行币安智能连锁开发。更棒的是，Moralis 完全免费。 [创建您的账户](https://admin.moralis.io/register) ，从今天开始快速轻松地开发吧！
 
 ![](img/5507d5906914a6e4e4a8a9af4c8f8b92.png)
 
 # 开始 BSC 编程之旅
 
-如前所述，这篇文章是您开始 BSC 编程之旅的绝佳资源。我们将从基础开始，慢慢地转移到一些实际的币安智能链开发的例子，这将告诉你，开发可以很容易，如果利用道德。此外，当您决定进行 BSC 编程的下一步时，这将对您非常有用。
+如前所述，这篇文章是您开始 BSC 编程之旅的绝佳资源。我们将从基础开始，慢慢地转移到一些实际的币安智能链开发的例子，这将告诉你，开发可以很容易，如果利用 Moralis。此外，当您决定进行 BSC 编程的下一步时，这将对您非常有用。
 
 在阅读这篇文章时，我们建议你做一些笔记，最重要的是，在你写完文章后采取行动。现在是全职加密的时候了，通过让 Moralis 指导你完成这一旅程，你已经拥有了优势。所以，我们开始吧！
 
@@ -122,4 +122,4 @@ HTML 是设计用于在网络浏览器中显示的文档的基本编程语言，
 
 如前所述，这些是 BSC 编程的简单和基本示例。然而，毫无疑问，这是您开始币安智能连锁发展之旅的好地方。如果您有兴趣扩展您的 BSC 编程技能并拓宽您的视野，请务必查看我们博客上的以下文章:“ [如何在不到 20 分钟的时间内创建 BSC NFT](https://moralis.io/how-to-create-a-bsc-nft-in-less-than-20-minutes/)”、“ [如何快速创建 BSC dapp](https://moralis.io/how-to-create-bsc-dapps-quickly/)”以及“ [如何轻松构建 BSC dapp](https://moralis.io/how-to-build-bsc-dapps-easily/)”。
 
-此外，如果你还没有创建你的道德家账户，我们建议你查看一下 [道德家文档](https://docs.moralis.io/) 。与网上的大多数文档不同，Moralis 文档简洁，易于阅读和使用。
+此外，如果你还没有创建你的 Moralis 家账户，我们建议你查看一下 [Moralis 家文档](https://docs.moralis.io/) 。与网上的大多数文档不同，Moralis 文档简洁，易于阅读和使用。

@@ -76,9 +76,9 @@ Web3 元宇宙加密支付的影响是巨大的。此外，每个主要应用程
 
 ### 用最好的工具构建 Web3 元宇宙 Dapps
 
-道德如何让你以前所未有的速度建造 dapps？以下是 Moralis 工具如何显著简化您的旅程的一些示例:
+Moralis 如何让你以前所未有的速度建造 dapps？以下是 Moralis 工具如何显著简化您的旅程的一些示例:
 
-### 1.道德快速节点
+### 1.Moralis 快速节点
 
 使用 Moralis，您不需要从头开始设置区块链节点。 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) 为您提供一种快速、安全、便捷的方式与顶级区块链联系。因此，无论您需要连接到[以太坊节点](https://moralis.io/how-to-connect-to-ethereum-nodes/)、 [BSC 节点](https://moralis.io/how-to-connect-to-bsc-nodes/)、[多边形节点](https://moralis.io/how-to-connect-to-polygon-nodes/)、[雪崩节点](https://moralis.io/how-to-connect-to-avalanche-nodes/)、[仲裁节点](https://moralis.io/full-guide-how-to-connect-to-arbitrum-nodes/)，还是以上所有节点，Moralis Speedy Nodes 都能为您提供一站式、即插即用的解决方案。
 
@@ -88,9 +88,9 @@ Web3 元宇宙加密支付的影响是巨大的。此外，每个主要应用程
 
 当处理 NFTs 时，您需要一个存储系统来处理您的元数据。Moralis 的原生 IPFS 支持为您的 Web3 元宇宙应用提供分散存储。
 
-### 3.道德的 NFT API
+### 3.Moralis 的 NFT API
 
-什么是道德 NFT API？它是检索有关 NFTs 信息的终极解决方案，包括:
+什么是 Moralis NFT API？它是检索有关 NFTs 信息的终极解决方案，包括:
 
 *   NFT 元数据
 *   NFT 价格
@@ -99,7 +99,7 @@ Web3 元宇宙加密支付的影响是巨大的。此外，每个主要应用程
 *   用户信息
 *   还有更多！
 
-此外，道德 NFT API 是跨链兼容的。因此，您不必担心区块链兼容性。对于任何 NFT 项目来说，这都是一个方便的解决方案，包括如果你想建立一个 [NFT 稀有度排名 dapp](https://moralis.io/how-to-develop-an-nft-rarity-ranking-dapp/) 或[创建一个 NFT 市场](https://moralis.io/how-to-create-an-nft-marketplace/)。
+此外，Moralis NFT API 是跨链兼容的。因此，您不必担心区块链兼容性。对于任何 NFT 项目来说，这都是一个方便的解决方案，包括如果你想建立一个 [NFT 稀有度排名 dapp](https://moralis.io/how-to-develop-an-nft-rarity-ranking-dapp/) 或[创建一个 NFT 市场](https://moralis.io/how-to-create-an-nft-marketplace/)。
 
 在这里可以找到完整的 NFT API 文档:[https://github.com/nft-api/nft-api](https://github.com/nft-api/nft-api)。
 
@@ -133,4 +133,4 @@ Web3 元宇宙最有趣的一个方面是加密支付的无数用例。此外，
 
 有了 Moralis 强大的元宇宙 SDK，任何区块链开发者都可以将他们的游戏项目推向新的高度。如今，处理设置区块链节点的所有麻烦或者处理 RPC 节点的[限制是不切实际的。这种努力非常耗时，而且并不专注于 Web3 元宇宙游戏体验。](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)
 
-使用 Moralis，您可以跳过笨重的后端基础架构流程。你可以直接创建一个优秀的 dapp，NFT 交易平台，NFT 游戏，DeFi 平台，分散交易所(DEX)，或者任何你能想到的东西。更重要的是，您节省了宝贵的开发时间。因此，Moralis 帮助您更快地推出产品，赢得先发优势！今天就开始探索；当你与道德家签约时，你会发现更多！
+使用 Moralis，您可以跳过笨重的后端基础架构流程。你可以直接创建一个优秀的 dapp，NFT 交易平台，NFT 游戏，DeFi 平台，分散交易所(DEX)，或者任何你能想到的东西。更重要的是，您节省了宝贵的开发时间。因此，Moralis 帮助您更快地推出产品，赢得先发优势！今天就开始探索；当你与 Moralis 家签约时，你会发现更多！

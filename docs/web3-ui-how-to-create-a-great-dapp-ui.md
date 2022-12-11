@@ -14,7 +14,7 @@
 
 虽然解决技术问题在 dApp 开发中很重要，但是任何人都不应该忽视用户体验。忽视 Web3 UI 方面的区块链开发者给 dApp 造成了巨大的价值损失。因此，开发者应该记住，虽然区块链和 Web3 是非凡的创新，但用户必须放在第一位。此外，Web3 市场延伸到数百万需要简单地与他们的 Web3 UI 交互的非技术用户。
 
-这就是道德的用武之地。Moralis 充当了 crypto 的" T0 "燃料。它为你做了大部分后端的繁重工作，并节省了你创建一个惊人的前端的时间。此外，通过使用 [ultimate Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/?utm_source=blog&utm_medium=post&utm_campaign=Firebase%2520for%2520Crypto%2520%25E2%2580%2593%2520The%2520Best%2520Blockchain%2520Firebase%2520Alternative) ，您可以立即实现您的开发目标！
+这就是 Moralis 的用武之地。Moralis 充当了 crypto 的" T0 "燃料。它为你做了大部分后端的繁重工作，并节省了你创建一个惊人的前端的时间。此外，通过使用 [ultimate Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/?utm_source=blog&utm_medium=post&utm_campaign=Firebase%2520for%2520Crypto%2520%25E2%2580%2593%2520The%2520Best%2520Blockchain%2520Firebase%2520Alternative) ，您可以立即实现您的开发目标！
 
 ## **如何创建一个伟大的 dApp UI——视频教程**
 
@@ -153,6 +153,6 @@ https://www.youtube.com/watch?v=txHnWDRB728
 
 ![](img/4598aa7b7ad458dcec13d6bd973ee250.png)
 
-Moralis 是构建优秀 Web3 UI 的完美伴侣。Moralis 软件开发工具包(SDK)中包含了所有令人兴奋的功能，在您应对前端挑战的同时，您的后端也受到了保护。它节省了宝贵的时间和精力。此外，你应该检查道德以太坊样板(链接张贴在上面)。它可以帮助你更快地建立一个有很棒的 UI 的以太坊 dApps。
+Moralis 是构建优秀 Web3 UI 的完美伴侣。Moralis 软件开发工具包(SDK)中包含了所有令人兴奋的功能，在您应对前端挑战的同时，您的后端也受到了保护。它节省了宝贵的时间和精力。此外，你应该检查 Moralis 以太坊样板(链接张贴在上面)。它可以帮助你更快地建立一个有很棒的 UI 的以太坊 dApps。
 
 使用最终的 Web3 开发平台 Moralis，构建卓越的 Web3 UI 从未像现在这样简单或直观！

@@ -2,11 +2,11 @@
 
 > 原文：<https://moralis.io/how-to-mint-10000-nfts-full-walkthrough/>
 
-在这篇文章中，我们将分解如何铸造 10，000 个 NFT 的过程。为了使教程更容易理解，我们将使用一个已经准备好的 NFT 铸造引擎的道德模板。因此，如果您想跳过教程，立即仔细查看 GitHub 库，请查看以下链接:
+在这篇文章中，我们将分解如何铸造 10，000 个 NFT 的过程。为了使教程更容易理解，我们将使用一个已经准备好的 NFT 铸造引擎的 Moralis 模板。因此，如果您想跳过教程，立即仔细查看 GitHub 库，请查看以下链接:
 
 **全 https://github.com/ashbeech/moralis-mutants-nft-engine 发动机文档——**[](https://github.com/ashbeech/moralis-mutants-nft-engine)
 
-****NFT(不可替代的令牌)是 [Web3 开发](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/)中最激动人心的特性之一，利用这些令牌产生了许多创新的想法。加密领域最热门的趋势之一是数字收藏品。这些是批量生成的 NFT，用于创建包含数千个令牌的集合。两个最突出的例子是[无聊猿游艇俱乐部](https://opensea.io/collection/boredapeyachtclub)和[隐朋克](https://opensea.io/collection/cryptopunks)。这些收藏品包含了大约 10，000 件完全独特的 NFT，其中一些卖出了天文数字的价格。由于这一领域令人难以置信的成功，我们将仔细看看如何铸造 10，000 枚 NFT，并用[道德](https://moralis.io/)创造你自己的一系列代币。****
+****NFT(不可替代的令牌)是 [Web3 开发](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/)中最激动人心的特性之一，利用这些令牌产生了许多创新的想法。加密领域最热门的趋势之一是数字收藏品。这些是批量生成的 NFT，用于创建包含数千个令牌的集合。两个最突出的例子是[无聊猿游艇俱乐部](https://opensea.io/collection/boredapeyachtclub)和[隐朋克](https://opensea.io/collection/cryptopunks)。这些收藏品包含了大约 10，000 件完全独特的 NFT，其中一些卖出了天文数字的价格。由于这一领域令人难以置信的成功，我们将仔细看看如何铸造 10，000 枚 NFT，并用[Moralis](https://moralis.io/)创造你自己的一系列代币。****
 
 ****在下面的教程中，我们将利用 Moralis 操作系统来创建一个 NFT 集合。作为 Moralis 的用户，我们可以接入平台的后端基础设施，立即创建我们自己的收藏！****
 
@@ -72,7 +72,7 @@ https://www.youtube.com/watch?v=32LHYSyv6Ko
 
 ### 如何创建 Moralis 服务器
 
-你要做的第一件事是注册道德。这是完全免费的，只要您登录您的帐户，我们就可以开始了。
+你要做的第一件事是注册 Moralis。这是完全免费的，只要您登录您的帐户，我们就可以开始了。
 
 要启动一个实例，可以单击 Moralis 界面顶部的“+ Create a new Server”按钮。按下这个按钮将打开一个下拉菜单，有三种不同的选择。在这种情况下，由于这是一个教程，我们将选择一个 testnet 服务器。这是有益的，因为它允许我们创建 NFT 而不用支付任何天然气费用，这将为我们提供在投入 mainnet 之前把事情做好的奢侈。
 
@@ -124,9 +124,9 @@ https://www.youtube.com/watch?v=32LHYSyv6Ko
 
 ### 发动机配置
 
-完成对“config.js”文件的正确配置后，我们可以继续对 NFT 引擎进行最后的更改。为此，您需要导航到" [index.js](https://github.com/ashbeech/moralis-mutants-nft-engine/blob/main/index.js) "文件，该文件是代码的核心部分。这部分编译一切，包括层，并创建 [JSON](https://moralis.io/json-explained-what-is-json-javascript-object-notation/) 文件。除此之外，它还把所有东西上传到 IPFS 和你的道德服务器上。然而，我们不会更深入地研究实际的引擎是如何工作的，而是仔细看看我们需要注意的必要配置。
+完成对“config.js”文件的正确配置后，我们可以继续对 NFT 引擎进行最后的更改。为此，您需要导航到" [index.js](https://github.com/ashbeech/moralis-mutants-nft-engine/blob/main/index.js) "文件，该文件是代码的核心部分。这部分编译一切，包括层，并创建 [JSON](https://moralis.io/json-explained-what-is-json-javascript-object-notation/) 文件。除此之外，它还把所有东西上传到 IPFS 和你的 Moralis 服务器上。然而，我们不会更深入地研究实际的引擎是如何工作的，而是仔细看看我们需要注意的必要配置。
 
-我们可以继续向下滚动到“//道德信用”部分:
+我们可以继续向下滚动到“//Moralis 信用”部分:
 
 ```js
 // Moralis creds
@@ -164,7 +164,7 @@ node index.js
 
 如果您没有，那么您需要做的第一件事就是创建一个元掩码帐户。这非常简单，您需要做的就是按照扩展提供的步骤操作。一旦你有一个帐户，下一步是改变元掩码网络。在我们的例子中，我们想切换到 Mumbai testnet，因为这是我们在创建服务器时选择的网络。
 
-然而，孟买不会是 MetaMask 的默认网络之一，这意味着我们需要将它添加到我们的钱包中。当与道德家一起工作时，这变得非常容易。你所需要做的就是导航到 Moralis 管理面板中的“Speedy Nodes”选项卡，点击多边形网络的“Endpoints”按钮，最后点击 testnet 的“Add to MetaMask”按钮。然后，剩下的就是确保在 MetaMask 中选择它。
+然而，孟买不会是 MetaMask 的默认网络之一，这意味着我们需要将它添加到我们的钱包中。当与 Moralis 家一起工作时，这变得非常容易。你所需要做的就是导航到 Moralis 管理面板中的“Speedy Nodes”选项卡，点击多边形网络的“Endpoints”按钮，最后点击 testnet 的“Add to MetaMask”按钮。然后，剩下的就是确保在 MetaMask 中选择它。
 
 ![](img/fda4272d7623d19150e50d6988ca5db2.png)
 

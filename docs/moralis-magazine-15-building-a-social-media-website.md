@@ -1,26 +1,26 @@
-# 道德杂志第 15 期——建立社交媒体网站
+# Moralis 杂志第 15 期——建立社交媒体网站
 
 > 原文：<https://moralis.io/moralis-magazine-15-building-a-social-media-website/>
 
-再次感谢你本周加入我们。我们一起(道德道)支持和使用最健壮和最强大的 Web3 框架。
+再次感谢你本周加入我们。我们一起(Moralis 道)支持和使用最健壮和最强大的 Web3 框架。
 
 **Moralis 是一个强大的 Web3 框架**，但是作为 Moralis DAO，我们不仅仅是这样。我们希望通过为您提供快速构建应用程序所需的工具和组件来帮助您提升开发水平。
 
-你们每个人都是非凡事物的一部分，这本杂志就是要让道德的力量为你所用！
+你们每个人都是非凡事物的一部分，这本杂志就是要让 Moralis 的力量为你所用！
 
-**我们都是道德家**，在这里互相支持。如果你不是已经活跃在[道德说教不和谐](https://discord.com/invite/P9N9HF97hH)的话，今天就是为你引荐的日子。
+**我们都是 Moralis 家**，在这里互相支持。如果你不是已经活跃在[Moralis 说教不和谐](https://discord.com/invite/P9N9HF97hH)的话，今天就是为你引荐的日子。
 
-在道德道的冲突中，你会发现一堆道德专家和法师同伴。发布您的项目并从社区获得反馈，参与编码挑战，并了解最新的 Moralis 特性和更新。
+在 Moralis 道的冲突中，你会发现一堆 Moralis 专家和法师同伴。发布您的项目并从社区获得反馈，参与编码挑战，并了解最新的 Moralis 特性和更新。
 
 你如何利用所提供的工具和专业知识取决于你自己，我们希望这本杂志能激发一些想法。
 
-你在用道德建造什么？你卡住了吗？向我们提出问题和意见。谁知道呢，我们甚至可能会在未来的杂志上直接回复你！
+你在用 Moralis 建造什么？你卡住了吗？向我们提出问题和意见。谁知道呢，我们甚至可能会在未来的杂志上直接回复你！
 
 [**发送您的问题给我们**](https://ivanontech.typeform.com/to/R9K5lnGe)
 
 **突发新闻！**
 
-## 用道德更快、更好、更便宜地建造
+## 用 Moralis 更快、更好、更便宜地建造
 
 对于 Moralis 的核心发展来说，这是令人兴奋的一周。
 
@@ -46,9 +46,9 @@ Moralis 插件是将现有 API 集成到 Moralis 驱动的 dApps 中最热门、
 
 立即升级您的 NFT Web3 dApp，通过 Moralis 的 Rarible 插件提供定制功能！
 
-## 帮助我们建立道德——立即提交拉动请求
+## 帮助我们建立 Moralis——立即提交拉动请求
 
-道德是一个社区运动，我们每个人都是其中的一部分。当然，这是真的，当你使用 Moralis 的 Web3 框架来构建你自己的 dApp 时。然而，这并不是成为道德建设的一部分的唯一途径。
+Moralis 是一个社区运动，我们每个人都是其中的一部分。当然，这是真的，当你使用 Moralis 的 Web3 框架来构建你自己的 dApp 时。然而，这并不是成为 Moralis 建设的一部分的唯一途径。
 
 ![](img/cf4f9336c3da0cb7116d766b0d5e132f.png)
 
@@ -56,7 +56,7 @@ Moralis 插件是将现有 API 集成到 Moralis 驱动的 dApps 中最热门、
 
 如果您还不熟悉以太坊样板文件，请查看上周的帮助入门文章:[https://moralis . io/moralis-magazine-14-以太坊-样板文件-101/](https://moralis.io/moralis-magazine-14-ethereum-boilerplate-101/)
 
-比赛在本周举行，因为最佳(被批准的)拉请求将成为本周无聊的道德家法师 NFT 竞赛的获胜者:[https://opensea.io/collection/boredmoralismages](https://opensea.io/collection/boredmoralismages)。
+比赛在本周举行，因为最佳(被批准的)拉请求将成为本周无聊的 Moralis 家法师 NFT 竞赛的获胜者:[https://opensea.io/collection/boredmoralismages](https://opensea.io/collection/boredmoralismages)。
 
 * * *
 
@@ -64,9 +64,9 @@ Moralis 插件是将现有 API 集成到 Moralis 驱动的 dApps 中最热门、
 
 今天，我们使用 Moralis 的 Web3 框架从头开始克隆 Reddit！
 
-这不是演习；通过使用道德，你可以建立自己的社交网络，我们自己的道德专家丹尼尔将在这里指导我们，因为我们…
+这不是演习；通过使用 Moralis，你可以建立自己的社交网络，我们自己的 Moralis 专家丹尼尔将在这里指导我们，因为我们…
 
-## **与道德家建立社交网络**
+## **与 Moralis 家建立社交网络**
 
 https://www.youtube.com/watch?v=52BvLrj-KrE
 
@@ -80,7 +80,7 @@ https://youtu.be/vxo2m7a6vxY
 
 **Q&A——快攻**
 
-接下来，我们将回答上周从《道德》杂志读者那里收到的一个问题。
+接下来，我们将回答上周从《Moralis》杂志读者那里收到的一个问题。
 
 * * *
 
@@ -90,16 +90,16 @@ https://youtu.be/vxo2m7a6vxY
 
 **如果你想先了解一下 ERC-20 的部署情况，可以从 Moralis 的文档中查阅以下指南:**[**https://docs . Moralis . io/guides/deploy-and-track-ERC 20-events**](https://docs.moralis.io/guides/deploy-and-track-erc20-events)**。**
 
-如果你很难跟上上面提到的向导，不要担心。有了道德学院，你可以从零开始-不需要任何先验知识！
+如果你很难跟上上面提到的向导，不要担心。有了 Moralis 学院，你可以从零开始-不需要任何先验知识！
 
 你还在等什么？今天报名:[](https://academy.moralis.io/pricing/)****。****
 
 * * *
 
- **感谢阅读！我们希望本周的道德杂志对你有用。**
+ **感谢阅读！我们希望本周的 Moralis 杂志对你有用。**
 
 **继续建造！**
 
 **下次见💚**
 
-**道德研究小组**
+**Moralis 研究小组**

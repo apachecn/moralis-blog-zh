@@ -128,7 +128,7 @@ React.js 为开发者提供了最好的体验之一。这主要是因为脸书�
 
 因此，在回答了“什么是 React”之后，你可能会问自己“React 是如何与 Moralis 一起工作的？”。嗯，你可以使用 React with Moralis 来轻松快速地构建大量优秀的 Web3 应用程序。有可重用的组件，以及为 Moralis 定制的 React 挂钩，可以帮助您轻松地与强大的 Moralis SDK 功能交互，在您的应用程序中显示 Web3 数据。此外，Moralis 提供了[丰富的文档](https://docs.moralis.io/)，向您展示如何在几秒钟内[轻松认证您的应用](https://docs.moralis.io/moralis-server/users/crypto-login)，以及许多其他功能。
 
-使用 Moralis，您可以全力以赴地创建吸引人的交互式用户界面，同时轻松地将 Moralis 集成为您的后端服务。今天就开始使用道德创造惊人的 dApps 吧！
+使用 Moralis，您可以全力以赴地创建吸引人的交互式用户界面，同时轻松地将 Moralis 集成为您的后端服务。今天就开始使用 Moralis 创造惊人的 dApps 吧！
 
 ## 什么是反应？–总结
 

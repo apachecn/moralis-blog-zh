@@ -4,7 +4,7 @@
 
 熟练的智能合同开发人员努力将合同提升到一个新的水平。其中包括修改或升级智能合同的方法。然而,“可升级智能合同”的概念即使对有经验的人来说也可能难以理解。因此，请记住，可升级的智能合约绝对不属于“初学者”类别。然而，即使你是初学者，这篇文章也会非常有用。那么，什么是可升级智能合约呢？请跟随本指南，我们将探索可升级智能合约的基础，并了解它们是如何工作的。
 
-接下来，您将首先学习什么是可升级智能合约，以及它们是如何工作的。然后，我们将看看透明代理和可升级代理。此外，我们将解释如何使合同可升级，并解决这些类型的合同的主要限制。尽管如此，你将有机会承担一个示例项目。反过来，你将有机会跟随我们的领导，创建你自己的 [NFT minting](https://moralis.io/how-to-mint-nfts-full-tutorial-to-minting-an-nft/) [dApp](https://moralis.io/decentralized-applications-explained-what-are-dapps/) (去中心化应用)。后者将包含一个智能合同，您将对其进行升级。因此，您将正确地学习如何使用可升级的智能合同。在这个过程中，你将了解终极的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台 [Moralis](https://moralis.io/) (也称为 [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) )。这个优秀的工具使您能够轻松满足所有与区块链相关的后端需求。因此，请务必今天就[创建您的道德账户](https://admin.moralis.io/register)。
+接下来，您将首先学习什么是可升级智能合约，以及它们是如何工作的。然后，我们将看看透明代理和可升级代理。此外，我们将解释如何使合同可升级，并解决这些类型的合同的主要限制。尽管如此，你将有机会承担一个示例项目。反过来，你将有机会跟随我们的领导，创建你自己的 [NFT minting](https://moralis.io/how-to-mint-nfts-full-tutorial-to-minting-an-nft/) [dApp](https://moralis.io/decentralized-applications-explained-what-are-dapps/) (去中心化应用)。后者将包含一个智能合同，您将对其进行升级。因此，您将正确地学习如何使用可升级的智能合同。在这个过程中，你将了解终极的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台 [Moralis](https://moralis.io/) (也称为 [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) )。这个优秀的工具使您能够轻松满足所有与区块链相关的后端需求。因此，请务必今天就[创建您的 Moralis 账户](https://admin.moralis.io/register)。
 
 如前所述，可升级的智能合约可能很难理解。所以，建议先学一些基础。因此，在继续前进之前，我们建议了解“ [*的问题，Web3 是如何工作的？*](https://moralis.io/how-does-web3-work-web3-explained/)*[*什么是坚固性？*](https://moralis.io/solidity-explained-what-is-solidity/)*[*什么是智能合约？*](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/) *”。***
 
@@ -83,15 +83,15 @@ __UUPSUpgradeable_init();
 
 ## 可升级智能合同的实施——一个示例项目
 
-如上所述，你现在将有机会使用上面获得的关于可升级智能合同的知识。按照我们的指示，你会很容易地创建一个 NFT 铸造 dApp。当然，除了使用 OpenZeppelin，我们还将严重依赖 Moralis。为什么？嗯，这让事情变得更简单快捷。当我们将道德的力量与最实用的以太坊 dApp 样板结合起来时，这一点尤其正确。这个终极的 [Web3 样板](https://moralis.io/web3-boilerplate-beginners-guide-to-web3/)让我们能够在几分钟内拥有功能齐全的 dApps 和干净的 UI。当然，这两种工具都需要初始设置。因此，让我们从这里开始。因此，我们将向您展示如何创建一个 Moralis 服务器，初始化 [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) ，并涵盖以太坊 dApp 样板的初始设置。
+如上所述，你现在将有机会使用上面获得的关于可升级智能合同的知识。按照我们的指示，你会很容易地创建一个 NFT 铸造 dApp。当然，除了使用 OpenZeppelin，我们还将严重依赖 Moralis。为什么？嗯，这让事情变得更简单快捷。当我们将 Moralis 的力量与最实用的以太坊 dApp 样板结合起来时，这一点尤其正确。这个终极的 [Web3 样板](https://moralis.io/web3-boilerplate-beginners-guide-to-web3/)让我们能够在几分钟内拥有功能齐全的 dApps 和干净的 UI。当然，这两种工具都需要初始设置。因此，让我们从这里开始。因此，我们将向您展示如何创建一个 Moralis 服务器，初始化 [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) ，并涵盖以太坊 dApp 样板的初始设置。
 
 ![](img/061c16f6950e6f8d29eaa7b724f6f988.png)
 
-### 道德设置
+### Moralis 设置
 
 无论您想从头构建 dApps 还是使用我们的 Web3 样板，您都需要从一个简单的 Moralis 设置开始。要完成初始 Moralis 设置，请遵循以下步骤:
 
-1.  [**创建你的免费道德账户**](https://admin.moralis.io/register)——点击左边的链接，你将进入注册页面。在那里，输入您的电子邮件，创建您的密码，并通过单击确认链接(检查您的电子邮件收件箱)来确认帐户创建。*另一方面，如果你已经有一个活跃的 Moralis 账户，只需* [*登录*](https://admin.moralis.io/login) *。*
+1.  [**创建你的免费 Moralis 账户**](https://admin.moralis.io/register)——点击左边的链接，你将进入注册页面。在那里，输入您的电子邮件，创建您的密码，并通过单击确认链接(检查您的电子邮件收件箱)来确认帐户创建。*另一方面，如果你已经有一个活跃的 Moralis 账户，只需* [*登录*](https://admin.moralis.io/login) *。*
 
 2.  [**创建一个 Moralis 服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)–在您的 Moralis 管理区域中，转到“服务器”选项卡。接下来，单击“+创建新服务器”(右上角)。然后，您会看到一个下拉菜单，提供不同的服务器类型(见下面的截图)。确保选择最适合您需求的网络类型。*在处理示例项目或测试您的 dApps 时，关注“Testnet 服务器”(* [*)以太坊测试网*](https://moralis.io/ethereum-testnet-guide-connect-to-ethereum-testnets/) *)或“本地 Devchain 服务器”选项。然而，一旦你想让你的 dApp 对公共用户可用，选择“Mainnet 服务器”。*
 
@@ -109,7 +109,7 @@ __UUPSUpgradeable_init();
 
 ![](img/b8b74a1cafd29dc4bdb61c0670882f16.png)
 
-#### 初始化道德
+#### 初始化 Moralis
 
 *注* *:暂时跳过这一步。你将被告知何时返回并完成它。*
 
@@ -137,7 +137,7 @@ __UUPSUpgradeable_init();
 
 **   现在，是时候安装所有的依赖项了。因此，我们使用 VSC 的终端。我们需要输入以下命令行:*
 
-**   ***cd 道德-可升级-智能-合同****   ***纱线安装****
+**   ***cd Moralis-可升级-智能-合同****   ***纱线安装****
 
 *注意:除了使用“yarn ”,你也可以使用“npm”包管理器。*
 
@@ -169,6 +169,6 @@ https://www.youtube.com/watch?v=af1i0z0jhkg
 
 如果你想继续你的免费加密教育，那么 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)是值得去的地方。这两个出口提供了各种区块链方面的简单解释和无数的例子项目。例如，我们的一些最新主题向您展示了如何在 2022 年[获得一个 OpenSea API 密钥](https://moralis.io/get-an-opensea-api-key-in-2022-full-guide/)，终极 [Web3 技术堆栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)，如何[创建一个伟大的 dApp UI](https://moralis.io/web3-ui-how-to-create-a-great-dapp-ui/) ，如何使用 [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/)工具快速构建一个 [Web3 登录](https://moralis.io/how-to-build-a-web3-login-in-5-steps/)，关于 [gasless 事务的细节](https://moralis.io/gasless-transactions-exploring-gasless-transactions-on-ethereum/)， [NFT API 替代方案](https://moralis.io/nft-api-alternatives-comparing-alchemys-nft-api-with-moralis-nft-api/)， [Web3.js vs](https://moralis.io/web3-js-vs-ethers-js-guide-to-eth-javascript-libraries/)
 
-另一方面，你可能想尽快成为全职加密员。如果是这样的话，你肯定需要考虑报读[道德学院](https://academy.moralis.io/)。通过这样做，你将获得专业课程，进步和支持社区，以及专家指导。如果你想在 2022 年[成为区块链开发商](https://moralis.io/how-to-become-a-blockchain-developer/)，所有这些都是必不可少的资产。
+另一方面，你可能想尽快成为全职加密员。如果是这样的话，你肯定需要考虑报读[Moralis 学院](https://academy.moralis.io/)。通过这样做，你将获得专业课程，进步和支持社区，以及专家指导。如果你想在 2022 年[成为区块链开发商](https://moralis.io/how-to-become-a-blockchain-developer/)，所有这些都是必不可少的资产。
 
 ![](img/013c75eaddeae8e558807d8cc25acb40.png)****

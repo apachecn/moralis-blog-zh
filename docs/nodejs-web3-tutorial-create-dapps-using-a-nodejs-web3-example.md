@@ -4,9 +4,9 @@
 
 您是否希望创建一个分散的应用程序，但却被 Web3 技术堆淹没？如果是这样，这个 NodeJS Web3 教程可以帮助你开始，因为它提供了构建 dapps **的最简单方法** [**。此外，在本文中，您有机会跟随我们学习一个 NodeJS Web3 示例，该示例将教会您基础知识，您将探索基本工具以及如何使用它们。因此，您将知道如何获取链上数据，由于 Moralis 的企业级 Web3 APIs，这将毫不费力。此外，我们决定使本教程尽可能对初学者友好。因此，通过简单地复制我们的代码，您将能够完成今天的 NodeJS Web3 示例。**](https://moralis.io/the-easiest-way-to-build-dapps-3-step-tutorial-for-devs/)
 
-此外，我们将向您展示如何获取您的 Moralis Web3 API 密钥。后者将让你接触到最终的 web 3 API——你开发 dapps(去中心化应用)的门户。有了道德的力量在你身边，你可以不费吹灰之力地用 NodeJS 为 Web3 做贡献。
+此外，我们将向您展示如何获取您的 Moralis Web3 API 密钥。后者将让你接触到最终的 web 3 API——你开发 dapps(去中心化应用)的门户。有了 Moralis 的力量在你身边，你可以不费吹灰之力地用 NodeJS 为 Web3 做贡献。
 
-此外，由于 Moralis 完全是关于跨链互操作性的，所以您将使用今天的 NodeJS Web3 教程来解决各种区块链。因此，你可以坚持领先的可编程链，以太坊，或专注于其他著名的 EVM 兼容链。无论哪种情况，你都必须首先[创建你的免费道德账户](https://admin.moralis.io/register)。然而，在深入我们的主题之前，让我们确保你们都知道基础知识。
+此外，由于 Moralis 完全是关于跨链互操作性的，所以您将使用今天的 NodeJS Web3 教程来解决各种区块链。因此，你可以坚持领先的可编程链，以太坊，或专注于其他著名的 EVM 兼容链。无论哪种情况，你都必须首先[创建你的免费 Moralis 账户](https://admin.moralis.io/register)。然而，在深入我们的主题之前，让我们确保你们都知道基础知识。
 
 ![To become a more efficient Web3 developer, join Moralis Magazine.](img/5b5266e0abc11c1628c3fce7a7df4acc.png)[**Join Moralis Magazine Now**](https://moralis.io/joindiscord/) 
 
@@ -379,6 +379,6 @@ startServer()
 
 我们鼓励你通过参加在 Moralis 文档、 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)中等待你的教程来提高你的 Web3 开发技能。这些途径可以帮助你免费成为区块链开发者。例如，一些最新的主题向您展示了如何[将 dapp 连接到 Cronos](https://moralis.io/cronos-development-connect-dapps-to-cronos/) ，[构建 BNB 链 dapp](https://moralis.io/bnb-chain-boilerplate-how-to-build-bnb-chain-dapps/)，设置并[将 dapp 连接到以太坊网络](https://moralis.io/set-up-and-connect-a-dapp-to-the-ethereum-network/)，[将 dapp 连接到 Polygon](https://moralis.io/tutorial-how-to-connect-a-dapp-to-polygon-network/) ，[克隆 Zapper](https://moralis.io/how-to-clone-zapper-in-less-than-1-hour/) ，[如何集成基于区块链的认证](https://moralis.io/blockchain-based-authentication-how-to-integrate/)，[设置自托管解析服务器](https://moralis.io/how-to-set-up-a-self-hosted-parse-server/)，等等。
 
-你可能还想在道德学院探索专业的区块链发展课程。例如，你可以注册一门课程，教你如何使用 JavaScript 构建一个[DEX(去中心化交换)。尽管如此，通过完成道德学院的课程，你成为区块链认证。反过来，你也大大增加了获得梦想工作的机会。今天就报名参加道德学院，向改变人生的职业迈出第一步！](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)
+你可能还想在 Moralis 学院探索专业的区块链发展课程。例如，你可以注册一门课程，教你如何使用 JavaScript 构建一个[DEX(去中心化交换)。尽管如此，通过完成 Moralis 学院的课程，你成为区块链认证。反过来，你也大大增加了获得梦想工作的机会。今天就报名参加 Moralis 学院，向改变人生的职业迈出第一步！](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)
 
 ![A diploma showing a certificate for completing the NodeJS Web3 tutorial.](img/8647a2425658d041c4820a4a3f7448ef.png)

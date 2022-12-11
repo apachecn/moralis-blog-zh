@@ -6,7 +6,7 @@
 
 接下来，我们将从基础开始，首先解释什么是跨链桥接。接下来，我们将回答“什么是加密桥，它是如何工作的？”问题。然后，我们来看看这些桥的好处。在本文中，您还有机会了解一些最流行的跨链桥解决方案。最后但同样重要的是，我们将专注于发展。在这里，您将了解到最终的 Web3 API 提供商 [Moralis](https://moralis.io/) 。毕竟，后者是用于创建 dapps(分散应用程序)的领先 Web3 工具，您可以用它来创建一个加密桥。
 
-尽管如此，如果您拥有扎实的编程技能，并且想直接开始使用 Moralis 的跨链 API，请放心地直接进入“构建”阶段。你只需要你的[免费道德账户](https://admin.moralis.io/register)和[道德文件](https://docs.moralis.io/)就可以开始了！
+尽管如此，如果您拥有扎实的编程技能，并且想直接开始使用 Moralis 的跨链 API，请放心地直接进入“构建”阶段。你只需要你的[免费 Moralis 账户](https://admin.moralis.io/register)和[Moralis 文件](https://docs.moralis.io/)就可以开始了！
 
 ![](img/06fc064dd92799c0dd8e538d6d739abe.png)
 
@@ -91,7 +91,7 @@
 
 从目前的情况来看，跨链的未来似乎是不可避免的。将你的 Web3 开发限制在任何特定的链上是没有意义的。当然，这听起来很有挑战性，也很复杂，因为您可能认为这种方法需要您掌握大量的工具。然而，多亏了 Moralis，跨链桥开发变得简单明了。
 
-毕竟，道德支持所有领先的区块链，全力支持新的声誉良好的连锁店不断增加。因此，有了 Moralis，你的 dapp 开发永远不会被任何特定的链所束缚。此外，您可以让您的用户在各种链之间切换，或者您可以集中在一个受支持的链上开始。然后，如果需要的话，您可以调整一行代码并转换到另一个链。
+毕竟，Moralis 支持所有领先的区块链，全力支持新的声誉良好的连锁店不断增加。因此，有了 Moralis，你的 dapp 开发永远不会被任何特定的链所束缚。此外，您可以让您的用户在各种链之间切换，或者您可以集中在一个受支持的链上开始。然后，如果需要的话，您可以调整一行代码并转换到另一个链。
 
 ![](img/4b8f5b3e131a2ca55f9ac5e479a74797.png)
 
@@ -105,6 +105,6 @@ Moralis 也是关于跨平台互操作性的。您可以开始使用您喜欢的
 
 我们在今天的文章中谈了相当多的内容。最终，您有机会从学习跨链桥接的基础知识到学习这个过程是如何工作的，以及您可能想要测试哪些加密桥。在此过程中，您还了解了这些跨链解决方案的主要优势。最后但同样重要的是，您发现跨链开发比大多数开发人员想象的要容易得多。当然，如果您想专注于跨链桥开发，您还必须使用智能契约。然而，要创建多链 dapps，你只需要一个 Moralis 的 Web3 APIs 和一套你喜欢的遗留工具的组合。
 
-如果你想开始建立跨链 dapps 的简单方法，创建您的免费道德帐户。此外，跟随我们的一个优秀教程，看看 Moralis 的跨链功能是如何工作的。你可以在 Moralis 的文档、 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)中找到教程。后者也是一个免费扩展你的区块链发展知识的好地方。例如，我们的一些最新文章教你如何用 MetaMask 创建一个 [Web3 Firebase 登录，如何](https://moralis.io/create-a-web3-firebase-login-with-metamask/)[在以太坊](https://moralis.io/how-to-create-a-decentralized-website-on-ethereum/)上创建一个分散式网站，如何开始使用 [Solana 智能合同构建](https://moralis.io/solana-smart-contract-building/)，如何将[动态 Web3 认证](https://moralis.io/add-dynamic-web3-authentication-to-a-website/)添加到网站，等等。
+如果你想开始建立跨链 dapps 的简单方法，创建您的免费 Moralis 帐户。此外，跟随我们的一个优秀教程，看看 Moralis 的跨链功能是如何工作的。你可以在 Moralis 的文档、 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)中找到教程。后者也是一个免费扩展你的区块链发展知识的好地方。例如，我们的一些最新文章教你如何用 MetaMask 创建一个 [Web3 Firebase 登录，如何](https://moralis.io/create-a-web3-firebase-login-with-metamask/)[在以太坊](https://moralis.io/how-to-create-a-decentralized-website-on-ethereum/)上创建一个分散式网站，如何开始使用 [Solana 智能合同构建](https://moralis.io/solana-smart-contract-building/)，如何将[动态 Web3 认证](https://moralis.io/add-dynamic-web3-authentication-to-a-website/)添加到网站，等等。
 
-另一方面，你可能有兴趣尽快成为全职加密员。在这种情况下，你可能想成为区块链认证，这大大增加了你在 Web3 中找到梦想工作的机会。如果这引起了你的共鸣，考虑报名参加道德学院。你可以选择初级、中级和高级课程。但是，如果你是 crypto 新手，可以从“[区块链&比特币 101](https://academy.moralis.io/courses/blockchain-bitcoin-101) 课程开始。
+另一方面，你可能有兴趣尽快成为全职加密员。在这种情况下，你可能想成为区块链认证，这大大增加了你在 Web3 中找到梦想工作的机会。如果这引起了你的共鸣，考虑报名参加 Moralis 学院。你可以选择初级、中级和高级课程。但是，如果你是 crypto 新手，可以从“[区块链&比特币 101](https://academy.moralis.io/courses/blockchain-bitcoin-101) 课程开始。

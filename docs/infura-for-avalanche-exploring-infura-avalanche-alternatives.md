@@ -59,7 +59,7 @@ Infura 是一个 IaaS 提供商，它使开发人员能够减轻运行完整节�
 
 我们将要讨论的雪崩期权的三个例子是 Moralis、Ankr 和 Bloq。虽然它们都为开发人员提供了雪崩节点，但其中一个非常突出。然而，Moralis 不仅仅是一个节点提供商；它是如此之多。这个终极的 Web3 开发平台改变了我们看待 Web3 编程的方式。因此，我们将稍微仔细地看看 Moralis 提供了什么。
 
-## 道德——最好的雪崩替代品
+## Moralis——最好的雪崩替代品
 
 在某种程度上，Moralis 相当于雪崩替代方案的交叉链 Infura。当然，它提供了节点支持基础设施。然而，Moralis 提供了一种比其他典型的节点提供商或遵循 Infura 领导的 IaaS 平台更全面的 Web3 基础设施。
 
@@ -67,15 +67,15 @@ Moralis 被建成“最终的 Web3 开发平台”；因此，它毫无保留。
 
 ![](img/98c8cde5d399cae45eda6c2cdf366b16.png)
 
-像 Infura 一样，Moralis 也通过 IPFS 整合了分散的数据存储。此外，无论是什么让 Infura 成为以太坊开发者的优秀平台，Moralis 也拥有它。然而，Infura 有一个地方让开发人员失望了——跨链兼容性。然而，与道德，这方面和无缝过渡，从一个链到另一个是从一开始就纳入。跨链互操作性是由 Moralis 内置的。此外，在 Web3 后端基础设施提供商中，Moralis 提供了无与伦比的可扩展性。总而言之，仅跨链互操作性和高水平的可伸缩性就使 Moralis 成为下一代区块链节点提供商，并具有许多其他令人兴奋的功能。
+像 Infura 一样，Moralis 也通过 IPFS 整合了分散的数据存储。此外，无论是什么让 Infura 成为以太坊开发者的优秀平台，Moralis 也拥有它。然而，Infura 有一个地方让开发人员失望了——跨链兼容性。然而，与 Moralis，这方面和无缝过渡，从一个链到另一个是从一开始就纳入。跨链互操作性是由 Moralis 内置的。此外，在 Web3 后端基础设施提供商中，Moralis 提供了无与伦比的可扩展性。总而言之，仅跨链互操作性和高水平的可伸缩性就使 Moralis 成为下一代区块链节点提供商，并具有许多其他令人兴奋的功能。
 
-### 道德的用例
+### Moralis 的用例
 
 Moralis 有一个专门的开发团队，他们不断地为平台的 Web3 堆栈添加内容。这包括新的 API 和其他强大的工具来[创建你自己的令牌](https://moralis.io/how-to-create-your-own-erc-20-token-in-10-minutes/)(可替代和不可替代[NFTs])、NFT 市场、去中心化应用、多链钱包、DeFi 仪表板和许多其他类型的 Web3 项目。通过使用 Moralis 的免费和超快速服务，您可以确保您的 dApp 的低成本和高质量。此外，您可以交付更好的用户体验，并可以将全部精力投入到前端开发中。
 
 无论你接手什么样的 Web3 项目，Moralis 都会为你提供一个健壮的、跨链兼容的、无限可扩展的后端。最棒的是，您可以将它与一行代码集成在一起。
 
-### 道德快速节点
+### Moralis 快速节点
 
 Moralis Speedy Nodes 是 Moralis 的节点提供功能，最早与 Moralis 的" [Enlightenment Update](https://moralis.io/moralis-1-0-released-introducing-the-moralis-enlightenment-update/) "一起提供，使任何人都可以以非凡的速度和可靠性为任何顶级网络运行区块链节点。目前，Moralis 允许您访问以太坊、BSC、多边形、Arbitrum 和雪崩端点。这一特性使得 Moralis 成为你寻找 Infura Avalanche 替代品的最佳选择。
 
@@ -83,9 +83,9 @@ Moralis Speedy Nodes 是 Moralis 的节点提供功能，最早与 Moralis 的" 
 
 另一个值得注意的方面是 Moralis 的隐私和安全政策。它不记录用户请求或 IP 地址，这意味着您的用户受到保护。当寻找 Infura 的雪崩替代品时，一定要查看他们的隐私政策。
 
-### 道德特征
+### Moralis 特征
 
-以下是道德的一些主要特征:
+以下是 Moralis 的一些主要特征:
 
 *   具有 [IPFS 支持](https://docs.moralis.io/moralis-server/files/ipfs)的分散式数据存储。
 *   轻松[用户认证](https://docs.moralis.io/moralis-server/getting-started/quick-start#authentication)。
@@ -120,6 +120,6 @@ Bloq 是雪崩替代物的另一个信息。它通过为 mainnet 和 testnet 提
 
 使用 Moralis 作为您的“雪崩信息”意味着您不必设置和运行自己的节点。最重要的是，你将能够使用 Moralis 的整个工具箱和令人印象深刻的后端基础设施。这允许你通过简单地从 [Moralis 的文档](https://docs.moralis.io/)中复制和粘贴单行代码来获得后端功能。因此，您将能够完全专注于 Web3 项目的前端部分。因此，您将节省时间和金钱，但更重要的是，您将在创纪录的时间内提供更好的 dApps。
 
-此外，Moralis 完全是关于跨链互操作性的，所以当你在 Avalanche T1 上创建应用时，它不会一成不变。相反，您可以轻松地将 Web3 应用程序部署在多个链上。所以，一定要成为许多已经使用这个终极 Web3 开发平台的知名项目(比如 SuperFarm)中的一员。只需创建您的免费道德账户，并开始[建设可怕的雪崩 dApps](https://moralis.io/how-to-build-avalanche-dapps-in-minutes/) 今天！
+此外，Moralis 完全是关于跨链互操作性的，所以当你在 Avalanche T1 上创建应用时，它不会一成不变。相反，您可以轻松地将 Web3 应用程序部署在多个链上。所以，一定要成为许多已经使用这个终极 Web3 开发平台的知名项目(比如 SuperFarm)中的一员。只需创建您的免费 Moralis 账户，并开始[建设可怕的雪崩 dApps](https://moralis.io/how-to-build-avalanche-dapps-in-minutes/) 今天！
 
 ![](img/88bb772ce339970f3bdb24374504b60e.png)**

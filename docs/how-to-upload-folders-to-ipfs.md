@@ -16,15 +16,15 @@
 
 ## 为什么上传文件夹到 IPFS？
 
-正如开始时提到的，今天的许多项目需要存储大量的数据和文件。在这种情况下，将每个文件单独上传到 IPFS 会非常耗时。幸运的是，你可以不费吹灰之力将文件夹上传到 IPFS，尤其是在使用 Moralis 及其平台的时候。此外，当使用道德，你会节省大量的时间和资源。此外，通过一些简单的 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 编码，您可以自动化这个过程。
+正如开始时提到的，今天的许多项目需要存储大量的数据和文件。在这种情况下，将每个文件单独上传到 IPFS 会非常耗时。幸运的是，你可以不费吹灰之力将文件夹上传到 IPFS，尤其是在使用 Moralis 及其平台的时候。此外，当使用 Moralis，你会节省大量的时间和资源。此外，通过一些简单的 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 编码，您可以自动化这个过程。
 
 如果你只需要上传几个文件，那么学习一下 [*如何上传文件到 IPFS*](https://moralis.io/full-guide-how-to-upload-to-ipfs/) *，我们在以前的文章中已经详细介绍过了。*
 
-# 用道德上传文件夹到 IPFS
+# 用 Moralis 上传文件夹到 IPFS
 
 如上所述，我们将致力于向您展示将文件夹上传到 IPFS 是多么容易。此外，为了让事情变得更有趣，我们将进行一个示例项目，我们将上传一个包含图像的文件夹，然后[批量创建 NFT](https://moralis.io/how-to-mint-nfts-full-tutorial-to-minting-an-nft/)。因此，你不仅将学习如何上传文件夹到 IPFS，而且你也能够使用这些信息作为指南[创建 NFT](https://moralis.io/how-to-create-nfts-and-upload-to-opensea/)。此外，如果您打算制作 ERC-1155 NFT，那么本教程将特别有用，因为 ERC-1155 NFT 需要一个统一的 URL 结构。当你学会上传文件夹到 IPFS 时，这很容易实现。
 
-此外，我们将使用 Moralis 及其强大的 [Web3 API](https://docs.moralis.io/moralis-server/web3-sdk/intro) 来尽可能简化流程。如果你还没有道德账户，请确保现在就在[免费注册](https://admin.moralis.io/register)一个。这样的话，你就能跟上每一步的发展。此外，您还将看到 Moralis 如何用单行代码解决单调乏味的后端编码。
+此外，我们将使用 Moralis 及其强大的 [Web3 API](https://docs.moralis.io/moralis-server/web3-sdk/intro) 来尽可能简化流程。如果你还没有 Moralis 账户，请确保现在就在[免费注册](https://admin.moralis.io/register)一个。这样的话，你就能跟上每一步的发展。此外，您还将看到 Moralis 如何用单行代码解决单调乏味的后端编码。
 
 ![](img/42dc2701e5ef0ff88120fe2882dd2ae8.png)
 

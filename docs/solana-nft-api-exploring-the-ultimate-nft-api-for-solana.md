@@ -2,9 +2,9 @@
 
 > 原文：<https://moralis.io/solana-nft-api-exploring-the-ultimate-nft-api-for-solana/>
 
-随着 Solana 生态系统的发展，以及在可编程区块链排行榜上的不断攀升，开发者需要一个权威的 Solana API。幸运的是,[**【NFT】API**](https://moralis.io/nft-api/)**为索拉纳满足了这一需求。因为如果你想一想，如果没有索拉纳·NFT 的 API，最好的 Web3 技术栈会是什么？因此，开发人员可以使用 Moralis 从 Solana 的区块链中为他们的**[**dapp**](https://moralis.io/decentralized-applications-explained-what-are-dapps/)**获取各种数据。此外，tech stack 向为所有区块链项目提供完整解决方案又迈进了一步。在这篇文章中，我们探索道德的索拉纳 NFT API，以及如何使用它来获取 NFT 数据！**
+随着 Solana 生态系统的发展，以及在可编程区块链排行榜上的不断攀升，开发者需要一个权威的 Solana API。幸运的是,[**【NFT】API**](https://moralis.io/nft-api/)**为索拉纳满足了这一需求。因为如果你想一想，如果没有索拉纳·NFT 的 API，最好的 Web3 技术栈会是什么？因此，开发人员可以使用 Moralis 从 Solana 的区块链中为他们的**[**dapp**](https://moralis.io/decentralized-applications-explained-what-are-dapps/)**获取各种数据。此外，tech stack 向为所有区块链项目提供完整解决方案又迈进了一步。在这篇文章中，我们探索 Moralis 的索拉纳 NFT API，以及如何使用它来获取 NFT 数据！**
 
-向前看，你将有机会跟随并创造你自己版本的整洁的索拉纳 NFT dapp。为了构建这个 dapp，我们将使用 [React](https://moralis.io/react-explained-what-is-react/) 和 [Moralis](https://moralis.io/) 。有了 React，我们将覆盖我们所有的 [Web3 前端](https://moralis.io/web3-frontend-everything-you-need-to-learn-about-building-dapp-frontends/)需求。此外，由于 Moralis 的终极索拉纳 NFT API，我们将轻松处理链上数据。尽管如此，如果你不熟悉 Moralis，可以把它看作是加密的" Firebase "。它是最好的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)，使开发者能够立即开始部署杀手级 dapps。感谢 Moralis 的单一工作流程，您可以用简短的代码片段覆盖所有后端需求。此外，Moralis 具有跨链、跨平台的互操作性；因此，它为你提供了许多选择。然而，今天我们将利用其索拉纳 NFT API。因此，请务必[创建您的免费道德账户](https://admin.moralis.io/register)并跟随我们的脚步。
+向前看，你将有机会跟随并创造你自己版本的整洁的索拉纳 NFT dapp。为了构建这个 dapp，我们将使用 [React](https://moralis.io/react-explained-what-is-react/) 和 [Moralis](https://moralis.io/) 。有了 React，我们将覆盖我们所有的 [Web3 前端](https://moralis.io/web3-frontend-everything-you-need-to-learn-about-building-dapp-frontends/)需求。此外，由于 Moralis 的终极索拉纳 NFT API，我们将轻松处理链上数据。尽管如此，如果你不熟悉 Moralis，可以把它看作是加密的" Firebase "。它是最好的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)，使开发者能够立即开始部署杀手级 dapps。感谢 Moralis 的单一工作流程，您可以用简短的代码片段覆盖所有后端需求。此外，Moralis 具有跨链、跨平台的互操作性；因此，它为你提供了许多选择。然而，今天我们将利用其索拉纳 NFT API。因此，请务必[创建您的免费 Moralis 账户](https://admin.moralis.io/register)并跟随我们的脚步。
 
 ![](img/75af51cc17594a6a7a725ad6a0333ddc.png)
 
@@ -42,7 +42,7 @@
 
 ![](img/9ce8fb3f1d7129c252b3293442a927b4.png)
 
-### 初始道德设置
+### 初始 Moralis 设置
 
 初始 Moralis 设置是一个快速而简单的过程，以下是您需要完成的步骤:
 
@@ -166,17 +166,17 @@ setName(nftResult.name);
 
 ![](img/bb86e2c60451a07dc8b0d9db94087426.png)
 
-喜欢视频教程的人，请务必观看下面的视频。在那里，你将有机会看到内部道德专家完成上述项目。
+喜欢视频教程的人，请务必观看下面的视频。在那里，你将有机会看到内部 Moralis 专家完成上述项目。
 
 https://www.youtube.com/watch?v=Ln0GEUsvcFM
 
-### 超越道德的索拉纳 NFT API
+### 超越 Moralis 的索拉纳 NFT API
 
 索拉纳可能不会像以太坊那样去中心化；但是，这是一个值得我们关注的链条。也就是说，你可能愿意和 Moralis 一起进一步探索 Solana 的发展。如果是这样，你应该学习如何用虚拟钱包认证 Solana 用户。此外，一定要探索 [SPL vs ERC-20 代币](https://moralis.io/spl-vs-erc20-tokens-comparing-solana-and-ethereum-tokens/)的比较。后者可能会启发你[创造一个索拉纳令牌](https://moralis.io/how-to-create-a-solana-token-in-5-steps/)。既然如此，为什么不也构建一个 [Solana 令牌仪表板](https://moralis.io/how-to-build-a-solana-token-dashboard/)。
 
 请记住，Moralis 是跨链互操作的。因此，即使你后来决定换到其他连锁店，你也不会被索拉纳缠住。通过稍微调整代码，您将能够将相同的 dapps 部署到其他受支持的区块链。其中包括以太坊和几个 EVM 兼容链([雪崩](https://moralis.io/how-to-build-avalanche-dapps-in-minutes/)、 [BNB 链](https://moralis.io/how-to-create-a-bnb-chain-token-in-5-minutes/)、[多边形](https://moralis.io/how-to-build-polygon-dapps-easily/)等。).Moralis 的单一工作流程使事情尽可能简单明了，无论您决定使用哪条链。它帮助您处理 [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/)、[同步和索引智能合约事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/) ( [索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/))、[存储链外数据](https://moralis.io/how-to-store-off-chain-data-unity-web3-database/)和链内数据。它甚至通过 Moralis 的 [web3uikit](https://moralis.io/web3ui-kit-the-ultimate-web3-user-interface-kit/) 来帮助你的 [Web3 UI](https://moralis.io/web3-ui-how-to-create-a-great-dapp-ui/) 工作。因此，你的前端技能，比如 JavaScript 或 Unity，足以让你成为一名 Web3 开发者 T21。
 
-尽管如此，如果你对每周挑战感兴趣，在那里你可以得到专家的支持，你应该加入道德项目。此外，你还可以通过完成各种挑战来获得一些很酷的 NFT。
+尽管如此，如果你对每周挑战感兴趣，在那里你可以得到专家的支持，你应该加入 Moralis 项目。此外，你还可以通过完成各种挑战来获得一些很酷的 NFT。
 
 ![](img/11d2eab7848fee7b91f827beeaf8550c.png)
 
@@ -184,8 +184,8 @@ https://www.youtube.com/watch?v=Ln0GEUsvcFM
 
 今天，您有机会看到使用 Moralis 来利用索拉纳 NFT API 是多么容易。首先，你得看看我们完成的索拉娜·NFT·戴普的样品。然而，更重要的是，你也有机会跟随我们的领导，建立自己的索拉纳 NFT dapp。因此，您学习了如何完成初始 Moralis 设置并使用 React 创建 dapp 的前端。当然，您还发现了如何使用索拉纳 NFT API 来获取索拉纳 NFTs 的详细信息。尽管如此，如果你有兴趣进一步发展 Solana，我们也给你一些建议。
 
-另一方面，你可能有兴趣在其他链上开发或了解区块链开发的不同方面。如果是这样的话，一定要访问[道德的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德的博客](https://moralis.io/blog/)。一些最新的话题围绕着[上传 Web3 Unity 元数据](https://moralis.io/uploading-web3-unity-metadata/)和 [Unity 资产到 IPFS](https://moralis.io/how-to-upload-unity-assets-to-ipfs/) ， [dapp 开发](https://moralis.io/dapp-development-tutorial-full-guide-to-building-a-dapp/)，创建[密码情感 dapp](https://moralis.io/how-to-create-a-crypto-sentiment-dapp/) ，NFT [在线库存系统](https://moralis.io/create-an-nft-on-chain-inventory-system-for-gaming/)， [Solidity 智能合约](https://moralis.io/what-are-solidity-smart-contracts-full-solidity-tutorial/)，构建[去中心化 Twitter](https://moralis.io/2022-guide-to-building-a-decentralized-twitter/) ，构建[购买游戏内 NFTs](https://moralis.io/build-a-marketplace-to-buy-nfts-in-game/)的市场，以及[EIP 11 这些渠道拥有大量有价值的内容，可以满足您持续的免费加密教育需求。](https://moralis.io/eip-1559-example-what-is-eip-1559/)
+另一方面，你可能有兴趣在其他链上开发或了解区块链开发的不同方面。如果是这样的话，一定要访问[Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 的博客](https://moralis.io/blog/)。一些最新的话题围绕着[上传 Web3 Unity 元数据](https://moralis.io/uploading-web3-unity-metadata/)和 [Unity 资产到 IPFS](https://moralis.io/how-to-upload-unity-assets-to-ipfs/) ， [dapp 开发](https://moralis.io/dapp-development-tutorial-full-guide-to-building-a-dapp/)，创建[密码情感 dapp](https://moralis.io/how-to-create-a-crypto-sentiment-dapp/) ，NFT [在线库存系统](https://moralis.io/create-an-nft-on-chain-inventory-system-for-gaming/)， [Solidity 智能合约](https://moralis.io/what-are-solidity-smart-contracts-full-solidity-tutorial/)，构建[去中心化 Twitter](https://moralis.io/2022-guide-to-building-a-decentralized-twitter/) ，构建[购买游戏内 NFTs](https://moralis.io/build-a-marketplace-to-buy-nfts-in-game/)的市场，以及[EIP 11 这些渠道拥有大量有价值的内容，可以满足您持续的免费加密教育需求。](https://moralis.io/eip-1559-example-what-is-eip-1559/)
 
 ![](img/8814047d68268f4f55e87b3fa278abf0.png)
 
-然而，你可能渴望快速自信地成为一名区块链开发者。如果是这样，你可能要考虑采取更专业的方法。这就是[道德学院](https://academy.moralis.io/)可以帮助你缩小你现在的位置和你想要的位置之间的差距的地方。除了顶级的[区块链发展课程](https://academy.moralis.io/all-courses/)，这个在线学院还为你提供专家导师和个性化的学习路径。尽管如此，这也是你可以在这个行业最先进的社区中找到你的部落的地方。
+然而，你可能渴望快速自信地成为一名区块链开发者。如果是这样，你可能要考虑采取更专业的方法。这就是[Moralis 学院](https://academy.moralis.io/)可以帮助你缩小你现在的位置和你想要的位置之间的差距的地方。除了顶级的[区块链发展课程](https://academy.moralis.io/all-courses/)，这个在线学院还为你提供专家导师和个性化的学习路径。尽管如此，这也是你可以在这个行业最先进的社区中找到你的部落的地方。

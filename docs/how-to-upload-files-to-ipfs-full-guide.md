@@ -18,7 +18,7 @@ const response = await Moralis.EvmApi.ipfs.uploadFolder({
 
 多亏了 Moralis 优秀的 Web3 APIs，无缝上传文件到 IPFS 成为可能。更具体地说，本指南使用 Moralis 的“上传文件夹”端点，通过三个简单的步骤来演示流程:
 
-1.  创建文件并初始化道德
+1.  创建文件并初始化 Moralis
 2.  定义文件数组
 3.  上传文件到 IPFS
 
@@ -40,11 +40,11 @@ IPFS 是“星际文件系统”的缩写。此外，它是一个分布式系统
 
 随着对 IPFS 和系统基础的更深刻理解，是时候探索如何用 Moralis 上传文件到 IPFS 了！
 
-## 用道德上传文件到 IPFS
+## 用 Moralis 上传文件到 IPFS
 
 现在是时候更深入地研究本指南的主要部分，并探索如何上传文件到 IPFS。因此，为了使这个过程尽可能容易理解，本文将演示如何使用 Moralis 存储文件。此外，如前所述，我们将利用 Moralis 的"[上传文件夹](https://docs.moralis.io/reference/uploadfolder)"端点，让您无缝上传文件到 IPFS！虽然我们之前已经查看了这些步骤，但是让我们提醒自己本教程的三步过程:
 
-1.  创建文件并初始化道德
+1.  创建文件并初始化 Moralis
 2.  定义文件数组
 3.  上传文件到 IPFS
 
@@ -70,7 +70,7 @@ async function uploadToIpfs() {
 }
 ```
 
-但是，您需要通过替换“ *MORALIS_API_KEY* ”来将您的 Moralis API 密钥添加到上面的代码片段中。要获得密钥，您需要一个 Moralis 帐户。所以，如果你还没有,[马上和道德家](https://admin.moralis.io/register)签约。创建一个帐户只需要几秒钟，而且完全免费！
+但是，您需要通过替换“ *MORALIS_API_KEY* ”来将您的 Moralis API 密钥添加到上面的代码片段中。要获得密钥，您需要一个 Moralis 帐户。所以，如果你还没有,[马上和 Moralis 家](https://admin.moralis.io/register)签约。创建一个帐户只需要几秒钟，而且完全免费！
 
 然而，一旦您登录并在 Moralis 管理面板上找到自己，您应该能够通过单击左侧的“Account”并导航到“Keys”选项卡来找到 API 密钥，这应该会将您带到下面的页面，在那里您可以找到 Web3 API 密钥:
 
@@ -216,7 +216,7 @@ IPFS 是一个 P2P 存储网络，内容和文件可以通过对等点访问。�
 
 借助 Moralis 的“上传文件夹”终端，可以轻松地将文件上传到 IPFS。事实上，使用这个 Moralis 工具，您只需三个简单的步骤就可以将文件上传到 IPFS:
 
-1.  创建文件并初始化道德
+1.  创建文件并初始化 Moralis
 2.  定义文件数组
 3.  上传文件到 IPFS
 
@@ -226,6 +226,6 @@ IPFS 是一个 P2P 存储网络，内容和文件可以通过对等点访问。�
 
 ![](img/7f021ce5e76099fa3f96a8f96a51096a.png)
 
-另外，如果你想提高你的 Web3 开发熟练程度，请随意报名参加[道德学院](https://academy.moralis.io)。学院为新老开发者提供各种令人兴奋的[区块链课程](https://academy.moralis.io/all-courses)！
+另外，如果你想提高你的 Web3 开发熟练程度，请随意报名参加[Moralis 学院](https://academy.moralis.io)。学院为新老开发者提供各种令人兴奋的[区块链课程](https://academy.moralis.io/all-courses)！
 
 然而，如果你想创建 Web3 项目或者上传文件到 IPFS，[立即注册 Moralis](https://admin.moralis.io/register) ！

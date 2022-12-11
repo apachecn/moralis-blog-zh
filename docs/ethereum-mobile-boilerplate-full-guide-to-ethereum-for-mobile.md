@@ -16,7 +16,7 @@ Moralis 的终极 Web3 开发平台为前端开发人员配备了全栈 [Web3 SD
 
 这个以太坊移动样板基于 [React 本地模板](https://moralis.io/create-mobile-ethereum-dapp-with-react-native-template/)。因此，熟悉 React Native 可能会帮助您更有信心地开始。然而，即使您以前只使用过 React，您也应该很容易上手。除了 Moralis、WalletConnect、 [MetaMask](https://moralis.io/metamask-explained-what-is-metamask/) 和代码编辑器，还有其他有用的开源网站，当你决定超越以太坊移动样板功能时，你可以在那里获得免费的代码模板来进一步加快过程。其中一个网站是[的 OpenZeppelin](https://moralis.io/what-is-openzeppelin-the-ultimate-guide/) 。此外，如果您对创建 web 应用程序感兴趣，我们可以引导您使用 MetaMask 构建 dApps。
 
-尽管如此，如果你还不知道 JavaScript，我们建议你参加道德学院的 [2021 区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)课程。此外，一定要探索由[道德学院](https://academy.moralis.io/)提供的其他优质课程。此外，如果你想在注册课程之前迈出一小步，我们鼓励你看看我们的文章，它告诉你如何在[成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)的最佳途径。
+尽管如此，如果你还不知道 JavaScript，我们建议你参加 Moralis 学院的 [2021 区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)课程。此外，一定要探索由[Moralis 学院](https://academy.moralis.io/)提供的其他优质课程。此外，如果你想在注册课程之前迈出一小步，我们鼓励你看看我们的文章，它告诉你如何在[成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)的最佳途径。
 
 ![](img/dff4cb7e818195bb59422ec208d62a54.png)
 
@@ -125,7 +125,7 @@ Moralis 的终极 Web3 开发平台为前端开发人员配备了全栈 [Web3 SD
 
 为了使用以太坊移动样板，请完成以下步骤:
 
-1.  **登录你的道德利斯账户**–*此时，你可能已经准备好了你的道德利斯账户。所以，只要[登录](https://admin.moralis.io/login)进入你的管理区。然而，如果你还没有创建你的免费 Moralis 账户，请确保现在通过注册免费的[来创建。](https://admin.moralis.io/register)*
+1.  **登录你的 Moralis 利斯账户**–*此时，你可能已经准备好了你的 Moralis 利斯账户。所以，只要[登录](https://admin.moralis.io/login)进入你的管理区。然而，如果你还没有创建你的免费 Moralis 账户，请确保现在通过注册免费的[来创建。](https://admin.moralis.io/register)*
 
 ***创建一个新服务器**–一旦你进入你的 Moralis 管理区(如下图所示)，点击右上角的“+创建一个新服务器”按钮。这将导致一个下拉菜单出现。然后选择最适合您需求的网络类型。例如项目，你可以选择“Testnet 服务器”(查看我们的[以太坊 testnet](https://moralis.io/ethereum-testnet-guide-connect-to-ethereum-testnets/) 指南)；然而，一旦你想要得到你的 dApps 生活，你会想要选择“Mainnet 服务器”选项。*
 
@@ -143,7 +143,7 @@ Moralis 的终极 Web3 开发平台为前端开发人员配备了全栈 [Web3 SD
 
 ![](img/388e4fa1b28e0aa0ba5d85587ef27052.png)
 
-4.  **初始化道德规范**–现在，您需要填充您的”。env”文件和 Moralis 服务器详细信息(应用程序 ID 和服务器 URL ),以获得 Moralis 涵盖的所需后端功能。只需复制并粘贴以上两个详细信息:
+4.  **初始化 Moralis 规范**–现在，您需要填充您的”。env”文件和 Moralis 服务器详细信息(应用程序 ID 和服务器 URL ),以获得 Moralis 涵盖的所需后端功能。只需复制并粘贴以上两个详细信息:
 
 ![](img/e149809ea6e8dba60173aee0d9b3a8ed.png)
 
@@ -167,6 +167,6 @@ https://www.youtube.com/watch?v=jGUY5Hq8tFo
 
 通过这篇文章，您已经了解了终极以太坊移动样板文件为您提供的组件和挂钩。此外，我们还向您展示了如何以简单的方式设置和开始移动 dApp 开发。此外，如果您遵循了我们的步骤，您已经创建了自己的移动 dApp，其中包含所有基本和必要的功能。
 
-我们希望这个示例项目已经激发了你的灵感，并且你已经有了一些关于创建什么的好想法。因此，您将立即使用这个以太坊移动样板并交付独特的移动 dApps。如果你需要额外的灵感或指导，一定要访问[道德的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德的博客](https://moralis.io/blog/)。
+我们希望这个示例项目已经激发了你的灵感，并且你已经有了一些关于创建什么的好想法。因此，您将立即使用这个以太坊移动样板并交付独特的移动 dApps。如果你需要额外的灵感或指导，一定要访问[Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 的博客](https://moralis.io/blog/)。
 
 ![](img/78ef38cb5fcaa8b570cfed1ffee1465d.png)*

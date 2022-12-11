@@ -4,7 +4,7 @@
 
 **如果你熟悉 crypto 和**[**web 3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/)**space，你就知道币安的区块链网络曾经由两个独立的区块链组成:币安链和币安智能链(BSC)。然而，作为一个更大的生态系统的两个组成部分，币安最近发现是时候通过过渡和更名区块链到 BNB 链来强调区块链和 BNB 令牌之间的联系了。此外，重塑其区块链网络也有助于拉开 BNB 生态系统与币安品牌的距离，这一点我们稍后会谈到。为此，我们将在本文中进一步探索 BNB 链，并教你如何用**[**Moralis**](https://moralis.io/)**创建 BNB 链令牌。**
 
-首先，我们将进一步了解币安连锁店，以及 BSC 最近更名为 BNB 连锁店。接下来，我们还将深入快速创建 BNB 链令牌的过程。事实上，在道德的帮助下，我们可以在几分钟内完成。token 开发的可访问性来源于系统提供的后端基础设施以及平台的一些必备开发工具，其中之一就是 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) 。
+首先，我们将进一步了解币安连锁店，以及 BSC 最近更名为 BNB 连锁店。接下来，我们还将深入快速创建 BNB 链令牌的过程。事实上，在 Moralis 的帮助下，我们可以在几分钟内完成。token 开发的可访问性来源于系统提供的后端基础设施以及平台的一些必备开发工具，其中之一就是 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) 。
 
 Moralis 的快速节点服务提供了市场上最快、最可靠的区块链节点。此外，您不仅可以访问 BNB 链的节点，还可以访问其他类似的网络。因此，如果你有兴趣为其他网络开发令牌，请查看我们的指南[如何创建多边形令牌](https://moralis.io/how-to-create-a-polygon-token/)或[如何创建以太坊令牌](https://moralis.io/how-to-create-ethereum-tokens-in-4-steps/)。
 
@@ -68,9 +68,9 @@ https://www.youtube.com/watch?v=h4gQD7R1r94
 
 ### 获取节点并更改元掩码网络
 
-要将 BNB 链的 testnet 添加到您的元掩码钱包中，您首先需要的是一个区块链节点。获得节点的最快和最简单的方法是通过 Moralis。或者更具体地说，快速节点服务。此外，与道德快速节点，这是很容易访问区块链节点从几个不同的网络，如以太坊，BNB 链，多边形等。
+要将 BNB 链的 testnet 添加到您的元掩码钱包中，您首先需要的是一个区块链节点。获得节点的最快和最简单的方法是通过 Moralis。或者更具体地说，快速节点服务。此外，与 Moralis 快速节点，这是很容易访问区块链节点从几个不同的网络，如以太坊，BNB 链，多边形等。
 
-因此，要获得 BNB 链节点，你将需要这个“如何创建 BNB 链令牌”教程，你需要做的第一件事是注册与道德。使用 Moralis 帐户，你可以登录并导航到管理面板最左边的“快速节点”标签。一旦你点击这个标签，一些不同的选择将出现，其中之一将是 BNB 连锁网络。要获取节点，您需要按“端点”按钮，这将为您提供 URL。这些 URL 是 BNB 链节点。
+因此，要获得 BNB 链节点，你将需要这个“如何创建 BNB 链令牌”教程，你需要做的第一件事是注册与 Moralis。使用 Moralis 帐户，你可以登录并导航到管理面板最左边的“快速节点”标签。一旦你点击这个标签，一些不同的选择将出现，其中之一将是 BNB 连锁网络。要获取节点，您需要按“端点”按钮，这将为您提供 URL。这些 URL 是 BNB 链节点。
 
 ![](img/263f65b798b0a83fca469d713c1847e6.png)
 
@@ -199,7 +199,7 @@ contract tokenName is ERC20 {
 4.  编译令牌协定。
 5.  部署合同。
 
-更重要的是，你不需要任何开发经验来完成这个过程！因此，任何人都可以用道德创造一个 BNB 链令牌。
+更重要的是，你不需要任何开发经验来完成这个过程！因此，任何人都可以用 Moralis 创造一个 BNB 链令牌。
 
 然而，如果你想了解更多关于 Web3 开发的知识，一定要看看 [Moralis 博客](https://moralis.io/blog/)。在这里你可以找到关于[如何构建 BSC dapp](https://moralis.io/how-to-build-bsc-dapps-easily/)、区块链开发的[最佳语言](https://moralis.io/best-languages-for-blockchain-development-full-tutorial/)以及[元宇宙](https://moralis.io/what-is-the-metaverse-full-guide/)的精彩文章。此外，您还可以从 Moralis 了解更多其他工具，如 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 、[价格 API](https://moralis.io/introducing-the-moralis-price-api/) 、 [Web3UI 工具包](https://moralis.io/web3ui-kit-the-ultimate-web3-user-interface-kit/)等等！
 

@@ -32,7 +32,7 @@ Blockend 开发一般包括三个主要领域:前端、后端和智能合约开�
 *   CSS–[CSS](https://moralis.io/cascading-style-sheets-what-is-css/)代表“级联样式表”，开发者用它来设计网页或应用程序的样式。这包括添加动画、颜色、改变布局等。，这些都是创造一个更美好的 UX 的要素。更重要的是，CSS 进一步用于创建响应式设计，这意味着创建一个在不同设备上看起来不错的网页或应用程序。此外，CSS 使开发人员更容易创建独特的设计和定制他们的产品。
 *   JavaScript–[JavaScript](https://moralis.io/javascript-explained-what-is-javascript/)是最成熟的编程语言之一，主要用于 web 开发。这种语言提供了一种简单直观的方法来使网站具有交互性，因为这种语言能够改变和更新 HTML 和 CSS 元素。JavaScript 运行在 HTML 和 CSS 之上，这就是为什么它经常被称为 Web2 的第三层。学习 JavaScript 可以让您创建动态更新的内容，并使页面和应用程序更具交互性。
 
-更重要的是，如果你有野心，例如，为其他平台开发游戏，那么 Unity 是值得一试的。Unity 让你可以轻松构建游戏应用，结合[道德元宇宙 SDK](https://moralis.io/metaverse/) ，你将能够，例如，[立刻创建一个元宇宙 dapp](https://moralis.io/how-to-create-a-metaverse-dapp-with-unity/) ！
+更重要的是，如果你有野心，例如，为其他平台开发游戏，那么 Unity 是值得一试的。Unity 让你可以轻松构建游戏应用，结合[Moralis 元宇宙 SDK](https://moralis.io/metaverse/) ，你将能够，例如，[立刻创建一个元宇宙 dapp](https://moralis.io/how-to-create-a-metaverse-dapp-with-unity/) ！
 
 ## 什么是后端开发？
 
@@ -70,7 +70,7 @@ Blockend 开发一般包括三个主要领域:前端、后端和智能合约开�
 
 ![](img/3b4234f32ba86ba8ad800130651d67c8.png)
 
-此外，就像在 Web2 领域一样，建立后端基础设施既困难又耗时。因此，这就是道德进入画面！Moralis 操作系统提供了一个已经开发的、可无限扩展的后端基础设施，让您可以避免“重新发明轮子”。这意味着您可以利用 Moralis 的 SDK 来获取信息，同步智能合同等。，轻松与各种网络通信。此外，该平台进一步提供了一些非凡的工具和集成，如对 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 和[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)的原生支持。
+此外，就像在 Web2 领域一样，建立后端基础设施既困难又耗时。因此，这就是 Moralis 进入画面！Moralis 操作系统提供了一个已经开发的、可无限扩展的后端基础设施，让您可以避免“重新发明轮子”。这意味着您可以利用 Moralis 的 SDK 来获取信息，同步智能合同等。，轻松与各种网络通信。此外，该平台进一步提供了一些非凡的工具和集成，如对 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 和[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)的原生支持。
 
 ![](img/db306ce7723d8abc40c76924737b6ea1.png)
 

@@ -4,7 +4,7 @@
 
 为了快速启动 Web3 项目，开发人员必须有一个简单的方法将 Web3 集成到他们的技术堆栈中。这就是拥有一个有能力的 NodeJS EVM API 的原因。如果你想不费吹灰之力地用 JavaScript 创建杀手级应用程序，这个 Web3 API 是关键！此外，Moralis 简化了使用这个 NodeJS EVM API 的过程，并允许您免费使用它。在这里，我们演示了如何开始使用这个 API，但是首先，我们需要确保你们都知道基础知识。因此，我们必须首先检查什么是 NodeJS 和 EVM。然后，我们简单解释一下什么是 API。最后，我们展示了如何获得 Moralis API 密钥，这将是您使用最终 NodeJS EVM API 的门户！
 
-在介绍了 Moralis 的 NodeJS EVM API 的基础知识之后，我们将演练一下如何使用 NodeJS SDK。因此，请确保您[创建了您的免费道德账户](https://admin.moralis.io/register),以便您可以跟随我们的脚步。此外，利用本文中获得的知识和技能，您将准备好轻松地处理自己的想法。
+在介绍了 Moralis 的 NodeJS EVM API 的基础知识之后，我们将演练一下如何使用 NodeJS SDK。因此，请确保您[创建了您的免费 Moralis 账户](https://admin.moralis.io/register),以便您可以跟随我们的脚步。此外，利用本文中获得的知识和技能，您将准备好轻松地处理自己的想法。
 
 除非你一直生活在岩石下，否则你知道 Moralis 是最终的 Web3 后端平台。它为您提供了三个核心的 Web3 开发特性——[web 3 认证](https://moralis.io/authentication/)、 [Web3 同步](https://moralis.io/syncs/)和 Web3 APIs。此外，Moralis 是跨平台互操作的。因此，你可以使用你喜欢的遗留平台和 Web2 开发技能来加入 Web3 革命。此外，Moralis 支持多区块链，这使您能够使用相同的代码行将 dapps 部署到不同的网络。因此，您将获得更大的影响力，并使您的工作经得起未来的考验。
 
@@ -154,7 +154,7 @@ EvmAddress.create("0x1234567890123456789012345678901234567890")
 
 ![](img/302234bd930e2ddc1e180ab7a0b078a4.png)
 
-## 《埃夫马皮》和《道德》。授权"
+## 《埃夫马皮》和《Moralis》。授权"
 
 *注* *:关于如何使用“EvmAPI”的详细视频教程，请查看下面的视频，从 4:33 开始。*
 
@@ -168,18 +168,18 @@ EvmAddress.create("0x1234567890123456789012345678901234567890")
 
 使用*。托吉森*、*。生*、*。结果*"数据类型使您能够选择返回值的格式。
 
-NodeJS EVM API 还允许您访问 Moralis Web3 Auth API (7:55)。再者，*道德家。Auth* 有两种方法——“*请求消息*和“*验证*”。将来，我们会发布更多关于如何使用 Moralis Web3 Auth API 的信息。然而，这里有一个关于代码的例子:
+NodeJS EVM API 还允许您访问 Moralis Web3 Auth API (7:55)。再者，*Moralis 家。Auth* 有两种方法——“*请求消息*和“*验证*”。将来，我们会发布更多关于如何使用 Moralis Web3 Auth API 的信息。然而，这里有一个关于代码的例子:
 
 ![](img/0f1a23257222eb1ebab716606bc46fbf.png)
 
-最后但同样重要的是，这里有一个视频教程，我们的内部专家将为您提供更多关于道德 EVM API 的详细信息:
+最后但同样重要的是，这里有一个视频教程，我们的内部专家将为您提供更多关于 Moralis EVM API 的详细信息:
 
 https://www.youtube.com/watch?v=RPK37-_ZJFE
 
 ## 探索终极 NodeJS EVM API–总结
 
-在本文中，您有机会了解了道德 EVM API。我们从解释什么是 NodeJS 和 EVM 开始。此外，我们简要介绍了什么是 API。有了基础知识之后，我们把重点放在实际使用这个终极节点 EVM API 上。这就是我们检查您需要开始的步骤的地方。因此，您发现先决条件之一包括获得您的 Moralis Web3 API 密钥。现在你知道后者在你的 Moralis 仪表盘的账户设置中的“钥匙”标签里等着你。随着我们向前推进，你也有机会仔细看看“ *EvmChain* ”、“ *EvmAddress* ”、“ *EvmAPI* ”和“ *Moralis”。Auth* ”。
+在本文中，您有机会了解了 Moralis EVM API。我们从解释什么是 NodeJS 和 EVM 开始。此外，我们简要介绍了什么是 API。有了基础知识之后，我们把重点放在实际使用这个终极节点 EVM API 上。这就是我们检查您需要开始的步骤的地方。因此，您发现先决条件之一包括获得您的 Moralis Web3 API 密钥。现在你知道后者在你的 Moralis 仪表盘的账户设置中的“钥匙”标签里等着你。随着我们向前推进，你也有机会仔细看看“ *EvmChain* ”、“ *EvmAddress* ”、“ *EvmAPI* ”和“ *Moralis”。Auth* ”。
 
-我们希望这篇文章能让你看到，你可以利用你现有的 JavaScript 能力，开始毫不费力地创建 Web3 应用程序。通过使用 Moralis 的 NodeJS EVM API，您可以专注于创建最好的前端，而 Moralis 则满足您的后端需求。如果你已经有了一些很酷的 dapp 想法，一定要卷起袖子开始行动。然而，如果你有兴趣先学习一些优秀的教程，一定要去看看[道德博客](https://moralis.io/blog/)和[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。本质上，这两个途径可以让你免费成为 Web3 开发者。
+我们希望这篇文章能让你看到，你可以利用你现有的 JavaScript 能力，开始毫不费力地创建 Web3 应用程序。通过使用 Moralis 的 NodeJS EVM API，您可以专注于创建最好的前端，而 Moralis 则满足您的后端需求。如果你已经有了一些很酷的 dapp 想法，一定要卷起袖子开始行动。然而，如果你有兴趣先学习一些优秀的教程，一定要去看看[Moralis 博客](https://moralis.io/blog/)和[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。本质上，这两个途径可以让你免费成为 Web3 开发者。
 
-另一方面，你可能有兴趣采取更专业的方法。如果这是你喜欢的，报名参加道德学院可能正是你需要的自信提升。通过成为区块链认证，你将大大提高你的机会去全职加密越早越好。
+另一方面，你可能有兴趣采取更专业的方法。如果这是你喜欢的，报名参加 Moralis 学院可能正是你需要的自信提升。通过成为区块链认证，你将大大提高你的机会去全职加密越早越好。

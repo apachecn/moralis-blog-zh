@@ -4,7 +4,7 @@
 
 你想知道下一代 Unity 开发者是如何上传 Web3 Unity 元数据的吗？如果是这样，你来对地方了。虽然我们现在正处于一个“ [**Web2 和 Web3**](https://moralis.io/what-is-web2-and-web3-explaining-web3/) **”的混合时代，但趋势显然是越来越多地采用 Web3。这包括以各种可能的方式整合分散的元素和功能，以创建真正分散的应用程序。这包括资产以及我们作为开发者如何在我们的** [**Web3 游戏设计**](https://moralis.io/web3-game-design-explaining-the-web3-game-design-process/) **中处理它们。同样，当通过** [**Unity Web3 编程**](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/) **创建游戏时，我们必须在上传 Web3 Unity 元数据时使用非集中式工具。如果我们** [**将 Unity 资产上传到 IPFS**](https://moralis.io/how-to-upload-unity-assets-to-ipfs/) **(一种分散存储协议)，我们就可以做到这一点。如果你对本文开头的问题的回答是肯定的，请继续读下去！**
 
-在这里，我们将重点放在我们的“统一 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 上传”dapp(分散应用程序)。首先，您将看到 dapp 的快速演示。然后，我们将向您展示如何使用我们的 dapp 上传 Web3 Unity 元数据。我们还将指导您完成最初的 [Moralis](https://moralis.io/) 设置过程。后者将是您进入“[上传至 IPFS](https://moralis.io/full-guide-how-to-upload-to-ipfs/) ”功能的门户。此外，为了更深入的理解，我们将带您浏览驱动我们的“上传者”dapp 的代码。现在，如果这是你第一次听说 Moralis，随着我们的继续，你会对它的平台有更多的了解。您将了解是什么让它成为最终的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)，以及它如何帮助您节省高达 87%的开发时间。尽管如此，[现在创建您的免费道德账户](https://admin.moralis.io/register)，因为您将需要它来上传 Web3 Unity 元数据。
+在这里，我们将重点放在我们的“统一 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 上传”dapp(分散应用程序)。首先，您将看到 dapp 的快速演示。然后，我们将向您展示如何使用我们的 dapp 上传 Web3 Unity 元数据。我们还将指导您完成最初的 [Moralis](https://moralis.io/) 设置过程。后者将是您进入“[上传至 IPFS](https://moralis.io/full-guide-how-to-upload-to-ipfs/) ”功能的门户。此外，为了更深入的理解，我们将带您浏览驱动我们的“上传者”dapp 的代码。现在，如果这是你第一次听说 Moralis，随着我们的继续，你会对它的平台有更多的了解。您将了解是什么让它成为最终的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)，以及它如何帮助您节省高达 87%的开发时间。尽管如此，[现在创建您的免费 Moralis 账户](https://admin.moralis.io/register)，因为您将需要它来上传 Web3 Unity 元数据。
 
 ![](img/82a46cd8e06f79ad3231f7c3538acdf4.png)
 
@@ -56,7 +56,7 @@
 
 ## 使用 Moralis 上传 Web3 Unity 元数据
 
-随着我们的发展，我们将向您展示如何设置使用上述 dapp 和上传 Web3 Unity 元数据到 IPFS。同样，这也是我们使用道德的地方。当前 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)的这一顶峰使得前端开发者能够轻松创建杀手级应用。此外，这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”平台消除了 RPC 节点的所有[限制。](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)
+随着我们的发展，我们将向您展示如何设置使用上述 dapp 和上传 Web3 Unity 元数据到 IPFS。同样，这也是我们使用 Moralis 的地方。当前 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)的这一顶峰使得前端开发者能够轻松创建杀手级应用。此外，这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”平台消除了 RPC 节点的所有[限制。](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)
 
 ![](img/f86a5581cefd477574d2cc731d13345b.png)
 
@@ -77,18 +77,18 @@ Moralis 提供了一个单一的工作流程，使区块链编程尽可能简单
 上面的截图向您展示了面板附带的说明。这些包括以下核心步骤:
 
 1.  创建您的新 Moralis 帐户或[登录您现有的帐户](https://admin.moralis.io/login)。
-2.  创造一个道德的 dapp。这是你[创建道德服务器](https://docs.moralis.io/moralis-dapp/getting-started/create-a-moralis-dapp#2.-create-a-moralis-server)的地方。
+2.  创造一个 Moralis 的 dapp。这是你[创建 Moralis 服务器](https://docs.moralis.io/moralis-dapp/getting-started/create-a-moralis-dapp#2.-create-a-moralis-server)的地方。
 3.  将活动服务器的详细信息(服务器 URL 和应用 ID)复制到上面的面板中。
 
 我们决定“牵着你的手”，带你完成上述步骤，让事情尽可能简单明了。
 
-### 道德入门
+### Moralis 入门
 
 如果您还没有这样做，请创建您的免费 Moralis 帐户或使用您的凭据登录您的帐户:
 
 ![](img/501c21c509e637860fa54245cc7e94c0.png)
 
-Moralis 管理区的“服务器”部分将允许您创建一个新的服务器。*如果这不是你第一次参加道德竞技，屏幕上的向导会为你指出正确的方向:*
+Moralis 管理区的“服务器”部分将允许您创建一个新的服务器。*如果这不是你第一次参加 Moralis 竞技，屏幕上的向导会为你指出正确的方向:*
 
 ![](img/590a64be79065fd41cd65f05284af26b.png)
 
@@ -124,7 +124,7 @@ Moralis 管理区的“服务器”部分将允许您创建一个新的服务器
 
 ## 上传 Web3 Unity 元数据–代码演练
 
-我们的 dapp 的功能有两个核心方面:选择一个文件，并将选择的文件上传到 IPFS。我们将看看支持这两个功能的脚本。这样，您将有机会了解我们的 dapp 如何通过原生 Windows 文件浏览器选择 PNG 文件。此外，您可以看到使用 Moralis SDK 的好处。毕竟，正是道德的力量使得上传 Web3 Unity 元数据变得尽可能简单。
+我们的 dapp 的功能有两个核心方面:选择一个文件，并将选择的文件上传到 IPFS。我们将看看支持这两个功能的脚本。这样，您将有机会了解我们的 dapp 如何通过原生 Windows 文件浏览器选择 PNG 文件。此外，您可以看到使用 Moralis SDK 的好处。毕竟，正是 Moralis 的力量使得上传 Web3 Unity 元数据变得尽可能简单。
 
 ### “选择面板”脚本
 
@@ -164,7 +164,7 @@ Moralis 管理区的“服务器”部分将允许您创建一个新的服务器
 List<IpfsFile> resp = await Moralis.GetClient().Web3Api.Storage.UploadFolder(requests);
 ```
 
-看着上面的代码行，你可以看到道德的力量。多亏了它的“UploadFolder”方法，一行代码就把图像上传到了 IPFS。最后，“AppManager”还确保上传文件的元数据被创建(“BuildMetadata”)。然后，它让“SaveToIpfs”上传 Web3 Unity 元数据文件(“.JSON”)到 IPFS。最后但同样重要的是，“AppManager”还通过“ResetUploadButton”函数重置上传按钮。这可以防止用户多次上传相同的文件。如果你更喜欢视频，请务必观看我们的“上传者”dapp 的教程:https://www.youtube.com/watch?v=rVlh2BzjmU4上传 Web3 Unity 元数据-摘要通过阅读本文，您有机会了解如何轻松地将 Web3 Unity 元数据上传到 IPFS。此外，如果你按照上述说明，你现在有我们的“团结 IPFS 上传”dapp 自己的实例。如果是这样，您必须已经完成了初始的 Moralis 设置，这意味着您已经准备好处理一些示例项目。如果你喜欢制作 Web3 游戏，我们推荐你使用我们的 Unity 教程。因此，你可以着手将一个 [Unity 游戏与 Web3 登录](https://moralis.io/connecting-a-unity-game-with-web3-login/)连接起来，学习如何[将一个 Unity 应用程序连接到 Web3 钱包](https://moralis.io/how-to-connect-a-unity-app-to-a-web3-wallet/)，或者甚至构建一个 [Web3 MMORPG](https://moralis.io/build-a-web3-mmorpg-with-unity-in-10-minutes/) 。另一方面，你可能更喜欢使用你的 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) (JS)熟练程度。在这种情况下，你可能想要构建一个优秀的 [2D Web3 游戏](https://moralis.io/how-to-build-a-2d-web3-game-full-guide%ef%bf%bc/)或者关注其他使用 [React](https://moralis.io/react-explained-what-is-react/) 的 dapps。你可以在 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)上获得我们所有的教程和文章。一些最新的话题包括一个 [dapp 开发教程](https://moralis.io/dapp-development-tutorial-full-guide-to-building-a-dapp/)，一个[crypto perspective dapp](https://moralis.io/how-to-create-a-crypto-sentiment-dapp/)， [blockend 开发](https://moralis.io/blockend-development-what-is-it-and-how-to-become-a-blockend-developer/)，如何[用 Phantom wallet 认证 Solana 用户](https://moralis.io/how-to-authenticate-solana-users-with-the-phantom-wallet/)，以及创建一个[链上库存系统](https://moralis.io/create-an-nft-on-chain-inventory-system-for-gaming/)。此外，这两个出口也可以作为您的免费和持续的密码教育。然而，如果你渴望更快更自信地成为一名 Web3 开发者，你应该考虑一种更专业的方法。这正是道德学院所提供的。除了顶尖的[区块链发展课程](https://academy.moralis.io/all-courses/)，你还将获得个性化的学习路径和专家指导。最后但同样重要的是，你也将成为业内最先进、最受欢迎的社区之一的一员。    
+看着上面的代码行，你可以看到 Moralis 的力量。多亏了它的“UploadFolder”方法，一行代码就把图像上传到了 IPFS。最后，“AppManager”还确保上传文件的元数据被创建(“BuildMetadata”)。然后，它让“SaveToIpfs”上传 Web3 Unity 元数据文件(“.JSON”)到 IPFS。最后但同样重要的是，“AppManager”还通过“ResetUploadButton”函数重置上传按钮。这可以防止用户多次上传相同的文件。如果你更喜欢视频，请务必观看我们的“上传者”dapp 的教程:https://www.youtube.com/watch?v=rVlh2BzjmU4 上传 Web3 Unity 元数据-摘要通过阅读本文，您有机会了解如何轻松地将 Web3 Unity 元数据上传到 IPFS。此外，如果你按照上述说明，你现在有我们的“团结 IPFS 上传”dapp 自己的实例。如果是这样，您必须已经完成了初始的 Moralis 设置，这意味着您已经准备好处理一些示例项目。如果你喜欢制作 Web3 游戏，我们推荐你使用我们的 Unity 教程。因此，你可以着手将一个 [Unity 游戏与 Web3 登录](https://moralis.io/connecting-a-unity-game-with-web3-login/)连接起来，学习如何[将一个 Unity 应用程序连接到 Web3 钱包](https://moralis.io/how-to-connect-a-unity-app-to-a-web3-wallet/)，或者甚至构建一个 [Web3 MMORPG](https://moralis.io/build-a-web3-mmorpg-with-unity-in-10-minutes/) 。另一方面，你可能更喜欢使用你的 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) (JS)熟练程度。在这种情况下，你可能想要构建一个优秀的 [2D Web3 游戏](https://moralis.io/how-to-build-a-2d-web3-game-full-guide%ef%bf%bc/)或者关注其他使用 [React](https://moralis.io/react-explained-what-is-react/) 的 dapps。你可以在 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)上获得我们所有的教程和文章。一些最新的话题包括一个 [dapp 开发教程](https://moralis.io/dapp-development-tutorial-full-guide-to-building-a-dapp/)，一个[crypto perspective dapp](https://moralis.io/how-to-create-a-crypto-sentiment-dapp/)， [blockend 开发](https://moralis.io/blockend-development-what-is-it-and-how-to-become-a-blockend-developer/)，如何[用 Phantom wallet 认证 Solana 用户](https://moralis.io/how-to-authenticate-solana-users-with-the-phantom-wallet/)，以及创建一个[链上库存系统](https://moralis.io/create-an-nft-on-chain-inventory-system-for-gaming/)。此外，这两个出口也可以作为您的免费和持续的密码教育。然而，如果你渴望更快更自信地成为一名 Web3 开发者，你应该考虑一种更专业的方法。这正是 Moralis 学院所提供的。除了顶尖的[区块链发展课程](https://academy.moralis.io/all-courses/)，你还将获得个性化的学习路径和专家指导。最后但同样重要的是，你也将成为业内最先进、最受欢迎的社区之一的一员。    
 
 ```js
 

@@ -2,13 +2,13 @@
 
 > 原文：<https://moralis.io/create-nft-on-binance-smart-chain-full-guide/>
 
-由于在以太坊上购买或创建 NFT 的高昂费用，用户和开发者将目光转向了币安智能链(BSC)。通过提供低费用和兼容[**【EVM】**](https://moralis.io/evm-explained-what-is-ethereum-virtual-machine/)**【的方式，使得能够利用 ERC 标准，BSC 获得了超越以太坊的竞争优势。这并不奇怪，BSC 正在为各种各样的 NFT 创作者赢得通往顶端的道路，因为他们希望尽可能地盈利并具有成本效益。因此，任何想要深入研究** [**NFT 令牌开发**](https://moralis.io/nft-token-development-the-ultimate-guide/) **的人都应该学习如何用道德来创建币安智能链上的 NFT。Moralis 的 ultimate**[**web 3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/)**平台提供了对币安智能链的全面支持，使得在 BSC 上创建 NFT 的过程极其简单。因此，这篇“在币安智能链上创建 NFTs 完整指南”文章对于那些想要探索创建 BSC NFTs 任务的人来说将是一个极好的起点。**
+由于在以太坊上购买或创建 NFT 的高昂费用，用户和开发者将目光转向了币安智能链(BSC)。通过提供低费用和兼容[**【EVM】**](https://moralis.io/evm-explained-what-is-ethereum-virtual-machine/)**【的方式，使得能够利用 ERC 标准，BSC 获得了超越以太坊的竞争优势。这并不奇怪，BSC 正在为各种各样的 NFT 创作者赢得通往顶端的道路，因为他们希望尽可能地盈利并具有成本效益。因此，任何想要深入研究** [**NFT 令牌开发**](https://moralis.io/nft-token-development-the-ultimate-guide/) **的人都应该学习如何用 Moralis 来创建币安智能链上的 NFT。Moralis 的 ultimate**[**web 3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/)**平台提供了对币安智能链的全面支持，使得在 BSC 上创建 NFT 的过程极其简单。因此，这篇“在币安智能链上创建 NFTs 完整指南”文章对于那些想要探索创建 BSC NFTs 任务的人来说将是一个极好的起点。**
 
-知道如何使用 Moralis 创建币安智能链 NFTs，无论是对您自己的项目还是对您想涉足加密领域的客户，都将是非常有益的。幸运的是，在币安智能链上创建 NFT 比大多数初学者想象的要简单得多。如今，您已经有了优秀的工具，可以在几分钟内启动 NFTs(假设您已经准备好了数字文件[NFTs])。然而，真正让事情变得尽可能简单的工具是 [Moralis](https://moralis.io/) ，也被称为“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”。这个终极的 Web3 开发平台是完全跨链互操作的，这意味着您在 BSC 上完成的所有开发项目，包括 BSC NFTs，都可以很容易地部署在其他兼容 [EVM](https://moralis.io/evm-explained-what-is-ethereum-virtual-machine/) 的区块链上。因此，你将学习如何使用道德在币安智能链上创建 NFT。
+知道如何使用 Moralis 创建币安智能链 NFTs，无论是对您自己的项目还是对您想涉足加密领域的客户，都将是非常有益的。幸运的是，在币安智能链上创建 NFT 比大多数初学者想象的要简单得多。如今，您已经有了优秀的工具，可以在几分钟内启动 NFTs(假设您已经准备好了数字文件[NFTs])。然而，真正让事情变得尽可能简单的工具是 [Moralis](https://moralis.io/) ，也被称为“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”。这个终极的 Web3 开发平台是完全跨链互操作的，这意味着您在 BSC 上完成的所有开发项目，包括 BSC NFTs，都可以很容易地部署在其他兼容 [EVM](https://moralis.io/evm-explained-what-is-ethereum-virtual-machine/) 的区块链上。因此，你将学习如何使用 Moralis 在币安智能链上创建 NFT。
 
 ![](img/23f7c13533e97744a1a176abe3f20b6f.png)
 
-## 用道德创造币安智能链上的 NFT
+## 用 Moralis 创造币安智能链上的 NFT
 
 如前所述，Moralis 是开发者为开发者打造的终极 Web3 开发平台。此外，它为大多数著名的领先区块链提供全面支持。此外，你可以访问 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) ，包括它的[终极 NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 。后者使您能够轻松地将 BSC NFTs 整合到独特的[分散式应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/) (dApps)中。总而言之，就 Web3 开发而言，在与 Moralis 合作时，天空是唯一的限制。但是，我们今天不会创建 dApps 相反，我们将通过一个简单的示例项目向您展示如何在币安智能链上创建 NFT。
 
@@ -24,7 +24,7 @@
 
 ## 创建金融智能链 nfts–示例项目
 
-我们将使用一个公开可用的图像文件，并将其转换成几个 BSC NFTs(它们将代表剑)，这可能会进一步用于 [NFT 游戏开发](https://moralis.io/nft-game-development-how-to-build-an-nft-game-app-in-minutes/)。然而，在我们继续之前，请记住，为了这个示例项目的目的，我们将在 BSC 的 testnet 上部署 NFTs。我们建议你也这样做，直到你学会如何正确地在币安智能链上创建 NFT。然而，即使这样，在 BSC 的 mainnet 上创建 NFT 之前，首先在 testnet 上部署 NFT 以确保一切正常可能更明智。也就是说，让我们创建一些 BSC NFTs，好吗？如前所述，我们将通过创建一个道德服务器来开始我们的探索。
+我们将使用一个公开可用的图像文件，并将其转换成几个 BSC NFTs(它们将代表剑)，这可能会进一步用于 [NFT 游戏开发](https://moralis.io/nft-game-development-how-to-build-an-nft-game-app-in-minutes/)。然而，在我们继续之前，请记住，为了这个示例项目的目的，我们将在 BSC 的 testnet 上部署 NFTs。我们建议你也这样做，直到你学会如何正确地在币安智能链上创建 NFT。然而，即使这样，在 BSC 的 mainnet 上创建 NFT 之前，首先在 testnet 上部署 NFT 以确保一切正常可能更明智。也就是说，让我们创建一些 BSC NFTs，好吗？如前所述，我们将通过创建一个 Moralis 服务器来开始我们的探索。
 
 ![](img/da75f4a86e2667674626f9d4f8137811.png)
 
@@ -32,7 +32,7 @@
 
 为了获得 Moralis 的完整后端功能，您需要创建一个 Moralis 服务器。通过创建服务器，您将获得对其数据库的访问权限以及添加云功能的选项，我们将使用这两者来创建币安智能链 NFTs。因此，按照以下步骤完成初始 Moralis 设置:
 
-1.  [**创建一个免费的 Moralis 账户**](https://admin.moralis.io/register)——只需点击左边的链接，然后输入您的电子邮件地址并创建您的密码。此外，不要忘记确认您的帐户-您需要单击将发送给您的确认电子邮件中的确认链接。然而，如果你已经创建了你的道德账户，只需[登录](https://admin.moralis.io/login)。
+1.  [**创建一个免费的 Moralis 账户**](https://admin.moralis.io/register)——只需点击左边的链接，然后输入您的电子邮件地址并创建您的密码。此外，不要忘记确认您的帐户-您需要单击将发送给您的确认电子邮件中的确认链接。然而，如果你已经创建了你的 Moralis 账户，只需[登录](https://admin.moralis.io/login)。
 
 2.  [**创建一个 Moralis 服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)–登录到您的 Moralis 管理区域后，导航到“服务器”选项卡(见下图)。在那里，单击右上角的“+创建新服务器”按钮。接下来，从下拉菜单中选择一个网络选项。出于示例项目的目的，我们建议选择“Testnet 服务器”选项。*然而，当您准备好将您的 NFTs 部署到任何 mainnet 时，您将需要使用“Mainnet 服务器”选项。*
 
@@ -62,7 +62,7 @@
 
 ![](img/cc3efc68e0e4d149a4877225b2aa9984.png)
 
-NFT 的 URIs 提供了它们的元数据，这些元数据以 JSON 文件的形式存储。这意味着我们需要在某个地方托管我们想要转换为 BSC NFTs(或任何其他链上的 NFT)的文件，以便获得它们的链接(URIs)。这就是道德家让我们变得简单的地方。因此，让我们来看看如何使用 Moralis 仪表板(数据库)。
+NFT 的 URIs 提供了它们的元数据，这些元数据以 JSON 文件的形式存储。这意味着我们需要在某个地方托管我们想要转换为 BSC NFTs(或任何其他链上的 NFT)的文件，以便获得它们的链接(URIs)。这就是 Moralis 家让我们变得简单的地方。因此，让我们来看看如何使用 Moralis 仪表板(数据库)。
 
 ### 为 BSC NFTs 元数据使用 Moralis 仪表板
 
@@ -110,11 +110,11 @@ NFT 的 URIs 提供了它们的元数据，这些元数据以 JSON 文件的形�
 
 ![](img/9a0c9128e58870d9f9ef25637d9e9087.png)
 
-#### 道德快速节点
+#### Moralis 快速节点
 
-现在，您已经将 URI 插入到“构造函数”中，您几乎已经准备好部署您的契约，并最终创建您的 BSC NFTs。但是，您首先需要使用一个 BSC 节点。幸运的是，道德又一次支持了你。通过使用 Moralis Speedy Nodes，只需点击一个按钮，就可以将任何支持的网络添加到元掩码中。在我们的例子中，您需要为 BSC 的 testnet 这样做:
+现在，您已经将 URI 插入到“构造函数”中，您几乎已经准备好部署您的契约，并最终创建您的 BSC NFTs。但是，您首先需要使用一个 BSC 节点。幸运的是，Moralis 又一次支持了你。通过使用 Moralis Speedy Nodes，只需点击一个按钮，就可以将任何支持的网络添加到元掩码中。在我们的例子中，您需要为 BSC 的 testnet 这样做:
 
-1.  进入你的道德管理区的“快速节点”标签:
+1.  进入你的 Moralis 管理区的“快速节点”标签:
 
 ![](img/3a5f343eee92632cc55eb842903d58c1.png)
 
@@ -150,6 +150,6 @@ https://www.youtube.com/watch?v=02VnfTIomn8
 
 将创建 NFT 的过程分成多个步骤后，看起来可能需要做很多工作；然而，正如你在上面的视频中看到的，你可以在大约 20 分钟内轻松完成所有这些。此外，通过完成上面的步骤，您现在意识到在使用 Moralis 时创建 NFT 只需要最少的编码。多亏了 Moralis 的 SDK，你可以通过复制和粘贴代码片段来完成大部分任务。此外，通过使用 OpenZeppelin 提供的智能合同模板，您可以在没有 Solidity 专业知识的情况下工作。
 
-事实上， [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 的熟练程度和使用元掩码的能力是你用 Moralis 创建各种各样的区块链项目和非凡的 dApps 所需要的。然而，如果你还不知道 JavaScript，我们建议你参加道德学院的 [2021 区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)课程。此外，你可能想看看[道德学院](https://academy.moralis.io/)的其他高价值课程，以帮助你尽早成为全职加密员。另一方面，你可以在 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)上获得大量免费的高质量内容。这包括各种加密领域术语和概念的简单解释以及许多示例项目。例如，您可以学习[使用共价 API](https://moralis.io/how-to-build-with-the-covalent-api/) 构建、[同步和索引智能合约事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/)、[构建跨链 dApp](https://moralis.io/how-to-build-cross-chain-dapps/)、如何[托管 dApp](https://moralis.io/how-to-host-a-dapp-dapp-hosting-explained/) 、[构建去中心化消息应用](https://moralis.io/build-a-decentralized-messaging-app-in-5-steps/)、[创建 OpenSea 克隆](https://moralis.io/create-an-opensea-clone-build-an-nft-marketplace-like-opensea/)，等等。
+事实上， [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 的熟练程度和使用元掩码的能力是你用 Moralis 创建各种各样的区块链项目和非凡的 dApps 所需要的。然而，如果你还不知道 JavaScript，我们建议你参加 Moralis 学院的 [2021 区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)课程。此外，你可能想看看[Moralis 学院](https://academy.moralis.io/)的其他高价值课程，以帮助你尽早成为全职加密员。另一方面，你可以在 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)上获得大量免费的高质量内容。这包括各种加密领域术语和概念的简单解释以及许多示例项目。例如，您可以学习[使用共价 API](https://moralis.io/how-to-build-with-the-covalent-api/) 构建、[同步和索引智能合约事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/)、[构建跨链 dApp](https://moralis.io/how-to-build-cross-chain-dapps/)、如何[托管 dApp](https://moralis.io/how-to-host-a-dapp-dapp-hosting-explained/) 、[构建去中心化消息应用](https://moralis.io/build-a-decentralized-messaging-app-in-5-steps/)、[创建 OpenSea 克隆](https://moralis.io/create-an-opensea-clone-build-an-nft-marketplace-like-opensea/)，等等。
 
 ![](img/902dea3aefb0bd922a3861e524fdd56e.png)

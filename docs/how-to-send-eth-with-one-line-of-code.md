@@ -6,7 +6,7 @@
 
 Moralis 的力量使开发人员只需一行代码就能转移 ETH 资产，这主要是由于已经开发的后端基础设施以及 [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) (软件开发工具包)。由于用户可以访问完全托管的基础设施，因此有可能大大减少各种 dApps 的开发时间。
 
-此外，这些平台提供了各种开发工具，供您在整个开发过程中使用。几个例子是[道德 NFT API](https://moralis.io/announcing-the-moralis-nft-api/) 、[价格 API](https://moralis.io/introducing-the-moralis-price-api/) 、跨链兼容性，以及对 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 的本地支持。此外，Moralis 的博客每天都提供新的文章供你阅读。例如，有关于如何建立一个加密钱包的指南和关于 DuckDAO Moralis 合作的信息。
+此外，这些平台提供了各种开发工具，供您在整个开发过程中使用。几个例子是[Moralis NFT API](https://moralis.io/announcing-the-moralis-nft-api/) 、[价格 API](https://moralis.io/introducing-the-moralis-price-api/) 、跨链兼容性，以及对 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 的本地支持。此外，Moralis 的博客每天都提供新的文章供你阅读。例如，有关于如何建立一个加密钱包的指南和关于 DuckDAO Moralis 合作的信息。
 
 所以，马上注册 Moralis，我们可以通过仔细研究如何用一行简单的代码发送 ETH 来开始！
 

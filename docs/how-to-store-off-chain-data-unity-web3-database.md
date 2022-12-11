@@ -4,7 +4,7 @@
 
 创建[**Unity web 3**](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/)**游戏时，能够处理链上和链下数据是至关重要的。幸运的是，终极的** [**Web3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) **后端平台、**[**Moralis**](https://moralis.io/)**，为那些想知道“如何存储离线数据”的人提供了一个极好的解决方案。此外，这个“**[**Firebase for crypto**](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/)**”平台使您可以将链外和链内数据整齐地索引到一个地方。当您** [**创建您的免费 Moralis 账户**](https://admin.moralis.io/register) **并启动 Moralis 服务器时，您将自动访问您的 Moralis 仪表盘。后者作为一个数据库，满足您所有的 Web3 开发需求。这也是当你想将** [**索引到【区块链】**](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/) **时要使用的工具。结合 Moralis 的"同步"功能，您可以轻松地** [**同步和索引智能合约事件**](https://moralis.io/sync-and-index-smart-contract-events-full-guide/) **。然而，在本文中，我们将关注如何存储离线数据。**
 
-在这里，我们将承担一个 Unity 示例项目。我们将向您展示如何将 Unity 连接到 Moralis Web3 数据库。此外，我们还将介绍如何存储离线数据以及如何从数据库中检索这些数据。此外，我们在这里寻求的一个重要部分将是最初的道德设置。后者是访问 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 和[元宇宙的 SDK](https://moralis.io/metaverse/) 的关键。有了这个部分，我们可以开始使用 [Moralis 的 Web3 API](https://docs.moralis.io/moralis-server/web3-sdk/intro) 创建各种脚本。因此，我们可以从 [Moralis 的文档](https://docs.moralis.io/)中复制简短的代码片段，并将其投入使用。此外，如果这是你第一次使用 Moralis 的元宇宙 SDK 和 Unity Web3，请务必密切关注即将到来的第一部分。另一方面，如果你熟悉 SDK 和 Unity，可以直接跳到关于如何存储外链数据的部分。
+在这里，我们将承担一个 Unity 示例项目。我们将向您展示如何将 Unity 连接到 Moralis Web3 数据库。此外，我们还将介绍如何存储离线数据以及如何从数据库中检索这些数据。此外，我们在这里寻求的一个重要部分将是最初的 Moralis 设置。后者是访问 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 和[元宇宙的 SDK](https://moralis.io/metaverse/) 的关键。有了这个部分，我们可以开始使用 [Moralis 的 Web3 API](https://docs.moralis.io/moralis-server/web3-sdk/intro) 创建各种脚本。因此，我们可以从 [Moralis 的文档](https://docs.moralis.io/)中复制简短的代码片段，并将其投入使用。此外，如果这是你第一次使用 Moralis 的元宇宙 SDK 和 Unity Web3，请务必密切关注即将到来的第一部分。另一方面，如果你熟悉 SDK 和 Unity，可以直接跳到关于如何存储外链数据的部分。
 
 ![](img/4ac5cececce12167e5cb302516d19622.png)
 
@@ -18,13 +18,13 @@
 
 ![](img/5d165f60de9ee95496ddab66e3eb8080.png)
 
-### 道德——超越 Unity Web3 开发的关键
+### Moralis——超越 Unity Web3 开发的关键
 
-当然，道德是 Unity Web3 开发的关键；然而，它是如此之多。这是当前 Web3 技术的巅峰之作。它使得精通 JavaScript 的开发人员能够无缝过渡到区块链领域。这也使得 Moralis 成为开发[去中心化应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/) (dapps)的终极工具。其广泛的 Web3 API，包括[以太坊 API](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) 和 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) ，使你能够将最大的注意力集中在前端。因此，你可以花更多的时间和资源来创造一个非凡的 Web3 UI。平均而言，Moralis 帮助 dapp 创建者节省了 87%的开发时间。因此，您可以更快地部署产品，也可以更快地收到用户的反馈。反过来，这给你一个无与伦比的优势。
+当然，Moralis 是 Unity Web3 开发的关键；然而，它是如此之多。这是当前 Web3 技术的巅峰之作。它使得精通 JavaScript 的开发人员能够无缝过渡到区块链领域。这也使得 Moralis 成为开发[去中心化应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/) (dapps)的终极工具。其广泛的 Web3 API，包括[以太坊 API](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) 和 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) ，使你能够将最大的注意力集中在前端。因此，你可以花更多的时间和资源来创造一个非凡的 Web3 UI。平均而言，Moralis 帮助 dapp 创建者节省了 87%的开发时间。因此，您可以更快地部署产品，也可以更快地收到用户的反馈。反过来，这给你一个无与伦比的优势。
 
 ![](img/55e74f17a8715baf624fa04389358ed4.png)
 
-此外，Moralis 完全是关于跨链互操作性的。这意味着您可以使用相同的代码在所有支持的区块链上部署 dapps。因此，你获得了更广泛的影响，并且你也通过不被任何特定的链所束缚而使你的工作经得起未来的考验。当然，目前来看，[以太坊](https://moralis.io/full-guide-what-is-ethereum/)仍然是可编程区块链中的“王者”，但是谁知道未来会发生什么。已经有几个著名的替代品显示出令人印象深刻的牵引力。现在，他们中的确有许多人(如[雪崩](https://moralis.io/how-to-connect-to-avalanche-nodes/)、[多边形](https://moralis.io/how-to-connect-to-polygon-nodes/)、 [BNB 链](https://moralis.io/how-to-create-a-bnb-chain-token-in-5-minutes/)等。)是否与 EMV 兼容。然而，以太坊的未来目前看起来相当稳固。尽管如此，有了道德，你可以解决这个蓬勃发展的行业的所有利基。从 [NFT 市场](https://moralis.io/how-to-launch-an-nft-marketplace/)到 [DeFi](https://moralis.io/how-to-create-a-defi-dashboard-in-5-steps/) 交易所，道德是你的后盾(完)。所以，如果你还没有创建你的免费道德账户，现在就创建吧。我们前进的时候你会需要它的。
+此外，Moralis 完全是关于跨链互操作性的。这意味着您可以使用相同的代码在所有支持的区块链上部署 dapps。因此，你获得了更广泛的影响，并且你也通过不被任何特定的链所束缚而使你的工作经得起未来的考验。当然，目前来看，[以太坊](https://moralis.io/full-guide-what-is-ethereum/)仍然是可编程区块链中的“王者”，但是谁知道未来会发生什么。已经有几个著名的替代品显示出令人印象深刻的牵引力。现在，他们中的确有许多人(如[雪崩](https://moralis.io/how-to-connect-to-avalanche-nodes/)、[多边形](https://moralis.io/how-to-connect-to-polygon-nodes/)、 [BNB 链](https://moralis.io/how-to-create-a-bnb-chain-token-in-5-minutes/)等。)是否与 EMV 兼容。然而，以太坊的未来目前看起来相当稳固。尽管如此，有了 Moralis，你可以解决这个蓬勃发展的行业的所有利基。从 [NFT 市场](https://moralis.io/how-to-launch-an-nft-marketplace/)到 [DeFi](https://moralis.io/how-to-create-a-defi-dashboard-in-5-steps/) 交易所，Moralis 是你的后盾(完)。所以，如果你还没有创建你的免费 Moralis 账户，现在就创建吧。我们前进的时候你会需要它的。
 
 ## 如何存储链外数据–初始设置
 
@@ -40,13 +40,13 @@
 
 ### 连接到您的 Web3 数据库
 
-从层次中选择“道德设置”预设。然后，你可以在右边看到这个预设的细节。如果您将注意力集中在“Moralis 控制器(脚本)”上，您会注意到两个输入字段询问您的 Moralis 服务器的详细信息:
+从层次中选择“Moralis 设置”预设。然后，你可以在右边看到这个预设的细节。如果您将注意力集中在“Moralis 控制器(脚本)”上，您会注意到两个输入字段询问您的 Moralis 服务器的详细信息:
 
 ![](img/7d44c3fdad4904f66e5d5d8be6322edf.png)
 
 查看上面的图片，您可以看到您需要您的 Moralis 服务器 URL 和应用程序 ID。这意味着是时候创建自己的 Moralis 服务器并复制所需的细节了。
 
-#### 初始道德设置
+#### 初始 Moralis 设置
 
 当您想要使用 Moralis SDK 时，需要执行以下步骤。所以，无论你是做 Web3 游戏还是其他 dapps，这都是你的起点。因此，以下是您需要完成的步骤:
 
@@ -108,7 +108,7 @@
 
 ![](img/69d034771fc8638faaa18a610cf37f09.png)
 
-在“创建敌人”面板中(如上所示)，用户可以命名他们想要创建的敌人，然后点击“创建”按钮确认他们的行动。此外，新创造的敌人也储存在我们的道德数据库。实际上，你可以在下面的截图中看到我们数据库中的用户名和敌人索引:
+在“创建敌人”面板中(如上所示)，用户可以命名他们想要创建的敌人，然后点击“创建”按钮确认他们的行动。此外，新创造的敌人也储存在我们的 Moralis 数据库。实际上，你可以在下面的截图中看到我们数据库中的用户名和敌人索引:
 
 *   **用户名索引:**
 
@@ -134,6 +134,6 @@ https://www.youtube.com/watch?v=ypbXe91CTkA
 
 即使你是一个 Web3 Unity 的完全初学者，你也能够了解入门所需的一切。您现在知道如何完成 Unity 和 Moralis 的初始设置，以及如何访问您的 Moralis 数据库。此外，您还知道如何使用 Moralis 的 SDK 存储链外数据。如果你喜欢这个示例项目，我们建议你看看我们的其他 Unity Web3 任务。您可以在“Unity Web3 编程简化版”部分找到链接。
 
-然而，如果你有兴趣探索区块链发展的其他方面，一定要使用[道德博客](https://moralis.io/blog/)和[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。这两个渠道都提供了各种加密术语的简明解释和无数的教程。此外，它们可以为你的免费网络教育打下坚实的基础。此外，一些最新的主题教你[如何减少 Solidity gas 成本](https://moralis.io/how-to-reduce-solidity-gas-costs-full-guide/)使用 [gas 优化 Solidity](https://moralis.io/gas-optimizations-in-solidity-top-tips/) ，[如何创建以太坊 NFT](https://moralis.io/how-to-create-an-ethereum-nft-full-guide/) ，[如何创建 2D Web3 游戏](https://moralis.io/how-to-build-a-2d-web3-game-full-guide%ef%bf%bc/)，如何创建 [Web3 音乐平台](https://moralis.io/web3-music-platform-create-a-web3-music-streaming-service/)，等等。
+然而，如果你有兴趣探索区块链发展的其他方面，一定要使用[Moralis 博客](https://moralis.io/blog/)和[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。这两个渠道都提供了各种加密术语的简明解释和无数的教程。此外，它们可以为你的免费网络教育打下坚实的基础。此外，一些最新的主题教你[如何减少 Solidity gas 成本](https://moralis.io/how-to-reduce-solidity-gas-costs-full-guide/)使用 [gas 优化 Solidity](https://moralis.io/gas-optimizations-in-solidity-top-tips/) ，[如何创建以太坊 NFT](https://moralis.io/how-to-create-an-ethereum-nft-full-guide/) ，[如何创建 2D Web3 游戏](https://moralis.io/how-to-build-a-2d-web3-game-full-guide%ef%bf%bc/)，如何创建 [Web3 音乐平台](https://moralis.io/web3-music-platform-create-a-web3-music-streaming-service/)，等等。
 
-尽管如此，如果你渴望更自信地进入 Web3，你可能需要采取更专业的方法。因此，你应该考虑报名参加[道德学院](https://academy.moralis.io/)。除了获得高质量的[课程](https://academy.moralis.io/all-courses)，你还将获得个性化的学习路径，成为最不可思议的社区之一的成员，并获得专家指导。有了这些宝贵的资源，你很快就会成为一名 Web3 开发者。
+尽管如此，如果你渴望更自信地进入 Web3，你可能需要采取更专业的方法。因此，你应该考虑报名参加[Moralis 学院](https://academy.moralis.io/)。除了获得高质量的[课程](https://academy.moralis.io/all-courses)，你还将获得个性化的学习路径，成为最不可思议的社区之一的成员，并获得专家指导。有了这些宝贵的资源，你很快就会成为一名 Web3 开发者。

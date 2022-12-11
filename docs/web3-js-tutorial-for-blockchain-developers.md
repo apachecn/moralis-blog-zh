@@ -7,7 +7,7 @@
 此外，“*区块链开发者 Web3 JS 教程*”部分说明了如何构建 dapp 来获取和显示指定 [Web3 钱包](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/)的本机令牌、ERC-20 令牌和 NFT 余额。此外，为了使过程简单明了，本文将教程分为三个步骤:
 
 1.  创建 NodeJS dapp、安装 Moralis 和设置 Express 服务器
-2.  整合道德服务
+2.  整合 Moralis 服务
 3.  读取区块链数据
 
 如果上面的步骤看起来很有趣，请跟随我们处理这个 Web3 JS 教程，并向您展示如何快速构建 dapp！
@@ -22,7 +22,7 @@
 
 ![Web3 JS Computer connecting to hardware elements.](img/d11426918c3781e56767cdad1684c758.png)
 
-另一方面，如果您对开发领域完全陌生，开始学习 JS 会非常有益。知道如何使用 JS 为任何开发工作提供了良好的基础，并且是开始使用 Web3 的好方法！如果这听起来很有趣，我们强烈推荐报名参加[道德学院](https://academy.moralis.io)。该学院为新的和更有经验的开发人员提供了一系列优秀的区块链课程。例如，看看下面的 JS 课程来启动你的 Web3 之旅:“ [JavaScript 编程 101](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers) ”。
+另一方面，如果您对开发领域完全陌生，开始学习 JS 会非常有益。知道如何使用 JS 为任何开发工作提供了良好的基础，并且是开始使用 Web3 的好方法！如果这听起来很有趣，我们强烈推荐报名参加[Moralis 学院](https://academy.moralis.io)。该学院为新的和更有经验的开发人员提供了一系列优秀的区块链课程。例如，看看下面的 JS 课程来启动你的 Web3 之旅:“ [JavaScript 编程 101](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers) ”。
 
 此外，凭借 JS 的熟练程度，您可以将您的编程语言知识与 Moralis 的优秀开发工具(如各种[web 3 API](https://moralis.io/web3-apis-exploring-the-top-5-blockchain-apis/))结合起来，创建复杂的区块链项目。例如，通过 Moralis 的 [Web3 Streams API](https://moralis.io/streams/) ，您可以使用 webhooks 轻松地将区块链数据传输到项目的后端。
 
@@ -73,7 +73,7 @@ JS 通常被称为“web 的第三层”,因为这种语言可以更新 CSS 和 
 以下部分探讨了本教程的核心部分，向您展示了如何从头开始创建自己的 dapp，为了便于理解，它分为以下三个步骤:
 
 1.  创建 NodeJS dapp、安装 Moralis 和设置 Express 服务器
-2.  整合道德服务
+2.  整合 Moralis 服务
 3.  读取区块链数据
 
 ![](img/5c52daf3f6893b8d3b6ece3f68cf113a.png)
@@ -149,7 +149,7 @@ npm run start
 
 ### 步骤 2:集成 Moralis 的服务
 
-现在你有了一个标准的“你好，世界！”项目在你的处置，是时候添加道德到你的 dapp。为此，您首先需要的是您的 Moralis Web3 API 密钥。您可以通过登录 Moralis 并点击管理面板左侧的“Web3 APIs”选项卡找到密钥:
+现在你有了一个标准的“你好，世界！”项目在你的处置，是时候添加 Moralis 到你的 dapp。为此，您首先需要的是您的 Moralis Web3 API 密钥。您可以通过登录 Moralis 并点击管理面板左侧的“Web3 APIs”选项卡找到密钥:
 
 ![](img/96dfe471abad63f6e5a9e14ec6f67628.png)
 
@@ -340,12 +340,12 @@ startServer()
 
 ## 摘要–面向开发人员的 Web3 JS 教程
 
-在这个 Web3 JavaScript 教程中，您学习了如何创建一个简单的 JS dapp，它可以查询链上的数据，比如本地令牌、ERC-20 令牌和特定钱包的 NFT 余额。此外，由于道德的可访问性，我们能够将这个 Web3 JS 教程分解为以下三个步骤:
+在这个 Web3 JavaScript 教程中，您学习了如何创建一个简单的 JS dapp，它可以查询链上的数据，比如本地令牌、ERC-20 令牌和特定钱包的 NFT 余额。此外，由于 Moralis 的可访问性，我们能够将这个 Web3 JS 教程分解为以下三个步骤:
 
 1.  创建 NodeJS dapp、安装 Moralis 和设置 Express 服务器
-2.  整合道德服务
+2.  整合 Moralis 服务
 3.  读取区块链数据
 
-如果你觉得这个教程很有帮助，可以考虑看看更多令人兴奋的道德指南。例如，学习如何在索拉纳上铸造硬币，或者 T2 建造索拉纳 NFT 探险者。此外，如果索拉纳开发让你兴奋，请查看 Moralis 的[索拉纳 API](https://docs.moralis.io/reference/solana-api) 。这个工具允许你创建各种有趣的 Solana Web3 项目！
+如果你觉得这个教程很有帮助，可以考虑看看更多令人兴奋的 Moralis 指南。例如，学习如何在索拉纳上铸造硬币，或者 T2 建造索拉纳 NFT 探险者。此外，如果索拉纳开发让你兴奋，请查看 Moralis 的[索拉纳 API](https://docs.moralis.io/reference/solana-api) 。这个工具允许你创建各种有趣的 Solana Web3 项目！
 
 尽管如此，无论你想创建什么项目，[注册 Moralis](https://admin.moralis.io/register) 并立即开始构建 dapps！此外，您可以完全免费创建一个 Moralis 帐户，并立即访问各种 Web3 APIs！

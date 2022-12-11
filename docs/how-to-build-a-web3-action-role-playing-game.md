@@ -2,9 +2,9 @@
 
 > 原文：<https://moralis.io/how-to-build-a-web3-action-role-playing-game/>
 
-**在构建一款 Web3 角色扮演游戏时，开发者有许多 [Web3 游戏设计](https://moralis.io/web3-game-design-explaining-the-web3-game-design-process/)** **的因素要考虑。** [**NFT 效用**](https://moralis.io/nft-utility-exploring-nft-use-cases-in-2022/) **应该如何实现，游戏是否应该围绕** [**GameFi 和 play-to-earn(P2E)**](https://moralis.io/what-is-gamefi-and-play-to-earn-p2e/)**概念？不管怎样，在为 Web3 制作角色扮演游戏时，抓住用户的注意力是最重要的方面之一。一个人怎样才能用 Web3 的功能构建一个如此吸引人的游戏呢？通过使用道德！在本文中，我们将引导您完成一个由 Moralis 的 Unity 专家开发的示例项目。通过跟随，您将有机会使用我们的代码并开发您自己版本的杀手级 dapp(**[](https://moralis.io/decentralized-applications-explained-what-are-dapps/)****)。那么，你准备好探索如何构建一个 Web3 动作角色扮演游戏的过程了吗？我们开始吧！****
+**在构建一款 Web3 角色扮演游戏时，开发者有许多 [Web3 游戏设计](https://moralis.io/web3-game-design-explaining-the-web3-game-design-process/)** **的因素要考虑。** [**NFT 效用**](https://moralis.io/nft-utility-exploring-nft-use-cases-in-2022/) **应该如何实现，游戏是否应该围绕** [**GameFi 和 play-to-earn(P2E)**](https://moralis.io/what-is-gamefi-and-play-to-earn-p2e/)**概念？不管怎样，在为 Web3 制作角色扮演游戏时，抓住用户的注意力是最重要的方面之一。一个人怎样才能用 Web3 的功能构建一个如此吸引人的游戏呢？通过使用 Moralis！在本文中，我们将引导您完成一个由 Moralis 的 Unity 专家开发的示例项目。通过跟随，您将有机会使用我们的代码并开发您自己版本的杀手级 dapp(**[](https://moralis.io/decentralized-applications-explained-what-are-dapps/)****)。那么，你准备好探索如何构建一个 Web3 动作角色扮演游戏的过程了吗？我们开始吧！****
 
-**接下来，我们将向您展示如何使用 Unity 技能创建一个 Web3 角色扮演游戏。如果你熟悉 Web2，那么从 [Web2 到 Web3](https://moralis.io/what-is-web2-and-web3-explaining-web3/) 的转换是完全不费力的，这要感谢[道德规范](https://moralis.io/)。这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”操作系统是最终的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)。然而， [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 提供的不仅仅是一个 [Web3 API](https://docs.moralis.io/moralis-dapp/web3-api) 。例如，使用 Moralis 的 [web3uikit](https://moralis.io/web3ui-kit-the-ultimate-web3-user-interface-kit/) ，你可以创建一个伟大的 [Web3 UI](https://moralis.io/web3-ui-how-to-create-a-great-dapp-ui/) 。此外，通过其“同步”功能和数据库，您可以[同步和索引智能合约事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/) ( [索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/))。此外，多亏了 Moralis，你只需要一行代码就可以实现各种类型的 [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/)。在这里，您还将学习如何使用 [Hardhat](https://moralis.io/hardhat-explained-what-is-hardhat/) 来编译、部署和验证[智能合约](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/)。因此，如果你渴望构建你自己的 Web3 角色扮演游戏实例，请务必现在就[创建你的免费道德账户](https://admin.moralis.io/register)！**
+**接下来，我们将向您展示如何使用 Unity 技能创建一个 Web3 角色扮演游戏。如果你熟悉 Web2，那么从 [Web2 到 Web3](https://moralis.io/what-is-web2-and-web3-explaining-web3/) 的转换是完全不费力的，这要感谢[Moralis 规范](https://moralis.io/)。这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”操作系统是最终的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)。然而， [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 提供的不仅仅是一个 [Web3 API](https://docs.moralis.io/moralis-dapp/web3-api) 。例如，使用 Moralis 的 [web3uikit](https://moralis.io/web3ui-kit-the-ultimate-web3-user-interface-kit/) ，你可以创建一个伟大的 [Web3 UI](https://moralis.io/web3-ui-how-to-create-a-great-dapp-ui/) 。此外，通过其“同步”功能和数据库，您可以[同步和索引智能合约事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/) ( [索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/))。此外，多亏了 Moralis，你只需要一行代码就可以实现各种类型的 [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/)。在这里，您还将学习如何使用 [Hardhat](https://moralis.io/hardhat-explained-what-is-hardhat/) 来编译、部署和验证[智能合约](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/)。因此，如果你渴望构建你自己的 Web3 角色扮演游戏实例，请务必现在就[创建你的免费 Moralis 账户](https://admin.moralis.io/register)！**
 
 **![](img/9c3b5da0e4f3081679011cf2a50991fa.png)
 
@@ -52,7 +52,7 @@
 
 ![](img/bd84308ad53281e92a1bd7d8b80bfb53.png)
 
-## 用团结、道德和安全帽制作一个 Web3 角色扮演游戏
+## 用团结、Moralis 和安全帽制作一个 Web3 角色扮演游戏
 
 在向您展示如何创建自己的 Web3 角色扮演游戏实例时，我们将了解以下主要步骤:
 
@@ -87,7 +87,7 @@
 
 ![](img/8e87598743c3bf4d0edb9fe9b7ffdeb4.png)
 
-此外，上面的屏幕为您提供了如何获取 dapp 的 URL 和 ID 的说明。您必须[登录](https://admin.moralis.io/login)到您的道德管理区(如果您还没有登录，请登录)。然后，您需要通过单击“创建新服务器”按钮来创建新服务器:
+此外，上面的屏幕为您提供了如何获取 dapp 的 URL 和 ID 的说明。您必须[登录](https://admin.moralis.io/login)到您的 Moralis 管理区(如果您还没有登录，请登录)。然后，您需要通过单击“创建新服务器”按钮来创建新服务器:
 
 ![](img/a5fbcdc052d5b07fa3ab9fe504534a77.png)
 
@@ -163,7 +163,7 @@
 
 ### 铸造物品和符文作为 ERC 令牌
 
-在成功部署您的两个 [Web3 合同](https://moralis.io/what-are-web3-contracts-exploring-smart-contracts/)之后，您的 Web3 角色扮演游戏实例就完全正常了。现在，仔细看看“PickingUpItem”和“PickingUpRune”脚本如何执行创建过程是有益的。因此，请务必观看下面的视频，从 42:00 开始，观看详细的代码演练。本质上，“道德。ExecuteContractFunction”在两个脚本中都完成了大部分繁重的工作。
+在成功部署您的两个 [Web3 合同](https://moralis.io/what-are-web3-contracts-exploring-smart-contracts/)之后，您的 Web3 角色扮演游戏实例就完全正常了。现在，仔细看看“PickingUpItem”和“PickingUpRune”脚本如何执行创建过程是有益的。因此，请务必观看下面的视频，从 42:00 开始，观看详细的代码演练。本质上，“Moralis。ExecuteContractFunction”在两个脚本中都完成了大部分繁重的工作。
 
 ### 检索链上数据
 
@@ -177,4 +177,4 @@ https://www.youtube.com/watch?v=Yrx-tu704Ys
 
 如果你完成了我们的旅程，你知道如何建立一个 Web3 角色扮演游戏。我们从快速演示我们的游戏示例开始。然后，我们把重点放在了与 Web3 相关的方面。因此，你有机会跟随我们的领导，创建自己的优秀 Web3 动作角色扮演游戏实例。在这个过程中，您学习了如何通过创建您的 Moralis 服务器和使用它的凭证来连接 Unity 和 Moralis SDK。您还学习了如何利用 Moralis 仪表板。此外，您还学习了如何使用 Hardhat 来处理智能合约。希望您成功部署了我们的智能合同实例。如果是这样，你得到了你的合同地址和 ABI，你把它们粘贴在“游戏经理”脚本中。后者给了你的新游戏完整的功能。此外，您还有机会了解更多关于幕后运行的代码。
 
-如果你喜欢这个教程，我们鼓励你去探索一下[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德博客](https://moralis.io/blog/)。在那里，你会找到大量的其他教程。如果团结是你的主要焦点，你可以学习[建立一个游戏内团结 NFT 商店](https://moralis.io/moralis-projects-build-an-in-game-unity-nft-shop/)，做[区块链游戏交易](https://moralis.io/how-to-do-blockchain-game-transactions-with-unity/)，或者建立一个 [Web3 MMORPG](https://moralis.io/build-a-web3-mmorpg-with-unity-in-10-minutes/) 。然而，还有许多其他的话题你可以深入研究。例如，我们的一些最新文章涵盖了[以太坊 NFT API](https://moralis.io/what-is-an-ethereum-nft-api-ethereum-nft-apis-explained/)、[多边形 NFT API](https://moralis.io/what-is-a-polygon-nft-api-polygon-nft-apis-explained/)、币安 NFT API[和索拉纳 NFT API](https://moralis.io/binance-nft-api-what-is-it-and-how-does-it-work/) 。此外，我们还向您展示如何[创造数以千计的 NFT 游戏资产](https://moralis.io/how-to-mint-thousands-of-nft-game-assets/)、[获得索拉纳 NFT 元数据](https://moralis.io/how-to-get-solana-nft-metadata/)，如何[上传 Web3 Unity 元数据](https://moralis.io/uploading-web3-unity-metadata/)，以及您需要了解的关于 [Web3 前端](https://moralis.io/web3-frontend-everything-you-need-to-learn-about-building-dapp-frontends/)和 [blockend 开发](https://moralis.io/blockend-development-what-is-it-and-how-to-become-a-blockend-developer/)的一切。然而，如果你渴望[快速而自信地成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，你可能想要报名参加[道德学院](https://academy.moralis.io/)。**
+如果你喜欢这个教程，我们鼓励你去探索一下[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 博客](https://moralis.io/blog/)。在那里，你会找到大量的其他教程。如果团结是你的主要焦点，你可以学习[建立一个游戏内团结 NFT 商店](https://moralis.io/moralis-projects-build-an-in-game-unity-nft-shop/)，做[区块链游戏交易](https://moralis.io/how-to-do-blockchain-game-transactions-with-unity/)，或者建立一个 [Web3 MMORPG](https://moralis.io/build-a-web3-mmorpg-with-unity-in-10-minutes/) 。然而，还有许多其他的话题你可以深入研究。例如，我们的一些最新文章涵盖了[以太坊 NFT API](https://moralis.io/what-is-an-ethereum-nft-api-ethereum-nft-apis-explained/)、[多边形 NFT API](https://moralis.io/what-is-a-polygon-nft-api-polygon-nft-apis-explained/)、币安 NFT API[和索拉纳 NFT API](https://moralis.io/binance-nft-api-what-is-it-and-how-does-it-work/) 。此外，我们还向您展示如何[创造数以千计的 NFT 游戏资产](https://moralis.io/how-to-mint-thousands-of-nft-game-assets/)、[获得索拉纳 NFT 元数据](https://moralis.io/how-to-get-solana-nft-metadata/)，如何[上传 Web3 Unity 元数据](https://moralis.io/uploading-web3-unity-metadata/)，以及您需要了解的关于 [Web3 前端](https://moralis.io/web3-frontend-everything-you-need-to-learn-about-building-dapp-frontends/)和 [blockend 开发](https://moralis.io/blockend-development-what-is-it-and-how-to-become-a-blockend-developer/)的一切。然而，如果你渴望[快速而自信地成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，你可能想要报名参加[Moralis 学院](https://academy.moralis.io/)。**

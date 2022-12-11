@@ -11,7 +11,7 @@
 #### **目录**
 
 *   什么是 dApps？
-*   什么是道德？
+*   什么是 Moralis？
 *   项目设置和安装
 *   Moralis 服务器设置
 *   构建跨链 Zapper dApp
@@ -30,7 +30,7 @@
 
 简而言之，分布式应用程序(dApps)运行在点对点(P2P)网络上，类似于区块链。智能合约使 dapp 能够在没有中介的情况下提供功能，通常在 dapp 中使用。
 
-#### **什么是道德？**
+#### **什么是 Moralis？**
 
 [Moralis](https://moralis.io/) 是一项服务，它汇集了各种工具和资源，用于构建连接到区块链的去中心化软件，如以太坊、多边形和币安智能链(现为 BNB 智能链)。
 
@@ -56,7 +56,7 @@ CD zapper-项目和 npm 安装和 npm 启动
 
 ### **Moralis 服务器设置**
 
-让我们开始设置我们的 Moralis 服务器，因为我们将在下一节中使用它来开发 Zapper dApp。我们将在我们的道德管理面板上设置一个服务器。如果您还没有帐户，请在此注册一个[。注册很容易，你可以完全免费开始。](https://admin.moralis.io/register)
+让我们开始设置我们的 Moralis 服务器，因为我们将在下一节中使用它来开发 Zapper dApp。我们将在我们的 Moralis 管理面板上设置一个服务器。如果您还没有帐户，请在此注册一个[。注册很容易，你可以完全免费开始。](https://admin.moralis.io/register)
 
 我们将点击“创建一个新的服务器”,如下所示，然后在我们的管理面板上选择 testnet 服务器。
 
@@ -90,7 +90,7 @@ CD zapper-项目和 npm 安装和 npm 启动
 
 REACT _ APP _ MORALIS _ APPLICATION _ ID = our-APPLICATION-ID REACT _ APP _ MORALIS _ SERVER _ URL = our-SERVER-URL
 
-## **道德初始化**
+## **Moralis 初始化**
 
 在“index.js”中，我们将用下面的代码片段更新它:
 

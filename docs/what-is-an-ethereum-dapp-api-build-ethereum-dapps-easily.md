@@ -8,7 +8,7 @@ Moralis 是 Web3 开发的首要操作系统。作为用户，开发者有能力
 
 该平台的基础设施及其工具实现了更加无缝的 Web3 开发体验，允许您创建更加复杂的 dapps。例如，你可以学习如何创建一个 [Web3 Spotify](https://moralis.io/how-to-build-a-web3-spotify-clone/) 的克隆，甚至[创建自己的元宇宙](https://moralis.io/how-to-create-your-own-metaverse/)！此外，你可以通过查看[区块链开发的最佳语言](https://moralis.io/best-languages-for-blockchain-development-full-tutorial/)或 [Web3 前端](https://moralis.io/web3-frontend-everything-you-need-to-learn-about-building-dapp-frontends/)开发来了解更多关于如何进入 Web3 的信息。
 
-与道德家合作的所有优势，注册免费是显而易见的。此外，您可以完全免费创建您的帐户，而且只需几秒钟就能启动！
+与 Moralis 家合作的所有优势，注册免费是显而易见的。此外，您可以完全免费创建您的帐户，而且只需几秒钟就能启动！
 
 ## 什么是以太坊 Dapp API？–以太坊区块链
 
@@ -34,7 +34,7 @@ Moralis 是 Web3 开发的首要操作系统。作为用户，开发者有能力
 
 您可以仔细看看其他的 API。一个例子是 Moralis 的 [NFT API](https://moralis.io/nft-api/) ，它使得 NFT 的开发更易于管理。此外，利用 NFT API 的跨链兼容特性，您可以轻松地为多个网络创建 NFT。例如，查看[以太坊 NFT API](https://moralis.io/what-is-an-ethereum-nft-api-ethereum-nft-apis-explained/) 来发现更多关于什么使你能够[用 Moralis 轻松创建以太坊 NFT](https://moralis.io/how-to-create-an-ethereum-nft-full-guide/) ！
 
-### 为什么要用道德来开发以太坊 Dapps？
+### 为什么要用 Moralis 来开发以太坊 Dapps？
 
 即使以太坊网络面临拥塞问题，它仍然是 Web3 开发的最主要的区块链。因此，在以太坊网络上开发 Web3 应用程序的一个最重要的原因是广大的开发者社区。此外，网络已经存在了一段时间，允许开发人员创建工具来简化 Web3 的开发。一个显著的例子是由松露、[加纳切](https://moralis.io/ganache-explained-what-is-ganache-blockchain/)和[毛毛雨](https://moralis.io/drizzle-explained-what-is-drizzle/)组成的[松露生态系统](https://moralis.io/truffle-explained-what-is-the-truffle-suite/)。诸如此类的工具使得以太坊开发对开发者很有吸引力——尤其是与强大的 Web3 开发平台结合使用。
 
@@ -42,7 +42,7 @@ Moralis 是 Web3 开发的首要操作系统。作为用户，开发者有能力
 
 ![](img/1617ed390f611545a8aeecf5ca3ef28c.png)
 
-在支持的网络中，您会发现 Polygon、Cronos、Avalanche、BNB 链(BSC)、Fantom 和以太坊。此外，随着新网络的出现，Moralis 也在不断发展和增加。因此，一旦添加了新的链，只需简单点击几下，您就可以轻松地将 dapps 移植到其他链。因此，当与道德合作时，你不会把自己局限于一个连锁店，因此，可以迎合更多的观众。
+在支持的网络中，您会发现 Polygon、Cronos、Avalanche、BNB 链(BSC)、Fantom 和以太坊。此外，随着新网络的出现，Moralis 也在不断发展和增加。因此，一旦添加了新的链，只需简单点击几下，您就可以轻松地将 dapps 移植到其他链。因此，当与 Moralis 合作时，你不会把自己局限于一个连锁店，因此，可以迎合更多的观众。
 
 ## 什么是 Moralis 的以太坊 Dapp API？
 
@@ -66,7 +66,7 @@ Moralis.authenticate().then(function (user) {
 })
 ```
 
-这就是使用以太坊 dapp API 时所需要的一切，允许用户使用他们的 Web3 钱包登录。道德的默认替代是元掩码；然而，这只是众多选择之一。例如，您可以在上面的代码中指定应该使用 [WalletConnect](https://moralis.io/what-is-walletconnect-the-ultimate-walletconnect-guide/) 。如果你想了解更多，请阅读我们的“[如何用 WalletConnect](https://moralis.io/how-to-connect-users-with-walletconnect/) 连接用户”文章。
+这就是使用以太坊 dapp API 时所需要的一切，允许用户使用他们的 Web3 钱包登录。Moralis 的默认替代是元掩码；然而，这只是众多选择之一。例如，您可以在上面的代码中指定应该使用 [WalletConnect](https://moralis.io/what-is-walletconnect-the-ultimate-walletconnect-guide/) 。如果你想了解更多，请阅读我们的“[如何用 WalletConnect](https://moralis.io/how-to-connect-users-with-walletconnect/) 连接用户”文章。
 
 ![](img/e081c1920454d071e11f82f732896b5b.png)
 
@@ -79,9 +79,9 @@ Moralis.authenticate().then(function (user) {
 一旦您的数据库被填充，通过您的代码获得对这些信息的访问是很有帮助的。手动设置可能相当麻烦；然而，使用 Ethereum dapp API，您可以只使用单行代码访问令牌/交易数据。取令牌数据；借助 Moralis，您可以轻松访问本地和 ERC-20 令牌数据:
 
 1.  **本地令牌余额:**
-    *   const balance =等待道德。web 3 API . account . getnative balance()；
+    *   const balance =等待 Moralis。web 3 API . account . getnative balance()；
 2.  **代币余额:**
-    *   常数余额=等待道德。web 3 API . account . gettokenbalances()；
+    *   常数余额=等待 Moralis。web 3 API . account . gettokenbalances()；
 
 此外，您还可以访问所有用户的交易历史数据。这就像获取令牌信息一样简单；所需要的只是一段代码:
 
@@ -142,4 +142,4 @@ let transaction = await Moralis.transfer(options);
 
 更重要的是，Moralis Ethereum dapp API 只是众多开发工具中的一个，它提供了更加无缝的开发体验。您可能还会对 Moralis 的 web3uikit 感兴趣，它可以让您轻松创建美观的用户界面(ui)。要了解更多信息，你可以看看我们的教程[如何创建一个伟大的 dapp UI](https://moralis.io/web3-ui-how-to-create-a-great-dapp-ui/) ！
 
-所以，如果你想创造 dapps，你绝对应该考虑道德！你[可以完全免费与 Moralis](https://admin.moralis.io/register) 签约，[成为区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)！
+所以，如果你想创造 dapps，你绝对应该考虑 Moralis！你[可以完全免费与 Moralis](https://admin.moralis.io/register) 签约，[成为区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)！

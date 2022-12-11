@@ -4,9 +4,9 @@
 
 构建您的第一个 Cronos dapp 可能会显得繁琐和令人畏惧。然而，如果有适当的指导和强大的开发工具，这个过程并不一定很困难。事实上，有了[](https://moralis.io)****，你现在就有可能在几分钟内打造 Cronos dapps！此外，Moralis 还提供企业级**[**web 3 API**](https://moralis.io/web3-apis-exploring-the-top-5-blockchain-apis/)**和 Cronos 样板文件，使开发人员能够高效地构建 dapps。如果您想了解更多关于构建 Cronos dapps 的最快方法，请跟随我们提供的完整的过程演示！****
 
-**对于门外汉，我们将从简要解释 Cronos 网络开始。接下来，我们将快速浏览 Moralis 的 Cronos 样板文件，其中涵盖了您将创建的 dapp 的主要特性。此外，假设您不想跟随并立即检查项目的代码。在这种情况下，您将在“*探索 Cronos 样板文件*”一节中找到 GitHub 存储库的链接。一旦你熟悉了你要做的事情，我们将通过立刻创建一个 Cronos dapp 来展示道德的力量！**
+**对于门外汉，我们将从简要解释 Cronos 网络开始。接下来，我们将快速浏览 Moralis 的 Cronos 样板文件，其中涵盖了您将创建的 dapp 的主要特性。此外，假设您不想跟随并立即检查项目的代码。在这种情况下，您将在“*探索 Cronos 样板文件*”一节中找到 GitHub 存储库的链接。一旦你熟悉了你要做的事情，我们将通过立刻创建一个 Cronos dapp 来展示 Moralis 的力量！**
 
-**该流程的可访问性部分源于 Cronos 样板文件。然而，还有额外的道德工具在这个过程中提供帮助。例如， [Web3 认证 API](https://moralis.io/authentication/) 允许我们轻松集成各种认证机制。默认情况下，Cronos dapp 将使用元掩码，但是您可以，例如，[添加比特币基地钱包登录功能](https://moralis.io/how-to-add-coinbase-wallet-login-functionality/)，如果您愿意的话。此外，Moralis 的各种 API 并不局限于 Cronos 样板，可以让您将任何技术栈连接到多个网络！**
+**该流程的可访问性部分源于 Cronos 样板文件。然而，还有额外的 Moralis 工具在这个过程中提供帮助。例如， [Web3 认证 API](https://moralis.io/authentication/) 允许我们轻松集成各种认证机制。默认情况下，Cronos dapp 将使用元掩码，但是您可以，例如，[添加比特币基地钱包登录功能](https://moralis.io/how-to-add-coinbase-wallet-login-functionality/)，如果您愿意的话。此外，Moralis 的各种 API 并不局限于 Cronos 样板，可以让您将任何技术栈连接到多个网络！**
 
 **因此，无论您计划用 Cronos 样板创建 dapps，还是接手任何其他 Web3 项目，都没有关系；Moralis 为您服务。因此，立即注册 Moralis，奖励自己一个更容易获得的开发者体验！**
 
@@ -58,7 +58,7 @@ Moralis 的 Cronos 样板文件为 dapp 提供了极好的基础，具有大多�
 2.  配置样板代码
 3.  运行 Cronos Dapp
 
-遵循这些步骤将允许您在几分钟内构建一个具有上一节中描述的特性的 Cronos dapp！此外，完成本教程所需要的只是基本的编程知识和一个 Moralis 帐户。所以，如果你还没有，请立即创建你的道德账户。您只需点击 Moralis 网站顶部的“[免费开始](https://admin.moralis.io/register)”按钮，然后按照说明进行操作:
+遵循这些步骤将允许您在几分钟内构建一个具有上一节中描述的特性的 Cronos dapp！此外，完成本教程所需要的只是基本的编程知识和一个 Moralis 帐户。所以，如果你还没有，请立即创建你的 Moralis 账户。您只需点击 Moralis 网站顶部的“[免费开始](https://admin.moralis.io/register)”按钮，然后按照说明进行操作:
 
 ![The "Start for Free" button on Moralis' homepage; the first step in using the Cronos boilerplate.](img/05562da7532a30448fbb32fe92c7f964.png)
 

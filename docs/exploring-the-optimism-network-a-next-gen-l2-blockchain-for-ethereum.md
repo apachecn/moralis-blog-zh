@@ -6,7 +6,7 @@
 
 也就是说，无论你关注什么链，如果你想快速简单地构建 dapps，利用市场领先的工具是最重要的。你最不希望的就是浪费你宝贵的时间和资源去从头开始构建后端基础设施。幸运的是，通过使用最终的 Web3 API 提供者 [Moralis](http://moralis.io) ，您可以节省 80%以上的开发时间。更重要的是，Moralis 现在在其他领先的 L1 和 L2 中支持乐观 L2 网络。
 
-由于 Moralis 的跨链互操作性，您永远不会被任何特定的链所束缚，这使您的工作经得起未来的考验。事实上，您可以从一开始就构建多链 dapps。此外，您可以随时更改一行代码并将 dapps 部署到其他链。此外，Moralis 还具有跨平台互操作性。相应地，你可以使用你精通并喜欢的遗留编程语言和框架来加入 Web3 革命。因此，你可以通过创建你的[免费道德账户](https://admin.moralis.io/register)来开始构建乐观加密应用。然而，如果你想了解更多关于这篇文章的主题，请继续阅读并探索 L2 乐观网络。
+由于 Moralis 的跨链互操作性，您永远不会被任何特定的链所束缚，这使您的工作经得起未来的考验。事实上，您可以从一开始就构建多链 dapps。此外，您可以随时更改一行代码并将 dapps 部署到其他链。此外，Moralis 还具有跨平台互操作性。相应地，你可以使用你精通并喜欢的遗留编程语言和框架来加入 Web3 革命。因此，你可以通过创建你的[免费 Moralis 账户](https://admin.moralis.io/register)来开始构建乐观加密应用。然而，如果你想了解更多关于这篇文章的主题，请继续阅读并探索 L2 乐观网络。
 
 ![Unlock the Power of Optimism Blockchain](img/5ed857ae34b2967a5ff25f5e774316f5.png)[**Sign Up and Unlock the Power of Blockchain**](https://admin.moralis.io/register)
 
@@ -82,7 +82,7 @@
 
 ![](img/56c9c240814b2008384185758da7d7b7.png)
 
-## 来自道德网的最新乐观网络支持
+## 来自 Moralis 网的最新乐观网络支持
 
 2022 年 11 月 15 日，Moralis 增加了对乐观主义 L2 网络的支持。这意味着你现在可以构建各种 dapps，并在这款快捷实惠的区块链上整合 [Web3 流](https://web3streams.com/)。此外，如果您决定在这个网络之上构建，您可以使用 Moralis [Streams API](https://moralis.io/streams/) 。后者使您能够将任何链上事件直接传输到项目的后端。
 
@@ -96,16 +96,16 @@
 
 ![Moralis' web UI panel showing the mainnet option when building L2 Optimism dapps.](img/524c3603df2c04cd191a8e43e385670c.png)
 
-无论你选择哪种方式，你必须首先创建你的免费道德账户。当然，你也可以使用其他流行的 Moralis Web3 APIs，比如 Auth API、 [Token API](https://moralis.io/token-api/) 和 [NFT API](https://moralis.io/nft-api/) ，从乐观网络查询链上数据。此外，根据您决定使用的编程语言或框架，您只需要使用“ *EvmChain 来定义这个链。乐观主义*或 *0xa* ，这是乐观主义的链 ID(十六进制)。
+无论你选择哪种方式，你必须首先创建你的免费 Moralis 账户。当然，你也可以使用其他流行的 Moralis Web3 APIs，比如 Auth API、 [Token API](https://moralis.io/token-api/) 和 [NFT API](https://moralis.io/nft-api/) ，从乐观网络查询链上数据。此外，根据您决定使用的编程语言或框架，您只需要使用“ *EvmChain 来定义这个链。乐观主义*或 *0xa* ，这是乐观主义的链 ID(十六进制)。
 
 ![](img/84842f79ff4e007d9a20cc652d37f70b.png)
 
 ## 探索乐观网络——以太坊的下一代 L2 区块链——摘要
 
-我们在今天的文章中涉及了相当多的内容。我们从基础开始讨论，你已经了解了 L2 乐观主义区块链网络需要什么。接下来，我们快速概述了以太坊第 2 层解决方案背后的设计理念。在那里，你了解了区块链的四大支柱(简单、实用、可持续和乐观)。继续，你也发现了乐观 L2 链是如何运作的。然后，我们看了看乐观主义生态系统。尽管如此，我们也解释了什么是“乐观密码”。相应地，您还了解了 OP token 和初始乐观主义集体的两院(token house 和公民院)治理模式。最后但同样重要的是，我们简要说明了如何使用道德来开始建立一个乐观主义的 dapp。
+我们在今天的文章中涉及了相当多的内容。我们从基础开始讨论，你已经了解了 L2 乐观主义区块链网络需要什么。接下来，我们快速概述了以太坊第 2 层解决方案背后的设计理念。在那里，你了解了区块链的四大支柱(简单、实用、可持续和乐观)。继续，你也发现了乐观 L2 链是如何运作的。然后，我们看了看乐观主义生态系统。尽管如此，我们也解释了什么是“乐观密码”。相应地，您还了解了 OP token 和初始乐观主义集体的两院(token house 和公民院)治理模式。最后但同样重要的是，我们简要说明了如何使用 Moralis 来开始建立一个乐观主义的 dapp。
 
-接下来，我们建议您完成我们在 [Moralis 文档](https://docs.moralis.io/docs)中等待您的一些教程。一定要练习切换到支持链，包括乐观。另一方面，您可能有兴趣了解更多有关区块链发展的方方面面。在这种情况下，你应该探索一下[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和我们的[开发者加密博客](https://moralis.io/blog/)。这两个出口处理无数的话题。例如，一些最新文章关注如何[从集合中获取所有 NFT](https://moralis.io/how-to-get-all-nfts-from-a-collection-in-3-steps/)，[集成 WalletConnect 模态和 QR 码](https://moralis.io/how-to-integrate-the-walletconnect-modal-and-qr-code/)，[获取某个地址拥有的所有 NFT](https://moralis.io/how-to-get-all-nfts-owned-by-an-address-3-step-process/)，[以太坊 webhooks](https://moralis.io/ethereum-webhooks-what-they-are-and-how-to-use-webhooks-for-ethereum/) ， [Web3 基础设施](https://moralis.io/web3-infrastructure-exploring-the-best-solution-for-web3-development/)，等等。
+接下来，我们建议您完成我们在 [Moralis 文档](https://docs.moralis.io/docs)中等待您的一些教程。一定要练习切换到支持链，包括乐观。另一方面，您可能有兴趣了解更多有关区块链发展的方方面面。在这种情况下，你应该探索一下[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和我们的[开发者加密博客](https://moralis.io/blog/)。这两个出口处理无数的话题。例如，一些最新文章关注如何[从集合中获取所有 NFT](https://moralis.io/how-to-get-all-nfts-from-a-collection-in-3-steps/)，[集成 WalletConnect 模态和 QR 码](https://moralis.io/how-to-integrate-the-walletconnect-modal-and-qr-code/)，[获取某个地址拥有的所有 NFT](https://moralis.io/how-to-get-all-nfts-owned-by-an-address-3-step-process/)，[以太坊 webhooks](https://moralis.io/ethereum-webhooks-what-they-are-and-how-to-use-webhooks-for-ethereum/) ， [Web3 基础设施](https://moralis.io/web3-infrastructure-exploring-the-best-solution-for-web3-development/)，等等。
 
-此外，你可能渴望成为全职加密员。如果是这样，你应该成为区块链认证。最好的方法是报名参加道德学院。在学院，你可以从基础开始，或者参加高级课程，如[区块链商业大师班](https://academy.moralis.io/courses/blockchain-business-masterclass)课程。
+此外，你可能渴望成为全职加密员。如果是这样，你应该成为区块链认证。最好的方法是报名参加 Moralis 学院。在学院，你可以从基础开始，或者参加高级课程，如[区块链商业大师班](https://academy.moralis.io/courses/blockchain-business-masterclass)课程。
 
 ![Learn about other chains than the Optimism L2 network at Moralis Academy!](img/05c6277b69f7febf4e28d8d33a536851.png)

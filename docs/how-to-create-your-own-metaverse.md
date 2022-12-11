@@ -4,7 +4,7 @@
 
 元宇宙激起了全球用户和大型科技公司的兴趣。因此，我们意识到 Web2 互联网时代正在过去，一个新时代的崛起正在逼近——[**【元宇宙】**](https://moralis.io/what-is-the-metaverse-full-guide/) **。随着元宇宙和 Web3 领域的出现，现在是时候深入这个新领域，学习如何创建自己的元宇宙了。会不会是你的虚拟景观吸引大众？谁知道我们每个人的未来会怎样，但有一件事是肯定的，命运偏爱勇敢的人！因此，我们强烈鼓励任何渴望成为区块链开发者的人跟随这篇文章，我们将向你展示如何创建你自己的元宇宙。**
 
-当然，您可能已经猜到，创建元宇宙是一项高级任务。然而，这比你想象的要简单得多。当你使用正确的 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)时，你可以用你的 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 或 Unity 技能创建你自己的元宇宙。此外，当使用 [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 时，您可以专注于前端，而这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”平台涵盖了您的后端。同样，当使用最好的 Web3 后端平台时，你将节省大量的时间和资源。多亏了 [Moralis 的文档](https://docs.moralis.io/)，你可以轻松地复制并粘贴简短的代码片段来覆盖 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 的功能。最重要的是，由于 [Moralis](https://moralis.io/) 完全是关于跨链和跨平台的互操作性，所以您有广泛的选择。因此，[创建你的免费道德账户](https://admin.moralis.io/register)并加入我们来处理我们的示例项目。
+当然，您可能已经猜到，创建元宇宙是一项高级任务。然而，这比你想象的要简单得多。当你使用正确的 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)时，你可以用你的 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 或 Unity 技能创建你自己的元宇宙。此外，当使用 [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 时，您可以专注于前端，而这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”平台涵盖了您的后端。同样，当使用最好的 Web3 后端平台时，你将节省大量的时间和资源。多亏了 [Moralis 的文档](https://docs.moralis.io/)，你可以轻松地复制并粘贴简短的代码片段来覆盖 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 的功能。最重要的是，由于 [Moralis](https://moralis.io/) 完全是关于跨链和跨平台的互操作性，所以您有广泛的选择。因此，[创建你的免费 Moralis 账户](https://admin.moralis.io/register)并加入我们来处理我们的示例项目。
 
 ![](img/52c3212381d06e943795ca10a0c4460b.png)
 
@@ -18,7 +18,7 @@
 
 ## 创建您自己的元宇宙-示例项目
 
-在我们卷起袖子开始编码之前，我们将看一下我们的元宇宙例子的演示。因此，你会对未来有一个清晰的认识。这也将有助于你决定是否要创建自己的这种元宇宙。演示结束后，我们将重点关注地图。后者是我们虚拟世界的一个非常重要的部分，也是我们元宇宙例子的核心。我们的下一步将是动画我们的地图，这将是我们探索的最广泛的一部分。成功制作地图动画后，我们将向您展示如何获取地块数据。接下来，我们将看看我们的智能合同。最后，我们将完成区块链整合，这是道德会使事情简单得多。
+在我们卷起袖子开始编码之前，我们将看一下我们的元宇宙例子的演示。因此，你会对未来有一个清晰的认识。这也将有助于你决定是否要创建自己的这种元宇宙。演示结束后，我们将重点关注地图。后者是我们虚拟世界的一个非常重要的部分，也是我们元宇宙例子的核心。我们的下一步将是动画我们的地图，这将是我们探索的最广泛的一部分。成功制作地图动画后，我们将向您展示如何获取地块数据。接下来，我们将看看我们的智能合同。最后，我们将完成区块链整合，这是 Moralis 会使事情简单得多。
 
 ## 创建您自己的元宇宙–演示
 
@@ -36,7 +36,7 @@
 
 上面三个截图显示了我们的例子元宇宙的要点，这是所有关于虚拟土地。当然，这只是地图动画的前端，也是最棘手的部分。然而，使我们的应用程序成为简单元宇宙的东西隐藏在后端。这就是我们使用 Moralis SDK 和智能合约示例的地方。后者获取我们虚拟土地的地块，并将其转换为链上资产。因此，我们创建(或铸造)[不可替换的令牌](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/) (NFTs)来表示地块，并且可以由用户拥有。因此，让我们也做一个快速演示，要求选定的情节。
 
-### 在道德和法律上要求一块土地
+### 在 Moralis 和法律上要求一块土地
 
 那么，假设一个用户想要拥有这块沿海的土地:
 
@@ -96,7 +96,7 @@ function setPlotData() {
 }
 ```
 
-这里，图 ID 是最重要的数据，您将使用 [Ethers.js 库](https://moralis.io/javascript-libraries-ethers-js-vs-web3-js/)对其进行“散列”。后者包含在道德中。这行代码授予对它的访问权限:
+这里，图 ID 是最重要的数据，您将使用 [Ethers.js 库](https://moralis.io/javascript-libraries-ethers-js-vs-web3-js/)对其进行“散列”。后者包含在 Moralis 中。这行代码授予对它的访问权限:
 
 ```js
 const ethers = Moralis.web3Library;
@@ -112,7 +112,7 @@ const ethers = Moralis.web3Library;
 
 ![](img/424fa7e9b7e80ee6c744e81021987bb4.png)
 
-### 用道德创造你自己的元宇宙
+### 用 Moralis 创造你自己的元宇宙
 
 使用 Moralis 非常简单。Moralis 让创建各种 dapp([去中心化应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))变得轻而易举，包括 metaverses。完成初始设置只需几分钟。因此，在创建你的免费 Moralis 账户后，你可以[登录](https://admin.moralis.io/login)到你的 Moralis 管理区，[创建你的 Moralis 服务器](https://docs.moralis.io/moralis-dapp/getting-started/create-a-moralis-dapp#2.-create-a-moralis-server) (57:36)。一旦您的服务器启动并运行，您就可以获得它的详细信息(服务器 URL 和应用程序 ID)。然后，将这些细节添加到“logic.js”文件的顶部:
 
@@ -136,8 +136,8 @@ https://www.youtube.com/watch?v=tJez2sd1sok
 
 ## 如何创建您自己的元宇宙–摘要
 
-在“如何创建你自己的元宇宙”的探索中，我们已经涉及了相当多的领域。首先，你已经了解了什么是元宇宙。然后，您可以看到我们的元宇宙示例的演示。接下来，你有机会卷起袖子，创造你自己的元宇宙。在此过程中，您已经部署了自己的智能合约实例，并创建了自己的 Moralis 服务器。最终，你现在知道如何创建你自己的元宇宙了。所以，如果你喜欢这个例子项目，我们鼓励你访问[道德博客](https://moralis.io/blog/)和[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。在那里，你会找到几个围绕元宇宙和 [NFT 实用程序](https://moralis.io/nft-utility-exploring-nft-use-cases-in-2022/)的教程。
+在“如何创建你自己的元宇宙”的探索中，我们已经涉及了相当多的领域。首先，你已经了解了什么是元宇宙。然后，您可以看到我们的元宇宙示例的演示。接下来，你有机会卷起袖子，创造你自己的元宇宙。在此过程中，您已经部署了自己的智能合约实例，并创建了自己的 Moralis 服务器。最终，你现在知道如何创建你自己的元宇宙了。所以，如果你喜欢这个例子项目，我们鼓励你访问[Moralis 博客](https://moralis.io/blog/)和[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。在那里，你会找到几个围绕元宇宙和 [NFT 实用程序](https://moralis.io/nft-utility-exploring-nft-use-cases-in-2022/)的教程。
 
 这两个网站上还有许多其他教程可以帮助您探索整个加密领域。例如，如果你对 [Web3 游戏设计](https://moralis.io/web3-game-design-explaining-the-web3-game-design-process/)感兴趣，你需要看看我们的 [Unity Web3](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/) 项目。或者，也许你想学习如何构建一个 [Web3 Spotify](https://moralis.io/how-to-build-a-web3-spotify-clone/) 的克隆版本，一个 [Web3 网飞](https://moralis.io/how-to-develop-a-web3-netflix-clone/)的克隆版本，或者一个[web 3](https://moralis.io/create-a-reddit-clone-for-web3-step-by-step-guide/)的 Reddit 克隆版本。此外，您可能希望关注我们的最新主题和教程。这些说明了如何[创建一个 BNB NFT](https://moralis.io/how-to-create-a-bnb-nft/) ，什么是[分数 NFT](https://moralis.io/what-are-fractional-nfts-the-ultimate-2022-f-nft-guide/)，如何构建一个[即玩即赚(P2E)游戏智能合约](https://moralis.io/how-to-build-a-play-to-earn-p2e-game-smart-contract/)，什么是[基于 NFT 的会员资格](https://moralis.io/what-are-nft-based-memberships-full-guide/)，什么是[动态 NFT](https://moralis.io/what-are-dynamic-nfts-the-ultimate-2022-guide/)，如何构建一个 [Uniswap DEX 克隆](https://moralis.io/build-a-uniswap-dex-clone-with-html-css-javascript-moralis-on-the-ethereum-network/)，如何[获得区块链短信通知](https://moralis.io/how-to-get-blockchain-sms-notifications/)，以及如何添加一个
 
-尽管如此，如果你想快速自信地成为一名 Web3 开发人员，可以考虑报名参加 T2 道德学院。除了顶级的[区块链发展课程](https://academy.moralis.io/all-courses)，你还将获得个性化的学习路径。然而，更大的价值在于专家指导和成为行业中最先进社区的一员。
+尽管如此，如果你想快速自信地成为一名 Web3 开发人员，可以考虑报名参加 T2 Moralis 学院。除了顶级的[区块链发展课程](https://academy.moralis.io/all-courses)，你还将获得个性化的学习路径。然而，更大的价值在于专家指导和成为行业中最先进社区的一员。

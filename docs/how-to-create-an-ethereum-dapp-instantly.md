@@ -6,7 +6,7 @@
 
 **幸运的是，使用 Moralis 内置跨链功能的终极 Web3 开发平台，新的和有经验的开发人员都可以经历一个简单而快速的开发过程。因此，在本文中，我们将探讨如何使用 Moralis 立即创建以太坊 dApp。然后你会发现它的平台如何让区块链的发展变得轻而易举！**
 
-**虽然开发新区块链可能是一项极具挑战性的任务，但创建跨链互操作的 Web3 应用程序却并非如此。当然，您可以通过直接在 [RPC 节点](https://moralis.io/ethereum-rpc-nodes-what-they-are-and-why-you-shouldnt-use-them/)上构建来使您的生活变得困难。然而，有一种方法可以通过使用[道德](https://moralis.io/)来克服 RPC 节点的所有[限制。这个终极的 Web3 开发平台可以让你不费吹灰之力就创建一个以太坊 dApp。此外，Moralis 允许您通过在其他受支持的链上构建](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)[分散应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/) (dApps)，包括币安智能链( [BSC](https://moralis.io/bsc-programming-guide-intro-to-binance-smart-chain-development-in-10-minutes/) )、[雪崩](https://moralis.io/how-to-build-avalanche-dapps-in-minutes/)、[多边形](https://moralis.io/how-to-build-polygon-dapps-easily/)、[仲裁](https://moralis.io/how-to-create-an-arbitrum-token-in-6-steps/)和 Fantom。此外，还有其他著名的连锁店，如索拉纳和埃尔隆德，已经在筹备中。考虑到这一点，我们希望你很兴奋，并准备好学习如何立即创建一个以太坊 dApp。**
+**虽然开发新区块链可能是一项极具挑战性的任务，但创建跨链互操作的 Web3 应用程序却并非如此。当然，您可以通过直接在 [RPC 节点](https://moralis.io/ethereum-rpc-nodes-what-they-are-and-why-you-shouldnt-use-them/)上构建来使您的生活变得困难。然而，有一种方法可以通过使用[Moralis](https://moralis.io/)来克服 RPC 节点的所有[限制。这个终极的 Web3 开发平台可以让你不费吹灰之力就创建一个以太坊 dApp。此外，Moralis 允许您通过在其他受支持的链上构建](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)[分散应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/) (dApps)，包括币安智能链( [BSC](https://moralis.io/bsc-programming-guide-intro-to-binance-smart-chain-development-in-10-minutes/) )、[雪崩](https://moralis.io/how-to-build-avalanche-dapps-in-minutes/)、[多边形](https://moralis.io/how-to-build-polygon-dapps-easily/)、[仲裁](https://moralis.io/how-to-create-an-arbitrum-token-in-6-steps/)和 Fantom。此外，还有其他著名的连锁店，如索拉纳和埃尔隆德，已经在筹备中。考虑到这一点，我们希望你很兴奋，并准备好学习如何立即创建一个以太坊 dApp。**
 
 **![](img/7048b32a9728df51d2ee6c2f0e21a47c.png)
 
@@ -66,7 +66,7 @@
 
 无论您是想立即创建一个以太坊 dApp，还是使用 Moralis 的力量创建任何其他项目，您都必须完成以下步骤:
 
-1.  **登录你的道德利斯账户**–*此时，你很可能已经准备好了你的道德利斯账户。因此，只需[登录](https://admin.moralis.io/login)进入你的管理区。然而，如果你还没有创建你的免费道德账户，请确保现在就创建。*
+1.  **登录你的 Moralis 利斯账户**–*此时，你很可能已经准备好了你的 Moralis 利斯账户。因此，只需[登录](https://admin.moralis.io/login)进入你的管理区。然而，如果你还没有创建你的免费 Moralis 账户，请确保现在就创建。*
 
 ***创建一个新服务器**–进入 Moralis 管理区域后，点击导航选项卡左侧的“服务器”选项。然后，单击右上角的“+创建新服务器”按钮。将出现一个下拉菜单，您应该在其中选择最适合您需求的网络类型(见下图)。*使用“Testnet 服务器”选项是创建示例项目的最佳选择(* [*连接到以太网测试网*](https://moralis.io/ethereum-testnet-guide-connect-to-ethereum-testnets/) *)。**
 
@@ -88,7 +88,7 @@
 
 您可以通过单击复制图标来复制详细信息。
 
-4.  **初始化道德规范**–剩下的就是填充你的”。env”文件，其中包含 Moralis 服务器的详细信息(应用程序 ID 和服务器 URL ),以获得 Moralis 涵盖的所需后端功能:
+4.  **初始化 Moralis 规范**–剩下的就是填充你的”。env”文件，其中包含 Moralis 服务器的详细信息(应用程序 ID 和服务器 URL ),以获得 Moralis 涵盖的所需后端功能:
 
 ![](img/929525117ff3e163d39600f9db654f97.png)
 
@@ -175,7 +175,7 @@ https://www.youtube.com/watch?v=gc0kEjjWobc
 
 ## 如何立即创建以太坊 dApp–总结
 
-如何瞬间打造一个以太坊 dApp？使用终极以太坊 dApp 样板和道德的力量。因此，你可以在几分钟之内建立并运行一个令人印象深刻的 dApp。此外，以下是您需要完成的步骤:
+如何瞬间打造一个以太坊 dApp？使用终极以太坊 dApp 样板和 Moralis 的力量。因此，你可以在几分钟之内建立并运行一个令人印象深刻的 dApp。此外，以下是您需要完成的步骤:
 
 1.  请访问 GitHub 上的 Etherreum dApp 样板页面。
 2.  使用您选择的代码编辑器克隆或派生样板文件。
@@ -186,6 +186,6 @@ https://www.youtube.com/watch?v=gc0kEjjWobc
 
 我们鼓励你利用你目前获得的动力，参与我们在 [Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 的博客](https://moralis.io/blog/)上报道的其他有趣的示例项目。例如，学习[如何启动 NFT 市场](https://moralis.io/how-to-launch-an-nft-marketplace/)、[创建数以千计的 NFT](https://moralis.io/how-to-generate-thousands-of-nfts/)，或者学习使用[以太坊移动样板](https://moralis.io/ethereum-mobile-boilerplate-full-guide-to-ethereum-for-mobile/)为移动用户提供最佳服务。此外，请务必通过探索 Solidity smart contracts 的[用例](https://moralis.io/use-cases-for-solidity-smart-contracts/)，查看 [ultimate WalletConnect 指南](https://moralis.io/what-is-walletconnect-the-ultimate-walletconnect-guide/)，并探索“[什么是 OpenZeppelin？以及它如何显著加快您的编程过程。](https://moralis.io/what-is-openzeppelin-the-ultimate-guide/)
 
-如果你还不知道 JavaScript，我们建议你报名参加 [2021 区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)课程。此外，如果你真的想让[成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)并成为全职加密员，一定要去看看[道德学院](https://academy.moralis.io/)其他令人难以置信的课程。
+如果你还不知道 JavaScript，我们建议你报名参加 [2021 区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)课程。此外，如果你真的想让[成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)并成为全职加密员，一定要去看看[Moralis 学院](https://academy.moralis.io/)其他令人难以置信的课程。
 
 ![](img/6fd90ad7180829cf67f784faeccc7433.png)***

@@ -11,7 +11,7 @@
 **目录**
 
 *   什么是 DEX(分散交换)？
-*   什么是道德？
+*   什么是 Moralis？
 *   项目设置和安装
 *   Moralis 服务器设置
 *   安装 1 英寸 DEX 插件
@@ -30,7 +30,7 @@
 
 dex 经常用“流动性池”取代传统的交易所订单簿，后者根据订单价格和数量匹配买家和卖家。这些都是隐藏在交易所表面下的加密货币资产，等待清算任何买卖订单。资金池中的投资来自投资者，他们存钱是为了从向资金池用户收取的交易费用中获利。
 
-## **什么是道德？**
+## **什么是 Moralis？**
 
 [Moralis](https://moralis.io/) 是一项服务，汇集了各种工具和资源，用于构建连接到区块链的去中心化软件，如以太坊、多边形、[币安智能链](https://moralis.io/bsc-programming-guide-intro-to-binance-smart-chain-development-in-10-minutes/)(现 BNB 智能链)。
 
@@ -46,7 +46,7 @@ Moralis 也是可控的和无限可扩展的，所以你的 dapps 将毫无困�
 
 ## **Moralis 服务器设置**
 
-让我们从设置我们的 Moralis 服务器开始，因为我们将在下一节中使用它来开发 Uniswap DEX。我们将在我们的道德管理面板上设置一个服务器。如果您还没有帐户，请在此注册一个[。注册很容易，而且可以免费开始。](https://admin.moralis.io/register)
+让我们从设置我们的 Moralis 服务器开始，因为我们将在下一节中使用它来开发 Uniswap DEX。我们将在我们的 Moralis 管理面板上设置一个服务器。如果您还没有帐户，请在此注册一个[。注册很容易，而且可以免费开始。](https://admin.moralis.io/register)
 
 我们将单击创建一个新服务器，如下所示，然后在我们的管理面板上选择 mainnet 服务器:
 

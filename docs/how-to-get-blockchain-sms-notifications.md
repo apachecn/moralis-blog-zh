@@ -10,13 +10,13 @@
 
 **我们鼓励你加入我们这个“如何获得区块链短信通知”的探索，因为我们采取了一个例子项目。通过这样做，你将学会获得区块链短信通知来跟踪连锁事件。后者可由开发团队使用，或用于通知用户 Web3 应用程序。在这个过程中，你将学会如何使用一些非凡的工具。其中包括 Twilio、OneSignal、Remix 和 Moralis。**
 
-**第一个将使我们能够获得一个电话号码发送区块链短信通知。第二个工具将用于发送推送请求。有了 Remix，我们将能够编辑和部署我们的 [Web3 契约](https://moralis.io/what-are-web3-contracts-exploring-smart-contracts/)。最后但同样重要的是，我们将使用 Moralis——当前 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)的顶峰——将所有这些结合在一起。幸运的是，这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”平台提供了处理所有 Web3 后端需求的简洁方法。其中，它可以让你毫不费力地[索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)。此外，有了这个终极的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)，您就拥有了跨链和跨平台的互操作性。因此，[创建您的免费道德账户](https://admin.moralis.io/register)现在就开始吧！**
+**第一个将使我们能够获得一个电话号码发送区块链短信通知。第二个工具将用于发送推送请求。有了 Remix，我们将能够编辑和部署我们的 [Web3 契约](https://moralis.io/what-are-web3-contracts-exploring-smart-contracts/)。最后但同样重要的是，我们将使用 Moralis——当前 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)的顶峰——将所有这些结合在一起。幸运的是，这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”平台提供了处理所有 Web3 后端需求的简洁方法。其中，它可以让你毫不费力地[索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)。此外，有了这个终极的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)，您就拥有了跨链和跨平台的互操作性。因此，[创建您的免费 Moralis 账户](https://admin.moralis.io/register)现在就开始吧！**
 
 **![](img/8ff240c037ad5b0ab9e07cc270310129.png)
 
 ## 如何获得区块链短信通知–示例项目
 
-随着我们向前推进，我们将首先对我们的示例项目做一个快速演示，以查看区块链 SMS 通知的运行情况。这将为你提供一个清晰的画面，从我们的“如何获得区块链短信通知”教程期待什么。在这次预览之后，我们将开放 Remix 并部署我们的“捐赠”智能合约。然后，我们将确保你学会如何完成初始道德设置。后者将是你进入 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 和所有上述 Moralis 特性的门户。接下来，我们将向您展示如何使用 Moralis 的同步功能和数据库，这在发送区块链短信通知中起着至关重要的作用。然后，我们将把您交给 Moralis 的一位专家，他将通过视频教程指导您完成“如何获得区块链短信通知”之旅的剩余步骤(第四步和第五步)。
+随着我们向前推进，我们将首先对我们的示例项目做一个快速演示，以查看区块链 SMS 通知的运行情况。这将为你提供一个清晰的画面，从我们的“如何获得区块链短信通知”教程期待什么。在这次预览之后，我们将开放 Remix 并部署我们的“捐赠”智能合约。然后，我们将确保你学会如何完成初始 Moralis 设置。后者将是你进入 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 和所有上述 Moralis 特性的门户。接下来，我们将向您展示如何使用 Moralis 的同步功能和数据库，这在发送区块链短信通知中起着至关重要的作用。然后，我们将把您交给 Moralis 的一位专家，他将通过视频教程指导您完成“如何获得区块链短信通知”之旅的剩余步骤(第四步和第五步)。
 
 ### 链上事件的区块链短信通知–演示
 
@@ -52,7 +52,7 @@
 
 准备好部署智能合同后，单击“部署”。确保以我们为榜样，使用孟买测试网。你可以使用本文末尾的视频了解更多详情。
 
-#### 区块链短信通知和道德
+#### 区块链短信通知和 Moralis
 
 在这篇“如何获得区块链短信通知”文章的开头，你已经了解了 Moralis 以及它如何满足你的区块链相关的后端需求。您还了解了必须创建一个 Moralis 服务器来利用该平台的能力。因此，我们将把注意力集中在这一步上。然后，我们将能够使用同步和云功能特性。
 
@@ -62,7 +62,7 @@
 
 在“如何获得区块链短信通知”的第二部分，让我们看看如何创建一个 Moralis 服务器。
 
-1.  **登录您的 Moralis 账户**–此时，您可能已经准备好了您的 Moralis 账户。因此，[只需登录](https://admin.moralis.io/login)。然而，如果不是这样，请使用本指南开头所述的“创建您的免费道德账户”链接。
+1.  **登录您的 Moralis 账户**–此时，您可能已经准备好了您的 Moralis 账户。因此，[只需登录](https://admin.moralis.io/login)。然而，如果不是这样，请使用本指南开头所述的“创建您的免费 Moralis 账户”链接。
 
 2.  **创建 Moralis 服务器**–在您的 Moralis 管理区域(“服务器”选项卡)，点击“+ [创建新服务器](https://docs.moralis.io/moralis-dapp/getting-started/create-a-moralis-dapp#2.-create-a-moralis-server)”:
 
@@ -142,7 +142,7 @@ Moralis dashboard 本质上是一个数据库，可用于索引区块链。此�
 
 ### 步骤 4 和 5–Twilio、OneSignal 和 Moralis 的云功能
 
-如上所述，是时候把你的手交给道德专家了。从下面视频的 5:27 开始，他会指导你完成剩下的步骤。首先，他将向您展示如何创建一个合适的云函数(" [CloudFunction.js](https://github.com/IAmJaysWay/Moralis-Blockchain-Notifications/blob/main/CloudFunction.js) ")。此外，您将学习如何在 7:21 使用谷歌电子表格跟踪捐款总额。
+如上所述，是时候把你的手交给 Moralis 专家了。从下面视频的 5:27 开始，他会指导你完成剩下的步骤。首先，他将向您展示如何创建一个合适的云函数(" [CloudFunction.js](https://github.com/IAmJaysWay/Moralis-Blockchain-Notifications/blob/main/CloudFunction.js) ")。此外，您将学习如何在 7:21 使用谷歌电子表格跟踪捐款总额。
 
 接下来，您将了解更多实用的消息工具——Twilio(9:21)和 OneSignal (10:18)。此外，他还将指导您完成这两个工具的初始设置。因此，您可以使用它们来获得区块链短信通知。这两个工具将发挥重要作用；但是，他们需要一些东西将他们与我们的智能合同“联系”起来。在这里，您将学习如何使用云函数来实现这一目的(11:53)。这封信还将使您能够定制您的区块链短信通知的内容。
 
@@ -152,10 +152,10 @@ https://www.youtube.com/watch?v=PEILxU53-Zs
 
 ## 如何获得区块链短信通知–摘要
 
-通过结合我们的说明和上面的视频教程，你有机会在你的 Web3 应用中实现区块链短信通知。我们希望您已经接手了这个示例项目，并学会了如何部署智能合同、使用 Moralis 以及使用其他优秀的工具，如 Twilio 和 OneSignal。此外，如果你喜欢这个示例项目，我们鼓励你访问[道德的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德的博客](https://moralis.io/blog/)。在那里，你会找到大量其他有用的教程和加密主题。
+通过结合我们的说明和上面的视频教程，你有机会在你的 Web3 应用中实现区块链短信通知。我们希望您已经接手了这个示例项目，并学会了如何部署智能合同、使用 Moralis 以及使用其他优秀的工具，如 Twilio 和 OneSignal。此外，如果你喜欢这个示例项目，我们鼓励你访问[Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 的博客](https://moralis.io/blog/)。在那里，你会找到大量其他有用的教程和加密主题。
 
 一些最新的文章演示了如何在你的网站上添加一个 [Web3 连接钱包按钮](https://moralis.io/how-to-add-a-web3-connect-wallet-button-to-your-website/)，[创建一个玩赚游戏](https://moralis.io/how-to-build-a-play-to-earn-p2e-game/)，使用[孟买测试网龙头](https://moralis.io/mumbai-testnet-faucet-how-to-get-free-testnet-matic-tokens/)，[宣称一个游戏内 NFT](https://moralis.io/how-to-claim-an-in-game-nft-full-guide/) ，以及创建一个[币安 NFT](https://moralis.io/how-to-create-a-binance-nft-in-5-steps/) 。还有，它教你需要知道的关于 [Web3 的一切没有元掩码](https://moralis.io/web3-without-metamask-web3-authentication-alternatives/)，[以太坊名称服务](https://moralis.io/what-is-ethereum-name-service-full-ens-guide/) (ENS)，它回答了“[什么是 Web2 和 Web3](https://moralis.io/what-is-web2-and-web3-explaining-web3/) ？”问题！
 
-无论你是想[打造你的第一个 dapp](https://moralis.io/build-your-first-dapp-ethereum-tutorial/) 、[打造你自己的 ERC-20 token](https://moralis.io/how-to-create-your-own-erc-20-token-in-10-minutes/) ，还是一头扎进 [Unity Web3](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/) ，以上两个出口都有你涵盖。而且，你可以利用这两个平台[成为 Web3 开发者](https://moralis.io/how-to-become-a-web3-developer-full-guide/)。但是，如果你渴望尽快成为全职加密员，你应该采取更专业的方法。在这种情况下，考虑报名参加[道德学院](https://academy.moralis.io/)，那里顶尖的[区块链发展课程](https://academy.moralis.io/all-courses)等着你。除了高质量的在线课程，您还将获得个性化的学习路径、专家指导以及业内最不可思议的社区之一的会员资格。有了这些，Moralis Academy 能让你[快速自信地成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)。
+无论你是想[打造你的第一个 dapp](https://moralis.io/build-your-first-dapp-ethereum-tutorial/) 、[打造你自己的 ERC-20 token](https://moralis.io/how-to-create-your-own-erc-20-token-in-10-minutes/) ，还是一头扎进 [Unity Web3](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/) ，以上两个出口都有你涵盖。而且，你可以利用这两个平台[成为 Web3 开发者](https://moralis.io/how-to-become-a-web3-developer-full-guide/)。但是，如果你渴望尽快成为全职加密员，你应该采取更专业的方法。在这种情况下，考虑报名参加[Moralis 学院](https://academy.moralis.io/)，那里顶尖的[区块链发展课程](https://academy.moralis.io/all-courses)等着你。除了高质量的在线课程，您还将获得个性化的学习路径、专家指导以及业内最不可思议的社区之一的会员资格。有了这些，Moralis Academy 能让你[快速自信地成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)。
 
 ![](img/0726cddbad7159741d485db403dfd605.png)**

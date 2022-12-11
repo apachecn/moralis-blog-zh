@@ -24,7 +24,7 @@
 
 要获得 Moralis 的完整后端功能，您需要创建一个 Moralis 服务器。后者对于同步和索引智能合约事件也是必不可少的。因此，下面是要遵循的步骤:
 
-1.  [**创建一个免费的道德家账户**](https://admin.moralis.io/register)——点击链接创建你的免费道德家账户。只需输入您的电子邮件地址并创建您的密码。然后，通过确认您的帐户完成该过程(单击发送给您的电子邮件中的确认链接)。如果你已经有了你的道德账户，只需[登录](https://admin.moralis.io/login)。
+1.  [**创建一个免费的 Moralis 家账户**](https://admin.moralis.io/register)——点击链接创建你的免费 Moralis 家账户。只需输入您的电子邮件地址并创建您的密码。然后，通过确认您的帐户完成该过程(单击发送给您的电子邮件中的确认链接)。如果你已经有了你的 Moralis 账户，只需[登录](https://admin.moralis.io/login)。
 
 [**创建一个 Moralis 服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)——登录后，您将进入您的 Moralis 管理区。从那里，选择“服务器”选项卡(如下图所示)。然后，点击右上角的“+创建新服务器”。接下来，从下拉菜单中选择网络类型。由于 CryptoPunks 是一个活项目，所以选择“Mainnet 服务器”选项。*然而，在处理示例项目时，我们建议选择“Testnet 服务器”选项(使用我们的* [*以太坊 testnet*](https://moralis.io/ethereum-testnet-guide-connect-to-ethereum-testnets/) *指南)*。
 
@@ -156,9 +156,9 @@ https://www.youtube.com/watch?v=LMqqxkuo7b0
 
 ## 同步和索引智能合约事件的完整指南—摘要
 
-我们希望您已经完成了上述所有步骤，现在知道如何使用 Moralis 同步和索引智能合同事件。只需要几个简单的任务，从创建 Moralis 服务器和添加一个新的 sync 实例开始。此外，由于公开可用的链上数据，您可以使用 Etherscan 轻松获得所有需要的详细信息(当使用以太坊时)。此外，一旦正确设置了同步，您和您的 dApps 就可以在 Moralis dashboard 中使用所有数据。然而，这仅仅是开始；现在轮到你使用道德的力量和部署非凡的 dApps！
+我们希望您已经完成了上述所有步骤，现在知道如何使用 Moralis 同步和索引智能合同事件。只需要几个简单的任务，从创建 Moralis 服务器和添加一个新的 sync 实例开始。此外，由于公开可用的链上数据，您可以使用 Etherscan 轻松获得所有需要的详细信息(当使用以太坊时)。此外，一旦正确设置了同步，您和您的 dApps 就可以在 Moralis dashboard 中使用所有数据。然而，这仅仅是开始；现在轮到你使用 Moralis 的力量和部署非凡的 dApps！
 
-展望未来，如果你想进一步拓展你的区块链视野，我们建议你访问[道德的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德的博客](https://moralis.io/blog/)。在那里你会发现很多教育内容，包括多个范例项目。例如，你可以学习如何[构建一个去中心化的消息应用](https://moralis.io/build-a-decentralized-messaging-app-in-5-steps/)、[创建一个 OpenSea 克隆](https://moralis.io/create-an-opensea-clone-build-an-nft-marketplace-like-opensea/)、 [mint NFTs 无汽油费](https://moralis.io/how-to-mint-nfts-without-gas-fees/)，为 Web3 创建一个 [Reddit 克隆](https://moralis.io/create-a-reddit-clone-for-web3-step-by-step-guide/)，如何[用一行代码发送以太坊交易](https://moralis.io/ethereum-send-transaction-basics-send-ethereum-with-one-line-of-code/)，熟悉终极[以太坊 iOS 开发工具包](https://moralis.io/the-ultimate-ethereum-ios-dev-kit/)，学习使用终极 [Web3 样板](https://moralis.io/web3-boilerplate-beginners-guide-to-web3/)等等
+展望未来，如果你想进一步拓展你的区块链视野，我们建议你访问[Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 的博客](https://moralis.io/blog/)。在那里你会发现很多教育内容，包括多个范例项目。例如，你可以学习如何[构建一个去中心化的消息应用](https://moralis.io/build-a-decentralized-messaging-app-in-5-steps/)、[创建一个 OpenSea 克隆](https://moralis.io/create-an-opensea-clone-build-an-nft-marketplace-like-opensea/)、 [mint NFTs 无汽油费](https://moralis.io/how-to-mint-nfts-without-gas-fees/)，为 Web3 创建一个 [Reddit 克隆](https://moralis.io/create-a-reddit-clone-for-web3-step-by-step-guide/)，如何[用一行代码发送以太坊交易](https://moralis.io/ethereum-send-transaction-basics-send-ethereum-with-one-line-of-code/)，熟悉终极[以太坊 iOS 开发工具包](https://moralis.io/the-ultimate-ethereum-ios-dev-kit/)，学习使用终极 [Web3 样板](https://moralis.io/web3-boilerplate-beginners-guide-to-web3/)等等
 
 另一方面，如果你还不精通 JavaScript，并且想成为全职的加密专家，一定要访问 [Moralis Academy](https://academy.moralis.io/) 。
 

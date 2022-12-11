@@ -4,9 +4,9 @@
 
 Unity 是创建任何类型游戏的最佳跨平台游戏引擎之一，尤其是 [**Web3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) **游戏。即使你已经习惯了 Web2 编程，现在也是一个深入研究 Unity Web3** **开发的绝佳时机。幸运的是，有了正确的工具，这种转变可以顺利进行。然而，无论我们关注哪个“网络时代”(Web2/Web3)，与数据库通信的能力都是至关重要的。但是，因为我们专门研究 Web3，所以我们在这里将重点关注 Unity 和 Web3 数据库之间的连接。**
 
-无论你想知道[如何存储链外数据](https://moralis.io/how-to-store-off-chain-data-unity-web3-database/)或处理链上数据，Moralis 的仪表板都会支持你。接下来，您将了解 Moralis 如何使您能够与 Web3 数据库进行通信。有了[道德观](https://moralis.io/)，你就可以[毫不费力地索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)。此外，这个终极的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)允许您高效地检索和保存新数据。
+无论你想知道[如何存储链外数据](https://moralis.io/how-to-store-off-chain-data-unity-web3-database/)或处理链上数据，Moralis 的仪表板都会支持你。接下来，您将了解 Moralis 如何使您能够与 Web3 数据库进行通信。有了[Moralis 观](https://moralis.io/)，你就可以[毫不费力地索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)。此外，这个终极的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)允许您高效地检索和保存新数据。
 
-在接下来的章节中，您将学习如何覆盖初始的 Moralis 设置，这是访问 [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 的关键。此外，我们将向您展示将 Unity 与 [Moralis 的元宇宙 SDK](https://moralis.io/metaverse/) 连接起来是多么容易。在介绍了初始设置之后，我们将关注示例项目的细节。后者将清楚地演示如何与 Web3 数据库进行通信，而不需要花费太多精力或金钱。因此，你将能够进一步发展你的 Web3 游戏。例如，你将能够[同步和索引智能合同事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/)来实现各种功能。因此，你将没有问题纳入不同的[元宇宙智能合同](https://moralis.io/metaverse-smart-contract-how-to-build-a-metaverse-game-smart-contract/)的例子。那么，你准备好学习如何与 Web3 数据库通信了吗？如果是这样，请务必现在[创建您的免费道德账户](https://admin.moralis.io/register)。您将需要它来承担即将到来的示例项目。
+在接下来的章节中，您将学习如何覆盖初始的 Moralis 设置，这是访问 [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 的关键。此外，我们将向您展示将 Unity 与 [Moralis 的元宇宙 SDK](https://moralis.io/metaverse/) 连接起来是多么容易。在介绍了初始设置之后，我们将关注示例项目的细节。后者将清楚地演示如何与 Web3 数据库进行通信，而不需要花费太多精力或金钱。因此，你将能够进一步发展你的 Web3 游戏。例如，你将能够[同步和索引智能合同事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/)来实现各种功能。因此，你将没有问题纳入不同的[元宇宙智能合同](https://moralis.io/metaverse-smart-contract-how-to-build-a-metaverse-game-smart-contract/)的例子。那么，你准备好学习如何与 Web3 数据库通信了吗？如果是这样，请务必现在[创建您的免费 Moralis 账户](https://admin.moralis.io/register)。您将需要它来承担即将到来的示例项目。
 
 ![](img/9a5f8ecc34157019a338dfa3f37c3ef4.png)
 
@@ -62,25 +62,25 @@ Unity 是创建任何类型游戏的最佳跨平台游戏引擎之一，尤其�
 
 ![](img/8f73974c4f22a64ca0eecf572de24247.png)
 
-在上面的截图中，你可以看到“Main”里面有两个预置。这些是“道德设置”和“WalletConnect”。当涉及到访问 Web3 功能时，它们都是至关重要的。但是，我们将特别关注“道德设置”，因为这是我们需要输入具体细节的地方。为了获得这些细节，我们需要完成初始的 Moralis 设置。
+在上面的截图中，你可以看到“Main”里面有两个预置。这些是“Moralis 设置”和“WalletConnect”。当涉及到访问 Web3 功能时，它们都是至关重要的。但是，我们将特别关注“Moralis 设置”，因为这是我们需要输入具体细节的地方。为了获得这些细节，我们需要完成初始的 Moralis 设置。
 
 ### 连接 Web3 数据库的关键
 
-现在是选择“道德设置”预设的时候了——只需在层级中点击“道德设置”。通过这样做，你将会看到有问题的预置的细节。后者将显示在右侧的“检查器”选项卡中。接下来，看看“道德控制器”部分。在这里，您会看到两个输入字段——“Moralis 服务器 URI”和“Moralis 应用程序 ID”:
+现在是选择“Moralis 设置”预设的时候了——只需在层级中点击“Moralis 设置”。通过这样做，你将会看到有问题的预置的细节。后者将显示在右侧的“检查器”选项卡中。接下来，看看“Moralis 控制器”部分。在这里，您会看到两个输入字段——“Moralis 服务器 URI”和“Moralis 应用程序 ID”:
 
 ![](img/5bd8a10e40ac620b5a50083c2e374678.png)
 
-因此，您需要从 Moralis 获得服务器 URL 和应用程序 ID，以便与 Web3 数据库通信。因此，这是涵盖初始道德设置的线索。
+因此，您需要从 Moralis 获得服务器 URL 和应用程序 ID，以便与 Web3 数据库通信。因此，这是涵盖初始 Moralis 设置的线索。
 
-#### 初始道德设置
+#### 初始 Moralis 设置
 
 每当您想从头开始创建 dapps 或使用 Moralis 的 [Web3 样板文件](https://moralis.io/web3-boilerplate-beginners-guide-to-web3/)时，您需要完成初始的 Moralis 设置:
 
-1.  **登录您的 Moralis 账户**–此时，您很可能已经拥有了免费的 Moralis 账户。如此，[登录](https://admin.moralis.io/login)。*然而，如果你还没有创建一个道德账户，点击本文开头提到的“创建你的免费道德账户”链接。登录注册页面后，输入您的电子邮件，创建您的密码，然后单击“下一步”。然后，点击确认链接，完成整个流程，确认链接将发送到您的电子邮件收件箱。*
+1.  **登录您的 Moralis 账户**–此时，您很可能已经拥有了免费的 Moralis 账户。如此，[登录](https://admin.moralis.io/login)。*然而，如果你还没有创建一个 Moralis 账户，点击本文开头提到的“创建你的免费 Moralis 账户”链接。登录注册页面后，输入您的电子邮件，创建您的密码，然后单击“下一步”。然后，点击确认链接，完成整个流程，确认链接将发送到您的电子邮件收件箱。*
 
 ![](img/deb9a6fc1aff2dd9a9261b8f6dafb577.png)
 
-2.  [**创建一个 Moralis 服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)——登录您的 Moralis 管理区后，进入“服务器”选项卡。在那里，单击“+创建新服务器”。*如果你是道德家的新手，你将能够跟上页面上的教程:*
+2.  [**创建一个 Moralis 服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)——登录您的 Moralis 管理区后，进入“服务器”选项卡。在那里，单击“+创建新服务器”。*如果你是 Moralis 家的新手，你将能够跟上页面上的教程:*
 
 ![](img/4598efd647de36ace13266bed3f5063c.png)
 
@@ -134,6 +134,6 @@ https://www.youtube.com/watch?v=ypbXe91CTkA
 
 然而，如果你有兴趣探索其他话题，那么 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)是值得一去的地方。一些最新的文章向您展示了如何[通过](https://moralis.io/how-to-reduce-solidity-gas-costs-full-guide/)[气体优化降低](https://moralis.io/gas-optimizations-in-solidity-top-tips/)气体成本，[如何创建以太坊 NFT](https://moralis.io/how-to-create-an-ethereum-nft-full-guide/) ，[如何在 2022 年进入 Web3](https://moralis.io/how-to-get-into-web3-in-2022/)，[如何创建 2D Web3 游戏](https://moralis.io/how-to-build-a-2d-web3-game-full-guide%ef%bf%bc/)，如何[创建 web 3 音乐流媒体服务](https://moralis.io/web3-music-platform-create-a-web3-music-streaming-service/)等等。
 
-尽管如此，如果你想立刻成为一名 Web3 开发者，考虑报名参加 T2 道德学院，学习从 T4 智能合同审计到区块链基础知识的所有知识。
+尽管如此，如果你想立刻成为一名 Web3 开发者，考虑报名参加 T2 Moralis 学院，学习从 T4 智能合同审计到区块链基础知识的所有知识。
 
 ![](img/d2ad9ab0f82bca531220272b7707c1ec.png)

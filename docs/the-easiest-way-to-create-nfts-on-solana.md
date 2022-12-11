@@ -4,7 +4,7 @@
 
 谈到 NFT 开发，Solana 提供了一些很棒的工具。例如，使用 Metaplex 的糖果机，您可以在几分钟内在 Solana 上创建 NFT！反过来，使用这种替代方法是在 Solana 网络上创建不可替换令牌的最简单方法之一。如果你想探索这个过程，请继续阅读！除了在 Solana 上轻松创建 NFT 之外，我们还将看看 Moralis——最终的 Web3 API 提供者——如何进一步推进您的开发工作。毕竟，Moralis 的企业级 NFT API 使得在任何项目中使用 NFTs 变得简单明了！
 
-由于许多人不熟悉什么是 NFT 以及它们是如何工作的，我们将从介绍一些基础知识开始这篇文章。因此，您将有机会了解 NFTs 和 Solana 的发展趋势。我们还将解释为什么这个链提供了创建 NFT 的最简单的方法，以及为什么它是 NFT 项目的优秀网络。然后，我们将专注于一步一步的教程，演示在 Solana 上创建 NFT 的最简单的方法。因此，您将学习如何使用 Candy Machine v2 在 Solana 上铸造不可替换的令牌。当然，如果你已经掌握了基础知识，可以直接进入今天的教程。此外，如果你想创建能够轻松利用 NFTs 的 dapps，请确保[创建你的免费道德账户](https://admin.moralis.io/register)。
+由于许多人不熟悉什么是 NFT 以及它们是如何工作的，我们将从介绍一些基础知识开始这篇文章。因此，您将有机会了解 NFTs 和 Solana 的发展趋势。我们还将解释为什么这个链提供了创建 NFT 的最简单的方法，以及为什么它是 NFT 项目的优秀网络。然后，我们将专注于一步一步的教程，演示在 Solana 上创建 NFT 的最简单的方法。因此，您将学习如何使用 Candy Machine v2 在 Solana 上铸造不可替换的令牌。当然，如果你已经掌握了基础知识，可以直接进入今天的教程。此外，如果你想创建能够轻松利用 NFTs 的 dapps，请确保[创建你的免费 Moralis 账户](https://admin.moralis.io/register)。
 
 ![](img/cadbf96838ff62e65d26c970f3f9881e.png)
 
@@ -140,6 +140,6 @@ solana balance
 
 在今天的文章中，您有机会了解了创建 NFT 的最简单方法。我们首先解释了基础知识，在这里您了解了什么是 NFT 及其主要组件。我们还确保您知道 Solana 是什么，以及为什么它是创建 NFT 的流行网络。因此，你会发现它的速度、低廉的油费和一些优秀的工具是 NFT 开发商开发 Solana 的主要原因。此外，在这里您了解到 Metaplex 的 Candy Machine 是一个工具，它使在 Solana 上创建 NFT 变得相对简单。最后但同样重要的是，您有机会跟随我们的领导，在 Solana devnet 上创建您自己的示例 NFT。
 
-无论你是想更深入地了解索拉纳的发展，还是想探索 NFT 在其他方面的发展，道德的 YouTube 频道和 T2 的道德博客都是值得探索的地方。这些是支持你的免费和持续的加密教育的平台。例如，我们最近的一些话题集中在[跨链桥接](https://moralis.io/cross-chain-bridging-deep-dive/)、[在 Solana 上编程智能合约](https://moralis.io/how-to-program-smart-contracts-and-implement-them-on-solana/)、[上传文件到 IPFS](https://moralis.io/how-to-upload-files-to-ipfs-full-guide/) 、[在 Solana 上铸造硬币](https://moralis.io/how-to-mint-a-coin-on-solana-in-5-steps/)等等。
+无论你是想更深入地了解索拉纳的发展，还是想探索 NFT 在其他方面的发展，Moralis 的 YouTube 频道和 T2 的 Moralis 博客都是值得探索的地方。这些是支持你的免费和持续的加密教育的平台。例如，我们最近的一些话题集中在[跨链桥接](https://moralis.io/cross-chain-bridging-deep-dive/)、[在 Solana 上编程智能合约](https://moralis.io/how-to-program-smart-contracts-and-implement-them-on-solana/)、[上传文件到 IPFS](https://moralis.io/how-to-upload-files-to-ipfs-full-guide/) 、[在 Solana 上铸造硬币](https://moralis.io/how-to-mint-a-coin-on-solana-in-5-steps/)等等。
 
-另一方面，你也可以采取更专业的方式来接受区块链发展教育。在这种情况下，报名参加道德学院可能是你的正确道路。而且，如果你想成为一名 Solana 程序员，那就从“ [Solana 编程 101](https://academy.moralis.io/courses/solana-programming-101) 课程开始吧。
+另一方面，你也可以采取更专业的方式来接受区块链发展教育。在这种情况下，报名参加 Moralis 学院可能是你的正确道路。而且，如果你想成为一名 Solana 程序员，那就从“ [Solana 编程 101](https://academy.moralis.io/courses/solana-programming-101) 课程开始吧。

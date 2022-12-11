@@ -6,7 +6,7 @@
 
 Moralis 是跨平台互操作的，允许您将其功能与所有领先的 Web2 开发平台相结合。此外，通过 Moralis 的 Web3 API，您可以用简短的代码片段覆盖区块链后端功能。反过来，这将节省您的时间和资源，因此您可以专注于创建最好的前端。此外，通过 Moralis 的跨链互操作性，您可以将 dapps 连接到 Cronos 和其他链，如 Ethereum、Solana 和 Moralis 支持的所有其他领先的 EVM 兼容链。事实上，您可以使用相同的代码行，稍加修改，就可以在许多链上部署您的 dapps。因此，这也是你工作的未来证明。
 
-考虑到这一点，你可以放松地知道，当你用道德将 dapp 与 Cronos 联系起来时，事情并不是一成不变的。您可以随时连接到其他受支持的链。然而，Cronos 是一个具有巨大潜力的可靠链。因此，请务必[创建您的免费 Moralis 帐户](https://admin.moralis.io/register),并跟随我们学习如何将 dapps 连接到 Cronos。
+考虑到这一点，你可以放松地知道，当你用 Moralis 将 dapp 与 Cronos 联系起来时，事情并不是一成不变的。您可以随时连接到其他受支持的链。然而，Cronos 是一个具有巨大潜力的可靠链。因此，请务必[创建您的免费 Moralis 帐户](https://admin.moralis.io/register),并跟随我们学习如何将 dapps 连接到 Cronos。
 
 ![Join Moralis Discord and Moralis Magazine.](img/5b5266e0abc11c1628c3fce7a7df4acc.png)
 
@@ -127,7 +127,7 @@ Cronos 网络于 2021 年推出。从那时起，它就与 Crypto.org 区块链�
 
 ![](img/62b5856c758752730ce8ba9fa747911f.png)
 
-一旦你有了你的帐户，用你的凭证登录进入你的道德管理区。从那里，您将能够通过这两个简单的步骤获得您的 Web3 API 密钥:
+一旦你有了你的帐户，用你的凭证登录进入你的 Moralis 管理区。从那里，您将能够通过这两个简单的步骤获得您的 Web3 API 密钥:
 
 ![Moralis' admin panel showing developers Web3 API key, which they need to connect dapps to Cronos.](img/98a6c5cb5ac19d94b72206d7f0cca914.png)
 

@@ -30,7 +30,7 @@
 
 如前所述，是时候进行一个示例项目了，它将使您能够通过五个步骤构建自己的分散式消息传递应用程序。当然，为了给你分解事情，我们把这五个主要步骤分成了简单的子步骤，你可以随着我们的进展来完成。通过这样做，您将了解如何使用以太坊移动样板并添加必要的功能，以实现一个分散的消息传递应用程序。这是我们需要完成的五个步骤:
 
-1.  **道德设置**
+1.  **Moralis 设置**
 2.  **以太坊移动样板快速入门和初始代码调整**
 3.  **添加发送功能**
 4.  **启用已发送信息的显示**
@@ -44,7 +44,7 @@
 
 通过创建 Moralis 服务器，您可以获得其完整的后端功能。而且，这一步也是使用以太坊移动样板必不可少的。以下是您需要遵循的步骤:
 
-1.  [**创建一个免费的 Moralis 账户**](https://admin.moralis.io/register)——点击该链接，您将通过输入您的电子邮件和密码来创建您的免费账户。您还需要通过单击发送给您的电子邮件中的确认链接来确认您的帐户。然而，如果你已经创建了你的道德账户，只需[登录](https://admin.moralis.io/login)。
+1.  [**创建一个免费的 Moralis 账户**](https://admin.moralis.io/register)——点击该链接，您将通过输入您的电子邮件和密码来创建您的免费账户。您还需要通过单击发送给您的电子邮件中的确认链接来确认您的帐户。然而，如果你已经创建了你的 Moralis 账户，只需[登录](https://admin.moralis.io/login)。
 
 [**创建一个 Moralis 服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)–进入 Moralis 管理区域后，选择“服务器”选项卡(如下图所示)。接下来，单击右上角的“+创建新服务器”按钮，并从下拉菜单中选择网络类型。当处理示例项目时，我们建议选择“Testnet 服务器”选项(查看我们的[以太坊 testnet](https://moralis.io/ethereum-testnet-guide-connect-to-ethereum-testnets/) 指南)。然而，当你想让你的 Web3 应用上线时，你需要选择“Mainnet 服务器”。
 
@@ -62,7 +62,7 @@
 
 ![](img/f3ba4b3edcc6187d158e13f7083ed649.png)
 
-**初始化道德规范**–*注意:进入下一步，稍后完成此步骤。*一旦您克隆了以太坊移动样板文件，您将会在。env”文件，以获得 Moralis 的 SDK 提供的全部后端功能。
+**初始化 Moralis 规范**–*注意:进入下一步，稍后完成此步骤。*一旦您克隆了以太坊移动样板文件，您将会在。env”文件，以获得 Moralis 的 SDK 提供的全部后端功能。
 
 ![](img/d1f12b6831ba295868f18f5044c5096d.png)
 
@@ -70,7 +70,7 @@
 
 ### 第二步:移动样板快速入门
 
-如前所述，道德和我们的移动 dApp 样板都是关于简单和速度。因此，开始使用这两种工具非常简单。此外，现在您已经准备好了 Moralis 服务器，是时候完成下面的快速入门部分了:
+如前所述，Moralis 和我们的移动 dApp 样板都是关于简单和速度。因此，开始使用这两种工具非常简单。此外，现在您已经准备好了 Moralis 服务器，是时候完成下面的快速入门部分了:
 
 ![](img/a4e7f62d6884837bd02e00ada5c47704.png)
 
@@ -318,14 +318,14 @@ https://www.youtube.com/watch?v=5HIsa26LnYY
 
 以下是构建分散式消息应用程序必须完成的五个步骤:
 
-1.  **道德规范设置。**
+1.  **Moralis 规范设置。**
 2.  以太坊移动样板快速启动和初始代码调整。
 3.  **增加发送功能。**
 4.  **显示已发送的信息。**
 5.  **增加“打字”功能。**
 
-如果你对这里的示例项目感兴趣，我们鼓励你访问[道德的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德的博客](https://moralis.io/blog/)。后者也是了解区块链发展各种概念的好地方。例如，我们的一些最新文章向您展示了如何[创建一个 OpenSea 克隆](https://moralis.io/create-an-opensea-clone-build-an-nft-marketplace-like-opensea/)，如何[在没有汽油费的情况下创建 NFT](https://moralis.io/how-to-mint-nfts-without-gas-fees/)，如何[为 Web3 创建一个 Reddit 克隆](https://moralis.io/create-a-reddit-clone-for-web3-step-by-step-guide/)，如何[用一行代码发送以太坊交易](https://moralis.io/ethereum-send-transaction-basics-send-ethereum-with-one-line-of-code/)，如何[创建懒惰的 NFT](https://moralis.io/how-to-lazy-mint-nfts/)，等等。
+如果你对这里的示例项目感兴趣，我们鼓励你访问[Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 的博客](https://moralis.io/blog/)。后者也是了解区块链发展各种概念的好地方。例如，我们的一些最新文章向您展示了如何[创建一个 OpenSea 克隆](https://moralis.io/create-an-opensea-clone-build-an-nft-marketplace-like-opensea/)，如何[在没有汽油费的情况下创建 NFT](https://moralis.io/how-to-mint-nfts-without-gas-fees/)，如何[为 Web3 创建一个 Reddit 克隆](https://moralis.io/create-a-reddit-clone-for-web3-step-by-step-guide/)，如何[用一行代码发送以太坊交易](https://moralis.io/ethereum-send-transaction-basics-send-ethereum-with-one-line-of-code/)，如何[创建懒惰的 NFT](https://moralis.io/how-to-lazy-mint-nfts/)，等等。
 
-另一方面，如果你还不知道 JavaScript，我们建议你报名参加 Moralis Academy 的 [2021 区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)课程。这样，您将学习这种实用的通用语言，以及如何在加密领域中最好地使用它。此外，一定要去看看[道德学院](https://academy.moralis.io/)的其他有价值的课程。他们将为你提供全职加密所需的知识。
+另一方面，如果你还不知道 JavaScript，我们建议你报名参加 Moralis Academy 的 [2021 区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)课程。这样，您将学习这种实用的通用语言，以及如何在加密领域中最好地使用它。此外，一定要去看看[Moralis 学院](https://academy.moralis.io/)的其他有价值的课程。他们将为你提供全职加密所需的知识。
 
 ![](img/50ef7eea21511a2b533506486e130f24.png)

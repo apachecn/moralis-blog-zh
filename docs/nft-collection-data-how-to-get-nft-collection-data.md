@@ -12,7 +12,7 @@ const response = await Moralis.EvmApi.nft.getNFTContractMetadata({address,});
 const response = await Moralis.EvmApi.nft.getContractNFTs({address,});
 ```
 
-“ *getNFTContractMetadata* ”和“ *getContractNFTs* ”端点是 Moralis 的终极 [NFT API](https://moralis.io/nft-api/) 的一部分。如果您以前使用过 [Moralis](https://moralis.io/) 并且精通 JavaScript，您很可能知道如何利用上面的代码行来获取 NFT 收集的数据。另一方面，这可能是你第一次和道德家一起竞技。在这种情况下，您应该完成这个循序渐进的教程。你只需要创建你的免费道德帐户，并遵循我们的领导！
+“ *getNFTContractMetadata* ”和“ *getContractNFTs* ”端点是 Moralis 的终极 [NFT API](https://moralis.io/nft-api/) 的一部分。如果您以前使用过 [Moralis](https://moralis.io/) 并且精通 JavaScript，您很可能知道如何利用上面的代码行来获取 NFT 收集的数据。另一方面，这可能是你第一次和 Moralis 家一起竞技。在这种情况下，您应该完成这个循序渐进的教程。你只需要创建你的免费 Moralis 帐户，并遵循我们的领导！
 
 ![Unlock the Power of Blockchain with Moralis](img/776315699d4da3e5c69ca048fbcedf78.png)[**Sign Up with Moralis and Unlock the Power of Blockchain**](https://admin.moralis.io/register)
 
@@ -22,7 +22,7 @@ NFTs 仍然是最受欢迎的区块链用例之一。它们提供了无数的机
 
 ![User looking at a digital painting that says NFT Collection Data.](img/963ce6dbc19c6595e5d4fe3a7d73b4af.png)
 
-接下来，我们将首先解释什么是 NFT 集合数据，以及 NFT 集合存储是什么类型的数据。然后，我们将仔细研究 NFT 收藏的终极数据工具 Moralis Web3 API。在这里，您将更好地熟悉道德 NFT API 和" *getNFTContractMetadata* "和" *getContractNFTs* "端点。虽然这是获取 NFT 收集数据的两个核心工具，但你可以利用 Moralis 的 [Web3 基础设施](https://moralis.io/web3-infrastructure-exploring-the-best-solution-for-web3-development/)解决方案做得更好。例如，您可以使用 [Web3 streams](https://web3streams.com/) ，这使您能够创建[以太坊 webhooks](https://moralis.io/ethereum-webhooks-what-they-are-and-how-to-use-webhooks-for-ethereum/) 来毫不费力地将链上事件直接传输到您的后端。此外，您还希望使用 Moralis 的 [Auth API](https://moralis.io/authentication/) 为您的 dapp 配备 Web3 身份验证。
+接下来，我们将首先解释什么是 NFT 集合数据，以及 NFT 集合存储是什么类型的数据。然后，我们将仔细研究 NFT 收藏的终极数据工具 Moralis Web3 API。在这里，您将更好地熟悉 Moralis NFT API 和" *getNFTContractMetadata* "和" *getContractNFTs* "端点。虽然这是获取 NFT 收集数据的两个核心工具，但你可以利用 Moralis 的 [Web3 基础设施](https://moralis.io/web3-infrastructure-exploring-the-best-solution-for-web3-development/)解决方案做得更好。例如，您可以使用 [Web3 streams](https://web3streams.com/) ，这使您能够创建[以太坊 webhooks](https://moralis.io/ethereum-webhooks-what-they-are-and-how-to-use-webhooks-for-ethereum/) 来毫不费力地将链上事件直接传输到您的后端。此外，您还希望使用 Moralis 的 [Auth API](https://moralis.io/authentication/) 为您的 dapp 配备 Web3 身份验证。
 
 一旦您知道了上述两个端点接受什么参数以及如何测试它们，您就可以开始今天的教程了。当然，您可以在同一个脚本中组合这两个端点。然而，为了清楚起见，我们将向您展示如何使用" *getContractNFTs* "端点。毕竟后者为你提供了更多的细节。
 
@@ -99,9 +99,9 @@ Moralis 是 NFT 集合的终极数据工具，特别是由于“ *getNFTContract
 
 ****![Wizard pointing at a billboard that states How to Get NFT Collection Data.](img/76343a896188524cb8025b1339ecfdd7.png)
 
-### 步骤 1–建立道德观
+### 步骤 1–建立 Moralis 观
 
-您需要一个 Moralis 帐户来访问终极 Web3 API 的功能。因此，如果你还没有这样做，创建你的免费道德账户。然后，您将能够访问您的 Moralis 管理区并获得您的 Web3 API 密钥:
+您需要一个 Moralis 帐户来访问终极 Web3 API 的功能。因此，如果你还没有这样做，创建你的免费 Moralis 账户。然后，您将能够访问您的 Moralis 管理区并获得您的 Web3 API 密钥:
 
 ![Step 1, click on the Web3 APIs button. Step 2, copy the API key.](img/12c40fbaee9db56e0a906682e84d31a6.png)
 
@@ -235,6 +235,6 @@ node index.js
 
 知道如何获得 NFT 收集数据可能是有益的。毕竟，NFT 在许多 dapps 中扮演着重要的角色。有了这里获得的知识，你可以建立 NFT 投资组合追踪器、NFT 门控网站、Dao、社交图和许多其他类型的 NFT dapp。因此，我们强烈建议您使用 Moralis 文档来创建您的第一个 dapp。最好的事情是，您可以使用您最喜欢的遗留开发工具来这样做。
 
-另一方面，您可能有兴趣探索其他区块链发展主题。在这种情况下，一定要访问[道德伦理 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德伦理博客](https://moralis.io/blog/)。例如，一些最新的主题教你如何[获得钱包余额](https://moralis.io/get-wallet-balance-how-to-get-wallets-native-crypto-balance/)，如何[获得 NFT 元数据](https://moralis.io/get-nft-metadata-how-to-get-the-metadata-of-an-nft/)，[集成 WalletConnect 模态和二维码](https://moralis.io/how-to-integrate-the-walletconnect-modal-and-qr-code/)，等等。
+另一方面，您可能有兴趣探索其他区块链发展主题。在这种情况下，一定要访问[Moralis 伦理 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 伦理博客](https://moralis.io/blog/)。例如，一些最新的主题教你如何[获得钱包余额](https://moralis.io/get-wallet-balance-how-to-get-wallets-native-crypto-balance/)，如何[获得 NFT 元数据](https://moralis.io/get-nft-metadata-how-to-get-the-metadata-of-an-nft/)，[集成 WalletConnect 模态和二维码](https://moralis.io/how-to-integrate-the-walletconnect-modal-and-qr-code/)，等等。
 
-当然，你也可以采取更专业的方式来接受加密教育，并获得区块链认证。在这种情况下，你应该报名参加道德学院，向成为网络 3 专家迈出第一步。“[区块链&比特币 101](https://academy.moralis.io/courses/blockchain-bitcoin-101) 课程是一个很好的起点。****
+当然，你也可以采取更专业的方式来接受加密教育，并获得区块链认证。在这种情况下，你应该报名参加 Moralis 学院，向成为网络 3 专家迈出第一步。“[区块链&比特币 101](https://academy.moralis.io/courses/blockchain-bitcoin-101) 课程是一个很好的起点。****

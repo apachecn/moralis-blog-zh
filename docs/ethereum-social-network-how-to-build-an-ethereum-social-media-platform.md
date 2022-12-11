@@ -66,15 +66,15 @@
 
 ![](img/d55eced0ee12d8b1b57221bb73a9f516.png)
 
-上面的图片和解释涵盖了我们以太坊社交网络的主旨。如果你喜欢这个社交媒体平台，并想学习如何建立自己的以太坊社交网络，那么继续下一部分。在这里，我们将首先帮助您设置工具。然后，我们将让 Moralis 的一位专家接手，通过视频教程指导您了解细节。此外，由于我们现在将开始使用最终的 Web3 开发平台(又名 [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) )，请确保在继续之前[创建您的免费道德账户](https://admin.moralis.io/register)。
+上面的图片和解释涵盖了我们以太坊社交网络的主旨。如果你喜欢这个社交媒体平台，并想学习如何建立自己的以太坊社交网络，那么继续下一部分。在这里，我们将首先帮助您设置工具。然后，我们将让 Moralis 的一位专家接手，通过视频教程指导您了解细节。此外，由于我们现在将开始使用最终的 Web3 开发平台(又名 [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) )，请确保在继续之前[创建您的免费 Moralis 账户](https://admin.moralis.io/register)。
 
 ![](img/642afd6234f8324d1673ed8a71e9ee0f.png)
 
-## 用道德创造以太坊社交网络
+## 用 Moralis 创造以太坊社交网络
 
 创建任何类型的 Web3 应用程序的最快方法基本上是使用最好的以太坊 dApp 样板，它非常易于使用，结合了 Moralis 的强大功能。此外，我们将使用这个强大的二人组来创建我们的以太坊社交网络。然而，在我们将您交给 Moralis 专家之前，他将向您展示如何进行必要的调整来创建一个以太坊社交媒体平台，如前几节所述，让我们来帮助您进行设置。
 
-### 用道德标准创建以太坊社交网络——样板设置
+### 用 Moralis 标准创建以太坊社交网络——样板设置
 
 为了使用最好的以太坊 dApp 样板文件，您需要按照以下步骤正确设置它:
 
@@ -118,7 +118,7 @@
 
 完成以上所有七个步骤后，您应该有一个正常工作的 dApp。然而，我们离创建以太坊社交网络还有很长很长的路要走。幸运的是，使用样板文件节省了我们很多时间，因为我们可以通过应用相当简单的调整来使用许多组件。
 
-#### 设置您的道德服务器
+#### 设置您的 Moralis 服务器
 
 使用 Moralis 开发时，创建自己的 Moralis 服务器是必不可少的。通过创建 Moralis 服务器并获取其详细信息，您可以用简单的代码片段为 dApps 配备后端功能。以下是完成 Moralis 服务器设置所需的步骤:
 
@@ -141,7 +141,7 @@
 
 要复制服务器的详细信息，只需单击服务器 URL 和应用程序 ID 旁边的复制图标。
 
-4.  **初始化道德规范**–最后，填充您的”。env "文件和 Moralis 服务器的详细信息。您可以从上面获得这些，以获得 Moralis 涵盖的所需后端功能:
+4.  **初始化 Moralis 规范**–最后，填充您的”。env "文件和 Moralis 服务器的详细信息。您可以从上面获得这些，以获得 Moralis 涵盖的所需后端功能:
 
 ![](img/35a7deb060e3d275d1b4c3e99f0e4f94.png)
 
@@ -153,16 +153,16 @@
 
 为了进一步简化，我们在 [GitHub](https://github.com/ethereum-boilerplate/web3-social-network-boilerplate) 上提供了这个特定项目的所有文件(包含完整的代码)。你的以太坊社交媒体平台最重要的部分之一是一个智能合约([dec undit . sol](https://github.com/ethereum-boilerplate/web3-social-network-boilerplate/blob/main/smart%20contracts/contracts/decentradit.sol))。后者确保所有交易都与正确的发布和投票相关(正如你在“以太坊社交媒体平台-预览”部分看到的)。此外，如果您想要一个智能合同演练，请跳到下面视频中的 3:13。
 
-在视频的 14:08，您将学习如何为 Moralis 服务器设置事件监听器。设置事件监听器后，Moralis 专家将完成以太坊 dApp 样板设置(21:58–24:50)。这是我们前面已经讨论过的内容。从 24:50 开始，您将看到要应用哪些调整以及要添加哪些文件。这样做之后，你将得到一个以太坊社交网络，它的外观和功能都和之前一样。就功能而言，将应用程序与“分散的. sol”智能合同连接至关重要(1:04:25)。为了获得最高水平的分权，你还将学习如何利用道德的 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 整合。后者将使您能够以分散的方式将以太坊社交网络的帖子存储为内容。
+在视频的 14:08，您将学习如何为 Moralis 服务器设置事件监听器。设置事件监听器后，Moralis 专家将完成以太坊 dApp 样板设置(21:58–24:50)。这是我们前面已经讨论过的内容。从 24:50 开始，您将看到要应用哪些调整以及要添加哪些文件。这样做之后，你将得到一个以太坊社交网络，它的外观和功能都和之前一样。就功能而言，将应用程序与“分散的. sol”智能合同连接至关重要(1:04:25)。为了获得最高水平的分权，你还将学习如何利用 Moralis 的 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 整合。后者将使您能够以分散的方式将以太坊社交网络的帖子存储为内容。
 
 https://www.youtube.com/watch?v=52BvLrj-KrE
 
 ## 以太坊社交网络——如何构建以太坊社交媒体平台——总结
 
-任何一个 JavaScript 开发者都可以通过使用上面的指令在不到两个小时的时间内创建一个以太坊社交网络。当然，使用终极以太坊 dApp 样板会给你一个明显的开端。此外，通过添加道德规范，您可以用单个代码片段涵盖所有后端方面。当然，这需要相对高级的 JavaScript 编程来完成一个令人印象深刻的以太坊社交媒体平台。然而，从道德家专家的角度来看，后者应该不是问题。
+任何一个 JavaScript 开发者都可以通过使用上面的指令在不到两个小时的时间内创建一个以太坊社交网络。当然，使用终极以太坊 dApp 样板会给你一个明显的开端。此外，通过添加 Moralis 规范，您可以用单个代码片段涵盖所有后端方面。当然，这需要相对高级的 JavaScript 编程来完成一个令人印象深刻的以太坊社交媒体平台。然而，从 Moralis 家专家的角度来看，后者应该不是问题。
 
 如果你觉得这个项目太先进了，我们鼓励你考虑参加其他一些(初学者友好的)项目，这些项目可以在 [Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 的博客](https://moralis.io/blog/)上找到。例如，你可以学习如何[推出一个 NFT 市场](https://moralis.io/how-to-launch-an-nft-marketplace/)或[产生数千个 NFT](https://moralis.io/how-to-generate-thousands-of-nfts/)。您还可以学习如何使用[以太坊移动样板](https://moralis.io/ethereum-mobile-boilerplate-full-guide-to-ethereum-for-mobile/)快速轻松地创建移动 dApps。此外，这两个出口都涵盖了其他强大的工具，如 [WalletConnect](https://moralis.io/what-is-walletconnect-the-ultimate-walletconnect-guide/) 和 [OpenZeppelin](https://moralis.io/what-is-openzeppelin-the-ultimate-guide/) 。
 
-如果你还不知道 JavaScript 或 [Solidity](https://moralis.io/solidity-explained-what-is-solidity/) ，但对[成为区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)感兴趣，我们推荐你参加道德学院 [2021 区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)课程。此外，在[道德学院](https://academy.moralis.io/)还有许多其他高质量的课程可以帮助你快速成为全职加密师。
+如果你还不知道 JavaScript 或 [Solidity](https://moralis.io/solidity-explained-what-is-solidity/) ，但对[成为区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)感兴趣，我们推荐你参加 Moralis 学院 [2021 区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)课程。此外，在[Moralis 学院](https://academy.moralis.io/)还有许多其他高质量的课程可以帮助你快速成为全职加密师。
 
 ![](img/929d057a058761a37b47aa72c207a1f5.png)

@@ -4,7 +4,7 @@
 
 在本文中，您将了解什么是不可替换令牌的元数据，什么是 NFT 元数据存储，以及如何以非分散的方式存储 NFT 元数据。当然，在很多情况下，NFT 应该以完全分散的方式存储。然而，具体项目可能需要一定的灵活性。例如，假设您的项目的 NFTs 充当网关或订阅确认，并且您希望每月为您的用户提供不同的 NFT 图像。如果是这样，使用集中的 NFT 元数据存储解决方案，如 Firebase 存储桶，将是首选。
 
-接下来，我们将以简单的方式回答一些重要的问题，从而解决今天的话题。例如，解释 NFTs 的元数据存储在哪里以及可以用元数据做什么是很重要的。当谈到利用 NFT 元数据时，一个可靠的 NFT API 是关键。幸运的是，你可以用你的[免费道德账户](https://admin.moralis.io/register)访问[终极 NFT API](https://moralis.io/nft-api/) 。有了这个工具，您可以轻松地将所有领先区块链的各种 NFT 集成到您的 dapps 中。当然，我们还将采用一个示例项目来进一步阐明如何使用 Firebase 存储 NFT 元数据。因此，我们将向您展示如何创建 NodeJS 后端应用程序来上传一组图像和元数据。最后，您还将学习如何使用 Remix 在 Polygon testnet 上创建这些示例 NFT。
+接下来，我们将以简单的方式回答一些重要的问题，从而解决今天的话题。例如，解释 NFTs 的元数据存储在哪里以及可以用元数据做什么是很重要的。当谈到利用 NFT 元数据时，一个可靠的 NFT API 是关键。幸运的是，你可以用你的[免费 Moralis 账户](https://admin.moralis.io/register)访问[终极 NFT API](https://moralis.io/nft-api/) 。有了这个工具，您可以轻松地将所有领先区块链的各种 NFT 集成到您的 dapps 中。当然，我们还将采用一个示例项目来进一步阐明如何使用 Firebase 存储 NFT 元数据。因此，我们将向您展示如何创建 NodeJS 后端应用程序来上传一组图像和元数据。最后，您还将学习如何使用 Remix 在 Polygon testnet 上创建这些示例 NFT。
 
 ![To become a more efficient Web3 developer, join Moralis Magazine.](img/5b5266e0abc11c1628c3fce7a7df4acc.png)[**Sign Up for Moralis Magazine**](https://moralis.io/joindiscord/)
 
@@ -261,4 +261,4 @@ async function uploadFile(path, filename) {
 
 如果你喜欢今天的教程，我们建议你浏览 Moralis 文档、 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)。在那里你可以找到其他的 dapp 和 NFT 开发教程，这些地方是接受 Web3 教育的好地方。例如，一些最新的主题集中在解释什么是 [Aptos 区块链](https://moralis.io/what-is-aptos-full-guide-to-the-aptos-blockchain/)和[隋区块链](https://moralis.io/what-is-sui-blockchain-the-ultimate-guide/)，[构建以太坊 dapps](https://moralis.io/building-ethereum-dapps-create-test-and-deploy/) ，使用元掩码创建 [Web3 Firebase 登录](https://moralis.io/create-a-web3-firebase-login-with-metamask/)，如何[创建 NFT 项目](https://moralis.io/how-to-create-an-nft-project-get-started-and-launch-successfully/)，等等。
 
-另一方面，你可以采取更专业的方法来进行加密教育。通过报名参加[道德学院](https://academy.moralis.io/)，你可以成为区块链认证，并大大增加你的机会去全职加密宜早不宜迟。如果 NFTs 是你最喜欢的茶，你可能想开始学习如何[建立一个 NFT 市场](https://academy.moralis.io/courses/ethereum-dapp-programming)。
+另一方面，你可以采取更专业的方法来进行加密教育。通过报名参加[Moralis 学院](https://academy.moralis.io/)，你可以成为区块链认证，并大大增加你的机会去全职加密宜早不宜迟。如果 NFTs 是你最喜欢的茶，你可能想开始学习如何[建立一个 NFT 市场](https://academy.moralis.io/courses/ethereum-dapp-programming)。

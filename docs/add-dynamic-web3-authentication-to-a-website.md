@@ -6,7 +6,7 @@
 
 不久以前，实现针对区块链的登录解决方案是相当复杂的。然而，在过去的几年里，Web3 技术已经取得了长足的进步。因此，当您使用正确的工具时，您现在可以在几分钟内实现动态 Web3 身份验证。就 Web3 认证而言， [Moralis 认证 API](https://moralis.io/authentication/) 是领先的解决方案。它使您能够用单行代码实现身份验证选项。因此，对于初学者和有经验的开发人员来说，这都是最直接的解决方案。Moralis 也是关于跨平台互操作性的。因此，您可以投入到区块链开发中，使用您的传统技能实现身份验证解决方案。此外，也就是说，您可以使用本文中的信息，而不是实现 dapp 的身份验证解决方案，您可以利用您的遗留技能并将其添加到网站中！
 
-如果这听起来很有趣，并且你想了解更多，请确保[创建你的免费道德账户](https://admin.moralis.io/register)并跟随这篇文章！
+如果这听起来很有趣，并且你想了解更多，请确保[创建你的免费 Moralis 账户](https://admin.moralis.io/register)并跟随这篇文章！
 
 ![To become a more efficient Web3 developer, join Moralis Magazine.](img/5b5266e0abc11c1628c3fce7a7df4acc.png)[**Join Moralis Magazine**](https://moralis.io/joindiscord/)
 
@@ -144,6 +144,6 @@ WalletConnect 的另一个优点是，默认情况下，它是一个动态的 We
 
 我们在今天的文章中谈了相当多的内容。您探索了 Web3 身份验证和各种备选方案。此外，您现在知道 Web3 登录用于将用户连接到区块链。您还了解了静态和动态 Web3 身份验证，现在您知道后者只是意味着用户可以在两种或更多种不同的身份验证方法中进行选择。此外，您还发现 Moralis 的 Web3 身份验证 API 支持一些最流行的动态 Web3 身份验证解决方案。尽管如此，我们还是向您展示了一个使用 Web3Auth 的 dapp 的演示。最后但并非最不重要的是，如果您决定访问 Moralis 文档，您可以遵循说明并实现身份验证方法。另外，我们向您展示了如何获得您的 Web3Auth 客户端 ID。
 
-如果这是您第一次听说和使用 Web3 身份验证解决方案，我们鼓励您深入了解。毕竟，每个 dapp 都需要有一个可靠的身份验证。因此，请务必在 Moralis 文档的“Web3 身份验证”类别中探索其他操作指南。我们也鼓励你使用[道德伦理 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德伦理博客](https://moralis.io/blog/)作为你的指南。那里的一些最新主题将向您展示[构建 dapp 的最简单方法](https://moralis.io/the-easiest-way-to-build-dapps-3-step-tutorial-for-devs/)，如何[将 dapp 连接到 Cronos](https://moralis.io/cronos-development-connect-dapps-to-cronos/) ，如何[构建 BNB 链 dapp](https://moralis.io/bnb-chain-boilerplate-how-to-build-bnb-chain-dapps/)，如何[将 dapp 连接到以太坊网络](https://moralis.io/set-up-and-connect-a-dapp-to-the-ethereum-network/)，等等。
+如果这是您第一次听说和使用 Web3 身份验证解决方案，我们鼓励您深入了解。毕竟，每个 dapp 都需要有一个可靠的身份验证。因此，请务必在 Moralis 文档的“Web3 身份验证”类别中探索其他操作指南。我们也鼓励你使用[Moralis 伦理 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 伦理博客](https://moralis.io/blog/)作为你的指南。那里的一些最新主题将向您展示[构建 dapp 的最简单方法](https://moralis.io/the-easiest-way-to-build-dapps-3-step-tutorial-for-devs/)，如何[将 dapp 连接到 Cronos](https://moralis.io/cronos-development-connect-dapps-to-cronos/) ，如何[构建 BNB 链 dapp](https://moralis.io/bnb-chain-boilerplate-how-to-build-bnb-chain-dapps/)，如何[将 dapp 连接到以太坊网络](https://moralis.io/set-up-and-connect-a-dapp-to-the-ethereum-network/)，等等。
 
-此外，你可能有兴趣去全职加密越早越好。在这种情况下，你应该通过在道德学院完成一些顶级的区块链发展课程来获得区块链认证。“[初学者密码](https://academy.moralis.io/courses/crypto-for-beginners)课程是一个很好的起点。
+此外，你可能有兴趣去全职加密越早越好。在这种情况下，你应该通过在 Moralis 学院完成一些顶级的区块链发展课程来获得区块链认证。“[初学者密码](https://academy.moralis.io/courses/crypto-for-beginners)课程是一个很好的起点。

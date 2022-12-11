@@ -4,9 +4,9 @@
 
 Web3 开发的一个核心部分是围绕着倾听和与分散的网络互动。一种方法是通过区块链监听器，它接收关于重要连锁事件的实时数据。然而，直到最近，这种设置一直相对繁琐。现在，由于 ethers.js 或 Moralis 的 Web3 Streams API，您可以轻松地设置区块链监听器。但是，在这两个选项中，哪一个是区块链开发商的最佳选择呢？如果你想了解更多这方面的内容，请加入我们的指南，比较 ethers.js 和 Web3 流！
 
-本文将首先简要介绍 ethers.js 和 Web3 流的复杂性。从那里，文章比较了两者，突出了它们的相同点和不同点。最后，最重要的是，我们深入到用 ethers.js 和 Web3 流设置区块链监听器的实际例子中。在这样做的过程中，我们进一步探索它们之间的区别，以及是什么让道德成为首选！
+本文将首先简要介绍 ethers.js 和 Web3 流的复杂性。从那里，文章比较了两者，突出了它们的相同点和不同点。最后，最重要的是，我们深入到用 ethers.js 和 Web3 流设置区块链监听器的实际例子中。在这样做的过程中，我们进一步探索它们之间的区别，以及是什么让 Moralis 成为首选！
 
-在整篇文章中，您将熟悉 Moralis 的 Streams API。然而，这只是由[道德公司](https://moralis.io)提供的众多[web 3 API](https://moralis.io/web3-apis-exploring-the-top-5-blockchain-apis/)中的一个。其他突出的工具包括 [Auth API、](https://moralis.io/authentication/) [NFT API](https://moralis.io/nft-api/) 、 [EVM API](https://moralis.io/evm-api/) 等。这些工具有助于更无缝的开发者体验，并解释了为什么 Moralis 是构建 Web3 应用程序的最快方式！因此，如果你想从事 Web3 开发，[和 Moralis](https://admin.moralis.io/register) 签约。您可以免费创建您的帐户，并立即访问各种 Web3 开发工具！
+在整篇文章中，您将熟悉 Moralis 的 Streams API。然而，这只是由[Moralis 公司](https://moralis.io)提供的众多[web 3 API](https://moralis.io/web3-apis-exploring-the-top-5-blockchain-apis/)中的一个。其他突出的工具包括 [Auth API、](https://moralis.io/authentication/) [NFT API](https://moralis.io/nft-api/) 、 [EVM API](https://moralis.io/evm-api/) 等。这些工具有助于更无缝的开发者体验，并解释了为什么 Moralis 是构建 Web3 应用程序的最快方式！因此，如果你想从事 Web3 开发，[和 Moralis](https://admin.moralis.io/register) 签约。您可以免费创建您的帐户，并立即访问各种 Web3 开发工具！
 
 ## ethers . js–这是什么？
 
@@ -38,7 +38,7 @@ Web3 流本质上是一个高级的区块链监听器，允许您监控区块链
 
 上图总结了 ethers.js 和 Web3 流之间的主要区别。乍看之下，您会立即注意到 Moralis 提供了 ethers.js 所提供的一切，甚至更多。但是，让我们更详细地讨论每一点，以便对 ethers.js 和 Web3 流进行深入分析！
 
-### 为什么选择道德？–ethers . js 与 Web3 流
+### 为什么选择 Moralis？–ethers . js 与 Web3 流
 
 正如上一节图片中的表格所示，您可以使用 ethers.js 和 Moralis 的 Web3 流来实时监听区块链事件。这两种方案都有多个链，这意味着您可以监控各种网络的事件。然而，这仅仅涵盖了 ethers.js 和 Moralis 的 Web3 流之间的相似之处；现在，让我们跳到不同之处。
 
@@ -72,7 +72,7 @@ Web3 流本质上是一个高级的区块链监听器，允许您监控区块链
 
 ethers.js 区块链监听器返回各种信息，如“*到*”和“ *from* 的地址和事件数据，如“ *blockNumber* ”、“ *blockHash* ”、“ *transactionHash* ”等。然而，这并不包含解析的数据，例如，我们不能直接确定数据来自哪个契约。
 
-这是一个伟大的开始，但你会得到更多的道德！因此，让我们深入到 Moralis Web3 Streams API 示例中，探索是什么使它成为一个更好的替代方案！
+这是一个伟大的开始，但你会得到更多的 Moralis！因此，让我们深入到 Moralis Web3 Streams API 示例中，探索是什么使它成为一个更好的替代方案！
 
 ### Moralis 的 Web3 流实例
 
@@ -98,9 +98,9 @@ ethers.js 区块链监听器返回各种信息，如“*到*”和“ *from* 的
 
 上面，您可以看到一个发送到我们的 webhooks 服务器的响应，其中包含解析的数据。这种反应是具有类似结构的更广泛的一系列其他交易的一部分。然而，数据包括事务散列、日志索引、合同地址等。更重要的是，由于数据已经被格式化，所以可以在 dapps 和其他 Web3 项目中直接使用它！
 
-正如 ether.js 与 Web3 流的比较所展示的，您可以获得 ethers.js 与 Moralis 的 Web3 流提供的一切，甚至更多！因此，在设置区块链监听器时，使用道德应该是显而易见的！
+正如 ether.js 与 Web3 流的比较所展示的，您可以获得 ethers.js 与 Moralis 的 Web3 流提供的一切，甚至更多！因此，在设置区块链监听器时，使用 Moralis 应该是显而易见的！
 
-然而，在我们的例子中，我们没有介绍如何添加过滤器。如果你想了解更多，请查看官方的 [Web3 Streams API 文档页面](https://docs.moralis.io/docs/streams-api)。你也可以从[道德 YouTube](https://www.youtube.com/@MoralisWeb3) 频道观看下面的视频。此片段比较了 ethers.js 和 Web3 流，并提供了添加过滤器的教程:
+然而，在我们的例子中，我们没有介绍如何添加过滤器。如果你想了解更多，请查看官方的 [Web3 Streams API 文档页面](https://docs.moralis.io/docs/streams-api)。你也可以从[Moralis YouTube](https://www.youtube.com/@MoralisWeb3) 频道观看下面的视频。此片段比较了 ethers.js 和 Web3 流，并提供了添加过滤器的教程:
 
 [https://www.youtube.com/embed/e3k8MaJG1OA?feature=oembed](https://www.youtube.com/embed/e3k8MaJG1OA?feature=oembed)
 
@@ -110,8 +110,8 @@ ethers.js 区块链监听器返回各种信息，如“*到*”和“ *from* 的
 
 为了阐明这两种选择之间的区别，本文比较了 ethers.js 和 Web3 流。在这样做的过程中，您会发现 Web3 流提供了 ethers.js 所提供的一切，甚至更多。因此，如果你想设置区块链监听器，那么最好的选择是 Moralis 的 Web3 Streams API！
 
-如果你觉得这篇文章有帮助，可以考虑在 [Web3 博客](https://moralis.io/blog/)上查看更多的道德内容。例如，通过查看我们关于[以太坊 webhooks](https://moralis.io/ethereum-webhooks-what-they-are-and-how-to-use-webhooks-for-ethereum/) 和[多边形 webhooks](https://moralis.io/polygon-webhooks-how-to-use-webhooks-on-polygon/) 的文章，了解更多关于 Streams API 的信息！更重要的是，如果你想成为一名更有技能的 Web3 开发者，考虑报名参加[道德学院](https://academy.moralis.io)。道德学院为初学者和更有经验的开发人员提供了很好的区块链开发课程。例如，看看下面的课程，它涵盖了以太坊开发的基础知识:“[以太坊 101](https://academy.moralis.io/courses/ethereum-101) ”。
+如果你觉得这篇文章有帮助，可以考虑在 [Web3 博客](https://moralis.io/blog/)上查看更多的 Moralis 内容。例如，通过查看我们关于[以太坊 webhooks](https://moralis.io/ethereum-webhooks-what-they-are-and-how-to-use-webhooks-for-ethereum/) 和[多边形 webhooks](https://moralis.io/polygon-webhooks-how-to-use-webhooks-on-polygon/) 的文章，了解更多关于 Streams API 的信息！更重要的是，如果你想成为一名更有技能的 Web3 开发者，考虑报名参加[Moralis 学院](https://academy.moralis.io)。Moralis 学院为初学者和更有经验的开发人员提供了很好的区块链开发课程。例如，看看下面的课程，它涵盖了以太坊开发的基础知识:“[以太坊 101](https://academy.moralis.io/courses/ethereum-101) ”。
 
 ![moralis academy](img/21aae7cd2667c38d8f30cb54bcc68409.png)
 
-尽管如此，如果你想在未来创建自己的 Web3 流，现在就注册 Moralis ！创建一个帐户是免费的，你可以立即获得各种各样的道德工具。因此，您可以充分利用区块链技术，构建更复杂的 Web3 项目！
+尽管如此，如果你想在未来创建自己的 Web3 流，现在就注册 Moralis ！创建一个帐户是免费的，你可以立即获得各种各样的 Moralis 工具。因此，您可以充分利用区块链技术，构建更复杂的 Web3 项目！

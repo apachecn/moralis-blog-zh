@@ -4,13 +4,13 @@
 
 在 BNB 链上创造一个币安·NFT，而不是在 [**以太坊**](https://moralis.io/full-guide-what-is-ethereum/) **上创造一个 NFT，会带来一定的好处。其中一个好处是币安的低收费。事实上，以太坊高昂的燃气费是开发商想要避开区块链的一个重要原因。因此，学习如何创建一个币安 NFT 是一个不断飙升的趋势。当然，BNB 连锁的去中心化程度和以太坊不匹配；然而，币安还有其他好处。除了上面提到的低费用，它还带来了币安广泛的生态系统，包括一个** [**NFT 市场**](https://moralis.io/how-to-launch-an-nft-marketplace/) **在那里你可以出售和交易非功能性食物。如果在币安上开发一个** [**不可替代令牌**](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/) **听起来很有趣，请密切关注这里的内容。随着我们更仔细地研究这篇文章，您将有充分的准备来创建一个币安 NFT。而且，顾名思义，五步就能做到！**
 
-我们将引导您一步一步地完成这里介绍的五个阶段。您将发现一些优秀的工具，它们将使这一过程变得更加简单。像 [OpenZeppelin](https://moralis.io/what-is-openzeppelin-the-ultimate-guide/) 和 [Remix](https://moralis.io/remix-explained-what-is-remix/) 这样的平台在处理[智能合约](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/)的时候会把事情简单化。我们还会用最流行的 [Web3 钱包](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/)、 [MetaMask](https://moralis.io/metamask-explained-what-is-metamask/) 。这将使我们能够与 BNB 链的测试网互动。此外，我们将探索当前 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)、[道德](https://moralis.io/)的顶峰，以满足我们的后端需求。这个" [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) "平台附带了 [ultimate Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 。我们可以使用云功能、节点、数据库、全方位的 API，以及它的平台上的更多东西。最终，Moralis 是支持最流行的链的最好的 Web3 后端平台。因此，请务必现在就[创建你的免费道德账户](https://admin.moralis.io/register)。事不宜迟，让我们开始我们的旅程，看看我们如何在五个步骤中创建一个币安 NFT！
+我们将引导您一步一步地完成这里介绍的五个阶段。您将发现一些优秀的工具，它们将使这一过程变得更加简单。像 [OpenZeppelin](https://moralis.io/what-is-openzeppelin-the-ultimate-guide/) 和 [Remix](https://moralis.io/remix-explained-what-is-remix/) 这样的平台在处理[智能合约](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/)的时候会把事情简单化。我们还会用最流行的 [Web3 钱包](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/)、 [MetaMask](https://moralis.io/metamask-explained-what-is-metamask/) 。这将使我们能够与 BNB 链的测试网互动。此外，我们将探索当前 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)、[Moralis](https://moralis.io/)的顶峰，以满足我们的后端需求。这个" [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) "平台附带了 [ultimate Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 。我们可以使用云功能、节点、数据库、全方位的 API，以及它的平台上的更多东西。最终，Moralis 是支持最流行的链的最好的 Web3 后端平台。因此，请务必现在就[创建你的免费 Moralis 账户](https://admin.moralis.io/register)。事不宜迟，让我们开始我们的旅程，看看我们如何在五个步骤中创建一个币安 NFT！
 
 ![](img/f6b297a0bfe2afec78c2b917f2c93efc.png)
 
-## 用道德创造币安·NFT
+## 用 Moralis 创造币安·NFT
 
-你可能明白，我们将严重依赖道德来帮助我们创造一个币安 NFT。如果你决定推进你在 NFT 的发展，道德家的终极 NFT API 可以很好地为你服务。有了 Moralis 的终极 Web3 开发平台，您还可以毫不费力地利用您的币安 NFT。因此，您可以将 NFTs 合并到您的[分散式应用程序](https://moralis.io/decentralized-applications-explained-what-are-dapps/) (dapps)中。
+你可能明白，我们将严重依赖 Moralis 来帮助我们创造一个币安 NFT。如果你决定推进你在 NFT 的发展，Moralis 家的终极 NFT API 可以很好地为你服务。有了 Moralis 的终极 Web3 开发平台，您还可以毫不费力地利用您的币安 NFT。因此，您可以将 NFTs 合并到您的[分散式应用程序](https://moralis.io/decentralized-applications-explained-what-are-dapps/) (dapps)中。
 
 如上所述，我们将使用 OpenZeppelin 来获取一个智能合同模板。然后，我们将使用 Remix 来调整模板并部署我们的智能合约。我们鼓励你加入我们的旅程，自己采取行动。通过这样做，你将学会如何轻松地创建一个币安 NFT。然后，您可以将这一宝贵的技能用于您自己的项目，或者向您的客户提供所需的服务。
 
@@ -70,7 +70,7 @@
 
 ![](img/89ac618b87a1afeb8fea6d32bcc8d630.png)
 
-在 NFTs 的情况下，可以在 NFTs 的元数据中找到 URIs。此外，NFTs 的元数据通常以 JSON 文件的形式出现。因此，这意味着我们需要创建和存储 JSON 文件来获得它们的 URIs，然后创建 NFT。在这里，我们将让道德家尽可能让事情变得简单明了。
+在 NFTs 的情况下，可以在 NFTs 的元数据中找到 URIs。此外，NFTs 的元数据通常以 JSON 文件的形式出现。因此，这意味着我们需要创建和存储 JSON 文件来获得它们的 URIs，然后创建 NFT。在这里，我们将让 Moralis 家尽可能让事情变得简单明了。
 
 ### 第三步:存储你的币安 NFT 元数据
 
@@ -110,11 +110,11 @@
 
 ![](img/e67578efba0848ca6345df71b451ff47.png)
 
-#### 使用道德快速节点
+#### 使用 Moralis 快速节点
 
 当你的 URI 在 Remix 的“构造函数”中时，是时候得到你的 BNB 链节点了。幸运的是，Moralis 也是一个优秀的区块链节点提供商。它用 Moralis Speedy Nodes 覆盖了这个特性。后者使您只需几次点击就可以将支持的网络添加到元掩码中。你可以这样做:
 
-1.  从你的道德管理区的侧边菜单中选择“快速节点”:
+1.  从你的 Moralis 管理区的侧边菜单中选择“快速节点”:
 
 ![](img/a783992ff5693fe1638db3c2a8966978.png)
 
@@ -150,6 +150,6 @@ https://www.youtube.com/watch?v=02VnfTIomn8
 
 这两个渠道解释了区块链发展的所有条款和方面。因此，它们可以作为你的免费持续加密教育。例如，一些最新的话题集中在什么是[以太坊名称服务(ENS)](https://moralis.io/what-is-ethereum-name-service-full-ens-guide/) ，如何[声称一个游戏内的 NFT](https://moralis.io/how-to-claim-an-in-game-nft-full-guide/) ，[什么是 Web2 和 Web3](https://moralis.io/what-is-web2-and-web3-explaining-web3/) ， [Web3 契约](https://moralis.io/what-are-web3-contracts-exploring-smart-contracts/)， [NFT 实用程序](https://moralis.io/nft-utility-exploring-nft-use-cases-in-2022/)， [Web3 游戏设计](https://moralis.io/web3-game-design-explaining-the-web3-game-design-process/)，[将 Web3 钱包连接到 Twitter 账户](https://moralis.io/connecting-web3-wallet-to-twitter-account/)，以及[如何将 Web3 钱包连接到网站](https://moralis.io/how-to-connect-a-web3-wallet-to-a-website/)此外，它还涵盖了许多其他 [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/)方面。
 
-你可能渴望尽快成为全职加密员。如果是这样的话，你应该考虑采取更专业的方法。因此，报名参加道德学院可能是你的正确道路。除了进入顶级的[区块链发展课程](https://academy.moralis.io/all-courses)，你还将获得个性化的学习路径。最重要的是，你将成为行业中最先进的社区之一的成员，并获得专家导师的帮助来克服任何挑战。
+你可能渴望尽快成为全职加密员。如果是这样的话，你应该考虑采取更专业的方法。因此，报名参加 Moralis 学院可能是你的正确道路。除了进入顶级的[区块链发展课程](https://academy.moralis.io/all-courses)，你还将获得个性化的学习路径。最重要的是，你将成为行业中最先进的社区之一的成员，并获得专家导师的帮助来克服任何挑战。
 
 ![](img/526ce70b3de8bbcfeff66b5cb667a710.png)*

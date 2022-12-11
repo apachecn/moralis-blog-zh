@@ -12,7 +12,7 @@ Moralis 是为去中心化 web 开发[【dApps】](https://moralis.io/decentrali
 
 该平台为用户提供了无限可扩展的后端基础设施，让用户专注于应用程序的前端。因此，可以将开发后端的重担交给 Moralis。
 
-该平台还通过提供有价值的工具来促进开发过程。其中一些是[](https://moralis.io/speedy-nodes/)[道德 NFT API](https://moralis.io/announcing-the-moralis-nft-api/)[道德价格 API](https://moralis.io/introducing-the-moralis-price-api/) 等等。正因为如此，Moralis 是 dApp 和 NFT 游戏开发的终极平台。
+该平台还通过提供有价值的工具来促进开发过程。其中一些是[](https://moralis.io/speedy-nodes/)[Moralis NFT API](https://moralis.io/announcing-the-moralis-nft-api/)[Moralis 价格 API](https://moralis.io/introducing-the-moralis-price-api/) 等等。正因为如此，Moralis 是 dApp 和 NFT 游戏开发的终极平台。
 
 因此，如果你想成为一名 NFT 游戏开发者，第一步就是加入 Moralis！
 
@@ -30,15 +30,15 @@ NFT 是不可替换代币的缩写，它们最近变得非常流行。受欢迎�
 
 # 如何用 Moralis 构建一个 NFT 游戏——前端
 
-在这一部分，我们将仔细看看如何创建我们自己的 NFT 游戏来展示与道德合作的力量。用大约 100 行代码，我们可以创建一个全功能的 NFT 游戏，其中的化身由可以在 2D 环境中移动的令牌来表示。在这个例子中，我们将使用 Aavegotchi NFTs。然而，对于任何其他 NFT，逻辑都是相同的，这意味着我们不局限于 Aavegotchis。
+在这一部分，我们将仔细看看如何创建我们自己的 NFT 游戏来展示与 Moralis 合作的力量。用大约 100 行代码，我们可以创建一个全功能的 NFT 游戏，其中的化身由可以在 2D 环境中移动的令牌来表示。在这个例子中，我们将使用 Aavegotchi NFTs。然而，对于任何其他 NFT，逻辑都是相同的，这意味着我们不局限于 Aavegotchis。
 
 NFT 游戏开发过程的一个很好的开端就是解释我们将要创建的游戏的安全性。安全性是一个非常重要的问题，因为 NFT 游戏有时会奖励真奖。因此，作弊是被禁止的，我们需要确保我们的应用程序防止这种情况。
 
 为了确保一个没有作弊可能性的游戏环境，我们将把大部分游戏逻辑放在我们的后端代码中。因此，前端的主要任务是询问服务器在一个方向上移动化身是否有效。这意味着我们可以防止用户在游戏中入侵应用程序和作弊。
 
-你可能会问，只用 100 行代码怎么可能做到这一切？简单的回答是道德。
+你可能会问，只用 100 行代码怎么可能做到这一切？简单的回答是 Moralis。
 
-### NFT 游戏开发与道德
+### NFT 游戏开发与 Moralis
 
 为了使 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发过程更快更简单，我们需要合适的工具。Web3 的最终开发平台是 Moralis。Moralis 允许我们轻松地创建一个 NFT 游戏，并大大缩短了开发过程。Moralis 已经弄清楚了所有 dApps 的基本逻辑，作为平台用户，我们可以访问它的所有功能。
 
@@ -50,17 +50,17 @@ NFT 游戏开发过程的一个很好的开端就是解释我们将要创建的�
 
 因为我们在开发我们的 NFT 游戏时会使用 Moralis，所以第一步就是马上注册 Moralis！
 
-### 为 NFT 游戏开发设立道德标准
+### 为 NFT 游戏开发设立 Moralis 标准
 
 在我们为游戏本身编写代码之前，我们必须导入 Moralis SDK(软件开发工具包)并初始化 Moralis。此外，要初始化 Moralis，我们必须首先创建一个服务器。
 
 *   **创建一个 Moralis 服务器**——我们要做的第一件事是用 Moralis 建立一个服务器。用 Moralis 创建一个服务器非常简单，只需要几分钟。要初始化服务器，我们需要登录 Moralis 并点击“+创建新应用程序”按钮。单击时，将出现一个下拉菜单，其中有三个选项。选择哪个选项并不重要，但是对于这个例子，我们推荐一个 testnet。
     一旦您选择了想要启动的服务器类型，我们需要为我们的服务器提供一个名称，选择一个地区，然后选择网络。一旦我们完成了选择，我们可以简单地点击“添加实例”按钮来启动服务器。启动服务器可能需要几分钟时间，但它很快就会启动并运行。
-*   道德 SDK —我们可以通过几行代码轻松导入道德 SDK。这样做的原因是为了使我们能够在代码中访问开发工具包，以便在编程时访问库和其他有价值的工具。导入 SDK 会是这样的:
+*   Moralis SDK —我们可以通过几行代码轻松导入 Moralis SDK。这样做的原因是为了使我们能够在代码中访问开发工具包，以便在编程时访问库和其他有价值的工具。导入 SDK 会是这样的:
 
 ![](img/2b392dbb987db5b54ac4aced5fcd0685.png)
 
-*   初始化道德规范 —最后，我们还需要初始化道德规范。为此，我们需要找到服务器的 URL 和应用程序 ID。这可以通过单击有问题的服务器的“查看详细信息”按钮来找到。代码看起来会像这样，带有你的应用 ID 和服务器 URL:
+*   初始化 Moralis 规范 —最后，我们还需要初始化 Moralis 规范。为此，我们需要找到服务器的 URL 和应用程序 ID。这可以通过单击有问题的服务器的“查看详细信息”按钮来找到。代码看起来会像这样，带有你的应用 ID 和服务器 URL:
     ![](img/0fdabce8038637434f468163437d559f.png)
 
 ### 认证用户
@@ -69,13 +69,13 @@ NFT 游戏开发过程的一个很好的开端就是解释我们将要创建的�
 
 ![](img/9cbf4932355cf2db036d1f7341da1c45.png)
 
-此外，这个特性的伟大之处在于道德整合。当用户登录并执行该行代码时，一个新用户将被添加到您的 Moralis 数据库中。我们可以查看服务器数据库中的所有用户，方法是单击相关服务器的三个点，然后按“Dashboard”。
+此外，这个特性的伟大之处在于 Moralis 整合。当用户登录并执行该行代码时，一个新用户将被添加到您的 Moralis 数据库中。我们可以查看服务器数据库中的所有用户，方法是单击相关服务器的三个点，然后按“Dashboard”。
 
 在仪表板界面的最左侧，我们将看到“浏览器”、“Webhooks”、“作业”等不同的选项卡。在“浏览器”选项卡下，我们可以找到几个不同的页面。“用户”页面就是一个例子，所有用户的加密地址都会出现在这里。然而，对于本教程更重要的是，我们可以在“EthNFTOwners”页面下看到我们用户的所有 NFT。这是相当惊人的，仅仅一行代码，我们可以查看从用户的加密地址到他们的 NFT 的一切。
 
 ![](img/72b0ca03eb5a81cae5c68b95835ac2c3.png)
 
-这展示了道德的魔力，也是我们能用大约 100 行代码创建一个 NFT 游戏的众多原因之一。此外，这表明 Moralis 如何帮助加速 crypto dApps 的开发过程，这对整个行业都有好处。
+这展示了 Moralis 的魔力，也是我们能用大约 100 行代码创建一个 NFT 游戏的众多原因之一。此外，这表明 Moralis 如何帮助加速 crypto dApps 的开发过程，这对整个行业都有好处。
 
 ### NFT 游戏图形
 
@@ -169,14 +169,14 @@ NFT 游戏开发过程的一个很好的开端就是解释我们将要创建的�
 
 就这样；这些都是我们创建第一个 NFT 游戏所需要的功能。我们已经实现了从实时更新到检查服务器移动是否有效的所有功能。这一点也不复杂，使用合适的工具，我们可以在几分钟内制作出这个游戏！
 
-然而，如果你对 NFT 游戏的开发过程仍有疑问，我们推荐你观看以下来自道德 YouTube 频道[](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw)的视频。在本教程中，[Ivan on Tech](https://www.youtube.com/user/LiljeqvistIvan)将带您完成整个过程，更深入地解释应用程序实际上是如何工作的。此外，在接近尾声时，Ivan 还提供了一些关于如何改善应用程序用户体验的建议。
+然而，如果你对 NFT 游戏的开发过程仍有疑问，我们推荐你观看以下来自 Moralis YouTube 频道[](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw)的视频。在本教程中，[Ivan on Tech](https://www.youtube.com/user/LiljeqvistIvan)将带您完成整个过程，更深入地解释应用程序实际上是如何工作的。此外，在接近尾声时，Ivan 还提供了一些关于如何改善应用程序用户体验的建议。
 
 [https://www.youtube.com/embed/CsdhJrD9m1M?feature=oembed](https://www.youtube.com/embed/CsdhJrD9m1M?feature=oembed)
 
 ## NFT 游戏开发—总结
 
-虽然游戏开发被认为是一个相当复杂的过程，但它并不一定如此。我们需要的只是合适的工具，对于 Web3 开发来说，这个工具就是道德。我们已经展示了用道德的魔力快速创建一个 NFT 游戏是多么容易。我们开发了一个具有简单前端和后端的 Aavegotchi 游戏，只花了我们几分钟的时间。然而，这只是一个示例，以便让读者更清楚地了解这个过程，也可以创建其他具有相同逻辑的游戏。因此，我们并不局限于 Aavegotchi。
+虽然游戏开发被认为是一个相当复杂的过程，但它并不一定如此。我们需要的只是合适的工具，对于 Web3 开发来说，这个工具就是 Moralis。我们已经展示了用 Moralis 的魔力快速创建一个 NFT 游戏是多么容易。我们开发了一个具有简单前端和后端的 Aavegotchi 游戏，只花了我们几分钟的时间。然而，这只是一个示例，以便让读者更清楚地了解这个过程，也可以创建其他具有相同逻辑的游戏。因此，我们并不局限于 Aavegotchi。
 
-然而，我们确实需要道德来使这个过程变得更容易和更快。用不到十行代码在客户机和服务器之间创建实时通信的能力清楚地展示了 Moralis 的威力。如果你仍然不相信平台的便利性，请随时查看使用道德来创建 [以太坊令牌](https://moralis.io/how-to-create-ethereum-tokens-in-4-steps/) 和 [BSC 令牌](https://moralis.io/how-to-create-a-bsc-token-in-5-steps/) 是多么容易。
+然而，我们确实需要 Moralis 来使这个过程变得更容易和更快。用不到十行代码在客户机和服务器之间创建实时通信的能力清楚地展示了 Moralis 的威力。如果你仍然不相信平台的便利性，请随时查看使用 Moralis 来创建 [以太坊令牌](https://moralis.io/how-to-create-ethereum-tokens-in-4-steps/) 和 [BSC 令牌](https://moralis.io/how-to-create-a-bsc-token-in-5-steps/) 是多么容易。
 
-因此，如果你想进入 NFT 游戏开发行业，你首先需要做的是 [今天就向道德家报名](https://admin.moralis.io/register) ！你不仅可以创建著名的 NFT dapp，而且拥有像 Moralis 这样强大的平台的机会是无穷无尽的。
+因此，如果你想进入 NFT 游戏开发行业，你首先需要做的是 [今天就向 Moralis 家报名](https://admin.moralis.io/register) ！你不仅可以创建著名的 NFT dapp，而且拥有像 Moralis 这样强大的平台的机会是无穷无尽的。

@@ -4,7 +4,7 @@
 
 即使你没有深入参与加密领域，你肯定已经注意到 NFT(不可替代的令牌)是最流行的区块链技术用例之一。具体来说，非功能性股票如今风靡一时，NFT 市场估值过高。更重要的是，不可替代的代币才刚刚开始发现它们的用途。这既包括数字领域，也包括现实生活中的领域，如证书、房地产和其他类型的所有权。因此，这无疑是学习如何 [**创建 NFT**](https://moralis.io/how-to-create-your-own-nft-in-5-steps/)**的最佳时机。此外，虽然新的知名连锁店和 NFT 市场每天都在涌现，但以太坊和 OpenSea 市场仍然是最受欢迎的选择。因此，您还应该知道如何将 NFT 上传到 OpenSea，在那里您可以轻松地展示、拍卖或出售它们。**
 
-如标题所示，您将能够学习如何创建 NFT 并将它们上传到 OpenSea。虽然有多种方法可以做到这一点(尤其是如果你不局限于以太坊的区块链)，但我们将采用一个特殊的示例项目，并构建一个能够生成 NFT 的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 应用程序。此外，我们将使用[道德规范](https://moralis.io/)使整个过程尽可能简单。通过完全访问 Moralis 的终极 [Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) ，我们将能够完全专注于我们的 [dApp](https://moralis.io/decentralized-applications-explained-what-are-dapps/) 的前端部分，而让 Moralis 负责后端。
+如标题所示，您将能够学习如何创建 NFT 并将它们上传到 OpenSea。虽然有多种方法可以做到这一点(尤其是如果你不局限于以太坊的区块链)，但我们将采用一个特殊的示例项目，并构建一个能够生成 NFT 的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 应用程序。此外，我们将使用[Moralis 规范](https://moralis.io/)使整个过程尽可能简单。通过完全访问 Moralis 的终极 [Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) ，我们将能够完全专注于我们的 [dApp](https://moralis.io/decentralized-applications-explained-what-are-dapps/) 的前端部分，而让 Moralis 负责后端。
 
 如果您还没有，请确保现在创建一个免费的 Moralis 帐户。这样，一旦我们开始我们的示例项目，您将能够很容易地理解。此外，虽然 OpenSea 可能有其缺陷，缺乏分散性，但它仍然是最受欢迎的 NFT 市场。因此，我们将把 NFTs 上传到 OpenSea 来展示这个方面。当然，这使用了 Moralis 的同类最佳 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 。
 
@@ -50,9 +50,9 @@ https://www.youtube.com/watch?v=M5eCg_udGIA
 
 为了使用 Moralis 学习如何创建 NFT 并将 NFT 上传到 OpenSea，您需要完成一组简单的步骤。这基本上是 Moralis 的初始设置，当你想使用 Moralis 的 Web3 API 时，它包含了基本上每个项目的关键步骤。
 
-#### **道德设置**
+#### **Moralis 设置**
 
-1.  **创建您的 Moralis 帐户**–如果您还没有 Moralis 帐户，请确保现在就创建一个。它不会花费你任何东西，而且不超过一分钟。只需访问 [Moralis 的免费账户注册页面](https://admin.moralis.io/register)，输入您的电子邮件地址并创建您的密码。接下来，确认您的电子邮件地址(Moralis 的系统将向您发送一封带有确认链接的电子邮件)。另一方面，如果你已经有一个有效的道德账户，只需[登录](https://admin.moralis.io/login)。
+1.  **创建您的 Moralis 帐户**–如果您还没有 Moralis 帐户，请确保现在就创建一个。它不会花费你任何东西，而且不超过一分钟。只需访问 [Moralis 的免费账户注册页面](https://admin.moralis.io/register)，输入您的电子邮件地址并创建您的密码。接下来，确认您的电子邮件地址(Moralis 的系统将向您发送一封带有确认链接的电子邮件)。另一方面，如果你已经有一个有效的 Moralis 账户，只需[登录](https://admin.moralis.io/login)。
 2.  **创建新的服务器**–进入 Moralis 仪表板后，点击左侧菜单中的“服务器”选项卡。然后点击右上角的“+创建新服务器”按钮创建一个新服务器。接下来，将出现一个下拉菜单，提供不同类型的服务器(见下图)。我们建议从“Testnet 服务器”选项开始。
 
 ![](img/157de295b1da454605f643c602c2c385.png)
@@ -139,7 +139,7 @@ Moralis.authenticate()
         <script src="static/logic.js"></script>
 ```
 
-**我们 dApp 的逻辑部分**至于我们 dApp 的逻辑部分，我们将其分为三个部分: 1.  **初始化 web 3-***(显示在 9:57 开始的视频中。)我们用道德来完成这件事。* 2.  **生成角色——***(显示在 11:00 开始的视频中。)这里我们使用了一组简单的函数，包括“getRandomValues()”和我们之前上传的集合图像(我们已经准备好了“ipfsCollections.json”文件)。* 3.  **将生成的角色铸造成 NFT——***(显示在 19:54 开始的视频中。)为了创建 NFTs，我们需要一个* [ *智能契约* ](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/) *和一个我们为此创建的函数。*为了访问 Moralis 的能力，我们再次使用服务器细节。此外，如上所述，要创建 NFT，我们需要使用智能契约。 [*创建智能契约*](https://moralis.io/how-to-create-smart-contracts/) *超出了本示例项目的范围，因此我们为您提供了一个您可以使用的智能契约(来自“logic.js”的一行代码):****const NFT _ contract _ address = " 0x 0 FB 6 ef 3505 b 9 c 52 ed 39595433 a 21 af 9 b 5 FCC 4431 "****//NFT 明廷合约使用这一个:“含电池”，这个合约的代码在 GitHub 资源库“contract_base”下，供您参考。*此外，这是我们的 mint 函数的代码:
+**我们 dApp 的逻辑部分**至于我们 dApp 的逻辑部分，我们将其分为三个部分: 1.  **初始化 web 3-***(显示在 9:57 开始的视频中。)我们用 Moralis 来完成这件事。* 2.  **生成角色——***(显示在 11:00 开始的视频中。)这里我们使用了一组简单的函数，包括“getRandomValues()”和我们之前上传的集合图像(我们已经准备好了“ipfsCollections.json”文件)。* 3.  **将生成的角色铸造成 NFT——***(显示在 19:54 开始的视频中。)为了创建 NFTs，我们需要一个* [ *智能契约* ](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/) *和一个我们为此创建的函数。*为了访问 Moralis 的能力，我们再次使用服务器细节。此外，如上所述，要创建 NFT，我们需要使用智能契约。 [*创建智能契约*](https://moralis.io/how-to-create-smart-contracts/) *超出了本示例项目的范围，因此我们为您提供了一个您可以使用的智能契约(来自“logic.js”的一行代码):****const NFT _ contract _ address = " 0x 0 FB 6 ef 3505 b 9 c 52 ed 39595433 a 21 af 9 b 5 FCC 4431 "****//NFT 明廷合约使用这一个:“含电池”，这个合约的代码在 GitHub 资源库“contract_base”下，供您参考。*此外，这是我们的 mint 函数的代码:
 
 ```js
 async function mintToken(_uri){

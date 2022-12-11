@@ -70,7 +70,7 @@ runApp();
 
 ******![The get nfts by wallet page.](img/d9b17899581c25a479174123778802ba.png)
 
-如上图所示，您必须先输入一个钱包地址。当然，你也可以添加任何可选参数。接下来，您必须在页面的右上角选择编程语言。最后，你可以点击“试试看！”按钮并查看下面的响应。然而，要看到这个 Moralis 的 NFT API 端点的真正威力，您需要粘贴您的 Moralis Web3 API 密钥。您可以在下面的“*步骤 1:设置道德规范*”一节中了解如何通过两次点击来获取密钥。
+如上图所示，您必须先输入一个钱包地址。当然，你也可以添加任何可选参数。接下来，您必须在页面的右上角选择编程语言。最后，你可以点击“试试看！”按钮并查看下面的响应。然而，要看到这个 Moralis 的 NFT API 端点的真正威力，您需要粘贴您的 Moralis Web3 API 密钥。您可以在下面的“*步骤 1:设置 Moralis 规范*”一节中了解如何通过两次点击来获取密钥。
 
 ![Red tutorial button.](img/541a2d0812a70a19234418748b7e84ae.png)
 
@@ -86,9 +86,9 @@ runApp();
 
 ![A wizard pointing at a text that says how to get all nfts owned by an address.](img/23d9fb09a97b45aebc62e96783132720.png)
 
-### 步骤 1:建立道德观
+### 步骤 1:建立 Moralis 观
 
-如果您还没有这样做，现在创建您的免费道德帐户。您可以使用本文开头的链接，或者访问 Moralis 主页，点击“免费开始”按钮:
+如果您还没有这样做，现在创建您的免费 Moralis 帐户。您可以使用本文开头的链接，或者访问 Moralis 主页，点击“免费开始”按钮:
 
 ![Button on Moralis' homepage that says start for free.](img/330470d3368a8063d9873f835af83e7a.png)
 
@@ -136,7 +136,7 @@ pnpm add moralis
 *   克罗诺斯维护网:“克罗诺斯”
 *   CRONOS Testnet:“CRONOS _ Testnet”
 
-*注意:除了上面的链，还可以使用道德拉斯* [*索拉纳 API*](https://moralis.io/solana-api/) *。然而，由于 Solana 处于非 EVM 兼容的链中，您需要调整其他代码行并使用不同的 API 端点。*
+*注意:除了上面的链，还可以使用 Moralis 拉斯* [*索拉纳 API*](https://moralis.io/solana-api/) *。然而，由于 Solana 处于非 EVM 兼容的链中，您需要调整其他代码行并使用不同的 API 端点。*
 
 ![JS vs TS.](img/7e8151dbfc5d5b400e940fd7bce23f99.png)
 
@@ -256,12 +256,12 @@ node index.ts
 
 ## 如何获取一个地址拥有的所有 NFT–3 步流程–总结
 
-我们在今天的文章中涉及了很多内容。首先，我们对 NFTs 和 Web3 钱包做了一个快速的概述，在这里你也了解了什么是区块链地址。接下来，我们仔细研究了道德 NFT API 端点——“getWalletNFTs”。这是您发现可以使用 Moralis 文档测试这个端点(以及所有其他端点)的地方。您还学习了如何轻松地选择编程语言并复制适当的代码行。最后，我们向您介绍了演示如何毫不费力地获得 address 拥有的所有 NFT 的三步教程。因此，您有机会完成以下三个步骤:
+我们在今天的文章中涉及了很多内容。首先，我们对 NFTs 和 Web3 钱包做了一个快速的概述，在这里你也了解了什么是区块链地址。接下来，我们仔细研究了 Moralis NFT API 端点——“getWalletNFTs”。这是您发现可以使用 Moralis 文档测试这个端点(以及所有其他端点)的地方。您还学习了如何轻松地选择编程语言并复制适当的代码行。最后，我们向您介绍了演示如何毫不费力地获得 address 拥有的所有 NFT 的三步教程。因此，您有机会完成以下三个步骤:
 
-1.  树立道德观
+1.  树立 Moralis 观
 2.  创建一个脚本来获取地址拥有的所有 NFT
 3.  执行程序并探索结果
 
 通过使用这里获得的知识和技能，你可以很容易地开始创造一些杀手 dapps。有了 Moralis 文档，您应该能够使用自己喜欢的编程框架来完成这项工作。此外，你可以坚持 NFT 公用事业或转移你的重点到其他类型的 dapps。无论哪种情况，您都可以从其他 Moralis 资源中获得额外的指导。我们的 YouTube 频道和博客都是免费支持你正在进行的加密教育的好渠道。我们最近的一些话题涵盖了最好的[加密钱包 API](https://moralis.io/crypto-wallet-integration-using-the-best-crypto-wallet-api/) ，最好的 [Web3 提供商](https://moralis.io/web3-provider-why-blockchain-developers-should-use-one/)， [Web3 商业版](https://moralis.io/web3-for-business-how-and-why-you-can-integrate-web3-into-your-enterprise/)，一个 [Web3 JS 教程](https://moralis.io/web3-js-tutorial-for-blockchain-developers/)，构建一个 [Web3 Unity 多人游戏](https://moralis.io/how-to-build-a-web3-multiplayer-game-using-unity-multiplayer/)，等等。
 
-当然，你还可以通过注册[道德学院](https://academy.moralis.io/)来加速你成为区块链专家的进程。在那里你可以探索区块链发展的方方面面。如果你是加密领域的新手，我们建议从[区块链和比特币基础](https://academy.moralis.io/courses/blockchain-bitcoin-101)开始。******
+当然，你还可以通过注册[Moralis 学院](https://academy.moralis.io/)来加速你成为区块链专家的进程。在那里你可以探索区块链发展的方方面面。如果你是加密领域的新手，我们建议从[区块链和比特币基础](https://academy.moralis.io/courses/blockchain-bitcoin-101)开始。******

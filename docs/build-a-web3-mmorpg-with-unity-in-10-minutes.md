@@ -4,17 +4,17 @@
 
 《魔兽世界》和《江湖》等大型多人在线角色扮演游戏(MMORPGs)在不同年龄段的人群中非常受欢迎。而且，既然 [**Web3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) **和区块链博彩越来越流行，我们有必要谈谈 Web3 MMORPG 的进步。如你所知，Web3 的主流采用预计在未来五年左右。因此，现在是学习如何用 Unity 构建区块链 MMORPG 游戏的最佳时机。当然，一些大玩家已经加入了 Web3 MMORPG 领域。然而，渴望创建一个 Web3 MMORPG 的勇敢的开发者有无数的机会等待着他们。**
 
-正如您将在本文中了解到的，当您想要快速构建一个带有 Unity 的 Web3 MMORPG 时，非凡的工具可以为您提供额外的优势。除了 Unity，我们还将向你展示如何利用光子引擎和道德规范。第一个使多人游戏变得简单，而第二个涵盖了你所有的 Web3 后端需求。
+正如您将在本文中了解到的，当您想要快速构建一个带有 Unity 的 Web3 MMORPG 时，非凡的工具可以为您提供额外的优势。除了 Unity，我们还将向你展示如何利用光子引擎和 Moralis 规范。第一个使多人游戏变得简单，而第二个涵盖了你所有的 Web3 后端需求。
 
-为了启发和教育您，我们创建了一个简单的 Web3 MMORPG。随着我们继续前进，你将有机会看到区块链比赛的预告。此外，通过使用我们在 GitHub 提供的代码，你将有机会在短短十分钟内用 Unity 自己构建一个区块链 MMORPG 游戏。因此，你将学会如何将统一与光子引擎和道德的力量结合起来。后者将使您能够使用这些不可替代的工具，满怀信心地处理您自己的 Web3 MMORPG 项目。
+为了启发和教育您，我们创建了一个简单的 Web3 MMORPG。随着我们继续前进，你将有机会看到区块链比赛的预告。此外，通过使用我们在 GitHub 提供的代码，你将有机会在短短十分钟内用 Unity 自己构建一个区块链 MMORPG 游戏。因此，你将学会如何将统一与光子引擎和 Moralis 的力量结合起来。后者将使您能够使用这些不可替代的工具，满怀信心地处理您自己的 Web3 MMORPG 项目。
 
 无论你想创建 dapp([分散应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))还是令牌，Moralis(又名 [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) )都会支持你。速度、可靠性、极致的 [Web3 API](https://docs.moralis.io/moralis-server/web3-sdk/intro) ，包括 Moralis 的 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) ，以及跨链互操作性让 Moralis 成为最好的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)。
 
 ![](img/0a3eb2c148369630f8aa2cdcce51de43.png)
 
-## 用团结、道德和光子构建一个网络 3 MMORPG
+## 用团结、Moralis 和光子构建一个网络 3 MMORPG
 
-在接下来的章节中，我们将为你提供使用 Unity 构建区块链 MMORPG 游戏所需的所有必要指导。当然，您可以使用我们的代码这一事实使得您可以在不超过十分钟的时间内完成这项工作。此外，在我们向你展示如何完成道德和光子设置，我们想做一个快速预览我们的 Web3 MMORPG 的例子。请记住，我们尽可能保持事情简单。然而，在你的角落里有了上面提到的工具，它应该足够让你看到可供你支配的潜力。
+在接下来的章节中，我们将为你提供使用 Unity 构建区块链 MMORPG 游戏所需的所有必要指导。当然，您可以使用我们的代码这一事实使得您可以在不超过十分钟的时间内完成这项工作。此外，在我们向你展示如何完成 Moralis 和光子设置，我们想做一个快速预览我们的 Web3 MMORPG 的例子。请记住，我们尽可能保持事情简单。然而，在你的角落里有了上面提到的工具，它应该足够让你看到可供你支配的潜力。
 
 ### 我们的 Web3 MMORPG 示例演示
 
@@ -56,7 +56,7 @@
 
 ![](img/3156cfda1ea1effd21c83e0599dc1572.png)
 
-此外，Moralis 的免费版本提供了入门所需的一切。它使您能够创建您的 Moralis 服务器并访问其数据库(Moralis dashboard)。后者与 Moralis 的“同步”功能相结合，使您能够[同步和索引智能合约事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/)。本质上，这是[不费吹灰之力索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)的最佳工具。最重要的是，[道德元宇宙 SDK](https://moralis.io/metaverse/) 也能让你[轻松创建一个元宇宙](https://moralis.io/how-to-create-a-metaverse-dapp-with-unity/)。
+此外，Moralis 的免费版本提供了入门所需的一切。它使您能够创建您的 Moralis 服务器并访问其数据库(Moralis dashboard)。后者与 Moralis 的“同步”功能相结合，使您能够[同步和索引智能合约事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/)。本质上，这是[不费吹灰之力索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)的最佳工具。最重要的是，[Moralis 元宇宙 SDK](https://moralis.io/metaverse/) 也能让你[轻松创建一个元宇宙](https://moralis.io/how-to-create-a-metaverse-dapp-with-unity/)。
 
 ## 用 Unity 在 10 分钟内搭建一个区块链 MMORPG 游戏
 
@@ -72,15 +72,15 @@
 
 ![](img/1651d1500a1c2014267134f87db5f25a.png)
 
-当您选择“MoralisSetup”预置时，您会看到它要求您的 Moralis 服务器 URL 和 Moralis 应用程序 ID。因此，您需要创建自己的 Moralis 服务器来获取这些细节。也就是说，是时候完成初始的道德规范设置了。
+当您选择“MoralisSetup”预置时，您会看到它要求您的 Moralis 服务器 URL 和 Moralis 应用程序 ID。因此，您需要创建自己的 Moralis 服务器来获取这些细节。也就是说，是时候完成初始的 Moralis 规范设置了。
 
-### 初始道德设置
+### 初始 Moralis 设置
 
 无论您是使用 Unity 构建 Web3 MMORPG，还是使用 ultimate [Ethereum dApp 样板](https://moralis.io/ethereum-dapp-boilerplate-full-ethereum-react-boilerplate-tutorial/)创建 dApp，您都必须首先完成初始的 Moralis 设置。该设置的目标是创建您的 Moralis 服务器并访问其详细信息。因此，请遵循以下步骤。
 
 #### 访问您的 Moralis 管理区并创建您的 Moralis 服务器
 
-1.  **登录您的 Moralis 账户**–我们假设您已经拥有一个有效的 Moralis 账户；于是，只需[登录](https://admin.moralis.io/login)。*另一方面，万一你还没有一个道德家账号，* [*使用这个链接*](https://admin.moralis.io/register) *。它会带你到注册页面。在那里，输入您的电子邮件，创建您的密码，并点击确认链接，这将被发送到您的电子邮件的收件箱。*
+1.  **登录您的 Moralis 账户**–我们假设您已经拥有一个有效的 Moralis 账户；于是，只需[登录](https://admin.moralis.io/login)。*另一方面，万一你还没有一个 Moralis 家账号，* [*使用这个链接*](https://admin.moralis.io/register) *。它会带你到注册页面。在那里，输入您的电子邮件，创建您的密码，并点击确认链接，这将被发送到您的电子邮件的收件箱。*
 
 2.  [**创建 Moralis 服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)–登录 Moralis 管理区后，点击“服务器”选项卡右上角的“+创建新服务器”按钮。页面上的教程也将指导您:
 
@@ -104,7 +104,7 @@
 
 ![](img/3cc0a4706ae17e365ccfffd6de308b52.png)
 
-4.  **在 Unity***–*中填入您的道德服务器的详细信息，现在是时候在 Unity 中填入适当的字段了。因此，请确保将这两个详细信息分别粘贴到正确的字段中:
+4.  **在 Unity***–*中填入您的 Moralis 服务器的详细信息，现在是时候在 Unity 中填入适当的字段了。因此，请确保将这两个详细信息分别粘贴到正确的字段中:
 
 ![](img/ec5f3c05ab20b7e5c6434ef84e3d7871.png)
 
@@ -116,7 +116,7 @@
 
 ![](img/053858d0938147db5b3b85a6a5f73b81.png)
 
-在“User”类中，您可以查看用户的登录信息。而且在“_ EthAddress”里面，会看到用来登录的钱包地址。因此，所有这些链上数据都由您处理。因此，你可以很容易地阅读它，并使用它来正确编程您的 Web3 MMORPG。后者是用“道德界面”方法巧妙地完成的。您可以通过在场景中打开 Unity 中“脚本”旁边的“AppManager”来查看后端功能的详细信息:
+在“User”类中，您可以查看用户的登录信息。而且在“_ EthAddress”里面，会看到用来登录的钱包地址。因此，所有这些链上数据都由您处理。因此，你可以很容易地阅读它，并使用它来正确编程您的 Web3 MMORPG。后者是用“Moralis 界面”方法巧妙地完成的。您可以通过在场景中打开 Unity 中“脚本”旁边的“AppManager”来查看后端功能的详细信息:
 
 ![](img/e0c5b5fe45da18acf3c707a778023d8a.png)
 
@@ -172,6 +172,6 @@ https://www.youtube.com/watch?v=5Bz-r1KBres
 
 如果你更喜欢免费内容，没有比 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)更好的了。这两个渠道都提供了无数的示例项目和中肯的解释。例如，我们的一些最新主题涵盖了如何[构建一个中世纪的元宇宙游戏](https://moralis.io/how-to-build-a-medieval-metaverse-game/)，如何[构建一个 Web3 亚马逊市场](https://moralis.io/how-to-build-a-web3-amazon-marketplace/)，如何[将一个 Unity 应用程序连接到一个 Web3 钱包](https://moralis.io/how-to-connect-a-unity-app-to-a-web3-wallet/)，如何[创建一个 BNB 链令牌](https://moralis.io/how-to-create-a-bnb-chain-token-in-5-minutes/)，[炼金术 API 替代品](https://moralis.io/alchemy-api-alternatives-web3-development-platforms/)，如何[克隆一个比特币基地钱包](https://moralis.io/cloning-coinbase-wallet-how-to-create-a-coinbase-clone/)，如何[创建一个索拉纳令牌](https://moralis.io/how-to-create-a-solana-token-in-5-steps/)，一个 [NFT 铸造页面](https://moralis.io/how-to-launch-an-nft-minting-page-full-walkthrough/)
 
-如果你对更专业的方法感兴趣，我们建议你报名参加[道德学院](https://academy.moralis.io/)。通过这样做，你将获得专业的[课程](https://academy.moralis.io/all-courses)，个性化的学习路径，最先进的社区之一，以及专家指导。有了这些优势，你应该很快就会[成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)。
+如果你对更专业的方法感兴趣，我们建议你报名参加[Moralis 学院](https://academy.moralis.io/)。通过这样做，你将获得专业的[课程](https://academy.moralis.io/all-courses)，个性化的学习路径，最先进的社区之一，以及专家指导。有了这些优势，你应该很快就会[成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)。
 
 ![](img/2ed21389d66e00bdeb3cd3c1e0369f55.png)

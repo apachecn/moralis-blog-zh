@@ -18,7 +18,7 @@
 
 ![](img/72b4c0be2b60394199a3bdf6958b4f9e.png)
 
-## 如何对代币价格表进行编码–道德设置
+## 如何对代币价格表进行编码–Moralis 设置
 
 在我们进入将清楚地向您展示如何编码令牌价格图表的确切步骤之前，我们需要涵盖初始的 Moralis 设置及其基本步骤。除了注册或登录您现有的 Moralis 帐户，您需要创建一个新的服务器，然后在您的 HTML 或 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 编程文件中初始化 Moralis。
 
@@ -37,7 +37,7 @@
 
 ![](img/42b74ec6683d6a44a59f58b5c6d1f99f.png)
 
-4.  **初始化道德规范**–剩下的就是填充。html“或”。js”文件，其中包含 Moralis 服务器的详细信息(应用程序 ID 和服务器 URL)。这样，您就获得了所需的后端功能:
+4.  **初始化 Moralis 规范**–剩下的就是填充。html“或”。js”文件，其中包含 Moralis 服务器的详细信息(应用程序 ID 和服务器 URL)。这样，您就获得了所需的后端功能:
 
 ![](img/4772829c9b3a2048a706d967ec5594bd.png)
 
@@ -85,7 +85,7 @@ Moralis.Web3API.token.getTokenPrice({address:”0x7fc66500c84a76ad7e9c93437bfc5a
 
 ### 如何对代币价格图表进行编码–X 轴
 
-查看显示我们希望 dApp 如何呈现令牌价格的图像，我们看到图表的 X 轴应该显示日期。因此，我们需要找到一种方法来收集特定日期的令牌价格，而不是块数。幸运的是，我们可以再次依靠道德来为我们做艰苦的工作。
+查看显示我们希望 dApp 如何呈现令牌价格的图像，我们看到图表的 X 轴应该显示日期。因此，我们需要找到一种方法来收集特定日期的令牌价格，而不是块数。幸运的是，我们可以再次依靠 Moralis 来为我们做艰苦的工作。
 
 ```js
 Moralis.Web3API.native.getDateToBlock(options)
@@ -137,7 +137,7 @@ https://www.youtube.com/watch?v=90dMpTlPNZ0
 
 ## 如何对代币价格图表进行编码–摘要
 
-由于加密货币是最受欢迎的区块链用例，目前，了解如何快速轻松地编码令牌价格图表是很实用的。此时，您应该知道如何使用 Moralis 的 SDK 来获取单行代码，使您能够在任何特定时间获得任何令牌的价格。我们用“道德”来做这件事。Web3API.token.getTokenPrice()”和“道德。Web3API.native.getDateToBlock()"函数，通过一些简单的 HTML 编码，我们可以使用这些数据。
+由于加密货币是最受欢迎的区块链用例，目前，了解如何快速轻松地编码令牌价格图表是很实用的。此时，您应该知道如何使用 Moralis 的 SDK 来获取单行代码，使您能够在任何特定时间获得任何令牌的价格。我们用“Moralis”来做这件事。Web3API.token.getTokenPrice()”和“Moralis。Web3API.native.getDateToBlock()"函数，通过一些简单的 HTML 编码，我们可以使用这些数据。
 
 ![](img/ad0ed14d3490241cd385756e636a3764.png)
 

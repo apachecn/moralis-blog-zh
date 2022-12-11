@@ -4,17 +4,17 @@
 
 随着越来越多的人熟悉区块链技术和不可替代代币( [**NFTs**](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/) **)的概念，像 OpenSea 这样的 NFT 市场越来越受欢迎。更重要的是，对类似于 OpenSea 的 NFT 市场的需求并不短缺。无论是人们寻找新的代币，还是艺术家寻找展示他们艺术作品的环境，许多人都在寻找下一个大的 NFT 市场。因此，难怪程序员想要学习** [**NFT 令牌开发**](https://moralis.io/nft-token-development-the-ultimate-guide/) **来创建 OpenSea 克隆。**
 
-当然，OpenSea 很可能会比你自己的 NFT 平台更大。然而，通过学习如何[创建一个像 OpenSea 一样的 NFT 市场](https://moralis.io/how-to-create-an-nft-marketplace/),开发者将自己置于一个位置，在那里他有可能为 NFTs 创建一个非常成功的市场。此外，开发一个 OpenSea 的克隆是一个过程，使用 Moralis 的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 平台和各种工具可以很容易地完成。因此，跟随我们向你展示如何用[道德的插件](https://moralis.io/plugins/)之一来建立一个不可替代代币的市场。最后，您将拥有一个 OpenSea 克隆，可以部署在以太坊的 testnet 上。
+当然，OpenSea 很可能会比你自己的 NFT 平台更大。然而，通过学习如何[创建一个像 OpenSea 一样的 NFT 市场](https://moralis.io/how-to-create-an-nft-marketplace/),开发者将自己置于一个位置，在那里他有可能为 NFTs 创建一个非常成功的市场。此外，开发一个 OpenSea 的克隆是一个过程，使用 Moralis 的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 平台和各种工具可以很容易地完成。因此，跟随我们向你展示如何用[Moralis 的插件](https://moralis.io/plugins/)之一来建立一个不可替代代币的市场。最后，您将拥有一个 OpenSea 克隆，可以部署在以太坊的 testnet 上。
 
 多亏了 Moralis 的 [OpenSea 插件](https://moralis.io/plugins/opensea/)，你可以通过复制和粘贴几行简单的代码来创建一个像 OpenSea 一样的 NFT 市场。此外，该插件与 OpenSea 完全集成，这意味着您的用户可以从您的 dApp(去中心化应用程序)轻松创建 OpenSea 上的资产买卖订单。因此，让我们来教育和指导你，因为我们在这里承担了一个范例项目，在那里我们创建了我们的 OpenSea 克隆。
 
 ![](img/7476fececefe405a245af775a0e8ac79.png)
 
-## 用道德创造一个像 OpenSea 一样的 NFT 市场
+## 用 Moralis 创造一个像 OpenSea 一样的 NFT 市场
 
-Moralis 是业内发展最快的 Web3 开发平台。它涵盖了区块链跨越多个链条的全方位发展需求。除了是拥有 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) 的最好的 [Infura 替代品](https://moralis.io/infura-alternatives-and-blockchain-node-providers/)之一，Moralis 还提供了一个全面的 [Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 。这包括[以太坊 API](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) ，道德家的[终极 NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) ，以及 [Web3 API](https://docs.moralis.io/moralis-server/web3-sdk/intro) 中的所有其他功能。
+Moralis 是业内发展最快的 Web3 开发平台。它涵盖了区块链跨越多个链条的全方位发展需求。除了是拥有 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) 的最好的 [Infura 替代品](https://moralis.io/infura-alternatives-and-blockchain-node-providers/)之一，Moralis 还提供了一个全面的 [Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 。这包括[以太坊 API](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) ，Moralis 家的[终极 NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) ，以及 [Web3 API](https://docs.moralis.io/moralis-server/web3-sdk/intro) 中的所有其他功能。
 
-此外，Moralis 最近还添加了插件，这是我们在寻求创建像 OpenSea 这样的 NFT 市场时将利用的功能之一。我们将使用的插件是 OpenSea 插件。后者使您能够用几行代码将 OpenSea 的全部功能集成到您的 dApps 中。要使用这个快捷方式，你需要从 Moralis 的插件页面安装插件。幸运的是，这可以很容易地在你的道德管理区点击几下。但是，您首先需要[创建一个 Moralis 服务器](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)(参见下面的详细说明)。
+此外，Moralis 最近还添加了插件，这是我们在寻求创建像 OpenSea 这样的 NFT 市场时将利用的功能之一。我们将使用的插件是 OpenSea 插件。后者使您能够用几行代码将 OpenSea 的全部功能集成到您的 dApps 中。要使用这个快捷方式，你需要从 Moralis 的插件页面安装插件。幸运的是，这可以很容易地在你的 Moralis 管理区点击几下。但是，您首先需要[创建一个 Moralis 服务器](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)(参见下面的详细说明)。
 
 ![](img/ee31994dfbb700771b3a90d835bfbe6b.png)
 
@@ -22,7 +22,7 @@ Moralis 是业内发展最快的 Web3 开发平台。它涵盖了区块链跨越
 
 如果你想用 Moralis 创建一个像 OpenSea 一样的 NFT 市场，你需要完成以下步骤:
 
-1.  [**创建您的道德家账户**](https://admin.moralis.io/register)——如果您还没有创建您的免费道德家账户，请务必现在就创建。按照上面的链接，输入您的电子邮件地址，并创建您的密码。接下来，确保通过确认您的电子邮件地址来完成该过程(您将收到一封带有确认链接的电子邮件)。*如果您已经拥有一个有效的道德家账户，只需* [*登录*](https://admin.moralis.io/login) *即可进入您的管理区。*T12
+1.  [**创建您的 Moralis 家账户**](https://admin.moralis.io/register)——如果您还没有创建您的免费 Moralis 家账户，请务必现在就创建。按照上面的链接，输入您的电子邮件地址，并创建您的密码。接下来，确保通过确认您的电子邮件地址来完成该过程(您将收到一封带有确认链接的电子邮件)。*如果您已经拥有一个有效的 Moralis 家账户，只需* [*登录*](https://admin.moralis.io/login) *即可进入您的管理区。*T12
     T14*T16】*
 2.  **创建新服务器**–进入您的 Moralis 管理区域后，点击右上角的“+创建新服务器”按钮。从出现的下拉菜单中，选择最适合您需求的网络类型(见下图)。由于这是一个示例项目，我们将使用“Testnet 服务器”选项。然而，一旦您准备好部署全功能的 dApps，您将需要选择“Mainnet 服务器”选项。
 
@@ -40,7 +40,7 @@ Moralis 是业内发展最快的 Web3 开发平台。它涵盖了区块链跨越
 
 ![](img/12f8773662c1cf2b2b6ccabb50931c5d.png)
 
-4.  **初始化道德规范**–现在填充您的”。js“或者”。html”文件，包含 Moralis 服务器详细信息(应用程序 ID 和服务器 URL ),以获得 Moralis 涵盖的所需后端功能:
+4.  **初始化 Moralis 规范**–现在填充您的”。js“或者”。html”文件，包含 Moralis 服务器详细信息(应用程序 ID 和服务器 URL ),以获得 Moralis 涵盖的所需后端功能:
 
 ![](img/67a395b1caaa08add4ffa624816f15ac.png)
 
@@ -60,7 +60,7 @@ Moralis 是业内发展最快的 Web3 开发平台。它涵盖了区块链跨越
 
 ![](img/60105d612bc04e9f34001870bed801fc.png)
 
-点击“安装插件”按钮会将您重定向到您的道德管理区，以完成插件的安装过程。您会看到这个屏幕:
+点击“安装插件”按钮会将您重定向到您的 Moralis 管理区，以完成插件的安装过程。您会看到这个屏幕:
 
 ![](img/324140a175660c2ed97ae09408fe01e3.png)
 
@@ -186,7 +186,7 @@ const getAsset = async () => {
 
 ![](img/6377580e1c01b7c44af5263b601cd235.png)
 
-此外，如你所见，道德。Plugins.opensea.getAsset "代码片段负责获取链上信息。如果我们现在使用一个示例资产，在 dApp 上的字段中输入其合同地址和令牌 ID，我们可以看到它获得了关于该资产的所有详细信息:
+此外，如你所见，Moralis。Plugins.opensea.getAsset "代码片段负责获取链上信息。如果我们现在使用一个示例资产，在 dApp 上的字段中输入其合同地址和令牌 ID，我们可以看到它获得了关于该资产的所有详细信息:
 
 ![](img/ca658efd9182019d3d11d678049a05d0.png)
 

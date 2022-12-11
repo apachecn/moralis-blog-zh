@@ -8,7 +8,7 @@ Web3 行业在不断发展，开发者经常在各种链上推出新的、有趣
 
 如果您对跟随我们分解三个步骤来创建 Web3 dapp 不感兴趣，您可以使用上面的链接并直接进入代码。否则，请随时加入我们，学习从头创建 Web3 dapp 所需的一切。此外，大多数可访问性源于 Moralis 的以太坊样板，允许您立即创建 dapps！
 
-然而，以太坊样板是与道德合作的众多优势之一。此外，Moralis 还提供领先的企业级 API。因此，Moralis 提供了一个更引人注目的开发体验，让您可以提高效率。一个这样的工具是 Moralis 的 web 3 Streams API。有了这个 API，你可以很容易地将[链上数据](https://moralis.io/on-chain-data-the-ultimate-guide-to-understanding-and-accessing-on-chain-data/)流式传输到你所有的 Web3 项目中，这是 Web3 dapps 的必要组件。
+然而，以太坊样板是与 Moralis 合作的众多优势之一。此外，Moralis 还提供领先的企业级 API。因此，Moralis 提供了一个更引人注目的开发体验，让您可以提高效率。一个这样的工具是 Moralis 的 web 3 Streams API。有了这个 API，你可以很容易地将[链上数据](https://moralis.io/on-chain-data-the-ultimate-guide-to-understanding-and-accessing-on-chain-data/)流式传输到你所有的 Web3 项目中，这是 Web3 dapps 的必要组件。
 
 所以，如果你想创建一个 Web3 dapp，就和 Moralis 签约吧。您可以立即访问该平台的所有工具，并且创建帐户是免费的！
 
@@ -62,7 +62,7 @@ Web3 dapps(分散式应用程序)与传统的 Web2 应用程序并没有太大�
 
 在本节中，我们将介绍创建 Web3 dapp 所需的所有必要步骤。因为我们将使用 Moralis 的以太坊样板文件，所以只需三个步骤就可以创建一个 Web3 dapp:
 
-1.  克隆道德的以太坊样板
+1.  克隆 Moralis 的以太坊样板
 2.  配置变量
 3.  启动 Web3 Dapp
 
@@ -110,7 +110,7 @@ cd ethereum-boilerplate
 
 总共有五个变量，您将需要配置其中的三个，这取决于您计划在哪个链上启动 dapp。所以，让我们从第一个变量开始吧，“ *APP_CHAIN_ID* ”，目前设置为“*0x 1*”*。**0x 1*值引用以太坊链。现在，如果你想为另一个网络创建一个 Web3 dapp，这需要修改。然而，在我们的情况下，我们将保持原样。
 
-您需要考虑的第二个变量是“ *MORALIS_API_KEY* ”。您需要在这里添加一个值。此外，要获得价值，您需要一个道德账户。因此，如果您以前没有，现在是时候创建您的帐户了。登录后，你可以点击“账户”获取密钥，然后导航到顶部的“密钥”。然后，复制“Moralis Api Key”并粘贴到代码中。
+您需要考虑的第二个变量是“ *MORALIS_API_KEY* ”。您需要在这里添加一个值。此外，要获得价值，您需要一个 Moralis 账户。因此，如果您以前没有，现在是时候创建您的帐户了。登录后，你可以点击“账户”获取密钥，然后导航到顶部的“密钥”。然后，复制“Moralis Api Key”并粘贴到代码中。
 
 ![](img/1929b07f350ad37c28be504096f7faa6.png)
 
@@ -154,7 +154,7 @@ yarn run dev
 
 通过跟随本文，您使用 Moralis Ethereum 样板文件从头开始创建了一个 Web3 dapp。此外，该模板允许任何人只通过三个步骤创建 Web3 dapp，并且只需要几分钟:
 
-1.  克隆道德的以太坊样板
+1.  克隆 Moralis 的以太坊样板
 2.  配置变量
 3.  启动 Web3 Dapp
 
@@ -162,6 +162,6 @@ yarn run dev
 
 如果你觉得这个教程有帮助，请随意进一步探索 Moralis 的 Web3 博客。在博客上，你会发现令人兴奋的新鲜内容，帮助你成为一个更好的 Web3 开发者。例如，你可以看看我们关于如何[建立一个索拉纳·NFT 探索者](https://moralis.io/how-to-build-a-solana-nft-explorer/)或[建立一个分散的社交媒体档案](https://moralis.io/how-to-build-a-decentralized-social-media-profile/)的文章。
 
-此外，为了进一步磨练您的 Web3 开发技能并获得区块链认证，您还可以选择参加[道德学院](https://academy.moralis.io/)。该学院为新手和更有经验的开发人员提供优秀的区块链相关课程。例如，通过“[以太坊 101](https://academy.moralis.io/courses/ethereum-101) ”课程学习以太坊区块链的基础知识，它与比特币的区别，以及什么是智能合约。
+此外，为了进一步磨练您的 Web3 开发技能并获得区块链认证，您还可以选择参加[Moralis 学院](https://academy.moralis.io/)。该学院为新手和更有经验的开发人员提供优秀的区块链相关课程。例如，通过“[以太坊 101](https://academy.moralis.io/courses/ethereum-101) ”课程学习以太坊区块链的基础知识，它与比特币的区别，以及什么是智能合约。
 
 所以，如果你想快速简单地创建一个 Web3 dapp，[注册 Moralis](https://admin.moralis.io/register) 。你可以免费创建你的账户，只需要几秒钟。您不会有任何损失，并且可以立即成为一名更杰出的 Web3 开发人员！

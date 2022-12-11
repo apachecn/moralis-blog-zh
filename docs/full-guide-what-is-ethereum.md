@@ -6,7 +6,7 @@
 
 在这份关于以太坊的完整指南中，我们不仅会回答“什么是以太坊？”，但我们也将进一步了解以太坊分散网络的各个重要方面。此外，我们将探讨“比特币和以太坊的区别是什么？”。虽然这两个区块链拥有相似的概念，但它们在使用案例上有明显的不同。此外，考虑到以太坊正在进行其最大的升级之一，我们也将讨论什么是以太坊 2.0。
 
-尽管如此，知识本身是有价值的，但真正的力量在于将知识与行动结合起来。因此，我们鼓励您通过专注于开发 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 应用程序来应用此处获得的信息。在[道德家](https://moralis.io/)的帮助下，你可以用最少的努力和快速的周转做到这一点。Moralis 使[以太坊开发](https://moralis.io/ethereum-development-for-beginners/)比以往任何时候都更容易——用 Moralis 弥合 Web2 开发的简易性和 Web3 的强大功能之间的差距！
+尽管如此，知识本身是有价值的，但真正的力量在于将知识与行动结合起来。因此，我们鼓励您通过专注于开发 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 应用程序来应用此处获得的信息。在[Moralis 家](https://moralis.io/)的帮助下，你可以用最少的努力和快速的周转做到这一点。Moralis 使[以太坊开发](https://moralis.io/ethereum-development-for-beginners/)比以往任何时候都更容易——用 Moralis 弥合 Web2 开发的简易性和 Web3 的强大功能之间的差距！
 
 ![](img/003c92e51746dd09cd9acc8d39d85c0c.png)
 

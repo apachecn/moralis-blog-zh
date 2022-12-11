@@ -10,7 +10,7 @@
 
 ****Moralis 是 Web3 开发的最佳操作系统，有了这个平台，所有区块链项目的平均开发时间有可能减少高达 87%。节省开发时间的能力部分源于 Moralis 提供了无限可扩展的后端基础设施。****
 
-****此外，除了 web3uikit，Moralis 还提供了广泛的开发工具选择。例如，作为用户，你将获得对[道德快速节点](https://moralis.io/speedy-nodes/?utm_source=blog&utm_medium=post&utm_campaign=How%2520to%2520Build%2520Decentralized%2520Apps%2520%28dApps%29%2520Quickly%2520and%2520Easily)、 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 、[价格 API](https://moralis.io/introducing-the-moralis-price-api/) 等的完全访问权。****
+****此外，除了 web3uikit，Moralis 还提供了广泛的开发工具选择。例如，作为用户，你将获得对[Moralis 快速节点](https://moralis.io/speedy-nodes/?utm_source=blog&utm_medium=post&utm_campaign=How%2520to%2520Build%2520Decentralized%2520Apps%2520%28dApps%29%2520Quickly%2520and%2520Easily)、 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 、[价格 API](https://moralis.io/introducing-the-moralis-price-api/) 等的完全访问权。****
 
 ****所以，如果你对区块链的发展感兴趣，请马上和 Moralis 签约。这样做是完全免费的，只需要几秒钟，所以你不会有任何损失！****
 

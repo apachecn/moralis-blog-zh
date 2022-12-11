@@ -4,7 +4,7 @@
 
 使用钱包和 MetaMask 或比特币基地等平台时，在账户之间转移或发送 ERC-20 代币相对简单。然而，在这些平台的背后，需要复杂的底层基础设施，这需要时间来开发。因此，当涉及到 [**dApp**](https://moralis.io/decentralized-applications-explained-what-are-dapps/) **(分散应用)开发时，如果没有合适的工具，转移 ERC-20 以太坊令牌是相对困难的。这就是**[**Moralis**](https://moralis.io/)**的用武之地，它允许我们只用一行代码就能添加这个功能。出于这个原因，我们将在本文中仔细研究如何使用 Moralis 发送 ERC-20 令牌的过程。**
 
-从传统的角度来看，实现向 dApps 发送 ERC-20 令牌的能力是一项繁琐的任务。其主要原因是复杂的底层数据结构需求和对工作 API 的需求。然而，这不再是道德的情况。作为平台用户，可以利用 Moralis 已经开发的基础设施。这意味着平台负责所有的重物提升。与此同时，您可以将注意力集中到开发 dApps 的前端和[智能合约](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/)上。
+从传统的角度来看，实现向 dApps 发送 ERC-20 令牌的能力是一项繁琐的任务。其主要原因是复杂的底层数据结构需求和对工作 API 的需求。然而，这不再是 Moralis 的情况。作为平台用户，可以利用 Moralis 已经开发的基础设施。这意味着平台负责所有的重物提升。与此同时，您可以将注意力集中到开发 dApps 的前端和[智能合约](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/)上。
 
 此外，预先构建的后端基础设施和附加功能的组合，如 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) 、 [NFT API](https://moralis.io/announcing-the-moralis-nft-api/) 、 [Price API](https://moralis.io/introducing-the-moralis-price-api/) 等。，使 Moralis 成为 Web3 开发的终极中间件。这意味着该平台为您提供了开发和部署 dApps 所需的一切。
 
@@ -28,13 +28,13 @@ ERC-20 令牌经常与以太坊联系在一起，这是理所当然的，因为�
 
 ![](img/1ab19677d86b43df0cabb01fd4912832.png)![](img/13614e5702c15b7c5774c245aaff09c5.png)
 
-### 转让 ERC-20 与道德代币
+### 转让 ERC-20 与 Moralis 代币
 
-只用一行代码就能把 ERC 20 代币从一个地址转移到另一个地址，这听起来像是魔术。然而，这实际上只是道德。为了让你更好地理解这是如何可能的，我们将在这一部分更深入地解释道德。
+只用一行代码就能把 ERC 20 代币从一个地址转移到另一个地址，这听起来像是魔术。然而，这实际上只是 Moralis。为了让你更好地理解这是如何可能的，我们将在这一部分更深入地解释 Moralis。
 
 ![](img/5665eeba801760f560836d98e3dec57a.png)
 
-目前有超过 5000 个区块链项目利用了 Moralis 平台。这允许他们开发 dApps，而没有不必要的成本和复杂性。此外，不仅可以用道德来发展 dApps。还可以开发[令牌](https://moralis.io/how-to-create-ethereum-tokens-in-4-steps/)、[创建智能合约](https://moralis.io/how-to-create-smart-contracts/)等。此外，使用 Moralis 的 API 和软件为您的项目提供了极好的可伸缩性机会。
+目前有超过 5000 个区块链项目利用了 Moralis 平台。这允许他们开发 dApps，而没有不必要的成本和复杂性。此外，不仅可以用 Moralis 来发展 dApps。还可以开发[令牌](https://moralis.io/how-to-create-ethereum-tokens-in-4-steps/)、[创建智能合约](https://moralis.io/how-to-create-smart-contracts/)等。此外，使用 Moralis 的 API 和软件为您的项目提供了极好的可伸缩性机会。
 
 Web3 开发最复杂的问题之一是开发后端基础设施。这需要大量的时间和资源，但是通过使用 Moralis 可以避免。该平台提供了一个底层基础设施，使您能够缩短所有项目的上市时间，消除最麻烦的 Web3 开发过程。
 

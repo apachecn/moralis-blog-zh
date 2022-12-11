@@ -1,4 +1,4 @@
-# 道德杂志# 1——道德是星际的
+# Moralis 杂志# 1——Moralis 是星际的
 
 > 原文：<https://moralis.io/moralis-magazine-1-moralis-is-interplanetary/>
 
@@ -74,11 +74,11 @@
 
 ****你可以使用命令行软件包管理器来安装 IPFS。例如 mac 上的“brew”。一旦安装了 IPFS，你就可以启动一个节点来托管内容并直接从网络上读取。它还会向您显示您拥有的所有同事。如果需要，您甚至可以直接从终端消费内容。或者，您可以从命令行创建内容，并使用 brave 访问它。****
 
-****或者， 你可以用道德家 …****
+****或者， 你可以用 Moralis 家 …****
 
 ****![](img/3598b7ea32bcde80ceaa4fddefbc121b.png)****
 
-****MORALIS 网站上有关于 IPFS 的详细文档，这将有助于您在 dApp 中使用它。你也可以在道德 YouTube 频道查看这些有用的视频:****
+****MORALIS 网站上有关于 IPFS 的详细文档，这将有助于您在 dApp 中使用它。你也可以在 Moralis YouTube 频道查看这些有用的视频:****
 
 ******如何将元数据等“对象”保存到 IPFS******
 
@@ -92,10 +92,10 @@
 
 ****[https://www.youtube.com/embed/jRjFn__kVJM?feature=oembed](https://www.youtube.com/embed/jRjFn__kVJM?feature=oembed)****
 
-****感谢阅读！我们希望本周的道德杂志对你有用。
+****感谢阅读！我们希望本周的 Moralis 杂志对你有用。
 
 **继续建造！******
 
 ****下次见💚****
 
-****道德研究小组****
+****Moralis 研究小组****

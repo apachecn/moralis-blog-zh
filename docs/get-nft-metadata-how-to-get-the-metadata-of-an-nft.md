@@ -12,7 +12,7 @@ const response = await Moralis.EvmApi.nft.getNFTMetadata({
 });
 ```
 
-那么，如何获得 NFT 元数据呢？就像使用上面的代码片段一样简单！现在，如果你以前使用过[Moralis](http://moralis.io)web 3 API，你很可能知道如何在你的脚本中正确地合并上面的代码行。因此，只需使用下面的文档链接即可开始！然而，如果你是 Moralis 的新手，一定要完成这篇文章的教程。通过这样做，您将了解如何以最简单的方式获取 NFT 元数据。你只需要你的[免费道德账户](https://admin.moralis.io/register)和几分钟时间就能到达终点。
+那么，如何获得 NFT 元数据呢？就像使用上面的代码片段一样简单！现在，如果你以前使用过[Moralis](http://moralis.io)web 3 API，你很可能知道如何在你的脚本中正确地合并上面的代码行。因此，只需使用下面的文档链接即可开始！然而，如果你是 Moralis 的新手，一定要完成这篇文章的教程。通过这样做，您将了解如何以最简单的方式获取 NFT 元数据。你只需要你的[免费 Moralis 账户](https://admin.moralis.io/register)和几分钟时间就能到达终点。
 
 [**Access the “getNFTMetadata” Endpoint**](https://docs.moralis.io/reference/getnftmetadata)
 
@@ -74,9 +74,9 @@ const response = await Moralis.EvmApi.nft.getNFTMetadata({
 
 如果您准备好了上述所有工具，就可以使用" *getNFTMetadata* "端点来获取 NFT 的元数据了。
 
-### 步骤 1:建立道德观
+### 步骤 1:建立 Moralis 观
 
-你需要你的 Moralis Web3 API 密匙来使用终极 NFT API。幸运的是，你可以从你的道德管理区获得密钥。要访问后者，你需要创建一个免费的道德账户。因此，请使用本文开头所述的“免费 Moralis 账户”链接，或者点击 Moralis 主页右上角的“免费开始”按钮:
+你需要你的 Moralis Web3 API 密匙来使用终极 NFT API。幸运的是，你可以从你的 Moralis 管理区获得密钥。要访问后者，你需要创建一个免费的 Moralis 账户。因此，请使用本文开头所述的“免费 Moralis 账户”链接，或者点击 Moralis 主页右上角的“免费开始”按钮:
 
 ![](img/d2455882c14fcccd46f82f3d8df4a846.png)
 
@@ -86,7 +86,7 @@ const response = await Moralis.EvmApi.nft.getNFTMetadata({
 
 最后但同样重要的是，不要忘记通过电子邮件收件箱中等待您的确认链接来确认您的帐户。
 
-随着您的帐户启动和运行，您可以访问您的道德管理区。从那里，您将能够通过以下两个步骤复制您的 Web3 API 密钥:
+随着您的帐户启动和运行，您可以访问您的 Moralis 管理区。从那里，您将能够通过以下两个步骤复制您的 Web3 API 密钥:
 
 ![](img/bf3a77214d0e291b04ecfbb4921d2845.png)
 
@@ -196,6 +196,6 @@ node index.ts
 
 如果你在创建 dapps 时需要一些练习或指导，一定要使用 Moralis 的资源。使用 Moralis 文档探索最终的 Web3 API。在那里，你还可以找到各种适合初学者的教程。然而，如果你有兴趣了解更多关于区块链的发展，那么 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)是值得一去的地方。在那里，我们涵盖了无数可以帮助你免费成为 Web3 开发者的话题。例如，我们的一些最新文章围绕着为链上事件构建一个[Discord bot](https://moralis.io/blockchain-discord-bot-build-a-discord-bot-for-on-chain-events/)、 [Solana 智能契约示例](https://moralis.io/solana-smart-contract-examples-for-developers/)、如何[从契约中获得所有 NFTs】、](https://moralis.io/how-to-get-all-nfts-from-a-contract/)[加密钱包集成](https://moralis.io/crypto-wallet-integration-using-the-best-crypto-wallet-api/)、集成 [Web3 基础设施](https://moralis.io/web3-infrastructure-exploring-the-best-solution-for-web3-development/)、什么是[以太坊 webhooks](https://moralis.io/ethereum-webhooks-what-they-are-and-how-to-use-webhooks-for-ethereum/) 等等！
 
-还值得指出的是，区块链行业提供了无数的就业机会，通过获得区块链认证，你可以大大提高你成为全职加密员的机会。如果你对此感兴趣，一定要考虑报名参加道德学院。在那里，你可以找到从初级到高级的各种区块链发展课程。也就是说，我们建议从[区块链和比特币基本面](https://academy.moralis.io/courses/blockchain-bitcoin-101)开始。
+还值得指出的是，区块链行业提供了无数的就业机会，通过获得区块链认证，你可以大大提高你成为全职加密员的机会。如果你对此感兴趣，一定要考虑报名参加 Moralis 学院。在那里，你可以找到从初级到高级的各种区块链发展课程。也就是说，我们建议从[区块链和比特币基本面](https://academy.moralis.io/courses/blockchain-bitcoin-101)开始。
 
 ![](img/c582c448a1dea886f9958b0b89a405f6.png)

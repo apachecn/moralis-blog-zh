@@ -2,9 +2,9 @@
 
 > 原文：<https://moralis.io/how-to-do-blockchain-game-transactions-with-unity/>
 
-Web3 游戏是一个巨大的行业，其用户群每天都在增长。[**【web 3】**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/)**和参与区块链游戏的玩家相对于“常规”Web2 游戏的指数增长可能是由于区块链游戏的分散方面和盈利潜力。另外，拥有游戏中的资产并把它们转换成现金也是非常有益的。然而，执行区块链游戏事务的特性是开发者发现在他们的项目中实现具有挑战性的东西，例如在**[**web 3**](https://moralis.io/build-a-web3-mmorpg-with-unity-in-10-minutes/)**游戏中。幸运的是，当使用正确的**[**Web3 tech stack**](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)**工具时，用 Unity 实现 web 3 事务变成了一个简单的过程。多亏了** [**【道德家】的元宇宙 SDK**](https://moralis.io/metaverse/) **，你只需点击几下鼠标和一些基本的设置就能覆盖区块链的游戏交易。**
+Web3 游戏是一个巨大的行业，其用户群每天都在增长。[**【web 3】**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/)**和参与区块链游戏的玩家相对于“常规”Web2 游戏的指数增长可能是由于区块链游戏的分散方面和盈利潜力。另外，拥有游戏中的资产并把它们转换成现金也是非常有益的。然而，执行区块链游戏事务的特性是开发者发现在他们的项目中实现具有挑战性的东西，例如在**[**web 3**](https://moralis.io/build-a-web3-mmorpg-with-unity-in-10-minutes/)**游戏中。幸运的是，当使用正确的**[**Web3 tech stack**](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)**工具时，用 Unity 实现 web 3 事务变成了一个简单的过程。多亏了** [**【Moralis 家】的元宇宙 SDK**](https://moralis.io/metaverse/) **，你只需点击几下鼠标和一些基本的设置就能覆盖区块链的游戏交易。**
 
-接下来，您将看到如何在几分钟内用 Unity 实现 Web3 事务。我们将使用我们现有的项目之一，一个简单的 MMORPG，并添加这个额外的功能。然而，即使你还没有完成过去的例子项目，你也不会有任何问题。我们将向您展示如何使用 GitHub 访问您需要的代码和文件。此外，您还将学习如何完成初始的[道德规范](https://moralis.io/)设置。这样，你就可以获得这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”平台的全部能力。
+接下来，您将看到如何在几分钟内用 Unity 实现 Web3 事务。我们将使用我们现有的项目之一，一个简单的 MMORPG，并添加这个额外的功能。然而，即使你还没有完成过去的例子项目，你也不会有任何问题。我们将向您展示如何使用 GitHub 访问您需要的代码和文件。此外，您还将学习如何完成初始的[Moralis 规范](https://moralis.io/)设置。这样，你就可以获得这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”平台的全部能力。
 
 此外，为了这个例子，我们将把重点放在 WebGL 平台上。因此，我们将使用适当的 [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/)方法。尽管如此，我们强烈建议您不仅通读这篇文章，还要采取行动。自己实现这里的步骤！这样，你将从这次经历中获得最大的收获，并学会设置区块链游戏交易。
 
@@ -64,11 +64,11 @@ Web3 游戏是一个巨大的行业，其用户群每天都在增长。[**【web
 
 ## Unity 和 Moralis 的区块链游戏交易
 
-Moralis 是最终的 Web3 开发平台。因此，它是使 Web3 交易具有统一性的工具。然而，要自己创建上述示例游戏，您还需要光子和元遮罩。虽然光子将照顾我们的多人游戏需求，但道德将使区块链游戏交易成为可能。这个最好的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)使得创建 dapp([分散应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))变得更加简单。总而言之，Moralis 能让你节省 87%的开发时间。此外，如前所述，Moralis 是跨链互操作的。因此，您可以轻松地跨多个可编程链部署 dApps。此外，这个非凡的 Web3 工具可以让您克服 RPC 节点的所有[限制。通过节省后端开发的时间和金钱，您可以将最大的注意力放在前端。因此，你很可能会创造出一个优秀的 Web3 UI。](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)
+Moralis 是最终的 Web3 开发平台。因此，它是使 Web3 交易具有统一性的工具。然而，要自己创建上述示例游戏，您还需要光子和元遮罩。虽然光子将照顾我们的多人游戏需求，但 Moralis 将使区块链游戏交易成为可能。这个最好的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)使得创建 dapp([分散应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))变得更加简单。总而言之，Moralis 能让你节省 87%的开发时间。此外，如前所述，Moralis 是跨链互操作的。因此，您可以轻松地跨多个可编程链部署 dApps。此外，这个非凡的 Web3 工具可以让您克服 RPC 节点的所有[限制。通过节省后端开发的时间和金钱，您可以将最大的注意力放在前端。因此，你很可能会创造出一个优秀的 Web3 UI。](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)
 
 ![](img/1504b0ed6c8f4d742eca4bb5c094916c.png)
 
-幸运的是，Moralis 的免费版本为您提供了入门所需的一切。通过创建您的免费 Moralis 帐户，您可以创建您的 Moralis 服务器并访问其数据库(Moralis dashboard)。如果您将您的 Moralis 仪表板与 Moralis 的“同步”功能相结合，您可以轻松地[同步和索引智能合同事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/)。这也使得 Moralis 成为毫不费力地索引区块链的最佳工具。尽管如此，如果你还没有这样做，请确保在继续之前[创建你的免费道德账户](https://admin.moralis.io/register)。
+幸运的是，Moralis 的免费版本为您提供了入门所需的一切。通过创建您的免费 Moralis 帐户，您可以创建您的 Moralis 服务器并访问其数据库(Moralis dashboard)。如果您将您的 Moralis 仪表板与 Moralis 的“同步”功能相结合，您可以轻松地[同步和索引智能合同事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/)。这也使得 Moralis 成为毫不费力地索引区块链的最佳工具。尽管如此，如果你还没有这样做，请确保在继续之前[创建你的免费 Moralis 账户](https://admin.moralis.io/register)。
 
 ### 下载我们的 Unity 示例项目
 
@@ -86,13 +86,13 @@ Moralis 是最终的 Web3 开发平台。因此，它是使 Web3 交易具有统
 
 ## 使用 Unity 实现 Web3 交易——“登录”场景
 
-随着“登录”场景的打开，我们可以访问层级中的“道德设置”预设。此外，通过选择预置，我们登陆到“道德控制器”。在这里，您需要输入您的 Moralis 服务器的详细信息，以获得您需要的后端支持:
+随着“登录”场景的打开，我们可以访问层级中的“Moralis 设置”预设。此外，通过选择预置，我们登陆到“Moralis 控制器”。在这里，您需要输入您的 Moralis 服务器的详细信息，以获得您需要的后端支持:
 
 ![](img/ad2dfd68d627c1e46204326249f9b065.png)
 
-上面的图像清楚地显示了“道德设置”预设的细节。您可以看到您需要您的 Moralis 服务器 URL 和应用程序 ID。因此，这是您创建自己的 Moralis 服务器并获取其详细信息的提示。
+上面的图像清楚地显示了“Moralis 设置”预设的细节。您可以看到您需要您的 Moralis 服务器 URL 和应用程序 ID。因此，这是您创建自己的 Moralis 服务器并获取其详细信息的提示。
 
-### 初始道德设置
+### 初始 Moralis 设置
 
 无论你是对用 Unity 还是其他 dApps 创建 Web3 游戏感兴趣，你都必须从初始的 Moralis 设置开始。以下是轻松做到这一点的步骤:
 
@@ -130,7 +130,7 @@ Moralis 是最终的 Web3 开发平台。因此，它是使 Web3 交易具有统
 
 ![](img/0450c88076f9980353a9a2b496e9d004.png)
 
-然后让团结做它的事情。接下来，点击位于“构建设置”窗口左下角的“播放器设置”按钮(见上图)。在“项目设置”窗口中，从侧面菜单中选择“播放器”。然后，在“解析和演示”下选择“道德 WebGL”模板:
+然后让团结做它的事情。接下来，点击位于“构建设置”窗口左下角的“播放器设置”按钮(见上图)。在“项目设置”窗口中，从侧面菜单中选择“播放器”。然后，在“解析和演示”下选择“Moralis WebGL”模板:
 
 ![](img/fac89942e190ce9a2fee26fb3d810fd3.png)
 
@@ -186,6 +186,6 @@ https://www.youtube.com/watch?v=ggDEoBB0eP0
 
 在这篇文章中，我们已经涉及了相当多的内容。您已经学习了如何使用 Unity 轻松进行区块链游戏交易。此外，您已经有机会使用我们的模板，通过完成 Moralis 和 Photon 的初始设置，在几分钟内创建一个示例 Web3 游戏。此外，如果你跟随我们的领导到这一点，你已经能够在你的终端上启动游戏，甚至用 Unity 执行 Web3 交易。
 
-我们希望这个例子能启发你，并向你展示 Moralis 的元宇宙 SDK 的潜力。因此，现在是时候让事情更上一层楼，开始将你的 Web3 游戏创意付诸实践了。然而，如果你想学习其他 Unity Web3 的例子，我们建议你学习如何[创建一个元宇宙 dApp](https://moralis.io/how-to-create-a-metaverse-dapp-with-unity/) 。或者，也许[建造一个中世纪的元宇宙游戏](https://moralis.io/how-to-build-a-medieval-metaverse-game/)。另一方面，你可能对区块链发展的其他方面感兴趣。如果是这样，一定要去看看[道德家 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德家博客](https://moralis.io/blog/)。这两个渠道都提供高质量的解释和指南。例如，一些最新的话题涵盖了如何创建一个 [Web3 音乐平台](https://moralis.io/web3-music-platform-create-a-web3-music-streaming-service/)、[无汽油元宇宙互动](https://moralis.io/gasless-metaverse-interactions-exploring-zero-fee-dapps/)、如何[创建一个 ERC-721 NFT](https://moralis.io/how-to-create-an-erc-721-nft/) 、如何[白标 NFT 市场](https://moralis.io/how-to-launch-a-white-label-nft-marketplace/)以及[元宇宙智能合约](https://moralis.io/metaverse-smart-contract-how-to-build-a-metaverse-game-smart-contract/)的例子。
+我们希望这个例子能启发你，并向你展示 Moralis 的元宇宙 SDK 的潜力。因此，现在是时候让事情更上一层楼，开始将你的 Web3 游戏创意付诸实践了。然而，如果你想学习其他 Unity Web3 的例子，我们建议你学习如何[创建一个元宇宙 dApp](https://moralis.io/how-to-create-a-metaverse-dapp-with-unity/) 。或者，也许[建造一个中世纪的元宇宙游戏](https://moralis.io/how-to-build-a-medieval-metaverse-game/)。另一方面，你可能对区块链发展的其他方面感兴趣。如果是这样，一定要去看看[Moralis 家 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 家博客](https://moralis.io/blog/)。这两个渠道都提供高质量的解释和指南。例如，一些最新的话题涵盖了如何创建一个 [Web3 音乐平台](https://moralis.io/web3-music-platform-create-a-web3-music-streaming-service/)、[无汽油元宇宙互动](https://moralis.io/gasless-metaverse-interactions-exploring-zero-fee-dapps/)、如何[创建一个 ERC-721 NFT](https://moralis.io/how-to-create-an-erc-721-nft/) 、如何[白标 NFT 市场](https://moralis.io/how-to-launch-a-white-label-nft-marketplace/)以及[元宇宙智能合约](https://moralis.io/metaverse-smart-contract-how-to-build-a-metaverse-game-smart-contract/)的例子。
 
-但是，如果你想在尽可能短的时间内成为一名 Web3 开发者，你可能需要采取更专业的方法。在这种情况下，报名参加[道德学院](https://academy.moralis.io/)可能正是你的正确道路。除了顶尖的[课程](https://academy.moralis.io/all-courses)，你还将成为高级社区的一员，获得个性化的学习路径，并接受专家指导。
+但是，如果你想在尽可能短的时间内成为一名 Web3 开发者，你可能需要采取更专业的方法。在这种情况下，报名参加[Moralis 学院](https://academy.moralis.io/)可能正是你的正确道路。除了顶尖的[课程](https://academy.moralis.io/all-courses)，你还将成为高级社区的一员，获得个性化的学习路径，并接受专家指导。

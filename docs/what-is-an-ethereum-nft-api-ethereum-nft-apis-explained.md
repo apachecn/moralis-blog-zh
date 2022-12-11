@@ -52,13 +52,13 @@ NFTs 或不可替换令牌，以及可替换令牌，是两种主要的令牌类
 
 Moralis 是首屈一指的 blockend 开发操作系统，作为该平台的一员，您将能够显著缩短开发时间。Moralis 提供了一系列优秀的开发工具，如 Moralis' [元宇宙 SDK](https://moralis.io/metaverse/) ，对 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 的本地支持，以及 Moralis' [web3uikit](https://moralis.io/web3ui-kit-the-ultimate-web3-user-interface-kit/) 。这些与无限可扩展的后端基础设施相结合，使 blockend 开发成为一股热潮。
 
-然而，在这一节中，我们将把注意力转向道德家的 [NFT API](https://moralis.io/nft-api/) ，因为这是获得以太坊 NFT API 的最佳方式。道德 NFT API 支持跨链兼容性，这意味着该 API 有助于在多个网络上实现更无缝的开发者体验。
+然而，在这一节中，我们将把注意力转向 Moralis 家的 [NFT API](https://moralis.io/nft-api/) ，因为这是获得以太坊 NFT API 的最佳方式。Moralis NFT API 支持跨链兼容性，这意味着该 API 有助于在多个网络上实现更无缝的开发者体验。
 
 ![](img/54f8f6b3c7e957579675234316209a10.png)
 
 受支持的网络之一当然是以太坊。因此，Moralis 的 NFT API 不仅是一个完美的以太坊 NFT API，而且它同时充当了[币安 NFT API](https://moralis.io/binance-nft-api-what-is-it-and-how-does-it-work/) 和多边形 NFT API。所以，如果你使用来自 Moralis 的工具，你将不会局限于一个网络，你可以创建跨链兼容的 dapps！
 
-由于这种跨链兼容性，道德 NFT API 本质上是一个更先进的以太坊 NFT API，确保各种区块链网络和您的项目之间的通信。这允许你轻松地获取关于以太坊 NFTs 的后端信息。因此，通过利用道德 NFT API，你不需要担心建立自己的基础设施来实现这一功能。相反，你将有更多的时间分配给 Web3 开发过程中其他更重要的部分。
+由于这种跨链兼容性，Moralis NFT API 本质上是一个更先进的以太坊 NFT API，确保各种区块链网络和您的项目之间的通信。这允许你轻松地获取关于以太坊 NFTs 的后端信息。因此，通过利用 Moralis NFT API，你不需要担心建立自己的基础设施来实现这一功能。相反，你将有更多的时间分配给 Web3 开发过程中其他更重要的部分。
 
 然而，作为一名开发者，这个“以太坊 NFT API”允许你获取什么类型的信息呢？在前面几节中，我们将提供三个例子，并仔细看看如何获得以太坊 NFT 传输数据、元数据和所有权数据！
 
@@ -66,7 +66,7 @@ Moralis 是首屈一指的 blockend 开发操作系统，作为该平台的一�
 
 当创建与 NFT 相关的项目时，访问不同类型的信息来跟踪 NFT 是有益的。我们首先要仔细研究的是如何使用以太坊 NFT API 来获取关于这些令牌的传输数据。
 
-道德 NFT API 允许你跟踪令牌如何在以太坊区块链上移动，这在你构建 dapps 时会给你带来很大的好处。例如，您可以从特定的块号中搜索所有 NFT 转移。此外，您可以使用 API 来搜索基于钱包地址、NFT 合同地址甚至特定令牌的转账。此外，由于 Moralis 的 NFT API 支持跨链功能，这对于 Fantom、Avalanche 和 Polygon 等其他网络也是可能的。
+Moralis NFT API 允许你跟踪令牌如何在以太坊区块链上移动，这在你构建 dapps 时会给你带来很大的好处。例如，您可以从特定的块号中搜索所有 NFT 转移。此外，您可以使用 API 来搜索基于钱包地址、NFT 合同地址甚至特定令牌的转账。此外，由于 Moralis 的 NFT API 支持跨链功能，这对于 Fantom、Avalanche 和 Polygon 等其他网络也是可能的。
 
 例如，如果您希望 NFT 传输数据，可以使用以下命令:
 
@@ -79,7 +79,7 @@ const transferNFT = await Moralis.Web3API.token.getNFTTransfer(options);
 
 NFT 通常附有所谓的元数据。一个例子是游戏中的物品，在令牌的元数据中指定了一些统计数据。因为 NFT 有元数据，所以方便地查询这些信息是非常有益的，这可以通过 Moralis 的 NFT API 来实现。有了 API，您不需要担心手动解析智能合同的繁琐的传统过程，因为 API 为您完成了大部分繁重的工作。
 
-此外，该 API 还提供了搜索端点，允许您在 NFT 的元数据中直接搜索特定属性或描述。这些信息可以直接在你的 dapp 中使用，并使开发 NFT 项目变得非常容易！以下是使用道德 NFT API 获取元数据的方法:
+此外，该 API 还提供了搜索端点，允许您在 NFT 的元数据中直接搜索特定属性或描述。这些信息可以直接在你的 dapp 中使用，并使开发 NFT 项目变得非常容易！以下是使用 Moralis NFT API 获取元数据的方法:
 
 ```js
 const options = { address: "", chain: "" };
@@ -103,7 +103,7 @@ const nftOwners = await Moralis.Web3API.token.getNFTOwners(options);
 
 NFT 市场在 2022 年期间呈指数级增长，该行业正变得越来越有利可图。因此，开发与 NFT 相关的项目变得越来越流行。然而，创建 NFT 平台可能相当麻烦。因此，开发人员一直需要 NFT API，这正是 Moralis 介入的地方。
 
-除了后端基础设施，Moralis 还提供了一系列开发工具，其中之一是 Moralis 的 NFT API。该 API 具有跨链兼容性，支持的网络之一是以太坊。因此，道德 NFT API 提供了以太坊 NFT API 的一切，允许您获取以太坊 NFT 传输数据、元数据和所有权数据等信息。
+除了后端基础设施，Moralis 还提供了一系列开发工具，其中之一是 Moralis 的 NFT API。该 API 具有跨链兼容性，支持的网络之一是以太坊。因此，Moralis NFT API 提供了以太坊 NFT API 的一切，允许您获取以太坊 NFT 传输数据、元数据和所有权数据等信息。
 
 ![](img/77c767a7fe3784908536e8ec474b605e.png)
 

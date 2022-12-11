@@ -2,11 +2,11 @@
 
 > 原文：<https://moralis.io/how-to-get-user-erc-20-tokens-in-4-steps/>
 
-**在开发** [**dApps**](https://moralis.io/decentralized-applications-explained-what-are-dapps/) **的时候，经常需要用户的余额信息，比如 ERC-20 代币** **。例如，开发人员在创建税收计算或投资组合跟踪 dApps 时需要这些信息。然而，如果没有合适的工具和资源，获取这样的信息可能是一项非常麻烦的任务。解决这件事的完美平台是** [**道德家**](https://moralis.io/?utm_source=blog&utm_medium=post&utm_campaign=Want%2520the%2520Latest%2520in%2520%253Cspan%253EBlockchain%2520Development%253F%253C%252Fspan%253E) **。** **因此，在本文中，我们将进一步了解如何使用 Moralis 平台获得用户 ERC-20 令牌的过程。**
+**在开发** [**dApps**](https://moralis.io/decentralized-applications-explained-what-are-dapps/) **的时候，经常需要用户的余额信息，比如 ERC-20 代币** **。例如，开发人员在创建税收计算或投资组合跟踪 dApps 时需要这些信息。然而，如果没有合适的工具和资源，获取这样的信息可能是一项非常麻烦的任务。解决这件事的完美平台是** [**Moralis 家**](https://moralis.io/?utm_source=blog&utm_medium=post&utm_campaign=Want%2520the%2520Latest%2520in%2520%253Cspan%253EBlockchain%2520Development%253F%253C%252Fspan%253E) **。** **因此，在本文中，我们将进一步了解如何使用 Moralis 平台获得用户 ERC-20 令牌的过程。**
 
 Moralis 是最强大的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台，借助 Moralis 的工具和资源，我们可以在几分钟内获取用户令牌余额。这是可能的，因为为用户提供了完全受管的后端基础设施。因此，在 Moralis 平台上开发 dApps 时，我们可以卸下大部分繁重的工作。
 
-此外，该平台提供了大量有用的开发工具，如 [道德快速节点](https://moralis.io/speedy-nodes/)[价格 API](https://moralis.io/introducing-the-moralis-price-api/)[NFT API](https://moralis.io/announcing-the-moralis-nft-api/)，以及对[](https://moralis.io/what-is-ipfs-interplanetary-file-system/)的原生支持。然而，这些只是 Moralis 提供的一些工具和好处。因此，该平台可以提供更多功能。
+此外，该平台提供了大量有用的开发工具，如 [Moralis 快速节点](https://moralis.io/speedy-nodes/)[价格 API](https://moralis.io/introducing-the-moralis-price-api/)[NFT API](https://moralis.io/announcing-the-moralis-nft-api/)，以及对[](https://moralis.io/what-is-ipfs-interplanetary-file-system/)的原生支持。然而，这些只是 Moralis 提供的一些工具和好处。因此，该平台可以提供更多功能。
 
 此外，我们将在本教程中广泛使用 Moralis，这也是我们强烈建议注册的原因。加入该平台是免费的，它将为您提供对该平台所有工具的即时访问。该平台使您能够显著缩短所有未来区块链项目的上市时间，从而节省宝贵的时间和资源！
 
@@ -30,22 +30,22 @@ ERC-20 标准也为带有智能合约的令牌实现了一个 API。这提供了
 
 在开发 dApps 时，获得用户 ERC-20 代币在很多情况下是非常有益的，例如，为了显示他们的全部余额。但是，查询这些信息可能会很困难，而且非常耗时。这并不理想，因为我们不希望这部分成为我们开发过程中的瓶颈。
 
-这里的一个根本问题是开发 dApp 时的后端基础设施。我们需要一个全功能的后端基础设施来为我们的 dApp 提供获取用户 ERC-20 令牌的能力，从头开始设置一个令牌可能会很麻烦。然而，如果我们利用道德，这个过程变得快速和容易！
+这里的一个根本问题是开发 dApp 时的后端基础设施。我们需要一个全功能的后端基础设施来为我们的 dApp 提供获取用户 ERC-20 令牌的能力，从头开始设置一个令牌可能会很麻烦。然而，如果我们利用 Moralis，这个过程变得快速和容易！
 
 作为 [Web3 开发](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/) 的最佳中间件和首选，我们可以利用 Moralis 平台通过四个快速简单的步骤获得用户 ERC-20 令牌。这些步骤如下:
 
-1.  创建一个道德服务器。
+1.  创建一个 Moralis 服务器。
 2.  初始化一个 index.html 文件。
 3.  创建一个 main.js 文件。
 4.  使用网络服务器测试应用程序。
 
 因此，为了开始这个过程，我们将从仔细研究如何通过简单的点击来设置自己的 Moralis 服务器开始。
 
-然而，如果你更想看一段解释整个过程的视频，那么看看下面这段来自 [道德网 YouTube 频道](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw) : 的视频
+然而，如果你更想看一段解释整个过程的视频，那么看看下面这段来自 [Moralis 网 YouTube 频道](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw) : 的视频
 
 [https://www.youtube.com/embed/UiLI9WlNBGQ?feature=oembed](https://www.youtube.com/embed/UiLI9WlNBGQ?feature=oembed)
 
-## 第一步:创建一个道德服务器
+## 第一步:创建一个 Moralis 服务器
 
 正如我们在简介中提到的，我们将在本教程中使用 Moralis。我们要做的第一件事就是报名[](http://moralis.io/)。注册该平台是完全免费的，它提供了对所有 Moralis 工具的访问。
 
@@ -67,7 +67,7 @@ ERC-20 标准也为带有智能合约的令牌实现了一个 API。这提供了
 
 在这个例子中，我们将从头开始创建一个项目，制作一个简单的应用程序来获取用户账户的余额。因此，我们可以从创建一个全新的项目开始，我们要添加的第一个文件是“index.html”。
 
-这个文件将包含我们应用程序的所有 HTML 代码，比如一个“登录”按钮。首先，我们只复制一些样板代码，你可以在 [道德 GitHub 页面](https://github.com/MoralisWeb3/demo-apps/tree/main/moralis-sign-in-boilerplate) 上找到，它看起来像这样:
+这个文件将包含我们应用程序的所有 HTML 代码，比如一个“登录”按钮。首先，我们只复制一些样板代码，你可以在 [Moralis GitHub 页面](https://github.com/MoralisWeb3/demo-apps/tree/main/moralis-sign-in-boilerplate) 上找到，它看起来像这样:
 
 ![](img/4dd2cf431b2b6d4d33b04ea662bf9c25.png)
 
@@ -111,15 +111,15 @@ ERC-20 标准也为带有智能合约的令牌实现了一个 API。这提供了
 
 ![](img/91acd9d2e2df5c371b1c4768074be27c.png)
 
-Moralis 是领先的 Web3 开发中间件，它为用户提供了开发和部署 dApps 所需的一切。一个例子是，我们可以利用 Moralis 平台让用户 ERC-20 令牌查看余额。借助道德的力量，我们可以在几分钟内完成这项工作。事实上，我们可以通过以下四个步骤获得用户余额:
+Moralis 是领先的 Web3 开发中间件，它为用户提供了开发和部署 dApps 所需的一切。一个例子是，我们可以利用 Moralis 平台让用户 ERC-20 令牌查看余额。借助 Moralis 的力量，我们可以在几分钟内完成这项工作。事实上，我们可以通过以下四个步骤获得用户余额:
 
-1.  生成一个道德服务器。
+1.  生成一个 Moralis 服务器。
 2.  初始化一个 index.html 文件。
 3.  创建一个 main.js 文件。
 4.  使用网络服务器测试应用程序。
 
 在本文中，我们从头创建了一个新项目来演示使用 Moralis 是多么容易。然而，也可以将本教程中的逻辑实现到现有的 dApp 中。
 
-此外，这仅仅触及了道德的表面。该平台还提供了其他一些优秀的工具和功能。例如，您会在 [上找到出色的指南，了解如何创建自己的 ERC-20 令牌](https://moralis.io/how-to-create-your-own-erc-20-token-in-10-minutes/) 以及 [如何通过 WalletConnect](https://moralis.io/how-to-connect-users-with-walletconnect/) 上的 [Moralis 博客](https://moralis.io/blog/) 验证用户。仔细看看这个博客也会让你更好地理解 Moralis 平台的潜力。
+此外，这仅仅触及了 Moralis 的表面。该平台还提供了其他一些优秀的工具和功能。例如，您会在 [上找到出色的指南，了解如何创建自己的 ERC-20 令牌](https://moralis.io/how-to-create-your-own-erc-20-token-in-10-minutes/) 以及 [如何通过 WalletConnect](https://moralis.io/how-to-connect-users-with-walletconnect/) 上的 [Moralis 博客](https://moralis.io/blog/) 验证用户。仔细看看这个博客也会让你更好地理解 Moralis 平台的潜力。
 
-所以，如果你想成为一名 dApp 或令牌开发者，第一步就是 [注册道德平台](https://admin.moralis.io/register) 。注册是完全免费的，只需要几秒钟。注册后，您将可以使用该平台的所有工具和已经托管的后端基础设施。从今天开始，让 Moralis 帮助您从头到尾启动您的项目！
+所以，如果你想成为一名 dApp 或令牌开发者，第一步就是 [注册 Moralis 平台](https://admin.moralis.io/register) 。注册是完全免费的，只需要几秒钟。注册后，您将可以使用该平台的所有工具和已经托管的后端基础设施。从今天开始，让 Moralis 帮助您从头到尾启动您的项目！

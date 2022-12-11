@@ -2,11 +2,11 @@
 
 > 原文：<https://moralis.io/develop-your-own-nft-marketplace-step-by-step-guide/>
 
-不可替换的代币，或称[**NFT**](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/)**，本质上是数字收藏品，在过去几年里越来越受欢迎。不仅市场上 NFT 的数量大幅增长，而且其中一些以荒谬的价格出售。随着它们变得越来越受欢迎，了解它们如何工作以及如何获得这些令牌变得越来越迫切。此外，上市、拍卖和出售非关税壁垒，都可以通过 NFT 市场。如果你已经熟悉** [**如何创建自己的 NFT**](https://moralis.io/how-to-create-your-own-nft-in-5-steps/) **，那么你甚至可能已经有一个准备出售了。因此，在这个分步指南中，您将会更喜欢了解创建不可替代代币市场的过程。因此，请跟随这篇文章，让我们更深入地了解如何利用** [**道德规范**](https://moralis.io/?utm_source=blog&utm_medium=post&utm_campaign=Want%2520the%2520Latest%2520in%2520%253Cspan%253EBlockchain%2520Development%253F%253C%252Fspan%253E) **开发自己的 NFT 市场。**
+不可替换的代币，或称[**NFT**](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/)**，本质上是数字收藏品，在过去几年里越来越受欢迎。不仅市场上 NFT 的数量大幅增长，而且其中一些以荒谬的价格出售。随着它们变得越来越受欢迎，了解它们如何工作以及如何获得这些令牌变得越来越迫切。此外，上市、拍卖和出售非关税壁垒，都可以通过 NFT 市场。如果你已经熟悉** [**如何创建自己的 NFT**](https://moralis.io/how-to-create-your-own-nft-in-5-steps/) **，那么你甚至可能已经有一个准备出售了。因此，在这个分步指南中，您将会更喜欢了解创建不可替代代币市场的过程。因此，请跟随这篇文章，让我们更深入地了解如何利用** [**Moralis 规范**](https://moralis.io/?utm_source=blog&utm_medium=post&utm_campaign=Want%2520the%2520Latest%2520in%2520%253Cspan%253EBlockchain%2520Development%253F%253C%252Fspan%253E) **开发自己的 NFT 市场。**
 
 Moralis 是 Web3 开发的头号操作系统，使 T2 区块链开发变得更加容易。有了 Moralis，我们可以快速开发一个 NFT 市场，而平台的工具使这在大约 20 分钟内成为可能。Moralis 平台的众多优势之一是所有用户都可以使用无限可扩展的后端基础设施。这使您可以避免区块链开发中最紧迫的任务，以便您可以专注于创建智能合同和令人信服的用户体验。
 
-Moralis 提供了大量的 Web3 工具来帮助各种开发项目。例如，用户可以立即获得对 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 、[道德利斯快速节点](https://moralis.io/speedy-nodes/?utm_source=blog&utm_medium=post&utm_campaign=What%2520is%2520IPFS%2520%28InterPlanetary%2520File%2520System%29%253F)、道德利斯[价格 API](https://moralis.io/introducing-the-moralis-price-api/) 和 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 等的原生支持。例如，Moralis 是 BSC 的首选 [Infura，是 Avalanche](https://moralis.io/infura-bsc-alternatives-the-best-alternative-to-infura-for-bsc/) 的首选 [Infura。](https://moralis.io/infura-for-avalanche-exploring-infura-avalanche-alternatives/)
+Moralis 提供了大量的 Web3 工具来帮助各种开发项目。例如，用户可以立即获得对 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 、[Moralis 利斯快速节点](https://moralis.io/speedy-nodes/?utm_source=blog&utm_medium=post&utm_campaign=What%2520is%2520IPFS%2520%28InterPlanetary%2520File%2520System%29%253F)、Moralis 利斯[价格 API](https://moralis.io/introducing-the-moralis-price-api/) 和 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 等的原生支持。例如，Moralis 是 BSC 的首选 [Infura，是 Avalanche](https://moralis.io/infura-bsc-alternatives-the-best-alternative-to-infura-for-bsc/) 的首选 [Infura。](https://moralis.io/infura-for-avalanche-exploring-infura-avalanche-alternatives/)
 
 此外，[注册 Moralis](https://admin.moralis.io/register) 完全免费，只需几秒钟。所以，如果你想成为一名 dApp 开发者，那就马上加入这个平台，你的第一个区块链项目很快就会启动！
 
@@ -38,7 +38,7 @@ NFT 存在于区块链上，其中每个块都受到加密技术的保护，这�
 
 随着对如何销售数字收藏品和什么是 NFT 市场有了更好的理解，我们可以仔细看看如何开发你自己的 NFT 市场 dApp。由于我们与 Moralis 合作，因此只需通过以下五个步骤就可以做到:
 
-1.  创建一个道德服务器
+1.  创建一个 Moralis 服务器
 2.  设置智能合同
 3.  创建一个 HTML 文件
 4.  为 dApp 创建逻辑
@@ -46,13 +46,13 @@ NFT 存在于区块链上，其中每个块都受到加密技术的保护，这�
 
 由于 Moralis 提供了一个已经托管的后端基础设施，这个过程变得相对简单。然而，当涉及到 Solidity 和 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 时，具有预先开发知识是有利的，因为这些是我们在创建 NFT 市场时将使用的[区块链开发语言](https://moralis.io/best-languages-for-blockchain-development-full-tutorial/)。
 
-此外，如果你更喜欢观看解释这一过程的视频，那么请收听来自[道德 YouTube 频道](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw)的以下片段。在这里，您会发现 Moralis 的一名开发人员正在深入研究如何开发您自己的 NFT 市场的完整过程:
+此外，如果你更喜欢观看解释这一过程的视频，那么请收听来自[Moralis YouTube 频道](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw)的以下片段。在这里，您会发现 Moralis 的一名开发人员正在深入研究如何开发您自己的 NFT 市场的完整过程:
 
 https://www.youtube.com/watch?v=EMOYpgl5S1w
 
-### 第一步:开发你自己的 NFT 市场——创建一个道德服务器
+### 第一步:开发你自己的 NFT 市场——创建一个 Moralis 服务器
 
-创建一个可以交易数字收藏品的 NFT 市场的第一步是建立一个道德服务器。为此，如果您还没有，您需要创建一个 Moralis 帐户。创建一个帐户很容易，一旦登录，我们可以启动一个新的 Moralis 实例。
+创建一个可以交易数字收藏品的 NFT 市场的第一步是建立一个 Moralis 服务器。为此，如果您还没有，您需要创建一个 Moralis 帐户。创建一个帐户很容易，一旦登录，我们可以启动一个新的 Moralis 实例。
 
 要开始这个过程，你需要点击管理面板右上角的按钮，上面写着“+创建一个新服务器”。这将提供一系列选项供您选择，这应该取决于您希望在哪个链和网络上构建 dApp。但是，一旦单击了其中一个选项，就会出现一个新窗口，您需要在其中输入服务器名称，选择一个区域，然后选择您所选择的网络。
 
@@ -223,10 +223,10 @@ async function subscribeOfferings(){
 }
 ```
 
-每当有新产品被添加到 Moralis 服务器的数据库中时，该功能都会进行监听。然后，它将清除产品并再次填充新的产品。在与道德家合作时，没必要比这更复杂。此外，其他 subscribe 函数的工作方式类似，您可以再次在 GitHub 存储库中找到它们。
+每当有新产品被添加到 Moralis 服务器的数据库中时，该功能都会进行监听。然后，它将清除产品并再次填充新的产品。在与 Moralis 家合作时，没必要比这更复杂。此外，其他 subscribe 函数的工作方式类似，您可以再次在 GitHub 存储库中找到它们。
 
 ## 发展您自己的 NFT 市场–分步指南–总结
 
 这就是如何发展你自己的 NFT 市场的教程。我们能够创建一个功能齐全的市场，只需五个简单的步骤就可以买卖数字收藏品。如果您已经跟随，您现在将直接了解 Moralis 平台的威力。没有其他平台能让你在几分钟内创建一个 NFT 市场。然而，这并不是平台的全部。Moralis 提供了许多额外的指南，如[如何建立 ETH dApps](https://moralis.io/how-to-build-eth-dapps-quickly/) 或[如何转移 ERC-721 令牌](https://moralis.io/erc-721-token-standard-how-to-transfer-erc721-tokens/)。此外，Moralis 博客为完全初学者提供了许多指南。这将让你掌握 [ERC721](https://moralis.io/erc-721-token-standard-how-to-transfer-erc721-tokens/) 、 [ERC1155](https://moralis.io/erc1155-exploring-the-erc-1155-token-standard/) 、 [BEP20](https://moralis.io/what-is-bep20-full-binance-smart-chain-token-guide/) ，如何用 React Native 创建[移动以太坊应用](https://moralis.io/create-mobile-ethereum-dapp-with-react-native-template/)，或者了解 Moralis 的综合[以太坊 dApp 样板](https://moralis.io/ethereum-dapp-boilerplate-full-ethereum-react-boilerplate-tutorial/)。
 
-所以，如果你想成为区块链的开发者，那么请确保 T2 马上和道德家签约。注册是完全免费的，你将能够在创纪录的时间内成为一名 dApp 开发者！
+所以，如果你想成为区块链的开发者，那么请确保 T2 马上和 Moralis 家签约。注册是完全免费的，你将能够在创纪录的时间内成为一名 dApp 开发者！

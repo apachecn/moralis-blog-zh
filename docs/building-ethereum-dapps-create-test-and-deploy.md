@@ -4,7 +4,7 @@
 
 您知道吗，您可以通过简单的三个步骤在以太坊上构建 dapp？如果您想进一步探索这些步骤，请跟随本 dapp 教程，带您完成创建、测试和部署阶段。在这个过程中，你会注意到构建以太坊 dapps 非常简单。简而言之，我们将创建一个后端和一个前端，连接两者，然后使用 Moralis 的企业级 Web3 API 在后端获取各种链上数据。最后，我们必须确保前端以用户友好的方式整洁地呈现数据。
 
-此外，在以太坊上构建 dapps 时，还必须添加 Web3 认证。幸运的是，Moralis 的 Auth API 可以让您在几分钟内解决这个问题。此外，由于 Moralis 的 web3uikit，您甚至可以节省添加时尚按钮和其他小部件的时间。此外，由于 Moralis 是跨链互操作的，您不仅可以开发以太坊 dapps，还可以构建其他 EVM 兼容链。如果以上听起来都很有趣，今天的 dapp 教程就是为你准备的。然而，在我们开始本教程的主要任务之前，我们需要了解一些基础知识。现在，如果你已经知道以太坊上的去中心化应用是什么，你可能想马上动手。如果是这样，请随意跳转到“ *Dapp 教程——用 Moralis* 构建以太坊 Dapp”部分。即便如此，首先要确保你已经准备好了你的[免费道德账户](https://admin.moralis.io/register)。
+此外，在以太坊上构建 dapps 时，还必须添加 Web3 认证。幸运的是，Moralis 的 Auth API 可以让您在几分钟内解决这个问题。此外，由于 Moralis 的 web3uikit，您甚至可以节省添加时尚按钮和其他小部件的时间。此外，由于 Moralis 是跨链互操作的，您不仅可以开发以太坊 dapps，还可以构建其他 EVM 兼容链。如果以上听起来都很有趣，今天的 dapp 教程就是为你准备的。然而，在我们开始本教程的主要任务之前，我们需要了解一些基础知识。现在，如果你已经知道以太坊上的去中心化应用是什么，你可能想马上动手。如果是这样，请随意跳转到“ *Dapp 教程——用 Moralis* 构建以太坊 Dapp”部分。即便如此，首先要确保你已经准备好了你的[免费 Moralis 账户](https://admin.moralis.io/register)。
 
 ![Art picture showing a computer that connects to Ethereum dapps and nodes.](img/4022f12d29ec86526a1d4774a8e65580.png)
 
@@ -42,7 +42,7 @@
 
 ![A cartoon wizard pointing at the Moralis title.](img/98f9a7d8182e2422000f293ce07ba743.png)
 
-## Dapp 教程-用道德建造以太坊 dapp
+## Dapp 教程-用 Moralis 建造以太坊 dapp
 
 我们现在已经到了本教程的主要部分——建造以太坊 dapps。如果你跟随我们的领导，我们将要创建的以太坊上的 dapp 是一种“类似 Zapper”的 dapp。此外，您需要完成以下步骤:
 
@@ -125,7 +125,7 @@
 
 #### 获取您的 Moralis Web3 API 密钥
 
-现在我们已经成功地连接了后端和前端，我们可以开始添加 Web3 功能了。这也是建造以太坊 dapps 变得有趣的地方。此外，这也是我们将向您展示如何以最简单的方式在以太坊上构建 dapp 的地方。因此，我们将使用 Moralis 的 EVM API。这意味着我们需要创建我们的道德账户。为此，我们可以从一开始就使用该链接，或者访问 Moralis 的主页，然后点击“[免费开始](https://admin.moralis.io/register)”按钮:
+现在我们已经成功地连接了后端和前端，我们可以开始添加 Web3 功能了。这也是建造以太坊 dapps 变得有趣的地方。此外，这也是我们将向您展示如何以最简单的方式在以太坊上构建 dapp 的地方。因此，我们将使用 Moralis 的 EVM API。这意味着我们需要创建我们的 Moralis 账户。为此，我们可以从一开始就使用该链接，或者访问 Moralis 的主页，然后点击“[免费开始](https://admin.moralis.io/register)”按钮:
 
 ![Moralis' homepage.](img/12ac87463765fde9e18a4fa5619faf37.png)
 
@@ -215,6 +215,6 @@
 
 我们在今天的文章中谈了相当多的内容。在向您展示如何在以太坊上构建 dapp 之前，我们解释了以太坊上的去中心化应用程序是什么。然后，我们概述了构建以太坊 dapps 的步骤。我们甚至告诉您，在以太坊网络上构建 dapps 时，使用以太坊样板是最简单的入门方式。最后但同样重要的是，在我们的带领下，你有机会卷起袖子创建你自己的 dapp。
 
-如果你喜欢这个教程，我们鼓励你访问[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德博客](https://moralis.io/blog/)。一些最新的文章关注于[编写一个 Solana 智能合同](https://moralis.io/how-to-write-a-solana-smart-contract/)，实现[基于区块链的认证](https://moralis.io/blockchain-based-authentication-how-to-integrate/)，使用 [Avalanche 样板](https://moralis.io/avalanche-boilerplate-fastest-way-to-build-avalanche-dapps/)，[创建 Cronos dapp](https://moralis.io/cronos-boilerplate-how-to-create-cronos-dapps/)，[构建多边形 dapp](https://moralis.io/polygon-boilerplate-how-to-build-polygon-dapps/)，等等。除了伟大的范例项目，这些出口也解释了 dapp 开发的核心概念。此外，它们是很好的资源，可以帮助你免费成为一名 Web3 开发者。
+如果你喜欢这个教程，我们鼓励你访问[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 博客](https://moralis.io/blog/)。一些最新的文章关注于[编写一个 Solana 智能合同](https://moralis.io/how-to-write-a-solana-smart-contract/)，实现[基于区块链的认证](https://moralis.io/blockchain-based-authentication-how-to-integrate/)，使用 [Avalanche 样板](https://moralis.io/avalanche-boilerplate-fastest-way-to-build-avalanche-dapps/)，[创建 Cronos dapp](https://moralis.io/cronos-boilerplate-how-to-create-cronos-dapps/)，[构建多边形 dapp](https://moralis.io/polygon-boilerplate-how-to-build-polygon-dapps/)，等等。除了伟大的范例项目，这些出口也解释了 dapp 开发的核心概念。此外，它们是很好的资源，可以帮助你免费成为一名 Web3 开发者。
 
-另一方面，你可能有兴趣尽快成为全职加密员。在这种情况下，[成为区块链认证的](https://academy.moralis.io/)才是正确的选择。因此，一定要考虑报名参加道德学院。我们建议从“[区块链和比特币基础](https://academy.moralis.io/courses/blockchain-bitcoin-101)课程开始。
+另一方面，你可能有兴趣尽快成为全职加密员。在这种情况下，[成为区块链认证的](https://academy.moralis.io/)才是正确的选择。因此，一定要考虑报名参加 Moralis 学院。我们建议从“[区块链和比特币基础](https://academy.moralis.io/courses/blockchain-bitcoin-101)课程开始。

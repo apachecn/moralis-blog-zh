@@ -4,7 +4,7 @@
 
 尽管当前的宏观经济环境不佳，但没有迹象表明 Web3 的采用会停止。不过，在不久的将来，我们可能会期待互联网发展成为一种 Web2 和 Web3 的混合体。不过这种混合会要求某些关键方面，比如 [**Web3 认证**](https://moralis.io/authentication/) **。而且，由于以太坊是目前领先的区块链网络，了解如何登录以太坊是至关重要的。那么，如何毫不费力地将“使用以太坊登录”功能整合到您的 dapps(去中心化应用程序)中呢？幸运的是，Moralis 是桥接 Web2 和 Web3 dapps 的领先 Web3 解决方案。这意味着在使用 Moralis 的 Auth API 时，只需复制粘贴一行代码，你就可以轻松地用以太坊登录你的用户。**
 
-此外，您可能知道以太坊使用以太坊虚拟机(EVM)来按预期执行代码。此外，许多其他连锁店使用 EVM 作为智能合约的运行时环境。因此，通过学习合并“用以太坊登录”功能，您能够在其他 EVM 兼容链上部署 dapps。这些包括 BNB 链、多边形和雪崩，仅举几例。接下来，我们将首先进一步了解为什么要使用以太坊登录。然后，我们将看看由 Moralis 的 Web3 认证 API 提供的一些最流行的以太坊认证解决方案。这也是你了解更多道德的地方。最后，我们将进行一个示例项目，在这个项目中，您将看到如何创建直接使用以太坊登录的 dapps。此外，我们鼓励您创建自己的 dapp。因此，请务必[创建您的免费道德账户](https://admin.moralis.io/register)并跟随我们的脚步。
+此外，您可能知道以太坊使用以太坊虚拟机(EVM)来按预期执行代码。此外，许多其他连锁店使用 EVM 作为智能合约的运行时环境。因此，通过学习合并“用以太坊登录”功能，您能够在其他 EVM 兼容链上部署 dapps。这些包括 BNB 链、多边形和雪崩，仅举几例。接下来，我们将首先进一步了解为什么要使用以太坊登录。然后，我们将看看由 Moralis 的 Web3 认证 API 提供的一些最流行的以太坊认证解决方案。这也是你了解更多 Moralis 的地方。最后，我们将进行一个示例项目，在这个项目中，您将看到如何创建直接使用以太坊登录的 dapps。此外，我们鼓励您创建自己的 dapp。因此，请务必[创建您的免费 Moralis 账户](https://admin.moralis.io/register)并跟随我们的脚步。
 
 ![](img/16cc761c62ab45ed5fd1cd843d57daf9.png)
 
@@ -119,7 +119,7 @@ Magic(以前称为 Fortmatic)是另一个著名的 Web3 身份验证替代方案
 
 https://www.youtube.com/watch?v=UP6MfkU3Bkg
 
-*注意* *:获取自己的 dapp 凭证(dapp URL 和 ID)*[*创建一个道德 dapp*](https://docs.moralis.io/moralis-dapp/getting-started/create-a-moralis-dapp) *:*
+*注意* *:获取自己的 dapp 凭证(dapp URL 和 ID)*[*创建一个 Moralis dapp*](https://docs.moralis.io/moralis-dapp/getting-started/create-a-moralis-dapp) *:*
 
 ![](img/c5115db7cb05571dbd6254194dfe8833.png)
 
@@ -127,4 +127,4 @@ https://www.youtube.com/watch?v=UP6MfkU3Bkg
 
 我们在今天的文章中谈了相当多的内容。因此，你知道了某些登录以太坊的费用会带来一个不同的世界。在这方面，Moralis 和它的 Web3 Auth API 是真正的游戏规则改变者。此外，为了让您不费吹灰之力就到达终点，Moralis 提供了第三方集成。即 MetaMask 和 WalletConnet。然而，Moralis 也支持其他解决方案。在这里，Web3Auth 和 Magic 是两个值得一提的选项。它们都使您能够使用 Web2 登录方法使 Web3 登录尽可能顺利。最后但同样重要的是，你也有机会承担我们的范例项目。
 
-如果你喜欢跟随我们的教程，我们鼓励你访问 Moralis 的 [Web3 博客](https://moralis.io/blog/)和 Moralis 的 YouTube 频道。在那里，您可以找到大量的示例项目，从而学习如何使用 Moralis 在几分钟内创建杀手 dapps。此外，这两个出口是你继续免费密码教育的门票。然而，如果你想成为区块链认证，那么[道德学院](https://academy.moralis.io/)是你的地方。除了顶级的区块链发展课程，这也是你获得专家指导和个性化学习路径的地方。尽管如此，通过报名参加道德学院，你也成为了一个最先进的加密领域的社区成员之一。
+如果你喜欢跟随我们的教程，我们鼓励你访问 Moralis 的 [Web3 博客](https://moralis.io/blog/)和 Moralis 的 YouTube 频道。在那里，您可以找到大量的示例项目，从而学习如何使用 Moralis 在几分钟内创建杀手 dapps。此外，这两个出口是你继续免费密码教育的门票。然而，如果你想成为区块链认证，那么[Moralis 学院](https://academy.moralis.io/)是你的地方。除了顶级的区块链发展课程，这也是你获得专家指导和个性化学习路径的地方。尽管如此，通过报名参加 Moralis 学院，你也成为了一个最先进的加密领域的社区成员之一。

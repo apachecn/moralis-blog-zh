@@ -4,7 +4,7 @@
 
 有一段时间，程序员努力在他们的区块链游戏中实现某些功能和元素。具体来说，与网络链同步的编程元素，例如 NFTs 的链上库存( [**不可替代令牌**](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/) **)。然而，由于 Moralis 及其** [**文档**](https://docs.moralis.io/introduction/readme) **，开发者现在只需几行代码就可以轻松实现 Web3 组件。例如，开发人员可以快速轻松地创建一个 NFT 在线游戏库存系统，并进而将他们的**[**GameFi**](https://moralis.io/gamefi-tutorial-how-to-create-a-gamefi-game/)**和**[**play-to-earn(P2E)**](https://moralis.io/what-is-gamefi-and-play-to-earn-p2e/)**项目提升到下一个级别。如果这听起来很有趣，请继续阅读并密切关注本教程中的内容，我们将探索如何为 Web3 游戏创建一个 NFT 连锁库存系统！**
 
-随着我们向前发展，我们将承担一个示例项目，我们将创建一个简单的 [Unity Web3](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/) 游戏。此外，您将能够使用您的 Unity 熟练程度来创建一个 NFT 连锁库存系统。当然，Unity 会处理前端。然而，对于后端，我们将使用[实度](https://moralis.io/solidity-explained-what-is-solidity/)、[混音](https://moralis.io/remix-explained-what-is-remix/)和[道德](https://moralis.io/)将它们结合在一起。前两个工具将使我们能够创建和部署适当的[智能契约](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/)。尽管为了[索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)，这将是我们 NFT 连锁库存系统的核心，我们将使用 Moralis。这个用于加密的操作系统是当前 Web3 技术栈的巅峰，也是 Web3 后端平台的终极。这是一个在几分钟内创建[分散应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/) (dapps)的单一工作流工具。幸运的是，你可以用一个[免费的道德账号](https://admin.moralis.io/register)获得[道德的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 和[道德的元宇宙 SDK](https://moralis.io/metaverse/) 的力量。
+随着我们向前发展，我们将承担一个示例项目，我们将创建一个简单的 [Unity Web3](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/) 游戏。此外，您将能够使用您的 Unity 熟练程度来创建一个 NFT 连锁库存系统。当然，Unity 会处理前端。然而，对于后端，我们将使用[实度](https://moralis.io/solidity-explained-what-is-solidity/)、[混音](https://moralis.io/remix-explained-what-is-remix/)和[Moralis](https://moralis.io/)将它们结合在一起。前两个工具将使我们能够创建和部署适当的[智能契约](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/)。尽管为了[索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)，这将是我们 NFT 连锁库存系统的核心，我们将使用 Moralis。这个用于加密的操作系统是当前 Web3 技术栈的巅峰，也是 Web3 后端平台的终极。这是一个在几分钟内创建[分散应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/) (dapps)的单一工作流工具。幸运的是，你可以用一个[免费的 Moralis 账号](https://admin.moralis.io/register)获得[Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 和[Moralis 的元宇宙 SDK](https://moralis.io/metaverse/) 的力量。
 
 ![](img/d1100865ef12438b933db191cc3c02e9.png)
 
@@ -54,14 +54,14 @@
 
 ## 使用 Unity and Moralis 创建您的 NFT 连锁库存系统–示例项目
 
-我们已经到了你有机会动手制作上述 Web3 游戏实例的时候了。如果你记得的话，我们将使用 Moralis，反过来，避免 RPC 节点的[限制。此外，您还应该知道，Moralis 完全是关于跨链和跨平台的互操作性。因此，您可以对不同的链使用相同的代码，并使用您喜欢的平台。然而，随着我们的发展，我们将专注于 Unity 和 Polygon 在孟买的测试网。尽管如此，使用简介中的“免费道德账户”链接创建您的免费道德账户。要获得更多支持来构建这样的示例项目，请加入](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/) [Moralis 项目](https://moralis.io/projects/)。通过这样做，你也有机会获得一些特殊的道德技能。
+我们已经到了你有机会动手制作上述 Web3 游戏实例的时候了。如果你记得的话，我们将使用 Moralis，反过来，避免 RPC 节点的[限制。此外，您还应该知道，Moralis 完全是关于跨链和跨平台的互操作性。因此，您可以对不同的链使用相同的代码，并使用您喜欢的平台。然而，随着我们的发展，我们将专注于 Unity 和 Polygon 在孟买的测试网。尽管如此，使用简介中的“免费 Moralis 账户”链接创建您的免费 Moralis 账户。要获得更多支持来构建这样的示例项目，请加入](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/) [Moralis 项目](https://moralis.io/projects/)。通过这样做，你也有机会获得一些特殊的 Moralis 技能。
 
 ![](img/d6ab13e91708734e0d6b80fccf6df033.png)
 
 下面是即将到来的部分和步骤的概述:
 
 1.  确保您理解这个示例项目的结构。
-2.  帮助你开始学习道德。
+2.  帮助你开始学习 Moralis。
 3.  准备您的预制 NFT 链库存。
 4.  部署我们的智能合同。
 5.  将我们的元数据和图像从链外数据转移到链上库存——打造 NFT。
@@ -87,9 +87,9 @@
 
 ![](img/cfbe170fe684ad9d6c3672692a9711c9.png)
 
-### 道德入门
+### Moralis 入门
 
-开始使用 Moralis 非常容易。首先，你需要创建你的免费道德账户，你可能已经完成了。因此，你可以简单地[登录](https://admin.moralis.io/login)到你的道德管理区。接下来，单击“+创建新服务器”。当然，你可以使用下面的视频教程，从 10:00 开始，进行更多的动手指导。
+开始使用 Moralis 非常容易。首先，你需要创建你的免费 Moralis 账户，你可能已经完成了。因此，你可以简单地[登录](https://admin.moralis.io/login)到你的 Moralis 管理区。接下来，单击“+创建新服务器”。当然，你可以使用下面的视频教程，从 10:00 开始，进行更多的动手指导。
 
 ![](img/ee375c994d5fe5ba5ba06b3b52c12656.png)
 
@@ -137,7 +137,7 @@ Moralis 仪表板中的主角是“ItemData”类。它包含项目名称、描�
 
 ![](img/9dc4f3059d187ebf39e2ef7869c4e42b.png)
 
-上述序列是[将游戏资产铸造为 NFT](https://moralis.io/how-to-mint-game-assets-as-nfts/)的关键。我们强烈建议您使用下面的视频并详细查看脚本。因此，您将看到 Moralis 的 SDK 的强大之处，它只使用简短的代码片段来完成大部分繁重的工作。此外，使用道德 IPFS 集成，您可以毫不费力地为您的 NFT 创建元数据(JSON 文件)。当玩家[通过上面部署的智能契约制造 NFT](https://moralis.io/how-to-mint-nfts-full-tutorial-to-minting-an-nft/)时，代码访问这些 JSON 文件。
+上述序列是[将游戏资产铸造为 NFT](https://moralis.io/how-to-mint-game-assets-as-nfts/)的关键。我们强烈建议您使用下面的视频并详细查看脚本。因此，您将看到 Moralis 的 SDK 的强大之处，它只使用简短的代码片段来完成大部分繁重的工作。此外，使用 Moralis IPFS 集成，您可以毫不费力地为您的 NFT 创建元数据(JSON 文件)。当玩家[通过上面部署的智能契约制造 NFT](https://moralis.io/how-to-mint-nfts-full-tutorial-to-minting-an-nft/)时，代码访问这些 JSON 文件。
 
 ### 查看 NFT 在链库存
 
@@ -149,6 +149,6 @@ https://www.youtube.com/watch?v=RRvUWx0AivI
 
 今天，您第一次有机会体验我们的 NFT 在线库存系统演示。你看到了我们可以使用 Unity 来创建我们的 Web3 游戏。此外，您有机会克隆我们的代码并创建您的实例。此外，使用我们的概述和上面的视频教程，您有机会获得对幕后代码的正确理解。此外，您还与 Moralis 和 Remix 进行了互动，它们是突出的工具，可以为您节省大量时间。
 
-尽管如此，如果你喜欢这个示例项目，我们邀请你访问[道德博客](https://moralis.io/blog/)和[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。这些网站提供大量免费内容，可以帮助你[成为一名 Web3 开发者](https://moralis.io/how-to-become-a-web3-developer-full-guide/)。例如，一些最新的主题包括构建一个[去中心化 Twitter](https://moralis.io/2022-guide-to-building-a-decentralized-twitter/) 的指南，一个 [EIP 1559 示例](https://moralis.io/eip-1559-example-what-is-eip-1559/)，[分数 NFTs](https://moralis.io/what-are-fractional-nfts-the-ultimate-2022-f-nft-guide/) ，构建一个[去中心化自治组织(DAO)](https://moralis.io/how-to-build-a-decentralized-autonomous-organization-dao/) ，一个 [SPL 与 ERC20 令牌](https://moralis.io/spl-vs-erc20-tokens-comparing-solana-and-ethereum-tokens/)的比较，构建一个[索拉纳令牌仪表板](https://moralis.io/how-to-build-a-solana-token-dashboard/)，如何[创建你自己的元宇宙](https://moralis.io/how-to-create-your-own-metaverse/)，如何创建一个[BNB NFT](https://moralis.io/how-to-create-a-bnb-nft/)
+尽管如此，如果你喜欢这个示例项目，我们邀请你访问[Moralis 博客](https://moralis.io/blog/)和[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。这些网站提供大量免费内容，可以帮助你[成为一名 Web3 开发者](https://moralis.io/how-to-become-a-web3-developer-full-guide/)。例如，一些最新的主题包括构建一个[去中心化 Twitter](https://moralis.io/2022-guide-to-building-a-decentralized-twitter/) 的指南，一个 [EIP 1559 示例](https://moralis.io/eip-1559-example-what-is-eip-1559/)，[分数 NFTs](https://moralis.io/what-are-fractional-nfts-the-ultimate-2022-f-nft-guide/) ，构建一个[去中心化自治组织(DAO)](https://moralis.io/how-to-build-a-decentralized-autonomous-organization-dao/) ，一个 [SPL 与 ERC20 令牌](https://moralis.io/spl-vs-erc20-tokens-comparing-solana-and-ethereum-tokens/)的比较，构建一个[索拉纳令牌仪表板](https://moralis.io/how-to-build-a-solana-token-dashboard/)，如何[创建你自己的元宇宙](https://moralis.io/how-to-create-your-own-metaverse/)，如何创建一个[BNB NFT](https://moralis.io/how-to-create-a-bnb-nft/)
 
-然而，如果你决心尽早成为一名区块链开发者，你需要考虑采取更专业的方法。这就是[道德学院](https://academy.moralis.io/)可能是你一直在寻找的答案。这个在线学院提供的不仅仅是顶级的[区块链发展课程](https://academy.moralis.io/all-courses/)。道德学院是获得个性化学习路径、专家指导和 Web3 行业中最先进和最受欢迎的社区之一的会员资格的地方。
+然而，如果你决心尽早成为一名区块链开发者，你需要考虑采取更专业的方法。这就是[Moralis 学院](https://academy.moralis.io/)可能是你一直在寻找的答案。这个在线学院提供的不仅仅是顶级的[区块链发展课程](https://academy.moralis.io/all-courses/)。Moralis 学院是获得个性化学习路径、专家指导和 Web3 行业中最先进和最受欢迎的社区之一的会员资格的地方。

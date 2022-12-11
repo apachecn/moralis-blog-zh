@@ -5,7 +5,7 @@
 说到加密社区，Discord 是一个非常受欢迎的平台。因此，我们想向您展示如何为链上事件构建一个 Discord bot，并且感谢 Moralis[**Streams API**](https://moralis.io/streams/)**，您可以毫不费力地构建一个加密监控 Discord bot。所需要的只是一个** [**免费的 Moralis 账号**](https://admin.moralis.io/register) **，一个 Discord 服务器，以及一些简单的 JavaScript 编程。此外，构建一个不和谐机器人比你想象的要简单得多，在本文中，我们将通过五个简单的步骤来完成这个任务:**
 
 1.  设置一个简单的 NodeJS Express 后端
-2.  添加新的道德流
+2.  添加新的 Moralis 流
 3.  验证 Webhook 发送方
 4.  设置一个不和谐机器人
 5.  实现一个示例区块链不和谐机器人
@@ -30,11 +30,11 @@
 
 ## 如何为区块链事件搭建一个不和谐机器人
 
-多亏了 Moralis 的 Streams API，为 crypto 构建一个 Discord bot 不费吹灰之力。这个强大的工具使您能够通过 webhooks 将区块链数据传输到您的后端(在这里是 Discord 的后端)。要访问这个强大的工具，你只需要一个免费的道德帐户。当然，你也需要决定什么样的链上事件让你感兴趣。这将决定您是否可以监听现有的智能合约，或者您是否需要首先创建和部署您的智能合约。然而，出于本教程的考虑，我们将使用现有的智能合约。事实上，为了避免任何混淆，从关注我们的示例 Web3 契约开始。
+多亏了 Moralis 的 Streams API，为 crypto 构建一个 Discord bot 不费吹灰之力。这个强大的工具使您能够通过 webhooks 将区块链数据传输到您的后端(在这里是 Discord 的后端)。要访问这个强大的工具，你只需要一个免费的 Moralis 帐户。当然，你也需要决定什么样的链上事件让你感兴趣。这将决定您是否可以监听现有的智能合约，或者您是否需要首先创建和部署您的智能合约。然而，出于本教程的考虑，我们将使用现有的智能合约。事实上，为了避免任何混淆，从关注我们的示例 Web3 契约开始。
 
 此外，要在我们的带领下构建您自己的 crypto monitor Discord bot，您需要以下工具:
 
-*   **一个道德账户，**你可以[免费创建](https://admin.moralis.io/register)！
+*   **一个 Moralis 账户，**你可以[免费创建](https://admin.moralis.io/register)！
 *   **某种类型的代码编辑器或 IDE** 。*我们将使用 Visual Studio 代码(VSC)。*
 *   **一个 Discord 服务器**和对 Discord 开发者门户的访问。
 *   一位区块链探险家。 *我们的示例 Web3 合同位于孟买* *网络上，因此我们将使用 PolygonScan。*
@@ -45,9 +45,9 @@
 此外，我们将带您完成以下步骤:
 
 1.  **设置一个简单的 NodeJS Express 后端**
-2.  **添加新的道德流**
+2.  **添加新的 Moralis 流**
 3.  **验证 Webhook 发送方**
-    1.  你需要确保只有道德家才能发布网页挂钩帖子。
+    1.  你需要确保只有 Moralis 家才能发布网页挂钩帖子。
 4.  **设置不和谐机器人**
 5.  **实现一个示例区块链不和谐机器人**
     1.  *用 Discord.js 发送消息*
@@ -108,9 +108,9 @@ npm i nodemon
 npm run start
 ```
 
-### 添加新的道德流
+### 添加新的 Moralis 流
 
-随着 dapp 的运行，是时候创建一个新的道德流了。要做到这一点，你需要你的道德帐户。因此，如果您还没有创建您的帐户，现在就创建吧。使用您的凭证，您将访问您的管理区。从那里，您将能够转到“流”页面，在那里您需要点击“新流”按钮:
+随着 dapp 的运行，是时候创建一个新的 Moralis 流了。要做到这一点，你需要你的 Moralis 帐户。因此，如果您还没有创建您的帐户，现在就创建吧。使用您的凭证，您将访问您的管理区。从那里，您将能够转到“流”页面，在那里您需要点击“新流”按钮:
 
 ![Showing Moralis' Streams landing page with an API key credential.](img/2a83d48b4a0221da57f492dd45d7d297.png)
 
@@ -130,7 +130,7 @@ npm run start
 
 ![](img/e86141df60f701ec4998a24d1222b580.png)
 
-继续，向下滚动添加您的新道德流的描述。这可以是你想要的任何东西；但是，为了避免任何不必要的混淆，您可以使用“新捐赠”:
+继续，向下滚动添加您的新 Moralis 流的描述。这可以是你想要的任何东西；但是，为了避免任何不必要的混淆，您可以使用“新捐赠”:
 
 ![Description of the user's blockchain Discord bot project - New Donation.](img/178d211e96b9b926dc865c9dab62a4cf.png)
 
@@ -162,11 +162,11 @@ npm run start
 
 ![Pasting the ABI into the designated area.](img/3248028428ef03271278e86b9624c628.png)
 
-最后，点击右下角的“创建流”按钮，创建新的 Moralis 流。因此，您应该得到“New Stream Created”成功消息。您还应该能够在“流”页面的底部看到您的道德流:
+最后，点击右下角的“创建流”按钮，创建新的 Moralis 流。因此，您应该得到“New Stream Created”成功消息。您还应该能够在“流”页面的底部看到您的 Moralis 流:
 
 ![Seeing the New Stream Created message.](img/a22cc04f49b391cee12ec3f818356e5e.png)
 
-你现在可以测试你的道德流了。要了解如何做到这一点，请使用文章底部的视频，从 5:36 开始。
+你现在可以测试你的 Moralis 流了。要了解如何做到这一点，请使用文章底部的视频，从 5:36 开始。
 
 ### 验证 Webhook 发送方
 
@@ -184,7 +184,7 @@ Moralis.start({
 })
 ```
 
-查看上面的代码行，您会发现您需要 Moralis Web3 API 密钥。您需要从您的道德管理区复制它:
+查看上面的代码行，您会发现您需要 Moralis Web3 API 密钥。您需要从您的 Moralis 管理区复制它:
 
 ![Copying the Web3 API key on the Web3 API page on Moralis' Admin Panel.](img/608a943aa5ac82872e45bba531c7c977.png)
 
@@ -210,7 +210,7 @@ Moralis.start({
 });
 ```
 
-然后，您还需要查看“*标题*，并添加道德签名“*验证签名*”:
+然后，您还需要查看“*标题*，并添加 Moralis 签名“*验证签名*”:
 
 ![Seeing the verifySignature code snippet.](img/9691532d431a1386ff3aa1c0a850adba.png)
 
@@ -311,13 +311,13 @@ client.login(process.env.PASS);
 我们在今天的文章中谈了相当多的内容。首先，你有机会了解什么是不和谐机器人。我们还确保你知道什么是加密监视器不和谐机器人。有了这些基础知识，你就有机会跟随我们的领导。此外，通过带您完成五个主要步骤，我们为您提供了与构建不和谐机器人相关的所有细节。这五个步骤包括:
 
 1.  设置一个简单的 NodeJS Express 后端
-2.  添加新的道德流
+2.  添加新的 Moralis 流
 3.  验证 Webhook 发送方
 4.  设置一个不和谐机器人
 5.  实现一个示例区块链不和谐机器人
 
 尽管如此，我们也分享了一个视频教程，其中包含了关于为链上事件构建不和谐机器人的更多细节。
 
-我们建议您使用上面获得的“*如何构建 Discord bot* ”知识，为另一个智能合约构建您自己的加密监视器 Discord bot。这样，你就能适当地巩固你的知识。另一方面，您可能想要探索其他区块链开发主题并创建各种 dapps。如果是这样的话，你应该使用[道德文件](https://docs.moralis.io/)、[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德博客](https://moralis.io/blog/)。毕竟，这些渠道有能力免费帮助你成为 Web3 开发者。例如，我们的一些最新主题向您展示了如何在 Solana 上编写智能合同的程序，将文件上传到 IPFS 的程序，以及在 Solana 上铸造硬币的程序等等。
+我们建议您使用上面获得的“*如何构建 Discord bot* ”知识，为另一个智能合约构建您自己的加密监视器 Discord bot。这样，你就能适当地巩固你的知识。另一方面，您可能想要探索其他区块链开发主题并创建各种 dapps。如果是这样的话，你应该使用[Moralis 文件](https://docs.moralis.io/)、[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 博客](https://moralis.io/blog/)。毕竟，这些渠道有能力免费帮助你成为 Web3 开发者。例如，我们的一些最新主题向您展示了如何在 Solana 上编写智能合同的程序，将文件上传到 IPFS 的程序，以及在 Solana 上铸造硬币的程序等等。
 
-当然，你也可以采取更专业的方法来进行你的加密教育。通过注册[道德学院](https://academy.moralis.io/)，你可以成为区块链认证，并大大提高你获得加密工作的机会。为了建立一个合适的基础，我们鼓励你从专注于[区块链和比特币基础](https://academy.moralis.io/courses/blockchain-bitcoin-101)的课程开始。*
+当然，你也可以采取更专业的方法来进行你的加密教育。通过注册[Moralis 学院](https://academy.moralis.io/)，你可以成为区块链认证，并大大提高你获得加密工作的机会。为了建立一个合适的基础，我们鼓励你从专注于[区块链和比特币基础](https://academy.moralis.io/courses/blockchain-bitcoin-101)的课程开始。*

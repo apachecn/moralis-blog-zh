@@ -12,7 +12,7 @@
 
 此外，正如“多链”和“跨链”术语所暗示的，这个 API 允许您在不同的网络上开发 NFT dapp。同样，有了这个多链 NFT API，你可以随时*跨越*到其他支持的链。
 
-要开始使用最好的跨链 API，您需要的只是您的 Moralis Web3 API 密钥。幸运的是，在你[创建了你的免费道德账户](https://admin.moralis.io/register?utm_source=blog&utm_medium=post&utm_campaign=Ultimate%2520NFT%2520API%2520%25E2%2580%2593%2520Exploring%2520Moralis%25E2%2580%2599%2520NFT%2520API)之后，你就可以获得那个密钥了。当然，我们将在本文中进一步向您展示如何做到这一点。然而，我们需要从一些基础知识开始今天的主题，并确保你们都跟上了速度。因此，在我们开始使用 Moralis 的多链 NFT API 之前，让我们看看什么是 NFT API。
+要开始使用最好的跨链 API，您需要的只是您的 Moralis Web3 API 密钥。幸运的是，在你[创建了你的免费 Moralis 账户](https://admin.moralis.io/register?utm_source=blog&utm_medium=post&utm_campaign=Ultimate%2520NFT%2520API%2520%25E2%2580%2593%2520Exploring%2520Moralis%25E2%2580%2599%2520NFT%2520API)之后，你就可以获得那个密钥了。当然，我们将在本文中进一步向您展示如何做到这一点。然而，我们需要从一些基础知识开始今天的主题，并确保你们都跟上了速度。因此，在我们开始使用 Moralis 的多链 NFT API 之前，让我们看看什么是 NFT API。
 
 ![To become a more efficient Web3 developer, join Moralis Magazine.](img/5b5266e0abc11c1628c3fce7a7df4acc.png)[**Sign Up for Moralis Magazine**](https://moralis.io/joindiscord/) 
 
@@ -32,7 +32,7 @@
 
 ## 介绍最佳的企业级多链 NFT API
 
-道德跨链 NFT API 是一个易于管理和使用的索引 API。大多数其他 API 选项需要使用多个请求。反过来，你需要处理多行代码。另一方面，终极多链 NFT API 为您提供单行代码。此外，简单地复制和粘贴简短的代码片段来覆盖后端的所有繁重工作。
+Moralis 跨链 NFT API 是一个易于管理和使用的索引 API。大多数其他 API 选项需要使用多个请求。反过来，你需要处理多行代码。另一方面，终极多链 NFT API 为您提供单行代码。此外，简单地复制和粘贴简短的代码片段来覆盖后端的所有繁重工作。
 
 本质上，使用这个跨链 NFT API，您可以毫不费力地获得与特定 NFT 相关的链上数据。因此，您可以构建各种包含 NFT 的分散式应用程序(dapps)。一些常见的 NFT dapp 包括 NFT 钱包，NFT 追踪器，NFT 市场和 NFT 游戏。此外，借助企业级多链 NFT API，您可以不费吹灰之力构建任何 dapps。
 
@@ -136,7 +136,7 @@
 
 ## 如何轻松集成多链 NFT API
 
-要轻松集成多链 NFT API，请遵循本节内容，我们将看到这项任务的一个重要组成部分:获取您的 Moralis Web3 API 密钥。最后，您将能够在许多链上获得 NFT 的元数据。集成 API 的具体步骤因编程语言而异。因此，确保使用道德的文件。然而，在任何情况下，您都需要获得您的 Moralis Web3 API 密钥。此外，要完成这项任务，您需要一个 Moralis 帐户。所以，如果你还没有创建你的免费道德账户，现在就创建吧。您可以使用介绍中的“创建您的免费 Moralis 帐户”链接或 Moralis 主页上的“[免费开始](https://admin.moralis.io/register)”按钮:
+要轻松集成多链 NFT API，请遵循本节内容，我们将看到这项任务的一个重要组成部分:获取您的 Moralis Web3 API 密钥。最后，您将能够在许多链上获得 NFT 的元数据。集成 API 的具体步骤因编程语言而异。因此，确保使用 Moralis 的文件。然而，在任何情况下，您都需要获得您的 Moralis Web3 API 密钥。此外，要完成这项任务，您需要一个 Moralis 帐户。所以，如果你还没有创建你的免费 Moralis 账户，现在就创建吧。您可以使用介绍中的“创建您的免费 Moralis 帐户”链接或 Moralis 主页上的“[免费开始](https://admin.moralis.io/register)”按钮:
 
 ![To start using the multichain NFT API, users must click on the "Start for Free" button on Moralis' homepage.](img/0763db5428f4dbec705ba501a6453bda.png)
 
@@ -154,6 +154,6 @@
 
 在本文中，我们首先确保您理解了什么是 NFT API，并且了解了什么是 NFT 和 API。接下来，我们介绍了 Moralis 多链 NFT API，在这里您会发现开发人员使用这个 API 的主要原因。在几个优点中，这个跨链 NFT API 可以让您节省高达 80%的开发时间。此外，我们查看了 API 的端点，并仔细查看了“ *getNFTMetadata* ”。最后但同样重要的是，我们还向您展示了如何获取您的 Moralis Web3 API 密钥，这是您使用终极多链 NFT API 的门户。
 
-如果您想更深入地研究 NFT 开发，我们建议您完成 Moralis 文档中的“NFT 用例”教程。但是，您可能有兴趣探索其他区块链发展主题。在这种情况下，去 YouTube 的道德伦理频道或者 T2 的道德伦理博客吧。这两个渠道都提供了大量有价值的内容。例如，一些最新的主题教你如何[用 NextJS](https://moralis.io/how-to-connect-metamask-to-website-with-nextjs/) 将 MetaMask 连接到网站，如何[使用 Azure 函数](https://moralis.io/how-to-connect-playfab-with-web3-using-azure-functions/)用 Web3 连接到 PlayFab，如何[克隆 Zapper](https://moralis.io/how-to-clone-zapper-in-less-than-1-hour/) ，如何[将 dapp 连接到 Polygon](https://moralis.io/tutorial-how-to-connect-a-dapp-to-polygon-network/) ，如何设置和[将 dapp 连接到以太坊网络](https://moralis.io/set-up-and-connect-a-dapp-to-the-ethereum-network/)，等等。
+如果您想更深入地研究 NFT 开发，我们建议您完成 Moralis 文档中的“NFT 用例”教程。但是，您可能有兴趣探索其他区块链发展主题。在这种情况下，去 YouTube 的 Moralis 伦理频道或者 T2 的 Moralis 伦理博客吧。这两个渠道都提供了大量有价值的内容。例如，一些最新的主题教你如何[用 NextJS](https://moralis.io/how-to-connect-metamask-to-website-with-nextjs/) 将 MetaMask 连接到网站，如何[使用 Azure 函数](https://moralis.io/how-to-connect-playfab-with-web3-using-azure-functions/)用 Web3 连接到 PlayFab，如何[克隆 Zapper](https://moralis.io/how-to-clone-zapper-in-less-than-1-hour/) ，如何[将 dapp 连接到 Polygon](https://moralis.io/tutorial-how-to-connect-a-dapp-to-polygon-network/) ，如何设置和[将 dapp 连接到以太坊网络](https://moralis.io/set-up-and-connect-a-dapp-to-the-ethereum-network/)，等等。
 
-当然，你也可以通过注册[道德学院](https://academy.moralis.io/)来接受更专业的加密教育。在那里，你可以完成一系列顶级课程。例如，你甚至可以学习如何[创造你的元宇宙](https://academy.moralis.io/courses/create-your-metaverse)。通过成为区块链认证，你将更接近全职加密一步。
+当然，你也可以通过注册[Moralis 学院](https://academy.moralis.io/)来接受更专业的加密教育。在那里，你可以完成一系列顶级课程。例如，你甚至可以学习如何[创造你的元宇宙](https://academy.moralis.io/courses/create-your-metaverse)。通过成为区块链认证，你将更接近全职加密一步。

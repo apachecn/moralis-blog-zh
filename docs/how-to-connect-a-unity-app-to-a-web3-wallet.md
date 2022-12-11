@@ -24,7 +24,7 @@
 4.  添加应用管理器脚本。
 5.  微调用户界面。
 
-此外，如果你对视频指南更感兴趣，可以看看下面这个来自道德 YouTube 频道的视频。在这里，您可以跟随我们的开发人员带领您完成整个过程:
+此外，如果你对视频指南更感兴趣，可以看看下面这个来自 Moralis YouTube 频道的视频。在这里，您可以跟随我们的开发人员带领您完成整个过程:
 
 https://www.youtube.com/watch?v=LSqCw3f3i9U
 
@@ -48,25 +48,25 @@ https://www.youtube.com/watch?v=LSqCw3f3i9U
 
 ## 步骤 2:如何将 Unity 应用程序连接到 Web3 钱包–设置 Moralis 服务器
 
-一旦你对应用程序的用户界面感到满意，下一步就是下载道德元宇宙软件开发工具包。要做到这一点，你只需点击上一个链接，然后点击网页下方的“立即开始”按钮。然后你需要导航到“发布”，你可以在网页的右侧找到，最后下载 Unity 包。
+一旦你对应用程序的用户界面感到满意，下一步就是下载 Moralis 元宇宙软件开发工具包。要做到这一点，你只需点击上一个链接，然后点击网页下方的“立即开始”按钮。然后你需要导航到“发布”，你可以在网页的右侧找到，最后下载 Unity 包。
 
 ![](img/d79351c9e0ba8dbde4f8ba969de9193e.png)
 
-一旦你下载了 SDK，你可以把文件拖到 Unity 的“Assets”字段，这会提示你导入文件。导入文件后，您将可以访问包含所有道德元宇宙 SDK 元素的文件夹。
+一旦你下载了 SDK，你可以把文件拖到 Unity 的“Assets”字段，这会提示你导入文件。导入文件后，您将可以访问包含所有 Moralis 元宇宙 SDK 元素的文件夹。
 
 ![](img/39c65fa75514013a3bb0da1a4dd1c757.png)
 
-接下来，你要将“道德设置”元素添加到“主”场景中。这可以通过将文件拖放到场景的“层次”字段来实现。
+接下来，你要将“Moralis 设置”元素添加到“主”场景中。这可以通过将文件拖放到场景的“层次”字段来实现。
 
 ![](img/6a6883cb8d0c2450b0f0bfa3f88a0830.png)
 
-一旦“MoralisSetup”元素被合并到您的 Unity 项目中，您会注意到您需要添加一些信息。例如，您需要添加一个服务器 URL、应用程序 ID 和一个 Moralis Speedy 节点 URL。因此，你需要自己的道德服务器。
+一旦“MoralisSetup”元素被合并到您的 Unity 项目中，您会注意到您需要添加一些信息。例如，您需要添加一个服务器 URL、应用程序 ID 和一个 Moralis Speedy 节点 URL。因此，你需要自己的 Moralis 服务器。
 
 ![](img/09357fe4c44d1d19dbe12c4fafe1cd16.png)
 
 ### 创建 Moralis 服务器并获取区块链节点
 
-如果你还没有，下一步是创建一个道德账户。这是完全免费的，你可以在几秒钟内完成。一旦你有了自己的账户，你可以点击 Moralis 管理面板右上角的“创建新服务器”按钮来创建一个新的服务器。这将为您提供一个包含三个选项的下拉菜单。对于本教程，我们选择了“Testnet 服务器”。
+如果你还没有，下一步是创建一个 Moralis 账户。这是完全免费的，你可以在几秒钟内完成。一旦你有了自己的账户，你可以点击 Moralis 管理面板右上角的“创建新服务器”按钮来创建一个新的服务器。这将为您提供一个包含三个选项的下拉菜单。对于本教程，我们选择了“Testnet 服务器”。
 
 ![](img/94d79d6fad154f27b48b351c6896e97c.png)
 
@@ -104,7 +104,7 @@ https://www.youtube.com/watch?v=LSqCw3f3i9U
 
 ![](img/36ceea357ada7a13d5bf110e249ed1d0.png)
 
-现在，如果您仔细查看实际代码，您会注意到一个字段部分。因此，我们需要添加每个字段/按钮，并将它们连接到我们的项目。要做到这一点，您只需将“道德设置”拖放到 Unity 的“道德控制器”字段，将“WalletConnect”拖放到“检查器”模块的“钱包连接”字段。之后，我们还将通过相同的过程将“ConnectButton”添加到“Connect Button”字段，并将“WalletAddressText”添加到“Wallet Address”字段。
+现在，如果您仔细查看实际代码，您会注意到一个字段部分。因此，我们需要添加每个字段/按钮，并将它们连接到我们的项目。要做到这一点，您只需将“Moralis 设置”拖放到 Unity 的“Moralis 控制器”字段，将“WalletConnect”拖放到“检查器”模块的“钱包连接”字段。之后，我们还将通过相同的过程将“ConnectButton”添加到“Connect Button”字段，并将“WalletAddressText”添加到“Wallet Address”字段。
 
 ![](img/01da97cb6a8da7993808531fb216d9a5.png)
 
@@ -148,7 +148,7 @@ https://www.youtube.com/watch?v=LSqCw3f3i9U
 4.  添加应用管理器脚本。
 5.  微调用户界面。
 
-按照这个过程，您可以创建一个简单的演示应用程序，用户可以使用他们的 MetaMask wallet 进行身份验证并签署消息。因此，这清楚地表明了与道德家合作的力量。
+按照这个过程，您可以创建一个简单的演示应用程序，用户可以使用他们的 MetaMask wallet 进行身份验证并签署消息。因此，这清楚地表明了与 Moralis 家合作的力量。
 
 此外，如果你对 Web3 开发有进一步的兴趣，那么可以去看看 Moralis 网站。访问该网站将允许您发现额外的开发工具，如 Moralis [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 、[价格 API](https://moralis.io/introducing-the-moralis-price-api/) 、系统对 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 的原生支持等等。您还可以访问 [Moralis 博客](https://moralis.io/blog/)了解更多令人难以置信的内容，并阅读诸如“[如何创建 BNB 链令牌](https://moralis.io/how-to-create-a-bnb-chain-token-in-5-minutes/)”或“[如何创建 coinbase 克隆](https://moralis.io/cloning-coinbase-wallet-how-to-create-a-coinbase-clone/)”等主题的指南。
 

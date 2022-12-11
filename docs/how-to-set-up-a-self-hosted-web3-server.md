@@ -2,7 +2,7 @@
 
 > 原文：<https://moralis.io/how-to-set-up-a-self-hosted-web3-server/>
 
-如果你已经使用 [**道德利斯**](https://moralis.io/) **很长一段时间，你可能已经运行了一个道德利斯服务器。随着我们过渡到 Moralis 2.0，该功能不再可用，但您现在可以设置一个自托管的 Web3 服务器。这使您可以访问同样强大的 Moralis 功能，并轻松访问 Moralis 的 Web3 APIs。在这里，我们向您展示了如何完成这一点的确切过程，并将您的服务器连接到 Moralis。此外，通过自托管的 Web3 服务器，您可以完全控制后端、数据和数据库。此外，你可以微调你的主机，以减少托管成本。此外，Web3 的自托管服务器使您能够调整任何客户代码、插件和包，提供更好的开发人员体验。**
+如果你已经使用 [**Moralis 利斯**](https://moralis.io/) **很长一段时间，你可能已经运行了一个 Moralis 利斯服务器。随着我们过渡到 Moralis 2.0，该功能不再可用，但您现在可以设置一个自托管的 Web3 服务器。这使您可以访问同样强大的 Moralis 功能，并轻松访问 Moralis 的 Web3 APIs。在这里，我们向您展示了如何完成这一点的确切过程，并将您的服务器连接到 Moralis。此外，通过自托管的 Web3 服务器，您可以完全控制后端、数据和数据库。此外，你可以微调你的主机，以减少托管成本。此外，Web3 的自托管服务器使您能够调整任何客户代码、插件和包，提供更好的开发人员体验。**
 
 因此，如果您有兴趣为您的 Moralis 服务器建立一个自托管的替代品，请继续阅读！为了让这个过程尽可能的简单明了，我们还准备了几个代码库。因此，随着我们的发展，您可以通过克隆我们的代码或从 GitHub 下载合适的 ZIP 文件来节省大量时间。我们还将利用一些优秀的工具来完成今天的挑战。除了 Moralis，您还将使用 MongoDB、Redis 和 Heroku。因此，您将能够获得您的 Mongo 数据库，设置您的连接字符串，并将您的服务器部署到生产环境中。简而言之，设置一个自托管的 Web3 服务器大约需要 20 分钟。
 
@@ -212,8 +212,8 @@ https://www.youtube.com/watch?v=l2qTyc-V9cM
 
 今天，您学习了如何设置自托管 Web3 服务器。您可以使用这里的步骤毫不费力地迁移您现有的 Moralis 数据库。在这个过程中，您有机会学习如何使用 MongoDB 和 Redis。因此，您现在知道了如何设置数据库和建立连接字符串。我们首先关注在本地运行自托管的 Web3 服务器。此外，我们甚至向您展示了如何设置和运行客户端。最后，您还学习了如何使用 Heroku 部署 Web3 服务器。
 
-既然您已经知道了如何启动和运行 Web3 服务器，那么是时候更深入地研究 dapp 开发了。这就是 Moralis 的跨平台互操作性让事情变得简单明了的地方。毕竟，它使您能够使用遗留的开发工具和编程语言来创建杀手级应用程序([分散式应用程序](https://moralis.io/decentralized-applications-explained-what-are-dapps/))。例如，你可以使用 Firebase 或 Unity 来创建令人敬畏的 Web3 游戏。凭借您对 JavaScript 的精通，您可以部署各种 DeFi dapps。如果这听起来很有趣，一定要去探索一下[道德观 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)、[道德观博客](https://moralis.io/blog/)和[道德观文档](https://docs.moralis.io/)。在这些宝贵资源的帮助下，你可以免费成为一名 Web3 开发者。
+既然您已经知道了如何启动和运行 Web3 服务器，那么是时候更深入地研究 dapp 开发了。这就是 Moralis 的跨平台互操作性让事情变得简单明了的地方。毕竟，它使您能够使用遗留的开发工具和编程语言来创建杀手级应用程序([分散式应用程序](https://moralis.io/decentralized-applications-explained-what-are-dapps/))。例如，你可以使用 Firebase 或 Unity 来创建令人敬畏的 Web3 游戏。凭借您对 JavaScript 的精通，您可以部署各种 DeFi dapps。如果这听起来很有趣，一定要去探索一下[Moralis 观 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)、[Moralis 观博客](https://moralis.io/blog/)和[Moralis 观文档](https://docs.moralis.io/)。在这些宝贵资源的帮助下，你可以免费成为一名 Web3 开发者。
 
-另一方面，你可能有兴趣尽快成为全职加密员。如果是这样的话，成为区块链认证可能对你很有意义。因此，你可以考虑报名参加道德学院。除了顶级的加密课程，这是获得专家指导、个性化学习路径和行业最先进社区之一的会员资格的地方。
+另一方面，你可能有兴趣尽快成为全职加密员。如果是这样的话，成为区块链认证可能对你很有意义。因此，你可以考虑报名参加 Moralis 学院。除了顶级的加密课程，这是获得专家指导、个性化学习路径和行业最先进社区之一的会员资格的地方。
 
 ![](img/89052dfbc7f030f46409c57de970d474.png)

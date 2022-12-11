@@ -42,7 +42,7 @@ https://www.youtube.com/watch?v=xWAzP5otc38&t=337s
 
 ## 步骤 1:为 Moralis、PlayFab 和 Azure 功能创建帐户——将 PlayFab 与 Web3 连接起来
 
-如果您还没有，您需要创建一个 Moralis 帐户来启动本教程。这很简单，只需要几秒钟。此外，创建一个道德账户是完全免费的！
+如果您还没有，您需要创建一个 Moralis 帐户来启动本教程。这很简单，只需要几秒钟。此外，创建一个 Moralis 账户是完全免费的！
 
 要创建您的帐户，您只需点击 Moralis 网站顶部的“免费开始”按钮，并填写必要的信息:
 
@@ -68,7 +68,7 @@ https://www.youtube.com/watch?v=xWAzP5otc38&t=337s
 
 ![](img/f79ca3f7859cdc7e5ac0259598a5c853.png)
 
-从那里，您将需要创建一个新的标题。在我们的例子中，我们称之为“道德”,但你可以随意命名:
+从那里，您将需要创建一个新的标题。在我们的例子中，我们称之为“Moralis”,但你可以随意命名:
 
 ![](img/f5ea485bef9a9e7bb98d4360d42e52e4.png)
 
@@ -121,8 +121,8 @@ https://www.youtube.com/watch?v=xWAzP5otc38&t=337s
     要找到密钥，您可以导航到 MORALIS 管理面板，单击“Web3 APIs”，并复制“您的 API 密钥”:
 
     ![](img/f3d6b2ca0c3b178e2499df3c311afef4.png)
-2.  接下来，创建另一个设置，并将其命名为“道德认证 API URL”，其值为:“[https://authapi.moralis.io/](https://authapi.moralis.io/)”。
-3.  将第三个设置命名为“道德 _WEB3_API_URL”，并添加以下值:“[https://deep-index.moralis.io/api/v2](https://deep-index.moralis.io/api/v2)”。
+2.  接下来，创建另一个设置，并将其命名为“Moralis 认证 API URL”，其值为:“[https://authapi.moralis.io/](https://authapi.moralis.io/)”。
+3.  将第三个设置命名为“Moralis _WEB3_API_URL”，并添加以下值:“[https://deep-index.moralis.io/api/v2](https://deep-index.moralis.io/api/v2)”。
 4.  您可以将第四个设置命名为“PLAYFAB_TITLE_ID ”,并粘贴您之前在设置 PLAYFAB 时保存的 play fab“TITLE ID”。
 5.  最后，第五个也是最后一个设置应该命名为“PLAYFAB_DEV_SECRET_KEY”，在这里您可以将值设置为您的 PLAYFAB“SECRET KEY”，它也是在设置 play fab 时获取的。
 

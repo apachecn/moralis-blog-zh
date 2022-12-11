@@ -32,13 +32,13 @@ Moralis 是一个托管、上传和自动化 dApps 的参考，它可以让你�
 *   下载您选择的代码编辑器(如 Atom 或 Visual Studio Code [VSC])。
 *   在 GitHub 上使用 Moralis 的样板文件。
 *   Download [MetaMask](https://moralis.io/metamask-explained-what-is-metamask/) .
-*   安装道德的稀有插件。
+*   安装 Moralis 的稀有插件。
 
 请注意，以下小节中的许多代码片段已经在 GitHub 上的 Moralis 样板文件中实现了。
 
 ### 创建一个 Moralis 帐户和一个 Moralis 服务器
 
-要将 NFTs 的铸造功能添加到 dApps 中，您需要一个来自 Moralis 的服务器 URL 和应用程序 ID。要获得这些，只需访问 [Moralis](https://moralis.io/) 并免费创建您的帐户。登录到您的帐户后，您必须创建一个新的服务器。为此，只需点击屏幕右上角的绿色按钮(“+创建新服务器”)，并选择 mainnet 服务器。在“我的道德即时”字段中，输入您想要的服务器名称。然后，设置您的地区并选择您选择的区块链。完成后，单击“添加实例”启动服务器。此外，服务器启动需要一些时间，所以请耐心等待。服务器运行后，单击 view details 按钮，然后复制服务器 URL 和应用程序 ID。然后，将它们粘贴到“main.js”文件中。
+要将 NFTs 的铸造功能添加到 dApps 中，您需要一个来自 Moralis 的服务器 URL 和应用程序 ID。要获得这些，只需访问 [Moralis](https://moralis.io/) 并免费创建您的帐户。登录到您的帐户后，您必须创建一个新的服务器。为此，只需点击屏幕右上角的绿色按钮(“+创建新服务器”)，并选择 mainnet 服务器。在“我的 Moralis 即时”字段中，输入您想要的服务器名称。然后，设置您的地区并选择您选择的区块链。完成后，单击“添加实例”启动服务器。此外，服务器启动需要一些时间，所以请耐心等待。服务器运行后，单击 view details 按钮，然后复制服务器 URL 和应用程序 ID。然后，将它们粘贴到“main.js”文件中。
 
 ```js
 const serverUrl = “INSERT SERVER_URL”;
@@ -87,7 +87,7 @@ Moralis.authenticate().then(function (user) {
 
 ![](img/02be7047e5894d3f5f30dfad2104e1b6.png)
 
-要获得插件，前往[Moralis.io/plugins](https://moralis.io/plugins/)，点击“稀有 NFT 工具”插件，然后点击“安装插件”。然后，您在 Moralis 中的帐户的管理界面将会打开。在弹出窗口中选择您的服务器(如上图所示),然后单击确认按钮。然后，Rarible 插件的配置页面将会打开。在这里，您应该添加 mainnet 和 Rinkeby 网络的 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) 端点信息(这可能会有所不同，取决于您在启动服务器时选择的网络)。然而，有一个更新的方式，很快，你将不再需要手动复制和粘贴道德的快速节点信息。
+要获得插件，前往[Moralis.io/plugins](https://moralis.io/plugins/)，点击“稀有 NFT 工具”插件，然后点击“安装插件”。然后，您在 Moralis 中的帐户的管理界面将会打开。在弹出窗口中选择您的服务器(如上图所示),然后单击确认按钮。然后，Rarible 插件的配置页面将会打开。在这里，您应该添加 mainnet 和 Rinkeby 网络的 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) 端点信息(这可能会有所不同，取决于您在启动服务器时选择的网络)。然而，有一个更新的方式，很快，你将不再需要手动复制和粘贴 Moralis 的快速节点信息。
 
 ## **不用支付汽油费就能制造 NFT——构建逻辑**
 

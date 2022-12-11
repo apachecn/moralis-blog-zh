@@ -40,7 +40,7 @@ await Moralis.Streams.addAddress({ address, id });
 
 除了探究区块链 webhooks 的来龙去脉，这篇文章还特别介绍了一个使用 Moralis 的 Streams API 设置它们的教程。到本文结束时，您将知道如何设置 Web3 流来接收 Moralis webhooks 并监视各种区块链事件！此外，Streams API 是 Moralis 的众多[web 3 API](https://moralis.io/web3-apis-exploring-the-top-5-blockchain-apis/)之一，有助于实现更加无缝的区块链开发体验。如果你真的想进入 Web3 开发，你也应该探索一下其他的界面。例如，检查一下 [EVM API](https://moralis.io/evm-api/) ，允许你立刻创建 EVM 兼容的 dapps！如果这听起来令人兴奋，看看我们的指南如何[建立一个 Web3 应用](https://moralis.io/fastest-way-to-build-a-web3-app/)！
 
-尽管如此，不管你是想建立道德网还是想开发 dapps，都要注册道德网。使用 Moralis 帐户，您可以获得更加无缝的开发人员体验，使您能够充分利用区块链技术的力量！
+尽管如此，不管你是想建立 Moralis 网还是想开发 dapps，都要注册 Moralis 网。使用 Moralis 帐户，您可以获得更加无缝的开发人员体验，使您能够充分利用区块链技术的力量！
 
 ![Unlock the power of blockchain with Moralis.](img/4c2e9e56278fa6b04debeda6ef00ceaa.png)
 
@@ -87,9 +87,9 @@ await Moralis.Streams.addAddress({ address, id });
 
 下面的部分将在一个实际的例子中应用每个步骤，以使上面的内容更容易理解。如果这听起来令人兴奋，请加入我们，我们将向您展示如何创建流来立即接收 Moralis webhooks！
 
-## 如何设置道德网 3 网页挂钩
+## 如何设置 Moralis 网 3 网页挂钩
 
-对区块链 webhooks 和 Streams API 有了更好的理解后，让我们进入本文的中心部分。因此，我们将向您展示如何设置道德网挂钩。如果你从这里开始学习，你将学会如何将链上数据直接传输到所有未来区块链项目的后端！
+对区块链 webhooks 和 Streams API 有了更好的理解后，让我们进入本文的中心部分。因此，我们将向您展示如何设置 Moralis 网挂钩。如果你从这里开始学习，你将学会如何将链上数据直接传输到所有未来区块链项目的后端！
 
 创建 Web3 流主要有两种选择:用 JavaScript SDK 编程或者通过 Moralis 的管理面板。本教程着重于前者，向您展示如何以编程方式设置 Moralis webhooks，将任何链上数据流入您的项目！
 
@@ -99,7 +99,7 @@ await Moralis.Streams.addAddress({ address, id });
 
 事不宜迟，让我们直接进入教程，向您展示如何通过 Moralis webhooks 以编程方式将链上数据流入您的应用程序！
 
-### 以编程方式创建道德网挂钩
+### 以编程方式创建 Moralis 网挂钩
 
 本节说明如何以编程方式创建 Web3 流，以便在发生与某个 wallet 相关的转移事件时接收 Moralis webhooks。为了实现这一点，我们使用了 Moralis 的 Streams API 和 JavaScript SDK。如果这听起来令人兴奋，请加入我们，从头到尾剖析这一过程！
 
@@ -135,7 +135,7 @@ const stream = {
 }
 ```
 
-最重要的是，称之为道德。Streams.add(stream) "函数，并将“ *stream* ”对象作为参数传递。结合调用函数，添加一个新的“ *{ id }* ”对象和您要监视的钱包地址:
+最重要的是，称之为 Moralis。Streams.add(stream) "函数，并将“ *stream* ”对象作为参数传递。结合调用函数，添加一个新的“ *{ id }* ”对象和您要监视的钱包地址:
 
 ```js
 const newStream = await Moralis.Streams.add(stream);
@@ -210,7 +210,7 @@ node “FILE_NAME”
 
 恭喜你！现在，您已经成功地以编程方式创建了第一个流来接收 Moralis webhooks。因此，您现在可以使用 Moralis 的 Streams API 和相同的基本原则将任何链上数据传输到您的 Web3 项目的后端！
 
-但是，如果您在本教程的任何时候遇到了任何问题，请查看官方的道德流 API 文档。这样做的话，你所有的问题都有望得到解答。否则，您也可以加入 Moralis 的 Discord 频道，从我们才华横溢的社区工程师那里获得顶级帮助。
+但是，如果您在本教程的任何时候遇到了任何问题，请查看官方的 Moralis 流 API 文档。这样做的话，你所有的问题都有望得到解答。否则，您也可以加入 Moralis 的 Discord 频道，从我们才华横溢的社区工程师那里获得顶级帮助。
 
 ## Moralis Webhooks Firebase 集成
 

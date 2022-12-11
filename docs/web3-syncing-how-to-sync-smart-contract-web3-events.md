@@ -6,7 +6,7 @@
 
 如你所知，[智能合约](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/)是一种为可编程链提供动力的链上软件(例如:[以太坊](https://moralis.io/full-guide-what-is-ethereum/))。此外， [Web3 契约](https://moralis.io/what-are-web3-contracts-exploring-smart-contracts/)确保当满足预定义的条件时，预定义的动作被正确执行。那么，如何轻松地进行 Web3 同步呢？使用终极的 Web3 开发平台—[Moralis](https://moralis.io/)。这个 [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) 有一个特殊的“同步”功能，使这个过程毫不费力。此外，由于 Moralis 的数据库，你可以在一个地方处理链上和链外数据。除了这个改变游戏规则的特性，这个全面的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)为你提供了[终极 Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 。因此，你可以在几分钟内创建杀手级应用程序。而且，由于 Moralis 是跨平台互操作的，你可以使用你喜欢的平台和编程语言成为一名区块链开发者。
 
-例如，你可以使用 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 或 Unity 技能来开发各种网络或移动应用程序。尽管如此，Moralis 也是关于跨链互操作性的，这意味着它能让你的工作经得起未来的考验。因此，[今天就创建你的免费道德账户](https://admin.moralis.io/register)，并开始建设。
+例如，你可以使用 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 或 Unity 技能来开发各种网络或移动应用程序。尽管如此，Moralis 也是关于跨链互操作性的，这意味着它能让你的工作经得起未来的考验。因此，[今天就创建你的免费 Moralis 账户](https://admin.moralis.io/register)，并开始建设。
 
 ![](img/fe5375931ff950e98ab3973949f7f2d0.png)
 
@@ -20,17 +20,17 @@
 
 ![](img/5becf7a626061d9c94b4a1e5b62d8ce0.png)
 
-## Web3 与道德同步
+## Web3 与 Moralis 同步
 
 由于 NFTs ( [不可替代令牌](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/))继续风靡一时，我们决定承担一项 Web3 同步任务，我们将为 CryptoPunks 同步和索引智能合约事件。因此，让我们假设我们有一个 dapp，我们想在其中跟踪这些 NFT。因此，我们需要所有关于 CryptoPunks 的实时和历史数据。此外，这个 NFT 收集利用了 [ERC-721 令牌标准](https://moralis.io/erc-721-token-standard-how-to-transfer-erc721-tokens/)。因此，必须有一个 ERC721 合同来运作。此外，这意味着我们需要应用 Web3 同步来传输 CryptoPunks 合同的事件。然而，如果你想使用 Moralis，你需要先做一些简单的初始设置。
 
 ![](img/5fe77cc2a70ebe6398fcb3f46508c3c1.png)
 
-### 初始道德设置
+### 初始 Moralis 设置
 
 要获得 Moralis 的完整后端功能，您需要创建一个 Moralis 服务器。后者对于同步和索引智能合约事件也是必不可少的。因此，下面是要遵循的步骤:
 
-1.  **创建您的免费道德账户**–点击简介中的“创建您的免费道德账户”链接。然而，如果你已经创建了你的道德账户，使用你的凭证和[登录](https://admin.moralis.io/login)。
+1.  **创建您的免费 Moralis 账户**–点击简介中的“创建您的免费 Moralis 账户”链接。然而，如果你已经创建了你的 Moralis 账户，使用你的凭证和[登录](https://admin.moralis.io/login)。
 
 2.  [**创建 Moralis dapp**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)–进入 Moralis 管理区域后，使用“创建新 Dapp”按钮:
 
@@ -52,7 +52,7 @@
 
 ![](img/e079104f53bb623c7e0ae8fbac63d600.png)
 
-以上步骤是你获得道德力量的门票。一旦你成功地创建了你的道德 dapp，你就可以开始使用它的工具了。正如之前承诺的那样，为了解决 Web3 同步问题，我们将专注于 Moralis 的“同步”功能。
+以上步骤是你获得 Moralis 力量的门票。一旦你成功地创建了你的 Moralis dapp，你就可以开始使用它的工具了。正如之前承诺的那样，为了解决 Web3 同步问题，我们将专注于 Moralis 的“同步”功能。
 
 # Web3 同步示例项目
 
@@ -102,7 +102,7 @@
 
 ![](img/675dc4c802ec4b93f931ca4d596bb316.png)
 
-在地址选项卡下面，您会看到“Eth Mainnet”。“同步”功能会自动选择该链，因为我们在创建道德 dapp 时会选择该网络:
+在地址选项卡下面，您会看到“Eth Mainnet”。“同步”功能会自动选择该链，因为我们在创建 Moralis dapp 时会选择该网络:
 
 ![](img/b82a61ec095488f9ee55ddbc26c40d4a.png)
 
@@ -210,8 +210,8 @@ https://www.youtube.com/watch?v=LMqqxkuo7b0
 
 ## Web3 同步–如何同步智能合约 Web3 事件–摘要
 
-在本文中，您有机会了解了关于 Web3 同步的所有知识。我们首先解释了什么是智能合约事件，然后向您展示了如何毫不费力地将 dapps 同步到任何智能合约事件。此外，您还了解了一些关于 Moralis 的细节以及如何完成它的初始设置。因此，你现在知道如何创建你的道德 dapps。然后，我们接手了一个示例项目，我们为 CryptoPunks 设置了一个新的 Web3 同步。因此，您有机会使用新的管理 UI 或旧的 UI 来设置自定义同步。最后但同样重要的是，您还学习了如何访问 Moralis 数据库中的事件。Moralis 还为您提供了最强大的 [Web3 认证](https://moralis.io/authentication/)解决方案。
+在本文中，您有机会了解了关于 Web3 同步的所有知识。我们首先解释了什么是智能合约事件，然后向您展示了如何毫不费力地将 dapps 同步到任何智能合约事件。此外，您还了解了一些关于 Moralis 的细节以及如何完成它的初始设置。因此，你现在知道如何创建你的 Moralis dapps。然后，我们接手了一个示例项目，我们为 CryptoPunks 设置了一个新的 Web3 同步。因此，您有机会使用新的管理 UI 或旧的 UI 来设置自定义同步。最后但同样重要的是，您还学习了如何访问 Moralis 数据库中的事件。Moralis 还为您提供了最强大的 [Web3 认证](https://moralis.io/authentication/)解决方案。
 
-如果你喜欢今天的例子项目，我们鼓励你访问[道德的博客](https://moralis.io/blog/)和[道德的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。在那里你会找到大量高质量的内容，可以作为你的免费区块链发展教育。例如，一些最新的话题集中在 [Web3 webhooks](https://moralis.io/web3-webhooks-the-ultimate-guide-to-blockchain-webhooks/) ，如何[构建 Web3](https://moralis.io/how-to-build-on-web3-in-minutes/) ，[全栈 Web3 开发](https://moralis.io/full-stack-web3-development-the-ultimate-guide-to-building-web3-projects/)，如何[创建一个 NFT 造币网站](https://nftcoders.com/create-an-nft-minting-website-in-5-steps/)，我们的[以太坊 dapp API](https://moralis.io/what-is-an-ethereum-dapp-api-build-ethereum-dapps-easily/) ，[多边形 dapp API](https://moralis.io/polygon-dapp-api-how-to-efficiently-create-polygon-dapps/) 等等。
+如果你喜欢今天的例子项目，我们鼓励你访问[Moralis 的博客](https://moralis.io/blog/)和[Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。在那里你会找到大量高质量的内容，可以作为你的免费区块链发展教育。例如，一些最新的话题集中在 [Web3 webhooks](https://moralis.io/web3-webhooks-the-ultimate-guide-to-blockchain-webhooks/) ，如何[构建 Web3](https://moralis.io/how-to-build-on-web3-in-minutes/) ，[全栈 Web3 开发](https://moralis.io/full-stack-web3-development-the-ultimate-guide-to-building-web3-projects/)，如何[创建一个 NFT 造币网站](https://nftcoders.com/create-an-nft-minting-website-in-5-steps/)，我们的[以太坊 dapp API](https://moralis.io/what-is-an-ethereum-dapp-api-build-ethereum-dapps-easily/) ，[多边形 dapp API](https://moralis.io/polygon-dapp-api-how-to-efficiently-create-polygon-dapps/) 等等。
 
-然而，如果你想尽早成为 Web3 开发者，我们建议你采取更专业的方法。在这种情况下，报名参加[道德学院](https://academy.moralis.io/)是你需要考虑的途径。除了顶尖的[密码开发课程](https://academy.moralis.io/all-courses/)，这里也是获得专家指导的地方。最重要的是，你可以获得个性化的学习路径，并成为最棒的加密社区之一的成员。
+然而，如果你想尽早成为 Web3 开发者，我们建议你采取更专业的方法。在这种情况下，报名参加[Moralis 学院](https://academy.moralis.io/)是你需要考虑的途径。除了顶尖的[密码开发课程](https://academy.moralis.io/all-courses/)，这里也是获得专家指导的地方。最重要的是，你可以获得个性化的学习路径，并成为最棒的加密社区之一的成员。

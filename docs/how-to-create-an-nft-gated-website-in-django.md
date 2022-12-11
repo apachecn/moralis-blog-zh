@@ -6,7 +6,7 @@ NFT 彻底改变了所有权、票务、认证等。此外，原创者只能向�
 
 如果你熟悉[最好的 Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)，你就会知道 Moralis 是最终的 Web3 API 提供商。它为您提供了[企业级 web 3 API](http://moralis.io/)，包括 Moralis NFT API。此外，Moralis 完全是关于跨平台的互操作性。因此，您可以使用各种 Web2 开发平台和编程语言来加入 Web3 革命。此外，当用 Moralis 在 Django 创建 NFT 门控网站时，您可以专注于多个可编程链。毕竟，Moralis 也是跨链互通的。因此，你永远不会被任何特定的链所束缚，这保证了你的 dapps 经得起未来的考验。
 
-因此，如果你渴望学习如何在姜戈创建一个 NFT 门户网站，[创建你的免费道德账户](https://admin.moralis.io/register)并跟随我们的领导。然而，在我们卷起袖子接受今天的挑战之前，让我们确保你们都知道 Django 是什么。
+因此，如果你渴望学习如何在姜戈创建一个 NFT 门户网站，[创建你的免费 Moralis 账户](https://admin.moralis.io/register)并跟随我们的领导。然而，在我们卷起袖子接受今天的挑战之前，让我们确保你们都知道 Django 是什么。
 
 ![](img/2c87b594f3db63595d5bddf587e90a9e.png)
 
@@ -20,11 +20,11 @@ Django 是一个免费的、开源的、基于 Python 的高级 web 框架。它
 
 ![](img/4d8861c68cbc8604acb6e88ae6ea94fe.png)
 
-## 创建一个 NFT 门控网站在姜戈与道德
+## 创建一个 NFT 门控网站在姜戈与 Moralis
 
-今天的教程将教你如何只向拥有特定 NFTs 的认证用户显示受限页面的内容。因此，你需要一个包含 [Web3 认证](https://moralis.io/authentication/)的网站。如果您过去没有完成这一部分，请随意跳到“*在 Django* 的网站中添加 NFT 门控功能”部分。另一方面，请务必访问[道德文件](https://docs.moralis.io/docs/python-django-web3-auth)。在那里，您将学习如何向 Django 应用程序添加安全的 Web3 身份验证。本质上，您将学习创建一个全栈 Web3 身份验证流。此外，覆盖这一部分是在 Django 创建 NFT 门户网站的先决条件。
+今天的教程将教你如何只向拥有特定 NFTs 的认证用户显示受限页面的内容。因此，你需要一个包含 [Web3 认证](https://moralis.io/authentication/)的网站。如果您过去没有完成这一部分，请随意跳到“*在 Django* 的网站中添加 NFT 门控功能”部分。另一方面，请务必访问[Moralis 文件](https://docs.moralis.io/docs/python-django-web3-auth)。在那里，您将学习如何向 Django 应用程序添加安全的 Web3 身份验证。本质上，您将学习创建一个全栈 Web3 身份验证流。此外，覆盖这一部分是在 Django 创建 NFT 门户网站的先决条件。
 
-当然，使用我们的[最终代码](https://github.com/MoralisWeb3/demo-apps/tree/main/django_moralis_auth)模板可以节省很多时间，它在 GitHub 上等着你。为了简单地对你的 Django 应用程序实现 Web3 认证，你需要你的 Moralis 帐户。因此，如果您还没有这样做，请点击简介中的“创建您的免费道德账户”链接或访问道德的主页。您还需要安装 Python v3。尽管如此，一定要使用 Django 文档来获得 Django 基础知识。
+当然，使用我们的[最终代码](https://github.com/MoralisWeb3/demo-apps/tree/main/django_moralis_auth)模板可以节省很多时间，它在 GitHub 上等着你。为了简单地对你的 Django 应用程序实现 Web3 认证，你需要你的 Moralis 帐户。因此，如果您还没有这样做，请点击简介中的“创建您的免费 Moralis 账户”链接或访问 Moralis 的主页。您还需要安装 Python v3。尽管如此，一定要使用 Django 文档来获得 Django 基础知识。
 
 Moralis 文档中的上述链接页面将指导您完成这个项目所需的所有步骤。首先，您将安装所有必需的依赖项。然后，您将创建一个新的 Django 项目(" *moralis_auth* ")和一个新的 Django 应用程序(" *web3_auth* ")。您还将学习如何运行数据库迁移，以及如何创建“超级用户”。接下来，您需要编辑“ *moralis_auth* ”项目设置。您可以通过将“ *web3_auth* ”添加到“ *settings.py* ”中已安装应用程序的列表中来实现这一点:
 
@@ -171,4 +171,4 @@ path('protected', views.protected, name='protected'),
 
 如上所述，Moralis 博客是了解 NFT 公用事业和 NTF 发展的好地方。此外，这也是您可以探索 Web3 开发的其他方面的地方。结合 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 Moralis 文档，这些途径可以帮助你免费成为 Web3 开发者。然而，Web3 的开发不仅仅是在 Django 创建一个 NFT 门户网站。此外，由于 Moralis，您可以使用任何流行的遗留开发平台，毫不费力地创建一个杀手级 dapp。
 
-同样值得指出的是，加密领域提供了无数的工作机会。因此，对全职加密感兴趣的人有很高的需求。然而，在寻求一个密码职业之前，你需要知道一些关于 Web3 和区块链理工大学的事情。这就是获得区块链道德学院认证可以帮助你更上一层楼的地方。
+同样值得指出的是，加密领域提供了无数的工作机会。因此，对全职加密感兴趣的人有很高的需求。然而，在寻求一个密码职业之前，你需要知道一些关于 Web3 和区块链理工大学的事情。这就是获得区块链 Moralis 学院认证可以帮助你更上一层楼的地方。

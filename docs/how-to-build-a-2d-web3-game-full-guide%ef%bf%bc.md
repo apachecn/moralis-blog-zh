@@ -4,7 +4,7 @@
 
 你还记得视频游戏行业的早期吗？在 2D 环境中，经典游戏让每个人都在屏幕前呆上几个小时。复古游戏仍然很受欢迎，甚至现代游戏开发商今天仍然创造 2D 游戏。然而， [**Web3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) **给游戏行业带来了新的概念，比如**[**play-to-earn(P2E)**](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/)**模式，在这种模式下，玩家可以赚取可替代的和** [**不可替代的代币(NFTs)**](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/) **。因此，如果我们结合流行的 2D 环境和 Web3，提供收入潜力，使用 NFTs 作为游戏内资产的能力，等等。，我们的 2D Web3 游戏会吸引众多用户。因此，我们决定在这里演示如何使用正确的** [**Web3 技术堆栈**](https://moralis.io/exploring-the-web3-tech-stack-full-guide/) **来构建 2D Web3 游戏，并在几分钟内完成这个过程。**
 
-接下来，我们将把一个公开的 2D 游戏整合到 React 应用程序中。此外，为了包含 Web3 功能，我们将使用最终的 Web3 开发平台， [Moralis](https://moralis.io/) 。这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) 平台将使我们能够使用最流行的 [Web3 钱包](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/)–[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)轻松整合 [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/)。此外，通过 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) ，我们将有机会向我们的 2D Web3 游戏示例添加其他链上特性。此外，我们将依靠其他一些非凡的工具让我们到达终点，如 Phaser 和 Visual Studio Code (VSC)。尽管如此，我们鼓励你跟随我们的领导，加入我们，解决这个例子项目。通过这样做，你不仅可以学习创建一个 2D Web3 游戏，还可以熟悉上面提到的工具。因此，[创建你的免费道德账户](https://admin.moralis.io/register)，我们继续学习时你会用到它。
+接下来，我们将把一个公开的 2D 游戏整合到 React 应用程序中。此外，为了包含 Web3 功能，我们将使用最终的 Web3 开发平台， [Moralis](https://moralis.io/) 。这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) 平台将使我们能够使用最流行的 [Web3 钱包](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/)–[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)轻松整合 [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/)。此外，通过 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) ，我们将有机会向我们的 2D Web3 游戏示例添加其他链上特性。此外，我们将依靠其他一些非凡的工具让我们到达终点，如 Phaser 和 Visual Studio Code (VSC)。尽管如此，我们鼓励你跟随我们的领导，加入我们，解决这个例子项目。通过这样做，你不仅可以学习创建一个 2D Web3 游戏，还可以熟悉上面提到的工具。因此，[创建你的免费 Moralis 账户](https://admin.moralis.io/register)，我们继续学习时你会用到它。
 
 ![](img/2a8e925c5aa461820e75e5c801e71bb9.png)
 
@@ -24,7 +24,7 @@
 
 收到上述签名请求后，用户需要点击“签名”按钮。这样，他们就完成了游戏的 [Web3 登录](https://moralis.io/how-to-build-a-web3-login-in-5-steps/)。
 
-此外，请记住，实现 Web3 身份验证有不同的方法。然而，当使用道德时，事情尽可能简单。对于 web dapp([分散式应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))，元掩码集成是首选工具。另一方面， [WalletConnect](https://moralis.io/what-is-walletconnect-the-ultimate-walletconnect-guide/) 是移动 dapps 的最佳解决方案。尽管如此，Moralis 还通过电子邮件和 [Web3 社交登录](https://moralis.io/web3-social-login-sign-in-dapp-users-with-google-email-or-twitter/)提供 [Web3 认证。这两个选项对于提高](https://moralis.io/how-to-do-web3-authentication-via-email/) [Web3 用户入职](https://moralis.io/how-to-boost-web3-user-onboarding-success-rates/)的成功率都是极好的。
+此外，请记住，实现 Web3 身份验证有不同的方法。然而，当使用 Moralis 时，事情尽可能简单。对于 web dapp([分散式应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))，元掩码集成是首选工具。另一方面， [WalletConnect](https://moralis.io/what-is-walletconnect-the-ultimate-walletconnect-guide/) 是移动 dapps 的最佳解决方案。尽管如此，Moralis 还通过电子邮件和 [Web3 社交登录](https://moralis.io/web3-social-login-sign-in-dapp-users-with-google-email-or-twitter/)提供 [Web3 认证。这两个选项对于提高](https://moralis.io/how-to-do-web3-authentication-via-email/) [Web3 用户入职](https://moralis.io/how-to-boost-web3-user-onboarding-success-rates/)的成功率都是极好的。
 
 ### 我们 2D Web3 游戏的目标
 
@@ -42,7 +42,7 @@
 
 现在你知道我们将创造什么了。因此，你可以决定是否要跟随我们继续前进。然而，我们需要指出，我们将不会处理上述游戏的前端。通过使用 Phaser，我们将使用现有的 Web2 游戏作为样板，然后只添加 Web3 后端功能。
 
-## 用相位器和道德建立一个 2D Web3 游戏
+## 用相位器和 Moralis 建立一个 2D Web3 游戏
 
 如前所述，我们将使用 Phaser，最流行的开源工作室游戏引擎，来找到一个完成的 2D 游戏。然后，我们将使用[最好的 Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)，Moralis，来整合上面介绍的区块链功能。本质上，我们将把 2D 的 Web2 游戏转换成 2D 的 Web3 游戏。
 
@@ -201,10 +201,10 @@
 
 ![](img/fe5ebf0d90e18e7fd8778c0ee19de5cd.png)
 
-下一个任务是获取我们的道德服务器的详细信息。如果你不熟悉道德规范，以下是获取细节的步骤(13:15):
+下一个任务是获取我们的 Moralis 服务器的详细信息。如果你不熟悉 Moralis 规范，以下是获取细节的步骤(13:15):
 
 *   [登录](https://admin.moralis.io/login)您的 Moralis 账户或创建您的免费 Moralis 账户。
-*   [创建一个道德服务器](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)。
+*   [创建一个 Moralis 服务器](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)。
 *   访问服务器的详细信息并复制它们。
 *   将服务器的详细信息(服务器 URL 和应用程序 ID)粘贴到。env "文件。
 
@@ -216,10 +216,10 @@ https://www.youtube.com/watch?v=Z4dWavvyhbA
 
 ## 如何构建 2D Web3 游戏——总结
 
-此时，你应该已经有了自己的 2D Web3 游戏，运行正常。使用相位器，元面具和道德，你可以在不到 30 分钟内做到这一点。在这个过程中，您已经学习了如何使用 Phaser 的示例游戏。此外，您还学习了如何完成初始的 Moralis 设置，然后使用它来包含 Web3 功能。因此，你现在可以使用这些技能来创建你自己的 2D Web3 游戏。然而，你可能还没有足够的信心开始自己的项目。因此，承担其他示例项目可能是你的正确方向。另一方面，您可能希望探索其他区块链发展主题。
+此时，你应该已经有了自己的 2D Web3 游戏，运行正常。使用相位器，元面具和 Moralis，你可以在不到 30 分钟内做到这一点。在这个过程中，您已经学习了如何使用 Phaser 的示例游戏。此外，您还学习了如何完成初始的 Moralis 设置，然后使用它来包含 Web3 功能。因此，你现在可以使用这些技能来创建你自己的 2D Web3 游戏。然而，你可能还没有足够的信心开始自己的项目。因此，承担其他示例项目可能是你的正确方向。另一方面，您可能希望探索其他区块链发展主题。
 
-幸运的是，在[道德博客](https://moralis.io/blog/)和[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)的帮助下，你可以报道这两条途径中的任何一条。这两个渠道都提供了大量有价值的内容，可以作为你的免费持续加密教育。那里的一些最新话题包括创建一个 [GameFi](https://moralis.io/gamefi-tutorial-how-to-create-a-gamefi-game/) 游戏，如何[在 2022 年进入 Web3](https://moralis.io/how-to-get-into-web3-in-2022/) ，[open sea 如何在没有汽油费的情况下交易 NFTs】，](https://moralis.io/how-opensea-trades-nfts-without-gas-fees/) [Web3 Firebase 认证](https://moralis.io/web3-firebase-authentication-create-a-web3-sign-in-with-moralis/)，[与 Unity 的区块链游戏交易](https://moralis.io/how-to-do-blockchain-game-transactions-with-unity/)，创建一个 [Web3 音乐平台](https://moralis.io/web3-music-platform-create-a-web3-music-streaming-service/)等等。
+幸运的是，在[Moralis 博客](https://moralis.io/blog/)和[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)的帮助下，你可以报道这两条途径中的任何一条。这两个渠道都提供了大量有价值的内容，可以作为你的免费持续加密教育。那里的一些最新话题包括创建一个 [GameFi](https://moralis.io/gamefi-tutorial-how-to-create-a-gamefi-game/) 游戏，如何[在 2022 年进入 Web3](https://moralis.io/how-to-get-into-web3-in-2022/) ，[open sea 如何在没有汽油费的情况下交易 NFTs】，](https://moralis.io/how-opensea-trades-nfts-without-gas-fees/) [Web3 Firebase 认证](https://moralis.io/web3-firebase-authentication-create-a-web3-sign-in-with-moralis/)，[与 Unity 的区块链游戏交易](https://moralis.io/how-to-do-blockchain-game-transactions-with-unity/)，创建一个 [Web3 音乐平台](https://moralis.io/web3-music-platform-create-a-web3-music-streaming-service/)等等。
 
-然而，为了尽早成为 Web3 开发人员，你可能需要采取更专业的方法。所以，如果你渴望在 2022 年成为全职加密员，你应该考虑报名参加[道德学院](https://academy.moralis.io/)。在那里，你将接触到许多顶级的[课程](https://academy.moralis.io/all-courses)，并获得个性化的学习路径。此外，你将成为一个最先进的社区的一员。尽管如此，你也将得到专家的指导，这将引导你的区块链以最佳方式发展。
+然而，为了尽早成为 Web3 开发人员，你可能需要采取更专业的方法。所以，如果你渴望在 2022 年成为全职加密员，你应该考虑报名参加[Moralis 学院](https://academy.moralis.io/)。在那里，你将接触到许多顶级的[课程](https://academy.moralis.io/all-courses)，并获得个性化的学习路径。此外，你将成为一个最先进的社区的一员。尽管如此，你也将得到专家的指导，这将引导你的区块链以最佳方式发展。
 
 ![](img/e6b3cfcdbcdf6da7018bd24ccb793e42.png)

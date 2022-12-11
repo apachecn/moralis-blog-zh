@@ -107,7 +107,7 @@ https://www.youtube.com/watch?v=jdx2H1alijQ
 
 4.  加纳切
 
-您需要 Ganache 来创建您的本地沙箱环境。这是在 mainnet 甚至 testnet 上启动您的 dApp 之前。一旦您进入了 Ganache，它将为您提供多个地址，您可以在创建 dApp 或测试令牌时使用。要了解更多关于 Ganache 的信息，请阅读名为“[Ganache Explained-什么是 Ganache Blockchain”的文章。](https://moralis.io/ganache-explained-what-is-ganache-blockchain/)“来自道德博客。
+您需要 Ganache 来创建您的本地沙箱环境。这是在 mainnet 甚至 testnet 上启动您的 dApp 之前。一旦您进入了 Ganache，它将为您提供多个地址，您可以在创建 dApp 或测试令牌时使用。要了解更多关于 Ganache 的信息，请阅读名为“[Ganache Explained-什么是 Ganache Blockchain”的文章。](https://moralis.io/ganache-explained-what-is-ganache-blockchain/)“来自 Moralis 博客。
 
 ![](img/c49f4c6690ce9100e52a2f308fb9a736.png)
 
@@ -171,9 +171,9 @@ https://www.youtube.com/watch?v=jdx2H1alijQ
 
 ### 步骤 4–连接到 Moralis 服务器
 
-在建立你的 dApp 的过程中，你需要建立一个道德账户。Moralis 为您提供了开始构建 dApp 所需的所有工具，从服务器创建到无缝后端支持、特性和 API 集成。
+在建立你的 dApp 的过程中，你需要建立一个 Moralis 账户。Moralis 为您提供了开始构建 dApp 所需的所有工具，从服务器创建到无缝后端支持、特性和 API 集成。
 
-1.  创建一个道德账户
+1.  创建一个 Moralis 账户
 
 要创建一个新的 Moralis 帐户，只需在 Moralis 网站上注册即可。这很容易，简单，而且免费。通过创建一个帐户，您可以获得优秀的功能，使 Moralis 成为构建非凡的跨链 dApps 的最终 Web3 工具。
 
@@ -191,11 +191,11 @@ https://www.youtube.com/watch?v=jdx2H1alijQ
 
 有了 Moralis 为您处理服务器并提供[无服务器计算](https://moralis.io/serverless-explained-what-is-serverless-computing/)，您不再需要做繁重的工作。因此，您可以自由地专注于创建一个美丽的前端。
 
-确保通过单击道德服务器实例栏上的“查看详细信息”获得服务器 URL 和应用程序 ID，并将信息存储在剪贴板上，以备将来在开发中使用。
+确保通过单击 Moralis 服务器实例栏上的“查看详细信息”获得服务器 URL 和应用程序 ID，并将信息存储在剪贴板上，以备将来在开发中使用。
 
-3.  连接您的道德服务器
+3.  连接您的 Moralis 服务器
 
-转到[道德文件](https://docs.moralis.io/)页面。在那里，你会在左侧找到“[在 3 分钟内建立一个简单的 dApp](https://docs.moralis.io/guides/build-a-simple-dapp-in-3-minutes)”部分——点击它。然后，向下滚动，复制“在 HTML 页面中包含道德”标题下的源代码，并继续从 36:05 开始的视频教程中的步骤。
+转到[Moralis 文件](https://docs.moralis.io/)页面。在那里，你会在左侧找到“[在 3 分钟内建立一个简单的 dApp](https://docs.moralis.io/guides/build-a-simple-dapp-in-3-minutes)”部分——点击它。然后，向下滚动，复制“在 HTML 页面中包含 Moralis”标题下的源代码，并继续从 36:05 开始的视频教程中的步骤。
 
 ![](img/f09a275c1a32bbfc1b810545a6bb6355.png)
 

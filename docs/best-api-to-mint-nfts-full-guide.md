@@ -4,7 +4,7 @@
 
 不可替代令牌(NFT)是区块链技术最广为人知的应用之一。事实上，从艺术家到名人，从运动员到电影明星，每个人都在发行自己的 NFT 代币和 NFT 收藏品。因此，一般公众开始越来越熟悉这种独特令牌的数字所有权的概念。这反过来又推动了艺术品、收藏品、门票等等的更大的符号化。虽然我们离主流采用还很远，但这个特殊的加密分支已经为开发人员提供了无数的机会，他们可以创建高质量的 NFT[**【dApps】**](https://moralis.io/decentralized-applications-explained-what-are-dapps/)**。此外，开发人员利用正确的工具来帮助他们加速开发过程将受益最大。因此，学习制造 NFT 的最佳 API 可能是您的区块链开发道路上的关键点之一。**
 
-不久前，整个 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发过程还充满挑战，主要是因为没有合适的工具来帮助后端编码。然而，现在我们有几个著名的平台提供广泛的解决方案。虽然这些解决方案大多专注于提供节点的 T2，但有一个平台将事情带到了一个全新的水平，它提供了强大的工具来充分装备区块链开发人员。这个最终的 Web3 开发平台是 [Moralis](https://moralis.io/) ，它提供了令人印象深刻的 Web3 SDK，包括创建 NFT 的最佳 API，这将是本文的主要焦点。所以，如果你对 NFT 的发展很认真，[今天就创建你的免费道德账户](https://admin.moralis.io/register)！
+不久前，整个 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发过程还充满挑战，主要是因为没有合适的工具来帮助后端编码。然而，现在我们有几个著名的平台提供广泛的解决方案。虽然这些解决方案大多专注于提供节点的 T2，但有一个平台将事情带到了一个全新的水平，它提供了强大的工具来充分装备区块链开发人员。这个最终的 Web3 开发平台是 [Moralis](https://moralis.io/) ，它提供了令人印象深刻的 Web3 SDK，包括创建 NFT 的最佳 API，这将是本文的主要焦点。所以，如果你对 NFT 的发展很认真，[今天就创建你的免费 Moralis 账户](https://admin.moralis.io/register)！
 
 ![](img/c0b779afdb3d1f097f973d975fc652ec.png)
 
@@ -84,17 +84,17 @@ API 或“应用程序编程接口”允许软件之间相互通信。因此，�
 
 多亏了 Moralis 和它的制造 NFT 的 API，我们能够用少至 71 行的代码得到我们的 dApp 的逻辑。
 
-此外，我们需要指出，最上面的两行对于每个使用 Moralis 的项目都是至关重要的。他们确保你通过连接到你的道德服务器来访问整个军火库。要更详细地了解这些初始步骤，请参阅下面的“Moralis 设置”小节。
+此外，我们需要指出，最上面的两行对于每个使用 Moralis 的项目都是至关重要的。他们确保你通过连接到你的 Moralis 服务器来访问整个军火库。要更详细地了解这些初始步骤，请参阅下面的“Moralis 设置”小节。
 
 此外，铸造是通过与[智能契约](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/)交互来进行的。然而，为了这个项目，我们不希望你处理创建自己的智能合同。因此，我们已经在第四行的代码中介绍了这个方面。因此，您可以将主要精力放在使用 Moralis 的 API 来制造 NFT 上。
 
 此外，您可以在 [GitHub](https://github.com/DanielMoralisSamples/19_MINTNFT) 访问该项目的完整代码。
 
-#### 道德设置
+#### Moralis 设置
 
 要获得 Moralis 服务器的 ID 和 URL，需要完成四个步骤:
 
-1.  **创建您的 Moralis 账户**–如果您还没有 Moralis 账户，请确保现在就创建一个。最棒的是，它是完全免费的！只需[点击链接](https://admin.moralis.io/register)，输入你的电子邮件地址并创建你的密码。然后确认您的电子邮件地址(您将收到一封带有确认链接的电子邮件)。对于那些已经有一个活跃的道德账户的人来说，只需[登录](https://admin.moralis.io/login)。
+1.  **创建您的 Moralis 账户**–如果您还没有 Moralis 账户，请确保现在就创建一个。最棒的是，它是完全免费的！只需[点击链接](https://admin.moralis.io/register)，输入你的电子邮件地址并创建你的密码。然后确认您的电子邮件地址(您将收到一封带有确认链接的电子邮件)。对于那些已经有一个活跃的 Moralis 账户的人来说，只需[登录](https://admin.moralis.io/login)。
 2.  **创建一个新的服务器**–一旦你登录了你的 Moralis 账户，你需要创建一个新的服务器。只需点击右上角的“+创建新服务器”按钮，然后从出现的下拉菜单中选择一个选项(见下图)。我们建议从“Testnet 服务器”选项开始。
 
 ![](img/54768ceb987f04e97a66997f8821256b.png)

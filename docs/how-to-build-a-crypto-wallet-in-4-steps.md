@@ -2,7 +2,7 @@
 
 > 原文：<https://moralis.io/how-to-build-a-crypto-wallet-in-4-steps/>
 
-Web3 开发者会知道新的[**【dApps】**](https://moralis.io/decentralized-applications-explained-what-are-dapps/)**(去中心化应用)和 Web 应用是如何频繁地涌现出来的。这方面的一个例子是加密钱包，这里有太多的选择。这是可以理解的，因为加密钱包对于任何参与加密的人来说都是必不可少的元素。事实上，有数百种替代方案，如比特币基地、币安，当然还有 MetaMask。这些钱包允许用户有效地管理他们的加密资产。此外，随着越来越多的主流采用 crypto，它们越来越受欢迎，我们将在本文中进一步研究如何使用终极** [**Web3 开发**](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/) **平台—** [**道德**](https://moralis.io/) **构建一个加密钱包。**
+Web3 开发者会知道新的[**【dApps】**](https://moralis.io/decentralized-applications-explained-what-are-dapps/)**(去中心化应用)和 Web 应用是如何频繁地涌现出来的。这方面的一个例子是加密钱包，这里有太多的选择。这是可以理解的，因为加密钱包对于任何参与加密的人来说都是必不可少的元素。事实上，有数百种替代方案，如比特币基地、币安，当然还有 MetaMask。这些钱包允许用户有效地管理他们的加密资产。此外，随着越来越多的主流采用 crypto，它们越来越受欢迎，我们将在本文中进一步研究如何使用终极** [**Web3 开发**](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/) **平台—** [**Moralis**](https://moralis.io/) **构建一个加密钱包。**
 
 从传统的角度来看，dApp 开发最紧迫的问题之一一直是后端开发。这是 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 的开发与 Web2 的开发显著不同的地方。因此，Web3 后端管理很困难，需要资源和时间。然而，这就是 Moralis 作为开发 dApps 的首要中间件出现的原因。该平台提供了一个随时可用、即插即用的后端基础设施，允许开发人员专注于[创建最高标准的智能合同](https://moralis.io/how-to-create-smart-contracts/)，并专注于前端开发。
 
@@ -20,14 +20,14 @@ Web3 开发者会知道新的[**【dApps】**](https://moralis.io/decentralized-
 
 因此，我们将如何构建加密钱包的过程分为四个不同的步骤:
 
-1.  创建一个道德服务器
+1.  创建一个 Moralis 服务器
 2.  用 HTML 构建内容
 3.  添加 JavaScript 逻辑
 4.  添加传递函数
 
 遵循这四个步骤将使我们大致了解完成这个加密钱包需要什么。因此，让我们通过创建我们自己的 Moralis 服务器来开始本教程。
 
-此外，如果你更想看这个过程的视频教程，那么仔细看看这个来自道德 YouTube 频道的视频:
+此外，如果你更想看这个过程的视频教程，那么仔细看看这个来自 Moralis YouTube 频道的视频:
 
 https://www.youtube.com/watch?v=zd0pBsmJI8s
 
@@ -75,7 +75,7 @@ https://www.youtube.com/watch?v=zd0pBsmJI8s
 
 ![](img/586518845618a73e7a11a24db3977cee.png)
 
-在这种情况下，所有真正必要的是“道德”。Web3.authenticate()"行，因为我们使用了 Moralis。如果没有这个平台，这个任务会复杂得多，这只是 Moralis 派上用场的一个例子。
+在这种情况下，所有真正必要的是“Moralis”。Web3.authenticate()"行，因为我们使用了 Moralis。如果没有这个平台，这个任务会复杂得多，这只是 Moralis 派上用场的一个例子。
 
 ## 步骤 4:如何建立一个加密钱包-转移功能
 
@@ -119,12 +119,12 @@ https://www.youtube.com/watch?v=zd0pBsmJI8s
 
 使用 Moralis 平台，构建加密钱包的过程相对容易。我们可以利用已经开发的后端基础设施来建立一个服务器，并使用 Moralis SDK 来使这个过程更容易访问。事实上，我们可以通过四个简单的步骤来构建一个加密钱包:
 
-1.  创建一个道德服务器
+1.  创建一个 Moralis 服务器
 2.  用 HTML 构建内容
 3.  添加 JavaScript 逻辑
 4.  创建传递函数
 
-此外，道德的可能性是无穷的，例如，你可以在几分钟内轻松地[构建 ETH dApps](https://moralis.io/how-to-build-eth-dapps-quickly/) 或[创建多边形令牌](https://moralis.io/how-to-create-a-polygon-token/)。所有这些可访问性主要来自于 Moralis 的基础设施以及该平台的许多工具。例如，作为用户，你可以访问[价格 API](https://moralis.io/introducing-the-moralis-price-api/) 、[道德 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 、NFT API 等。此外，请务必查看强大的 [Moralis 插件](https://moralis.io/introducing-moralis-plugins/)，它们可以帮助您加速 dApp 开发。例如，你可以使用 Moralis 插件用几行代码为你的 dApps 创建一个 fiat onramp ！
+此外，Moralis 的可能性是无穷的，例如，你可以在几分钟内轻松地[构建 ETH dApps](https://moralis.io/how-to-build-eth-dapps-quickly/) 或[创建多边形令牌](https://moralis.io/how-to-create-a-polygon-token/)。所有这些可访问性主要来自于 Moralis 的基础设施以及该平台的许多工具。例如，作为用户，你可以访问[价格 API](https://moralis.io/introducing-the-moralis-price-api/) 、[Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 、NFT API 等。此外，请务必查看强大的 [Moralis 插件](https://moralis.io/introducing-moralis-plugins/)，它们可以帮助您加速 dApp 开发。例如，你可以使用 Moralis 插件用几行代码为你的 dApps 创建一个 fiat onramp ！
 
 此外，该网站还有一个每天发布新内容的[博客](https://moralis.io/blog/?utm_source=blog&utm_medium=post&utm_campaign=Want%2520the%2520Latest%2520in%2520%253Cspan%253EBlockchain%2520Development%253F%253C%252Fspan%253E)。阅读这些内容可能会让你成为一名更好的区块链开发者，并激发你的下一个项目。例如，你可以阅读更多关于[如何给 dApps](https://moralis.io/how-to-add-fiat-gateway-to-dapps/) 添加菲亚特 Onramp 网关或者[以太坊初学者开发](https://moralis.io/ethereum-development-for-beginners/)的内容。
 

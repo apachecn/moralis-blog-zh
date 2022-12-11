@@ -4,7 +4,7 @@
 
 学习如何用 Unity 创建元宇宙 dApp 是每个开发人员目前的想法。这并不奇怪，因为区块链技术、NFTs 和游戏内资产在 Web3 领域越来越受欢迎。尽管如此，我们需要记住，以其最真实的形式，元宇宙仍然是一个概念。因此，目前有一些 Web3 应用程序包含了类似元宇宙的元素。然而，只有时间才能告诉我们是否/何时能够创造一个真正的、完全沉浸式的元宇宙。但是现在，我们必须解决什么是可能的。因此，我们可以创建含有元宇宙样元素的 dApps。此外，这些可以是各种游戏、虚拟社交网络和虚拟事件。因此，如果创建一个元宇宙 Web3 应用程序听起来很有趣，请跟随我们在本文中发现如何用 Unity 创建一个元宇宙 dApp。
 
-随着我们的发展，你将学会如何使用终极的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台、 [Moralis](https://moralis.io/) 。这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”平台可以满足你所有与区块链相关的后端需求。有了 Moralis [元宇宙 SDK](https://moralis.io/metaverse/) ，你可以用短短的代码片段来包含加密功能。此外，当谈到解决“如何创建一个元宇宙”时，Moralis 的[终极 NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 也会有所帮助。因此，通过加入我们，我们建立了一个团结的元宇宙 dApp，你有机会使用道德。你所需要做的就是[创建你的免费道德账户](https://admin.moralis.io/register)并完成初始设置，我们会指导你完成。当然，熟悉 Unity 会让事情变得更简单。然而，我们在这里将要进行的示例项目相当简单。因此，即使是完全的初学者，用 Unity 构建元宇宙 dApp 也没有问题。
+随着我们的发展，你将学会如何使用终极的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台、 [Moralis](https://moralis.io/) 。这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”平台可以满足你所有与区块链相关的后端需求。有了 Moralis [元宇宙 SDK](https://moralis.io/metaverse/) ，你可以用短短的代码片段来包含加密功能。此外，当谈到解决“如何创建一个元宇宙”时，Moralis 的[终极 NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 也会有所帮助。因此，通过加入我们，我们建立了一个团结的元宇宙 dApp，你有机会使用 Moralis。你所需要做的就是[创建你的免费 Moralis 账户](https://admin.moralis.io/register)并完成初始设置，我们会指导你完成。当然，熟悉 Unity 会让事情变得更简单。然而，我们在这里将要进行的示例项目相当简单。因此，即使是完全的初学者，用 Unity 构建元宇宙 dApp 也没有问题。
 
 ![](img/c98f5c78a1372d76454ce90fd194fedf.png)
 
@@ -26,11 +26,11 @@
 
 ![](img/328b707622df4a480004535edec6699c.png)
 
-上面两张截图是我们的示例 dApp 的要点。如你所见，我们尽可能保持事情简单。然而，我们希望你能看到我们的例子的潜力。通过扩展 3D 世界(添加房间、建筑、地图等。)和添加多个字符，你可以有自己一个适当的元宇宙。有了预览，让我们向你展示如何创建一个团结和道德的元宇宙 dApp。
+上面两张截图是我们的示例 dApp 的要点。如你所见，我们尽可能保持事情简单。然而，我们希望你能看到我们的例子的潜力。通过扩展 3D 世界(添加房间、建筑、地图等。)和添加多个字符，你可以有自己一个适当的元宇宙。有了预览，让我们向你展示如何创建一个团结和 Moralis 的元宇宙 dApp。
 
 *如果你觉得在继续前进之前需要温习一下你的元宇宙知识，请务必阅读我们的文章，回答问题“* [*什么是元宇宙？*](https://moralis.io/what-is-the-metaverse-full-guide/) *”。*
 
-## 如何创建一个团结和道德的元宇宙民主行动党
+## 如何创建一个团结和 Moralis 的元宇宙民主行动党
 
 以下是我们在“如何打造元宇宙”探索过程中需要完成的主要步骤:
 
@@ -70,7 +70,7 @@
 
 ### 如何创建元宇宙 dApp 加密集成
 
-如果你想依靠下面的视频，跳到 8:25。在那里，您会看到您甚至可以使用谷歌来访问道德元宇宙 SDK。但是，您可以使用前面提到的链接。进入道德元宇宙 SDK 页面后，向下滚动一点，然后单击“立即开始”按钮:
+如果你想依靠下面的视频，跳到 8:25。在那里，您会看到您甚至可以使用谷歌来访问 Moralis 元宇宙 SDK。但是，您可以使用前面提到的链接。进入 Moralis 元宇宙 SDK 页面后，向下滚动一点，然后单击“立即开始”按钮:
 
 ![](img/d28e3ed38843dd65038d575c8897f7c8.png)
 
@@ -90,17 +90,17 @@
 
 ![](img/7eb047485c8b580afecada5c4d94af98.png)
 
-添加 WalletConnect 组件后，您需要调整一些设置(10:00)。“道德设置”也是如此(10:17)。这也是您需要 Moralis 服务器详细信息的地方:
+添加 WalletConnect 组件后，您需要调整一些设置(10:00)。“Moralis 设置”也是如此(10:17)。这也是您需要 Moralis 服务器详细信息的地方:
 
 ![](img/66a6af9cd115239864ffc2cb3c1f894d.png)
 
 因此，这是创建 Moralis 服务器的提示。为此，您需要完成初始的 Moralis 设置。
 
-#### 初始道德系统设置-第 1 部分
+#### 初始 Moralis 系统设置-第 1 部分
 
 无论你是想用 Unity 构建一个元宇宙 dApp，还是仅仅使用终极[以太坊 dApp 样板](https://moralis.io/ethereum-dapp-boilerplate-full-ethereum-react-boilerplate-tutorial/)构建一个简单的 dApp，你都需要创建你的 Moralis 服务器。以下步骤将帮助您做到这一点:
 
-1.  **登录您的 Moralis 账户**–此时，您可能已经拥有一个有效的 Moralis 账户；这样的话，只要[登陆](https://admin.moralis.io/login)就可以了。*不过，如果你还没有一个道德家账号，就在这里* [*注册*](https://admin.moralis.io/register) *。然后，输入您的电子邮件，创建您的密码，并通过单击确认链接(检查您的电子邮件收件箱)来完成该过程。*
+1.  **登录您的 Moralis 账户**–此时，您可能已经拥有一个有效的 Moralis 账户；这样的话，只要[登陆](https://admin.moralis.io/login)就可以了。*不过，如果你还没有一个 Moralis 家账号，就在这里* [*注册*](https://admin.moralis.io/register) *。然后，输入您的电子邮件，创建您的密码，并通过单击确认链接(检查您的电子邮件收件箱)来完成该过程。*
 
 2.  [**创建 Moralis 服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)–登录后，点击“+创建新服务器”按钮(位于“服务器”选项卡的右上角)。接下来，选择最适合您项目的网络类型(见下面的截图)。*在示例项目的情况下或测试 dApps 时，“Testnet 服务器”或“本地 Devchain 服务器”应该是你的重点。然而，当你想上线时，你需要点击“Mainnet 服务器”。*
 
@@ -122,9 +122,9 @@
 
 ![](img/afb6f0956785798e16cc1a2dc2133e8b.png)
 
-#### 初始道德标准设置-第 2 部分
+#### 初始 Moralis 标准设置-第 2 部分
 
-Moralis 设置的另一部分要求您添加一个 Moralis [Speedy Node](https://moralis.io/speedy-nodes/) URL(见上图)。幸运的是，创建了你的道德账户后，道德的快速节点也在你的支配之下。因此，返回到您的道德管理区，并选择“快速节点”标签。然后，单击您为服务器选择的网络下的“端点”按钮:
+Moralis 设置的另一部分要求您添加一个 Moralis [Speedy Node](https://moralis.io/speedy-nodes/) URL(见上图)。幸运的是，创建了你的 Moralis 账户后，Moralis 的快速节点也在你的支配之下。因此，返回到您的 Moralis 管理区，并选择“快速节点”标签。然后，单击您为服务器选择的网络下的“端点”按钮:
 
 ![](img/0924e6d62a68e6f98ec97ac8af8a0b13.png)
 
@@ -146,8 +146,8 @@ https://www.youtube.com/watch?v=wjqDSH29ZKk
 
 如果你已经按照我们的指导和上面的视频教程，你现在知道如何创建一个元宇宙(它的开始)。您已经学习了如何通过创建一个 3D 世界，添加一个第三人称角色，并为 Web3 后端设置使用 Moralis 来构建一个元宇宙 dApp。
 
-因此，在这一点上，你可能会非常兴奋，渴望把事情带到下一个层次。然而，如果你需要首先增强你的信心，获得一些想法，或者关注区块链领域的其他方面，我们建议你探索和学习 Web3 的其他方面。因此，你可以通过探索[道德的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德的博客](https://moralis.io/blog/)继续你的免费加密教育。在那里你可以找到大量有价值的内容。例如，我们的一些最新主题涵盖了[如何建立币安智能链钱包](https://moralis.io/bsc-wallet-guide-how-to-set-up-a-binance-smart-chain-wallet/)、[治理令牌](https://moralis.io/what-are-governance-tokens-full-guide/)、[可重入智能合约示例](https://moralis.io/what-is-reentrancy-reentrancy-smart-contract-example/)、 [React Native Web3](https://moralis.io/react-native-web3-full-react-native-web3-dev-guide/) ，以及 [Web3 游戏化](https://moralis.io/web3-gamification-creating-a-coinmarketcap-diamonds-dapp/)。
+因此，在这一点上，你可能会非常兴奋，渴望把事情带到下一个层次。然而，如果你需要首先增强你的信心，获得一些想法，或者关注区块链领域的其他方面，我们建议你探索和学习 Web3 的其他方面。因此，你可以通过探索[Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 的博客](https://moralis.io/blog/)继续你的免费加密教育。在那里你可以找到大量有价值的内容。例如，我们的一些最新主题涵盖了[如何建立币安智能链钱包](https://moralis.io/bsc-wallet-guide-how-to-set-up-a-binance-smart-chain-wallet/)、[治理令牌](https://moralis.io/what-are-governance-tokens-full-guide/)、[可重入智能合约示例](https://moralis.io/what-is-reentrancy-reentrancy-smart-contract-example/)、 [React Native Web3](https://moralis.io/react-native-web3-full-react-native-web3-dev-guide/) ，以及 [Web3 游戏化](https://moralis.io/web3-gamification-creating-a-coinmarketcap-diamonds-dapp/)。
 
-如果你想尽快成为全职加密员，那么你可能要采取更专业的方法。因此，报名参加道德学院可能是正确的道路。因此，你将获得广泛的专业[区块链发展课程](https://academy.moralis.io/all-courses)。
+如果你想尽快成为全职加密员，那么你可能要采取更专业的方法。因此，报名参加 Moralis 学院可能是正确的道路。因此，你将获得广泛的专业[区块链发展课程](https://academy.moralis.io/all-courses)。
 
 ![](img/42529e39d54ffc7f094db8568cf5809d.png)

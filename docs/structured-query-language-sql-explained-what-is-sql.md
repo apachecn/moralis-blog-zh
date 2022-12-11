@@ -131,7 +131,7 @@ SQL 被世界上数百万开发人员使用，原因有很多。它提供了许�
 
 然而，如果你计划在[以太坊](https://moralis.io/how-to-create-ethereum-tokens-in-4-steps/)、[多边形](https://moralis.io/how-to-create-a-polygon-token/)、[币安智能链(BSC)](https://moralis.io/how-to-create-a-bsc-token-in-5-steps/) 或 [Arbitrum](https://moralis.io/how-to-create-an-arbitrum-token-in-6-steps/) 上构建一个包含令牌使用和创建的生态系统的去中心化应用，那么你将受益于在多层区块链结构上存储数据。如果您还评估了非中介化是否是您的构建中的一个关键特性，这将会有所帮助。
 
-虽然关系数据库在性能上略胜区块链，但区块链提供了强大的大规模并行数据基础设施。要开始使用基于区块链的基础设施，您需要运行一个节点，并访问大量支持您的区块链后端的下一代 Web3 工具。因此，一定要去看看[道德快速节点](https://moralis.io/speedy-nodes/)。Moralis Speedy Nodes 消除了从零开始旋转节点的繁琐步骤，并提供了一种访问 Web3 区块链数据的方法，并使用 Moralis query 将它们集成到您的 dApp 开发中。
+虽然关系数据库在性能上略胜区块链，但区块链提供了强大的大规模并行数据基础设施。要开始使用基于区块链的基础设施，您需要运行一个节点，并访问大量支持您的区块链后端的下一代 Web3 工具。因此，一定要去看看[Moralis 快速节点](https://moralis.io/speedy-nodes/)。Moralis Speedy Nodes 消除了从零开始旋转节点的繁琐步骤，并提供了一种访问 Web3 区块链数据的方法，并使用 Moralis query 将它们集成到您的 dApp 开发中。
 
 ![](img/22f88065c27c1f17cb21db2d059bcf6b.png)
 
@@ -145,7 +145,7 @@ Aergo 是这种混合分层方法的另一个有趣的例子。它使用 SQL 智
 
 ![](img/562b9b7de61afb554a440964273c583f.png)
 
-## 什么是道德质疑？
+## 什么是 Moralis 质疑？
 
 现在您已经了解了什么是 SQL 以及查询的重要性，您可能想要了解更多关于它们如何与区块链版本相关联的信息。如果你选择在 Moralis 上开发你的 Web3 应用，你会选择最便捷的途径通过[无服务器计算](https://moralis.io/serverless-explained-what-is-serverless-computing/?utm_source=blog&utm_medium=post&utm_campaign=Want%2520the%2520Latest%2520in%2520%253Cspan%253EBlockchain%2520Development%253F%253C%252Fspan%253E)来开发你的区块链项目。此外，您消除了与处理基于区块链的数据库和设置物理服务器相关的许多困难步骤和成本。除了为您提供快速设置节点的方法外，Moralis 还帮助您定义、管理和检索数据，并将其集成到您的 dApp 开发或任何其他区块链项目中。
 

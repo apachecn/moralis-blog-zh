@@ -368,7 +368,7 @@ npm run start
 
 结合 Python SKD，您使用了 Moralis 的 Auth API 来添加元掩码登录功能。然而，MetaMask 只是 Auth API 支持的众多 wallet 连接器之一。如果你想探索其他选择，查看 Moralis 的 [Web3 博客](https://moralis.io/blog/)获取更多文章。例如，了解如何在[添加比特币基地钱包登录功能](https://moralis.io/how-to-add-coinbase-wallet-login-functionality/)或[使用 RainbowKit 添加登录功能](https://moralis.io/how-to-add-a-sign-in-with-rainbowkit-to-your-project-in-5-steps/)。
 
-此外，如果你想成为一名更熟练的 Web3 开发者，可以考虑加入道德学院。例如，通过“[以太坊 101](https://academy.moralis.io/courses/ethereum-101) ”课程学习 Web3 开发的基础知识。或者，通过“ [React Web 开发 101](https://academy.moralis.io/courses/react-web-development-101) ”了解您需要了解的所有 React 知识！
+此外，如果你想成为一名更熟练的 Web3 开发者，可以考虑加入 Moralis 学院。例如，通过“[以太坊 101](https://academy.moralis.io/courses/ethereum-101) ”课程学习 Web3 开发的基础知识。或者，通过“ [React Web 开发 101](https://academy.moralis.io/courses/react-web-development-101) ”了解您需要了解的所有 React 知识！
 
 ![moralis academy ](img/be01c58b5d7259f7c0cf7e2c4abfef77.png)
 

@@ -16,7 +16,7 @@
 
 接下来，你将有机会跟随我们的领导，使用 NextJS 和 [Moralis](https://moralis.io/) 创建一个简单的 dapp。毕竟，正是 Moralis Web3 Auth API 使您能够毫不费力地将 WalletConnect 模型集成到任何 dapp 中。虽然我们在这里将重点关注使用 NextJS 框架，但值得指出的是，Moralis 是完全跨平台互操作的。因此，您可以使用各种遗留开发平台和编程语言，使用 WalletConnect QR code 模式创建 dapps。因此，Moralis 有助于弥合 Web2 和 Web3 之间的发展差距。除了终极的 Web3 认证 API，Moralis 还提供了最好的 EVM 和索拉纳 API。其中包括 [NFT API](https://moralis.io/nft-api/) 、[令牌 API](https://moralis.io/token-api/) 和[流 API](https://moralis.io/streams/) 。此外，您可以在所有领先的区块链网络上使用这些优秀的工具。
 
-然而，在我们向您展示如何构建一个包含 WalletConnect 模型的简单 NextJS dapp 之前，我们需要让您了解一下速度。因此，我们将首先探索 WalletConnect 的开源协议，并看看它的用途。也就是说，现在就创建你的[免费道德账户](https://admin.moralis.io/register)，确保为今天文章的行动部分做好准备。
+然而，在我们向您展示如何构建一个包含 WalletConnect 模型的简单 NextJS dapp 之前，我们需要让您了解一下速度。因此，我们将首先探索 WalletConnect 的开源协议，并看看它的用途。也就是说，现在就创建你的[免费 Moralis 账户](https://admin.moralis.io/register)，确保为今天文章的行动部分做好准备。
 
 ![Connecting Web3 Design Art](img/49387c1bccd8c85f9a8d6c6092db5928.png)
 
@@ -91,7 +91,7 @@
 
 在完成初始设置之前，请确保做好以下准备:
 
-*   创建你的道德账户。
+*   创建你的 Moralis 账户。
 *   安装和设置 Visual Studio 代码(VSC)。
 *   创建一个 NextJS 应用程序。使用 NextJS 文档中的“创建下一个应用程序”页面，或者如果您在该步骤中需要帮助，请完成我们的“[使用 NextJS](https://docs.moralis.io/docs/nextjs-dapp) ”教程。
 
@@ -488,4 +488,4 @@ export default User;
 
 展望未来，我们鼓励您通过添加额外的 Web3 功能来处理今天的示例 dapp。这样，你会更好地了解 Moralis 的 Web3 API 的强大功能，反过来，也会建立起处理其他项目的信心。作为学习过程的一部分，我们建议您浏览 [Moralis 文档](https://docs.moralis.io/)中的其他操作指南和教程。此外，确保使用 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)来拓展你在区块链的发展视野。例如，在我们的一些最新文章中，我们专注于为区块链开发者提供的 [Web3 JS 教程](https://moralis.io/web3-js-tutorial-for-blockchain-developers/)，构建一个 Unity [Web3 多人游戏](https://moralis.io/how-to-build-a-web3-multiplayer-game-using-unity-multiplayer/)，解释 [Dogechain](https://moralis.io/build-with-dogecoin-on-evm-what-is-dogechain/) ， [Aptos](https://moralis.io/what-is-aptos-full-guide-to-the-aptos-blockchain/) 和 [Sui](https://moralis.io/what-is-sui-blockchain-the-ultimate-guide/) chains，终极[区块链科技栈](https://moralis.io/the-ultimate-blockchain-tech-stack-guide/)等等。
 
-另一方面，你可能渴望尽快成为全职加密员。如果是这样的话，你应该报名参加[道德学院](https://academy.moralis.io/)并获得区块链认证。这将大大提高你获得梦想中的加密工作的机会。有许多课程可供选择；然而，我们建议从[区块链和比特币基本面](https://academy.moralis.io/courses/blockchain-bitcoin-101)开始。
+另一方面，你可能渴望尽快成为全职加密员。如果是这样的话，你应该报名参加[Moralis 学院](https://academy.moralis.io/)并获得区块链认证。这将大大提高你获得梦想中的加密工作的机会。有许多课程可供选择；然而，我们建议从[区块链和比特币基本面](https://academy.moralis.io/courses/blockchain-bitcoin-101)开始。

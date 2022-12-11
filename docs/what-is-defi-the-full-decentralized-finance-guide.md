@@ -38,7 +38,7 @@ https://www.youtube.com/watch?v=5tc8XrA8VdI
 
 要成为 DeFi 生态系统的一部分并创建 dapps，你需要确保你有合适的 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/?utm_source=blog&utm_medium=post&utm_campaign=What%2520are%2520Web3%2520Contracts%253F%2520Exploring%2520Smart%2520Contracts)来完成这项工作。此外，您的堆栈中需要不同的层。第一层涉及区块链，第二层涉及节点。第三层涉及 API，第四层由综合的 Web3 开发平台如 Moralis 组成。此外，Moralis 是一个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/?utm_source=blog&utm_medium=post&utm_campaign=Exploring%2520the%2520Web3%2520Tech%2520Stack%2520%25E2%2580%2593%2520Full%2520Guide) ”平台，它集成了传统服务的功能，并将它们带入 Web3 和 DeFi 的未来。此外，第五层涉及 dapps。
 
-除了拥有无限可扩展的节点基础设施、分散式存储选项(如 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) )和有用的 API(如[道德利斯的 NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) )，您还需要创建和管理数字资产的能力。这包括编程、铸造、发送、接收和刻录令牌的能力。此外，这些代币在 DeFi 内充当货币或财产资产。
+除了拥有无限可扩展的节点基础设施、分散式存储选项(如 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) )和有用的 API(如[Moralis 利斯的 NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) )，您还需要创建和管理数字资产的能力。这包括编程、铸造、发送、接收和刻录令牌的能力。此外，这些代币在 DeFi 内充当货币或财产资产。
 
 ### NFTs、元宇宙和 DeFi
 
@@ -138,6 +138,6 @@ Web3 开发平台如 Moralis 可以帮助你创建你的 DEX 克隆。可以使�
 
 DeFi 为 Web3 用户和区块链开发者提供了探索传统金融之外的新金融模式的机会。有了这些模型，人们可以找到新的方法来赚取、交易、交易和分配数字资产。此外，DeFi 是一个庞大的生态系统，DeFi 的 TVL(锁定的总价值)在 2021 年 11 月达到了 3050 亿美元的历史新高。
 
-使用最终的 DeFi 和 Web3 开发平台 Moralis，您可以通过创建自己的 DeFi dapp 来利用 DeFi 的机会。此外，通过使用道德，你甚至可以创建一个德克斯克隆！要获得 DeFi 前所未有的机会，[请在 Moralis 网站](https://admin.moralis.io/register?utm_source=blog&utm_medium=post&utm_campaign=What%2520is%2520a%2520Web3%2520Wallet%253F%2520%25E2%2580%2593%2520Web3%2520Wallets%2520Explained)注册。探索道德，并学习释放 Web3 智能合同的力量和他们创造的创新！
+使用最终的 DeFi 和 Web3 开发平台 Moralis，您可以通过创建自己的 DeFi dapp 来利用 DeFi 的机会。此外，通过使用 Moralis，你甚至可以创建一个德克斯克隆！要获得 DeFi 前所未有的机会，[请在 Moralis 网站](https://admin.moralis.io/register?utm_source=blog&utm_medium=post&utm_campaign=What%2520is%2520a%2520Web3%2520Wallet%253F%2520%25E2%2580%2593%2520Web3%2520Wallets%2520Explained)注册。探索 Moralis，并学习释放 Web3 智能合同的力量和他们创造的创新！
 
 ![](img/57bc064f1a4b5e3e0a78ba683c58f6d8.png)

@@ -98,7 +98,7 @@
 
 **为了使我们的“网络”对象能够访问秘密 URL 和密钥，我们必须创建一个“secrets . JSON”([JSON](https://moralis.io/json-explained-what-is-json-javascript-object-notation/))文件。这样做的原因是因为存储了敏感信息，这是我们不愿意与他人分享的。**
 
-**因此，我们可以创建一个名为“secrets.json”的文件。在这个文件中，我们将添加“url”，它将从 [道德快速节点](https://moralis.io/speedy-nodes/) 中获取，以及“key”，它将从我们的 [元掩码](https://moralis.io/metamask-explained-what-is-metamask/) 帐户中获取。文件应该是这样的:**
+**因此，我们可以创建一个名为“secrets.json”的文件。在这个文件中，我们将添加“url”，它将从 [Moralis 快速节点](https://moralis.io/speedy-nodes/) 中获取，以及“key”，它将从我们的 [元掩码](https://moralis.io/metamask-explained-what-is-metamask/) 帐户中获取。文件应该是这样的:**
 
 **![](img/bf4e5529405d6a6826b1296de25bd5a6.png)**
 
@@ -122,7 +122,7 @@
 
 **![](img/2082cbf339304c574e9a1507bdb62524.png)**
 
-**就这样；恭喜你！您已经与 Hardhat 验证了您自己的智能合同！如果你对这个过程还有疑问，我们推荐你看看下面这个来自道德 YouTube 频道[](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw)的视频。在这里，你会发现对这个过程更清晰、更直接的解释:**
+**就这样；恭喜你！您已经与 Hardhat 验证了您自己的智能合同！如果你对这个过程还有疑问，我们推荐你看看下面这个来自 Moralis YouTube 频道[](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw)的视频。在这里，你会发现对这个过程更清晰、更直接的解释:**
 
 **[https://www.youtube.com/embed/h05-TkWPCvA?feature=oembed](https://www.youtube.com/embed/h05-TkWPCvA?feature=oembed)**
 
@@ -134,6 +134,6 @@
 
 **遵循这五个步骤，我们可以在几分钟内验证任何智能合同。此外，在本文中，我们决定将合同上传到 Ropsten Testnet，但是该过程的基本原理对于任何其他区块链都是相同的。然而，如果你决定选择另一个链，有几个需要改变的过程。**
 
-**此外，这只是 Moralis 平台派上用场的众多场景之一。比如，你也可以使用 Moralis 来 [构建 ETH dApps](https://moralis.io/how-to-build-eth-dapps-quickly/) 或者 [创建自己的 ERC-20 令牌](https://moralis.io/how-to-create-your-own-erc-20-token-in-10-minutes/) 。此外，如果您有兴趣了解更多关于该平台的信息，我们建议您查看 [Moralis 博客](https://moralis.io/blog/) 。博客上有很棒的文章，可以更好地理解与道德家合作的潜力。**
+**此外，这只是 Moralis 平台派上用场的众多场景之一。比如，你也可以使用 Moralis 来 [构建 ETH dApps](https://moralis.io/how-to-build-eth-dapps-quickly/) 或者 [创建自己的 ERC-20 令牌](https://moralis.io/how-to-create-your-own-erc-20-token-in-10-minutes/) 。此外，如果您有兴趣了解更多关于该平台的信息，我们建议您查看 [Moralis 博客](https://moralis.io/blog/) 。博客上有很棒的文章，可以更好地理解与 Moralis 家合作的潜力。**
 
-**因此，如果你正在寻找验证合同或开发 dApps 和代币，你应该今天就 [与道德家](https://admin.moralis.io/register) 签约。作为 Moralis 用户，您将获得该平台的所有工具，从而在整个开发过程中节省宝贵的时间和资源！**
+**因此，如果你正在寻找验证合同或开发 dApps 和代币，你应该今天就 [与 Moralis 家](https://admin.moralis.io/register) 签约。作为 Moralis 用户，您将获得该平台的所有工具，从而在整个开发过程中节省宝贵的时间和资源！**

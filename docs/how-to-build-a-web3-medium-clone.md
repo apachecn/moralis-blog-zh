@@ -4,7 +4,7 @@
 
 **Medium 是一个平台，读者可以在这里读到充满激情的内容创作者的励志思想和前瞻性想法。你很有可能在这个流行的平台上读过文章，也在那里发表过文章。然而，虽然媒体有其优点，但缺点之一是它的集中性。这不仅是 Medium 的情况，也是许多其他流行平台的情况。于是，程序员们开始创造去中心化的选项，比如一个 Web3 替代 Medium，一个** [**Web3 Twitter 克隆**](https://moralis.io/how-to-build-a-web3-twitter-clone/) **等等。如果你想探索如何构建一个 Web3 中型克隆，你会发现这个指南非常有益！**
 
-这篇关于创建 Web3 中型克隆的教程将有利于那些决定通过采取可行的步骤来弄脏自己的手的人。如果您最终构建了一个 Web3 中型克隆，您将学习如何向区块链发布博客文章。发布的文章将采用 NFTs ( [不可替换令牌](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/))的形式，这将使用智能合同来生成。因此，你将学习坚实的基础。此外，我们将向您展示如何使用 [Hardhat](https://moralis.io/hardhat-explained-what-is-hardhat/) 来轻松编译、部署和验证智能合约。您还将学习如何将 NFT 元数据上传到 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 。另外，您将看到如何充分利用您的 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 技能，并使用 [React](https://moralis.io/react-explained-what-is-react/) 创建一个整洁的 [Web3 UI](https://moralis.io/web3-ui-how-to-create-a-great-dapp-ui/) 。最后，您将学习如何利用[Moralis](https://moralis.io/)——终极 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台。因此，[在继续之前，创建你的免费道德账户](https://admin.moralis.io/register)。
+这篇关于创建 Web3 中型克隆的教程将有利于那些决定通过采取可行的步骤来弄脏自己的手的人。如果您最终构建了一个 Web3 中型克隆，您将学习如何向区块链发布博客文章。发布的文章将采用 NFTs ( [不可替换令牌](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/))的形式，这将使用智能合同来生成。因此，你将学习坚实的基础。此外，我们将向您展示如何使用 [Hardhat](https://moralis.io/hardhat-explained-what-is-hardhat/) 来轻松编译、部署和验证智能合约。您还将学习如何将 NFT 元数据上传到 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 。另外，您将看到如何充分利用您的 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 技能，并使用 [React](https://moralis.io/react-explained-what-is-react/) 创建一个整洁的 [Web3 UI](https://moralis.io/web3-ui-how-to-create-a-great-dapp-ui/) 。最后，您将学习如何利用[Moralis](https://moralis.io/)——终极 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台。因此，[在继续之前，创建你的免费 Moralis 账户](https://admin.moralis.io/register)。
 
 ![](img/f1ed682acb55d29d159ceb6e0d485c66.png)
 
@@ -140,7 +140,7 @@ require(“@nomiclabs/hardhat-etherscan”);
 
 ![](img/90909e258f5ac410e50fdcedb9729afa.png)
 
-当然，您还需要用适当的值填充上述变量。有关查找这些值的详细指导，请使用下面的视频，从 14:48 开始。就“多边形孟买”而言，您可以使用下面的“从道德开始-新的管理用户界面”部分。有了这些值，您就可以编译、部署和验证您的智能合同了(16:40)。一旦您的智能合同生效，您就可以开始使用 PolygonScan 与它交互(18:47)。然而，我们的目标是为此创建一个整洁的用户界面。因此，是时候为您的 Web3 Medium 克隆创建前端了。
+当然，您还需要用适当的值填充上述变量。有关查找这些值的详细指导，请使用下面的视频，从 14:48 开始。就“多边形孟买”而言，您可以使用下面的“从 Moralis 开始-新的管理用户界面”部分。有了这些值，您就可以编译、部署和验证您的智能合同了(16:40)。一旦您的智能合同生效，您就可以开始使用 PolygonScan 与它交互(18:47)。然而，我们的目标是为此创建一个整洁的用户界面。因此，是时候为您的 Web3 Medium 克隆创建前端了。
 
 ## Web3 中型克隆前端
 
@@ -158,7 +158,7 @@ require(“@nomiclabs/hardhat-etherscan”);
 
 最后，您还将学习如何使用 Moralis 的 Web3 API 来查询链上数据(58:57)。这就是你将如何填充你的中型克隆的主页和“你的博客”页面。您将使用“ [homeAuth.js](https://github.com/IAmJaysWay/Medium-Final/blob/main/src/pages/HomeAuth.js) ”和“ [MyBlogs.js](https://github.com/IAmJaysWay/Medium-Final/blob/main/src/pages/MyBlogs.js) ”文件。多亏了“fetchAllNfts”函数和“getNFTOwners”钩子，你可以毫不费力地访问所有你需要的链上信息。
 
-### 从道德开始–新的管理用户界面
+### 从 Moralis 开始–新的管理用户界面
 
 *注意:* *在下面的视频教程中，我们的内部专家使用了 Moralis admin 传统用户界面。因此，你可以跟随他的领导，切换到旧的用户界面:*
 
@@ -166,9 +166,9 @@ require(“@nomiclabs/hardhat-etherscan”);
 
 *然而，以下也是帮助您导航更新后的用户界面的说明:*
 
-1.  [*登录*](https://admin.moralis.io/login) *到你的道德家管理区。如果你还没有创建你的免费道德账户，使用本文开头的链接。*
+1.  [*登录*](https://admin.moralis.io/login) *到你的 Moralis 家管理区。如果你还没有创建你的免费 Moralis 账户，使用本文开头的链接。*
 
-2.  *在您的道德管理面板中，创建一个新的 dapp:*
+2.  *在您的 Moralis 管理面板中，创建一个新的 dapp:*
 
 ![](img/c8f604d13f2ab888ee7a6fd3c5f30354.png)
 
@@ -220,7 +220,7 @@ https://www.youtube.com/watch?v=8S8unFCq0fM
 
 ## 如何构建 Web3 中型克隆—摘要
 
-按照我们的指导和上面的视频教程，你有机会构建你自己的 Web3 媒体克隆。您还学习了如何创建、编译、部署和验证 ERC-721 智能合同。此外，您还有机会通过创建一个用户友好的前端来更新您的反应技能。最重要的是，你学会了如何利用当前 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)的顶峰——道德。因此，你现在有能力使用这个终极的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)为你未来所有的 Web3 努力。
+按照我们的指导和上面的视频教程，你有机会构建你自己的 Web3 媒体克隆。您还学习了如何创建、编译、部署和验证 ERC-721 智能合同。此外，您还有机会通过创建一个用户友好的前端来更新您的反应技能。最重要的是，你学会了如何利用当前 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)的顶峰——Moralis。因此，你现在有能力使用这个终极的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)为你未来所有的 Web3 努力。
 
 如果您喜欢今天的示例项目，我们鼓励您查看我们的其他“克隆”教程:
 
@@ -232,4 +232,4 @@ https://www.youtube.com/watch?v=8S8unFCq0fM
 *   [Web3 埃尔登环克隆](https://moralis.io/moralis-projects-web3-elden-ring-clone/)
 *   [网站 3 的 Reddit 克隆](https://moralis.io/create-a-reddit-clone-for-web3-step-by-step-guide/)
 
-请务必在 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)上探索其他区块链发展话题。我们的一些最新文章包括构建一个 [Web3 角色扮演游戏](https://moralis.io/how-to-build-a-web3-action-role-playing-game/)，创建一个[社交媒体 dapp](https://moralis.io/how-to-create-a-social-media-dapp/) ，探索一个[币安 dapp API](https://moralis.io/binance-dapp-api-how-to-easily-build-projects-on-binance/) ，以太坊合并[，以太坊 NFT API](https://moralis.io/ethereum-merge-what-is-ethereum-2-0-and-the-merge/) ，以及多边形 NFT API[等等。尽管如此，你可能也想去看看道德学院。毕竟，这是快速自信地成为 Web3 开发者的最好地方之一。](https://moralis.io/what-is-a-polygon-nft-api-polygon-nft-apis-explained/)
+请务必在 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)上探索其他区块链发展话题。我们的一些最新文章包括构建一个 [Web3 角色扮演游戏](https://moralis.io/how-to-build-a-web3-action-role-playing-game/)，创建一个[社交媒体 dapp](https://moralis.io/how-to-create-a-social-media-dapp/) ，探索一个[币安 dapp API](https://moralis.io/binance-dapp-api-how-to-easily-build-projects-on-binance/) ，以太坊合并[，以太坊 NFT API](https://moralis.io/ethereum-merge-what-is-ethereum-2-0-and-the-merge/) ，以及多边形 NFT API[等等。尽管如此，你可能也想去看看 Moralis 学院。毕竟，这是快速自信地成为 Web3 开发者的最好地方之一。](https://moralis.io/what-is-a-polygon-nft-api-polygon-nft-apis-explained/)

@@ -4,7 +4,7 @@
 
 随着 Web3 行业的成熟，让 Dao(分散的自治组织)来管理数字原生实体变得越来越流行。Dao 以分散的方式提供了一种独特而有效的建立和经营企业的方式。有几个 DAO 使用案例可供探索，从 UniSwap(最著名的分散式交易所)到筹集 300 万美元支持乌克兰军队的 DAO。因此，我们将通过这篇文章来探索不同类型的 Dao，并提供每种 Dao 的真实例子。
 
-在我们仔细研究各种 Dao 之前，我们将从理解 Dao 开始这篇文章。此外，为了理解这些组织的价值，我们还将探索 Dao 的一些好处。接下来，如果你有野心用[道德](https://moralis.io/)建造你自己的道，我们将简要地给你指出正确的方向。对这些组织有了更深刻的理解后，我们将更深入地研究不同的用例，并探索八种类型的 Dao。
+在我们仔细研究各种 Dao 之前，我们将从理解 Dao 开始这篇文章。此外，为了理解这些组织的价值，我们还将探索 Dao 的一些好处。接下来，如果你有野心用[Moralis](https://moralis.io/)建造你自己的道，我们将简要地给你指出正确的方向。对这些组织有了更深刻的理解后，我们将更深入地研究不同的用例，并探索八种类型的 Dao。
 
 如果你已经熟悉 Dao 和各种类型的 Dao，我们推荐你在 [Moralis 博客](https://moralis.io/blog/)查看更多内容。例如，您可以了解 [Web3 认证](https://moralis.io/authentication/)，以了解[如何认证 Web3 用户](https://moralis.io/how-to-authenticate-web3-users/)。此外，您可以随意探索其他 Moralis 功能，如[元宇宙 SDK](https://moralis.io/metaverse/) 或了解更多关于 [Web3 同步](https://moralis.io/syncs/)的信息。
 
@@ -49,7 +49,7 @@ https://www.youtube.com/watch?v=sAcEJcwPTOk
 2.  慈善道
 3.  创业道
 4.  媒体 Dao
-5.  社会道德
+5.  社会 Moralis
 6.  格兰特·道斯
 7.  收藏家道斯
 8.  子 DAOs
@@ -128,7 +128,7 @@ Dao 有许多使用案例，从为乌克兰军队筹集资金的组织到 DeFi �
 2.  慈善道
 3.  创业道
 4.  媒体 Dao
-5.  社会道德
+5.  社会 Moralis
 6.  格兰特·道斯
 7.  收藏家道斯
 8.  苏比多斯

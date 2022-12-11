@@ -2,9 +2,9 @@
 
 > 原文：<https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/>
 
-无论您是经验丰富的开发人员还是新的区块链开发人员，您都很可能听说过 RPC 节点。再者，那些直接在 RPC 节点之上开发 [**dApps**](https://moralis.io/decentralized-applications-explained-what-are-dapps/) **(去中心化应用)的人会知道 RPC 节点的诸多局限性。然而，RPC 节点仍然在 Web3 开发人员中广泛使用，尽管由于其固有的限制，它们越来越不受欢迎。因此，程序员需要比 RPC 节点更快、更有效、更易于管理的替代品。在本文中，我们将探索 RPC 节点的局限性，以及如何解决这些问题——即，通过使用** [**道德规范**](https://moralis.io/) **。因此，让我们熟悉一下这个解决方案，看看它能给程序员带来什么好处。然而，在我们这样做之前，让我们先来探讨一下 RPC 节点的概念，以及为什么**[**web 3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/)**开发人员不应该使用它们。**
+无论您是经验丰富的开发人员还是新的区块链开发人员，您都很可能听说过 RPC 节点。再者，那些直接在 RPC 节点之上开发 [**dApps**](https://moralis.io/decentralized-applications-explained-what-are-dapps/) **(去中心化应用)的人会知道 RPC 节点的诸多局限性。然而，RPC 节点仍然在 Web3 开发人员中广泛使用，尽管由于其固有的限制，它们越来越不受欢迎。因此，程序员需要比 RPC 节点更快、更有效、更易于管理的替代品。在本文中，我们将探索 RPC 节点的局限性，以及如何解决这些问题——即，通过使用** [**Moralis 规范**](https://moralis.io/) **。因此，让我们熟悉一下这个解决方案，看看它能给程序员带来什么好处。然而，在我们这样做之前，让我们先来探讨一下 RPC 节点的概念，以及为什么**[**web 3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/)**开发人员不应该使用它们。**
 
-通过这篇文章，您将了解到 Moralis——最终的 Web3 操作系统和开发平台。具体来说，Moralis 将帮助您克服 RPC 节点的所有限制，让您在 dApp 开发中获得优势。如果你渴望开始建设，并且已经满足了所有的先决条件，那么[现在就可以免费注册你的道德账户。但是，我们强烈建议阅读以下部分，以便更深入地了解 RPC 节点的局限性。此外，通过研究这些限制，您还会意识到为什么开发人员需要的不仅仅是 RPC 节点。Moralis 通过其广泛的工具包提供了这一解决方案，包括 Moralis](https://admin.moralis.io/register) [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 和全面的 [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 。
+通过这篇文章，您将了解到 Moralis——最终的 Web3 操作系统和开发平台。具体来说，Moralis 将帮助您克服 RPC 节点的所有限制，让您在 dApp 开发中获得优势。如果你渴望开始建设，并且已经满足了所有的先决条件，那么[现在就可以免费注册你的 Moralis 账户。但是，我们强烈建议阅读以下部分，以便更深入地了解 RPC 节点的局限性。此外，通过研究这些限制，您还会意识到为什么开发人员需要的不仅仅是 RPC 节点。Moralis 通过其广泛的工具包提供了这一解决方案，包括 Moralis](https://admin.moralis.io/register) [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 和全面的 [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 。
 
 ![](img/c3ea522222c6c97baaa09bc098afd47d.png)
 
@@ -48,9 +48,9 @@
 
 ### **围绕 RPC 节点构建不是面向未来的**
 
-你可能想知道道德是如何让这样一个巨大的飞跃成为可能的。嗯，你必须考虑这样一个事实，所有的 Web3 应用程序都需要覆盖加密后端的很大一部分。因此，我们可以使用模板化的单行代码来覆盖重复编码。这些代码片段可以在 [Moralis 的文档](https://docs.moralis.io/)中找到。从本质上讲，Moralis 使您能够避免为每个 dApp 重新发明轮子。此外，同样的原则适用于所有区块链人。
+你可能想知道 Moralis 是如何让这样一个巨大的飞跃成为可能的。嗯，你必须考虑这样一个事实，所有的 Web3 应用程序都需要覆盖加密后端的很大一部分。因此，我们可以使用模板化的单行代码来覆盖重复编码。这些代码片段可以在 [Moralis 的文档](https://docs.moralis.io/)中找到。从本质上讲，Moralis 使您能够避免为每个 dApp 重新发明轮子。此外，同样的原则适用于所有区块链人。
 
-因此，通过使用完全包含跨链互操作性的工具，您可以轻松地创建跨链 dApp。更好的是，Moralis 将跨链互操作性放在了首要位置。此外，Moralis 的开发团队一直在寻找新的知名连锁店。例如，[对 Avalanche](https://moralis.io/moralis-announces-full-support-for-avalanche/) 的全面支持是 Moralis 最新增加的支持网络之一。考虑到这一点，你可以通过道德让你的 dApps 适应未来。
+因此，通过使用完全包含跨链互操作性的工具，您可以轻松地创建跨链 dApp。更好的是，Moralis 将跨链互操作性放在了首要位置。此外，Moralis 的开发团队一直在寻找新的知名连锁店。例如，[对 Avalanche](https://moralis.io/moralis-announces-full-support-for-avalanche/) 的全面支持是 Moralis 最新增加的支持网络之一。考虑到这一点，你可以通过 Moralis 让你的 dApps 适应未来。
 
 用 Moralis 构建 dApps 意味着构建项目更容易，也意味着你能够更快地进入市场。
 
@@ -62,13 +62,13 @@
 
 综上所述，作为一名[区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，除非万不得已，否则不应该直接与 RPC 节点对话。例如，当您需要上传智能合同时，您必须直接与 RPC 节点通信。然而，对于大多数 Web3 开发过程(尤其是从区块链获取数据)，当您使用 Moralis 时，这是不必要的。它基本上负责整个区块链相关的后端开发。因此，任何精通 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 并能够使用[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)的人都可以在短时间内创建优秀的 dApps。所以，现在你知道[为什么你不应该使用 RPC 节点](https://moralis.io/ethereum-rpc-nodes-what-they-are-and-why-you-shouldnt-use-them/)。
 
-## **道德——克服节点限制的终极解决方案**
+## **Moralis——克服节点限制的终极解决方案**
 
 权威的 Web3 操作系统 Moralis 来自开发者，也为开发者服务。它可以免费使用，是快速、轻松地交付面向未来的分散式应用程序的最佳方式。如果你想使用 Moralis 的平台，[通过](https://docs.moralis.io/moralis-server/getting-started)[创建账户](https://admin.moralis.io/register)开始，让 Moralis 从头到尾指导你的 dApp 开发。
 
 ![](img/05e9d3cc315f08af5c503ddbf025206e.png)
 
-### **道德 NFT API vs RPC 节点**
+### **Moralis NFT API vs RPC 节点**
 
 由于 NFT 现在非常流行，能够交付高质量的 NFT 应用程序确实是一项有用的技能。然而，通过连接到一个 RPC 节点并从头开始构建整个基础设施来实现这一点，您需要花费数月时间。另一方面，使用 Moralis 的 NFT API，您可以在几分钟内构建围绕 NFT 的简单 dApps。此外，看看我们的一些指南和文章，我们已经教我们的观众如何在几分钟内[构建一个 NFT 游戏](https://moralis.io/nft-game-development-how-to-build-an-nft-game-app-in-minutes/)，如何在五个步骤中[创建自己的 NFT](https://moralis.io/how-to-create-your-own-nft-in-5-steps/) ，如何创建一个 [NFT 铸造](https://moralis.io/best-api-to-mint-nfts-full-guide/)平台，以及更多关于不同区块链的内容。如果您坚持使用节点，请记住 Moralis 是 BSC 的首选"[in fura](https://moralis.io/infura-bsc-alternatives-the-best-alternative-to-infura-for-bsc/)"和 Avalanche 的首选"[in fura](https://moralis.io/infura-for-avalanche-exploring-infura-avalanche-alternatives/)"。
 

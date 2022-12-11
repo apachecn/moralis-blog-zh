@@ -30,8 +30,8 @@ Moralis 是 Web3 开发的最佳中间件，该平台提供了开发和部署 dA
 
 为了展示 Moralis 的强大功能，我们将在接下来的章节中创建一个小型 dApp，在其中添加菲亚特网关的功能。这个过程可以分为三个不同的步骤:
 
-1.  创建一个道德服务器。
-2.  安装道德插件。
+1.  创建一个 Moralis 服务器。
+2.  安装 Moralis 插件。
 3.  创建 dApp。
 
 遵循本指南将为您提供一个简单明了的解释，告诉您如何为您未来的所有 dApps 添加网关。因此，让我们通过创建我们自己的 Moralis 服务器来开始这个过程。
@@ -42,7 +42,7 @@ https://www.youtube.com/watch?v=5MlTnoBm7YQ
 
 ## 步骤 1:创建一个 Moralis 服务器
 
-如果你还没有，我们需要做的第一件事就是注册 [Moralis](http://moralis.io/) 。注册是完全免费的，也是为我们的 dApp 创建我们自己的道德服务器的必要条件。一旦你有了一个帐户，你可以点击 Moralis 管理面板上的“+创建一个新的服务器”按钮开始行动。
+如果你还没有，我们需要做的第一件事就是注册 [Moralis](http://moralis.io/) 。注册是完全免费的，也是为我们的 dApp 创建我们自己的 Moralis 服务器的必要条件。一旦你有了一个帐户，你可以点击 Moralis 管理面板上的“+创建一个新的服务器”按钮开始行动。
 
 单击该按钮后，会出现一个下拉菜单，为您提供三个选项:“Mainnet 服务器”、“Testnet 服务器”和“本地 Devchain 服务器”。对于本教程来说，你选择哪一个替代方案并不重要；但是，我们将选择“Testnet 服务器”。
 
@@ -106,8 +106,8 @@ https://www.youtube.com/watch?v=5MlTnoBm7YQ
 
 Moralis 是用于 [Web3 开发](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/)的首要中间件，该平台提供了开发和部署 dApps 所需的一切。利用已经开发的 Moralis 基础设施，只需一行代码就可以添加一个菲亚特网关。我们发表这篇文章是为了通过创建一个简单的带有完全集成网关的 dApp 来展示 Moralis 的强大功能。我们可以通过三个简单的步骤来实现这一点:
 
-1.  创建一个道德服务器。
-2.  安装道德插件。
+1.  创建一个 Moralis 服务器。
+2.  安装 Moralis 插件。
 3.  创建 dApp。
 
 这个过程只花了我们几分钟。但是，您也可以轻松地对现有项目实现相同的功能。

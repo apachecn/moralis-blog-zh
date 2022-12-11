@@ -4,7 +4,7 @@
 
 **要不要创建你的第一个** [**去中心化应用**](https://moralis.io/decentralized-applications-explained-what-are-dapps/) **(dapp)？或者一个 Web3 游戏？如果是这样的话，知道什么是合同 ABI 以及如何使用它是相当重要的。当然也有一些 dapps 可能不需要这方面。然而，一旦你开始合并可替换的或者** [**不可替换的令牌**](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/) **(NFTs)，你就无法绕过它。此外，也许你已经接手了我们的一些示例项目，并复制粘贴了一个特定的合同 ABI，而没有真正知道它到底做了什么。好吧，今天我们将澄清一些事情，并确保你们都知道这个智能合约的属性是什么。**
 
-首先，我们将首先解释什么是智能合同 ABI。然后，我们将告诉你为什么 ABI 是重要的，以及他们如何适应区块链编程。此外，我们还将了解如何使用 ABIs。因此，我们将向您展示如何获得任何智能合同 ABI。幸运的是，您有几个选择来做到这一点。因此，你可以选择最适合你和你的项目的。尽管如此，我们还是会给你一个机会把在这里学到的知识付诸实践。我们将与您分享一些示例项目，其中您需要使用智能合同 ABI 来实现示例 dapps 的全部功能。如果你对此感兴趣，请务必[创建你的免费道德账户](https://admin.moralis.io/register)并跟随我们。
+首先，我们将首先解释什么是智能合同 ABI。然后，我们将告诉你为什么 ABI 是重要的，以及他们如何适应区块链编程。此外，我们还将了解如何使用 ABIs。因此，我们将向您展示如何获得任何智能合同 ABI。幸运的是，您有几个选择来做到这一点。因此，你可以选择最适合你和你的项目的。尽管如此，我们还是会给你一个机会把在这里学到的知识付诸实践。我们将与您分享一些示例项目，其中您需要使用智能合同 ABI 来实现示例 dapps 的全部功能。如果你对此感兴趣，请务必[创建你的免费 Moralis 账户](https://admin.moralis.io/register)并跟随我们。
 
 ![](img/67dfb5d4563adaea07c96b70d6c62e7e.png)
 
@@ -138,6 +138,6 @@ https://www.youtube.com/watch?v=0S8JTkcjpsA
 
 ## 什么是智能合同 ABI？完整指南-摘要
 
-在今天的文章中，我们已经谈了相当多的内容。首先，您了解了智能合约 ABI 的基本知识。这也是我们讨论智能合同要点的地方。然后，知道 ABI 本质上是支持字节码和高级语言之间通信的解释器，您就有机会了解如何使用 ABI。此外，我们还向您展示了在哪里以及如何使用不同的 Web3 开发工具来获取智能合同细节。最后但同样重要的是，你有机会承担一些实例项目，将理论付诸实践。这也是你能够亲身体验道德力量的地方。
+在今天的文章中，我们已经谈了相当多的内容。首先，您了解了智能合约 ABI 的基本知识。这也是我们讨论智能合同要点的地方。然后，知道 ABI 本质上是支持字节码和高级语言之间通信的解释器，您就有机会了解如何使用 ABI。此外，我们还向您展示了在哪里以及如何使用不同的 Web3 开发工具来获取智能合同细节。最后但同样重要的是，你有机会承担一些实例项目，将理论付诸实践。这也是你能够亲身体验 Moralis 力量的地方。
 
-此外，如果您有兴趣探索其他区块链发展主题或承担额外的示例项目，我们鼓励您访问 Moralis 的 [Web3 博客](https://moralis.io/blog/)和 Moralis 的 [Web3 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。这两个出口可以免费帮助你成为 Web3 开发者。然而，如果你想尽快成为全职加密员，那么[道德学院](https://academy.moralis.io/)可能是你的好去处。此外，如果你想了解 NFT 的秘密，一定要向经验丰富的 [NFT 程序员](https://nftcoders.com/)学习——例如学习实用的 [NFT 用例](https://nftcoders.com/learning-all-about-nft-use-cases-in-2022/)或[如何入股 NFT](https://nftcoders.com/the-2022-guide-to-nft-staking-how-to-stake-nfts/)！
+此外，如果您有兴趣探索其他区块链发展主题或承担额外的示例项目，我们鼓励您访问 Moralis 的 [Web3 博客](https://moralis.io/blog/)和 Moralis 的 [Web3 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。这两个出口可以免费帮助你成为 Web3 开发者。然而，如果你想尽快成为全职加密员，那么[Moralis 学院](https://academy.moralis.io/)可能是你的好去处。此外，如果你想了解 NFT 的秘密，一定要向经验丰富的 [NFT 程序员](https://nftcoders.com/)学习——例如学习实用的 [NFT 用例](https://nftcoders.com/learning-all-about-nft-use-cases-in-2022/)或[如何入股 NFT](https://nftcoders.com/the-2022-guide-to-nft-staking-how-to-stake-nfts/)！

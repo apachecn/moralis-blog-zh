@@ -6,7 +6,7 @@
 
 除了解释 EIP-4361 的复杂性之外，我们还将仔细看看如何使用 [Moralis](https://moralis.io/) 来实现这个标准。Moralis 的认证解决方案实现了 EIP-4361。此外，API 允许您用几种方法来验证用户。因此，如果您想了解关于 EIP-4361 和 Web3 身份验证的更多信息，请跟随我们在本文中进一步探索这些概念。
 
-此外，Web3 身份验证只是 Moralis 派上用场的一个例子。在使用该平台时，您还可以快速轻松地实现 [Web3 同步](https://moralis.io/syncs/)和 [Web3 webhooks](https://moralis.io/web3-webhooks-the-ultimate-guide-to-blockchain-webhooks/) 。因此，Moralis 允许您轻松创建复杂的 Web3 项目。更重要的是，道德是可集成的任何后端！
+此外，Web3 身份验证只是 Moralis 派上用场的一个例子。在使用该平台时，您还可以快速轻松地实现 [Web3 同步](https://moralis.io/syncs/)和 [Web3 webhooks](https://moralis.io/web3-webhooks-the-ultimate-guide-to-blockchain-webhooks/) 。因此，Moralis 允许您轻松创建复杂的 Web3 项目。更重要的是，Moralis 是可集成的任何后端！
 
 所以，如果你想创建 dapps(分散式应用程序)并且[成为区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，现在就注册 Moralis 吧。您只需点击几下鼠标就可以设置您的帐户，而且完全免费！
 
@@ -56,9 +56,9 @@ EIP-4361 规定了以太坊账户如何向离线服务认证。通过对用会�
 
 由于 EIP-4361 允许用户使用以太坊登录传统的 Web2 应用程序，这有助于统一的身份识别系统，它可以积极地影响企业模型。它将消除不必要的入职摩擦，允许用户轻松访问企业服务。此外，由于它为 Web2 和 Web3 提供了更无缝的用户体验，因此它也为整个生态系统带来了更具吸引力的用户体验。这有助于提高客户满意度，并极大地帮助品牌成长！
 
-## 通过道德认证 API 登录以太坊
+## 通过 Moralis 认证 API 登录以太坊
 
-Moralis 是在您的项目中实现 [Web3 身份验证](https://moralis.io/authentication/)功能的最简单、最容易的方法。此外，Moralis 的认证解决方案是 EIP-4361 或 SIWE 的实现。此外，如果您正在创建一个新的 Web3 应用程序，想要使用 Web3 auth 连接一个现有的 Web3 数据库，或者希望为您的企业的 auth 流利用身份验证聚合器，这些都没有关系；道德可以在所有这些情况下提供帮助。
+Moralis 是在您的项目中实现 [Web3 身份验证](https://moralis.io/authentication/)功能的最简单、最容易的方法。此外，Moralis 的认证解决方案是 EIP-4361 或 SIWE 的实现。此外，如果您正在创建一个新的 Web3 应用程序，想要使用 Web3 auth 连接一个现有的 Web3 数据库，或者希望为您的企业的 auth 流利用身份验证聚合器，这些都没有关系；Moralis 可以在所有这些情况下提供帮助。
 
 ![](img/bfe4c59b1048c2b1d915d1758c8cd3b1.png)
 
@@ -107,6 +107,6 @@ https://www.youtube.com/watch?v=hhkWQPorBKQ&t=8s
 
 如果你对 [Web3 开发](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/)空间有进一步的兴趣，我们强烈推荐在 Moralis 的 [Web3 博客](https://moralis.io/blog/)查看其他内容。例如，你可以阅读终极 [NodeJS EVM API](https://moralis.io/exploring-the-ultimate-nodejs-evm-api/) 、Moralis[NodeJS SKD for web 3](https://moralis.io/nodejs-sdk-for-web3-exploring-moralis-nodejs-sdk/)或[区块链 syncs](https://moralis.io/blockchain-syncs-exploring-on-chain-syncing/) ！
 
-此外，如果你想更精通区块链的发展，可以考虑去看看道德学院。该学院为初学者和更有经验的开发人员提供了一系列令人惊叹的[区块链课程](https://academy.moralis.io/all-courses)。例如，如果你是这个领域的新手，请确保通过“[区块链&比特币 101](https://academy.moralis.io/courses/blockchain-bitcoin-101) ”课程学习基础知识。因此，你离获得区块链道德学院认证只有一步之遥了！
+此外，如果你想更精通区块链的发展，可以考虑去看看 Moralis 学院。该学院为初学者和更有经验的开发人员提供了一系列令人惊叹的[区块链课程](https://academy.moralis.io/all-courses)。例如，如果你是这个领域的新手，请确保通过“[区块链&比特币 101](https://academy.moralis.io/courses/blockchain-bitcoin-101) ”课程学习基础知识。因此，你离获得区块链 Moralis 学院认证只有一步之遥了！
 
 尽管如此，如果你是一个 Web3 开发者，[在 Moralis](https://admin.moralis.io/register) 注册，让你的开发过程更容易理解。创建一个帐户是免费的，只需要几秒钟！

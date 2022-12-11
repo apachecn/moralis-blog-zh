@@ -30,7 +30,7 @@
 
 虽然我们的 Web3 样板文件是以这样的方式设计的，即使是完全的初学者也可以在几分钟内启动并运行一个功能分散的应用程序，但建议精通 JavaScript 的用户充分利用它。凭借您的 JavaScript 技能，您将能够通过使用各种挂钩来调整组件并扩展样板 dApp 的功能。后者要求您构建自己的用户界面，这是 JavaScript 最擅长的地方。
 
-也就是说，如果你还不知道 JavaScript，我们建议你报名参加 Moralis Academy 的 [2021 区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)课程。这样，您将学会这种通用且易于使用的编程语言，并以最好的方式在区块链开发中使用它。此外，如果你对全职加密很认真，我们鼓励你去看看[道德学院](https://academy.moralis.io/)的其他高质量课程。
+也就是说，如果你还不知道 JavaScript，我们建议你报名参加 Moralis Academy 的 [2021 区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)课程。这样，您将学会这种通用且易于使用的编程语言，并以最好的方式在区块链开发中使用它。此外，如果你对全职加密很认真，我们鼓励你去看看[Moralis 学院](https://academy.moralis.io/)的其他高质量课程。
 
 ![](img/4b65dcf1b92d87430640b757662d2655.png)
 
@@ -82,7 +82,7 @@
 
 无论您是想使用最终的 Web3 样板文件，还是想使用 Moralis 的 Web3 API 构建完全独特的 dApp，您都需要创建自己的 Moralis 服务器。你可以这样做:
 
-1.  **登录您的 Moralis 账户**–只需[登录](https://admin.moralis.io/login)您的 Moralis 账户即可进入您的管理区。如果你还没有创建你的免费道德账户，请确保现在就创建。
+1.  **登录您的 Moralis 账户**–只需[登录](https://admin.moralis.io/login)您的 Moralis 账户即可进入您的管理区。如果你还没有创建你的免费 Moralis 账户，请确保现在就创建。
 
 **创建一个新服务器**–在您的 Moralis 管理区域内，选择导航选项卡左侧的“服务器”选项。接下来，单击右上角的“+创建新服务器”按钮，这将激活一个下拉菜单。然后，您需要选择最适合您需求的网络类型(见下图)。*选择“测试网服务器”选项(* [*连接以太网测试网*](https://moralis.io/ethereum-testnet-guide-connect-to-ethereum-testnets/) *)往往是创建和处理新项目时的最佳选择。*
 
@@ -102,7 +102,7 @@
 
 ![](img/70bbbb912a56cd03197164cdcfb7b441.png)
 
-4.  **初始化道德规范**–填充您的”。env”文件，其中包含 Moralis 服务器的详细信息(应用程序 ID 和服务器 URL)，以获得 Moralis 所需的后端功能(上一节中的第六步):
+4.  **初始化 Moralis 规范**–填充您的”。env”文件，其中包含 Moralis 服务器的详细信息(应用程序 ID 和服务器 URL)，以获得 Moralis 所需的后端功能(上一节中的第六步):
 
 ![](img/a391c1cef446b8bb9adf1d1483603481.png)
 
@@ -159,6 +159,6 @@ https://www.youtube.com/watch?v=gc0kEjjWobc
 
 此外，如果您以前使用过任何 Web3 应用程序，您必须同意 Web3 样板 dApp 提供的功能集非常广泛。它涵盖了大多数 dApps 应该包含的所有方面，无需任何编码。此外，不可思议的是，不用花费数周或数月来构建后端以包含所有这些，您只需不到 15 分钟就可以到达相同的点。
 
-展望未来，你需要想办法让你的 Web3 样板 dApp 与众不同。为了给你一些建议，我们推荐你访问[道德伦理 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德伦理博客](https://moralis.io/blog/)。在那里你会发现许多不同的示例项目，包括如何构建一个[以太坊社交网络](https://moralis.io/ethereum-social-network-how-to-build-an-ethereum-social-media-platform/)，如何[懒人薄荷 NFT](https://moralis.io/how-to-lazy-mint-nfts/)，如何[创建数千个 NFT](https://moralis.io/how-to-generate-thousands-of-nfts/)，如何使用[以太坊移动样板](https://moralis.io/ethereum-mobile-boilerplate-full-guide-to-ethereum-for-mobile/)，等等。此外，这些也是学习其他有用工具的好地方，例如 [OpenZeppelin](https://moralis.io/what-is-openzeppelin-the-ultimate-guide/) 、 [WalletConnect](https://moralis.io/what-is-walletconnect-the-ultimate-walletconnect-guide/) 和 [Remix](https://moralis.io/remix-explained-what-is-remix/) 。
+展望未来，你需要想办法让你的 Web3 样板 dApp 与众不同。为了给你一些建议，我们推荐你访问[Moralis 伦理 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 伦理博客](https://moralis.io/blog/)。在那里你会发现许多不同的示例项目，包括如何构建一个[以太坊社交网络](https://moralis.io/ethereum-social-network-how-to-build-an-ethereum-social-media-platform/)，如何[懒人薄荷 NFT](https://moralis.io/how-to-lazy-mint-nfts/)，如何[创建数千个 NFT](https://moralis.io/how-to-generate-thousands-of-nfts/)，如何使用[以太坊移动样板](https://moralis.io/ethereum-mobile-boilerplate-full-guide-to-ethereum-for-mobile/)，等等。此外，这些也是学习其他有用工具的好地方，例如 [OpenZeppelin](https://moralis.io/what-is-openzeppelin-the-ultimate-guide/) 、 [WalletConnect](https://moralis.io/what-is-walletconnect-the-ultimate-walletconnect-guide/) 和 [Remix](https://moralis.io/remix-explained-what-is-remix/) 。
 
 ![](img/9ac5ee1fd583ec2127dd2a4830fe75ea.png)**

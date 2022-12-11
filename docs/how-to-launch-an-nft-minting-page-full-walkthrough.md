@@ -4,7 +4,7 @@
 
 随着 OpenSea 等 NFT 市场的交易额达到数十亿美元，以及 Visa 等大牌公司收购 NFT，我们都同意 [**不可替代的代币**](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/) **将在 2021 年崭露头角。现在，从 2022 年 NFTs 的持续受欢迎程度来看，这是学习 NFT 发展的最佳时机。其中包括创建 NFT 造币网站的过程。虽然这个过程听起来有点令人生畏，但事实并非如此。事实上，有了正确的工具和适当的指导，你可以学习如何轻松地推出一个 NFT 造币网页。此外，通过简单的演练，比如我们将在这里介绍的，你可以在创纪录的时间内创建自己的铸造网站。**
 
-接下来，你将学习如何使用终极的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台 [Moralis](https://moralis.io/) ，来创建你自己的铸造网站。此外，Moralis(又名 [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) )让你可以使用它的[NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/)——最好的 [OpenSea API 替代品](https://moralis.io/opensea-api-alternative-list-nfts-with-this-opensea-plugin/)。反过来，您可以复制和粘贴简短的代码片段，以满足您所有的后端需求。更重要的是，与道德，你的“如何启动 NFT 造币网页”的追求成为一个快速而简单的过程。此外，这个 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)是跨链互操作的，支持最流行的可编程区块链。因此，你可以在多个连锁店创建自己的铸造网站。这意味着你可以瞄准更广泛的受众，而无需额外的工作。此外，Moralis 的跨链互操作性可以让您的工作经得起未来考验。也就是说，让我们邀请你加入我们创建一个铸造网站的例子。如果这听起来很有趣，请确保现在就[创建你的免费道德账户](https://admin.moralis.io/register)。
+接下来，你将学习如何使用终极的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台 [Moralis](https://moralis.io/) ，来创建你自己的铸造网站。此外，Moralis(又名 [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) )让你可以使用它的[NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/)——最好的 [OpenSea API 替代品](https://moralis.io/opensea-api-alternative-list-nfts-with-this-opensea-plugin/)。反过来，您可以复制和粘贴简短的代码片段，以满足您所有的后端需求。更重要的是，与 Moralis，你的“如何启动 NFT 造币网页”的追求成为一个快速而简单的过程。此外，这个 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)是跨链互操作的，支持最流行的可编程区块链。因此，你可以在多个连锁店创建自己的铸造网站。这意味着你可以瞄准更广泛的受众，而无需额外的工作。此外，Moralis 的跨链互操作性可以让您的工作经得起未来考验。也就是说，让我们邀请你加入我们创建一个铸造网站的例子。如果这听起来很有趣，请确保现在就[创建你的免费 Moralis 账户](https://admin.moralis.io/register)。
 
 ![](img/4e006d0ccf30061929d4419d31231842.png)
 
@@ -30,7 +30,7 @@
 
 ## 如何启动一个 NFT 铸造网页-一个例子项目
 
-在文章的这一部分，我们将向您展示如何从头开始构建 NFT·明特 dApp。当然，您可以使用相同的原理将 mint 功能添加到现有的界面中。因此，我们将构建一个 Web3 应用程序，它将使您能够创建 NFT。在这个过程中，您将看到各种 Moralis 工具如何简化开发过程。以分散的方式铸造最重要的工具是道德的 IPFS 整合。现在，请记住，您可以避免使用领先的分散存储解决方案(IPFS)。然而，这样做会限制你一个更集中的铸造方法。此外，由于我们不想暴露于单点故障风险，我们将关注这个项目的分散方式。现在，在探索如何启动 NFT 造币页面之前，让我们对 dApp 做一个简单的预览。
+在文章的这一部分，我们将向您展示如何从头开始构建 NFT·明特 dApp。当然，您可以使用相同的原理将 mint 功能添加到现有的界面中。因此，我们将构建一个 Web3 应用程序，它将使您能够创建 NFT。在这个过程中，您将看到各种 Moralis 工具如何简化开发过程。以分散的方式铸造最重要的工具是 Moralis 的 IPFS 整合。现在，请记住，您可以避免使用领先的分散存储解决方案(IPFS)。然而，这样做会限制你一个更集中的铸造方法。此外，由于我们不想暴露于单点故障风险，我们将关注这个项目的分散方式。现在，在探索如何启动 NFT 造币页面之前，让我们对 dApp 做一个简单的预览。
 
 ### 如何启动 NFT 造币页面-预览
 
@@ -66,7 +66,7 @@
 
 让我们再重复一遍，铸造是通过与智能合约的交互来完成的。此外，创建自己的智能合同可能会很棘手。因此，我们决定使用一个快捷方式(第四行的代码)来涵盖这个方面。因此，您可以将注意力集中在使用 Moralis 的 API 来制造 NFT 上。
 
-#### 创建自己的铸造网站-初始道德设置
+#### 创建自己的铸造网站-初始 Moralis 设置
 
 此时，您知道需要获得您创建的 Moralis 服务器 URL 和应用程序 ID。这个信息是至关重要的，当你想推出一个 NFT 铸造网页。因此，让我们来看一下将为您提供这些细节的步骤:
 
@@ -92,7 +92,7 @@
 
 ### 视频解释如何启动 NFT 铸造网页
 
-如果您想了解我们的示例项目中代码的更多细节，我们推荐您观看视频，该视频讲述了如何创建您自己的 NFT 造币应用程序(以上步骤更详细)。因此，你会发现如何推出一个 NFT 铸造网页快速，轻松地与道德。
+如果您想了解我们的示例项目中代码的更多细节，我们推荐您观看视频，该视频讲述了如何创建您自己的 NFT 造币应用程序(以上步骤更详细)。因此，你会发现如何推出一个 NFT 铸造网页快速，轻松地与 Moralis。
 
 https://www.youtube.com/watch?v=WdQHnb_5m5Q
 
@@ -104,7 +104,7 @@ https://www.youtube.com/watch?v=WdQHnb_5m5Q
 
 https://youtu.be/n6rPr0sStTI
 
-此外，当可收集的 NFT(例如，无聊猿游艇俱乐部)有问题时，NFT 稀有性开始发挥作用。幸运的是，你可以很容易地将 [NFT 稀有度排名](https://moralis.io/how-to-develop-an-nft-rarity-ranking-dapp/)和稀有度过滤整合到你的 NFT 平台中。在下面的教程中，跟随一位道德专家的指导就可以了。
+此外，当可收集的 NFT(例如，无聊猿游艇俱乐部)有问题时，NFT 稀有性开始发挥作用。幸运的是，你可以很容易地将 [NFT 稀有度排名](https://moralis.io/how-to-develop-an-nft-rarity-ranking-dapp/)和稀有度过滤整合到你的 NFT 平台中。在下面的教程中，跟随一位 Moralis 专家的指导就可以了。
 
 #### NFT 稀罕物教程:
 
@@ -118,8 +118,8 @@ https://youtu.be/tBMk1iZa85Y
 
 在这篇文章中，我们已经涉及了相当多的内容。此时，你知道如何启动一个 NFT 铸造网页。此外，你知道当使用 Moralis 时，你可以利用你的 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 熟练程度和[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)创建你自己的铸造网站。此外，我们也希望你已经加入了我们，因为我们采取了上述一个例子项目。如果是这样的话，你现在已经有了自己的简单的 NFT 造币页面。现在，是时候让你的 NFT 发展更上一层楼了。
 
-你想进一步加深你的 NFT 知识或了解加密世界的其他方面吗？如果是这样的话，[道德博客](https://moralis.io/blog/)和[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)是值得一去的地方。这两个网站都提供了大量有价值的内容，包括许多示例项目。这些也可以作为一些独特想法的灵感。例如，一些最新的主题涵盖了 [Web3 用户入职](https://moralis.io/how-to-boost-web3-user-onboarding-success-rates/)、 [Web3 社交登录](https://moralis.io/web3-social-login-sign-in-dapp-users-with-google-email-or-twitter/)、[通过电子邮件进行 Web3 认证](https://moralis.io/how-to-do-web3-authentication-via-email/)、 [BSC 钱包](https://moralis.io/bsc-wallet-guide-how-to-set-up-a-binance-smart-chain-wallet/)、[治理令牌](https://moralis.io/what-are-governance-tokens-full-guide/)、[可重入智能合约示例](https://moralis.io/what-is-reentrancy-reentrancy-smart-contract-example/)、[什么是元宇宙](https://moralis.io/what-is-the-metaverse-full-guide/)、 [React Native Web3](https://moralis.io/react-native-web3-full-react-native-web3-dev-guide/) 等等。
+你想进一步加深你的 NFT 知识或了解加密世界的其他方面吗？如果是这样的话，[Moralis 博客](https://moralis.io/blog/)和[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)是值得一去的地方。这两个网站都提供了大量有价值的内容，包括许多示例项目。这些也可以作为一些独特想法的灵感。例如，一些最新的主题涵盖了 [Web3 用户入职](https://moralis.io/how-to-boost-web3-user-onboarding-success-rates/)、 [Web3 社交登录](https://moralis.io/web3-social-login-sign-in-dapp-users-with-google-email-or-twitter/)、[通过电子邮件进行 Web3 认证](https://moralis.io/how-to-do-web3-authentication-via-email/)、 [BSC 钱包](https://moralis.io/bsc-wallet-guide-how-to-set-up-a-binance-smart-chain-wallet/)、[治理令牌](https://moralis.io/what-are-governance-tokens-full-guide/)、[可重入智能合约示例](https://moralis.io/what-is-reentrancy-reentrancy-smart-contract-example/)、[什么是元宇宙](https://moralis.io/what-is-the-metaverse-full-guide/)、 [React Native Web3](https://moralis.io/react-native-web3-full-react-native-web3-dev-guide/) 等等。
 
-另一方面，如果你渴望尽快成为全职加密员，我们建议你采取更专业的方法。因此，你可以考虑报名参加道德学院。因此，你将获得个性化的加密教育途径和顶级的[区块链课程](https://academy.moralis.io/all-courses)。然而，真正的财富在于最先进和支持区块链发展社区之一，并获得专家指导。毫无疑问，如果你想[成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，道德学院是最佳途径！
+另一方面，如果你渴望尽快成为全职加密员，我们建议你采取更专业的方法。因此，你可以考虑报名参加 Moralis 学院。因此，你将获得个性化的加密教育途径和顶级的[区块链课程](https://academy.moralis.io/all-courses)。然而，真正的财富在于最先进和支持区块链发展社区之一，并获得专家指导。毫无疑问，如果你想[成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，Moralis 学院是最佳途径！
 
 ![](img/60d46cafd0b9b551084e74527913c12f.png)

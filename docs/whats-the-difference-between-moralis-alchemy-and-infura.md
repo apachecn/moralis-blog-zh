@@ -1,18 +1,18 @@
-# 道德、炼金术和因陀罗有什么区别？
+# Moralis、炼金术和因陀罗有什么区别？
 
 > 原文：<https://moralis.io/whats-the-difference-between-moralis-alchemy-and-infura/>
 
-**构建**[**【web 3】**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/)**应用如果按照传统的路径，从连接到一个** [**RPC 节点**](https://moralis.io/ethereum-rpc-nodes-what-they-are-and-why-you-shouldnt-use-them/) **开始，可能会很困难。如果您决定设置并运行您自己的节点，尤其如此，这是一项具有挑战性的、耗时的工作，并且您最终会使用大量的计算机存储。因此，许多开发人员发现这种“传统途径”在连接以太坊的区块链时不切实际**、**而且很麻烦，因为同步时间很慢。因此，许多开发者转而依赖** [**区块链节点提供商**](https://moralis.io/infura-alternatives-and-blockchain-node-providers/) **。这些节点提供商充当了克服所有上述障碍的桥梁。此外，我们还将了解您是否应该使用区块链节点提供商，或者像 Moralis 这样更完整的解决方案。因此，我们将看看一些最流行的节点提供者，并回答“道德、炼金术和 Infura 之间有什么区别？”。**
+**构建**[**【web 3】**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/)**应用如果按照传统的路径，从连接到一个** [**RPC 节点**](https://moralis.io/ethereum-rpc-nodes-what-they-are-and-why-you-shouldnt-use-them/) **开始，可能会很困难。如果您决定设置并运行您自己的节点，尤其如此，这是一项具有挑战性的、耗时的工作，并且您最终会使用大量的计算机存储。因此，许多开发人员发现这种“传统途径”在连接以太坊的区块链时不切实际**、**而且很麻烦，因为同步时间很慢。因此，许多开发者转而依赖** [**区块链节点提供商**](https://moralis.io/infura-alternatives-and-blockchain-node-providers/) **。这些节点提供商充当了克服所有上述障碍的桥梁。此外，我们还将了解您是否应该使用区块链节点提供商，或者像 Moralis 这样更完整的解决方案。因此，我们将看看一些最流行的节点提供者，并回答“Moralis、炼金术和 Infura 之间有什么区别？”。**
 
 然而，区块链节点提供者假定您仍然遵循围绕 RPC 节点构建的耗时路径。因此，我们还将研究您是否应该使用节点提供者——很可能，您最好使用一个全面的 SDK 来进行 dApp 开发，例如 Moralis SDK。继续阅读，找到适合你的，并找出节点提供者之间的区别，如 Alchemy 和 Infura 或简单地使用 Moralis！
 
-尽管 Moralis 也提供了对节点的简单访问，但它也使得构建 dApps 成为一个简单直接的过程。这个终极的 Web3 开发平台提供了最令人印象深刻的 [Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) ，它给所有精通 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 的开发者一个参与这个快速增长行业的机会。所以，事不宜迟，继续读下去，了解道德，炼金术和 Infura 之间的区别！如果你想要更深入的道德观内容，一定要阅读我们的深入研究 [NFT 编程](https://moralis.io/nft-programming-for-beginners/)、[以太坊开发](https://moralis.io/ethereum-development-for-beginners/)，或者我们的[对雪崩的全面支持](https://moralis.io/moralis-announces-full-support-for-avalanche/)！
+尽管 Moralis 也提供了对节点的简单访问，但它也使得构建 dApps 成为一个简单直接的过程。这个终极的 Web3 开发平台提供了最令人印象深刻的 [Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) ，它给所有精通 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 的开发者一个参与这个快速增长行业的机会。所以，事不宜迟，继续读下去，了解 Moralis，炼金术和 Infura 之间的区别！如果你想要更深入的 Moralis 观内容，一定要阅读我们的深入研究 [NFT 编程](https://moralis.io/nft-programming-for-beginners/)、[以太坊开发](https://moralis.io/ethereum-development-for-beginners/)，或者我们的[对雪崩的全面支持](https://moralis.io/moralis-announces-full-support-for-avalanche/)！
 
 ![](img/728545ab70f0955dee92fe0340896dd4.png)
 
 ## 什么是区块链节点提供商？
 
-由于我们有许多新的 Web3 开发读者，我们觉得有义务在讨论“道德、炼金术和 Infura 之间的区别是什么？”问题。通过了解什么是区块链节点和区块链节点提供商，您将能够更好地选择最适合您需求的节点提供商。
+由于我们有许多新的 Web3 开发读者，我们觉得有义务在讨论“Moralis、炼金术和 Infura 之间的区别是什么？”问题。通过了解什么是区块链节点和区块链节点提供商，您将能够更好地选择最适合您需求的节点提供商。
 
 ### 什么是区块链节点？
 
@@ -24,7 +24,7 @@
 
 # 对于区块链开发者来说，Moralis，Alchemy，Infura 有什么区别？
 
-现在你知道了什么是区块链节点提供者，是时候回答“道德、炼金术和 Infura 之间有什么区别了？”。然而，在我们能够解决这三个项目之间的关键差异之前，有必要对它们中的每一个进行简要的概述。此外，值得记住的是，它们都属于不同的类别 Infura 和 Alchemy 主要是区块链节点提供商。另一方面，Moralis 是一个完整的区块链中间件，它提供了比区块链节点更多的功能。因此，与单纯的节点提供者相比，使用 Moralis 构建是根据下一个范式转变来构建的。
+现在你知道了什么是区块链节点提供者，是时候回答“Moralis、炼金术和 Infura 之间有什么区别了？”。然而，在我们能够解决这三个项目之间的关键差异之前，有必要对它们中的每一个进行简要的概述。此外，值得记住的是，它们都属于不同的类别 Infura 和 Alchemy 主要是区块链节点提供商。另一方面，Moralis 是一个完整的区块链中间件，它提供了比区块链节点更多的功能。因此，与单纯的节点提供者相比，使用 Moralis 构建是根据下一个范式转变来构建的。
 
 ## 什么是 Infura？
 
@@ -58,9 +58,9 @@ Alchemy 强调的吸引以太坊开发者的一些要点是:
 
 ![](img/6e690623de24aec259df6781f5d0c894.png)
 
-## 什么是道德？
+## 什么是 Moralis？
 
-Moralis 是最终的 Web3 开发平台。它是一个完全托管的、无限可扩展的后端基础设施，用于分散式应用程序开发。因此，Moralis 不仅仅是一个区块链节点提供商。相反，道德属于不同的范式。此外，它使开发人员能够专注于 dApps 的前端，而 Moralis 则处理繁重的后端工作。这为开发人员节省了大量的时间和资源，从而加快了 dApps 的部署。
+Moralis 是最终的 Web3 开发平台。它是一个完全托管的、无限可扩展的后端基础设施，用于分散式应用程序开发。因此，Moralis 不仅仅是一个区块链节点提供商。相反，Moralis 属于不同的范式。此外，它使开发人员能够专注于 dApps 的前端，而 Moralis 则处理繁重的后端工作。这为开发人员节省了大量的时间和资源，从而加快了 dApps 的部署。
 
 Moralis 提供了一长串功能，包括 [Moralis Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 、 [Moralis Web3 API](https://moralis.io/introducing-the-moralis-web3-api-v2/) 和[Speedy Node API](https://moralis.io/speedy-nodes/)(Moralis Speedy Nodes)。这样，它基本上涵盖了 dApp 开发人员创建非凡的 Web3 应用程序所需的一切。
 
@@ -70,9 +70,9 @@ Moralis 提供了一长串功能，包括 [Moralis Web3 SDK](https://moralis.io/
 
 此外，考虑到 Moralis 于 2021 年 6 月 1 日推出测试版，随着“[Moralis 1.0 启蒙更新](https://moralis.io/moralis-1-0-released-introducing-the-moralis-enlightenment-update/)”的发布，Moralis 已经获得了社区的大量增长和采用。目前，已经有超过 5000 个区块链项目使用了 Moralis 的软件和 API。此外，Moralis 正在与几个大型项目合作，包括 Chainlink、1inch、SuperFarm、共价和 Utrust。
 
-## 道德、炼金术和因陀罗有什么区别？–范式转变
+## Moralis、炼金术和因陀罗有什么区别？–范式转变
 
-完全由您来决定哪个节点提供商最适合您的需求。所有三个节点提供者都在这篇“道德、炼金术和 Infura 之间有什么区别？”单件是有信誉选择。然而，Moralis 从已经在使用 Moralis 的 5000 多个项目中获得了反馈。因此，很明显，当谈到 dApp 开发时，Moralis 是一个全新范式的一部分。
+完全由您来决定哪个节点提供商最适合您的需求。所有三个节点提供者都在这篇“Moralis、炼金术和 Infura 之间有什么区别？”单件是有信誉选择。然而，Moralis 从已经在使用 Moralis 的 5000 多个项目中获得了反馈。因此，很明显，当谈到 dApp 开发时，Moralis 是一个全新范式的一部分。
 
 虽然 Infura 和 Alchemy 让您可以访问 RPC 节点，但 Moralis 提供了构建 dApps 的完整包。虽然围绕 RPC 节点构建仍然是最常见的方式，但它不是最佳的方式。围绕 RPC 节点构建有一些缺点。这包括 RPC 节点导致缓慢的迭代和上市时间表的事实。此外，RPC 节点很难测试，会导致错误和更高的失败率。
 
@@ -82,7 +82,7 @@ Moralis 提供了一长串功能，包括 [Moralis Web3 SDK](https://moralis.io/
 
 此外，Moralis 的准入门槛并不存在，因为它目前完全免费。虽然 Infura 和 Alchemy 也提供免费账户，但这些账户的功能很少。另一方面，Moralis 为免费用户提供了几乎所有 Moralis 的强大工具。
 
-## 道德、炼金术和因陀罗有什么区别？–超越围绕 RPC 节点的构建
+## Moralis、炼金术和因陀罗有什么区别？–超越围绕 RPC 节点的构建
 
 大多数 Web3 开发人员在开始开发 dApp 时都会犯一个错误，即连接到一个 RPC 节点，然后围绕它构建一个基础设施。然而，许多开发人员越来越认为这是构建分散应用程序的过时方法。为什么？首先，RPC 节点是低级技术，数据库选项有限。此外，要真正在 RPC 节点上创建有趣的东西，您需要构建很多。这包括构建 API、验证签名、创建套接字、构建数据库等。
 
@@ -96,7 +96,7 @@ Moralis 提供了一长串功能，包括 [Moralis Web3 SDK](https://moralis.io/
 
 幸运的是，有一个包解决方案已经包含了围绕 RPC 节点构建的所有基础设施。是的，这就是 Moralis 引入的范式转变。它使您能够完全专注于创建最好的前端和高质量的用户体验，只需插入后端。正因为如此，Moralis 被称为“密码的燃烧基地”。
 
-那么，它是如何工作的呢？你首先创建你的免费道德账户。登录后，您只需点击一下鼠标即可创建您的服务器。接下来，在您的应用中初始化 Moralis SDK，然后通过从 [Moralis 的文档](https://docs.moralis.io/)中复制和粘贴简单(大多数情况下是单行)的代码行。这样，您就可以将原本复杂的后端基础设施整合到 dApp 中。是的，就这么简单。因此，您可以使用您的 JavaScript 知识和[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)开始部署令人难以置信的分散式应用程序。
+那么，它是如何工作的呢？你首先创建你的免费 Moralis 账户。登录后，您只需点击一下鼠标即可创建您的服务器。接下来，在您的应用中初始化 Moralis SDK，然后通过从 [Moralis 的文档](https://docs.moralis.io/)中复制和粘贴简单(大多数情况下是单行)的代码行。这样，您就可以将原本复杂的后端基础设施整合到 dApp 中。是的，就这么简单。因此，您可以使用您的 JavaScript 知识和[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)开始部署令人难以置信的分散式应用程序。
 
 例如，这个简单的代码片段负责用户登录过程:
 
@@ -106,8 +106,8 @@ Moralis 提供了一长串功能，包括 [Moralis Web3 SDK](https://moralis.io/
 
 你需要注意的另一个重要事实是，Moralis 不会存储你或你的用户的任何数据。该平台不会记录用户的 IP 地址或你的请求。这样，你就知道你的用户在使用 Moralis 时是安全可靠的。开发人员在选择节点提供者时经常会忽略这一点。因此，请记住，在选择节点提供商时，一定要检查项目的隐私政策，并确保您和您的用户的数据不会被利用。
 
-## 道德、炼金术和因陀罗有什么区别？–总结
+## Moralis、炼金术和因陀罗有什么区别？–总结
 
-我们怎么强调 Alchemy 和 Infura 都是可靠的区块链节点提供商，并且很好地服务于许多用户都不为过。然而，如果你准备好接受范式转变，这将使你能够构建 dApps，而无需处理 Web3 开发的乏味的后端方面，Moralis 是你的正确选择。此外，Moralis 的 SDK 可以让您访问所有 dApps 已经为您构建好的整个基础架构。只需创建您的服务器，启动 Moralis SDK，然后粘贴 Moralis 文档提供给您的简单代码行。这是最简单的。[立即创建您的免费道德账户](https://admin.moralis.io/login),加入简单 dApp 创建的革命！
+我们怎么强调 Alchemy 和 Infura 都是可靠的区块链节点提供商，并且很好地服务于许多用户都不为过。然而，如果你准备好接受范式转变，这将使你能够构建 dApps，而无需处理 Web3 开发的乏味的后端方面，Moralis 是你的正确选择。此外，Moralis 的 SDK 可以让您访问所有 dApps 已经为您构建好的整个基础架构。只需创建您的服务器，启动 Moralis SDK，然后粘贴 Moralis 文档提供给您的简单代码行。这是最简单的。[立即创建您的免费 Moralis 账户](https://admin.moralis.io/login),加入简单 dApp 创建的革命！
 
 ![](img/c7b8875f8c4246b0d48394184f39ab37.png)

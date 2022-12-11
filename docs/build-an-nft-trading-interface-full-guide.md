@@ -57,7 +57,7 @@
 *   **追踪用户余额**–*如果你还记得的话，我们的 dApp 会在顶部显示原生令牌的余额。因此，您需要能够实时跟踪用户的余额。*
 *   **跟踪智能合约事件**–*如您所知，我们依赖于* [*智能合约*](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/) *，它们是我们市场和其他智能合约的运营商，包括那些用于制造 NFT 以提供信号(事件)的智能合约。因此，我们必须有一种方法来跟踪我们的 dApp 中的智能合约事件。*
 
-如果您过去采用过创建 dApp 的老式方法，那么您会知道 RPC 节点的[限制使得事情变得乏味且耗时。因此，将上述所有后端功能设置到位将花费您数周的时间。幸运的是，Moralis 使我们能够减少 90%的时间，主要是因为它使我们能够通过复制和粘贴来自](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/) [Moralis 文档](https://docs.moralis.io/)的代码片段来覆盖我们 dApp 的整个后端。此外，道德是所有关于跨链的互操作性，这意味着你可以创建一个多链 NFT 交易界面，反过来，未来证明你的工作。因此，确保遵循使用 Moralis SDK 所需的初始设置。
+如果您过去采用过创建 dApp 的老式方法，那么您会知道 RPC 节点的[限制使得事情变得乏味且耗时。因此，将上述所有后端功能设置到位将花费您数周的时间。幸运的是，Moralis 使我们能够减少 90%的时间，主要是因为它使我们能够通过复制和粘贴来自](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/) [Moralis 文档](https://docs.moralis.io/)的代码片段来覆盖我们 dApp 的整个后端。此外，Moralis 是所有关于跨链的互操作性，这意味着你可以创建一个多链 NFT 交易界面，反过来，未来证明你的工作。因此，确保遵循使用 Moralis SDK 所需的初始设置。
 
 ![](img/c61602ff8e05e2082cbe3174ec274bb5.png)
 
@@ -65,7 +65,7 @@
 
 无论你是想使用 Moralis 来建立一个 NFT 交易界面还是任何其他的 dApp，你都需要首先创建你的 Moralis 服务器。请按照以下步骤正确操作:
 
-1.  [**创建您的免费 Moralis 账户**](https://admin.moralis.io/register)——点击链接，输入您的电子邮件，创建您的密码，点击确认链接将发送到您的电子邮件。然而，如果你已经有了一个道德账户，只需[登录](https://admin.moralis.io/login)就可以进入你的管理区。
+1.  [**创建您的免费 Moralis 账户**](https://admin.moralis.io/register)——点击链接，输入您的电子邮件，创建您的密码，点击确认链接将发送到您的电子邮件。然而，如果你已经有了一个 Moralis 账户，只需[登录](https://admin.moralis.io/login)就可以进入你的管理区。
 
 2.  [**创建 Moralis 服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)–登录后，在导航选项卡中选择左侧的“服务器”选项卡。然后，点击右上角的“+创建新服务器”按钮，从下拉菜单中选择最适合您需求的网络类型(见下图)。*在处理示例项目时，总是选择“Testnet 服务器”选项(* [*连接到以太坊测试网*](https://moralis.io/ethereum-testnet-guide-connect-to-ethereum-testnets/) *)。*
 
@@ -87,7 +87,7 @@
 
 ![](img/7855d185b5e1dcd560c5095e9c829d6b.png)
 
-为了让你 [*用道德建造 dApps*](https://moralis.io/ultimate-guide-how-to-build-ethereum-dapps/) *，以上设置必不可少。幸运的是，您可以看到这些步骤是多么简单。现在您已经有了一个活动的服务器，您可以使用 Moralis 的* [*以太坊 API*](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) *。*
+为了让你 [*用 Moralis 建造 dApps*](https://moralis.io/ultimate-guide-how-to-build-ethereum-dapps/) *，以上设置必不可少。幸运的是，您可以看到这些步骤是多么简单。现在您已经有了一个活动的服务器，您可以使用 Moralis 的* [*以太坊 API*](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) *。*
 
 ### 与 Moralis 同步并观察合同事件
 

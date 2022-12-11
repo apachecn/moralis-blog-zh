@@ -4,7 +4,7 @@
 
 **你大概知道** [**以太坊**](https://moralis.io/full-guide-what-is-ethereum/) **是领先的可编程链。因此，它是“托管”大多数分散式应用程序(dapps)和加密令牌(包括 NFT(不可替代令牌))的网络。此外，许多其他著名的区块链也使用相同的计算引擎，被称为以太坊虚拟机或 EVM。因此，一个高质量的 EVM API 对 Web3 开发者来说意义重大。事实上，有了 Moralis 的终极 EVM API，你只需要基本的编程技巧就可以轻松地创建 dapps。因此，掌握一些 Web3 基础知识的 JavaScript 或 Unity 可以帮助你成为一名区块链开发者。这是我们帮助开发者** [**连接 Web2 和 Web3**](https://moralis.io/web2-to-web3-bridging-web2-and-web3/) **的方式。然而，在开始使用 EVM API 之前，理解什么是 EVM 以及它是如何工作的是有益的。所以，这就是我们今天文章首先要讲的内容！**
 
-在确保我们对 EVM 是什么以及它是如何工作的有了基本的了解之后，我们还将看看 API。在这里，您将了解什么是 API，以及为什么它对高效的 Web3 编程如此重要。毕竟，考虑到当前的 Web3 堆栈，Web3 APIs 是每个开发人员都应该关注的关键元素之一。由于上述原因，EVM API 是拼图中最重要的一块。毕竟，它还包括 NFT API，可以帮助你加入 NFT 革命。如果您不确定什么是 EVM API，不要担心，我们也会涉及到它。此外，你将有机会了解[道德观](https://moralis.io/)以及它如何让你的 Web3 之旅变得更加简单。
+在确保我们对 EVM 是什么以及它是如何工作的有了基本的了解之后，我们还将看看 API。在这里，您将了解什么是 API，以及为什么它对高效的 Web3 编程如此重要。毕竟，考虑到当前的 Web3 堆栈，Web3 APIs 是每个开发人员都应该关注的关键元素之一。由于上述原因，EVM API 是拼图中最重要的一块。毕竟，它还包括 NFT API，可以帮助你加入 NFT 革命。如果您不确定什么是 EVM API，不要担心，我们也会涉及到它。此外，你将有机会了解[Moralis 观](https://moralis.io/)以及它如何让你的 Web3 之旅变得更加简单。
 
 ![](img/1ce6b2428eeb17acff55c6b78c2b81b0.png)
 
@@ -46,7 +46,7 @@
 
 此外，Web3 合约是一种以太坊账户。因此，他们有一个平衡，可以发送交易，但他们不受用户控制。一旦部署到网络上，它们就会按照程序运行。此外，用户帐户与智能合约帐户交互-他们提交触发合约上定义的特定功能的交易。此外，与 Web3 合同的交互是不可逆的。此外，默认情况下不能删除合同。
 
-希望现在你已经知道了什么是虚拟机、图灵完备性和智能契约，EVM 的定义就更加清晰了。心想，可以探索一下 [*什么是以太坊虚拟机*](https://moralis.io/evm-explained-what-is-ethereum-virtual-machine/) *？”在道德家的博客上。然而，现在是我们把注意力转移到“EVM API”拼图的第二块的时候了。*
+希望现在你已经知道了什么是虚拟机、图灵完备性和智能契约，EVM 的定义就更加清晰了。心想，可以探索一下 [*什么是以太坊虚拟机*](https://moralis.io/evm-explained-what-is-ethereum-virtual-machine/) *？”在 Moralis 家的博客上。然而，现在是我们把注意力转移到“EVM API”拼图的第二块的时候了。*
 
 ![](img/25b233f5b523b28c73f21fbaa23ef7cf.png)
 
@@ -66,9 +66,9 @@
 
 ![](img/12bc9a7c698ec4daccd6ce7131d26755.png)
 
-### 道德 EVM API
+### Moralis EVM API
 
-除非你一直生活在岩石下，否则你知道 Moralis 是最终的 Web3 开发平台。它擅长于例如 [Web3 认证](https://moralis.io/authentication/)、 [Web3 同步](https://moralis.io/syncs/)，以及提供全面的 [Web3 API](https://docs.moralis.io/moralis-dapp/web3-api) 。道德家的 EVM API 是后者的核心。此外，最终的 EVM API 被整齐地分为不同的类别，包括“本机”、“帐户”、“令牌”、“解析”、“定义”、“存储”和“信息”。此外，在 moralis.io/evm-api/，你还可以找到各种各样的模式。
+除非你一直生活在岩石下，否则你知道 Moralis 是最终的 Web3 开发平台。它擅长于例如 [Web3 认证](https://moralis.io/authentication/)、 [Web3 同步](https://moralis.io/syncs/)，以及提供全面的 [Web3 API](https://docs.moralis.io/moralis-dapp/web3-api) 。Moralis 家的 EVM API 是后者的核心。此外，最终的 EVM API 被整齐地分为不同的类别，包括“本机”、“帐户”、“令牌”、“解析”、“定义”、“存储”和“信息”。此外，在 moralis.io/evm-api/，你还可以找到各种各样的模式。
 
 ![](img/d2f24ee987f2d72892ac4bbab7ae661b.png)
 
@@ -140,4 +140,4 @@
 
 在今天的文章中，您通过将“EVM”和“API”的含义放在一起，了解了什么是 EVM API。因此，您现在知道了 EVM API 是一组指令、定义和协议，它支持基于 EVM 运行的智能合约之间的通信。此外，您还了解了 EVM 是一个图灵完全虚拟机，它能够完全按照预期执行代码。因此，EVM 也是以太坊和其他 EVM 兼容链上每个智能合约的运行时环境。此外，您有机会近距离了解了 Moralis 的 EVM API，并了解到它可以帮助您在以太坊和其他 EVM 兼容链上完成几乎所有您能想到的事情。因此，您现在可以开始构建了。
 
-如果你已经有了一些很酷的 dapp 想法，那就开始做吧！如果你没有，那么你可能想先做一些我们的示例项目。通过这种方式，您将通过亲身体验来了解更多关于终极 EVM API 的知识。在 Moralis 的 [Web3 博客](https://moralis.io/blog/)和 [Web3 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)上，你可以找到各种各样的教程。因此，你可以创建各种 dapps，包括一些流行的 Web2 应用程序的惊人的 Web3 克隆。此外，您还可以使用 Moralis 的 Unity Web3 SDK 深入研究 Web3 游戏设计。否则，向顶级 [NFT 程序员](https://nftcoders.com/)学习如何做 [NFT 赌注](https://nftcoders.com/the-2022-guide-to-nft-staking-how-to-stake-nfts/)、 [NFT minting 网站开发](https://nftcoders.com/create-an-nft-minting-website-in-5-steps/)，或者[如何在几分钟内开始生成 NFT](https://nftcoders.com/begin-generating-nfts-in-15-minutes/)！尽管如此，如果你想成为区块链认证者，[道德学院](https://academy.moralis.io/)是你的不二之选。除了顶级加密课程，这也是获得专家指导、个性化学习路径和不可替代的同行支持的地方。
+如果你已经有了一些很酷的 dapp 想法，那就开始做吧！如果你没有，那么你可能想先做一些我们的示例项目。通过这种方式，您将通过亲身体验来了解更多关于终极 EVM API 的知识。在 Moralis 的 [Web3 博客](https://moralis.io/blog/)和 [Web3 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)上，你可以找到各种各样的教程。因此，你可以创建各种 dapps，包括一些流行的 Web2 应用程序的惊人的 Web3 克隆。此外，您还可以使用 Moralis 的 Unity Web3 SDK 深入研究 Web3 游戏设计。否则，向顶级 [NFT 程序员](https://nftcoders.com/)学习如何做 [NFT 赌注](https://nftcoders.com/the-2022-guide-to-nft-staking-how-to-stake-nfts/)、 [NFT minting 网站开发](https://nftcoders.com/create-an-nft-minting-website-in-5-steps/)，或者[如何在几分钟内开始生成 NFT](https://nftcoders.com/begin-generating-nfts-in-15-minutes/)！尽管如此，如果你想成为区块链认证者，[Moralis 学院](https://academy.moralis.io/)是你的不二之选。除了顶级加密课程，这也是获得专家指导、个性化学习路径和不可替代的同行支持的地方。

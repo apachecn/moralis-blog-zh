@@ -4,7 +4,7 @@
 
 在传统的“集中式”社交媒体世界里， [Reddit](https://www.reddit.com) 是一个非常受欢迎的用户平台。尽管如此，Reddit 仍然是一个中心化的平台——随之而来的是审查或用户数据被利用的风险。因此，今天的集中式社交媒体平台存在几个问题。然而，Web3 时代已经来临。这一范式转变无疑将颠覆各种学科——甚至可能颠覆社交媒体——让用户拥有去中心化的平台。以 Reddit 为例，你能想象开发一个不同版本的平台吗，比如 Web3 Reddit？事实上，通过使用 Moralis，您可以快速轻松地为 Web3 创建 Reddit 克隆。因此，我们邀请您跟随这份逐步指南，用 Moralis 构建一个 Web3 Reddit 克隆。
 
-多亏了 Moralis 这个终极的 Web3 开发平台，前端开发人员只需熟练掌握 T2 的 JavaScript 就能承担各种区块链项目。有了道德的支持，你就可以[创建自己的 NFTs](https://moralis.io/how-to-create-your-own-nft-in-5-steps/) 、 [ERC-20](https://moralis.io/erc20-exploring-the-erc-20-token-standard/) 代币、[启动 NFT 市场](https://moralis.io/how-to-launch-an-nft-marketplace/)、[创建 DeFi 仪表板](https://moralis.io/how-to-create-a-defi-dashboard-in-5-steps/)，以及许多其他类型的[dapp](https://moralis.io/decentralized-applications-explained-what-are-dapps/)(去中心化应用)。此外，覆盖整个区块链相关的后端所需要的只是复制和粘贴由 [Moralis 的文档](https://docs.moralis.io/)提供的代码片段。因此，您需要克服 RPC 节点的所有限制，因此，将您的注意力和资源集中在创建令人印象深刻和用户友好的前端上。
+多亏了 Moralis 这个终极的 Web3 开发平台，前端开发人员只需熟练掌握 T2 的 JavaScript 就能承担各种区块链项目。有了 Moralis 的支持，你就可以[创建自己的 NFTs](https://moralis.io/how-to-create-your-own-nft-in-5-steps/) 、 [ERC-20](https://moralis.io/erc20-exploring-the-erc-20-token-standard/) 代币、[启动 NFT 市场](https://moralis.io/how-to-launch-an-nft-marketplace/)、[创建 DeFi 仪表板](https://moralis.io/how-to-create-a-defi-dashboard-in-5-steps/)，以及许多其他类型的[dapp](https://moralis.io/decentralized-applications-explained-what-are-dapps/)(去中心化应用)。此外，覆盖整个区块链相关的后端所需要的只是复制和粘贴由 [Moralis 的文档](https://docs.moralis.io/)提供的代码片段。因此，您需要克服 RPC 节点的所有限制，因此，将您的注意力和资源集中在创建令人印象深刻和用户友好的前端上。
 
 在本文中，我们将接受创建 Reddit Web3 克隆的挑战，在此期间，您将直接看到 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 的威力。它的[以太坊 API](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) ，结合它的 IPFS 和[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)集成和终极以太坊 dApp 样板，将使我们能够在几个小时内准备好一个全功能的 Web3 Reddit dApp。
 
@@ -38,7 +38,7 @@
 
 在我们真正卷起袖子，开始调整和添加代码来创建一个 Web3 Reddit 克隆之前，让我们简要概述一下我们需要完成的步骤:
 
-1.  [**创建您的免费道德拉斯账户**](https://admin.moralis.io/register) **，这将使您能够** [**创建道德拉斯服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server) **。**
+1.  [**创建您的免费 Moralis 拉斯账户**](https://admin.moralis.io/register) **，这将使您能够** [**创建 Moralis 拉斯服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server) **。**
 
 2.  **通过使用代码编辑器(如 VSC)利用终极以太坊 dApp 样板(** [**【快速入门】**](https://github.com/ethereum-boilerplate/ethereum-boilerplate#-quick-start) **)。**
 
@@ -95,7 +95,7 @@ contract Decentradit {
 
 ### **设置事件监听器**
 
-如果我们希望我们的智能合约在适当的情况下执行所需的功能，它需要能够“倾听”我们的 Web3 Reddit 平台正在发生的事情。为此，我们需要设置适当的事件侦听器。这是另一个我们可以依靠道德来简化事情的领域。要设置事件监听器，请完成以下步骤(观看 14:08–21:35 的视频):
+如果我们希望我们的智能合约在适当的情况下执行所需的功能，它需要能够“倾听”我们的 Web3 Reddit 平台正在发生的事情。为此，我们需要设置适当的事件侦听器。这是另一个我们可以依靠 Moralis 来简化事情的领域。要设置事件监听器，请完成以下步骤(观看 14:08–21:35 的视频):
 
 1.  登录您的 Moralis 帐户，并导航到您的管理区。
 2.  转到您的 Moralis 管理区的“服务器”部分，然后单击“查看详细信息”。*此时，你应该已经准备好了你的服务器(如果没有，使用* [*以太坊社交网络*](https://moralis.io/ethereum-social-network-how-to-build-an-ethereum-social-media-platform/) *文章中提供的说明)。*
@@ -140,7 +140,7 @@ contract Decentradit {
 
 ### **对以太坊 dApp 样板文件进行调整**
 
-通过完成第二步(如“使用 Moralis 创建 Web3 Reddit 克隆的分步指南”一节所述)，您应该准备好样板文件，并激活我们的模板 dApp。为了创建一个 Web3 Reddit 克隆，我们需要进行必要的调整。你应用这些改变的最简单的方法是从 25:35 开始跟随下面视频中的道德专家。接下来，您可以遵循 Moralis 专家的指导，使用 Bootstrap，避免 CSS 编码。
+通过完成第二步(如“使用 Moralis 创建 Web3 Reddit 克隆的分步指南”一节所述)，您应该准备好样板文件，并激活我们的模板 dApp。为了创建一个 Web3 Reddit 克隆，我们需要进行必要的调整。你应用这些改变的最简单的方法是从 25:35 开始跟随下面视频中的 Moralis 专家。接下来，您可以遵循 Moralis 专家的指导，使用 Bootstrap，避免 CSS 编码。
 
 接下来，您将被引导删除某些组件(在“src”文件夹中)，包括“Chains”、“Contract”、“ERC20Transfers”、“InchDex”、“NativeTransactions”和“Wallet”。您将继续删除" ERC20Balances.jsx "、" NativeBalance.jsx "、" NFTBalance.jsx "、" Ramper.jsx "、" QuickStart.jsx "和" TokenPrice.jsx "。
 
@@ -162,7 +162,7 @@ contract Decentradit {
 
 ## **使用 Moralis 创建 Web3 Reddit 克隆–添加代码**
 
-这是编程部分，您将开始添加必要的代码来创建我们所追求的 Web3 Reddit 克隆。为了完成我们的这部分任务，我们委托你在 36:03 的视频中与道德专家合作。他将向您展示如何编写几个文件(组件)，从“Main.jsx”开始。接下来，您还将为 dApp 添加完整的前端和后端功能。我们的 Web3 Reddit 克隆的最重要的部分将是将应用程序与之前创建的智能契约连接起来(1:04:25)。此外，为了获得最高水平的去中心化，你将学习如何利用道德的 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 集成，这将使你能够以去中心化的方式存储你的 Reddit 克隆的帖子。
+这是编程部分，您将开始添加必要的代码来创建我们所追求的 Web3 Reddit 克隆。为了完成我们的这部分任务，我们委托你在 36:03 的视频中与 Moralis 专家合作。他将向您展示如何编写几个文件(组件)，从“Main.jsx”开始。接下来，您还将为 dApp 添加完整的前端和后端功能。我们的 Web3 Reddit 克隆的最重要的部分将是将应用程序与之前创建的智能契约连接起来(1:04:25)。此外，为了获得最高水平的去中心化，你将学习如何利用 Moralis 的 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 集成，这将使你能够以去中心化的方式存储你的 Reddit 克隆的帖子。
 
 最后，这是我们在整篇文章中引用的视频:
 
@@ -172,7 +172,7 @@ https://www.youtube.com/watch?v=52BvLrj-KrE
 
 我们希望您已经成功地完成了本文各节中的所有步骤，并且现在您已经有了自己的 Web3 Reddit 克隆版本。总而言之，要成功完成这个示例项目，您需要完成六个步骤:
 
-1.  创建您的免费道德账户。
+1.  创建您的免费 Moralis 账户。
 2.  使用终极以太坊 dApp 样板。
 3.  创建一个合适的 smart 契约并部署它。
 4.  为您的 Moralis 服务器设置事件监听器。

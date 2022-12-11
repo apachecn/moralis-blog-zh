@@ -42,7 +42,7 @@ Infura、Alchemy、Graph 和 Moralis 是一些顶级的 QuickNode 替代品。�
 
 ![](img/09e02f3d7cf6eed8dd57700ce03b6507.png)
 
-## quicknote 备选方案-道德
+## quicknote 备选方案-Moralis
 
 首先，您需要知道 Moralis 不仅仅是一个节点提供者。它为开发人员提供了构建 dapps 的单一工作流程。该公司自成立以来一直在经历巨大的增长。来自世界各地的开发人员都很欣赏这个工具带来的强大功能。此外，正如下面的截图所示，它在流量和参与度方面位居榜首:
 
@@ -69,9 +69,9 @@ Moralis 不仅仅是一个简单的节点提供者。首先，Moralis 允许用�
 *   到项目前端的套接字连接。
 *   使您能够[通过 SMS 消息](https://moralis.io/get-web3-events-with-sms-messages/)和电子邮件推送通知(用于用户提醒)获得 Web3 事件。
 *   一个强大的数据库[存储链外数据](https://moralis.io/how-to-store-off-chain-data-unity-web3-database/)和编年史[链上事件](https://moralis.io/web3-data-science-importing-on-chain-events/)以及。
-*   道德 IPFS 集成使您能够以分散的方式存储数据。
+*   Moralis IPFS 集成使您能够以分散的方式存储数据。
 
-尽管如此，我们还是鼓励你看看这个巧妙地涵盖了道德要点的视频:
+尽管如此，我们还是鼓励你看看这个巧妙地涵盖了 Moralis 要点的视频:
 
 https://youtu.be/txHnWDRB728
 
@@ -113,4 +113,4 @@ Infura 是另一个著名的节点提供商，它比 QuickNode 存在的时间�
 
 此时，您知道使用正确的工具可以在您的区块链开发职业生涯中产生巨大的影响。一个合适的工具集可以为您节省大量的时间和资源。更重要的是，有了合适的 Web3 开发平台，您可以更快地交付产品。QuickNode 无疑是这类工具中的一种，本文介绍的其他 QuickNode 替代工具也是如此。然而，如果你正在寻找一个完整的跨链解决方案，Moralis 是建立你的 MVP 的方法。它不仅提供了节点，如 Infura、Alchemy 和 QuickNode，而且它还使您能够索引区块链，就像图表一样。
 
-也就是说，我们邀请你开始建造。[创建你的免费道德账户](https://admin.moralis.io/register)并处理我们的一些示例项目。你可以在[道德利斯的博客](https://moralis.io/blog/)和[道德利斯的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)上找到无数的教程。这些也是你继续接受免费区块链发展教育的途径。此外，在这里你可以学到关于 Unity Web3 编程的知识。最后但同样重要的是，你也应该考虑采取一种更专业的方式来进行你的 Web3 教育。这是道德学院打开机会之门的地方。通过完成几门顶级加密[课程](https://academy.moralis.io/all-courses/)，你有信心[成为一名 Web3 开发者](https://moralis.io/how-to-become-a-web3-developer-full-guide/)。**
+也就是说，我们邀请你开始建造。[创建你的免费 Moralis 账户](https://admin.moralis.io/register)并处理我们的一些示例项目。你可以在[Moralis 利斯的博客](https://moralis.io/blog/)和[Moralis 利斯的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)上找到无数的教程。这些也是你继续接受免费区块链发展教育的途径。此外，在这里你可以学到关于 Unity Web3 编程的知识。最后但同样重要的是，你也应该考虑采取一种更专业的方式来进行你的 Web3 教育。这是 Moralis 学院打开机会之门的地方。通过完成几门顶级加密[课程](https://academy.moralis.io/all-courses/)，你有信心[成为一名 Web3 开发者](https://moralis.io/how-to-become-a-web3-developer-full-guide/)。**

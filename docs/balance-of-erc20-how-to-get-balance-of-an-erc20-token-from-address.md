@@ -8,7 +8,7 @@
 const response = await Moralis.EvmApi.token.getWalletTokenBalances({
 ```
 
-上面的代码行获取任何钱包的 ERC20 余额，这使它成为创建各种 dapps 时的一个有价值的工具。无论是创建投资组合跟踪 dapp、钱包 dapp，还是包含 EVM 兼容的可替换令牌的更高级 dapp，dapp 的后端知道并显示 ERC20 令牌的余额都是至关重要的。此外，如果你以前和 [Moralis](https://moralis.io/) 一起工作过，你已经对如何实现上面的代码片段有了一些想法。另一方面，如果你是 Web3 开发的新手，一定要完成今天的教程。因此，你将学会如何不费吹灰之力获得 20 元代币的余额。你只需要一个[免费道德账户](https://admin.moralis.io/register)和一些 JavaScript 基础知识。
+上面的代码行获取任何钱包的 ERC20 余额，这使它成为创建各种 dapps 时的一个有价值的工具。无论是创建投资组合跟踪 dapp、钱包 dapp，还是包含 EVM 兼容的可替换令牌的更高级 dapp，dapp 的后端知道并显示 ERC20 令牌的余额都是至关重要的。此外，如果你以前和 [Moralis](https://moralis.io/) 一起工作过，你已经对如何实现上面的代码片段有了一些想法。另一方面，如果你是 Web3 开发的新手，一定要完成今天的教程。因此，你将学会如何不费吹灰之力获得 20 元代币的余额。你只需要一个[免费 Moralis 账户](https://admin.moralis.io/register)和一些 JavaScript 基础知识。
 
 ![Unlock the Power of Blockchain with Moralis](img/776315699d4da3e5c69ca048fbcedf78.png)[**Sign Up with Moralis and Unlock the Power of Blockchain**](https://admin.moralis.io/register)
 
@@ -85,7 +85,7 @@ Moralis 的令牌 API 允许您轻松地将实时令牌数据集成到您的应�
 
 *![Red letters stating Tutorial.](img/d733acc95659a41dd9b576360366e1a3.png)
 
-## 如何平衡伦理与道德
+## 如何平衡伦理与 Moralis
 
 既然您已经知道获得 ERC20 token 余额的最终工具是什么，那么是时候卷起袖子跟随我们了。但是，在我们带您完成这三步过程之前，请确保完成以下先决条件:
 
@@ -95,9 +95,9 @@ Moralis 的令牌 API 允许您轻松地将实时令牌数据集成到您的应�
 
 ![Moralis' homepage pointing at the Start for Free button.](img/a3f2481514de972dde5f261afb35f8da.png)
 
-### 步骤 1:道德设置
+### 步骤 1:Moralis 设置
 
-一旦您安装了 Moralis SDK 并获得了您的 Web3 API 密钥，任何剩余的 ERC20 令牌都将由您支配。因此，请确保您创建您的免费道德帐户来访问您的管理区。一旦您的帐户启动并运行，进入您的 Moralis 管理区，完成以下两个步骤，如图所示:
+一旦您安装了 Moralis SDK 并获得了您的 Web3 API 密钥，任何剩余的 ERC20 令牌都将由您支配。因此，请确保您创建您的免费 Moralis 帐户来访问您的管理区。一旦您的帐户启动并运行，进入您的 Moralis 管理区，完成以下两个步骤，如图所示:
 
 ![Step 1, click on Web3 APIs. Step 2, click on the copy icon next to your API key.](img/2b69f56054f2bb069b920db514e34ecf.png)
 
@@ -210,8 +210,8 @@ node index.ts
 
 如果您熟悉 Moralis，您可以使用简介中提供的代码片段立即获得 ERC20 令牌的平衡。但是，如果您决定开始阅读本文，那么您首先有机会更好地熟悉 Moralis Token API。在此过程中，您探索了关于 ERC20 令牌标准的一切，以便将这些类型的令牌整合到您的 dapps 中。最后但并非最不重要的是，您还有机会使用我们的示例脚本使用" *getWalletTokenBalances* "端点进行旋转。因此，您现在知道如何在任何支持的区块链上获得任何钱包的 ERC20 余额。
 
-向前看，你有两个选择——如果你已经有了知识和信心，开始建立你自己的 dapps。另一方面，你可能需要一些额外的练习。如果是这样的话，您应该探索其他侧重于众多强大的 Web3 API 端点的教程。当然，你也可以扩展你对其他区块链发展主题的知识。如果你对此感兴趣，一定要访问[道德伦理 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)或[道德伦理博客](https://moralis.io/blog/)。一些最新的话题集中在 [WalletConnect 集成](https://moralis.io/walletconnect-integration-how-to-integrate-walletconnect/)，在 Solana 上[创建 NFTs 的最简单方法，创建](https://moralis.io/the-easiest-way-to-create-nfts-on-solana/)[《我的世界》Web3 游戏](http://v)， [NFT 元数据存储](https://moralis.io/nft-metadata-storage-how-to-store-nft-metadata/)，等等。
+向前看，你有两个选择——如果你已经有了知识和信心，开始建立你自己的 dapps。另一方面，你可能需要一些额外的练习。如果是这样的话，您应该探索其他侧重于众多强大的 Web3 API 端点的教程。当然，你也可以扩展你对其他区块链发展主题的知识。如果你对此感兴趣，一定要访问[Moralis 伦理 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)或[Moralis 伦理博客](https://moralis.io/blog/)。一些最新的话题集中在 [WalletConnect 集成](https://moralis.io/walletconnect-integration-how-to-integrate-walletconnect/)，在 Solana 上[创建 NFTs 的最简单方法，创建](https://moralis.io/the-easiest-way-to-create-nfts-on-solana/)[《我的世界》Web3 游戏](http://v)， [NFT 元数据存储](https://moralis.io/nft-metadata-storage-how-to-store-nft-metadata/)，等等。
 
-此外，你可以通过报名参加[道德学院](https://academy.moralis.io/)来获得更专业的区块链教育。通过完成那里的课程，你可以获得区块链认证。课程从初级到高级都有。因此，如果你已经了解区块链基础知识，[区块链商业大师班](https://academy.moralis.io/courses/blockchain-business-masterclass)课程可能是适合你的课程。你不仅可以提升你的区块链开发知识，还可以增加你获得梦想中的加密工作的机会。
+此外，你可以通过报名参加[Moralis 学院](https://academy.moralis.io/)来获得更专业的区块链教育。通过完成那里的课程，你可以获得区块链认证。课程从初级到高级都有。因此，如果你已经了解区块链基础知识，[区块链商业大师班](https://academy.moralis.io/courses/blockchain-business-masterclass)课程可能是适合你的课程。你不仅可以提升你的区块链开发知识，还可以增加你获得梦想中的加密工作的机会。
 
 ![Moralis Academy's homepage.](img/2c1e924ea66e4525cea521553f8a04cc.png)*

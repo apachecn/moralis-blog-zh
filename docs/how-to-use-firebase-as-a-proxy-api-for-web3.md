@@ -42,15 +42,15 @@ https://www.youtube.com/watch?v=iSg7uq2ZWgM
 
 然而，在向您展示如何为 Web3 设置代理 API 之前，您必须考虑几个先决条件，我们将在下一节中介绍它们！
 
-### 先决条件–建立道德和煽动基础
+### 先决条件–建立 Moralis 和煽动基础
 
-在进入本教程的中心部分之前，您必须设置 Moralis 和 Firebase 的帐户，以及一个 Firebase 项目。因此，我们将很快涵盖这些先决条件，从建立自己的道德帐户开始！
+在进入本教程的中心部分之前，您必须设置 Moralis 和 Firebase 的帐户，以及一个 Firebase 项目。因此，我们将很快涵盖这些先决条件，从建立自己的 Moralis 帐户开始！
 
 创建 Moralis 帐户非常简单，只需点击 Moralis 网站右上角的“[免费开始](https://admin.moralis.io/register)”按钮:
 
 ![Showing the first prerequisite for using Firebase as a proxy for Web3 API calls: creating a Moralis account.](img/fddf9badd81f73d280eb19b44d0d7b86.png)
 
-在那里，你必须输入一个电子邮件地址，创建一个新的密码，检查“我接受…”按钮，并点击“注册”。更重要的是，你应该知道创建一个道德账户是完全免费的！
+在那里，你必须输入一个电子邮件地址，创建一个新的密码，检查“我接受…”按钮，并点击“注册”。更重要的是，你应该知道创建一个 Moralis 账户是完全免费的！
 
 有了 Moralis 账户，你必须注册 Firebase 并创建一个新账户。因此，请浏览 Firebase 的网站并点击“开始”按钮:
 
@@ -229,6 +229,6 @@ npm run start
 
 ![](img/ec6ce3daaf597477ac484fac536a5a50.png)
 
-如果你觉得这篇文章很有帮助，可以看看 [Web3 博客](https://moralis.io/blog/)上的其他道德内容。例如，检查我们的道德指南的 [BNB 连锁样板](https://moralis.io/bnb-chain-boilerplate-how-to-build-bnb-chain-dapps/)。样板文件可以让你立刻建立 BNB 连锁餐厅！此外，如果你对为其他网络开发 dapp 感兴趣，请查看我们的指南，该指南概括了构建 dapp 的一般过程:“[如何构建 Web3 应用](https://moralis.io/how-to-build-a-web3-app/)”。
+如果你觉得这篇文章很有帮助，可以看看 [Web3 博客](https://moralis.io/blog/)上的其他 Moralis 内容。例如，检查我们的 Moralis 指南的 [BNB 连锁样板](https://moralis.io/bnb-chain-boilerplate-how-to-build-bnb-chain-dapps/)。样板文件可以让你立刻建立 BNB 连锁餐厅！此外，如果你对为其他网络开发 dapp 感兴趣，请查看我们的指南，该指南概括了构建 dapp 的一般过程:“[如何构建 Web3 应用](https://moralis.io/how-to-build-a-web3-app/)”。
 
 所以，如果你想使用 Firebase 作为 Web3 的代理 API，或者想探索最快的方式来[构建 Web3 应用](https://moralis.io/fastest-way-to-build-a-web3-app/)，[现在就注册 Moralis](https://admin.moralis.io/register) ！创建一个帐户是免费的，只需要几秒钟！**

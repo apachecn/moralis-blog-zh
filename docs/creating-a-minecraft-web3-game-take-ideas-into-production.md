@@ -4,7 +4,7 @@
 
 随着一些已经开发的 Web3 游戏取得巨大成功，传统游戏领域的知名公司已经在探索如何将区块链应用到他们的游戏模式中。因此，现在是探索区块链游戏和学习如何创建一个 Web3 游戏的绝佳时机。此外，与任何过程一样，这一切都始于一个想法。然而，启动创造性思维和开发一个 Web3 游戏的想法可能具有挑战性。如果你需要一些灵感，你来对地方了。在这篇文章中，我们来看看《我的世界》的 Web3 游戏是什么样子的。《《我的世界》》的伟大之处在于，这款游戏包含了众多与 Web3 概念完美契合的元素。因此，在整篇文章中，我们将专注于一个理论上的 Web3《我的世界》游戏，并探索概念和工具来创建不只是一个《我的世界》Web3 游戏，而是任何你能想到的基于区块链的游戏！
 
-接下来，我们将首先确保你们都知道什么是 Web3 游戏。此外，虽然大多数人都知道这个游戏是关于什么的，我们将很快解释什么是《我的世界》。毕竟，如果你想深入“《我的世界》网络 3”的讨论，正确理解这些基础知识是至关重要的。此外，我们将从回答《我的世界》是否是元宇宙开始。然后，我们将仔细看看一些伟大的想法和工具，以帮助您创建一个 Web3《我的世界》游戏没有出汗。在这里，你将了解到更多关于 [Moralis](https://moralis.io/) 的信息——最终的 Web3 API 提供者。最终，Moralis 让您通过使用您的遗留开发技能来快速轻松地创建 dapps，从而在 Web2 和 Web3 之间架起一座桥梁。因此，确保[创建你的免费道德账户](https://admin.moralis.io/register)！
+接下来，我们将首先确保你们都知道什么是 Web3 游戏。此外，虽然大多数人都知道这个游戏是关于什么的，我们将很快解释什么是《我的世界》。毕竟，如果你想深入“《我的世界》网络 3”的讨论，正确理解这些基础知识是至关重要的。此外，我们将从回答《我的世界》是否是元宇宙开始。然后，我们将仔细看看一些伟大的想法和工具，以帮助您创建一个 Web3《我的世界》游戏没有出汗。在这里，你将了解到更多关于 [Moralis](https://moralis.io/) 的信息——最终的 Web3 API 提供者。最终，Moralis 让您通过使用您的遗留开发技能来快速轻松地创建 dapps，从而在 Web2 和 Web3 之间架起一座桥梁。因此，确保[创建你的免费 Moralis 账户](https://admin.moralis.io/register)！
 
 ![To become a more efficient Web3 developer, join Moralis Magazine.](img/5b5266e0abc11c1628c3fce7a7df4acc.png)[**Join Moralis’ Discord Channel and Moralis Magazine**](https://moralis.io/joindiscord/)
 
@@ -99,11 +99,11 @@
 
 #### 成为一名 Dapp 或 Web3 游戏开发者
 
-此外，Moralis 还附带一套完整的学习资源。这些包括[道德文件](https://docs.moralis.io/)，它的[区块链博客](https://moralis.io/blog/)， [Web3 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)，以及[道德学院](https://academy.moralis.io/)。前三个出口是完全免费的，并附带了无数的 Web3 概念和教程的解释。因此，他们可以免费帮助你成为 Web3 开发者。
+此外，Moralis 还附带一套完整的学习资源。这些包括[Moralis 文件](https://docs.moralis.io/)，它的[区块链博客](https://moralis.io/blog/)， [Web3 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)，以及[Moralis 学院](https://academy.moralis.io/)。前三个出口是完全免费的，并附带了无数的 Web3 概念和教程的解释。因此，他们可以免费帮助你成为 Web3 开发者。
 
-另一方面，你可以通过报名参加道德学院，以更专业的方式接受你的加密教育。鉴于你似乎对创作一个《我的世界》Web3 游戏感兴趣，以太坊游戏编程课程可能正是你所需要的。
+另一方面，你可以通过报名参加 Moralis 学院，以更专业的方式接受你的加密教育。鉴于你似乎对创作一个《我的世界》Web3 游戏感兴趣，以太坊游戏编程课程可能正是你所需要的。
 
-最后但并非最不重要的是，下面是一个视频的道德团队成员解释为什么《我的世界》是他最喜欢的游戏。这可能会激发一些额外的“网络 3《我的世界》”的想法。
+最后但并非最不重要的是，下面是一个视频的 Moralis 团队成员解释为什么《我的世界》是他最喜欢的游戏。这可能会激发一些额外的“网络 3《我的世界》”的想法。
 
 [https://www.youtube.com/embed/BpimlpUPqDU?feature=oembed](https://www.youtube.com/embed/BpimlpUPqDU?feature=oembed)
 
@@ -111,4 +111,4 @@
 
 通过以上几节，你有机会获得一些关于潜在的《我的世界》Web3 克隆的好主意。不过，我们先解释一下什么是 Web3 游戏。这是你了解 Web3 的地方，也是你了解它是如何给网络和现实世界带来变革的地方。我们还提供了一些关于《我的世界》的基本信息。此外，我们还解释说，根据我们对元宇宙的理解，《我的世界》可以被归入“元宇宙”一类。然后，我们仔细研究了一些关于如何将游戏中的资产令牌化，并为玩家提供他们在玩游戏中投资的真正所有权的想法。最后，我们对 Moralis 做了一个快速的概述，它是一个简单的创建 Web3 游戏的工具。
 
-如果今天的文章启发了你，让你真正去解决创建一个《我的世界》Web3 游戏这样一个具有挑战性的壮举，你可能已经有了令人印象深刻的开发技能。因此，只需创建你的道德帐户，并开始“建设”。然而，如果你是 Web3 开发的新手，我们建议你从一些简单的教程开始。例如，使用 Moralis 文档来创建你的第一个 dapp。当然，欢迎在 Moralis 博客上探索其他区块链发展话题。一些最新的文章关注于[跨链桥接](https://moralis.io/cross-chain-bridging-deep-dive/)、[在索拉纳上编程智能合约](https://moralis.io/how-to-program-smart-contracts-and-implement-them-on-solana/)、[上传文件到 IPFS](https://moralis.io/how-to-upload-files-to-ipfs-full-guide/) 、[在索拉纳上铸造硬币](https://moralis.io/how-to-mint-a-coin-on-solana-in-5-steps/)、 [Aptos](https://moralis.io/what-is-aptos-full-guide-to-the-aptos-blockchain/) 和[隋](https://moralis.io/what-is-sui-blockchain-the-ultimate-guide/)区块链等等。
+如果今天的文章启发了你，让你真正去解决创建一个《我的世界》Web3 游戏这样一个具有挑战性的壮举，你可能已经有了令人印象深刻的开发技能。因此，只需创建你的 Moralis 帐户，并开始“建设”。然而，如果你是 Web3 开发的新手，我们建议你从一些简单的教程开始。例如，使用 Moralis 文档来创建你的第一个 dapp。当然，欢迎在 Moralis 博客上探索其他区块链发展话题。一些最新的文章关注于[跨链桥接](https://moralis.io/cross-chain-bridging-deep-dive/)、[在索拉纳上编程智能合约](https://moralis.io/how-to-program-smart-contracts-and-implement-them-on-solana/)、[上传文件到 IPFS](https://moralis.io/how-to-upload-files-to-ipfs-full-guide/) 、[在索拉纳上铸造硬币](https://moralis.io/how-to-mint-a-coin-on-solana-in-5-steps/)、 [Aptos](https://moralis.io/what-is-aptos-full-guide-to-the-aptos-blockchain/) 和[隋](https://moralis.io/what-is-sui-blockchain-the-ultimate-guide/)区块链等等。

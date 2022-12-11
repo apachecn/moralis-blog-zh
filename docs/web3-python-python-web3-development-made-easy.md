@@ -2,7 +2,7 @@
 
 > 原文：<https://moralis.io/web3-python-python-web3-development-made-easy/>
 
-您知道吗，Moralis 提供了将区块链功能集成到任何 Python 应用程序中的最便捷的方法。如果您想了解更多这方面的知识，请阅读本文，探索 Web3 Python 开发的复杂性。可访问性源于 [**道德规范**](https://moralis.io) **Python SDK，允许您分两步将 Web3 功能实现到 Python 应用中:**
+您知道吗，Moralis 提供了将区块链功能集成到任何 Python 应用程序中的最便捷的方法。如果您想了解更多这方面的知识，请阅读本文，探索 Web3 Python 开发的复杂性。可访问性源于 [**Moralis 规范**](https://moralis.io) **Python SDK，允许您分两步将 Web3 功能实现到 Python 应用中:**
 
 *   1.通过运行以下命令安装 Moralis 的 Python SDK:
 
@@ -48,7 +48,7 @@ Python 是一种卓越的、高级的、面向对象的、通用的编程语言�
 
 通过完成本教程，您将了解如何利用 Moralis 的 Python SDK 在任何 Python 应用程序中实现 Web3 身份验证机制。结合开发工具包，您将了解 Moralis 的 [Auth API](https://moralis.io/authentication/) 是如何工作的。而且，在本教程中，我们将集成元掩码认证；然而，您可以通过 API 用单行代码实现几个 auth 方法。如果你想了解这方面的更多信息，请查看我们的指南，了解如何在[添加 RainbowKit 标志](https://moralis.io/how-to-add-a-sign-in-with-rainbowkit-to-your-project-in-5-steps/)或[添加比特币基地钱包登录功能](https://moralis.io/how-to-add-coinbase-wallet-login-functionality/)！
 
-现在，在前进之前，注册与道德，因为你需要一个帐户跟进！
+现在，在前进之前，注册与 Moralis，因为你需要一个帐户跟进！
 
 ![Sign Up with Moralis](img/776315699d4da3e5c69ca048fbcedf78.png)[**Sign Up with Moralis**](https://admin.moralis.io/login)
 
@@ -205,7 +205,7 @@ CORS(app)
 api_key = "xxx"
 ```
 
-但是，请确保用您的实际密钥替换“ *xxx* ”。要得到钥匙，你必须拥有一个道德账户。所以，如果你还没有，[马上创建一个道德账户](https://admin.moralis.io/register)！当您最终登录时，导航到“Web3 APIs”选项卡，在这里您可以找到密钥:
+但是，请确保用您的实际密钥替换“ *xxx* ”。要得到钥匙，你必须拥有一个 Moralis 账户。所以，如果你还没有，[马上创建一个 Moralis 账户](https://admin.moralis.io/register)！当您最终登录时，导航到“Web3 APIs”选项卡，在这里您可以找到密钥:
 
 ![Web3 API page showing the copy button for a users Python Web3 API key.](img/4568dfeff2766f62f4ed1e2a3702558f.png)
 

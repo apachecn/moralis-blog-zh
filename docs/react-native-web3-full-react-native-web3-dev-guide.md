@@ -4,7 +4,7 @@
 
 由于如今普通用户使用移动设备的次数超过其他任何东西，所以让 Web3 变得对移动设备友好是至关重要的。最初，Web3 领域可以通过计算机访问。然而，为了让区块链成为主流应用，程序员在开发 dApps 时必须采用移动优先的方法。这就是 React 原生 Web3 工具为开发人员带来巨大变化的地方。现在，如果您已经有了使用 React Native 的经验，那么您已经有了一个很好的开端。但是，即使你是一个 Web3 开发新手，你想学习如何在 Web3 中使用 React Native，了解 JavaScript 就足以启动你的 React Native Web3 之旅。此外，通过使用合适的工具库，您可以毫不费力地部署 iOS 和 Android Web3 应用程序。
 
-在本文中，我们将为您提供 React 原生 Web3 开发的完整指南。我们将指导您一步一步地完成设置过程，以简化事情。在这个过程中，你会发现哪些工具是“必备”的。此外，我们将从介绍传统的移动开发工具开始，比如 Xcode 和 Android Studio。然而，React Native Web3 开发的真正推动力是[道德规范](https://moralis.io/)。这个终极的 Web3 开发平台，也被称为“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”，是你从 Web2 到 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 的桥梁。有了 Moralis 的支持，您可以通过简单地复制和粘贴代码片段来覆盖与区块链相关的后端。此外，通过使用 Moralis，您还可以利用终极捷径——以太坊反应本机样板文件。后者使你能够在几分钟内[创建移动以太坊 dApps](https://moralis.io/create-mobile-ethereum-dapp-with-react-native-template/) 。此外，在继续之前，请确保[创建您的免费道德账户](https://admin.moralis.io/register)。
+在本文中，我们将为您提供 React 原生 Web3 开发的完整指南。我们将指导您一步一步地完成设置过程，以简化事情。在这个过程中，你会发现哪些工具是“必备”的。此外，我们将从介绍传统的移动开发工具开始，比如 Xcode 和 Android Studio。然而，React Native Web3 开发的真正推动力是[Moralis 规范](https://moralis.io/)。这个终极的 Web3 开发平台，也被称为“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”，是你从 Web2 到 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 的桥梁。有了 Moralis 的支持，您可以通过简单地复制和粘贴代码片段来覆盖与区块链相关的后端。此外，通过使用 Moralis，您还可以利用终极捷径——以太坊反应本机样板文件。后者使你能够在几分钟内[创建移动以太坊 dApps](https://moralis.io/create-mobile-ethereum-dapp-with-react-native-template/) 。此外，在继续之前，请确保[创建您的免费 Moralis 账户](https://admin.moralis.io/register)。
 
 ![](img/ef20085ae7e33f6aa2e03aa1c2e86ade.png)
 
@@ -22,7 +22,7 @@
 
 接下来，我们将指导您完成使用 React Native 所需的设置。此外，如上所述，我们将通过介绍 [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 来涵盖 Web3 部分。这样，您将能够快速轻松地集成后端功能。因此，您将有时间专注于创建最佳前端。因此，你的移动 dApps 将有机会提供一个有吸引力的用户界面和优秀的 UX，这是成功的关键。
 
-此外，我们将在很大程度上依靠道德专家的视频教程，使这一点更加清晰。这样，当专家执行所有必要的设置步骤时，你就有机会看着他。此外，你也将有机会跟随他的领导，创建自己的移动 dApp。首先，他将向您展示如何从头开始创建移动 dApp。然而，他还将向您展示如何使用以太坊 React 本机样板文件。毫无疑问，后者是反应原生 Web3 开发的最终捷径。
+此外，我们将在很大程度上依靠 Moralis 专家的视频教程，使这一点更加清晰。这样，当专家执行所有必要的设置步骤时，你就有机会看着他。此外，你也将有机会跟随他的领导，创建自己的移动 dApp。首先，他将向您展示如何从头开始创建移动 dApp。然而，他还将向您展示如何使用以太坊 React 本机样板文件。毫无疑问，后者是反应原生 Web3 开发的最终捷径。
 
 ## 开始您的 React Native Web3 之旅
 
@@ -104,7 +104,7 @@
 
 使用 Moralis 时，创建 Moralis 服务器是 web 和移动 dApp 开发的重要部分。因此，请确保完成以下步骤:
 
-1.  **登录您的 Moralis 管理区**——此时，您应该已经准备好了您的 Moralis 帐户；于是，只需[登录](https://admin.moralis.io/login)。然而，如果你还没有这样做，现在就创建你的免费道德账户。
+1.  **登录您的 Moralis 管理区**——此时，您应该已经准备好了您的 Moralis 帐户；于是，只需[登录](https://admin.moralis.io/login)。然而，如果你还没有这样做，现在就创建你的免费 Moralis 账户。
 
 2.  [**创建一个 Moralis 服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)–在您的 Moralis 管理区内，进入“服务器”选项卡。在那里，点击右上角的“+创建一个新服务器”(见下面的截图)。接下来，您需要从出现的下拉菜单中选择最适合您需求的网络类型。*在处理示例项目或测试您的 dApps 时，您应该关注“Testnet 服务器”(* [*)或“本地 Devchain 服务器”选项。然而，当向公众发布您的 dApps 时，您会希望选择“Mainnet 服务器”。*](https://moralis.io/ethereum-testnet-guide-connect-to-ethereum-testnets/)
 
@@ -134,6 +134,6 @@ https://www.youtube.com/watch?v=dZYSr9UPdfQ
 
 在这篇文章中，我们已经讨论了很多内容。到目前为止，您已经知道什么是 React Native Web3，以及为什么它对于 crypto 的主流采用是必不可少的。React Native 使您能够同时为 iOS 和 Android 开发移动应用程序。此外，Moralis 使您能够为多个可编程区块链创建移动 dApps。因此，你可以保证你的开发过程面向未来，并且以最少的额外努力获得大量的用户。此外，您现在知道如何从头开始创建 React 本机应用程序。然而，您还了解到有一个更快的途径可用——终极以太坊反应原生样板。通过复制这个样板文件，你可以在几分钟内准备好你自己的移动 dApps。
 
-如果你想了解更多关于区块链的发展，一定要访问 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)。这两个渠道都提供了大量有价值的文章，涵盖了各种加密概念，包括教育示例项目。例如，我们的一些最新主题深入到[可升级智能合约](https://moralis.io/what-are-upgradable-smart-contracts-full-guide/)、 [ERC721 智能合约](https://moralis.io/erc721-contract-exploring-erc721-smart-contracts/)、终极 [Web3 用户界面套件](https://moralis.io/web3ui-kit-the-ultimate-web3-user-interface-kit/)、 [NFT API 替代方案](https://moralis.io/nft-api-alternatives-comparing-alchemys-nft-api-with-moralis-nft-api/)、 [Web3.js vs Ethers.js](https://moralis.io/web3-js-vs-ethers-js-guide-to-eth-javascript-libraries/) 、 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)、如何[获得 OpenSea API 密钥](https://moralis.io/get-an-opensea-api-key-in-2022-full-guide/)等等。然而，如果你想[更快地成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，你可能需要考虑一种更专业的方法。如果是这样，考虑报名参加[道德学院](https://academy.moralis.io/)！
+如果你想了解更多关于区块链的发展，一定要访问 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)。这两个渠道都提供了大量有价值的文章，涵盖了各种加密概念，包括教育示例项目。例如，我们的一些最新主题深入到[可升级智能合约](https://moralis.io/what-are-upgradable-smart-contracts-full-guide/)、 [ERC721 智能合约](https://moralis.io/erc721-contract-exploring-erc721-smart-contracts/)、终极 [Web3 用户界面套件](https://moralis.io/web3ui-kit-the-ultimate-web3-user-interface-kit/)、 [NFT API 替代方案](https://moralis.io/nft-api-alternatives-comparing-alchemys-nft-api-with-moralis-nft-api/)、 [Web3.js vs Ethers.js](https://moralis.io/web3-js-vs-ethers-js-guide-to-eth-javascript-libraries/) 、 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)、如何[获得 OpenSea API 密钥](https://moralis.io/get-an-opensea-api-key-in-2022-full-guide/)等等。然而，如果你想[更快地成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，你可能需要考虑一种更专业的方法。如果是这样，考虑报名参加[Moralis 学院](https://academy.moralis.io/)！
 
 ![](img/835140cdbc316329b2e2aa0883810e2a.png)

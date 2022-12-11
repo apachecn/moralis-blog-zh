@@ -2,7 +2,7 @@
 
 > 原文：<https://moralis.io/how-to-connect-users-with-walletconnect/>
 
-[**开发 dApps**](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/) **(去中心化应用)时，用户认证是一个必不可少的方面，因为它对于确定合法的钱包所有者至关重要。通过对用户进行身份验证，他们可以与**[**dapp**](https://moralis.io/decentralized-applications-explained-what-are-dapps/)**进行交互，使开发人员能够访问有关 NFTs、令牌余额等的信息。，以及其他重要的功能。然而，如果没有合适的工具，对用户进行身份验证会非常麻烦。这是** [**道德家**](https://moralis.io/) **通过使认证过程变得轻而易举而解决的事情。开发人员将知道，可以使用许多方法和替代方案来验证用户。例如，我们之前已经展示了** [**如何使用 Moralis 使用元掩码**](https://moralis.io/how-to-authenticate-with-metamask/) **来认证用户。然而，在本文中，我们将更深入地研究如何用 WalletConnect 连接用户，并在此过程中利用 Moralis。**
+[**开发 dApps**](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/) **(去中心化应用)时，用户认证是一个必不可少的方面，因为它对于确定合法的钱包所有者至关重要。通过对用户进行身份验证，他们可以与**[**dapp**](https://moralis.io/decentralized-applications-explained-what-are-dapps/)**进行交互，使开发人员能够访问有关 NFTs、令牌余额等的信息。，以及其他重要的功能。然而，如果没有合适的工具，对用户进行身份验证会非常麻烦。这是** [**Moralis 家**](https://moralis.io/) **通过使认证过程变得轻而易举而解决的事情。开发人员将知道，可以使用许多方法和替代方案来验证用户。例如，我们之前已经展示了** [**如何使用 Moralis 使用元掩码**](https://moralis.io/how-to-authenticate-with-metamask/) **来认证用户。然而，在本文中，我们将更深入地研究如何用 WalletConnect 连接用户，并在此过程中利用 Moralis。**
 
 Moralis 是下一代 dApp 和 Web3 开发平台，为用户提供从 idea 到全功能 dApp 的完整体验。此外，Moralis 允许用户访问完全托管的无服务器后端基础设施，从而使使用 WalletConnect 认证用户变得更加容易。因此，使用 Moralis 的开发人员只需几行代码就可以构建具有 WalletConnect 身份验证本地支持的 dApps。鉴于这种情况，本文还特别关注如何通过 Moralis 将用户与 WalletConnect 连接起来。
 
@@ -32,7 +32,7 @@ Moralis 是下一代 dApp 和 Web3 开发平台，为用户提供从 idea 到全
 
 此外，我们还提到元掩码是通向去中心化 web 的门户。这意味着钱包可以用来访问基于以太坊的 dApps。因此，可以通过扩展/应用程序访问类似于 [复合](https://compound.finance/) 或[Uniswap](https://uniswap.org/)的应用程序。这一切都是在不损害用户资产安全的情况下实现的，因为他们仍处于完全控制之中。此外，MetaMask 与 Moralis 相集成，使得通过该平台进行扩展的开发变得轻而易举。
 
-然而，我们刚刚读到的只是解释了什么是元掩码的最基本的东西。如果你访问 [道德博客](https://moralis.io/blog/) ，你会发现深入的 MetaMask 文章会让你对 MetaMask 有更好的了解，并为建立你自己的帐户提供极好的解释。此外，本文还解释了如何使用扩展/应用程序，并更详细地描述了 MetaMask 的所有功能。
+然而，我们刚刚读到的只是解释了什么是元掩码的最基本的东西。如果你访问 [Moralis 博客](https://moralis.io/blog/) ，你会发现深入的 MetaMask 文章会让你对 MetaMask 有更好的了解，并为建立你自己的帐户提供极好的解释。此外，本文还解释了如何使用扩展/应用程序，并更详细地描述了 MetaMask 的所有功能。
 
 ### 如何使用元掩码认证用户
 
@@ -62,7 +62,7 @@ Moralis 是下一代 dApp 和 Web3 开发平台，为用户提供从 idea 到全
 
 [https://www.youtube.com/embed/6BfOtYfwFBI?feature=oembed](https://www.youtube.com/embed/6BfOtYfwFBI?feature=oembed)
 
-# 如何使用道德连接用户与 WalletConnect】
+# 如何使用 Moralis 连接用户与 WalletConnect】
 
 现在我们知道了如何使用 MetaMask(平台上的默认选项)来验证用户，我们可以继续讨论如何通过 Moralis 将用户与 WalletConnect 连接起来。在本节中，我们将使用一个简单的例子来展示从默认元掩码集成到使用 WalletConnect 是多么容易。
 
@@ -76,19 +76,19 @@ Moralis 是下一代 dApp 和 Web3 开发平台，为用户提供从 idea 到全
 
 如果没有这些参数，用户将会收到来自元掩码扩展的弹出消息，以验证自己是用户。当我们添加参数时，我们集成了 WalletConnect，在这种情况下，用户将在他们的屏幕上收到一个二维码模型。然后，用户将通过兼容 WalletConnect 的钱包用手机扫描代码来验证自己的身份。
 
-这个过程极其简单，只需要几秒钟就可以创建一个像这样简单的认证功能。然而，如果你对这个过程仍有疑问，我们推荐你观看来自道德 YouTube 频道 的 [视频。在这里你会找到一个更详细的例子，一个功能完整的应用程序演示了这个过程:](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw)
+这个过程极其简单，只需要几秒钟就可以创建一个像这样简单的认证功能。然而，如果你对这个过程仍有疑问，我们推荐你观看来自 Moralis YouTube 频道 的 [视频。在这里你会找到一个更详细的例子，一个功能完整的应用程序演示了这个过程:](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw)
 
 [https://www.youtube.com/embed/3Ij6wp0fuXw?feature=oembed](https://www.youtube.com/embed/3Ij6wp0fuXw?feature=oembed)
 
-### 与道德一起发展
+### 与 Moralis 一起发展
 
-我们在整篇文章中不断提到道德，这是有充分理由的。Moralis 是 Web3 开发的头号平台，帮助用户节省宝贵的时间和金钱。在前面的小节中，我们展示了两个清晰的例子，展示了如何使用 MetaMask 和 WalletConnect 对用户进行身份验证。然而，原生用户身份验证只是 Moralis 提供的众多优秀特性之一，还有更多特性有待发现。
+我们在整篇文章中不断提到 Moralis，这是有充分理由的。Moralis 是 Web3 开发的头号平台，帮助用户节省宝贵的时间和金钱。在前面的小节中，我们展示了两个清晰的例子，展示了如何使用 MetaMask 和 WalletConnect 对用户进行身份验证。然而，原生用户身份验证只是 Moralis 提供的众多优秀特性之一，还有更多特性有待发现。
 
 ![](img/40b30234d4e3266611a706888dc8141a.png)
 
 例如，Moralis 为开发人员提供了一个完整的解决方案，让他们从一个简单的想法变成一个功能齐全的 dApp。Moralis 从一开始就是跨链兼容的。如果你对开发 dApps 感兴趣，推荐以下两篇文章:《如何创建以太坊 dApps[](https://moralis.io/how-to-create-ethereum-dapps/)》和《如何创建 BSC dApps 》。阅读这两篇文章将进一步展示使用 Moralis 进行开发的能力。
 
-此外，该平台还提供了一个完善的博客，为您提供有关特性的新信息，并能帮助您成为更好的 Web3 开发者。该平台还提供了以 [官方道德文件](https://docs.moralis.io/?utm_source=blog&utm_medium=post&utm_campaign=The%2520Ultimate%2520Guide%2520to%2520Web3%2520%25E2%2580%2593%2520What%2520is%2520Web3%253F) 形式的创建指南，在这里你可以找到一个 [快速入门指南](https://docs.moralis.io/moralis-server/getting-started/quick-start) 来构建你的第一个 dApp。
+此外，该平台还提供了一个完善的博客，为您提供有关特性的新信息，并能帮助您成为更好的 Web3 开发者。该平台还提供了以 [官方 Moralis 文件](https://docs.moralis.io/?utm_source=blog&utm_medium=post&utm_campaign=The%2520Ultimate%2520Guide%2520to%2520Web3%2520%25E2%2580%2593%2520What%2520is%2520Web3%253F) 形式的创建指南，在这里你可以找到一个 [快速入门指南](https://docs.moralis.io/moralis-server/getting-started/quick-start) 来构建你的第一个 dApp。
 
 除了这些强大的功能，Moralis 还为所有用户提供了无限可扩展的后端基础设施。这意味着，作为一名开发人员，您可以将全部注意力放在开发 [智能合同](https://moralis.io/how-to-create-smart-contracts/) 上，并专注于应用程序的前端。因此，您可以节省时间和金钱，因为平台会为您完成所有繁重的工作。
 

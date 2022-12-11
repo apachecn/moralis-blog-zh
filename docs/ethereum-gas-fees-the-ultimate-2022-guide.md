@@ -14,7 +14,7 @@
 
 ![](img/cf40d494a41f9a7953e3a8bf7d568af9.png)
 
-然而，如果你已经对以太坊燃气费有了一个坚实的了解，并渴望开始建设，请确保查看我们的一些示例项目指南。我们的一些最新文章向您展示了 [*如何通过网站*](https://moralis.io/how-to-interact-with-smart-contracts-through-your-website/)*[*如何认证 Android 应用*](https://moralis.io/walletconnect-android-sdk-alternative-authenticate-android-apps-withmoralis/)*[*如何索引区块链*](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/) *等等。接下来，* [*创建你的免费道德账户*](https://admin.moralis.io/register) *并建立一些现象级的*[*dApps*](https://moralis.io/decentralized-applications-explained-what-are-dapps/)*！***
+然而，如果你已经对以太坊燃气费有了一个坚实的了解，并渴望开始建设，请确保查看我们的一些示例项目指南。我们的一些最新文章向您展示了 [*如何通过网站*](https://moralis.io/how-to-interact-with-smart-contracts-through-your-website/)*[*如何认证 Android 应用*](https://moralis.io/walletconnect-android-sdk-alternative-authenticate-android-apps-withmoralis/)*[*如何索引区块链*](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/) *等等。接下来，* [*创建你的免费 Moralis 账户*](https://admin.moralis.io/register) *并建立一些现象级的*[*dApps*](https://moralis.io/decentralized-applications-explained-what-are-dapps/)*！***
 
 ## **以太坊气费是什么？**
 
@@ -58,7 +58,7 @@
 
 如上所述，在伦敦 hardfork 之后，天然气费用预测更加准确。这是因为它使用前一个区块的详细信息来计算基本费用，而不是当前区块的。而且利用上面的等式结合以太坊黄皮书和以太坊扫描上的[以太坊燃气追踪器](https://etherscan.io/gastracker)，就可以计算出以太坊燃气费。正如你现在看到的，关键是正确估计当前以太坊气价。因此，你也可以使用一些基本的[坚实度](https://moralis.io/solidity-explained-what-is-solidity/)技能结合特定的智能合同来估算以太坊天然气价格。然后，您可以在其他合同和 dApps 中将其用作工具。此外，通过利用 [Remix](https://moralis.io/remix-explained-what-is-remix/) ，你可以很容易地测试你的智能合同。
 
-如果你有兴趣了解更多，请务必观看下面的视频，从 14:08 开始。在那里，你将能够看到一个道德专家承担一个示例项目。他会先告诉你关于代码文件的细节(可在 [GitHub](https://github.com/DanielMoralisSamples/29_Gas_Full_Course) 获得)。然后，他将指导您了解“Store_secret.sol”智能合同的详细信息。在这里，您将能够看到“gasleft()”工具的威力。接下来，他将通过在 Remix 中运行向您展示合同是如何工作的。尽管如此，您还可以构建一个简单的用户界面。
+如果你有兴趣了解更多，请务必观看下面的视频，从 14:08 开始。在那里，你将能够看到一个 Moralis 专家承担一个示例项目。他会先告诉你关于代码文件的细节(可在 [GitHub](https://github.com/DanielMoralisSamples/29_Gas_Full_Course) 获得)。然后，他将指导您了解“Store_secret.sol”智能合同的详细信息。在这里，您将能够看到“gasleft()”工具的威力。接下来，他将通过在 Remix 中运行向您展示合同是如何工作的。尽管如此，您还可以构建一个简单的用户界面。
 
 https://www.youtube.com/watch?v=t9Gii8JWEvY
 
@@ -94,6 +94,6 @@ https://www.youtube.com/watch?v=t9Gii8JWEvY
 
 如果你已经完成了上面的章节，你现在已经是以太坊燃气费的半个专家了。因此，你现在应该清楚地了解以太坊燃气费是什么，它们是如何工作的，为什么它们很高，以及未来通过 Eth2 会发生什么。你还了解到 EIP-1559 法案对如何计算汽油费有很大的影响。另外，通过观看 Moralis 的一位专家，您将看到一个展示如何使用智能合同来估算以太坊天然气价格的示例项目。
 
-如果你喜欢这篇文章，并想进一步拓宽你在区块链的视野，我们建议你访问[道德的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德的博客](https://moralis.io/blog/)。这两个出口都为您提供了一个伟大的地方，继续您的免费加密教育使用我们的专业解释和详细的指南。例如，我们的一些最新主题解释了[什么是 Web3 钱包](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/)，什么是 [ERC20 契约](https://moralis.io/what-are-erc20-contracts-full-erc20-contract-guide/)，并向您展示了一个 [DAO 智能契约示例](https://moralis.io/dao-smart-contract-example-dao-guide/)，如何[将 mint 功能集成到 JS 接口](https://moralis.io/integrate-mint-function-to-js-interface-nft-development/)，如何[转移 ERC20 令牌](https://moralis.io/erc20-transfer-how-to-transfer-erc20-tokens/)，如何开发一个 [NFT 稀有度](https://moralis.io/how-to-develop-an-nft-rarity-ranking-dapp/)排名 dApp，等等。然而，如果你准备采取更专业的方法，一定要报名参加[道德学院](https://academy.moralis.io/)。
+如果你喜欢这篇文章，并想进一步拓宽你在区块链的视野，我们建议你访问[Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 的博客](https://moralis.io/blog/)。这两个出口都为您提供了一个伟大的地方，继续您的免费加密教育使用我们的专业解释和详细的指南。例如，我们的一些最新主题解释了[什么是 Web3 钱包](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/)，什么是 [ERC20 契约](https://moralis.io/what-are-erc20-contracts-full-erc20-contract-guide/)，并向您展示了一个 [DAO 智能契约示例](https://moralis.io/dao-smart-contract-example-dao-guide/)，如何[将 mint 功能集成到 JS 接口](https://moralis.io/integrate-mint-function-to-js-interface-nft-development/)，如何[转移 ERC20 令牌](https://moralis.io/erc20-transfer-how-to-transfer-erc20-tokens/)，如何开发一个 [NFT 稀有度](https://moralis.io/how-to-develop-an-nft-rarity-ranking-dapp/)排名 dApp，等等。然而，如果你准备采取更专业的方法，一定要报名参加[Moralis 学院](https://academy.moralis.io/)。
 
 ![](img/0b813aef39f302009f353601b86f6387.png)**

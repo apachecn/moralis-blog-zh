@@ -2,7 +2,7 @@
 
 > 原文：<https://moralis.io/web3-for-business-how-and-why-you-can-integrate-web3-into-your-enterprise/>
 
-**在探索 Web3 for business 的复杂性时，您会很快注意到底层技术有可能颠覆传统行业，凸显了对无缝 Web3 集成的需求。因此，结合对 Web3 商业应用的深入研究，这篇文章探索了将 Web3 集成到任何技术堆栈中的最简单的方法——通过使用[道德](https://moralis.io)！**
+**在探索 Web3 for business 的复杂性时，您会很快注意到底层技术有可能颠覆传统行业，凸显了对无缝 Web3 集成的需求。因此，结合对 Web3 商业应用的深入研究，这篇文章探索了将 Web3 集成到任何技术堆栈中的最简单的方法——通过使用[Moralis](https://moralis.io)！**
 
 ![home5partner4](img/0f2881356a1ca3d8e342a10c3bb92bbf.png)![home5partner5](img/e391fa81b52d769750dfb158abef5fc2.png)![metamaskGray2](img/ee7c5ce09a817b561113a2bd74a54fa6.png)![home5partner6](img/08d0dea277c0b40839f616f1a7bffb9e.png)![home5partner1](img/012d381cc1a7879c4943b2147fcea522.png)![metamaskGray](img/c87dfc6fad44456069a0bbf180592a63.png)![home5partner2](img/c8d663802579f83d081a59d9de2a59fb.png)![home5partner3](img/e5210272991a5ff5adb5c23f934b1606.png)![home5partner4](img/0f2881356a1ca3d8e342a10c3bb92bbf.png)![home5partner5](img/e391fa81b52d769750dfb158abef5fc2.png)![metamaskGray2](img/ee7c5ce09a817b561113a2bd74a54fa6.png)![home5partner6](img/08d0dea277c0b40839f616f1a7bffb9e.png)![home5partner1](img/012d381cc1a7879c4943b2147fcea522.png)![metamaskGray](img/c87dfc6fad44456069a0bbf180592a63.png)![home5partner2](img/c8d663802579f83d081a59d9de2a59fb.png)![home5partner3](img/e5210272991a5ff5adb5c23f934b1606.png)![](img/a14731069c4e54b9c8b806bdeedc6c7d.png)
 

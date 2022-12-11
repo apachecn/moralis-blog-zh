@@ -6,7 +6,7 @@
 
 [Moralis](https://moralis.io/) 是区块链 API 的最终 [Web3 提供商](https://moralis.io/web3-provider-why-blockchain-developers-should-use-one/)。因此，如果您想快速、轻松地创建分散式应用程序(dapps ),它是一个不可或缺的工具。此外，Moralis 的跨链互操作性使您能够创建多链 dapps。您只需要调整一行代码来定位另一个链。此外，Moralis 使您能够使用您熟悉的传统工具加入 Web3 革命。虽然在本文中我们将重点关注 Python 的使用，但 Moralis 支持所有领先的遗留开发平台、框架和语言。从本质上讲，Moralis 使您能够用 API 更快、更智能地构建 Web2 和 Web3 之间的开发鸿沟。
 
-除了我们将用来设置自动化 Web3 通知电子邮件的 [Streams API](https://moralis.io/streams/) 之外，Moralis 还提供了全面的 Web3 APIs。这包括终极 [NFT API](https://moralis.io/nft-api/) 、 [Web3 Auth API](https://moralis.io/authentication/) 、 [Token API](https://moralis.io/token-api/) 等等。所以，创建你的[免费道德账户](https://admin.moralis.io/register)并跟随我们吧！
+除了我们将用来设置自动化 Web3 通知电子邮件的 [Streams API](https://moralis.io/streams/) 之外，Moralis 还提供了全面的 Web3 APIs。这包括终极 [NFT API](https://moralis.io/nft-api/) 、 [Web3 Auth API](https://moralis.io/authentication/) 、 [Token API](https://moralis.io/token-api/) 等等。所以，创建你的[免费 Moralis 账户](https://admin.moralis.io/register)并跟随我们吧！
 
 ### Python 和 Flask 是什么？
 
@@ -127,7 +127,7 @@ if __name__ == "__main__":
 
 ### Moralis 和 Streams API 的初始设置
 
-接下来，您需要添加适当的功能来处理您将从 Moralis 收到的 Web3 webhook。因此，您将在“ *@app.route* ”中添加大部分附加代码(见上文)。然而，首先，您需要完成初始的 Moralis 设置。因此，请确保你有你的道德帐户启动和运行。如果您还没有创建它，您可以使用开头所述的链接或点击 [Moralis 主页](http://moralis.io)上的“免费开始”按钮:
+接下来，您需要添加适当的功能来处理您将从 Moralis 收到的 Web3 webhook。因此，您将在“ *@app.route* ”中添加大部分附加代码(见上文)。然而，首先，您需要完成初始的 Moralis 设置。因此，请确保你有你的 Moralis 帐户启动和运行。如果您还没有创建它，您可以使用开头所述的链接或点击 [Moralis 主页](http://moralis.io)上的“免费开始”按钮:
 
 ![](img/d66cdac966c45fa18153971922ed870f.png)
 
@@ -220,4 +220,4 @@ def streams():
 
 我们在今天的文章中谈了相当多的内容。从基础开始，我们回答了“什么是 Python 和 Flask？”问题。然后，我们直接进入设置自动化 Web3 通知电子邮件的过程。因此，您会看到，一旦执行了链上事务，就会发送一封电子邮件通知我们该链上事件。最后，我们还向您介绍了设置自动化 Web3 通知电子邮件所需完成的四个主要阶段。因此，您现在知道如何轻松监听智能合约事件，并确保这些事件触发通知电子邮件。
 
-如果感兴趣，可以使用 [Web3 Python SDK 文档](https://docs.moralis.io/docs/your-first-dapp-python)，我们的[区块链开发视频](https://www.youtube.com/c/MoralisWeb3)，以及我们的[加密博客](https://moralis.io/blog/)来进一步扩展您对区块链开发的了解。这些渠道为您提供了无数的教程和区块链发展的话题。例如，一些最新的文章涵盖了 [Web3 Python](https://moralis.io/web3-python-python-web3-development-made-easy/) 开发、[区块链基础设施公司](https://moralis.io/blockchain-infrastructure-companies-how-to-choose-the-right-provider/)、[区块链基础设施即服务](https://moralis.io/what-is-blockchain-infrastructure-as-a-service/)等等。此外，博客还涵盖了新推出的区块链网络。随着新推出的区块链网络，许多人想知道是否会有另一家连锁店将以太坊挤出可编程区块链的排行榜。如果你是其中之一，看看我们的文章，探索[手掌网络](https://moralis.io/palm-blockchain-what-is-the-palm-network/)和以太坊的下一代 L2·区块链—[乐观主义](https://moralis.io/exploring-the-optimism-network-a-next-gen-l2-blockchain-for-ethereum/)。你也可以报名参加[道德学院](https://academy.moralis.io/)成为区块链认证。你可以从学院的区块链基础开始，或者专注于更高级的课程，比如[以太坊 dapp 编程](https://academy.moralis.io/courses/ethereum-dapp-programming)。
+如果感兴趣，可以使用 [Web3 Python SDK 文档](https://docs.moralis.io/docs/your-first-dapp-python)，我们的[区块链开发视频](https://www.youtube.com/c/MoralisWeb3)，以及我们的[加密博客](https://moralis.io/blog/)来进一步扩展您对区块链开发的了解。这些渠道为您提供了无数的教程和区块链发展的话题。例如，一些最新的文章涵盖了 [Web3 Python](https://moralis.io/web3-python-python-web3-development-made-easy/) 开发、[区块链基础设施公司](https://moralis.io/blockchain-infrastructure-companies-how-to-choose-the-right-provider/)、[区块链基础设施即服务](https://moralis.io/what-is-blockchain-infrastructure-as-a-service/)等等。此外，博客还涵盖了新推出的区块链网络。随着新推出的区块链网络，许多人想知道是否会有另一家连锁店将以太坊挤出可编程区块链的排行榜。如果你是其中之一，看看我们的文章，探索[手掌网络](https://moralis.io/palm-blockchain-what-is-the-palm-network/)和以太坊的下一代 L2·区块链—[乐观主义](https://moralis.io/exploring-the-optimism-network-a-next-gen-l2-blockchain-for-ethereum/)。你也可以报名参加[Moralis 学院](https://academy.moralis.io/)成为区块链认证。你可以从学院的区块链基础开始，或者专注于更高级的课程，比如[以太坊 dapp 编程](https://academy.moralis.io/courses/ethereum-dapp-programming)。

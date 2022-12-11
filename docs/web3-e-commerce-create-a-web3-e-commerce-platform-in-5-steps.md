@@ -4,7 +4,7 @@
 
 以亚马逊为代表的电子商务平台已经发展了十多年。越来越多的人开始在网上购物。自 2020 年疫情开始以来，情况尤其如此。然而，随着 [**Web3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) **慢慢走向世界，Web3 电子商务开始腾飞。然而，我们仍然处于游戏的早期，因此，这是学习如何创建 Web3 电子商务平台的最佳时机。这听起来是一个相当耗时的挑战，对吗？嗯，有了合适的工具和正确的指导，你可以在大约一个小时内准备好你自己的 Web3 电子商务平台。并且，这正是你将从这篇文章中得到的。此外，您将有机会了解**[**web 3 tech stack**](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)**最先进的部分。**
 
-接下来，您将学习如何通过五个步骤创建一个 Web3 电子商务平台。此外，如果你决定自己承担这个示例项目，你也会熟悉[道德规范](https://moralis.io/)。这个终极的 Web3 开发平台，也被称为 crypto 的 [Firebase，是如此短的开发时间的关键。一旦你完成了初始的 Moralis 设置，你就可以使用它的](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) [Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 来满足你所有的后端需求。因此，你只需从 [Moralis 的文档](https://docs.moralis.io/introduction/readme)中复制并粘贴简短的代码片段。此外，通过节省时间和资源，你可以轻松地[创建一个伟大的 Web3 UI](https://moralis.io/web3-ui-how-to-create-a-great-dapp-ui/) 。除了使用 Moralis 创建 Web3 电子商务平台之外，它还是开发 dApps ( [分散应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))的工具。道德使你能够使用你的 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 技能和[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)创建杀手级应用程序。因此，[在继续下一步之前，创建你的免费道德账户](https://admin.moralis.io/register)。
+接下来，您将学习如何通过五个步骤创建一个 Web3 电子商务平台。此外，如果你决定自己承担这个示例项目，你也会熟悉[Moralis 规范](https://moralis.io/)。这个终极的 Web3 开发平台，也被称为 crypto 的 [Firebase，是如此短的开发时间的关键。一旦你完成了初始的 Moralis 设置，你就可以使用它的](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) [Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 来满足你所有的后端需求。因此，你只需从 [Moralis 的文档](https://docs.moralis.io/introduction/readme)中复制并粘贴简短的代码片段。此外，通过节省时间和资源，你可以轻松地[创建一个伟大的 Web3 UI](https://moralis.io/web3-ui-how-to-create-a-great-dapp-ui/) 。除了使用 Moralis 创建 Web3 电子商务平台之外，它还是开发 dApps ( [分散应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))的工具。Moralis 使你能够使用你的 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 技能和[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)创建杀手级应用程序。因此，[在继续下一步之前，创建你的免费 Moralis 账户](https://admin.moralis.io/register)。
 
 ![](img/a91dd7e657c64448622abb9516763ec6.png)
 
@@ -134,9 +134,9 @@
 
 接下来，您将创建最重要的页面。构建主页的细节在 15:50 等待您，类别页面在 22:14，产品页面在 47:14。
 
-#### 步骤#4:初始道德设置
+#### 步骤#4:初始 Moralis 设置
 
-说到 Web3 开发，这是最重要的步骤之一。这是一个让你能够使用道德和它的全部力量。这也是你在接手其他项目时需要完成的。此外，作为初始 Moralis 设置的一部分，您需要[创建一个 Moralis 服务器](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)，并将其详细信息复制到“index.js”文件中(视频如下，01:00:58):
+说到 Web3 开发，这是最重要的步骤之一。这是一个让你能够使用 Moralis 和它的全部力量。这也是你在接手其他项目时需要完成的。此外，作为初始 Moralis 设置的一部分，您需要[创建一个 Moralis 服务器](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)，并将其详细信息复制到“index.js”文件中(视频如下，01:00:58):
 
 ![](img/bd62c2122aa537e5146f09e3d51976ff.png)
 
@@ -146,7 +146,7 @@
 
 ![](img/8fbf630e2fb7dd6000cf4d60ca3a1e29.png)
 
-此外，道德仪表板是一个强大的工具。结合 Moralis“同步”功能，Moralis 仪表盘使您能够[同步和索引智能合同事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/)。因此，你基本上是尽可能不费力地将区块链编入索引[。尽管如此，作为“创建 Web3 电子商务”任务的最后一步，您还将学习如何实现支付。](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)
+此外，Moralis 仪表板是一个强大的工具。结合 Moralis“同步”功能，Moralis 仪表盘使您能够[同步和索引智能合同事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/)。因此，你基本上是尽可能不费力地将区块链编入索引[。尽管如此，作为“创建 Web3 电子商务”任务的最后一步，您还将学习如何实现支付。](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)
 
 *最后，这是我们在上述* *:* 章节中一直提到的视频教程
 
@@ -156,6 +156,6 @@ https://www.youtube.com/watch?v=GKsIPkXWpyc
 
 我们在今天的文章中涉及了很多内容。此外，如果您自己承担了我们的示例项目，您现在已经准备好了自己的 Web3 电子商务平台。在这个过程中，您已经学习了如何涵盖前端和后端两个方面。然而，老实说，当使用 Moralis 时，真的很少需要工作来满足所有后端需求。
 
-如果你喜欢这个示例项目，并有兴趣进一步提高你的区块链开发技能，请务必访问 [Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 的博客](https://moralis.io/blog/)。这两个出口都是免费加密教育的最佳选择。我们的一些最新文章关注如何建立一个 [Web3 亚马逊市场](https://moralis.io/how-to-build-a-web3-amazon-marketplace/)，如何[将一个 Unity 应用连接到一个 Web3 钱包](https://moralis.io/how-to-connect-a-unity-app-to-a-web3-wallet/)， [Alchemy PI 替代品](https://moralis.io/alchemy-api-alternatives-web3-development-platforms/)，克隆[比特币基地钱包](https://moralis.io/cloning-coinbase-wallet-how-to-create-a-coinbase-clone/)，如何[创建一个 BNB 链令牌](https://moralis.io/how-to-create-a-bnb-chain-token-in-5-minutes/)，如何[创建一个索拉纳令牌](https://moralis.io/how-to-create-a-solana-token-in-5-steps/)，如何[启动一个 NFT 铸造页面](https://moralis.io/how-to-launch-an-nft-minting-page-full-walkthrough/)，以及如何[创建一个元宇宙 dApp 然而，如果你渴望尽早成为一名区块链开发者(T21)，你可能需要采取更专业的方法。因此，你可能会考虑报名参加道德学院。](https://moralis.io/how-to-create-a-metaverse-dapp-with-unity/)
+如果你喜欢这个示例项目，并有兴趣进一步提高你的区块链开发技能，请务必访问 [Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 的博客](https://moralis.io/blog/)。这两个出口都是免费加密教育的最佳选择。我们的一些最新文章关注如何建立一个 [Web3 亚马逊市场](https://moralis.io/how-to-build-a-web3-amazon-marketplace/)，如何[将一个 Unity 应用连接到一个 Web3 钱包](https://moralis.io/how-to-connect-a-unity-app-to-a-web3-wallet/)， [Alchemy PI 替代品](https://moralis.io/alchemy-api-alternatives-web3-development-platforms/)，克隆[比特币基地钱包](https://moralis.io/cloning-coinbase-wallet-how-to-create-a-coinbase-clone/)，如何[创建一个 BNB 链令牌](https://moralis.io/how-to-create-a-bnb-chain-token-in-5-minutes/)，如何[创建一个索拉纳令牌](https://moralis.io/how-to-create-a-solana-token-in-5-steps/)，如何[启动一个 NFT 铸造页面](https://moralis.io/how-to-launch-an-nft-minting-page-full-walkthrough/)，以及如何[创建一个元宇宙 dApp 然而，如果你渴望尽早成为一名区块链开发者(T21)，你可能需要采取更专业的方法。因此，你可能会考虑报名参加 Moralis 学院。](https://moralis.io/how-to-create-a-metaverse-dapp-with-unity/)
 
 ![](img/6197ec7b7b32ffd4ee754787ab279638.png)

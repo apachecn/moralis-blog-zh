@@ -1,4 +1,4 @@
-# 《道德杂志》第 6 期——如何用道德制作钱包。2
+# 《Moralis 杂志》第 6 期——如何用 Moralis 制作钱包。2
 
 > 原文：<https://moralis.io/moralis-magazine-6-how-to-build-a-wallet-with-moralis-pt-2/>
 
@@ -15,13 +15,13 @@ Moralis 的 Web3 框架是一个专门构建的多区块链 JavaScript 库，它
 
 ![](img/8405ec86ace96a22756efc966d244771.png)
 
-有更多的资源可供那些希望通过使用道德与雪崩来扩大他们的发展。
+有更多的资源可供那些希望通过使用 Moralis 与雪崩来扩大他们的发展。
 
-## 构建基于道德的网络钱包——第二部分
+## 构建基于 Moralis 的网络钱包——第二部分
 
-两周前，我们特别推出了一个关于构建你自己的基于道德的网络钱包的教程。这些步骤包括旨在扩展“[以太坊初学者开发](https://moralis.io/ethereum-development-for-beginners/?utm_source=blog&utm_medium=post&utm_campaign=Want%2520the%2520Latest%2520in%2520%253Cspan%253EBlockchain%2520Development%253F%253C%252Fspan%253E)系列”的任务。最后，我们将发布一个附加的演练，展示如何构建 web wallet 的每个组件，这样您就可以复制它并将其进一步构建到您自己的应用程序中。
+两周前，我们特别推出了一个关于构建你自己的基于 Moralis 的网络钱包的教程。这些步骤包括旨在扩展“[以太坊初学者开发](https://moralis.io/ethereum-development-for-beginners/?utm_source=blog&utm_medium=post&utm_campaign=Want%2520the%2520Latest%2520in%2520%253Cspan%253EBlockchain%2520Development%253F%253C%252Fspan%253E)系列”的任务。最后，我们将发布一个附加的演练，展示如何构建 web wallet 的每个组件，这样您就可以复制它并将其进一步构建到您自己的应用程序中。
 
-这个演练(以及几周前杂志上的视频)展示了一个静态的 HTML/ [CSS](https://moralis.io/cascading-style-sheets-what-is-css/) /JS 网站，这个网站是使用引导模板和类，当然还有各种函数的道德规范构建的。
+这个演练(以及几周前杂志上的视频)展示了一个静态的 HTML/ [CSS](https://moralis.io/cascading-style-sheets-what-is-css/) /JS 网站，这个网站是使用引导模板和类，当然还有各种函数的 Moralis 规范构建的。
 
 ![](img/f8ef56fff2abc12378adb1d7497c6084.png)
 
@@ -83,11 +83,11 @@ https://youtube.com/playlist?list=PLFPZ8ai7J-iSpYRMprJGQ0LhzBqncswro
 
 https://www.youtube.com/watch?v=zd0pBsmJI8s
 
-准备好你的官能道德法师，冒险继续…
+准备好你的官能 Moralis 法师，冒险继续…
 
 https://www.youtube.com/watch?v=lhcy-pX0gEo
 
-感谢阅读！我们希望本周的道德杂志对你有用。
+感谢阅读！我们希望本周的 Moralis 杂志对你有用。
 
 ![](img/24b2b0df062d60f18433d173197f9510.png)
 
@@ -95,4 +95,4 @@ https://www.youtube.com/watch?v=lhcy-pX0gEo
 
 下次见💚
 
-道德研究小组
+Moralis 研究小组

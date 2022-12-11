@@ -25,14 +25,14 @@
 尽管如此，本教程将介绍如何构建多链钱包，分为以下五个步骤:
 
 1.  创建 Moralis 服务器
-2.  初始化道德和 SDK
+2.  初始化 Moralis 和 SDK
 3.  创建用户界面
 4.  添加应用程序逻辑
 5.  开发传递函数
 
 通过查看这五个步骤，我们将提供代码的清晰概述，使我们能够轻松创建多链加密钱包。所以，让我们从创建一个 Moralis 服务器开始吧！
 
-然而，如果你更喜欢看视频来教育自己，我们建议看看下面这个来自道德 YouTube 频道的视频。在下面的视频中，Moralis 的一名开发人员在不到十分钟的时间里带您完成了整个过程:
+然而，如果你更喜欢看视频来教育自己，我们建议看看下面这个来自 Moralis YouTube 频道的视频。在下面的视频中，Moralis 的一名开发人员在不到十分钟的时间里带您完成了整个过程:
 
 https://www.youtube.com/watch?v=zd0pBsmJI8s
 
@@ -112,7 +112,7 @@ login = async () => {
 }
 ```
 
-这个功能的中心部分是“道德”。Web3.authenticate()”，这说明了使用 Moralis 的强大功能。这基本上是我们允许用户使用[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)进行身份验证所需要的。如果没有操作系统，这将是一个非常繁琐的任务，并且需要大量的时间来完成。这是 Moralis 派上用场的一个例子，也是我们能够显著缩短所有区块链项目开发时间的众多原因之一。
+这个功能的中心部分是“Moralis”。Web3.authenticate()”，这说明了使用 Moralis 的强大功能。这基本上是我们允许用户使用[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)进行身份验证所需要的。如果没有操作系统，这将是一个非常繁琐的任务，并且需要大量的时间来完成。这是 Moralis 派上用场的一个例子，也是我们能够显著缩短所有区块链项目开发时间的众多原因之一。
 
 ## 第五步:如何构建多链钱包——转账功能
 
@@ -177,18 +177,18 @@ transferERC20 = async () => {
 
 ## 如何通过 5 个步骤打造多链钱包——总结
 
-如果你跟随本教程，你很可能已经注意到与道德的力量。已经开发的后端基础设施让我们只需五个简单的步骤就能创建一个多链钱包:
+如果你跟随本教程，你很可能已经注意到与 Moralis 的力量。已经开发的后端基础设施让我们只需五个简单的步骤就能创建一个多链钱包:
 
 1.  创建 Moralis 服务器
-2.  初始化道德和 SDK
+2.  初始化 Moralis 和 SDK
 3.  创建用户界面
 4.  添加应用程序逻辑
 5.  开发传递函数
 
 ![](img/6b63beaa7d213df258c8e274850c3459.png)
 
-然而，这只是众多项目中的一个，道德使区块链的发展变得更加容易。例如，有了[道德元宇宙 SDK](https://moralis.io/metaverse/) ，你将能够创建各种不同寻常的[元宇宙](https://moralis.io/what-is-the-metaverse-full-guide/)平台。例如，我们有关于[如何在 25 分钟内构建一个元宇宙游戏](https://moralis.io/how-to-build-a-metaverse-game-in-25-minutes/)、[构建一个元宇宙游戏智能契约](https://moralis.io/metaverse-smart-contract-how-to-build-a-metaverse-game-smart-contract/)、[构建一个中世纪元宇宙游戏](https://moralis.io/how-to-build-a-medieval-metaverse-game/)的指南，仅举几例。
+然而，这只是众多项目中的一个，Moralis 使区块链的发展变得更加容易。例如，有了[Moralis 元宇宙 SDK](https://moralis.io/metaverse/) ，你将能够创建各种不同寻常的[元宇宙](https://moralis.io/what-is-the-metaverse-full-guide/)平台。例如，我们有关于[如何在 25 分钟内构建一个元宇宙游戏](https://moralis.io/how-to-build-a-metaverse-game-in-25-minutes/)、[构建一个元宇宙游戏智能契约](https://moralis.io/metaverse-smart-contract-how-to-build-a-metaverse-game-smart-contract/)、[构建一个中世纪元宇宙游戏](https://moralis.io/how-to-build-a-medieval-metaverse-game/)的指南，仅举几例。
 
 此外，如果你是 Web3 开发领域的新手，一定要看看我们的文章:区块链开发的[最佳语言](https://moralis.io/best-languages-for-blockchain-development-full-tutorial/)、[为什么 Web3 很重要](https://moralis.io/why-is-web3-important-a-beginners-guide/)以及[初学者以太坊开发](https://moralis.io/ethereum-development-for-beginners/)。
 
-希望这篇教程对你有所帮助，并激励你开始自己的开发之旅，成为一名区块链开发者。如果是的话，请随时[注册道德家](https://admin.moralis.io/register)并加入我们这个奇妙的社区吧！**
+希望这篇教程对你有所帮助，并激励你开始自己的开发之旅，成为一名区块链开发者。如果是的话，请随时[注册 Moralis 家](https://admin.moralis.io/register)并加入我们这个奇妙的社区吧！**

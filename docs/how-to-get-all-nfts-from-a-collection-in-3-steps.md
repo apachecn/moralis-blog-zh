@@ -11,7 +11,7 @@
   });*
 ```
 
-*如果您已经熟悉了 [Moralis](https://moralis.io/) 以及它如何帮助您弥合 Web2 和 Web3 之间的开发差距，那么您可能有几个利用上述代码行的想法。但是，如果您是 Web3 开发的新手，请务必完成今天的教程。通过这样做，您将学会如何轻松地从集合中获取所有的 NFT。只需创建你的[免费道德账户](https://admin.moralis.io/register)并跟随我们。*
+*如果您已经熟悉了 [Moralis](https://moralis.io/) 以及它如何帮助您弥合 Web2 和 Web3 之间的开发差距，那么您可能有几个利用上述代码行的想法。但是，如果您是 Web3 开发的新手，请务必完成今天的教程。通过这样做，您将学会如何轻松地从集合中获取所有的 NFT。只需创建你的[免费 Moralis 账户](https://admin.moralis.io/register)并跟随我们。*
 
 *![Unlock the Power of Blockchain - Get All NFTs from Contract by Signing Up with Moralis.](img/776315699d4da3e5c69ca048fbcedf78.png)[**Sign Up with Moralis**](https://admin.moralis.io/register)
 
@@ -25,7 +25,7 @@
 
 此外，我们决定帮助您更上一层楼。因此，你也可以跟随我们的领导，创建一个简单的 NFT 探险家 dapp。这样，您将看到如何巧妙地利用由" *getContractNFTs* "端点提供的结果。
 
-然而，在我们邀请您卷起袖子按照我们的指示行动之前，我们需要确保您了解基础知识。因此，我们将首先解释什么是 NFT 和 NFT 集合。我们还将进一步了解 NFT 系列的终极开发工具——道德 NFT API。
+然而，在我们邀请您卷起袖子按照我们的指示行动之前，我们需要确保您了解基础知识。因此，我们将首先解释什么是 NFT 和 NFT 集合。我们还将进一步了解 NFT 系列的终极开发工具——Moralis NFT API。
 
 ![NFT Collections](img/b32bc0adee1c41d8b2e269b2eab39637.png)
 
@@ -76,9 +76,9 @@ NFT(不可替换令牌)是一种特殊的加密资产。根据“不可替换”
 
 **![Wizard pointing at text that says learn how to get all nfts from a collection.](img/33cfa3bc48198f9833bb71d7b455de74.png)
 
-### 步骤 1:建立道德观
+### 步骤 1:建立 Moralis 观
 
-要完成本教程并从集合中获取所有 NFT，您必须访问您的 Moralis 管理区。因此，请确保您创建了您的免费道德帐户。您可以使用简介中的链接或访问 Moralis 主页:
+要完成本教程并从集合中获取所有 NFT，您必须访问您的 Moralis 管理区。因此，请确保您创建了您的免费 Moralis 帐户。您可以使用简介中的链接或访问 Moralis 主页:
 
 ![](img/13308ae00dcbe83b6ebb43a30fc41489.png)
 
@@ -229,7 +229,7 @@ node index.ts
 
 ![](img/04c8224d15f60c3a9bca4a37d135f108.png)
 
-最后，这是一个视频教程，将向您展示如何创建一个 NodeJS 后端应用程序和 ReactJS 前端应用程序，并将它们结合在一起，创建一个很酷的 NFT 浏览器 d app 与道德:
+最后，这是一个视频教程，将向您展示如何创建一个 NodeJS 后端应用程序和 ReactJS 前端应用程序，并将它们结合在一起，创建一个很酷的 NFT 浏览器 d app 与 Moralis:
 
 [https://www.youtube.com/embed/3oUb9QGTXEU?feature=oembed](https://www.youtube.com/embed/3oUb9QGTXEU?feature=oembed)
 
@@ -237,6 +237,6 @@ node index.ts
 
 在今天的文章中，您有机会学习如何使用终极 NFT API 从集合中获取所有的 NFT。如果您不熟悉 Moralis，您还会了解到这个企业级 Web3 API 提供程序使您能够以简单的方式创建杀手级 dapps。我们还解释了什么是 NFT 和 NTF 集合。然而，本文的核心是我们的三步教程，重点是使用" *getContracNFTs* "端点。此外，通过完成本教程，您学习了如何轻松地找出一个集合中有多少个 NFT，以及其他一些细节。最后但同样重要的是，您还有机会跟随一个简短的视频教程并构建一个示例 NFT 探索者 dapp。因此，您现在知道了如何使用我们的示例 dapp 从集合中获取所有的 NFT。
 
-如果您喜欢今天的教程，并想继续探索 NFT 开发，请务必查看我们的其他 NFT API 操作指南，它们在 Moralis 的文档中等待着您。另一方面，您可能有兴趣探索其他区块链发展主题。在这种情况下，你应该访问道德 YouTube 频道和我们的 T2 区块链博客。那里的一些最新文章包括[加密钱包集成](https://moralis.io/crypto-wallet-integration-using-the-best-crypto-wallet-api/)、 [Web3 提供商](https://moralis.io/web3-provider-why-blockchain-developers-should-use-one/)、[面向企业的 web 3](https://moralis.io/web3-for-business-how-and-why-you-can-integrate-web3-into-your-enterprise/)，以及许多其他有趣的主题。
+如果您喜欢今天的教程，并想继续探索 NFT 开发，请务必查看我们的其他 NFT API 操作指南，它们在 Moralis 的文档中等待着您。另一方面，您可能有兴趣探索其他区块链发展主题。在这种情况下，你应该访问 Moralis YouTube 频道和我们的 T2 区块链博客。那里的一些最新文章包括[加密钱包集成](https://moralis.io/crypto-wallet-integration-using-the-best-crypto-wallet-api/)、 [Web3 提供商](https://moralis.io/web3-provider-why-blockchain-developers-should-use-one/)、[面向企业的 web 3](https://moralis.io/web3-for-business-how-and-why-you-can-integrate-web3-into-your-enterprise/)，以及许多其他有趣的主题。
 
-最后但同样重要的是，你可能会有兴趣去全职加密越早越好。如果是这样，你应该报名参加道德学院。在那里，你可以选择许多不同的课程，并获得区块链认证。然而，我们建议从[区块链和比特币基本面](https://academy.moralis.io/courses/blockchain-bitcoin-101)开始。****
+最后但同样重要的是，你可能会有兴趣去全职加密越早越好。如果是这样，你应该报名参加 Moralis 学院。在那里，你可以选择许多不同的课程，并获得区块链认证。然而，我们建议从[区块链和比特币基本面](https://academy.moralis.io/courses/blockchain-bitcoin-101)开始。****

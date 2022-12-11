@@ -87,7 +87,7 @@
 
 *有关“getNFTMetadata”端点的示例，请访问 Alchemy 的文档。*
 
-## 道德的 NFT API
+## Moralis 的 NFT API
 
 就像炼金术一样，Moralis 在 [Moralis 的文档](https://docs.moralis.io/)中为你提供了关于其 NFT API 的所有细节。详细信息位于“Web3 API(令牌、余额、NFTs)”菜单选项下:
 
@@ -168,9 +168,9 @@ curl -X 'GET' \
 
 关于其他 Moralis NFT API 端点的详细信息，请查阅 Moralis 的文件。自己挖掘也是自己决定的最好方法，这是 NFT API 备选方案中最好的。
 
-## 如何使用道德 NFT API
+## 如何使用 Moralis NFT API
 
-为了使用 Moralis NFT API，您需要首先[创建您的免费 Moralis 帐户](https://admin.moralis.io/register)。下一步是[创建一个道德服务器](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server):
+为了使用 Moralis NFT API，您需要首先[创建您的免费 Moralis 帐户](https://admin.moralis.io/register)。下一步是[创建一个 Moralis 服务器](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server):
 
 ![](img/12a2e0b18291e22f634f0fc768fff719.png)
 
@@ -194,8 +194,8 @@ curl -X 'GET' \
 
 ![](img/878bdc0aa0e2da275e15ce1e0e257517.png)
 
-如你所见，Alchemy 的 NFT API 仅限于两个端点，并且支持更少的链。因此，毫无疑问，Moralis 是目前所有 NFT API 替代品中最明显的选择。要开始使用这个强大的工具，现在创建您的免费道德帐户。此外，一定要访问 [Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 的博客](https://moralis.io/blog/)来获得免费的区块链发展教育。在那里，你可以深入了解这个改变世界的行业的许多热门方面。例如，我们的一些最新文章探讨了[无汽油交易](https://moralis.io/gasless-transactions-exploring-gasless-transactions-on-ethereum/)、 [Web3 登录](https://moralis.io/how-to-build-a-web3-login-in-5-steps/)和 [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/)、[以太坊汽油费](https://moralis.io/ethereum-gas-fees-the-ultimate-2022-guide/)、 [GameFi 和 play-to-earn (P2E)](https://moralis.io/what-is-gamefi-and-play-to-earn-p2e/) 、 [Web3 钱包](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/)、 [Android SDK 替代方案](https://moralis.io/walletconnect-android-sdk-alternative-authenticate-android-apps-withmoralis/)、 [DAO 智能合约示例](https://moralis.io/dao-smart-contract-example-dao-guide/)、 [ERC20 合约](https://moralis.io/what-are-erc20-contracts-full-erc20-contract-guide/)等等
+如你所见，Alchemy 的 NFT API 仅限于两个端点，并且支持更少的链。因此，毫无疑问，Moralis 是目前所有 NFT API 替代品中最明显的选择。要开始使用这个强大的工具，现在创建您的免费 Moralis 帐户。此外，一定要访问 [Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 的博客](https://moralis.io/blog/)来获得免费的区块链发展教育。在那里，你可以深入了解这个改变世界的行业的许多热门方面。例如，我们的一些最新文章探讨了[无汽油交易](https://moralis.io/gasless-transactions-exploring-gasless-transactions-on-ethereum/)、 [Web3 登录](https://moralis.io/how-to-build-a-web3-login-in-5-steps/)和 [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/)、[以太坊汽油费](https://moralis.io/ethereum-gas-fees-the-ultimate-2022-guide/)、 [GameFi 和 play-to-earn (P2E)](https://moralis.io/what-is-gamefi-and-play-to-earn-p2e/) 、 [Web3 钱包](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/)、 [Android SDK 替代方案](https://moralis.io/walletconnect-android-sdk-alternative-authenticate-android-apps-withmoralis/)、 [DAO 智能合约示例](https://moralis.io/dao-smart-contract-example-dao-guide/)、 [ERC20 合约](https://moralis.io/what-are-erc20-contracts-full-erc20-contract-guide/)等等
 
-另一方面，也有更专业的方法可用。通过注册道德学院，你可以更快地到达 T2，成为区块链的开发者。有了顶级的课程、支持性的社区和专业的导师，你应该很快就能成为全职的加密员。
+另一方面，也有更专业的方法可用。通过注册 Moralis 学院，你可以更快地到达 T2，成为区块链的开发者。有了顶级的课程、支持性的社区和专业的导师，你应该很快就能成为全职的加密员。
 
 ![](img/5f5cc042990c1144025453b9d0dcc6d3.png)

@@ -22,9 +22,9 @@
 
 ![Moving picture showing the functionalities of our finished dapp.](img/852c54352f1f23c5b68fed6f2dcd2a1d.png)
 
-然而，如果你只是一个有抱负的开发人员，我们建议按照我们的指示，在最后观看视频。因此，您将看到如何轻松地构建 dapps。接下来，我们将首先确保您知道 dapps 是什么。然后，我们将探索以太坊样板和道德。有了这些基础知识，您就可以为今天的演示项目做好准备了。然后，我们将指导您完成简单的三步过程，展示构建 dapps 的最简单方法。
+然而，如果你只是一个有抱负的开发人员，我们建议按照我们的指示，在最后观看视频。因此，您将看到如何轻松地构建 dapps。接下来，我们将首先确保您知道 dapps 是什么。然后，我们将探索以太坊样板和 Moralis。有了这些基础知识，您就可以为今天的演示项目做好准备了。然后，我们将指导您完成简单的三步过程，展示构建 dapps 的最简单方法。
 
-您还将获得 Web3 API 密钥——使用 Moralis API 的门户。此外，由于 Moralis 的跨链互操作性，您将看到如何关注其他 EVM 兼容链。因此，[创建您的免费道德账户](https://admin.moralis.io/register),跟随我们的脚步。
+您还将获得 Web3 API 密钥——使用 Moralis API 的门户。此外，由于 Moralis 的跨链互操作性，您将看到如何关注其他 EVM 兼容链。因此，[创建您的免费 Moralis 账户](https://admin.moralis.io/register),跟随我们的脚步。
 
 ![To become a more efficient Web3 developer, join Moralis Magazine.](img/5b5266e0abc11c1628c3fce7a7df4acc.png)[**Sign Up for Moralis Magazine**](https://admin.moralis.io/register) 
 
@@ -167,8 +167,8 @@ https://www.youtube.com/watch?v=Bb5Pc–kyAY
 
 ## **探索构建 Dapps 的最简单方法——总结**
 
-构建 dapps 最简单的方法是什么？它以终极以太坊样板结合道德力量的形式出现。这种方法可以让你在几分钟内准备好一个引人注目的 dapp。此外，这个样板 dapp 包括 Web3 身份验证，并显示连接的钱包的几个细节。此外，它让用户从大门就可以探索他们的交易、转账和余额。这些简洁的特性使这个样板文件成为各种 dapps 的一个很好的起点。
+构建 dapps 最简单的方法是什么？它以终极以太坊样板结合 Moralis 力量的形式出现。这种方法可以让你在几分钟内准备好一个引人注目的 dapp。此外，这个样板 dapp 包括 Web3 身份验证，并显示连接的钱包的几个细节。此外，它让用户从大门就可以探索他们的交易、转账和余额。这些简洁的特性使这个样板文件成为各种 dapps 的一个很好的起点。
 
-通过阅读本文，您还了解了如何获得 Moralis Web3 API 密钥。因此，您现在掌握了强大力量的钥匙，您可以用它来更深入地开发 Web3。一个很好的方法是专注于完成道德 YouTube 频道和道德博客上等待你的各种教程。例如，一些最新的主题向您展示如何[将 dapp 连接到 Polygon](https://moralis.io/tutorial-how-to-connect-a-dapp-to-polygon-network/) ，如何[克隆 Zapper](https://moralis.io/how-to-clone-zapper-in-less-than-1-hour/) ，如何[使用 Azure 函数](https://moralis.io/how-to-connect-playfab-with-web3-using-azure-functions/)连接到 PlayFab 与 Web3，如何[使用 NextJS](https://moralis.io/how-to-connect-metamask-to-website-with-nextjs/) 将 MetaMask 连接到网站，等等。
+通过阅读本文，您还了解了如何获得 Moralis Web3 API 密钥。因此，您现在掌握了强大力量的钥匙，您可以用它来更深入地开发 Web3。一个很好的方法是专注于完成 Moralis YouTube 频道和 Moralis 博客上等待你的各种教程。例如，一些最新的主题向您展示如何[将 dapp 连接到 Polygon](https://moralis.io/tutorial-how-to-connect-a-dapp-to-polygon-network/) ，如何[克隆 Zapper](https://moralis.io/how-to-clone-zapper-in-less-than-1-hour/) ，如何[使用 Azure 函数](https://moralis.io/how-to-connect-playfab-with-web3-using-azure-functions/)连接到 PlayFab 与 Web3，如何[使用 NextJS](https://moralis.io/how-to-connect-metamask-to-website-with-nextjs/) 将 MetaMask 连接到网站，等等。
 
-另一方面，你可能想通过注册“ [Moralis Web3 Dapp 编程](https://academy.moralis.io/courses/moralis-web3-dapp-programming)课程来采取更专业的方法。此外，注册还将为您提供在[道德学院](https://academy.moralis.io/)学习其他区块链发展课程的机会。因此，你将能够升级你的 Web3 游戏，并立即成为全职加密。作为奖励，你将成为加密领域最先进的社区之一的成员。
+另一方面，你可能想通过注册“ [Moralis Web3 Dapp 编程](https://academy.moralis.io/courses/moralis-web3-dapp-programming)课程来采取更专业的方法。此外，注册还将为您提供在[Moralis 学院](https://academy.moralis.io/)学习其他区块链发展课程的机会。因此，你将能够升级你的 Web3 游戏，并立即成为全职加密。作为奖励，你将成为加密领域最先进的社区之一的成员。

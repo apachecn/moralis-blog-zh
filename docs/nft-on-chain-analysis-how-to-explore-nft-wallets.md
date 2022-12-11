@@ -8,7 +8,7 @@
 
 在今天的“NFT 在线分析”课程中，我们将引导您完成以下几个阶段:
 
-1.  设置道德标准
+1.  设置 Moralis 标准
 2.  设置 API 速率限制
 3.  实施 NFT 链上分析
 4.  节点 JS 服务器设置
@@ -43,11 +43,11 @@
 
 ![](img/72c395cfabb6e097b7c0539feb113ec4.png)
 
-## 设置道德标准
+## 设置 Moralis 标准
 
 以下是完成初始 Moralis 设置所需的步骤，这将使您能够使用 Moralis 的 SDK:
 
-1.  首先，创建你的免费道德账户。进入 Moralis 的主页，点击“免费开始”按钮。但是，如果您已经有一个有效的帐户，只需登录到您的管理区:
+1.  首先，创建你的免费 Moralis 账户。进入 Moralis 的主页，点击“免费开始”按钮。但是，如果您已经有一个有效的帐户，只需登录到您的管理区:
 
 ![](img/c9342103048bce08e3593c9cec18182c.png)
 
@@ -108,7 +108,7 @@ Moralis.settings.setAPIRateLimit({
 })
 ```
 
-因此，为了避免限制，我们可以在“匿名”和“认证”值中添加两个零。接下来，我们需要通知我们的道德 dapp 我们正在使用这个云功能。因此，我们需要返回到 Moralis 管理区，点击“鲸鱼观察者”dapp 的“设置”按钮。然后，我们转到“云功能”部分:
+因此，为了避免限制，我们可以在“匿名”和“认证”值中添加两个零。接下来，我们需要通知我们的 Moralis dapp 我们正在使用这个云功能。因此，我们需要返回到 Moralis 管理区，点击“鲸鱼观察者”dapp 的“设置”按钮。然后，我们转到“云功能”部分:
 
 ![](img/f1d7fc82e08ca72739aae973c37051b7.png)
 
@@ -145,7 +145,7 @@ const Moralis = require("moralis/node");
 const fs = require("fs");
 ```
 
-然后，我们还需要添加我们的道德 dapps 的凭据:
+然后，我们还需要添加我们的 Moralis dapps 的凭据:
 
 ```js
 const serverUrl ="xxx";
@@ -164,7 +164,7 @@ const contractAddress = "0x23581767a106ae21c074b2276D25e5C3e136a68b"; //Moonbird
 
 当然，我们可以随时更改地址，专注于任何其他 NFT 收藏。
 
-### 道德的力量——使用“getContractNFTTransfers”API
+### Moralis 的力量——使用“getContractNFTTransfers”API
 
 有了上面几行代码，我们也为使用“getAllOwners()”函数(11:39)做好了一切准备。这是我们初始化 Moralis ("Moralis.start ")和光标的地方。然后，我们将创建“owners”对象、response(“RES”)变量和“accountedTokens”数组。此外，我们将使用一个“do-while”循环来完成所有的传输。在这个循环中，我们将使用上面介绍的“getContractNFTTransfers”API。
 
@@ -202,6 +202,6 @@ https://www.youtube.com/watch?v=gATX0yYMFYA&t=184s
 
 利用今天的文章，你有机会创建自己的 NFT 鲸鱼观察者 dapp。因此，你学会了如何毫不费力地做 NFT 链分析。此外，由于这一壮举的核心需要后端编程，我们主要集中在这方面。然而，多亏了 Moralis，您能够用一个 API 获得所有的链上 NFT 数据。除了完成初始的 Moralis 设置之外，你还必须设置 API 速率限制。然后你实现了 NFT 数据处理。结果，所有的链上数据都整齐地排列在两个 JSON 文件中。最后，您有机会使用我们的样板文件并创建一个整洁的 Web3 UI，以用户友好的方式显示数据。
 
-如果你喜欢这个示例项目，我们建议你访问[道德家的博客](https://moralis.io/blog/)和[道德家的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。这两个渠道都提供了大量有价值的内容。从现场讲解到详细的区块链开发教程。因此，在这里你可以了解更多关于 dapp 开发、 [Web3 认证](https://moralis.io/authentication/)，以及如何成为一名区块链开发者。关于 Moralis 最伟大的事情是，它使你能够使用你的前端技能成为一名 Web3 开发者。因此，你可以利用你的 JavaScript 熟练程度开发杀手级应用程序，或者用 Unity 开发 Web3 游戏。
+如果你喜欢这个示例项目，我们建议你访问[Moralis 家的博客](https://moralis.io/blog/)和[Moralis 家的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。这两个渠道都提供了大量有价值的内容。从现场讲解到详细的区块链开发教程。因此，在这里你可以了解更多关于 dapp 开发、 [Web3 认证](https://moralis.io/authentication/)，以及如何成为一名区块链开发者。关于 Moralis 最伟大的事情是，它使你能够使用你的前端技能成为一名 Web3 开发者。因此，你可以利用你的 JavaScript 熟练程度开发杀手级应用程序，或者用 Unity 开发 Web3 游戏。
 
 然而，如果你正在寻找一条通往全职加密的道路， [Moralis Academy](https://academy.moralis.io/) 可能是适合你的地方。这个在线教育平台提供大量专业的区块链发展课程。此外，它为您提供了个性化的学习路径、专家指导和最先进的社区之一。因此，它提供了一个神奇的酱弹射你在这个破坏性行业的职业生涯！

@@ -2,9 +2,9 @@
 
 > 原文：<https://moralis.io/connecting-web3-wallet-to-twitter-account/>
 
-在今天这个时代，大多数人都有一个 Twitter 账户。Twitter 拥有近 4 亿活跃用户，事实证明它非常受欢迎，尤其是在 Web3 和加密爱好者中。有了如此庞大的用户基础，让你的 dapps 使用 Twitter 进行 Web3 登录将是非常有益的。我们可以通过将 Web3 钱包连接到 Twitter 账户来实现这一点。使用 Web3Auth 和 [**Moralis**](https://moralis.io/) **这两个现象级工具，你可以轻松地将 Web3 登录用 Twitter 整合到你的** [**去中心化应用(dapps)**](https://moralis.io/decentralized-applications-explained-what-are-dapps/) **中。而且，在使用 Moralis 时，您不必手动实现这种** [**Web3 社交登录**](https://moralis.io/web3-social-login-sign-in-dapp-users-with-google-email-or-twitter/) **。完成此处演示的初始设置后，您可以轻松完成“将 Web3 钱包连接到 Twitter 帐户”功能。本质上，你可以从道德家的文档** [**中复制并粘贴代码片段，然后在创纪录的时间内完成这项任务！**](https://docs.moralis.io/)
+在今天这个时代，大多数人都有一个 Twitter 账户。Twitter 拥有近 4 亿活跃用户，事实证明它非常受欢迎，尤其是在 Web3 和加密爱好者中。有了如此庞大的用户基础，让你的 dapps 使用 Twitter 进行 Web3 登录将是非常有益的。我们可以通过将 Web3 钱包连接到 Twitter 账户来实现这一点。使用 Web3Auth 和 [**Moralis**](https://moralis.io/) **这两个现象级工具，你可以轻松地将 Web3 登录用 Twitter 整合到你的** [**去中心化应用(dapps)**](https://moralis.io/decentralized-applications-explained-what-are-dapps/) **中。而且，在使用 Moralis 时，您不必手动实现这种** [**Web3 社交登录**](https://moralis.io/web3-social-login-sign-in-dapp-users-with-google-email-or-twitter/) **。完成此处演示的初始设置后，您可以轻松完成“将 Web3 钱包连接到 Twitter 帐户”功能。本质上，你可以从 Moralis 家的文档** [**中复制并粘贴代码片段，然后在创纪录的时间内完成这项任务！**](https://docs.moralis.io/)
 
-接下来，您将有机会加入我们，创建一个 dapp 示例。后者将全部是关于 [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/)。当然，它将包括一个用 Twitter 完成 Web3 登录的选项。您将要学习的是使用熟悉的方法覆盖 Web3 登录的最简单的方法。因此，你将提高 [Web3 用户加入](https://moralis.io/how-to-boost-web3-user-onboarding-success-rates/)的成功率。在此过程中，您将学习如何设置您的 Web3Auth 和 Moralis 帐户。后者是最好的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)，能让你在几分钟内创建优秀的 dapps。这个用于加密操作系统的[Firebase 也是关于跨链互操作性的。因此，在所有受支持的链上将 Web3 钱包连接到 Twitter 账户成为可能。目前这些包括](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/)[以太坊](https://moralis.io/full-guide-what-is-ethereum/)、[多边形](https://moralis.io/how-to-connect-to-polygon-nodes/)、[雪崩](https://moralis.io/how-to-connect-to-avalanche-nodes/)、[索拉纳](https://moralis.io/how-to-create-a-solana-token-in-5-steps/)和 Fantom。所以，在继续之前，不要忘记[创建你的免费道德账户](https://admin.moralis.io/register)。
+接下来，您将有机会加入我们，创建一个 dapp 示例。后者将全部是关于 [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/)。当然，它将包括一个用 Twitter 完成 Web3 登录的选项。您将要学习的是使用熟悉的方法覆盖 Web3 登录的最简单的方法。因此，你将提高 [Web3 用户加入](https://moralis.io/how-to-boost-web3-user-onboarding-success-rates/)的成功率。在此过程中，您将学习如何设置您的 Web3Auth 和 Moralis 帐户。后者是最好的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)，能让你在几分钟内创建优秀的 dapps。这个用于加密操作系统的[Firebase 也是关于跨链互操作性的。因此，在所有受支持的链上将 Web3 钱包连接到 Twitter 账户成为可能。目前这些包括](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/)[以太坊](https://moralis.io/full-guide-what-is-ethereum/)、[多边形](https://moralis.io/how-to-connect-to-polygon-nodes/)、[雪崩](https://moralis.io/how-to-connect-to-avalanche-nodes/)、[索拉纳](https://moralis.io/how-to-create-a-solana-token-in-5-steps/)和 Fantom。所以，在继续之前，不要忘记[创建你的免费 Moralis 账户](https://admin.moralis.io/register)。
 
 ![](img/db2f41d8f1bf7f99826b14d94f666b7c.png)
 
@@ -124,9 +124,9 @@ const user = await Moralis.authenticate({
 
 以下是设置 Moralis 时需要经历的步骤:
 
-1.  [**登录你的道德利斯账户**](https://admin.moralis.io/login)——如果你还没有创建你的免费道德利斯账户，请使用本文开头的链接。
+1.  [**登录你的 Moralis 利斯账户**](https://admin.moralis.io/login)——如果你还没有创建你的免费 Moralis 利斯账户，请使用本文开头的链接。
 
-2.  [**创建一个道德服务器**](https://docs.moralis.io/moralis-dapp/getting-started/create-a-moralis-dapp#2.-create-a-moralis-server)–选择网络类型，输入您的服务器的详细信息，并启动服务器。
+2.  [**创建一个 Moralis 服务器**](https://docs.moralis.io/moralis-dapp/getting-started/create-a-moralis-dapp#2.-create-a-moralis-server)–选择网络类型，输入您的服务器的详细信息，并启动服务器。
 
 ![](img/36b4ac2791f1604649f563c5543f986c.png)
 
@@ -150,6 +150,6 @@ https://www.youtube.com/watch?v=44ItBuw86AA
 
 至此，您已经是 Web3 身份验证的半个专家了。您现在知道，使用正确的工具，您可以将 Web3 wallet 连接到 Twitter 帐户。您还将使用两个主要工具:Web3Auth 和 Moralis。将这些工具与您的 JavaScript 技能结合使用，您可以使用 Twitter 和其他社交媒体实现 Web3 登录。因此，您已经准备好接受更高级的 dapps，并使入职流程更加用户友好。
 
-然而，如果你想先建立你的自信，我们建议你做一些其他的例子项目。你可以在[道德博客](https://moralis.io/blog/)和[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)上找到它们。除了无数的范例项目，这两个渠道还涵盖了广泛的区块链发展主题。例如，一些最新的文章向您展示了如何[将 Web3 钱包连接到网站](https://moralis.io/how-to-connect-a-web3-wallet-to-a-website/)，[设置 BNB 钱包](https://moralis.io/binance-coin-wallet-guide-how-to-set-up-a-bnb-wallet/)，[创建 Web3 视频流服务](https://moralis.io/how-to-create-a-web3-video-streaming-service/)或 [Web3 网飞克隆](https://moralis.io/how-to-develop-a-web3-netflix-clone/)，以及[创建多链钱包](https://moralis.io/how-to-build-a-multi-chain-wallet-in-5-steps/)或 [ETH 钱包](https://moralis.io/how-to-create-an-eth-wallet-full-guide/)。此外，我们探索一切有关于 [NFT 公用事业](https://moralis.io/nft-utility-exploring-nft-use-cases-in-2022/)、[索拉纳是什么？](https://moralis.io/what-is-solana-the-full-2022-guide/)、Web3 游戏的[好处](https://moralis.io/benefits-of-web3-gaming-full-breakdown/)、 [Unity Web3](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/) 等等。因此，请确保充分利用这些有价值的内容。
+然而，如果你想先建立你的自信，我们建议你做一些其他的例子项目。你可以在[Moralis 博客](https://moralis.io/blog/)和[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)上找到它们。除了无数的范例项目，这两个渠道还涵盖了广泛的区块链发展主题。例如，一些最新的文章向您展示了如何[将 Web3 钱包连接到网站](https://moralis.io/how-to-connect-a-web3-wallet-to-a-website/)，[设置 BNB 钱包](https://moralis.io/binance-coin-wallet-guide-how-to-set-up-a-bnb-wallet/)，[创建 Web3 视频流服务](https://moralis.io/how-to-create-a-web3-video-streaming-service/)或 [Web3 网飞克隆](https://moralis.io/how-to-develop-a-web3-netflix-clone/)，以及[创建多链钱包](https://moralis.io/how-to-build-a-multi-chain-wallet-in-5-steps/)或 [ETH 钱包](https://moralis.io/how-to-create-an-eth-wallet-full-guide/)。此外，我们探索一切有关于 [NFT 公用事业](https://moralis.io/nft-utility-exploring-nft-use-cases-in-2022/)、[索拉纳是什么？](https://moralis.io/what-is-solana-the-full-2022-guide/)、Web3 游戏的[好处](https://moralis.io/benefits-of-web3-gaming-full-breakdown/)、 [Unity Web3](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/) 等等。因此，请确保充分利用这些有价值的内容。
 
-尽管如此，你可能会满怀信心地渴望[成为一名 Web3 开发人员](https://moralis.io/how-to-become-a-web3-developer-full-guide/)，并尽快成为全职加密人员。在这种情况下，你应该考虑采取更专业的方法。因此，[道德学院](https://academy.moralis.io/)可能就是你要去的地方。通过专业的[区块链发展课程](https://academy.moralis.io/all-courses)，先进的社区，个性化的学习路径和专家导师，你将最大限度地增加成功的机会。
+尽管如此，你可能会满怀信心地渴望[成为一名 Web3 开发人员](https://moralis.io/how-to-become-a-web3-developer-full-guide/)，并尽快成为全职加密人员。在这种情况下，你应该考虑采取更专业的方法。因此，[Moralis 学院](https://academy.moralis.io/)可能就是你要去的地方。通过专业的[区块链发展课程](https://academy.moralis.io/all-courses)，先进的社区，个性化的学习路径和专家导师，你将最大限度地增加成功的机会。

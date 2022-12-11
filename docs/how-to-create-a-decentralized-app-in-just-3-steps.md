@@ -4,13 +4,13 @@
 
 你想学习如何快速有效地创建一个去中心化的 app 吗？如果你的答案是“是”，那你就来对地方了。本教程将展示如何使用 [Moralis](https://moralis.io/) 通过三个简单的步骤创建一个去中心化的应用程序。如果这听起来很有趣，请继续阅读并探索构建 dapps 的最快方法之一！此外，如果您愿意，可以跳过本教程的步骤，使用下面的链接立即检查项目代码:
 
-**道德以太坊样板文档—**[**https://github . com/以太坊-样板/以太坊-样板**](https://github.com/ethereum-boilerplate/ethereum-boilerplate)
+**Moralis 以太坊样板文档—**[**https://github . com/以太坊-样板/以太坊-样板**](https://github.com/ethereum-boilerplate/ethereum-boilerplate)
 
 上面的链接把你带到了 Moralis 的以太坊样板 GitHub 库，这就是你如何能够只用三个步骤创建一个去中心化的应用程序。这与 Moralis 的企业级 Web3 APIs 等令人惊叹的开发工具相结合，使 dapp 开发变得更加容易，从而使您能够更快地创建复杂的 Web3 项目！
 
 例如，Moralis [认证 API](https://docs.moralis.io/reference/auth-api-overview) 使得 [Web3 认证](https://moralis.io/authentication/)相对容易访问。此外，例如，使用 API，您可以使用单个代码片段向您的项目添加几种身份验证机制。以太坊样板最初的特点是元掩码认证；然而，举例来说，你可以用 RainbowKit 轻松地[添加一个标志。](https://moralis.io/how-to-add-a-sign-in-with-rainbowkit-to-your-project-in-5-steps/)
 
-那么，你是否在寻找一个去中心化的应用？如果是这种情况，请确保现在就注册道德来提高你的效率和效力！
+那么，你是否在寻找一个去中心化的应用？如果是这种情况，请确保现在就注册 Moralis 来提高你的效率和效力！
 
 ## 什么是去中心化 App？
 
@@ -75,7 +75,7 @@ https://www.youtube.com/watch?v=Bb5Pc–kyAY
 
 ## 用 3 个步骤创建一个去中心化的应用程序——完全分解
 
-为了让这个“创建一个去中心化的应用”教程更容易理解，我们将把这个部分分成三个小节——每个步骤一个小节。因此，我们将通过向您展示如何克隆道德以太坊样板文件来开始本教程。接下来，您需要配置一些环境变量。最后，剩下的就是启动应用程序，您自己可以确保一切都按预期运行。
+为了让这个“创建一个去中心化的应用”教程更容易理解，我们将把这个部分分成三个小节——每个步骤一个小节。因此，我们将通过向您展示如何克隆 Moralis 以太坊样板文件来开始本教程。接下来，您需要配置一些环境变量。最后，剩下的就是启动应用程序，您自己可以确保一切都按预期运行。
 
 然而，在我们继续向您展示如何克隆模板之前，您必须拥有一个 Moralis 帐户。此外，这是定制环境变量时的一个要求。因此，如果您还没有注册，您可以通过点击 Moralis 网站右上角的“免费开始”来注册。
 
@@ -85,7 +85,7 @@ https://www.youtube.com/watch?v=Bb5Pc–kyAY
 
 ![](img/1d80585dbaf175ea4870af29b0243b34.png)
 
-### 步骤 1:克隆道德以太坊样板代码
+### 步骤 1:克隆 Moralis 以太坊样板代码
 
 为了创建一个去中心化的应用，你需要做的第一件事就是克隆 Moralis 的以太坊样板代码。为此，请导航到 Ethereum 样板 GitHub 存储库，我们在本文开始时链接了这个存储库。点击此链接后，您可以点击绿色的“代码”按钮并复制 URL:
 

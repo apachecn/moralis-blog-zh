@@ -1,4 +1,4 @@
-# 道德杂志第 26 期——在熊市中成长！
+# Moralis 杂志第 26 期——在熊市中成长！
 
 > 原文：<https://moralis.io/moralis-magazine-26-build-in-the-bear-market/>
 
@@ -8,7 +8,7 @@
 
 ![](img/5f5699d38678406879c11338aa1be037.png)
 
-你在用道德建造什么？你卡住了吗？向我们提出问题和意见。谁知道呢，我们甚至可能会在未来的杂志上直接回复你！
+你在用 Moralis 建造什么？你卡住了吗？向我们提出问题和意见。谁知道呢，我们甚至可能会在未来的杂志上直接回复你！
 
 [**发送您的问题给我们**](https://ivanontech.typeform.com/to/R9K5lnGe)
 
@@ -16,7 +16,7 @@
 
 今天在红色角落的是 Ethers.js，蓝色角落的是 Web3.js，这两个 JavaScript 库会如何叠加？加入我们，Moralis 专家 Chris 将带领我们深入 JS 图书馆实验室，提供两种解决方案的并排比较，以及何时最好使用其中一种:[https://www.youtube.com/watch?v=n1IXEp9q9AE](https://www.youtube.com/watch?v=n1IXEp9q9AE)。
 
-## **道德模板宝库**
+## **Moralis 模板宝库**
 
 您是否厌倦了每个开发项目都从零开始？
 
@@ -30,17 +30,17 @@ Unity 游戏引擎模板:[https://github . com/ether eum-boilerplate/ether eum-u
 
 NFT 市场模板:[https://github . com/ether eum-boilerplate/ether eum-NFT-market place-Template](https://github.com/ethereum-boilerplate/ethereum-nft-marketplace-template)
 
-其他较小的道德标准模板:[https://github.com/ethereum-boilerplate](https://github.com/ethereum-boilerplate)
+其他较小的 Moralis 标准模板:[https://github.com/ethereum-boilerplate](https://github.com/ethereum-boilerplate)
 
 对我们的样板来说是全新的吗？看看这个视频指南:
 
 https://www.youtube.com/watch?v=gc0kEjjWobc&t=1s
 
-你们每个人都是非凡事物的一部分，这本杂志就是要让道德的力量为你所用！
+你们每个人都是非凡事物的一部分，这本杂志就是要让 Moralis 的力量为你所用！
 
-我们都是道德家，在这里互相支持。如果你不是已经活跃在[道貌岸然道不和](https://discord.com/invite/P9N9HF97hH)的话，今天就是让你登场的日子。
+我们都是 Moralis 家，在这里互相支持。如果你不是已经活跃在[道貌岸然道不和](https://discord.com/invite/P9N9HF97hH)的话，今天就是让你登场的日子。
 
-在道德道的冲突中，你会发现一堆道德专家和法师同伴。发布您的项目并从社区获得反馈，参与编码挑战，并了解最新的 Moralis 特性和更新。
+在 Moralis 道的冲突中，你会发现一堆 Moralis 专家和法师同伴。发布您的项目并从社区获得反馈，参与编码挑战，并了解最新的 Moralis 特性和更新。
 
 * * *
 
@@ -76,10 +76,10 @@ https://youtu.be/NC7T1Li9wjE
 
 * * *
 
-感谢阅读！我们希望本周的道德杂志对你有用。
+感谢阅读！我们希望本周的 Moralis 杂志对你有用。
 
 继续建造！
 
 下次见💚
 
-道德研究小组
+Moralis 研究小组

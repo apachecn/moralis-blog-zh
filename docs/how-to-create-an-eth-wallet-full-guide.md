@@ -4,7 +4,7 @@
 
 随着快速发展的去中心化 [**Web3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) **互联网和传统货币通胀率的飙升，我们看到越来越多的人觉得 Web3 有利。举个例子，当分析** [**Web3 钱包**](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/) **的活跃用户数时，数字激增！此外，随着** [**以太坊**](https://moralis.io/full-guide-what-is-ethereum/) **成为可编程区块链的庞然大物，我们意识到拥有一个 ETH 钱包将是各种可用选项中更有益的选择之一。有了 ETH 钱包，我们可以进入元宇宙，与 dapps(**[](https://moralis.io/decentralized-applications-explained-what-are-dapps/)****)进行我们从未想象过的互动。如果你已经决定创建一个 ETH 钱包来利用这无尽的机会，请跟随这篇文章，我们将解释如何快速创建一个 ETH 钱包！如果你是密码领域的新手，不要担心；这篇文章不仅适合有经验的人，也可以作为创建 ETH 钱包的“初学者指南”。****
 
-**在这里，您将首先了解以太坊钱包的相关基础知识。此外，我们将快速概述一些重要的工具。然而，我们将主要关注如何创建一个最适合网络用户的 ETH 钱包。因此，[成为 Web3 开发者](https://moralis.io/how-to-become-a-web3-developer-full-guide/)也是一个“必须具备”的条件。如果你想的是[超屏蔽](https://moralis.io/metamask-explained-what-is-metamask/)，那你就对了。这款著名的热门加密钱包易于创建，并且本身支持 ETH。此外，您还可以轻松地将其他兼容 [EVM](https://moralis.io/evm-explained-what-is-ethereum-virtual-machine/) 的区块链网络添加到 MetaMask 中。因此，它支持广泛的加密货币和 dapps。此外，由于[Moralis](https://moralis.io/)meta mask 集成，您的 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 或 Unity 技能可以用来创建非凡的 dapps。所以，如果你想进入 Web3，那么“开发者的元掩码”应该在你的考虑范围之内。如果您已经准备好了元蒙版，[创建您的免费道德账户](https://admin.moralis.io/register)并开始构建！**
+**在这里，您将首先了解以太坊钱包的相关基础知识。此外，我们将快速概述一些重要的工具。然而，我们将主要关注如何创建一个最适合网络用户的 ETH 钱包。因此，[成为 Web3 开发者](https://moralis.io/how-to-become-a-web3-developer-full-guide/)也是一个“必须具备”的条件。如果你想的是[超屏蔽](https://moralis.io/metamask-explained-what-is-metamask/)，那你就对了。这款著名的热门加密钱包易于创建，并且本身支持 ETH。此外，您还可以轻松地将其他兼容 [EVM](https://moralis.io/evm-explained-what-is-ethereum-virtual-machine/) 的区块链网络添加到 MetaMask 中。因此，它支持广泛的加密货币和 dapps。此外，由于[Moralis](https://moralis.io/)meta mask 集成，您的 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 或 Unity 技能可以用来创建非凡的 dapps。所以，如果你想进入 Web3，那么“开发者的元掩码”应该在你的考虑范围之内。如果您已经准备好了元蒙版，[创建您的免费 Moralis 账户](https://admin.moralis.io/register)并开始构建！**
 
 **![](img/ef08880f90e687c9d85ac62eef42ba1a.png)
 
@@ -175,7 +175,7 @@
 
 #### 如何自动向元掩码添加其他链
 
-为了使用 Moralis 满足您的后端需求，您需要创建您的免费 Moralis 帐户。这样做，你就可以进入你的道德管理区。此外，在这里你可以通过点击一个按钮来访问 Moralis Speedy Nodes 并添加某些网络。例如，以下是 BNB 链条公司(原 BSC)需要遵循的步骤:
+为了使用 Moralis 满足您的后端需求，您需要创建您的免费 Moralis 帐户。这样做，你就可以进入你的 Moralis 管理区。此外，在这里你可以通过点击一个按钮来访问 Moralis Speedy Nodes 并添加某些网络。例如，以下是 BNB 链条公司(原 BSC)需要遵循的步骤:
 
 1.  点击侧面菜单标签中的“快速节点”:
 
@@ -193,8 +193,8 @@
 
 ## 如何创建以太网钱包-摘要
 
-您现在对 ETH 和 ETH wallets 有了正确的理解。此外，您知道创建 ETH 钱包的几种方法。此外，您还学会了如何使用实用工具来帮助您选择最合适的以太坊钱包。然而，因为我们想帮助你[成为区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，我们已经向你展示了如何使用 MetaMask 创建一个 ETH 钱包。此外，为了进一步增强您的能力，我们为您提供了将一些最流行的可编程链添加到元掩码所需的详细信息。因此，你可以把你的 ETH 钱包变成一个 [BSC 钱包](https://moralis.io/bsc-wallet-guide-how-to-set-up-a-binance-smart-chain-wallet/) (BNB)，多边形钱包，或者雪崩钱包。尽管如此，一路走来，你也读到了道德(又名[密码](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/)的 Firebase)。这是当前 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)的顶峰，也是你创建优秀 Web3 应用程序的终极捷径。
+您现在对 ETH 和 ETH wallets 有了正确的理解。此外，您知道创建 ETH 钱包的几种方法。此外，您还学会了如何使用实用工具来帮助您选择最合适的以太坊钱包。然而，因为我们想帮助你[成为区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，我们已经向你展示了如何使用 MetaMask 创建一个 ETH 钱包。此外，为了进一步增强您的能力，我们为您提供了将一些最流行的可编程链添加到元掩码所需的详细信息。因此，你可以把你的 ETH 钱包变成一个 [BSC 钱包](https://moralis.io/bsc-wallet-guide-how-to-set-up-a-binance-smart-chain-wallet/) (BNB)，多边形钱包，或者雪崩钱包。尽管如此，一路走来，你也读到了 Moralis(又名[密码](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/)的 Firebase)。这是当前 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)的顶峰，也是你创建优秀 Web3 应用程序的终极捷径。
 
-学习如何使用 Moralis 的最好方法是参与一些有趣的示例项目。你可以在[道德的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)或者[的道德博客](https://moralis.io/blog/)上挑选。一些最新的话题集中在如何整合 [NFT 的能量](https://moralis.io/develop-a-web3-game-with-nft-power-ups-in-9-minutes/)、 [DeFi staking](https://moralis.io/what-is-defi-staking-full-guide/) ，如何[构建一个元宇宙游戏](https://moralis.io/how-to-build-a-metaverse-game-in-25-minutes/)，如何[降低固体气体成本](https://moralis.io/how-to-reduce-solidity-gas-costs-full-guide/)，如何[与来自 Unity 的 Web3 数据库](https://moralis.io/how-to-communicate-with-a-web3-database-from-unity/)通信，如何[创建一个以太坊 NFT](https://moralis.io/how-to-create-an-ethereum-nft-full-guide/) 、[为什么 Web3 很重要](https://moralis.io/why-is-web3-important-a-beginners-guide/)，如何构建一个 [2D Web3 游戏](https://moralis.io/how-to-build-a-2d-web3-game-full-guide%ef%bf%bc/)此外，这两个出口都是免费持续加密教育的伟大资源。
+学习如何使用 Moralis 的最好方法是参与一些有趣的示例项目。你可以在[Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)或者[的 Moralis 博客](https://moralis.io/blog/)上挑选。一些最新的话题集中在如何整合 [NFT 的能量](https://moralis.io/develop-a-web3-game-with-nft-power-ups-in-9-minutes/)、 [DeFi staking](https://moralis.io/what-is-defi-staking-full-guide/) ，如何[构建一个元宇宙游戏](https://moralis.io/how-to-build-a-metaverse-game-in-25-minutes/)，如何[降低固体气体成本](https://moralis.io/how-to-reduce-solidity-gas-costs-full-guide/)，如何[与来自 Unity 的 Web3 数据库](https://moralis.io/how-to-communicate-with-a-web3-database-from-unity/)通信，如何[创建一个以太坊 NFT](https://moralis.io/how-to-create-an-ethereum-nft-full-guide/) 、[为什么 Web3 很重要](https://moralis.io/why-is-web3-important-a-beginners-guide/)，如何构建一个 [2D Web3 游戏](https://moralis.io/how-to-build-a-2d-web3-game-full-guide%ef%bf%bc/)此外，这两个出口都是免费持续加密教育的伟大资源。
 
-然而，你可能渴望尽快成为全职加密员。如果是这样，你可能需要采取更专业的方法。因此，[道德学院](https://academy.moralis.io/)可能正是你所需要的。顶级的[区块链发展课程](https://academy.moralis.io/all-courses)，个性化的学习路径，专业的导师，以及赋权的社区在另一边等着你！****
+然而，你可能渴望尽快成为全职加密员。如果是这样，你可能需要采取更专业的方法。因此，[Moralis 学院](https://academy.moralis.io/)可能正是你所需要的。顶级的[区块链发展课程](https://academy.moralis.io/all-courses)，个性化的学习路径，专业的导师，以及赋权的社区在另一边等着你！****

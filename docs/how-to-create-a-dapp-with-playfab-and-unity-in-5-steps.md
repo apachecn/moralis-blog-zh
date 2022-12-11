@@ -8,13 +8,13 @@
 
 ***   完成初始 Microsoft Azure PlayFab 设置*   设置 Azure 函数*   使用 Visual Studio 代码创建 Azure 函数(VSC)*   使用 VSC 部署 Azure 功能*   设置 Unity 并将其与 Microsoft Azure PlayFab 连接**
 
-**然而，在我们处理以上五个步骤之前，我们需要向你展示如何[创建你的免费道德账户](https://admin.moralis.io/register)。后者将是你获得 Moralis Web3 API 密匙的门票，在设置 Azure 函数时你将需要它。因此，如果你想用 PlayFab 创建一个 dapp，创建一个 Moralis 帐户是一个先决条件。此外，在我们卷起袖子之前，您应该注意到 Moralis 是跨链互操作的。因此，它使您能够轻松地针对所有领先的可编程区块链，包括以太坊，索拉纳，雪崩，多边形，BNB 链，克罗诺斯等。反过来，您可以快速扩展您的覆盖范围，让您的 dapps 经得起未来考验！**
+**然而，在我们处理以上五个步骤之前，我们需要向你展示如何[创建你的免费 Moralis 账户](https://admin.moralis.io/register)。后者将是你获得 Moralis Web3 API 密匙的门票，在设置 Azure 函数时你将需要它。因此，如果你想用 PlayFab 创建一个 dapp，创建一个 Moralis 帐户是一个先决条件。此外，在我们卷起袖子之前，您应该注意到 Moralis 是跨链互操作的。因此，它使您能够轻松地针对所有领先的可编程区块链，包括以太坊，索拉纳，雪崩，多边形，BNB 链，克罗诺斯等。反过来，您可以快速扩展您的覆盖范围，让您的 dapps 经得起未来考验！**
 
 **![](img/acf5758999dc184bfce40836f98a4723.png)
 
 ## 创建一个以 PlayFab 和 Unity 为主要前提的 Dapp
 
-如上所述，您需要准备好您的 Moralis 帐户，以便获得您的 Moralis Web3 API 密钥。后者将是设置 Azure 函数时的一个重要部分。所以，如果你还没有这样做，使用“创建你的免费道德账户”链接。另一方面，您也可以访问 Moralis 主页，点击“免费开始”按钮之一:
+如上所述，您需要准备好您的 Moralis 帐户，以便获得您的 Moralis Web3 API 密钥。后者将是设置 Azure 函数时的一个重要部分。所以，如果你还没有这样做，使用“创建你的免费 Moralis 账户”链接。另一方面，您也可以访问 Moralis 主页，点击“免费开始”按钮之一:
 
 ![](img/5a2df87d1d7320b7eab894e9847b955c.png)
 
@@ -106,11 +106,11 @@
 
 *   **第二应用设置:**
 
-*   名称:"*道德认证应用编程接口 URL* "
+*   名称:"*Moralis 认证应用编程接口 URL* "
 *   值:"*https://authapi.moralis.io/*"
 
 *   **第三应用设置:**
-    *   名称:"*道德 _WEB3_API_URL* "
+    *   名称:"*Moralis _WEB3_API_URL* "
     *   值:"*https://deep-index.moralis.io/api/v2*"
 *   **第四应用设置:**
     *   名称:" *PLAYFAB_TITLE_ID* "
@@ -223,9 +223,9 @@ var args = context.FunctionArgument;
 
 有关这两种方法的详细代码演练，请使用 [Moralis 的文档](https://docs.moralis.io/docs/using-unity-playfab)。“挑战请求方法”部分将带您了解“*挑战请求*方法的详细信息。此外，“挑战验证方法”部分将带您了解“*挑战验证*方法。
 
-此外，在文档中，您将学习如何添加检索钱包余额的方法，包括可替换和不可替换的令牌(NFT)。这就是道德的力量让事情变得轻而易举的地方。
+此外，在文档中，您将学习如何添加检索钱包余额的方法，包括可替换和不可替换的令牌(NFT)。这就是 Moralis 的力量让事情变得轻而易举的地方。
 
-*注:* *使用之前的“GitHub”链接或访问“完整的道德展示 Fab.cs”部分查看完整代码。*
+*注:* *使用之前的“GitHub”链接或访问“完整的 Moralis 展示 Fab.cs”部分查看完整代码。*
 
 ## 使用 PlayFab 创建 Dapp–步骤 4:使用 VSC 部署 Azure 功能
 
@@ -233,7 +233,7 @@ var args = context.FunctionArgument;
 
 ![](img/5bd17c192e9dc40396ccf34a49c00623.png)
 
-一旦登录 Azure，你就可以右键单击“道德 AzureFunctions”。然后，选择“部署到功能应用程序”选项:
+一旦登录 Azure，你就可以右键单击“Moralis AzureFunctions”。然后，选择“部署到功能应用程序”选项:
 
 ![](img/b9970c75b6753aa89720dd2ccca91baa.png)
 
@@ -295,6 +295,6 @@ var args = context.FunctionArgument;
 
 在本文中，您学习了如何使用 PlayFab 和 Unity 创建 dapp。此外，您可以看到，由于最终的 Web3 API 提供者 Moralis，您可以非常容易地添加 Web3 功能。此外，通过使用 Visual Studio 代码，您发现了如何创建和部署 Azure 函数。然后，使用 PlayFab 仪表板中的“自动化”选项，我们向您展示了如何注册这些功能。最终，通过利用 Moralis 的力量，您能够使用遗留开发工具创建一个演示 dapp。最后但同样重要的是，您也有机会探索了我们的示例 Web3 游戏，甚至尝试了一下。Moralis 提供了令人惊叹的认证功能——例如使用 Django 的[元掩码认证以及如何使用魔法](https://moralis.io/how-to-add-metamask-authentication-with-django-in-5-steps/)[添加登录。链接](https://moralis.io/add-sign-in-with-magic-link-to-your-nextjs-project-in-5-steps/)。
 
-此外，现在你知道如何用 PlayFab 和 Unity 创建 dapp，你可以更深入地研究 [Web3 游戏设计](https://moralis.io/web3-game-design-explaining-the-web3-game-design-process/)。然而，如果你首先需要一些额外的练习，一定要去探索一下[道德的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德的博客](https://moralis.io/blog/)。这两个网站都有大量优秀的教程，可以帮助你免费成为一名 dapp 开发者。
+此外，现在你知道如何用 PlayFab 和 Unity 创建 dapp，你可以更深入地研究 [Web3 游戏设计](https://moralis.io/web3-game-design-explaining-the-web3-game-design-process/)。然而，如果你首先需要一些额外的练习，一定要去探索一下[Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 的博客](https://moralis.io/blog/)。这两个网站都有大量优秀的教程，可以帮助你免费成为一名 dapp 开发者。
 
-另一方面，你可能渴望尽快成为全职加密员。在这种情况下，成为区块链认证通常会有所不同。如果你对此感兴趣，你应该考虑报名参加[道德学院](https://academy.moralis.io/)！**
+另一方面，你可能渴望尽快成为全职加密员。在这种情况下，成为区块链认证通常会有所不同。如果你对此感兴趣，你应该考虑报名参加[Moralis 学院](https://academy.moralis.io/)！**

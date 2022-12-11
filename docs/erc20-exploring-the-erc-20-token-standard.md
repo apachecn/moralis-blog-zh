@@ -4,7 +4,7 @@
 
 **由于** [**以太坊**](https://moralis.io/full-guide-what-is-ethereum/) **链的流行和可编程性，我们已经看到无数基于 ERC-20 令牌标准的令牌涌现出来。根据 Etherscan 的数据，目前有超过 450，000 份 ERC20 令牌合同。我们必须承认，这个数字是完全疯狂的；但是，您也应该记住，新的令牌仍然每天都在创建。ERC20 令牌的增加并不令人惊讶，因为许多程序员正在转向** [**以太坊开发**](https://moralis.io/ethereum-development-for-beginners/) **。因此，对于那些刚刚开始区块链之旅并希望进一步探索 ERC-20 令牌标准的人来说，这篇文章将被证明是有益的，因为它将扩展您的 ERC20 知识。**
 
-如果你一直想知道 ERC20 到底是什么意思，那你来对地方了。在这里，我们将深入探讨 ERC-20 令牌标准。因此，我们会回答，“什么是 ERC20？”，“ERC20 代表什么？”甚至“如何[创建一个 ERC20 令牌](https://moralis.io/how-to-create-your-own-erc-20-token-in-10-minutes/)？”。对于后者，最快也是最简单的方法就是[创建你的免费道德账户](https://admin.moralis.io/register)。由于 [Moralis](https://moralis.io/) 是最终的 Web3 开发平台，创建 ERC20 令牌仅仅是个开始。
+如果你一直想知道 ERC20 到底是什么意思，那你来对地方了。在这里，我们将深入探讨 ERC-20 令牌标准。因此，我们会回答，“什么是 ERC20？”，“ERC20 代表什么？”甚至“如何[创建一个 ERC20 令牌](https://moralis.io/how-to-create-your-own-erc-20-token-in-10-minutes/)？”。对于后者，最快也是最简单的方法就是[创建你的免费 Moralis 账户](https://admin.moralis.io/register)。由于 [Moralis](https://moralis.io/) 是最终的 Web3 开发平台，创建 ERC20 令牌仅仅是个开始。
 
 例如，有了 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) 、 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 及其终极[以太坊 API](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) ，部署令牌的过程，包括[NFT](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/)([ERC 721](https://moralis.io/erc-721-token-standard-how-to-transfer-erc721-tokens/)和 [ERC1155](https://moralis.io/erc1155-exploring-the-erc-1155-token-standard/) )，以及开发各种跨链可操作的[dapp](https://moralis.io/decentralized-applications-explained-what-are-dapps/)变得简单明了。此外，Moralis 的平台本质上是 crypto 的 Firebase，这意味着它提供了创建非凡的 dApps(分散应用程序)所需的所有必要工具。此外，你也可以使用最好的[以太坊 dApp 样板](https://moralis.io/ethereum-dapp-boilerplate-full-ethereum-react-boilerplate-tutorial/)，在创纪录的时间内准备好你的下一个 dApp。
 
@@ -93,7 +93,7 @@ ERC20 标准也被称为“ERC20 合同”。那是因为这个技术标准是�
 
 有了这些工具，您可以在几分钟内[创建自己的 ERC-20 令牌](https://moralis.io/how-to-create-your-own-erc-20-token-in-10-minutes/)，这个过程从完成以下四个步骤开始:
 
-1.  建立一个道德快速节点。
+1.  建立一个 Moralis 快速节点。
 2.  导入一个 OpenZeppelin 包/添加一个 pragma 行。
 3.  创建一个象征性契约。
 4.  测试合同是否正常工作。
@@ -108,6 +108,6 @@ https://youtu.be/KNBneUpFaGo
 
 除了在包括以太坊、 [BSC](https://moralis.io/bsc-programming-guide-intro-to-binance-smart-chain-development-in-10-minutes/) 、[、雪崩](https://moralis.io/how-to-build-avalanche-dapps-in-minutes/)和[多边形](https://moralis.io/how-to-create-a-polygon-token/)在内的几个领先链上创建可替换代币之外，你还可以使用 Moralis 来应对各种区块链开发挑战。由于 NFT 现在非常流行，你可能想要[开发你自己的 NFT 市场](https://moralis.io/develop-your-own-nft-marketplace-step-by-step-guide/)或者简单地创建一个 [OpenSea 克隆](https://moralis.io/opensea-clone-create-an-nft-marketplace-like-opensea/)，或者学习[生成和铸造 NFT](https://moralis.io/nft-generate-and-mint-how-to-generate-non-fungible-tokens/)。此外，构建您的第一个 dApp 的时机从未如此之好，有了 Moralis 的支持，您可以通过五个简单的步骤创建一个 DeFi 仪表板。此外，通过在 Moralis 的帮助下进行开发，您将不会局限于单个链，因为它的基础中已经建立了跨链的互操作性。这样，您可以先创建以太坊 dApps，然后通过简单的点击将它们部署到其他链中。
 
-如果你想成为一名区块链开发者，我们建议你去看看 T2 的道德 YouTube 频道和 T4 的道德博客，在那里你会找到大量免费的有价值的内容。此外，你可以考虑报名参加[道德学院](https://academy.moralis.io/)。
+如果你想成为一名区块链开发者，我们建议你去看看 T2 的 Moralis YouTube 频道和 T4 的 Moralis 博客，在那里你会找到大量免费的有价值的内容。此外，你可以考虑报名参加[Moralis 学院](https://academy.moralis.io/)。
 
 ![](img/c67fe5400ccabf77510159cef51d97aa.png)

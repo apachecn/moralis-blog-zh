@@ -54,9 +54,9 @@
 
 如果你已经参与了 Web3 的开发，我们要祝贺你做出了这个聪明而大胆的决定，提前做全职加密。然而，如果你还没有把你的编程技能集中在这个成长中的行业，我们强烈建议你尽早这样做。如果您认为 dApp 开发似乎很困难且耗时，让我们向您保证事实并非如此。当然，前提是你有合适的工具。
 
-你能马上获得优势的最好工具是道德。这个终极的 Web3 开发平台使您能够将最大的注意力放在前端开发和用户体验上。怎么会？ [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 为你提供了简短的、通常只有一行的代码，这些代码负责后端所有艰巨的编程工作。这样，你可以在几小时甚至几分钟内开发出通常需要几个月的东西。这听起来好得难以置信吗？如果是这样，看看我们如何利用道德的力量[在三分钟内建立一个简单的 dApp](https://docs.moralis.io/guides/build-a-simple-dapp-in-3-minutes)。还有一件事，你可以开始免费使用道德。因此，请确保[今天就创建您的免费账户](https://admin.moralis.io/register)，并在短时间内开始提供出色的 dApps！
+你能马上获得优势的最好工具是 Moralis。这个终极的 Web3 开发平台使您能够将最大的注意力放在前端开发和用户体验上。怎么会？ [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 为你提供了简短的、通常只有一行的代码，这些代码负责后端所有艰巨的编程工作。这样，你可以在几小时甚至几分钟内开发出通常需要几个月的东西。这听起来好得难以置信吗？如果是这样，看看我们如何利用 Moralis 的力量[在三分钟内建立一个简单的 dApp](https://docs.moralis.io/guides/build-a-simple-dapp-in-3-minutes)。还有一件事，你可以开始免费使用 Moralis。因此，请确保[今天就创建您的免费账户](https://admin.moralis.io/register)，并在短时间内开始提供出色的 dApps！
 
-那么，道德与菲亚特网关有什么关系呢？多亏了 [Moralis 的插件](https://moralis.io/introducing-moralis-plugins/)，您现在可以轻松地将 fiat onramp 功能添加到您的 Web3 应用程序中！
+那么，Moralis 与菲亚特网关有什么关系呢？多亏了 [Moralis 的插件](https://moralis.io/introducing-moralis-plugins/)，您现在可以轻松地将 fiat onramp 功能添加到您的 Web3 应用程序中！
 
 ![](img/799e9668774d29f2ccf64d240657c9c9.png)
 

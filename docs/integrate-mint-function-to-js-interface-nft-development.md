@@ -4,13 +4,13 @@
 
 任何涉及加密领域的人可能都会同意，2021 年是[](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/)****年。尽管比特币和以太坊获得了巨大收益，但非金融交易却风靡一时。现在，当我们走向 Web3 的主流应用时，学习** [**NFT 令牌开发**](https://moralis.io/nft-token-development-the-ultimate-guide/) **是一项在有抱负的区块链开发者中日益流行的技能。此外，随着对 JavaScript (JS)的深入理解，现在可以快速、轻松地集成 NFT 开发中所需的特定功能。其中一个功能是 mint 功能，它在构建 NFT 基础设施时起着相当重要的作用。因此，知道如何将 mint 功能集成到 JS 接口是你应该掌握的技能。****
 
-**接下来，您将了解更多关于终极 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台——[Moralis](https://moralis.io/)(也称为[crypto 的 Firebase】)。这是一个工具，它使精通 JavaScript 的开发者能够在几分钟内部署各种优秀的 dApps。通过使用 Moralis，您可以克服 RPC 节点](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/)的所有[限制。本质上，Moralis 使您能够通过复制和粘贴简短的代码片段来覆盖所有与区块链相关的后端。后者在](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/) [Moralis 文档](https://docs.moralis.io/)中有清晰的描述。此外，如果你真的想成为一名区块链开发者，请确保在前进之前创建你的免费道德账户。这样，你将访问 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) ，包括它的[终极 NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 。NFT API 使你能够毫不费力地将 mint 函数集成到 JS 接口中。**
+**接下来，您将了解更多关于终极 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台——[Moralis](https://moralis.io/)(也称为[crypto 的 Firebase】)。这是一个工具，它使精通 JavaScript 的开发者能够在几分钟内部署各种优秀的 dApps。通过使用 Moralis，您可以克服 RPC 节点](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/)的所有[限制。本质上，Moralis 使您能够通过复制和粘贴简短的代码片段来覆盖所有与区块链相关的后端。后者在](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/) [Moralis 文档](https://docs.moralis.io/)中有清晰的描述。此外，如果你真的想成为一名区块链开发者，请确保在前进之前创建你的免费 Moralis 账户。这样，你将访问 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) ，包括它的[终极 NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 。NFT API 使你能够毫不费力地将 mint 函数集成到 JS 接口中。**
 
 **![](img/38b3746b7c489fe384d73c51e3c1c572.png)
 
 ## 为什么铸造 NFT 很重要？
 
-你对什么是 NFT 已经有一个清晰的概念了吗？NFT 造币厂是什么样的？如果是的话，那么你就知道为什么铸造 NFTs 很重要了。那样的话，你也知道为什么要学习把 mint 功能集成到 JS 接口中了。因此，你已经准备好卷起袖子，寻找更多关于如何使用道德的细节。但是，如果您还不了解这些基础知识，请务必完成这一部分。
+你对什么是 NFT 已经有一个清晰的概念了吗？NFT 造币厂是什么样的？如果是的话，那么你就知道为什么铸造 NFTs 很重要了。那样的话，你也知道为什么要学习把 mint 功能集成到 JS 接口中了。因此，你已经准备好卷起袖子，寻找更多关于如何使用 Moralis 的细节。但是，如果您还不了解这些基础知识，请务必完成这一部分。
 
 不可替换令牌(NFT)是一种特殊的加密资产。此外，NFTs 包括一个文件(JPG、PNG、MP3、MP4、PDF 等。)并将它及其元数据存储在特定的区块链上。虽然两个 NFT 可能包含同一个文件，但它们的元数据总是唯一的。因此，永远不会有两个相同的非功能性测试；因此，术语“不可替代”。此外，就像可替换的令牌一样，NFT 可以在各种可编程链上创建，以太坊仍然是首选。此外，以太坊上的可替换令牌遵循 [ERC-20 令牌标准](https://moralis.io/erc20-exploring-the-erc-20-token-standard/)，而以太坊上的 NFT 使用 [ERC-721](https://moralis.io/erc-721-token-standard-how-to-transfer-erc721-tokens/) 或 [ERC-1155](https://moralis.io/erc1155-exploring-the-erc-1155-token-standard/) 。*在创建 NFT 时，对这些标准有一个基本的了解是至关重要的，所以一定要查看相关链接。*
 
@@ -36,7 +36,7 @@
 
 如果您想使用 Moralis 构建一个 NFT 交易接口，并将 mint 功能集成到 JS 接口中，您需要首先创建您的 Moralis 服务器。以下是完成初始设置需要遵循的步骤:
 
-1.  [**创建你的免费道德账户**](https://admin.moralis.io/register)——点击左边的链接，你就可以创建你的免费道德账户了。在接下来的页面中，只需输入您的电子邮件地址，创建您的密码，然后点击确认链接完成整个过程，确认链接将发送到您的电子邮件中。*另一方面，如果你已经有了一个 Moralis 账号，只需* [*登录*](https://admin.moralis.io/login) *。*
+1.  [**创建你的免费 Moralis 账户**](https://admin.moralis.io/register)——点击左边的链接，你就可以创建你的免费 Moralis 账户了。在接下来的页面中，只需输入您的电子邮件地址，创建您的密码，然后点击确认链接完成整个过程，确认链接将发送到您的电子邮件中。*另一方面，如果你已经有了一个 Moralis 账号，只需* [*登录*](https://admin.moralis.io/login) *。*
 
 2.  [**创建 Moralis 服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)–进入 Moralis 管理区域后，在导航选项卡中选择左侧的“服务器”选项。接下来，单击右上角的“+创建新服务器”按钮。然后从下拉菜单中选择最适合您需求的网络类型(见下图)。*无论何时，当你在开发你的想法的时候，你都可以选择“测试网服务器”选项(* [*连接以太网测试网*](https://moralis.io/ethereum-testnet-guide-connect-to-ethereum-testnets/) *)。*
 
@@ -78,7 +78,7 @@ https://youtu.be/EMOYpgl5S1w
 
 ## 如何将 Mint 功能集成到 JS 界面
 
-准备好您的 NFT 交易接口(您可以使用我们上面的例子)，继续将 mint 功能集成到 JS 接口。只需遵循以下视频中道德专家的指导即可。他将向你展示如何从零开始建立一个 NFT 明特 dApp。但是，您可以使用该指南将 mint 功能添加到您现有的界面中。此外，通过在新的标签页或窗口中打开此处分享的视频，您可以在视频的描述中访问每个相关项目(在 GitHub)的完整代码。
+准备好您的 NFT 交易接口(您可以使用我们上面的例子)，继续将 mint 功能集成到 JS 接口。只需遵循以下视频中 Moralis 专家的指导即可。他将向你展示如何从零开始建立一个 NFT 明特 dApp。但是，您可以使用该指南将 mint 功能添加到您现有的界面中。此外，通过在新的标签页或窗口中打开此处分享的视频，您可以在视频的描述中访问每个相关项目(在 GitHub)的完整代码。
 
 https://youtu.be/WdQHnb_5m5Q
 
@@ -102,10 +102,10 @@ https://youtu.be/tBMk1iZa85Y
 
 ## 将 Mint 功能集成到 JS 界面–总结
 
-在这篇文章中，我们已经讨论了很多内容。在这一点上，你知道什么是 NFT，什么是 NFT 铸币，为什么它是重要的，以及如何设置道德来帮助你与你的 NFT 发展。因此，您现在知道，有了 Moralis 的 NFT API，将 NFT 功能与出色的前端体验结合起来比以往任何时候都更容易。此外，Moralis 的专家向您展示了如何创建自己的 NFT 交易界面，以及如何将 mint 功能集成到 JS 界面中。此外，您还有机会跟随视频教程，将懒惰铸币和 NFT 稀有添加到您的 NFT 平台。尽管如此，您还有机会学习如何创建和启动您自己的 NFT。
+在这篇文章中，我们已经讨论了很多内容。在这一点上，你知道什么是 NFT，什么是 NFT 铸币，为什么它是重要的，以及如何设置 Moralis 来帮助你与你的 NFT 发展。因此，您现在知道，有了 Moralis 的 NFT API，将 NFT 功能与出色的前端体验结合起来比以往任何时候都更容易。此外，Moralis 的专家向您展示了如何创建自己的 NFT 交易界面，以及如何将 mint 功能集成到 JS 界面中。此外，您还有机会跟随视频教程，将懒惰铸币和 NFT 稀有添加到您的 NFT 平台。尽管如此，您还有机会学习如何创建和启动您自己的 NFT。
 
 如果你想在 NFT 发展项目之外拓展你的区块链技能，我们建议你访问 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)。这两个渠道都提供了大量有价值的免费内容，包括详细的示例项目。例如，我们的一些最新文章讨论了 [ERC20 传输](https://moralis.io/erc20-transfer-how-to-transfer-erc20-tokens/)、[智能合约索引的图形替代方案](https://moralis.io/the-graph-alternative-for-smart-contract-indexing/)，如何[连接到 Arbitrum 节点](https://moralis.io/full-guide-how-to-connect-to-arbitrum-nodes/)，如何[连接到雪崩节点](https://moralis.io/how-to-connect-to-avalanche-nodes/)，在 Angular 中构建[以太坊 dapp](https://moralis.io/how-to-build-ethereum-dapps-in-angular/)，如何[快速贷款](https://moralis.io/how-do-flash-loans-work-full-walkthrough/)工作，如何[构建跨链桥](https://moralis.io/how-to-build-a-cross-chain-bridge/)，如何在以太坊上进行[无气体交易](https://moralis.io/how-to-do-gasless-transactions-on-ethereum/)
 
-除了免费的区块链发展教育，你可能要考虑一个更专业的方法。因此，你可以报名参加[道德学院](https://academy.moralis.io/)的一些高质量课程。后者使您能够最大限度地优化您的加密教育。除了优秀的课程，你还有机会接触经验丰富的导师。因此，道德学院是最好的方式去全职加密宜早不宜迟。
+除了免费的区块链发展教育，你可能要考虑一个更专业的方法。因此，你可以报名参加[Moralis 学院](https://academy.moralis.io/)的一些高质量课程。后者使您能够最大限度地优化您的加密教育。除了优秀的课程，你还有机会接触经验丰富的导师。因此，Moralis 学院是最好的方式去全职加密宜早不宜迟。
 
 ![](img/455d8251b74b58a8b91e84b84f00f799.png)**

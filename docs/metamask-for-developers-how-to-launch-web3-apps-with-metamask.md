@@ -52,7 +52,7 @@ MetaMask 不仅在管理加密资产方面非常出色，而且对于开发人�
 
 ## 如何使用 MetaMask 启动 Web3 应用程序
 
-MetaMask 作为开发人员的一个工具是非常有益的，并提供了一个更容易访问的开发过程。将 MetaMask 集成到 dApps 中并不容易，但是使用 Moralis，通过一行代码就可以做到。此外，在本教程中，我们将从头开始创建一个完整的 Web3 应用程序，它可以发送、交换、传输、查看余额等等。因为我们将使用道德，这个过程变得非常容易。事实上，我们只是要在 Visual Studio 代码(VSC)中创建新项目，并导入一个样板文件。
+MetaMask 作为开发人员的一个工具是非常有益的，并提供了一个更容易访问的开发过程。将 MetaMask 集成到 dApps 中并不容易，但是使用 Moralis，通过一行代码就可以做到。此外，在本教程中，我们将从头开始创建一个完整的 Web3 应用程序，它可以发送、交换、传输、查看余额等等。因为我们将使用 Moralis，这个过程变得非常容易。事实上，我们只是要在 Visual Studio 代码(VSC)中创建新项目，并导入一个样板文件。
 
 然而，如果你更喜欢观看 YouTube 视频，解释如何使用 MetaMask 启动 Web3 应用程序，请查看来自 [Moralis YouTube 频道](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw)的以下视频:
 
@@ -62,7 +62,7 @@ https://www.youtube.com/watch?v=9kdVAeZ7knk
 
 ### 面向开发人员的元掩码–创建 Moralis 服务器
 
-如果你还没有，这个过程的第一步是注册道德。注册是完全免费的，只需要几秒钟。一旦您有了一个帐户，我们就可以通过点击 Moralis 管理面板顶部的“创建新服务器”来创建一个服务器。这样做将提供一个带有几个选项的下拉菜单；但是，我们将选择“Mainnet 服务器”替代方案。
+如果你还没有，这个过程的第一步是注册 Moralis。注册是完全免费的，只需要几秒钟。一旦您有了一个帐户，我们就可以通过点击 Moralis 管理面板顶部的“创建新服务器”来创建一个服务器。这样做将提供一个带有几个选项的下拉菜单；但是，我们将选择“Mainnet 服务器”替代方案。
 
 单击此按钮后，我们需要输入一个名称，选择一个地区，然后选择“网络”。对于本教程，我们将选择所有可用的网络，因为 Moralis 是跨链兼容的。此外，完成所有选择后，我们可以通过单击右下角的“Add Instance”按钮启动服务器。
 
@@ -115,12 +115,12 @@ yarn run start
 
 如您所见，在 Web3 应用程序的顶部有一个导航栏，其中有几个不同的选项。在右上角，还有一个认证按钮。如果用户点按此按钮，他们将被要求使用 MetaMask 进行鉴定。
 
-此外，还有“钱包”、“指数”、“余额”等附加标签。，这些都是开箱即用的全功能产品。因此，这证明了与道德家合作是多么容易。所有这些都已经添加到 dApp 中，这意味着当涉及到例如[区块链语言](https://moralis.io/best-languages-for-blockchain-development-full-tutorial/)如 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 或 [Solidity](https://moralis.io/solidity-explained-what-is-solidity/) 时，你不需要高级开发经验。
+此外，还有“钱包”、“指数”、“余额”等附加标签。，这些都是开箱即用的全功能产品。因此，这证明了与 Moralis 家合作是多么容易。所有这些都已经添加到 dApp 中，这意味着当涉及到例如[区块链语言](https://moralis.io/best-languages-for-blockchain-development-full-tutorial/)如 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 或 [Solidity](https://moralis.io/solidity-explained-what-is-solidity/) 时，你不需要高级开发经验。
 
-现在剩下的就是让你根据自己的喜好定制 Web3 应用了。例如，您可以删除元素、添加新元素或修改现有的替代元素。所以，如果你想成为一名区块链开发者，你可以仔细看看 T2 的道德博客，寻找更多的灵感！
+现在剩下的就是让你根据自己的喜好定制 Web3 应用了。例如，您可以删除元素、添加新元素或修改现有的替代元素。所以，如果你想成为一名区块链开发者，你可以仔细看看 T2 的 Moralis 博客，寻找更多的灵感！
 
 ## 如何使用 MetaMask 启动 Web3 应用程序–总结
 
-与道德家合作时，建立 dApps 并不一定很困难。在本文中，我们展示了如何利用 MetaMask 在几分钟内启动简单的 Web3 应用程序，这要归功于该平台的工具和以太坊样板代码。我们需要做的就是创建一个 Moralis 服务器，安装样板文件，并初始化 Moralis。然而，这仅仅触及了道德的表面。为了进一步说明道德的力量，请查看下面的文章:T2 如何免费铸造 NFT，T4 如何构建跨链 dApp，或者 T6 如何主持 dApp。
+与 Moralis 家合作时，建立 dApps 并不一定很困难。在本文中，我们展示了如何利用 MetaMask 在几分钟内启动简单的 Web3 应用程序，这要归功于该平台的工具和以太坊样板代码。我们需要做的就是创建一个 Moralis 服务器，安装样板文件，并初始化 Moralis。然而，这仅仅触及了 Moralis 的表面。为了进一步说明 Moralis 的力量，请查看下面的文章:T2 如何免费铸造 NFT，T4 如何构建跨链 dApp，或者 T6 如何主持 dApp。
 
 所以，如果你想为你的下一个区块链项目节省时间和资源，就马上和 Moralis 签约吧。它是完全免费的，您可以在几分钟内开始开发，所以不要犹豫！**

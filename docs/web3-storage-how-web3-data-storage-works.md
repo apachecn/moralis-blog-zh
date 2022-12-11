@@ -6,7 +6,7 @@
 
 当构建 dapps 或创建加密资产时，您总是需要存储一些数据。因此，作为 dapp 开发人员，您必须知道如何使用 Web3 数据存储，这正是本文将帮助您掌握的内容。接下来，我们将首先通过解释什么是 Web3 存储来介绍基础知识。我们还会告诉你 Web3 数据存储在哪里。然后，我们将对分散式数据存储解决方案进行适当的介绍。此外，我们将仔细研究两个著名的 Web3 文件存储替代方案，它们在某种程度上是互补的。在这里，您将了解更多关于 IPFS 和 Filecoin 的信息。最后但同样重要的是，我们还将解释使用最流行的 Web3 存储解决方案和 [Moralis](https://moralis.io/) 有多简单。
 
-尽管如此，如果你想跳过这个理论，跳到今天文章的最后一部分，请确保首先[创建你的免费道德账户](https://admin.moralis.io/register)。这样，你就可以在本文末尾跟随我们的脚步，毫不费力地上传你自己的文件。
+尽管如此，如果你想跳过这个理论，跳到今天文章的最后一部分，请确保首先[创建你的免费 Moralis 账户](https://admin.moralis.io/register)。这样，你就可以在本文末尾跟随我们的脚步，毫不费力地上传你自己的文件。
 
 ![digital art image showing six nodes connected via a grid](img/8c3f13f43b655b33bca358058e500f3b.png)
 
@@ -97,8 +97,8 @@ const response = await Moralis.EvmApi.ipfs.uploadFolder({ abi });
 
 如果您已经学习了上述部分，那么您现在应该知道什么是 Web3 存储以及 Web3 数据存储在哪里。此外，您了解了什么是领先的分散式数据存储解决方案。在列出的解决方案中，我们仔细研究了 IPFS 和 Filecoin，它们在某种程度上是互补的。最后，您还了解了 Moralis 的" *uploadFolder* " IPFS API 端点，使您能够轻松地将文件上传到 IPFS。
 
-我们希望今天的文章能给你带来适当的启发，这样你就能确保在你的 Web3 开发工作中使用 IPFS、Filecoin 或任何其他可靠的 Web3 数据存储解决方案。毕竟作为 dapp 开发者，你自动成为了互联网新时代的大使。因此，不要忘记权力下放和真正所有权的重要性。此外，一定要探索其他道德 web 3 API([令牌 API](https://moralis.io/token-api/) 、 [NFT API](https://moralis.io/nft-api/) 、 [Web3 认证 API](https://moralis.io/authentication/) 、[流 API](https://moralis.io/streams/) 等。).有了这些工具，dapp 开发将变得轻而易举！
+我们希望今天的文章能给你带来适当的启发，这样你就能确保在你的 Web3 开发工作中使用 IPFS、Filecoin 或任何其他可靠的 Web3 数据存储解决方案。毕竟作为 dapp 开发者，你自动成为了互联网新时代的大使。因此，不要忘记权力下放和真正所有权的重要性。此外，一定要探索其他 Moralis web 3 API([令牌 API](https://moralis.io/token-api/) 、 [NFT API](https://moralis.io/nft-api/) 、 [Web3 认证 API](https://moralis.io/authentication/) 、[流 API](https://moralis.io/streams/) 等。).有了这些工具，dapp 开发将变得轻而易举！
 
-另一方面，在你有足够的信心开始创建杀手级 dapps 之前，你可能需要学习更多关于区块链开发的知识。在这种情况下，你有两个选择。你可以利用 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)——这两个渠道旨在支持你的免费加密教育。或者，你可以采取更专业的方法，进入[道德学院](https://academy.moralis.io/)。如果你选择前者，请务必阅读我们的一些最新文章，包括“ [Python 和 Web3](https://moralis.io/python-and-web3-a-web3-and-python-tutorial-for-blockchain-development/) ”、关于 [Web3 通知邮件的教程](https://moralis.io/how-to-set-up-automated-web3-notification-emails-with-python/)、[最佳 ERC20 令牌平衡 API](https://moralis.io/the-best-erc20-token-balance-api-for-dapp-development/) 等等。然而，如果你决定在区块链发展教育中采取更专业的方法，我们建议从[区块链和比特币基础](https://academy.moralis.io/courses/blockchain-bitcoin-101)开始。
+另一方面，在你有足够的信心开始创建杀手级 dapps 之前，你可能需要学习更多关于区块链开发的知识。在这种情况下，你有两个选择。你可以利用 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)——这两个渠道旨在支持你的免费加密教育。或者，你可以采取更专业的方法，进入[Moralis 学院](https://academy.moralis.io/)。如果你选择前者，请务必阅读我们的一些最新文章，包括“ [Python 和 Web3](https://moralis.io/python-and-web3-a-web3-and-python-tutorial-for-blockchain-development/) ”、关于 [Web3 通知邮件的教程](https://moralis.io/how-to-set-up-automated-web3-notification-emails-with-python/)、[最佳 ERC20 令牌平衡 API](https://moralis.io/the-best-erc20-token-balance-api-for-dapp-development/) 等等。然而，如果你决定在区块链发展教育中采取更专业的方法，我们建议从[区块链和比特币基础](https://academy.moralis.io/courses/blockchain-bitcoin-101)开始。
 
 ![a certification example from moralis academy](img/81fdc34f2108bc72e2a27f24680465fa.png)*

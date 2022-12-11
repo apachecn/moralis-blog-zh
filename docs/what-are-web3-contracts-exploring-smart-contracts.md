@@ -76,17 +76,17 @@ https://www.youtube.com/watch?v=zBoebkpjZco
 
 有一种方法可以简化 Web3 合同和你的网站之间的交互。你不需要从零开始建立你的区块链基础设施。如果您有一个现有的或已经建成的网站，您可以使用 Moralis APIs 将其连接到区块链和区块链相关的功能。
 
-### **道德 API**
+### **Moralis API**
 
 Web3 合同带来无限可能。此外，您可以使用 Moralis 易于使用的 API 快速接入 Web3 和元宇宙。以下是 Moralis 最受欢迎的 API 的一些例子:
 
-### 1.**道德 NFT API**
+### 1.**Moralis NFT API**
 
-道德家的 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 是终极的不可替代的令牌 API。如果你想参与到爆炸的 NFT 空间或者创建一个连接到元宇宙的 dapp，NFT API 是最简单的入门方式。
+Moralis 家的 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 是终极的不可替代的令牌 API。如果你想参与到爆炸的 NFT 空间或者创建一个连接到元宇宙的 dapp，NFT API 是最简单的入门方式。
 
 ![](img/0c4204e21a7c8f65e4714d32684fa488.png)
 
-无论你想建立一个 NFT 市场还是创建一个 NFT dapp，道德 NFT API 都是你可靠的 Web3 门户。此 API 允许您检索以下信息:
+无论你想建立一个 NFT 市场还是创建一个 NFT dapp，Moralis NFT API 都是你可靠的 Web3 门户。此 API 允许您检索以下信息:
 
 *   您所在市场的 NFT 价格
 *   NFT 元数据
@@ -97,7 +97,7 @@ Web3 合同带来无限可能。此外，您可以使用 Moralis 易于使用的
 *   NFT 系列的详细信息
 *   还有更多
 
-此外，道德 NFT API 是一个易于管理的索引 API，仅使用单行代码即可运行。此外，这是在 NFT 上获取链上数据的最无缝的方式，您可以将其用于多种目的，包括广泛流行的用例，如创建 NFT 游戏。
+此外，Moralis NFT API 是一个易于管理的索引 API，仅使用单行代码即可运行。此外，这是在 NFT 上获取链上数据的最无缝的方式，您可以将其用于多种目的，包括广泛流行的用例，如创建 NFT 游戏。
 
 ### 2. **Moralis 的价格 API**
 
@@ -135,7 +135,7 @@ Web3 合约也是元宇宙游戏中的一个强大工具。它们是数字资产
 
 ![](img/e8f9b355108fce2b4a698b44fe8230c2.png)
 
-为了运用 Web3 契约的力量并充分利用它们所赋予的优势，您需要使用最可靠和最具创新性的 Web3 开发平台。借助 Moralis SDK，Moralis 将您的区块链开发游戏提升到一个全新的水平。道德元宇宙 SDK 是将智能合约和主要游戏开发平台结合在一起的最强大的工具包。当掌握了 Web3 契约，你应该求助于这个强大的 SDK 来完成你的 dapp 开发。更重要的是，它可以与 Unity、Xbox、iOS 和 PlayStation 兼容。
+为了运用 Web3 契约的力量并充分利用它们所赋予的优势，您需要使用最可靠和最具创新性的 Web3 开发平台。借助 Moralis SDK，Moralis 将您的区块链开发游戏提升到一个全新的水平。Moralis 元宇宙 SDK 是将智能合约和主要游戏开发平台结合在一起的最强大的工具包。当掌握了 Web3 契约，你应该求助于这个强大的 SDK 来完成你的 dapp 开发。更重要的是，它可以与 Unity、Xbox、iOS 和 PlayStation 兼容。
 
 Moralis 允许您跨多个区块链和平台利用智能合约的力量。它还支持所有后端基础设施，让您能够无缝构建。因此，你可以专注于你的前端，绕过智能合约的繁重工作。
 

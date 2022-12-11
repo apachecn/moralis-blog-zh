@@ -12,7 +12,7 @@
 
 除非你一直生活在岩石下，否则你一定听说过首屈一指的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台——[Moralis](https://moralis.io/)。这个“[的加密](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/)平台已经打破了区块链的开发模式有一段时间了。目前，它在开发者中的采用率是最高的。怎么会这样首先，它使开发人员能够轻松克服 RPC 节点的所有[限制。通过使用终极](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)[以太坊 dApp 样板](https://moralis.io/ethereum-dapp-boilerplate-full-ethereum-react-boilerplate-tutorial/)，Moralis 使您能够在几分钟内部署[分散式应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/) (dApps)。此外，正如您现在可能已经意识到的，Moralis 是整个“获取 OpenSea API 密钥”主题的解决方案。
 
-实质上，Moralis 为您提供了一个 [OpenSea API 替代方案](https://moralis.io/opensea-api-alternative-list-nfts-with-this-opensea-plugin/)，因此解决了对 NFT API 密钥的巨大需求。有了道德 T2 NFT API T3，你就可以和 OpenSea 互动了。此外，您还将了解 [NFT 代币开发](https://moralis.io/nft-token-development-the-ultimate-guide/)、 [NFT 游戏开发](https://moralis.io/nft-game-development-how-to-build-an-nft-game-app-in-minutes/)、[创建自己的 NFT 市场](https://moralis.io/how-to-create-an-nft-marketplace/)、[构建 NFT 交易界面](https://moralis.io/build-an-nft-trading-interface-full-guide/)等等。因此，[今天就创建您的免费道德账户](https://admin.moralis.io/register)并克服“获取 OpenSea API 密钥”的挑战！
+实质上，Moralis 为您提供了一个 [OpenSea API 替代方案](https://moralis.io/opensea-api-alternative-list-nfts-with-this-opensea-plugin/)，因此解决了对 NFT API 密钥的巨大需求。有了 Moralis T2 NFT API T3，你就可以和 OpenSea 互动了。此外，您还将了解 [NFT 代币开发](https://moralis.io/nft-token-development-the-ultimate-guide/)、 [NFT 游戏开发](https://moralis.io/nft-game-development-how-to-build-an-nft-game-app-in-minutes/)、[创建自己的 NFT 市场](https://moralis.io/how-to-create-an-nft-marketplace/)、[构建 NFT 交易界面](https://moralis.io/build-an-nft-trading-interface-full-guide/)等等。因此，[今天就创建您的免费 Moralis 账户](https://admin.moralis.io/register)并克服“获取 OpenSea API 密钥”的挑战！
 
 ![](img/0805afe43762119bd1172c5eab4ac307.png)
 
@@ -20,13 +20,13 @@
 
 开发人员在试图获得 OpenSea API 密钥时所面临的挑战看起来几乎是荒谬的。事实上，甚至有 OpenSea API 关键 Reddit 线程，据称有卖家出售 OpenSea API。现在，您可能仍然想知道，“如何获得 OpenSea API 密钥？”。目前，这几乎是不可能的。此外，开发者不需要通过 OpenSea API 密匙 Reddit 卖家购买 API 密匙。
 
-可以想象，当开发人员开发他们的项目时，这个问题给他们带来了很大的障碍。幸运的是，你现在知道 Moralis 提供了一个解决方案。具体来说，通过 Moralis NFT API，您可以轻松地构建自己的 NFT 平台，并且不需要担心获得 OpenSea API 密钥。此外，在构建像 NFT 市场这样的 Web3 项目时，你有两种选择:从头开始，或者使用最实用的 [Web3 样板文件](https://moralis.io/web3-boilerplate-beginners-guide-to-web3/)走捷径。通过克隆 [GitHub 代码](https://github.com/ethereum-boilerplate/ethereum-boilerplate)，你可以在几分钟内快速启动一个拥有整洁 UI 的全功能 dApp。无论你决定专注于哪条道路，道德 NFT API 都会支持你。另一方面，如果你喜欢花几个小时搜索 OpenSea API 的关键 Reddit 线程，无论如何，试试吧。
+可以想象，当开发人员开发他们的项目时，这个问题给他们带来了很大的障碍。幸运的是，你现在知道 Moralis 提供了一个解决方案。具体来说，通过 Moralis NFT API，您可以轻松地构建自己的 NFT 平台，并且不需要担心获得 OpenSea API 密钥。此外，在构建像 NFT 市场这样的 Web3 项目时，你有两种选择:从头开始，或者使用最实用的 [Web3 样板文件](https://moralis.io/web3-boilerplate-beginners-guide-to-web3/)走捷径。通过克隆 [GitHub 代码](https://github.com/ethereum-boilerplate/ethereum-boilerplate)，你可以在几分钟内快速启动一个拥有整洁 UI 的全功能 dApp。无论你决定专注于哪条道路，Moralis NFT API 都会支持你。另一方面，如果你喜欢花几个小时搜索 OpenSea API 的关键 Reddit 线程，无论如何，试试吧。
 
 ![](img/7f4520007b2cef97be7078bc43467a13.png)
 
 ## 获取 OpenSea API 关键替代项
 
-在这一点上，您知道 Moralis 为您提供了一种获得 OpenSea API 密钥替代的方法。具体来说，道德 NFT API 是 OpenSea API 的替代品。此外，要使用这些非凡的工具，您需要完成初始设置。因此，我们决定将事情分解成简单的步骤，我们将在下面介绍。
+在这一点上，您知道 Moralis 为您提供了一种获得 OpenSea API 密钥替代的方法。具体来说，Moralis NFT API 是 OpenSea API 的替代品。此外，要使用这些非凡的工具，您需要完成初始设置。因此，我们决定将事情分解成简单的步骤，我们将在下面介绍。
 
 所有你需要做的基本上只是调整代码。为此，您需要使用代码编辑器(我们更喜欢 Visual Studio 代码[VSC])。此外，我们不仅会带您浏览代码，我们甚至会为您提供完整的代码。
 
@@ -108,7 +108,7 @@ function App() {
 	}, []);
 ```
 
-这就涵盖了 *"App.js"* 文件的要旨。这是对道德 NFT API 的一个很好的补充，这使你能够得到 OpenSea API 的关键替代品。
+这就涵盖了 *"App.js"* 文件的要旨。这是对 Moralis NFT API 的一个很好的补充，这使你能够得到 OpenSea API 的关键替代品。
 
 ### 代码演练–添加功能
 
@@ -139,7 +139,7 @@ const getAsset = async () => {
 
 ![](img/ad7365035cefec07bcde87a355bb3648.png)
 
-此外，我们需要提到道德。Plugins.opensea.getAsset "。这就是 Moralis 为与特定令牌地址和令牌 ID 相关的链上信息施展魔法的地方。我们建议您使用示例资产。然后，使用浏览器的控制台查看 dApp 的运行情况:
+此外，我们需要提到 Moralis。Plugins.opensea.getAsset "。这就是 Moralis 为与特定令牌地址和令牌 ID 相关的链上信息施展魔法的地方。我们建议您使用示例资产。然后，使用浏览器的控制台查看 dApp 的运行情况:
 
 ![](img/1d309654f62f733a17187bbbc8cc1a4e.png)
 
@@ -219,8 +219,8 @@ https://www.youtube.com/watch?v=r2YFhfjIb3k
 
 ## 获取 OpenSea API 密钥并避免 Reddit 黄牛——摘要
 
-不幸的是，当开发者想要获得 OpenSea API 密钥时，他们面临着严峻的挑战。事情发展到目前为止，许多 OpenSea API 密钥 Reddit 黄牛现在正在出售这些受欢迎的 API 密钥。幸运的是，还有另一种选择，叫做道德。后者附带了最终的 NFT API，使 NFT 开发变得非常简单，并且是一个很好的 OpenSea API 关键备选方案。除了 Moralis NFT API，Moralis 还提供了 OpenSea 插件，使您能够轻松访问这个受欢迎的 NFT 市场上的资产链数据。当然，还有其他可用的 [NFT API 替代品](https://moralis.io/nft-api-alternatives-comparing-alchemys-nft-api-with-moralis-nft-api/)，所以请随意探索您的选择。
+不幸的是，当开发者想要获得 OpenSea API 密钥时，他们面临着严峻的挑战。事情发展到目前为止，许多 OpenSea API 密钥 Reddit 黄牛现在正在出售这些受欢迎的 API 密钥。幸运的是，还有另一种选择，叫做 Moralis。后者附带了最终的 NFT API，使 NFT 开发变得非常简单，并且是一个很好的 OpenSea API 关键备选方案。除了 Moralis NFT API，Moralis 还提供了 OpenSea 插件，使您能够轻松访问这个受欢迎的 NFT 市场上的资产链数据。当然，还有其他可用的 [NFT API 替代品](https://moralis.io/nft-api-alternatives-comparing-alchemys-nft-api-with-moralis-nft-api/)，所以请随意探索您的选择。
 
-此外，除了将 Moralis 用于 NFT 项目之外，它同样能够快速推进您在其他加密领域的进展。更多细节和指导，请务必访问[道德博客](https://moralis.io/blog/)和[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。我们在这两个网站上发布了大量的示例项目和教育文章。例如，我们的一些最新主题深入到 [Web3.js vs Ethers.js](https://moralis.io/web3-js-vs-ethers-js-guide-to-eth-javascript-libraries/) 、[以太坊汽油费](https://moralis.io/ethereum-gas-fees-the-ultimate-2022-guide/)和[无汽油交易](https://moralis.io/gasless-transactions-exploring-gasless-transactions-on-ethereum/)、 [Web3 钱包](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/)、[wallet connect Android SDK](https://moralis.io/walletconnect-android-sdk-alternative-authenticate-android-apps-withmoralis/)、 [GameFi 和 play-to-earn (P2E)](https://moralis.io/what-is-gamefi-and-play-to-earn-p2e/) 、[如何通过网站](https://moralis.io/how-to-interact-with-smart-contracts-through-your-website/)与智能合约交互，以及许多其他主题。此外，还要注意还有一个更专业的选择供您选择—[道德学院](https://academy.moralis.io/)。有了最新的课程、支持社区和专家指导，你应该很快就会成为区块链开发者。
+此外，除了将 Moralis 用于 NFT 项目之外，它同样能够快速推进您在其他加密领域的进展。更多细节和指导，请务必访问[Moralis 博客](https://moralis.io/blog/)和[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。我们在这两个网站上发布了大量的示例项目和教育文章。例如，我们的一些最新主题深入到 [Web3.js vs Ethers.js](https://moralis.io/web3-js-vs-ethers-js-guide-to-eth-javascript-libraries/) 、[以太坊汽油费](https://moralis.io/ethereum-gas-fees-the-ultimate-2022-guide/)和[无汽油交易](https://moralis.io/gasless-transactions-exploring-gasless-transactions-on-ethereum/)、 [Web3 钱包](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/)、[wallet connect Android SDK](https://moralis.io/walletconnect-android-sdk-alternative-authenticate-android-apps-withmoralis/)、 [GameFi 和 play-to-earn (P2E)](https://moralis.io/what-is-gamefi-and-play-to-earn-p2e/) 、[如何通过网站](https://moralis.io/how-to-interact-with-smart-contracts-through-your-website/)与智能合约交互，以及许多其他主题。此外，还要注意还有一个更专业的选择供您选择—[Moralis 学院](https://academy.moralis.io/)。有了最新的课程、支持社区和专家指导，你应该很快就会成为区块链开发者。
 
 ![](img/64cf2ace3dad58618df7d4eed2ea0c86.png)**

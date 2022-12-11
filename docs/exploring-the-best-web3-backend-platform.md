@@ -30,7 +30,7 @@
 
 我们的一些顶级 Web3 后端 API 精选:
 
-*   道德
+*   Moralis
 *   共价的
 *   图表
 *   快速笔记
@@ -42,7 +42,7 @@
 
 ![](img/05d79058ce4c402292e2833ec5f7c8f0.png)
 
-# 最佳 Web3 后端平台——遇见道德
+# 最佳 Web3 后端平台——遇见 Moralis
 
 至此，您知道平台是创建应用程序的终极捷径。怎么会？嗯，他们为你承担了大部分与后端相关的繁重工作。然而，有些人比其他人更好。例如，有一个平台可以让你简单地复制和粘贴简短的代码片段，甚至包括最先进的后端功能。这正是 Moralis 所提供的，也是 Moralis 如何帮助开发人员将平均 dApp 开发时间减少了 80%以上。因此，它的昵称“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”，被公认为 Web3 后端编程的首选和最佳平台。
 
@@ -58,9 +58,9 @@
 
 当您想要创建下一代应用程序时，您需要有一个合适的 Web3 后端供您使用。自己创建基础设施，可能需要几周或几个月的时间。此外，你需要一个完整的后端开发团队来维护它。因此，这显然不是最佳方式，尤其是如果你甚至不确定用户是否会喜欢你的前端。因此，使用现有的基础设施是有意义的。此外，由于节点和 API 提供者仍然有许多限制(两者都为您提供原始数据)，使用最好的 Web3 后端平台是最佳解决方案。它使您能够避免重新发明轮子，专注于真正重要的东西——用户体验。
 
-### 道德的 Web3 武器库
+### Moralis 的 Web3 武器库
 
-道德使事情变得极其简单和实用。登录到您的帐户后，您可以执行以下所有操作以及更多操作:
+Moralis 使事情变得极其简单和实用。登录到您的帐户后，您可以执行以下所有操作以及更多操作:
 
 *   只需点击几下鼠标即可启动您的服务器。
 *   启动你自己的数据库。
@@ -70,7 +70,7 @@
 *   访问实时事件、触发器和网络挂钩([同步和索引智能合同](https://moralis.io/sync-and-index-smart-contract-events-full-guide/))。
 *   一种存储所有实时链上数据的简洁方法(在 Moralis 的仪表板中:[索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/))。
 
-以下是最能描述道德的关键特征列表:
+以下是最能描述 Moralis 的关键特征列表:
 
 ![](img/7e8e4a3d8b0b6f95dec166f36d9a3ecb.png)
 
@@ -84,7 +84,7 @@
 
 ### Moralis 初始设置-第 1 部分
 
-1.  [**创建您的 Moralis 账户**](https://admin.moralis.io/register)——使用左边的链接进入注册页面。在那里，您可以通过输入您的电子邮件地址和创建您的密码来创建您的免费帐户。不要忘记确认您的帐户(点击发送到您电子邮件的确认链接)。另一方面，如果你已经有一个有效的道德账户，只需[登录](https://admin.moralis.io/login)。
+1.  [**创建您的 Moralis 账户**](https://admin.moralis.io/register)——使用左边的链接进入注册页面。在那里，您可以通过输入您的电子邮件地址和创建您的密码来创建您的免费帐户。不要忘记确认您的帐户(点击发送到您电子邮件的确认链接)。另一方面，如果你已经有一个有效的 Moralis 账户，只需[登录](https://admin.moralis.io/login)。
 2.  **创建新服务器**–成功登录您的 Moralis 管理区域后，导航至导航选项卡左侧的“服务器”选项。在那里，点击右上角的“+创建新服务器”。接下来，从下拉菜单中选择最适合您需求的网络类型(见下图)。*使用“测试网服务器”选项(* [*连接以太网测试网*](https://moralis.io/ethereum-testnet-guide-connect-to-ethereum-testnets/) *)往往是处理示例项目时的最佳选择。*
 
 ![](img/37209164368931739b9a5df3fdc9e8b6.png)
@@ -116,7 +116,7 @@
 
 *注意* *:确保使用你的服务器的细节和* ***而不是*** *上图中的细节。*
 
-接下来，我们鼓励您尽快使用上述说明并创建您的第一个 dApp。因此，你会熟悉新获得的武器库的使用。然而，如果你不知道从哪里开始，我们建议你在[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德博客](https://moralis.io/blog/)上寻求指导。这两个出口提供了无数的例子项目。因此，你可以跟随 Moralis 专家创建不同的有趣的 dApps 示例。此外，我们的内容也是一个伟大的方式来继续你的免费区块链教育。例如，我们的一些最新话题涵盖了 [Web3 游戏化](https://moralis.io/web3-gamification-creating-a-coinmarketcap-diamonds-dapp/)、 [NFT 游戏角色](https://moralis.io/nft-game-characters-how-to-mint-in-game-nft-characters/)、[如何铸造 10，000 个 NFT](https://moralis.io/how-to-mint-10000-nfts-full-walkthrough/)、 [Web3 数据科学](https://moralis.io/web3-data-science-importing-on-chain-events/)、[顶级区块链 API](https://moralis.io/alchemy-alternatives-top-blockchain-apis/)、 [ERC721 智能合约](https://moralis.io/erc721-contract-exploring-erc721-smart-contracts/)、[可升级智能合约](https://moralis.io/what-are-upgradable-smart-contracts-full-guide/)，如何[获得 OpenSea API 密钥](https://moralis.io/get-an-opensea-api-key-in-2022-full-guide/)等等。
+接下来，我们鼓励您尽快使用上述说明并创建您的第一个 dApp。因此，你会熟悉新获得的武器库的使用。然而，如果你不知道从哪里开始，我们建议你在[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 博客](https://moralis.io/blog/)上寻求指导。这两个出口提供了无数的例子项目。因此，你可以跟随 Moralis 专家创建不同的有趣的 dApps 示例。此外，我们的内容也是一个伟大的方式来继续你的免费区块链教育。例如，我们的一些最新话题涵盖了 [Web3 游戏化](https://moralis.io/web3-gamification-creating-a-coinmarketcap-diamonds-dapp/)、 [NFT 游戏角色](https://moralis.io/nft-game-characters-how-to-mint-in-game-nft-characters/)、[如何铸造 10，000 个 NFT](https://moralis.io/how-to-mint-10000-nfts-full-walkthrough/)、 [Web3 数据科学](https://moralis.io/web3-data-science-importing-on-chain-events/)、[顶级区块链 API](https://moralis.io/alchemy-alternatives-top-blockchain-apis/)、 [ERC721 智能合约](https://moralis.io/erc721-contract-exploring-erc721-smart-contracts/)、[可升级智能合约](https://moralis.io/what-are-upgradable-smart-contracts-full-guide/)，如何[获得 OpenSea API 密钥](https://moralis.io/get-an-opensea-api-key-in-2022-full-guide/)等等。
 
 ![](img/c85529ac39be26a0073850775c41b380.png)
 
@@ -124,6 +124,6 @@
 
 在这篇文章中，我们已经涉及了相当多的内容。如果你是一名 Web2 前端开发人员，并且希望[成为一名区块链开发人员](https://moralis.io/how-to-become-a-blockchain-developer/)，在这一点上你一定非常兴奋。知道有一个 Web3 后端平台可以让您使用 JavaScript 技能创建跨链可操作的 dApps 是非常了不起的。通过创建你的免费 Moralis 帐户和启动你的服务器，你就可以开始使用最好的 Web3 后端平台了。然后你可以从零开始，甚至通过使用[以太坊样板](https://github.com/ethereum-boilerplate/ethereum-boilerplate)进一步减少你的开发时间。此外，既然你知道你自己不需要担心 Web3 后端，确保把你的“A-game”带到前端。
 
-如前所述，请随意使用我们的文章和视频作为指导。然而，如果你有兴趣采取更专业的方法，我们建议你报名参加[道德学院](https://academy.moralis.io/)。有一个强大的进步社区和专家导师结合高质量的专业课程，你应该马上去全职加密。如果你经验不足，你可能想从[课程](https://academy.moralis.io/all-courses/)开始，比如“[初学者加密](https://academy.moralis.io/courses/crypto-for-beginners/)或“[使用 JavaScript 构建索引](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)”。另一方面，如果你已经掌握了基础知识，一定要专注于更高级的课程。既然如此，你不妨报读“[以太坊 dApp 编程](https://academy.moralis.io/courses/ethereum-dapp-programming)”或“[区块链商业大师班](https://academy.moralis.io/courses/blockchain-business-masterclass)”。
+如前所述，请随意使用我们的文章和视频作为指导。然而，如果你有兴趣采取更专业的方法，我们建议你报名参加[Moralis 学院](https://academy.moralis.io/)。有一个强大的进步社区和专家导师结合高质量的专业课程，你应该马上去全职加密。如果你经验不足，你可能想从[课程](https://academy.moralis.io/all-courses/)开始，比如“[初学者加密](https://academy.moralis.io/courses/crypto-for-beginners/)或“[使用 JavaScript 构建索引](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)”。另一方面，如果你已经掌握了基础知识，一定要专注于更高级的课程。既然如此，你不妨报读“[以太坊 dApp 编程](https://academy.moralis.io/courses/ethereum-dapp-programming)”或“[区块链商业大师班](https://academy.moralis.io/courses/blockchain-business-masterclass)”。
 
 ![](img/164102aa0b50154e2cd75b3c0a522f97.png)

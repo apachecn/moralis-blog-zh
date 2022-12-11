@@ -4,7 +4,7 @@
 
 **无论你是在开发** [**dApps**](https://moralis.io/decentralized-applications-explained-what-are-dapps/) **，** [**NFTs**](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/) **，还是想创建免费令牌，在区块链开发中有一个至关重要的部分是程序员不能忽视的——使用测试网。在 testnet 上部署您自己的令牌可以确保在将它发送到 mainnet 之前一切顺利。而且，有了**[](https://moralis.io/)****(**[**Firebase for crypto**](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/)**)及其**[**ultimate web 3 SDK**](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/)**和**[**web 3 API**](https://docs.moralis.io/moralis-server/web3-sdk/intro)**，就可以克服所有 RPC 节点** [**的局限性**因此，对于任何想要全职加密并开始他们的区块链之旅的人来说，一个很好的方法是利用 Moralis 的工具，它可以帮助你免费创建自己的加密令牌。因此，本文将着重向您展示如何在 10 分钟内创建免费令牌并部署您自己的 testnet 加密令牌。](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)**
 
-**在本文中，您将发现创建免费令牌需要什么。此外，由于最终的 Web3 开发平台——Moralis，您将看到您可以在十分钟内准备好您的加密令牌。除了学习与道德合作，我们还将向您展示如何充分利用另一个优秀的工具，即“ETH [Brownie](https://moralis.io/eth-brownie-explained-what-is-brownie/) ”。这个基于 Python 的框架非常适合测试和开发 dApps(去中心化应用)，包括“创建免费令牌”。此外，我们将使用 [OpenZeppelin](https://moralis.io/what-is-openzeppelin-the-ultimate-guide/) ，这是一个用于构建安全 dApps 的开源平台，其中有无数智能合约代码模板可用。也就是说，我们邀请你跟随我们的领导，自己实施同样的行动步骤，以最好地学习如何创建免费代币。然而，在我们深入我们的示例项目之前，让我们确保你们都知道什么是 testnet 令牌。**
+**在本文中，您将发现创建免费令牌需要什么。此外，由于最终的 Web3 开发平台——Moralis，您将看到您可以在十分钟内准备好您的加密令牌。除了学习与 Moralis 合作，我们还将向您展示如何充分利用另一个优秀的工具，即“ETH [Brownie](https://moralis.io/eth-brownie-explained-what-is-brownie/) ”。这个基于 Python 的框架非常适合测试和开发 dApps(去中心化应用)，包括“创建免费令牌”。此外，我们将使用 [OpenZeppelin](https://moralis.io/what-is-openzeppelin-the-ultimate-guide/) ，这是一个用于构建安全 dApps 的开源平台，其中有无数智能合约代码模板可用。也就是说，我们邀请你跟随我们的领导，自己实施同样的行动步骤，以最好地学习如何创建免费代币。然而，在我们深入我们的示例项目之前，让我们确保你们都知道什么是 testnet 令牌。**
 
 **![](img/fe22b79ab93c01b88dbb6372b9df5289.png)
 
@@ -24,11 +24,11 @@
 
 如前所述，我们将依靠 Brownie 的测试环境、OpenZeppelin 和 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) ，在 Ropsten testnet 上创建免费令牌。*当然，你也可以使用这里提出的同样的智能合约* [*Remix*](https://moralis.io/remix-explained-what-is-remix/) *。*除了这三个工具，我们将使用[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)作为认证工具和钱包来查看我们在特定地址的余额。此外，我们还将使用代码编辑器(我们更喜欢 Visual Studio 代码[VSC])。
 
-### 使用道德快速节点创建免费令牌
+### 使用 Moralis 快速节点创建免费令牌
 
-除了为开发者提供终极的 Web3 SDK，Moralis 还是一个节点提供商(一个 [Infura 替代方案](https://moralis.io/infura-alternatives-and-blockchain-node-providers/))。此外，通过创建您的免费道德帐户，您可以访问道德的快速节点。因此，只需遵循以下步骤:
+除了为开发者提供终极的 Web3 SDK，Moralis 还是一个节点提供商(一个 [Infura 替代方案](https://moralis.io/infura-alternatives-and-blockchain-node-providers/))。此外，通过创建您的免费 Moralis 帐户，您可以访问 Moralis 的快速节点。因此，只需遵循以下步骤:
 
-1.  [**点击链接，创建您的免费道德账户**](https://admin.moralis.io/register) 。然后，输入您的电子邮件地址，创建您的密码，并点击确认电子邮件中的链接。如果您已经有了一个有效的 Moralis 帐户，只需[登录](https://admin.moralis.io/login)。
+1.  [**点击链接，创建您的免费 Moralis 账户**](https://admin.moralis.io/register) 。然后，输入您的电子邮件地址，创建您的密码，并点击确认电子邮件中的链接。如果您已经有了一个有效的 Moralis 帐户，只需[登录](https://admin.moralis.io/login)。
 
 2.  一旦进入你的管理区，选择“快速节点”标签，如下图所示，点击“ETH 网络”下的“端点”按钮。
 

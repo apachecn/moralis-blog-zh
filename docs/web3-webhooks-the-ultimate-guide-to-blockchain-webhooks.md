@@ -37,9 +37,9 @@ await Moralis.Streams.addAddress({ address, id });
 
 ### 概观
 
-应用程序和其他平台可以通过几种方式进行通信。然而，最有效的方法往往是使用网络钩子。正如传统的网络钩子对于网络 2 中的数字交流是必不可少的一样，网络 3网络钩子(区块链网络钩子)对于分散的网络也是同样重要的。但是，开发人员如何在分散的应用程序和其他传统服务之间轻松建立 webhook 通信呢？当我们进一步探索这个话题时，请继续阅读，并深入探究 Web3 网络钩子的复杂性！此外，随着我们的深入，我们将解释如何通过设置网络钩子来侦听区块链事件并基于预定义的过滤器发出 HTTP 请求。在 Web3 的上下文中，源系统是区块链，目标系统是你的项目。
+应用程序和其他平台可以通过几种方式进行通信。然而，最有效的方法往往是使用网络钩子。正如传统的网络钩子对于网络 2 中的数字交流是必不可少的一样，网络 3 网络钩子(区块链网络钩子)对于分散的网络也是同样重要的。但是，开发人员如何在分散的应用程序和其他传统服务之间轻松建立 webhook 通信呢？当我们进一步探索这个话题时，请继续阅读，并深入探究 Web3 网络钩子的复杂性！此外，随着我们的深入，我们将解释如何通过设置网络钩子来侦听区块链事件并基于预定义的过滤器发出 HTTP 请求。在 Web3 的上下文中，源系统是区块链，目标系统是你的项目。
 
-此外，结合探索区块链网络钩子的来龙去脉，本指南展示了如何使用 Moralis 的企业级[web 3 API](https://moralis.io/web3-apis-exploring-the-top-5-blockchain-apis/)——web 3 Streams API 来创建它们。然而，Moralis 提供了其他 API，包括 [Web3 Auth API](https://moralis.io/authentication/) ，可以帮助您的开发工作。所以，如果你想成为一名区块链开发者，[马上和道德家](https://admin.moralis.io/register)签约。Moralis 的 API 开启了更加无缝的开发者体验，弥合了 Web2 和 Web3 的开发差距。因此，使用 Moralis，您可以更智能、更快速地构建！
+此外，结合探索区块链网络钩子的来龙去脉，本指南展示了如何使用 Moralis 的企业级[web 3 API](https://moralis.io/web3-apis-exploring-the-top-5-blockchain-apis/)——web 3 Streams API 来创建它们。然而，Moralis 提供了其他 API，包括 [Web3 Auth API](https://moralis.io/authentication/) ，可以帮助您的开发工作。所以，如果你想成为一名区块链开发者，[马上和 Moralis 家](https://admin.moralis.io/register)签约。Moralis 的 API 开启了更加无缝的开发者体验，弥合了 Web2 和 Web3 的开发差距。因此，使用 Moralis，您可以更智能、更快速地构建！
 
 现在，在我们更深入地了解设置 Web3 webhooks 的主题之前，我们必须让大家都熟悉一下。因此，让我们从基础开始！
 
@@ -122,7 +122,7 @@ Moralis.start({
 
 然而，当进一步检查上面的代码片段时，您会注意到需要输入 Moralis API 键。因此，如果您还没有，[立即免费注册您的 Moralis 帐户](https://admin.moralis.io/register)!
 
-一旦你登录，你会发现自己在道德管理面板。在那里，您可以通过单击“Web3 APIs”选项卡找到您的密钥。然后，您可以复制密钥并替换代码中的“ *YOUR_API_KEY* ”:
+一旦你登录，你会发现自己在 Moralis 管理面板。在那里，您可以通过单击“Web3 APIs”选项卡找到您的密钥。然后，您可以复制密钥并替换代码中的“ *YOUR_API_KEY* ”:
 
 ![Moralis Admin Panel where users setting up Web3 webhooks can obtain their Web3 API.](img/29298e49b60727eb59fdc02a9bcfff2f.png)
 
@@ -179,9 +179,9 @@ await Moralis.Streams.addAddress({ address, id });
 node “FILE_NAME”
 ```
 
-### 通过道德的网络用户界面
+### 通过 Moralis 的网络用户界面
 
-本节说明了如何使用 Moralis 的 web UI 设置一个 Web3 webhook 来传输链上数据。首先，确保你有一个道德账户，并访问以下网站:“[https://admin.moralis.io/streams](https://admin.moralis.io/streams)”。在那里，您可以单击“+新流”按钮开始:
+本节说明了如何使用 Moralis 的 web UI 设置一个 Web3 webhook 来传输链上数据。首先，确保你有一个 Moralis 账户，并访问以下网站:“[https://admin.moralis.io/streams](https://admin.moralis.io/streams)”。在那里，您可以单击“+新流”按钮开始:
 
 ![Moralis' web UI interface](img/8636325b35ce5bde8f34783f726fc9c2.png)
 

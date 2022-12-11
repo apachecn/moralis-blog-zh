@@ -2,7 +2,7 @@
 
 > 原文：<https://moralis.io/angular-explained-what-is-angular/>
 
-在开发 dApps 或 Web3 应用时，你可能会遇到 Angular 框架。因为 Angular 在你用 Moralis 建造的时候是有帮助的，所以让我们深入 Angular 的细节。在这篇文章中，你将学习这个高级框架的所有基础知识来回答“什么是有角的”。这从它是什么延伸到它的用途、它的优点等等。总而言之，Angular 对于前端开发者来说是一个强大的工具。此外，它也是创建单页面应用程序的一个有用的快捷方式。此外，你还将了解道德。Moralis 是一个强大的下一代 Web3 开发平台，使您能够立即使用您的前端开发技能。由于 Moralis 负责你的区块链后台，你可以将自己投入到这个蓬勃发展的行业中。
+在开发 dApps 或 Web3 应用时，你可能会遇到 Angular 框架。因为 Angular 在你用 Moralis 建造的时候是有帮助的，所以让我们深入 Angular 的细节。在这篇文章中，你将学习这个高级框架的所有基础知识来回答“什么是有角的”。这从它是什么延伸到它的用途、它的优点等等。总而言之，Angular 对于前端开发者来说是一个强大的工具。此外，它也是创建单页面应用程序的一个有用的快捷方式。此外，你还将了解 Moralis。Moralis 是一个强大的下一代 Web3 开发平台，使您能够立即使用您的前端开发技能。由于 Moralis 负责你的区块链后台，你可以将自己投入到这个蓬勃发展的行业中。
 
 无论你已经是一个经验丰富的[](https://moralis.io/javascript-explained-what-is-javascript/)开发人员，还是一个完全的初学者，这篇文章都会为你提供所有“什么是有角的”相关信息。这样你会有一个清晰的画面，从而能够更有信心地采取下一步行动。下一步是什么？嗯，如果你是一个完全的初学者，我们强烈建议你先 [学习 JavaScript](https://academy.ivanontech.com/courses/javascript-programming-for-blockchain-developers) 。这种强大的编码语言就是你开始创造杀手[dApps](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/)所需要的一切。
 
@@ -164,7 +164,7 @@ Angular 拥有强大的处理实例化的能力。它通过依赖注入来实现
 
 此外，角度库是非常强大的工具。它们使您能够快速实施高级应用功能。这样，您就有更多的时间来关注使您的应用程序独一无二的特性。
 
-## 与道德一起使用 Angular】
+## 与 Moralis 一起使用 Angular】
 
 既然你上了 Moralis 的博客，你可能已经知道 Moralis 是什么了。然而，以防万一，让我们告诉你，Moralis 是最终的 Web3 开发平台。那是什么意思？嗯，它为您提供了基本上所有的后端区块链开发需求。
 

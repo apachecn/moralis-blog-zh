@@ -30,7 +30,7 @@
 
 ![](img/82c4f646978a927a290d0b594a49ed3a.png)
 
-## 如何用道德建造一座跨链桥梁
+## 如何用 Moralis 建造一座跨链桥梁
 
 既然您现在已经清楚地了解了什么是跨链桥以及它是如何工作的，那么让我们把重点放在我们的示例项目上。正如本文开头提到的，我们将使用 Moralis 使区块链相关的后端编程变得更加容易。多亏了 Moralis，建造一座跨链桥比你想象的要容易得多。通过访问其 [ultimate Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) ，您可以轻松收听智能合同事件，并在您的 Moralis 数据库中访问所需信息。然而，在我们开始我们的示例项目之前，让我们看一下我们的跨链桥的完成版本。
 
@@ -80,15 +80,15 @@
 
 现在是时候展示如何自己建造一座跨链桥(如上图所示)了。因为我们认为代码遍历更容易在视频中呈现，所以我们将把您交给 Moralis 的一位专家，在本文末尾的视频中向您展示详细信息。但是，在您继续之前，您需要设置您的 Moralis 帐户来自己完成这些步骤，并与 Moralis 建立一个跨链桥。
 
-因此，请务必花一分钟的时间[创建您的免费 Moralis 帐户](https://admin.moralis.io/register),以便访问您的管理面板、仪表板和整个 Moralis SDK。此外，创建您的帐户后，您将能够创建您的道德服务器，这将打开提到的快捷方式。
+因此，请务必花一分钟的时间[创建您的免费 Moralis 帐户](https://admin.moralis.io/register),以便访问您的管理面板、仪表板和整个 Moralis SDK。此外，创建您的帐户后，您将能够创建您的 Moralis 服务器，这将打开提到的快捷方式。
 
 ![](img/14ee45b114c3f1eabdf644155ca6fbfa.png)
 
-### 创建一个道德服务器
+### 创建一个 Moralis 服务器
 
 1.  **登录您的 Moralis 账户**–通过登录您的 Moralis 账户进入您的管理区。如果你还没有这样做，创建一个帐户。
 
-2.  [**创建一个道德服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)–一旦进入您的管理区域，选择“服务器”选项卡。然后点击右上角的“+创建新服务器”，选择“Testnet 服务器”(见下图)。*“Testnet 服务器”选项是你在创建和从事新项目时应该关注的；然而，一旦您的 dApp 被正确测试，您就可以创建一个 mainnet 服务器。*
+2.  [**创建一个 Moralis 服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)–一旦进入您的管理区域，选择“服务器”选项卡。然后点击右上角的“+创建新服务器”，选择“Testnet 服务器”(见下图)。*“Testnet 服务器”选项是你在创建和从事新项目时应该关注的；然而，一旦您的 dApp 被正确测试，您就可以创建一个 mainnet 服务器。*
 
 ![](img/b93a2de6c71f77b5d7bed1b756deb2f9.png)
 
@@ -114,9 +114,9 @@
 
 ![](img/82f8e9c9c9d4a1157f899871a6650d66.png)
 
-### 用道德一步一步地建造一座跨链桥梁
+### 用 Moralis 一步一步地建造一座跨链桥梁
 
-安装好 Moralis 服务器后，您终于可以在我们的带领下构建一个跨链桥了。如上所述，你可以从 Moralis 的一位专家的肩膀上偷看一下，他解释了所有的细节(见下面的指导概述)。此外，我们在 [GitHub](https://github.com/DanielMoralisSamples/27_ERC20_Bridge_POC) 上发布了构建跨链桥所需的全部代码。因此，确保在继续之前克隆项目。而且整个代码被整齐的分成了以下几个文件夹:“[前端](https://github.com/DanielMoralisSamples/27_ERC20_Bridge_POC/tree/master/frontend)”、“[道德 _ 服务器](https://github.com/DanielMoralisSamples/27_ERC20_Bridge_POC/tree/master/moralis_server)”、“[坚固度](https://github.com/DanielMoralisSamples/27_ERC20_Bridge_POC/tree/master/solidity)”。“前端”文件夹包含支持“我们的跨链桥预览”部分中呈现的 UI 的文件。此外，在“moralis_server”文件夹中，您可以找到“同步和监听”事件和云功能的所有 ABI。在“solidity”文件夹中，您可以找到所有需要的智能合同。
+安装好 Moralis 服务器后，您终于可以在我们的带领下构建一个跨链桥了。如上所述，你可以从 Moralis 的一位专家的肩膀上偷看一下，他解释了所有的细节(见下面的指导概述)。此外，我们在 [GitHub](https://github.com/DanielMoralisSamples/27_ERC20_Bridge_POC) 上发布了构建跨链桥所需的全部代码。因此，确保在继续之前克隆项目。而且整个代码被整齐的分成了以下几个文件夹:“[前端](https://github.com/DanielMoralisSamples/27_ERC20_Bridge_POC/tree/master/frontend)”、“[Moralis _ 服务器](https://github.com/DanielMoralisSamples/27_ERC20_Bridge_POC/tree/master/moralis_server)”、“[坚固度](https://github.com/DanielMoralisSamples/27_ERC20_Bridge_POC/tree/master/solidity)”。“前端”文件夹包含支持“我们的跨链桥预览”部分中呈现的 UI 的文件。此外，在“moralis_server”文件夹中，您可以找到“同步和监听”事件和云功能的所有 ABI。在“solidity”文件夹中，您可以找到所有需要的智能合同。
 
 #### 分步指南概述
 
@@ -142,6 +142,6 @@
 
 随着新的可编程链的出现和流行，我们可以预计区块链应用的未来将是跨链互操作性。因此，现有令牌必须能够以安全的方式从一个链转移到另一个链。此外，如果您遵循了以上部分中提供的说明，您现在知道如何构建一个跨链桥来实现这种转换。通过使用在 open zeppelin 上可用的智能合同模板、[Remix](https://moralis.io/remix-explained-what-is-remix/)或[Brownie](https://moralis.io/eth-brownie-explained-what-is-brownie/)等工具，以及最终的 Web3 开发平台——Moralis，你可以在不到一个小时的时间内搭建一座跨链桥梁。然而，这只有在您使用我们提供给您的代码文件时才有可能。
 
-如果你对这个范例项目感兴趣，并想接手其他区块链发展范例项目以提升你的技能，请务必访问 [Moralis 博客](https://moralis.io/blog/)和 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。我们的一些最新任务向您展示了如何[在十分钟内](https://moralis.io/how-to-create-a-dao-in-10-minutes/)创建一个 DAO，如何[用 MetaMask](https://moralis.io/metamask-for-developers-how-to-launch-web3-apps-with-metamask/) 启动 Web3 应用程序，如何[创建免费令牌](https://moralis.io/create-free-token-how-to-deploy-your-own-testnet-crypto-token-in-10-mins/)，如何[用短信获取 Web3 事件](https://moralis.io/get-web3-events-with-sms-messages/)，如何[在币安智能链上创建 NFT](https://moralis.io/create-nft-on-binance-smart-chain-full-guide/)，如何[免费制作 NFT 而无需支付汽油费](https://moralis.io/how-to-mint-nfts-for-free-without-paying-gas-fees/)，如何[用共价 API](https://moralis.io/how-to-build-with-the-covalent-api/) 构建等等尽管如此，如果你想成为一名拥有高级技能的区块链开发者，并成为全职加密员，我们鼓励你去参观 T21 道德学院的课程。
+如果你对这个范例项目感兴趣，并想接手其他区块链发展范例项目以提升你的技能，请务必访问 [Moralis 博客](https://moralis.io/blog/)和 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。我们的一些最新任务向您展示了如何[在十分钟内](https://moralis.io/how-to-create-a-dao-in-10-minutes/)创建一个 DAO，如何[用 MetaMask](https://moralis.io/metamask-for-developers-how-to-launch-web3-apps-with-metamask/) 启动 Web3 应用程序，如何[创建免费令牌](https://moralis.io/create-free-token-how-to-deploy-your-own-testnet-crypto-token-in-10-mins/)，如何[用短信获取 Web3 事件](https://moralis.io/get-web3-events-with-sms-messages/)，如何[在币安智能链上创建 NFT](https://moralis.io/create-nft-on-binance-smart-chain-full-guide/)，如何[免费制作 NFT 而无需支付汽油费](https://moralis.io/how-to-mint-nfts-for-free-without-paying-gas-fees/)，如何[用共价 API](https://moralis.io/how-to-build-with-the-covalent-api/) 构建等等尽管如此，如果你想成为一名拥有高级技能的区块链开发者，并成为全职加密员，我们鼓励你去参观 T21 Moralis 学院的课程。
 
 ![](img/eee347bbd60d3025514fb98b51845a8b.png)****

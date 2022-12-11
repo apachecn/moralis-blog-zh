@@ -4,7 +4,7 @@
 
 **在构建** [**Web3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) **应用时，在以太坊上对用户进行验证是一个基本特性。因此，为 dApps 编写以太坊认证的功能应该是区块链开发人员优先考虑的事情。此外，授权用户登录并验证自己，使用户能够检查有关其余额和交易的区块链数据是否准确同步。然而，以太坊认证和登录编程可能是一项相当具有挑战性和令人畏惧的任务。因此，在这篇以太坊登录编程的完整教程中，我们将探索以太坊认证的终极解决方案，让开发过程变得轻而易举。**
 
-幸运的是，有一个简单的以太坊登录编程解决方案——Moralis。要获得该解决方案的全部权限，您只需[立即创建您的免费道德账户](https://admin.moralis.io/register)。通过使用 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) ，您可以获得简单的以太坊认证解决方案，您可以在几秒钟内实现。此外，目前有许多可编程区块链可用，Moralis 的核心内置了跨链互操作性。这意味着您将能够在所有领先的链上使用其广泛的认证解决方案，包括[币安智能链](https://moralis.io/bsc-programming-guide-intro-to-binance-smart-chain-development-in-10-minutes/) (BSC)、 [Polygon](https://moralis.io/how-to-build-polygon-dapps-easily/) 、Avalanche 等。然而，由于[以太坊](https://moralis.io/full-guide-what-is-ethereum/)仍然是部署[分散式应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/) (dApps)的领先网络，我们在这里将重点讨论以太坊认证。我们将首先介绍基础知识，然后进行一个示例项目，向您展示 [Moralis](https://moralis.io/) 如何消除与以太坊登录编程相关的所有开销。
+幸运的是，有一个简单的以太坊登录编程解决方案——Moralis。要获得该解决方案的全部权限，您只需[立即创建您的免费 Moralis 账户](https://admin.moralis.io/register)。通过使用 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) ，您可以获得简单的以太坊认证解决方案，您可以在几秒钟内实现。此外，目前有许多可编程区块链可用，Moralis 的核心内置了跨链互操作性。这意味着您将能够在所有领先的链上使用其广泛的认证解决方案，包括[币安智能链](https://moralis.io/bsc-programming-guide-intro-to-binance-smart-chain-development-in-10-minutes/) (BSC)、 [Polygon](https://moralis.io/how-to-build-polygon-dapps-easily/) 、Avalanche 等。然而，由于[以太坊](https://moralis.io/full-guide-what-is-ethereum/)仍然是部署[分散式应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/) (dApps)的领先网络，我们在这里将重点讨论以太坊认证。我们将首先介绍基础知识，然后进行一个示例项目，向您展示 [Moralis](https://moralis.io/) 如何消除与以太坊登录编程相关的所有开销。
 
 ![](img/d2f789c570704153a804e1581c414fea.png)
 
@@ -34,7 +34,7 @@
 
 ![](img/78aeca7399ad4edb1875d03ca5c3cb20.png)
 
-### **什么是道德？**
+### **什么是 Moralis？**
 
 除非你是区块链开发的新手，否则你很可能听说过 Moralis。这个终极的 Web3 开发平台在创建 Web3 应用程序时提供了一个完整的范式转变。它使每个人都能熟练掌握 JavaScript，并能够使用元掩码快速、轻松地创建分散式应用程序。它通过关注 dApp 开发的整个区块链相关的后端方面而使之成为可能。从本质上讲，开发人员可以复制并粘贴业内最优秀的文档之一提供的代码片段。
 
@@ -163,7 +163,7 @@ https://www.youtube.com/watch?v=UP6MfkU3Bkg
 
 假设您已经涵盖了以上所有部分，那么您终于可以创建自己的 dApp 了。有了 Moralis，它应该不会花你太多时间，因为你将在以太坊登录编程和其他后端方面花费最少的精力和时间。此外，Moralis 将使您能够用简短的代码片段来处理以太坊认证。事实上，您将使用“authenticate()”函数来实现这一目的。此外，在使用元掩码认证的情况下，您不需要添加任何参数，因为这是该函数的默认选项。但是，当使用 WalletConnect(这是对移动用户进行身份验证的一个有利选项)时，一些附加参数是必需的。
 
-除了这里获得的信息，如果你渴望成为一名区块链开发者，特别是以太坊开发者，一定要看看我们的[以太坊初学者开发指南](https://moralis.io/ethereum-development-for-beginners/)。在该指南中，您将发现在以太坊上开发成功所必需的工具。此外，一旦你完成了那个指南，确保通过学习[如何建造以太坊 dApps](https://moralis.io/ultimate-guide-how-to-build-ethereum-dapps/) 来进一步提升你的区块链知识。此外，NFT 开发从来没有比与道德的最终 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 更容易。
+除了这里获得的信息，如果你渴望成为一名区块链开发者，特别是以太坊开发者，一定要看看我们的[以太坊初学者开发指南](https://moralis.io/ethereum-development-for-beginners/)。在该指南中，您将发现在以太坊上开发成功所必需的工具。此外，一旦你完成了那个指南，确保通过学习[如何建造以太坊 dApps](https://moralis.io/ultimate-guide-how-to-build-ethereum-dapps/) 来进一步提升你的区块链知识。此外，NFT 开发从来没有比与 Moralis 的最终 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 更容易。
 
 借助 Moralis 的工具和专业知识，您拥有构建下一代应用所需的所有知识。为你的 dApp 实现以太坊认证只是一个开始。所以，[今天就报名](https://admin.moralis.io/register)，让 Moralis 从头到尾指导你的发展之旅！
 

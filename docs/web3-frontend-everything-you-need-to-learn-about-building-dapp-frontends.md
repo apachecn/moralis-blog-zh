@@ -80,7 +80,7 @@ dapp 前端的两个基本组件是用户界面(UI)和用户体验(UX)。然而�
 
 然而，即使这些字段之间有许多相似之处，我们仍需要考虑一些差异，主要差异是 web 3 . js。web 3 . js 是 JavaScript 库的集合，允许开发人员例如与本地或远程[以太坊](https://moralis.io/full-guide-what-is-ethereum/)节点进行交互。通过 HTTP 或 IPC 连接发生的交互。
 
-这意味着 Web2 和 Web3 前端开发的最大区别是对这个库的了解。因此，熟练掌握 Web3.js 对于成功驾驭加密领域的前端开发是非常有益的。你可以在我们名为“[什么是 JavaScript 和 Web3.js”的文章中了解更多关于 Web3.js 的内容。](https://moralis.io/web3-and-javascript-what-is-javascript-and-web3-js/)”。更重要的是，你可以查看[道德博客](https://moralis.io/blog/)，阅读更多的 [JavaScript 库](https://moralis.io/javascript-libraries-ethers-js-vs-web3-js/)。
+这意味着 Web2 和 Web3 前端开发的最大区别是对这个库的了解。因此，熟练掌握 Web3.js 对于成功驾驭加密领域的前端开发是非常有益的。你可以在我们名为“[什么是 JavaScript 和 Web3.js”的文章中了解更多关于 Web3.js 的内容。](https://moralis.io/web3-and-javascript-what-is-javascript-and-web3-js/)”。更重要的是，你可以查看[Moralis 博客](https://moralis.io/blog/)，阅读更多的 [JavaScript 库](https://moralis.io/javascript-libraries-ethers-js-vs-web3-js/)。
 
 ## Web3 前端作业
 
@@ -102,7 +102,7 @@ dapp 前端的两个基本组件是用户界面(UI)和用户体验(UX)。然而�
 
 此外，现在 Web3 走向大规模采用，开发直观的前端变得越来越重要。更重要的是，随着对 Web3 开发人员需求的增加，这为程序员提供了机会。因此，我们更深入地研究了 Web3 前端开发的复杂性，为您提供了它所需要的内容和必要技能的概述。此外，我们仔细研究了一些 Web3 前端工作，让你了解这个领域需要什么。
 
-如果你渴望成为一名熟练的 Web3 前端开发者，你可以在[道德学院](https://academy.moralis.io/)学习基本技能。道德学院提供市场上最好的[区块链开发课程](https://academy.moralis.io/all-courses)，是进入前端开发的最佳场所。例如，你可以注册 [JavaScript 编程 101](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers) 来开始学习！
+如果你渴望成为一名熟练的 Web3 前端开发者，你可以在[Moralis 学院](https://academy.moralis.io/)学习基本技能。Moralis 学院提供市场上最好的[区块链开发课程](https://academy.moralis.io/all-courses)，是进入前端开发的最佳场所。例如，你可以注册 [JavaScript 编程 101](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers) 来开始学习！
 
 ![](img/5108dedec9ccc3a25a652d660f32cbe1.png)
 

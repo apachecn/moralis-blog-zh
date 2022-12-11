@@ -102,7 +102,7 @@ Web3 是利用区块链技术的下一代互联网。它融入了金融工具，
 
 https://www.youtube.com/watch?v=A5Pt_juydwQ
 
-## 基于道德的 Web3 游戏设计
+## 基于 Moralis 的 Web3 游戏设计
 
 正如简介中提到的，Moralis 是最终的 Web3 开发平台。感谢 [Moralis 的元宇宙 SDK](https://moralis.io/metaverse/) ，它也是潜入 Web3 游戏设计的最佳工具。如果你了解 Unity，你可以毫不费力地连接到 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 。因此，您可以通过复制粘贴操作来解决与区块链相关的后端挑战。使用来自 [Moralis 文档](https://docs.moralis.io/)的简短代码片段可以加快你的进度。因此，你可以将你的资源投入到创建一个令人惊叹的 Web3 UI 上。
 
@@ -112,12 +112,12 @@ Moralis 为您提供构建高性能 dapps 的单一工作流程。这个一站�
 
 ![](img/c09e5dd5b05fde63408a5eb937a678a8.png)
 
-一旦你实现了 [Web3 登录](https://moralis.io/connecting-a-unity-game-with-web3-login/)，Moralis 还可以帮助你管理用户会话和跨链身份。您还可以访问 Moralis 仪表板(数据库)。因此，您可以[同步和指数化智能合约事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/)和[指数化区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)。这个数据库也可以[存储链外数据](https://moralis.io/how-to-store-off-chain-data-unity-web3-database/)。从本质上讲，道德元宇宙 SDK 使 Web3 游戏设计变得更加简单。因此，[今天就创建你的免费道德账户](https://admin.moralis.io/register)并应对来自道德项目的[每周网络 3 挑战！](https://moralis.io/projects)
+一旦你实现了 [Web3 登录](https://moralis.io/connecting-a-unity-game-with-web3-login/)，Moralis 还可以帮助你管理用户会话和跨链身份。您还可以访问 Moralis 仪表板(数据库)。因此，您可以[同步和指数化智能合约事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/)和[指数化区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)。这个数据库也可以[存储链外数据](https://moralis.io/how-to-store-off-chain-data-unity-web3-database/)。从本质上讲，Moralis 元宇宙 SDK 使 Web3 游戏设计变得更加简单。因此，[今天就创建你的免费 Moralis 账户](https://admin.moralis.io/register)并应对来自 Moralis 项目的[每周网络 3 挑战！](https://moralis.io/projects)
 
 ## Web3 游戏设计–解释 Web3 游戏设计流程–总结
 
-在今天的文章中，你会发现 Web3 游戏设计与传统游戏设计没有太大的不同。然而，由于它引入了金融方面和可转移的加密资产，它增加了复杂性和机会。因此，适当的规划变得更加重要。Web3 游戏也可以设计成让玩家参与管理的方式。这通常通过[治理令牌](https://moralis.io/what-are-governance-tokens-full-guide/)来完成。在此过程中，您还学习了 Web3 和 Web3 游戏的基础知识。你已经看到了网络和游戏的发展，了解了道德。因此，你现在已经准备好在区块链编程中迈出下一步。如果您精通 JavaScript 或 Unity，我们建议您参与一些实际的示例项目。例如，你可以[制作一个中世纪的元宇宙游戏](https://moralis.io/how-to-build-a-medieval-metaverse-game/)，一个 [Web3 MMORPG](https://moralis.io/build-a-web3-mmorpg-with-unity-in-10-minutes/) ，或者一个简单的 [2D Web3 游戏](https://moralis.io/how-to-build-a-2d-web3-game-full-guide%ef%bf%bc/)。
+在今天的文章中，你会发现 Web3 游戏设计与传统游戏设计没有太大的不同。然而，由于它引入了金融方面和可转移的加密资产，它增加了复杂性和机会。因此，适当的规划变得更加重要。Web3 游戏也可以设计成让玩家参与管理的方式。这通常通过[治理令牌](https://moralis.io/what-are-governance-tokens-full-guide/)来完成。在此过程中，您还学习了 Web3 和 Web3 游戏的基础知识。你已经看到了网络和游戏的发展，了解了 Moralis。因此，你现在已经准备好在区块链编程中迈出下一步。如果您精通 JavaScript 或 Unity，我们建议您参与一些实际的示例项目。例如，你可以[制作一个中世纪的元宇宙游戏](https://moralis.io/how-to-build-a-medieval-metaverse-game/)，一个 [Web3 MMORPG](https://moralis.io/build-a-web3-mmorpg-with-unity-in-10-minutes/) ，或者一个简单的 [2D Web3 游戏](https://moralis.io/how-to-build-a-2d-web3-game-full-guide%ef%bf%bc/)。
 
-另一方面，您可能渴望探索其他区块链发展主题。如果是这样的话，请访问 YouTube 频道和[道德博客](https://moralis.io/blog/)。一些最新的话题集中在如何[将一个 Web3 钱包连接到一个网站](https://moralis.io/how-to-connect-a-web3-wallet-to-a-website/)， [NFT 实用程序](https://moralis.io/nft-utility-exploring-nft-use-cases-in-2022/)，回答了“[什么是索拉纳？](https://moralis.io/what-is-solana-the-full-2022-guide/)问题，探讨如何开发一个 [Web3 网飞克隆](https://moralis.io/how-to-develop-a-web3-netflix-clone/)或一个 [Web3 视频流服务](https://moralis.io/how-to-create-a-web3-video-streaming-service/)，如何建立一个 [BNB 钱包](https://moralis.io/binance-coin-wallet-guide-how-to-set-up-a-bnb-wallet/)，一个 [ETH 钱包](https://moralis.io/how-to-create-an-eth-wallet-full-guide/)，或一个[多链钱包](https://moralis.io/how-to-build-a-multi-chain-wallet-in-5-steps/)。此外，这两个出口可以满足您的免费持续加密教育的需求。尽管如此，你可能渴望尽快成为一名 Web3 开发者。在这种情况下，我们建议你采取更专业的方法。因此，考虑报名参加道德学院。在那里，你将接触到顶级的[区块链发展课程](https://academy.moralis.io/all-courses)，一个不断进步的社区，以及专家指导。
+另一方面，您可能渴望探索其他区块链发展主题。如果是这样的话，请访问 YouTube 频道和[Moralis 博客](https://moralis.io/blog/)。一些最新的话题集中在如何[将一个 Web3 钱包连接到一个网站](https://moralis.io/how-to-connect-a-web3-wallet-to-a-website/)， [NFT 实用程序](https://moralis.io/nft-utility-exploring-nft-use-cases-in-2022/)，回答了“[什么是索拉纳？](https://moralis.io/what-is-solana-the-full-2022-guide/)问题，探讨如何开发一个 [Web3 网飞克隆](https://moralis.io/how-to-develop-a-web3-netflix-clone/)或一个 [Web3 视频流服务](https://moralis.io/how-to-create-a-web3-video-streaming-service/)，如何建立一个 [BNB 钱包](https://moralis.io/binance-coin-wallet-guide-how-to-set-up-a-bnb-wallet/)，一个 [ETH 钱包](https://moralis.io/how-to-create-an-eth-wallet-full-guide/)，或一个[多链钱包](https://moralis.io/how-to-build-a-multi-chain-wallet-in-5-steps/)。此外，这两个出口可以满足您的免费持续加密教育的需求。尽管如此，你可能渴望尽快成为一名 Web3 开发者。在这种情况下，我们建议你采取更专业的方法。因此，考虑报名参加 Moralis 学院。在那里，你将接触到顶级的[区块链发展课程](https://academy.moralis.io/all-courses)，一个不断进步的社区，以及专家指导。
 
 ![](img/7ebd347bcfab2ede3356c01fec9b32df.png)

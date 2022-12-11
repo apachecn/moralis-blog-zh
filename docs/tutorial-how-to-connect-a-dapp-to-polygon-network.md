@@ -6,9 +6,9 @@
 
 多亏了当前 Web3 技术栈的先进工具，上述任务才成为可能。毕竟，近年来技术已经取得了长足的进步。此外，使用像 Moralis 这样优秀的跨链工具和平台，您可以使用您的 Web2 开发技能在各种网络上创建杀手级 dapps(去中心化应用程序)。此外，通过 Moralis(领先的企业级 Web3 API 提供商)，您可以结合 NodeJS 和 Moralis 的 EVM API 的力量来创建后端 dapp，并毫不费力地连接到 Polygon 网络。
 
-你也可以使用终极以太坊样板，它支持所有 EVM 兼容链，包括多边形。毫无疑问，这个样板文件是构建和连接 dapp 和 Polygon 的最快方法。因此，在今天的文章中，我们还将向您展示如何使用这个快捷方式。因此，请务必[创建您的免费道德账户](https://admin.moralis.io/register)并跟随我们的脚步！
+你也可以使用终极以太坊样板，它支持所有 EVM 兼容链，包括多边形。毫无疑问，这个样板文件是构建和连接 dapp 和 Polygon 的最快方法。因此，在今天的文章中，我们还将向您展示如何使用这个快捷方式。因此，请务必[创建您的免费 Moralis 账户](https://admin.moralis.io/register)并跟随我们的脚步！
 
-*获取 Web3 开发的最新信息—*[*加入道德杂志*](https://moralis.io/joindiscord/) *！*
+*获取 Web3 开发的最新信息—*[*加入 Moralis 杂志*](https://moralis.io/joindiscord/) *！*
 
 ![](img/9c75076f2e83cba40b01af3a1b39ddc5.png)
 
@@ -44,7 +44,7 @@ Polygon 是一个去中心化的以太坊缩放平台。因此，这是以太坊
 4.  **将您的 Dapp 与 Moralis 服务集成**
 5.  **从多边形中获取区块链数据**
 
-在前进之前，您需要考虑一些先决条件。所以，如果你还没有这样做，现在就设置你的免费道德账户。此外，准备好您喜欢的代码编辑器(我们使用 Visual Studio 代码[VSC])，并安装 NodeJS。完成这些任务后，您就可以连接到多边形网络了。
+在前进之前，您需要考虑一些先决条件。所以，如果你还没有这样做，现在就设置你的免费 Moralis 账户。此外，准备好您喜欢的代码编辑器(我们使用 Visual Studio 代码[VSC])，并安装 NodeJS。完成这些任务后，您就可以连接到多边形网络了。
 
 ![](img/a8ac866fe4099fb734361aefbb0e312c.png)
 
@@ -117,7 +117,7 @@ const chain = EvmChain.POLYGON
 
 #### 获取您的 Moralis Web3 API 密钥
 
-此时，您应该已经启动并运行了您的 Moralis 帐户。因此，您可以使用您的凭证来访问您的道德管理区。在那里，您将能够通过两个简单的步骤复制您的 Moralis Web3 API 密钥。首先，从侧面菜单中选择“Web3 APIs”选项。其次，单击 API 密钥旁边的“复制”图标:
+此时，您应该已经启动并运行了您的 Moralis 帐户。因此，您可以使用您的凭证来访问您的 Moralis 管理区。在那里，您将能够通过两个简单的步骤复制您的 Moralis Web3 API 密钥。首先，从侧面菜单中选择“Web3 APIs”选项。其次，单击 API 密钥旁边的“复制”图标:
 
 ![](img/be3a53b2c2883150c29addc9f7377760.png)
 
@@ -133,7 +133,7 @@ const chain = EvmChain.POLYGON
 
 ### 将 Dapp 连接到多边形–获取区块链数据
 
-初始化 Moralis 并输入适当的值后，您可以开始实现各种 Web3 API 调用。由于道德 EVM API 提供了许多选项，我们无法在此一一介绍。然而，通过向您展示如何获取本机余额、ERC-20 余额和 NFTs，您可以自己轻松地探索其他 API 端点。
+初始化 Moralis 并输入适当的值后，您可以开始实现各种 Web3 API 调用。由于 Moralis EVM API 提供了许多选项，我们无法在此一一介绍。然而，通过向您展示如何获取本机余额、ERC-20 余额和 NFTs，您可以自己轻松地探索其他 API 端点。
 
 ![](img/e2a8b5a31d6f99dfd481fc16e4bd4ddc.png)
 
@@ -260,4 +260,4 @@ https://www.youtube.com/watch?v=Bb5Pc–kyAY&t=10s
 
 有了这里获得的知识，您就可以开始 Web3 开发之旅的下一步了。如果你喜欢通过承担各种示例项目来学习，你应该探索一下 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)。在那里，你可以找到大量优秀的教程。一些最新的文章教你如何[使用 Azure 函数](https://moralis.io/how-to-connect-playfab-with-web3-using-azure-functions/)将 PlayFab 与 Web3 连接，如何[使用 NextJS](https://moralis.io/how-to-connect-metamask-to-website-with-nextjs/) 将 MetaMask 与网站连接，如何[用五个步骤构建一个以太坊 dapp](https://moralis.io/full-guide-how-to-build-an-ethereum-dapp-in-5-steps/) ，甚至如何构建一个 [Web3 FIFA](https://moralis.io/how-to-build-a-web3-fifa-clone/) 克隆。
 
-另一方面，你可能希望在专家的指导下开始一条个性化的学习之路。后者在[道德学院](https://academy.moralis.io/)等着你，在那里你可以获得区块链认证。通过完成区块链发展课程，如[区块链商业大师班](https://academy.moralis.io/courses/blockchain-business-masterclass)课程，你增加了获得一份完美加密工作的机会。
+另一方面，你可能希望在专家的指导下开始一条个性化的学习之路。后者在[Moralis 学院](https://academy.moralis.io/)等着你，在那里你可以获得区块链认证。通过完成区块链发展课程，如[区块链商业大师班](https://academy.moralis.io/courses/blockchain-business-masterclass)课程，你增加了获得一份完美加密工作的机会。

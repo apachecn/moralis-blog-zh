@@ -14,7 +14,7 @@
 
 Web3 身份验证是 dapp(分散式应用程序)的网关，使用 Moralis 的 [Web3 身份验证 API](https://moralis.io/authentication/) ，您可以毫不费力地将 Web3 登录添加到任何 dapp。该 API 支持所有主要解决方案，包括 WalletConnect 集成。由于后者往往是移动用户的最佳选择，因此作为开发人员，您必须学习如何集成 WalletConnect。毕竟，这种开源协议支持 170 多个加密钱包，使其成为最用户友好的 Web3 身份验证方法之一。此外，由于 Moralis 完全是关于跨链互操作性的，它的 Auth API 使您能够跨所有领先的区块链实现 WalletConnect 到 dapps。此外，Moralis 使您能够将其集成为一个独立的 Web3 登录解决方案，或者将其与其他 Web3 onboarding 方法相结合。**T3】**
 
-今天文章的核心部分将向您展示如何使用 Moralis 添加 WalletConnect 集成。在这里，您将有机会创建一个简单的 NextJS 应用程序，并将 WalletConnect 集成为一个身份验证解决方案。然而，在我们邀请您卷起袖子之前，我们需要了解一些基础知识。因此，我们将首先确保你们都知道 WalletConnect 是什么，以及哪些钱包与这个简洁的解决方案兼容。然而，如果你已经熟悉了这些基础知识，请随意[创建你的免费道德账户](https://admin.moralis.io/register)并跳转到“*添加 WalletConnect 集成*”部分。
+今天文章的核心部分将向您展示如何使用 Moralis 添加 WalletConnect 集成。在这里，您将有机会创建一个简单的 NextJS 应用程序，并将 WalletConnect 集成为一个身份验证解决方案。然而，在我们邀请您卷起袖子之前，我们需要了解一些基础知识。因此，我们将首先确保你们都知道 WalletConnect 是什么，以及哪些钱包与这个简洁的解决方案兼容。然而，如果你已经熟悉了这些基础知识，请随意[创建你的免费 Moralis 账户](https://admin.moralis.io/register)并跳转到“*添加 WalletConnect 集成*”部分。
 
 ![User holding a phone and scanning WalletConnect's QR code.](img/ed4001a3cf6fa1bc90180cd562a276d1.png)
 
@@ -66,7 +66,7 @@ WalletConnect 是一种开源协议，可用于在各种加密钱包和 dapps �
 
 如果您想在我们的指导下构建上面演示的 dapp，请确保您完成了以下先决条件:
 
-*   准备好你的道德账户。
+*   准备好你的 Moralis 账户。
 *   安装和设置 Visual Studio 代码(VSC)。
 *   创建你的 NextJS dapp。如果你需要这方面的帮助，请使用 NextJS 文档中的“*创建下一个应用程序*”页面，或者使用 NextJS 完成我们的“ [*”教程。*](https://docs.moralis.io/docs/nextjs-dapp)
 
@@ -474,6 +474,6 @@ export default User;
 
 如果您喜欢本教程，我们鼓励您探索其他教程以及 [Moralis 文档](https://docs.moralis.io/)中的操作指南。例如，您可以使用 Moralis 和其他框架和开发平台创建 dapps。或者，你可以探索其他的 [Web3 认证选项](https://docs.moralis.io/docs/web3-authentication)。除了 Moralis 的文档，确保使用 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)扩展你的区块链发展知识和技能。事实上，你可以使用这两个途径作为你的免费的区块链发展教育。一些最新的文章关注于 [Dogechain](https://moralis.io/build-with-dogecoin-on-evm-what-is-dogechain/) 、 [Aptos](https://moralis.io/what-is-aptos-full-guide-to-the-aptos-blockchain/) 、Sui 区块链、终极[区块链技术栈](https://moralis.io/the-ultimate-blockchain-tech-stack-guide/)、领先的 [Web3 基础设施](https://moralis.io/web3-infrastructure-exploring-the-best-solution-for-web3-development/)解决方案、[跨链桥接](https://moralis.io/cross-chain-bridging-deep-dive/)等等。
 
-另一方面，你可能有兴趣尽快成为全职加密员。在这种情况下，你应该通过注册[道德学院](https://academy.moralis.io/)成为区块链认证。如果你想成为一个有前途的 Web3 项目的领导者，那么“[区块链商业大师班](https://academy.moralis.io/courses/blockchain-business-masterclass)”课程绝对值得你关注。
+另一方面，你可能有兴趣尽快成为全职加密员。在这种情况下，你应该通过注册[Moralis 学院](https://academy.moralis.io/)成为区块链认证。如果你想成为一个有前途的 Web3 项目的领导者，那么“[区块链商业大师班](https://academy.moralis.io/courses/blockchain-business-masterclass)”课程绝对值得你关注。
 
 ![Moralis Academy](img/b49c5e06330ed874af7583d1d0ed4889.png)**

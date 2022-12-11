@@ -8,7 +8,7 @@
 
 ****Solana 是区块链的主要网络之一，拥有一个由 dapps(去中心化应用)、 [DeFi](https://moralis.io/what-is-defi-the-full-decentralized-finance-guide/) 平台和其他有趣的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 项目组成的著名生态系统。当以太坊的天然气费用飙升，使得在这个网络上发展经济上不可行时，寻找其他替代方案变得越来越有趣。索拉纳强调可伸缩性和速度，这使得它成为一个有效的[以太坊](https://moralis.io/full-guide-what-is-ethereum/)的替代品。因此，我们将在接下来的章节中探索如何使用 [Moralis](https://moralis.io/) 操作系统构建一个 Solana dapp。所以，如果你跟着做，你将学会只通过三个简单的步骤就能创造出你自己的索拉纳 dapp！****
 
-****使用 Moralis [Solana API](https://docs.moralis.io/moralis-dapp/solana-api) ，您可以轻松地为 Solana 网络创建 dapps。这与平台的底层后端基础设施和其他有趣的开发工具相结合，提供了一个更容易访问的开发过程。然而，这仅仅触及了道德的表面，还有更多有待发现。例如，如果你想进入其他网络的 [dapp 开发](https://moralis.io/dapp-development-tutorial-full-guide-to-building-a-dapp/)，请查看[以太坊 dapp API](https://moralis.io/what-is-an-ethereum-dapp-api-build-ethereum-dapps-easily/) 或[多边形 dapp API](https://moralis.io/polygon-dapp-api-how-to-efficiently-create-polygon-dapps/) 。这些工具让我们能够轻松地创建复杂的 dapps，如 [Web3 Spotify](https://moralis.io/how-to-build-a-web3-spotify-clone/) 和 [Web3 Amazon](https://moralis.io/how-to-build-a-web3-amazon-marketplace/) 克隆。****
+****使用 Moralis [Solana API](https://docs.moralis.io/moralis-dapp/solana-api) ，您可以轻松地为 Solana 网络创建 dapps。这与平台的底层后端基础设施和其他有趣的开发工具相结合，提供了一个更容易访问的开发过程。然而，这仅仅触及了 Moralis 的表面，还有更多有待发现。例如，如果你想进入其他网络的 [dapp 开发](https://moralis.io/dapp-development-tutorial-full-guide-to-building-a-dapp/)，请查看[以太坊 dapp API](https://moralis.io/what-is-an-ethereum-dapp-api-build-ethereum-dapps-easily/) 或[多边形 dapp API](https://moralis.io/polygon-dapp-api-how-to-efficiently-create-polygon-dapps/) 。这些工具让我们能够轻松地创建复杂的 dapps，如 [Web3 Spotify](https://moralis.io/how-to-build-a-web3-spotify-clone/) 和 [Web3 Amazon](https://moralis.io/how-to-build-a-web3-amazon-marketplace/) 克隆。****
 
 ****所以，如果你有成为区块链开发者的雄心，你来对地方了。Moralis 为你提供进入 [Web3 开发](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/)所需的一切，你可以完全免费与 Moralis 签约！****
 
@@ -34,7 +34,7 @@ Solana 专注于速度和可扩展性，而网络由于其独特的混合共识�
 
 对什么是 Solana dapp 有了更好的理解，我们可以进入主题，探索如何构建 Solana dapp。因为我们将利用 Moralis，所以我们可以只通过三个简单的步骤来创建 dapp:
 
-1.  创建道德 Dapp
+1.  创建 Moralis Dapp
 2.  用 HTML 构建 Dapp 的内容
 3.  添加 JavaScript 逻辑
 
@@ -48,7 +48,7 @@ https://www.youtube.com/watch?v=ax5scht_s4U
 
 但是，事不宜迟，让我们开始这个“如何构建一个 Solana dapp”教程，深入到第一步，我们将创建一个 Moralis dapp！
 
-## 第一步:建立一个索拉纳 Dapp——创造一个道德 Dapp
+## 第一步:建立一个索拉纳 Dapp——创造一个 Moralis Dapp
 
 如果您还没有，在我们继续之前，您需要一个 Moralis 帐户。你可以在 Moralis 这里免费创建一个账户，只需要几秒钟。现在您已经是 Moralis 的成员，您可以通过按下 Moralis 管理面板上的“创建新 dapp”按钮来启动创建 Moralis dapp 的过程。
 
@@ -58,7 +58,7 @@ https://www.youtube.com/watch?v=ax5scht_s4U
 
 选定网络后，您需要选择一个区域。这种选择应该取决于你的地理位置和你应该选择离你最近的替代方案。在那里，你只需要命名 dapp 并点击“创建你的 Dapp”按钮。这将启动 dapp，它将立即运行。
 
-既然您已经访问了您的道德 dapp，您可以探索几个选项。因此，如果您点击有问题的 dapp 的“设置”,您将被定向到 dapp 的仪表板。这将在你界面的左边显示一个导航栏，里面有很多选项供你探索。
+既然您已经访问了您的 Moralis dapp，您可以探索几个选项。因此，如果您点击有问题的 dapp 的“设置”,您将被定向到 dapp 的仪表板。这将在你界面的左边显示一个导航栏，里面有很多选项供你探索。
 
 但是，我们会将注意力转向登录页面，在该页面中，您可以找到“Dapp 凭据”。在此标题下，您可以找到 dapp URL 和应用程序 ID。请记住这一点，因为在第三步中我们需要这两个元素。
 
@@ -104,15 +104,15 @@ Moralis.start({ serverUrl, appId });
 
 索拉纳区块链网络于 2017 年首次推出，现在是 dapps 和其他有趣的 Web3 项目的庞大生态系统的宿主。索拉纳是以太坊的一个很好的替代品，以太坊一直在与高昂的以太坊燃气费作斗争。Solana 更注重可伸缩性，并将交易成本保持在最低水平。因此，这对于[以太坊发展](https://moralis.io/ethereum-development-for-beginners/)来说是一个更加经济可行的选择。
 
-由于 Solana 网络的好处，我们通过这篇文章更深入地研究了 Solana 编程。这样做，我们探索了如何建立一个道德的索拉纳 dapp。由于使用了 Moralis 操作系统，我们只需三个步骤就能构建 Solana dapp:
+由于 Solana 网络的好处，我们通过这篇文章更深入地研究了 Solana 编程。这样做，我们探索了如何建立一个 Moralis 的索拉纳 dapp。由于使用了 Moralis 操作系统，我们只需三个步骤就能构建 Solana dapp:
 
-1.  创建道德 Dapp
+1.  创建 Moralis Dapp
 2.  用 HTML 构建 Dapp 的内容
 3.  添加 JavaScript 逻辑
 
-然而，这仅仅涵盖了道德的基本可能性。更多信息，请考虑阅读[道德博客](https://moralis.io/blog/)。在那里，您可以找到最新的 Web3 开发内容，帮助您进行编程。例如，看看下面关于 [Web3 webhooks](https://moralis.io/web3-webhooks-the-ultimate-guide-to-blockchain-webhooks/) 和 [Web3 同步](https://moralis.io/web3-syncing-how-to-sync-smart-contract-web3-events/)的文章，如果你想升级你的 Web3 游戏，这些文章很棒！
+然而，这仅仅涵盖了 Moralis 的基本可能性。更多信息，请考虑阅读[Moralis 博客](https://moralis.io/blog/)。在那里，您可以找到最新的 Web3 开发内容，帮助您进行编程。例如，看看下面关于 [Web3 webhooks](https://moralis.io/web3-webhooks-the-ultimate-guide-to-blockchain-webhooks/) 和 [Web3 同步](https://moralis.io/web3-syncing-how-to-sync-smart-contract-web3-events/)的文章，如果你想升级你的 Web3 游戏，这些文章很棒！
 
-更重要的是，如果你想变得更加精通区块链发展的最佳语言，考虑报名参加 T2 道德学院。道德学院提供市场上最好的[区块链课程](https://academy.moralis.io/all-courses)。如果您对 Solana 开发特别感兴趣，请查看" [Solana 编程 101](https://academy.moralis.io/courses/solana-programming-101) "否则，如果你对这个领域完全陌生，参加“[初学者加密](https://academy.moralis.io/courses/crypto-for-beginners)”课程来学习 Web3 和加密领域的基础知识。
+更重要的是，如果你想变得更加精通区块链发展的最佳语言，考虑报名参加 T2 Moralis 学院。Moralis 学院提供市场上最好的[区块链课程](https://academy.moralis.io/all-courses)。如果您对 Solana 开发特别感兴趣，请查看" [Solana 编程 101](https://academy.moralis.io/courses/solana-programming-101) "否则，如果你对这个领域完全陌生，参加“[初学者加密](https://academy.moralis.io/courses/crypto-for-beginners)”课程来学习 Web3 和加密领域的基础知识。
 
 ![](img/a5bd30121235b202ed3e000cb0dfd538.png)
 

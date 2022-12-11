@@ -18,7 +18,7 @@
 
 随着我们的继续，我们将构建一个简单的 DeFi 仪表板，它将包括跨链功能，并可以作为您提高前端技能以扩展 UI 的一个很好的起点。然而，在我们深入研究我们的示例项目之前，让我们先概述一下使用 Moralis 构建跨链 DeFi 仪表板所需的步骤。我们可以将事情分成以下五个主要步骤:
 
-1.  创建一个道德服务器。
+1.  创建一个 Moralis 服务器。
 2.  构建一个 dApp 并将其连接到您的 Moralis 服务器。
     1.  使用 HTML 文件为你的 [dApp](https://moralis.io/decentralized-applications-explained-what-are-dapps/) 提供结构(使用模板加快进程)。
     2.  创建一个 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 文件来为您的 dApp 提供逻辑(使用模板来加速这个过程)。
@@ -44,7 +44,7 @@
 
 如果您记得我们必须完成的五个步骤，您就会知道我们必须首先创建一个 Moralis 服务器。要完成此任务，请按照下列步骤操作:
 
-1.  [**创建您的道德家账户**](https://admin.moralis.io/register)–如果您还没有道德家账户，请确保现在就创建一个。为此，请单击上面的链接，输入您的电子邮件地址，并创建您的密码。最后，您需要确认您的电子邮件地址(您将收到一封带有确认链接的电子邮件)。如果你已经有了一个有效的 Moralis 账户，只需[登录](https://admin.moralis.io/login)。
+1.  [**创建您的 Moralis 家账户**](https://admin.moralis.io/register)–如果您还没有 Moralis 家账户，请确保现在就创建一个。为此，请单击上面的链接，输入您的电子邮件地址，并创建您的密码。最后，您需要确认您的电子邮件地址(您将收到一封带有确认链接的电子邮件)。如果你已经有了一个有效的 Moralis 账户，只需[登录](https://admin.moralis.io/login)。
 2.  **创建新服务器**–进入您的 Moralis 管理区域后，点击右上角的“+创建新服务器”按钮(如下所示)。从出现的下拉菜单中，选择最适合您需求的网络类型(见下图)。*当示例项目有问题时，我们建议从“Testnet 服务器”选项开始。*
 
 ![](img/75157f61765b9e93d2e7a48d611eca32.png)
@@ -57,7 +57,7 @@
 
 ![](img/714daecb5f2895349fcfe4b9638a7c32.png)
 
-4.  **初始化道德规范**–现在填充您的”。js“或者”。html”文件，其中包含 Moralis 服务器的详细信息(应用程序 ID 和服务器 URL ),以获得所需的后端功能:
+4.  **初始化 Moralis 规范**–现在填充您的”。js“或者”。html”文件，其中包含 Moralis 服务器的详细信息(应用程序 ID 和服务器 URL ),以获得所需的后端功能:
 
 ![](img/c2cea713e11ac3fba0204fcf03bf55aa.png)
 
@@ -136,7 +136,7 @@ const appId = "YOUR APP ID HERE";
 
 当然，我们也想给用户一个退出的选项。这就是上面的“注销”功能。
 
-### 第 4 步:构建一个跨链 DeFi 仪表板-查询道德仪表板
+### 第 4 步:构建一个跨链 DeFi 仪表板-查询 Moralis 仪表板
 
 要访问 Moralis 服务器的仪表板，请单击三个点，然后单击服务器上的“仪表板”:
 
@@ -200,7 +200,7 @@ async function displayNFTS(chn, dbRef){
 }
 ```
 
-查看上面的代码行，你还可以看到 Moralis 的[以太坊 API](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) 和 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 在运行。这使得获得令牌和 NFT 余额变得极其简单。 ***道德家。web 3 API . token . gettokenprice***和“ ***Moralis。web 3 API . token . gettokenidmetadata***"代码片段。此外，这个 [ultimate Web3 API](https://docs.moralis.io/moralis-server/web3-sdk/intro) 最大的优点是它对所有支持的链都是通用的。
+查看上面的代码行，你还可以看到 Moralis 的[以太坊 API](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) 和 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 在运行。这使得获得令牌和 NFT 余额变得极其简单。 ***Moralis 家。web 3 API . token . gettokenprice***和“ ***Moralis。web 3 API . token . gettokenidmetadata***"代码片段。此外，这个 [ultimate Web3 API](https://docs.moralis.io/moralis-server/web3-sdk/intro) 最大的优点是它对所有支持的链都是通用的。
 
 ### 步骤 5:构建一个跨链 DeFi 仪表板——UI
 
@@ -218,9 +218,9 @@ https://www.youtube.com/watch?v=xx_7wddfiJA
 
 如果您想学习如何创建 DeFi 仪表板，这篇文章是最好的起点。使用上面提供的详细信息，您现在知道如何通过以下五个步骤构建交叉链 DeFi 仪表板:
 
-1.  创建一个道德服务器。
+1.  创建一个 Moralis 服务器。
 2.  构建一个 dApp 并将其连接到您的 Moralis 服务器。
-3.  **添加道德认证。**
+3.  **添加 Moralis 认证。**
 4.  **查询 Moralis dashboard 以访问所有在链数据。**
 5.  使用您的 JavaScript 技能为附加功能添加最佳用户界面。
 

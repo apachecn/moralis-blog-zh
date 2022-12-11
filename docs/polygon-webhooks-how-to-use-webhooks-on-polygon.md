@@ -9,7 +9,7 @@
 如果你跟随本教程并完成必要的步骤，你将学会在多边形上创建 webhooks 的有效方法。此外，使用 Moralis 的 Streams API，您可以通过两种方式设置多边形 webhooks:
 
 *   程序化
-*   通过道德的管理面板
+*   通过 Moralis 的管理面板
 
 如果你想直接跳到教程，向下滚动到“*如何设置和使用 Polygon Webhooks with Moralis* ”部分！此外，您将在下面的代码片段中找到以编程方式设置多边形 webhook 的完整代码:
 
@@ -146,7 +146,7 @@ const stream = {
 }
 ```
 
-从那里，使用“*流*”对象来调用道德家的“*”道德家。Streams.add(stream)* "函数。最后，创建一个新的“{ *id* }”对象，并添加您要监视的钱包地址:
+从那里，使用“*流*”对象来调用 Moralis 家的“*”Moralis 家。Streams.add(stream)* "函数。最后，创建一个新的“{ *id* }”对象，并添加您要监视的钱包地址:
 
 ```js
 const newStream = await Moralis.Streams.add(stream);
@@ -190,7 +190,7 @@ node “FILE_NAME”
 
 ### 通过 Moralis 的网络用户界面
 
-本节将向你展示如何通过 Moralis 的网络用户界面设置多边形网络钩子。你首先需要的是一个道德账户。因此，如果你还没有，第一步是注册道德。一旦你有了一个帐户，访问以下网页:“[*【https://admin.moralis.io/streams】*](https://admin.moralis.io/streams)”。
+本节将向你展示如何通过 Moralis 的网络用户界面设置多边形网络钩子。你首先需要的是一个 Moralis 账户。因此，如果你还没有，第一步是注册 Moralis。一旦你有了一个帐户，访问以下网页:“[*【https://admin.moralis.io/streams】*](https://admin.moralis.io/streams)”。
 
 点击该链接会将您带到 Moralis 管理面板，在那里，通过点击“+ New Stream”按钮继续操作:
 
@@ -249,7 +249,7 @@ node “FILE_NAME”
 
 尽管如此，如果你已经加入了我们，你现在应该能够以编程的方式创建流，并通过 Moralis 的 web UI 来设置多边形 webhooks。此外，您现在已经熟悉了 Moralis 的 Web3 Streams API，并且可以使用 Polygon webhooks 将链上数据传输到您未来所有区块链项目的后端！
 
-如果您对 Streams API 有进一步的疑问，您可以在这里找到官方文档。此外，如果在本教程中出现任何问题，请考虑加入道德不和谐频道。在那里，您可以从我们有才华的社区工程师那里获得帮助！
+如果您对 Streams API 有进一步的疑问，您可以在这里找到官方文档。此外，如果在本教程中出现任何问题，请考虑加入 Moralis 不和谐频道。在那里，您可以从我们有才华的社区工程师那里获得帮助！
 
 ## 总结–如何使用多边形网络挂钩
 
@@ -263,8 +263,8 @@ node “FILE_NAME”
 
 本教程的大部分可访问性源自 Moralis 的 Streams API。也就是说，这只是 Moralis 提供的许多企业级 API 中的一个，Moralis 的所有工具都有助于实现最好的 [Web3 基础设施](https://moralis.io/web3-infrastructure-exploring-the-best-solution-for-web3-development/)。如果你想了解更多这方面的知识，你可以，例如，查看 Moralis 的 [Solana API](https://moralis.io/solana-api/) 。这个工具使 Solana 开发更加简单，使您能够更有效地为网络构建 dapps 和令牌。有关 Solana 开发的更多信息，请考虑阅读我们关于 [Solana 智能合同示例](https://moralis.io/solana-smart-contract-examples-for-developers/)或 [Solana 智能合同构建](https://moralis.io/solana-smart-contract-building/)的文章！
 
-此外，如果你想成为一名更熟练的区块链开发者，可以考虑报名参加道德学院。该学院提供一些业内最好的发展课程。例如，如果你是 Web3 领域的新手，从以下课程开始你的旅程:“[区块链&比特币 101](https://academy.moralis.io/courses/blockchain-bitcoin-101) ”。
+此外，如果你想成为一名更熟练的区块链开发者，可以考虑报名参加 Moralis 学院。该学院提供一些业内最好的发展课程。例如，如果你是 Web3 领域的新手，从以下课程开始你的旅程:“[区块链&比特币 101](https://academy.moralis.io/courses/blockchain-bitcoin-101) ”。
 
 ![Moralis Academy](img/d0713c699be39ae6412ff9a0f365652d.png)
 
-尽管如此，请立即与 Moralis 签约，开始更智能、更高效地构建 dapps！此外，创建你的道德账户是免费的，所以你不会有任何损失！
+尽管如此，请立即与 Moralis 签约，开始更智能、更高效地构建 dapps！此外，创建你的 Moralis 账户是免费的，所以你不会有任何损失！

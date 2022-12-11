@@ -1,8 +1,8 @@
-# 道德杂志# 4——用道德打造钱包
+# Moralis 杂志# 4——用 Moralis 打造钱包
 
 > 原文：<https://moralis.io/moralis-magazine-4-building-a-wallet-with-moralis/>
 
-每周我们都会深入区块链编程，并向您展示 Moralis 如何让区块链开发变得轻而易举。从进行实验到解决区块链数据访问问题(以及这两者之间的所有事情)—[Moralis](https://moralis.io)会处理所有事情！本周，我们将专门来看看如何用道德来打造一个钱包！
+每周我们都会深入区块链编程，并向您展示 Moralis 如何让区块链开发变得轻而易举。从进行实验到解决区块链数据访问问题(以及这两者之间的所有事情)—[Moralis](https://moralis.io)会处理所有事情！本周，我们将专门来看看如何用 Moralis 来打造一个钱包！
 
 Moralis 在此为您提供支持，并渴望成为您的“僚机”,与您一起打造金融的未来。
 
@@ -10,7 +10,7 @@ Moralis 在此为您提供支持，并渴望成为您的“僚机”,与您一�
 
 第一期:IPFS；[问题 2: CORS 错误](https://moralis.io/moralis-magazine-2-overcome-cors-errors/https://moralis.io/moralis-magazine-2-overcome-cors-errors/)；[第三期:自动化观鲸](https://moralis.io/moralis-magazine-3-automated-whale-watching/)
 
-## 本周最新消息:道德驱动的网络钱包
+## 本周最新消息:Moralis 驱动的网络钱包
 
 什么是加密钱包？
 
@@ -24,7 +24,7 @@ Moralis 在此为您提供支持，并渴望成为您的“僚机”,与您一�
 
 有了 Moralis，我们不再局限于外部钱包平台。通过将我们的钥匙连接到由 Moralis 驱动的定制钱包，我们可以构建我们需要的功能，并以最适合我们的 [dApps](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/) 的方式工作。
 
-在我们深入细节之前，让我们回顾一下我们的种子密钥将在我们的道德钱包中扮演的角色。
+在我们深入细节之前，让我们回顾一下我们的种子密钥将在我们的 Moralis 钱包中扮演的角色。
 
 ### 了解钱包
 
@@ -123,10 +123,10 @@ Moralis 在此为您提供支持，并渴望成为您的“僚机”,与您一�
 
 https://www.youtube.com/watch?v=zd0pBsmJI8s
 
-感谢阅读！我们希望本周的《道德》杂志和使用道德打造钱包的指导对你有所帮助。
+感谢阅读！我们希望本周的《Moralis》杂志和使用 Moralis 打造钱包的指导对你有所帮助。
 
 继续建造！
 
 下次见💚
 
-道德研究小组
+Moralis 研究小组

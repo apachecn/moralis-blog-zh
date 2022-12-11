@@ -18,10 +18,10 @@
 
 有了这个设置，你只需从 [Moralis 的文档](https://docs.moralis.io/)中为不同类型的 Web3 功能复制并粘贴单行代码。后者涵盖了您的后端需求。当然，接下来就要靠你的前端创造力来确保你围绕它构建出最好的用户界面(UI)。然而，我们在 [Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)上为你提供了一些非常棒的想法，可以作为一个很好的起点。
 
-因此，以下是用道德建造以太坊的必要步骤:
+因此，以下是用 Moralis 建造以太坊的必要步骤:
 
-1.  创建您的免费道德账户。
-2.  创建你的道德服务器。
+1.  创建您的免费 Moralis 账户。
+2.  创建你的 Moralis 服务器。
 3.  连接到您的 Moralis 服务器。
 4.  启动 Moralis 的 SDK。
 5.  从 Moralis 的文档中复制并粘贴简短的代码片段。
@@ -51,7 +51,7 @@
 
 为了使用 Moralis 并在几分钟内构建您的第一个 dApp，您需要完成以下步骤:
 
-1.  [**创建您的道德家账户**](https://admin.moralis.io/register)——如果您还没有创建您的免费道德家账户，请务必现在就创建。单击上面的链接，输入您的电子邮件地址，并创建您的密码。然后，通过确认您的电子邮件地址来完成该过程(您将收到一封带有确认链接的电子邮件)。*如果您已经有了一个有效的 Moralis 帐户，只需* [*登录*](https://admin.moralis.io/login) *并进入您的管理区。*T12
+1.  [**创建您的 Moralis 家账户**](https://admin.moralis.io/register)——如果您还没有创建您的免费 Moralis 家账户，请务必现在就创建。单击上面的链接，输入您的电子邮件地址，并创建您的密码。然后，通过确认您的电子邮件地址来完成该过程(您将收到一封带有确认链接的电子邮件)。*如果您已经有了一个有效的 Moralis 帐户，只需* [*登录*](https://admin.moralis.io/login) *并进入您的管理区。*T12
     T14*T16】*
 2.  **创建新服务器**–在您的 Moralis 管理区域，点击右上角的“+创建新服务器”按钮。将出现一个下拉菜单，提供几个网络类型选项(见下图)。由于这是一个示例项目，我们建议使用“Testnet 服务器”选项。然而，一旦您准备好部署全功能的 dApps，您将需要选择“Mainnet 服务器”选项。
 
@@ -69,7 +69,7 @@
 
 ![](img/faf4f33a7b37359053e0fcafecbc5a4b.png)
 
-4.  **初始化道德规范**–现在填充您的”。js“或者”。html”文件，其中包含 Moralis 服务器的详细信息(应用程序 ID 和服务器 URL ),以获得所需的后端功能:
+4.  **初始化 Moralis 规范**–现在填充您的”。js“或者”。html”文件，其中包含 Moralis 服务器的详细信息(应用程序 ID 和服务器 URL ),以获得所需的后端功能:
 
 ![](img/a7ad69e7028988a4662c0e3767364f43.png)
 
@@ -85,7 +85,7 @@
 
 ![](img/eada034ae0e8a058a48888820dc104e9.png)
 
-在下一页，你会看到如何在你的网页上添加道德的详细说明。此外，您还可以使用 HTML 样板代码，其中已经包含了脚本、登录和注销按钮。因此，您可以简单地将代码复制并粘贴到在代码编辑器中创建的“index.html”文件中(我们使用 Visual Studio Code [VSC])。然而，为了这个示例项目的目的，我们将从普通代码开始。然后，我们将添加必要的元素来获得我们所追求的基本功能。
+在下一页，你会看到如何在你的网页上添加 Moralis 的详细说明。此外，您还可以使用 HTML 样板代码，其中已经包含了脚本、登录和注销按钮。因此，您可以简单地将代码复制并粘贴到在代码编辑器中创建的“index.html”文件中(我们使用 Visual Studio Code [VSC])。然而，为了这个示例项目的目的，我们将从普通代码开始。然后，我们将添加必要的元素来获得我们所追求的基本功能。
 
 ### **构建您的第一个 dApp–代码演练**
 
@@ -106,7 +106,7 @@
 </html>
 ```
 
-接下来，我们需要初始化 SDK。在上面的“道德设置”一节中，我们已经完成了这一部分的大部分工作。然而，由于我们那时还没有准备好 HTML 文件，现在是实现这一步的时候了。使用 Moralis 的文档，并将“初始化 SDK”部分中的代码复制到“连接 SDK”部分下:
+接下来，我们需要初始化 SDK。在上面的“Moralis 设置”一节中，我们已经完成了这一部分的大部分工作。然而，由于我们那时还没有准备好 HTML 文件，现在是实现这一步的时候了。使用 Moralis 的文档，并将“初始化 SDK”部分中的代码复制到“连接 SDK”部分下:
 
 ```js
 const serverUrl = "https://xxxxx/server";
@@ -177,6 +177,6 @@ Moralis.start({ serverUrl, appId });
 
 如果你对自己的 JavaScript 能力有信心，那么你就有能力承担更高级的项目。例如，你可以[创建一个 DeFi 仪表板](https://moralis.io/how-to-create-a-defi-dashboard-in-5-steps/)、 [BEP20](https://moralis.io/what-is-bep20-full-binance-smart-chain-token-guide/) 代币、[生成 NFT](https://moralis.io/how-to-generate-nfts-full-guide/)、[创建一个 NFT 市场](https://moralis.io/how-to-create-an-nft-marketplace/)或[批量造币 NFT](https://moralis.io/how-to-bulk-mint-nfts-batch-minting-guide/)，这里仅列出几个选项。此外，你也可以将你的 React 原生技能用于[创建移动以太坊 dapp](https://moralis.io/create-mobile-ethereum-dapp-with-react-native-template/)。当您将前端开发技能与 Moralis 结合起来时，构建以太坊 dApps 就变成了一个简单的过程。此外，您甚至可以通过使用 Moralis 提供的终极[以太坊 dApp 样板](https://moralis.io/ethereum-dapp-boilerplate-full-ethereum-react-boilerplate-tutorial/)来进一步简化这个过程。
 
-此外，如果你不精通 JavaScript，我们鼓励你参加[道德学院](https://academy.moralis.io/)的 [2021 区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)课程。这样，你将学会这种有用的编程语言，并准备在最有前途的行业中使用它。此外，您可以随意探索[道德学院](https://academy.moralis.io/)的其他优质课程。
+此外，如果你不精通 JavaScript，我们鼓励你参加[Moralis 学院](https://academy.moralis.io/)的 [2021 区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)课程。这样，你将学会这种有用的编程语言，并准备在最有前途的行业中使用它。此外，您可以随意探索[Moralis 学院](https://academy.moralis.io/)的其他优质课程。
 
 ![](img/ca9fc33518f01dbc12f7e45d5fc5c43c.png)

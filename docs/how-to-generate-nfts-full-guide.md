@@ -4,7 +4,7 @@
 
 无数的加密项目为他们的收藏产生了 [**NFTs**](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/) **的作品，每个月都有新的 NFT 艺术藏品脱颖而出。此外，许多开发人员参与创建 NFT，这意味着他们使用计算机代码生成 NFT。因此，计算机生成了 NFT 个人的艺术作品，并给每幅 NFT 作品增加了随机性，这使得在许多人看来，收藏总体上更有价值。此外，虽然许多 NFT 在** [**以太坊**](https://moralis.io/full-guide-what-is-ethereum/) **的区块链上推出，但 NFT 令牌也在其他流行链上创建和部署，如** [**币安智能链**](https://moralis.io/bsc-programming-guide-intro-to-binance-smart-chain-development-in-10-minutes/) **(BSC)、索拉纳、** [**雪崩**](https://moralis.io/how-to-build-avalanche-dapps-in-minutes/) **等。然而，虽然一些开发人员可能认为生成 NFT 似乎很有挑战性，但是利用适当的工具(比如 Moralis)可以使这个过程变得简单明了。因此，我们将在本文中展示如何使用 Moralis 生成 NFT。**
 
-随着 NFT 的出现和它们越来越受欢迎，学习 [NFT 令牌开发](https://moralis.io/nft-token-development-the-ultimate-guide/)对于每个想要[成为区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)的程序员来说是必不可少的。此外，无论你是决定[创建你自己的 NFT](https://moralis.io/how-to-create-nfts-and-upload-to-opensea/)还是你的客户的，知道如何创建 NFT 将是非常有益的。虽然这个过程可能看起来很有挑战性，有些令人生畏，但有一个强大的工具唾手可得，让整个后端过程变得轻而易举——Moralis。感谢 [Moralis](https://moralis.io/) 终极 Web3 开发平台，你可以用一行代码[将文件夹上传到 IPFS](https://moralis.io/how-to-upload-folders-to-ipfs/) 。这样，你就可以分散地存储你的作品和元数据。之后你只需要用一个智能合约[铸币 NFTs](https://moralis.io/how-to-mint-nfts-full-tutorial-to-minting-an-nft/) 。所以，如果你真的想学习如何生成 NFT，现在就[创建你的免费道德账户](https://admin.moralis.io/register)。
+随着 NFT 的出现和它们越来越受欢迎，学习 [NFT 令牌开发](https://moralis.io/nft-token-development-the-ultimate-guide/)对于每个想要[成为区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)的程序员来说是必不可少的。此外，无论你是决定[创建你自己的 NFT](https://moralis.io/how-to-create-nfts-and-upload-to-opensea/)还是你的客户的，知道如何创建 NFT 将是非常有益的。虽然这个过程可能看起来很有挑战性，有些令人生畏，但有一个强大的工具唾手可得，让整个后端过程变得轻而易举——Moralis。感谢 [Moralis](https://moralis.io/) 终极 Web3 开发平台，你可以用一行代码[将文件夹上传到 IPFS](https://moralis.io/how-to-upload-folders-to-ipfs/) 。这样，你就可以分散地存储你的作品和元数据。之后你只需要用一个智能合约[铸币 NFTs](https://moralis.io/how-to-mint-nfts-full-tutorial-to-minting-an-nft/) 。所以，如果你真的想学习如何生成 NFT，现在就[创建你的免费 Moralis 账户](https://admin.moralis.io/register)。
 
 ![](img/81967a53004a5847218ab670a0f2a3ad.png)
 
@@ -166,7 +166,7 @@ Moralis.start({ serverUrl, appId, masterKey });
 
 #### **如何使用 Moralis 的 IPFS 集成生成 NFT**
 
-我们想要关注的“index.js”代码的另一部分是确保我们的文件保存到 [IPFS](https://moralis.io/full-guide-how-to-upload-to-ipfs/) 的代码行。通过使用这个存储选项，我们确保我们的项目具有真正的分散化。这也是道德家让事情变得简单和方便的地方。没有道德，这将是一个漫长而艰苦的过程；然而，使用这个强大的工具，我们用两行代码覆盖了它:
+我们想要关注的“index.js”代码的另一部分是确保我们的文件保存到 [IPFS](https://moralis.io/full-guide-how-to-upload-to-ipfs/) 的代码行。通过使用这个存储选项，我们确保我们的项目具有真正的分散化。这也是 Moralis 家让事情变得简单和方便的地方。没有 Moralis，这将是一个漫长而艰苦的过程；然而，使用这个强大的工具，我们用两行代码覆盖了它:
 
 ```js
 const file = new Moralis.File(filename, { base64: base64 });
@@ -194,7 +194,7 @@ let _metaFile = await metaFile.saveIPFS({ useMasterKey: true });
 
 ![](img/6c682c61d1e41e9fa02b5e812ef33351.png)
 
-#### **道德仪表板**
+#### **Moralis 仪表板**
 
 除了将我们的图像和元数据文件保存到 IPFS，我们还将生成的路径保存到我们的 Moralis dashboard(数据库)。因此，我们可以很容易地将它用于我们的“待造”NFT 的任何进一步应用。
 

@@ -6,7 +6,7 @@
 
 首先，我们将提供 Web3 的概述，并将其与我们更熟悉的概念 Web1 和 Web2 进行比较。接下来，我们将深入探究为什么 Web3 最近获得了越来越多的关注。最后，我们将通过描述 Web3 的当前状态及其与元宇宙的连接来结束一切。
 
-此外，我们不能谈论 Web3 而不提到道德，因为操作系统对区块链的发展是必不可少的。Moralis 使 [Web3 开发](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/)民主化，让任何人都能够构建强大的区块链应用程序，而无需手动设置自己的 Web3 后端。此外，Moralis 允许他们在几分钟和几小时内创建 [dapps](https://moralis.io/decentralized-applications-explained-what-are-dapps/) 和 Web3 项目，而不是几周和几个月。例如，你可以使用 Moralis 在 15 分钟内[创建一个 NFT 市场](https://moralis.io/how-to-create-an-nft-marketplace/)！
+此外，我们不能谈论 Web3 而不提到 Moralis，因为操作系统对区块链的发展是必不可少的。Moralis 使 [Web3 开发](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/)民主化，让任何人都能够构建强大的区块链应用程序，而无需手动设置自己的 Web3 后端。此外，Moralis 允许他们在几分钟和几小时内创建 [dapps](https://moralis.io/decentralized-applications-explained-what-are-dapps/) 和 Web3 项目，而不是几周和几个月。例如，你可以使用 Moralis 在 15 分钟内[创建一个 NFT 市场](https://moralis.io/how-to-create-an-nft-marketplace/)！
 
 因此，如果你想成为一名区块链开发者，注册 Moralis 是对你最有利的。通过这样做，您不仅可以使用 Moralis 的高级 Web3 后端基础设施，还可以使用其他类似的开发工具。例如，你会发现 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) 、对 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 的本地支持、 [Moralis Price API](https://moralis.io/introducing-the-moralis-price-api/) 以及更多这些工具。
 
@@ -70,7 +70,7 @@ Web3 的第二个好处是平台可以被民主管理，这在 Web2 中并不明
 
 ![](img/2d1f6e9fa11cad9211a81924dc76200b.png)
 
-投入这个领域的资金、人才和精力显示了 Web3 现在有多火。因此，如果你有兴趣，你应该在[道德博客](https://moralis.io/blog/)上关注 Web3！
+投入这个领域的资金、人才和精力显示了 Web3 现在有多火。因此，如果你有兴趣，你应该在[Moralis 博客](https://moralis.io/blog/)上关注 Web3！
 
 ## Web3 和元宇宙
 

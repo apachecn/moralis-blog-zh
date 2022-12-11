@@ -1,4 +1,4 @@
-# 道德杂志# 21-成为一名道德法师
+# Moralis 杂志# 21-成为一名 Moralis 法师
 
 > 原文：<https://moralis.io/moralis-magazine-21-become-a-moralis-mage/>
 
@@ -8,21 +8,21 @@
 
 ## **欢迎来到 2022 年**
 
-Moralis 今年准备好掀起新的浪潮，我们很高兴您能和我们在一起。我们在本期中为新的 Moralis 用户打包了一些特别的好东西，以及一些 NFT 教程亮点的回顾。请务必向下滚动到这本杂志的末尾，在那里你会发现一本新的“独家”道德指南，首先提供给道德杂志的订户！
+Moralis 今年准备好掀起新的浪潮，我们很高兴您能和我们在一起。我们在本期中为新的 Moralis 用户打包了一些特别的好东西，以及一些 NFT 教程亮点的回顾。请务必向下滚动到这本杂志的末尾，在那里你会发现一本新的“独家”Moralis 指南，首先提供给 Moralis 杂志的订户！
 
-你在用道德建造什么？你卡住了吗？向我们提出问题和意见。谁知道呢，我们甚至可能会在未来的杂志上直接回复你！
+你在用 Moralis 建造什么？你卡住了吗？向我们提出问题和意见。谁知道呢，我们甚至可能会在未来的杂志上直接回复你！
 
 [**发送您的问题给我们**](https://ivanontech.typeform.com/to/R9K5lnGe)
 
 ![](img/de057c1773a0301800cfae6b833057c2.png)
 
-## **道德问&答**
+## **Moralis 问&答**
 
-每周，我们都会收到像你一样勤奋的道德家和法师的问题。上周，队伍中一个勇敢的灵魂问道:
+每周，我们都会收到像你一样勤奋的 Moralis 家和法师的问题。上周，队伍中一个勇敢的灵魂问道:
 
-“用道德建造一个前端最快的方法是什么？”
+“用 Moralis 建造一个前端最快的方法是什么？”
 
-首先，您需要具备 JavaScript 的功能知识，因为这是用于开发现代互联网(包括 Web3 前端)的语言。如果你想发展扎实的 JavaScript 技能，没有比道德学院更好的地方了。查看“[区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers?utm_source=blog&utm_medium=post&utm_campaign=Exploring%2520Polymath%252C%2520the%2520POLY%2520Token%252C%2520and%2520the%2520POLYX%2520Token)”课程，精通 JavaScript 并获得区块链认证！
+首先，您需要具备 JavaScript 的功能知识，因为这是用于开发现代互联网(包括 Web3 前端)的语言。如果你想发展扎实的 JavaScript 技能，没有比 Moralis 学院更好的地方了。查看“[区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers?utm_source=blog&utm_medium=post&utm_campaign=Exploring%2520Polymath%252C%2520the%2520POLY%2520Token%252C%2520and%2520the%2520POLYX%2520Token)”课程，精通 JavaScript 并获得区块链认证！
 
 掌握一点编码知识，我们可以使用以太坊样板作为基础，快速启动一个项目。有了以太坊样板，您不必从头开始。相反，我们立即为您配备了许多重要的工具，所有这些都呈现在一个现代化的(可定制的)用户界面中。
 
@@ -32,7 +32,7 @@ Moralis 今年准备好掀起新的浪潮，我们很高兴您能和我们在一
 
 https://www.youtube.com/watch?v=gc0kEjjWobc&t=5s
 
-**NFT 和道德**
+**NFT 和 Moralis**
 
 如果您第一次检查 Moralis，您可能会对如何将 NFTs 与 Moralis 一起使用有一些疑问。幸运的是，Moralis 具有扩展功能，专门为 NFT 的 Web3 体验而构建。
 
@@ -58,11 +58,11 @@ https://www.youtube.com/watch?v=XJgg81UZ1C0
 
 https://www.youtube.com/watch?v=VItrnkzcmOI
 
-你们每个人都是非凡事物的一部分，这本杂志就是要让道德的力量为你所用！
+你们每个人都是非凡事物的一部分，这本杂志就是要让 Moralis 的力量为你所用！
 
-我们都是道德家，在这里互相支持。如果你不是已经活跃在[道貌岸然道不和](https://discord.com/invite/P9N9HF97hH)的话，今天就是让你登场的日子。
+我们都是 Moralis 家，在这里互相支持。如果你不是已经活跃在[道貌岸然道不和](https://discord.com/invite/P9N9HF97hH)的话，今天就是让你登场的日子。
 
-在道德道的冲突中，你会发现一堆道德专家和法师同伴。发布您的项目并从社区获得反馈，参与编码挑战，并了解最新的 Moralis 特性和更新。
+在 Moralis 道的冲突中，你会发现一堆 Moralis 专家和法师同伴。发布您的项目并从社区获得反馈，参与编码挑战，并了解最新的 Moralis 特性和更新。
 
 * * *
 
@@ -86,10 +86,10 @@ https://youtu.be/JLHH3QedQoI
 
 * * *
 
-感谢阅读！我们希望本周的道德杂志对你有用。
+感谢阅读！我们希望本周的 Moralis 杂志对你有用。
 
 继续建造！
 
 下次见💚
 
-道德研究小组
+Moralis 研究小组

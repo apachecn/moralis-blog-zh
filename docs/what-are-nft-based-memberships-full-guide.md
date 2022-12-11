@@ -4,7 +4,7 @@
 
 NFT 的会员资格在各行各业越来越受欢迎。例如，企业可以只允许持有特定 NFTs 的人访问他们的内容，这将防止发行公司遇到用户与其他人共享其付费订阅会员的情况。因此，许多人想在他们的网站和平台上推行 NFT 会员制度也就不足为奇了。但是，什么是 NFT 会员制呢？在我们的完整指南中，请跟随我们深入探讨这个主题！
 
-像其他区块链发展主题一样，纳入 NFT 的会员资格可能会很棘手。如果你掉进了直接在[以太坊 RPC 节点](https://moralis.io/ethereum-rpc-nodes-what-they-are-and-why-you-shouldnt-use-them/)上建造的陷阱，那就更是如此。然而，如果您利用正确的工具，您可以避免处理 RPC 节点的[限制。此外，使用适当的工具，您可以在几分钟内准备好 NFT 门户网站。这就是](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)[道德观的由来。当使用这个"](https://moralis.io/) [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) "平台时，你可以使用[终极 NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 。因此，当前 Web3 技术的顶峰使得创建 NFT 门户网站变得简单明了。因此，[创建你的免费道德账户](https://admin.moralis.io/register)，并从今天开始使用这个优秀的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)。然而，在您开始实施 NFT 会员资格之前，您需要了解一些基础知识。在这里，我们将从探索 NFT 基本面开始。然后我们将回答“什么是 NFT 会员？”问题！
+像其他区块链发展主题一样，纳入 NFT 的会员资格可能会很棘手。如果你掉进了直接在[以太坊 RPC 节点](https://moralis.io/ethereum-rpc-nodes-what-they-are-and-why-you-shouldnt-use-them/)上建造的陷阱，那就更是如此。然而，如果您利用正确的工具，您可以避免处理 RPC 节点的[限制。此外，使用适当的工具，您可以在几分钟内准备好 NFT 门户网站。这就是](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)[Moralis 观的由来。当使用这个"](https://moralis.io/) [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) "平台时，你可以使用[终极 NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 。因此，当前 Web3 技术的顶峰使得创建 NFT 门户网站变得简单明了。因此，[创建你的免费 Moralis 账户](https://admin.moralis.io/register)，并从今天开始使用这个优秀的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)。然而，在您开始实施 NFT 会员资格之前，您需要了解一些基础知识。在这里，我们将从探索 NFT 基本面开始。然后我们将回答“什么是 NFT 会员？”问题！
 
 ![](img/c0fabe711ef876c8dd35e836c94cf589.png)
 
@@ -59,11 +59,11 @@ NFT 的会员资格在各行各业越来越受欢迎。例如，企业可以只�
 
 既然你已经知道了所有的基础知识，你可能会迫不及待地开始构建这类网站或应用程序。幸运的是，你可以用你的前端技能做到这一点。此外，当使用 Moralis 时，您可以使用 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) (JS)或 Unity experience 创建 dapps、Web3 网站和 [GameFi](https://moralis.io/gamefi-tutorial-how-to-create-a-gamefi-game/) 应用程序。多亏了 Moralis 的 SDK 及其全面的 Web3 APIs，它基本上可以满足你所有与区块链相关的后端需求。在大多数情况下，你只需从[的 Moralis 文档](https://docs.moralis.io/)中复制一些简短的代码片段，然后粘贴到你的代码中。
 
-Moralis 还提供了几个额外的快捷方式。它们以样板文件的形式出现，比如终极 [Web3 样板文件](https://moralis.io/web3-boilerplate-beginners-guide-to-web3/)和 [web3uikit](https://moralis.io/web3ui-kit-the-ultimate-web3-user-interface-kit/) 。有了这些优秀的工具，开发人员可以在几分钟内完成惊人的部署和运行。Moralis 的另一个优点是它的跨链和跨平台的互操作性。因此，使用道德不会以任何方式限制你。它允许你使用相同的代码在多个链上部署你的 Web3 应用。因此，你可以接触到更广泛的观众。尽管如此，这也是一个让你的工作经得起未来考验的好方法。此外，由于 Moralis 让每个人都可以免费入门，因此可以节省您的时间和金钱。
+Moralis 还提供了几个额外的快捷方式。它们以样板文件的形式出现，比如终极 [Web3 样板文件](https://moralis.io/web3-boilerplate-beginners-guide-to-web3/)和 [web3uikit](https://moralis.io/web3ui-kit-the-ultimate-web3-user-interface-kit/) 。有了这些优秀的工具，开发人员可以在几分钟内完成惊人的部署和运行。Moralis 的另一个优点是它的跨链和跨平台的互操作性。因此，使用 Moralis 不会以任何方式限制你。它允许你使用相同的代码在多个链上部署你的 Web3 应用。因此，你可以接触到更广泛的观众。尽管如此，这也是一个让你的工作经得起未来考验的好方法。此外，由于 Moralis 让每个人都可以免费入门，因此可以节省您的时间和金钱。
 
 ![](img/9ead408d86f2b5ce936426a1cc57c40b.png)
 
-如果你还没有这样做，一定要创建你的免费道德账户，给这个坏男孩一个机会。首先，我们鼓励你创建一个道德 dapp。这样，您将学习如何完成初始设置，包括创建一个 Moralis 服务器。一旦您的服务器启动并运行，您就可以访问您的 Moralis 仪表板(数据库)。后者结合 Moralis 的“同步”功能，使您能够[同步和索引智能合同事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/)。本质上，你可以用 T4 指数来衡量区块链 T5 指数。因此，道德是创建 NFT 门户网站的工具。
+如果你还没有这样做，一定要创建你的免费 Moralis 账户，给这个坏男孩一个机会。首先，我们鼓励你创建一个 Moralis dapp。这样，您将学习如何完成初始设置，包括创建一个 Moralis 服务器。一旦您的服务器启动并运行，您就可以访问您的 Moralis 仪表板(数据库)。后者结合 Moralis 的“同步”功能，使您能够[同步和索引智能合同事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/)。本质上，你可以用 T4 指数来衡量区块链 T5 指数。因此，Moralis 是创建 NFT 门户网站的工具。
 
 ![](img/03e80584c5e1e57c15645d2c79f33408.png)
 
@@ -75,13 +75,13 @@ Moralis 还提供了几个额外的快捷方式。它们以样板文件的形式
 
 *注* *:如果这是你第一次听说 NFT 造币，我们推荐学习* [*如何懒人造币 NFTs*](https://moralis.io/how-to-lazy-mint-nfts/) *，* [*如何批量造币 NFTs*](https://moralis.io/how-to-bulk-mint-nfts-batch-minting-guide/) *，* [*如何免费造币 NFTs*](https://moralis.io/how-to-mint-nfts-for-free-without-paying-gas-fees/)*。*
 
-### 道德的 NFT API
+### Moralis 的 NFT API
 
 无论你想创建一个 NFT 门户网站还是 NFT 门户移动 dapp，Moralis 都是首选。这个构建高性能 dapps 的单一 Web3 工作流提供了不容错过的捷径。首先，Moralis 使您能够通过 MetaMask 、 [WalletConnect](https://moralis.io/what-is-walletconnect-the-ultimate-walletconnect-guide/) 或其他简单的方法用一行代码进行认证。设置好身份验证后，你已经能够[将 Web3 钱包连接到网站](https://moralis.io/how-to-connect-a-web3-wallet-to-a-website/)。然后，你可以使用 [Moralis 的 NFT API](https://docs.moralis.io/moralis-dapp/web3-api/nft-api) 来实现各种基于 NFT 的会员资格。
 
 例如，“ [getNFTs](https://github.com/nft-api/nft-api#getnfts) ”端点从当前用户获取所有的 NFT，包括 ERC-721 和 ERC-1155 NFT。它返回一个具有 NFTs 对象数量和 NFT 对象数组的对象。因此，这个终点将是谜题的第一部分。接下来，您可以使用“ [searchNFTs](https://github.com/nft-api/nft-api#searchnfts) ”端点来查看他们的 NFT 是否匹配所需的 NFT。然后，您可以轻松地使用您的 JavaScript 知识来构建必要的逻辑。后者将只允许那些拥有正确的 NFTs 的人访问某些内容。
 
-如果你是一个视频爱好者，请确保观看我们下面 YouTube 频道的视频。在这篇文章中，一位道德专家在不到五分钟的时间里解释了我们文章的主旨。
+如果你是一个视频爱好者，请确保观看我们下面 YouTube 频道的视频。在这篇文章中，一位 Moralis 专家在不到五分钟的时间里解释了我们文章的主旨。
 
 https://www.youtube.com/watch?v=WMsWGchdPpo
 
@@ -94,4 +94,4 @@ https://www.youtube.com/watch?v=WMsWGchdPpo
 
 当然，您也可以使用这两个平台来探索其他 Web3 开发主题。例如，一些最新的文章集中在[区块链短信通知](https://moralis.io/how-to-get-blockchain-sms-notifications/)，如何实现一个 [Web3 连接钱包按钮](https://moralis.io/how-to-add-a-web3-connect-wallet-button-to-your-website/)，如何[建立一个玩赚游戏](https://moralis.io/how-to-build-a-play-to-earn-p2e-game/)，如何使用[孟买测试网龙头](https://moralis.io/mumbai-testnet-faucet-how-to-get-free-testnet-matic-tokens/)，以及如何[宣称一个游戏内 NFT](https://moralis.io/how-to-claim-an-in-game-nft-full-guide/) 。此外，您还可以探索[以太坊名称服务](https://moralis.io/what-is-ethereum-name-service-full-ens-guide/) (ENS)，如何在没有元掩码的情况下[web 3](https://moralis.io/web3-without-metamask-web3-authentication-alternatives/)，如何创建一个[币安 NFT](https://moralis.io/how-to-create-a-binance-nft-in-5-steps/) ，并获得“[什么是 Web2 和 Web3](https://moralis.io/what-is-web2-and-web3-explaining-web3/) ”等问题的答案等等。
 
-另外，一定要考虑报读[道德学院](https://academy.moralis.io/)。如果你想参加顶级的[密码开发课程](https://academy.moralis.io/all-courses)，获得专家指导，并成为行业中最先进的社区之一的一员，这里就是你要去的地方。在成为道德学院成员的推动下，你将[在创纪录的时间内成为 Web3 开发者](https://moralis.io/how-to-become-a-web3-developer-full-guide/)。*
+另外，一定要考虑报读[Moralis 学院](https://academy.moralis.io/)。如果你想参加顶级的[密码开发课程](https://academy.moralis.io/all-courses)，获得专家指导，并成为行业中最先进的社区之一的一员，这里就是你要去的地方。在成为 Moralis 学院成员的推动下，你将[在创纪录的时间内成为 Web3 开发者](https://moralis.io/how-to-become-a-web3-developer-full-guide/)。*

@@ -2,13 +2,13 @@
 
 > 原文：<https://moralis.io/how-to-create-an-avalanche-dapp-in-4-steps/>
 
-区块链产业发展迅速，每天都有新的[](https://moralis.io/decentralized-applications-explained-what-are-dapps/)****(去中心化应用)在区块链的各个生态系统中涌现。最著名的区块链开发平台是** [**以太坊**](https://moralis.io/full-guide-what-is-ethereum/) **，这里是众多创新平台的聚集地。然而，以太坊远不是适合** [**Web3 开发**](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/) **的唯一平台。其他示例包括 Polygon、BSC(币安智能链)和 Avalanche。事实上，** [**道德家**](https://moralis.io/) **上周刚刚宣布** [**全力支持雪崩**](https://moralis.io/moralis-announces-full-support-for-avalanche/) **。因此，我们将仔细看看如何使用 Moralis 通过四个步骤创建雪崩 dApp。****
+区块链产业发展迅速，每天都有新的[](https://moralis.io/decentralized-applications-explained-what-are-dapps/)****(去中心化应用)在区块链的各个生态系统中涌现。最著名的区块链开发平台是** [**以太坊**](https://moralis.io/full-guide-what-is-ethereum/) **，这里是众多创新平台的聚集地。然而，以太坊远不是适合** [**Web3 开发**](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/) **的唯一平台。其他示例包括 Polygon、BSC(币安智能链)和 Avalanche。事实上，** [**Moralis 家**](https://moralis.io/) **上周刚刚宣布** [**全力支持雪崩**](https://moralis.io/moralis-announces-full-support-for-avalanche/) **。因此，我们将仔细看看如何使用 Moralis 通过四个步骤创建雪崩 dApp。****
 
 **如果这不是你第一次访问 [Moralis 的博客](https://moralis.io/blog/)，那么你可能会偶然发现其他教程，比如学习[构建 ETH dApps](https://moralis.io/how-to-build-eth-dapps-quickly/) ，或者[如何构建多边形 dApps](https://moralis.io/how-to-build-polygon-dapps-easily/) 。此外，这篇文章将展开同样的主题，但雪崩链。**
 
 **对于本教程，我们将利用 Moralis 及其最终的 Web3 开发平台。Moralis 提供了一系列有价值的优秀开发工具，以及已经开发的后端基础设施。因为我们将利用 Moralis，所以有可能显著缩短开发过程，允许开发人员节省宝贵的时间和资源。这是由于 Moralis 的原生跨链兼容性，这使得学习[如何构建以太坊 dApp](https://moralis.io/ultimate-guide-how-to-build-ethereum-dapps/)和 [NFT 编程](https://moralis.io/nft-programming-for-beginners/)就像雪崩 dApp 开发一样简单！**
 
-**所以，如果你还没有，你应该抓住机会，马上和 Moralis 签约。这是完全免费的，你将立即获得工具，如[道德快速节点](https://moralis.io/speedy-nodes/)、 [NFT API](https://moralis.io/announcing-the-moralis-nft-api/) 、[价格 API](https://moralis.io/introducing-the-moralis-price-api/) 等等！**
+**所以，如果你还没有，你应该抓住机会，马上和 Moralis 签约。这是完全免费的，你将立即获得工具，如[Moralis 快速节点](https://moralis.io/speedy-nodes/)、 [NFT API](https://moralis.io/announcing-the-moralis-nft-api/) 、[价格 API](https://moralis.io/introducing-the-moralis-price-api/) 等等！**
 
 ### **什么是雪崩？**
 

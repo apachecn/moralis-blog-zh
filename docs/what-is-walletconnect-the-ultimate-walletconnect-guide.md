@@ -26,7 +26,7 @@ WalletConnect 提供了额外的有用特性，对区块链开发非常有用。
 
 如果你想挑战加密钱包，看看 Moralis 关于如何用 4 步建立加密钱包的文章。
 
-## 使用道德标准构建 dApps 为什么要认证用户？
+## 使用 Moralis 标准构建 dApps 为什么要认证用户？
 
 例如，[以太坊 dApp 开发](https://moralis.io/how-to-build-dapps-on-ethereum/)的一个重要方面就是围绕着用户的认证。在与 dApps 互动时，允许用户验证自己的身份，让他们确信自己是钱包的主人，这一点至关重要。因此，所有的 dApp 开发者都需要在他们的项目中加入某种形式的认证机制。
 
@@ -44,7 +44,7 @@ WalletConnect 提供了额外的有用特性，对区块链开发非常有用。
 
 既然我们已经回答了“什么是 WalletConnect？”并且更好地理解了为什么我们需要对我们的 dApp 用户进行身份验证，我们就可以进一步了解这个过程了。在本教程中，我们将创建一个简单的 dApp，专门用于认证用户。由于我们与 Moralis 合作，该流程变得简单明了，由以下三个步骤组成:
 
-1.  初始化道德。
+1.  初始化 Moralis。
 2.  创建一个 HTML 文件。
 3.  添加逻辑。
 
@@ -54,9 +54,9 @@ WalletConnect 提供了额外的有用特性，对区块链开发非常有用。
 
 https://www.youtube.com/watch?v=3Ij6wp0fuXw
 
-### **步骤 1:如何通过 WalletConnect 验证用户身份–初始化道德标准**
+### **步骤 1:如何通过 WalletConnect 验证用户身份–初始化 Moralis 标准**
 
-为了初始化 Moralis，我们需要一个服务器。因此，如果你还没有，你需要做的第一件事就是注册道德。一旦你有一个帐户并登录，你可以继续点击“+创建一个新的服务器”按钮在你的管理面板顶部。
+为了初始化 Moralis，我们需要一个服务器。因此，如果你还没有，你需要做的第一件事就是注册 Moralis。一旦你有一个帐户并登录，你可以继续点击“+创建一个新的服务器”按钮在你的管理面板顶部。
 
 点击此按钮将提供三种不同的选择。您在这里选择的选项应该基于您要部署 dApp 的位置。但是，单击任一选项都会将您带到一个新窗口来输入一些信息。首先，我们需要给服务器一个名称。其次，我们需要选择一个地区，最后，我们还需要选择网络。
 
@@ -144,8 +144,8 @@ async function enableWeb3() {
 
 WalletConnect 不是一个应用程序，而是一个在钱包和 dApps 之间建立安全和加密连接的协议。该协议提供了超过 75 种不同钱包的工作集成，元掩码是其中之一。因此，WalletConnect 提供了比简单使用加密钱包更高的安全性。
 
-此外，还可以利用 WalletConnect 访问真正的 dApp 用户，这在使用 Moralis 时非常简单。作为操作系统的用户，可以用一行代码对用户进行身份验证。此外，在本文中，我们能够在几分钟内通过三个简单的步骤创建一个演示 dApp。这展示了与道德家合作的潜力。然而，这远远不是道德的限制，因为它可以在各种不同的区块链项目中使用。例如，你可以利用该系统[开发你自己的 NFT 市场](https://moralis.io/develop-your-own-nft-marketplace-step-by-step-guide/)，[建立你的第一个 dApp](https://moralis.io/build-your-first-dapp-ethereum-tutorial/) ，[创建一个 DeFi 仪表板](https://moralis.io/how-to-create-a-defi-dashboard-in-5-steps/)，等等。
+此外，还可以利用 WalletConnect 访问真正的 dApp 用户，这在使用 Moralis 时非常简单。作为操作系统的用户，可以用一行代码对用户进行身份验证。此外，在本文中，我们能够在几分钟内通过三个简单的步骤创建一个演示 dApp。这展示了与 Moralis 家合作的潜力。然而，这远远不是 Moralis 的限制，因为它可以在各种不同的区块链项目中使用。例如，你可以利用该系统[开发你自己的 NFT 市场](https://moralis.io/develop-your-own-nft-marketplace-step-by-step-guide/)，[建立你的第一个 dApp](https://moralis.io/build-your-first-dapp-ethereum-tutorial/) ，[创建一个 DeFi 仪表板](https://moralis.io/how-to-create-a-defi-dashboard-in-5-steps/)，等等。
 
-该平台还提供了额外的优秀开发工具，如对 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 、[道德利斯 NFT API](https://moralis.io/announcing-the-moralis-nft-api/) 、[价格 API](https://moralis.io/introducing-the-moralis-price-api/) 等的原生支持。此外，如果你想了解更多关于区块链行业的总体情况，请访问 [Moralis 博客](https://moralis.io/blog/?utm_source=blog&utm_medium=post&utm_campaign=Introducing%2520the%2520Moralis%2520Price%2520API)获取新鲜刺激的内容，让你了解最新动态。在那里，你一定会找到一切，从全面的[以太坊测试网](https://moralis.io/ethereum-testnet-guide-connect-to-ethereum-testnets/)指南，到分解的 [OpenZeppelin](https://moralis.io/what-is-openzeppelin-the-ultimate-guide/) 、 [BEP20](https://moralis.io/what-is-bep20-full-binance-smart-chain-token-guide/) 、 [ERC721](https://moralis.io/erc-721-token-standard-how-to-transfer-erc721-tokens/) 、 [ERC1155](https://moralis.io/erc1155-exploring-the-erc-1155-token-standard/) 等等！
+该平台还提供了额外的优秀开发工具，如对 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 、[Moralis 利斯 NFT API](https://moralis.io/announcing-the-moralis-nft-api/) 、[价格 API](https://moralis.io/introducing-the-moralis-price-api/) 等的原生支持。此外，如果你想了解更多关于区块链行业的总体情况，请访问 [Moralis 博客](https://moralis.io/blog/?utm_source=blog&utm_medium=post&utm_campaign=Introducing%2520the%2520Moralis%2520Price%2520API)获取新鲜刺激的内容，让你了解最新动态。在那里，你一定会找到一切，从全面的[以太坊测试网](https://moralis.io/ethereum-testnet-guide-connect-to-ethereum-testnets/)指南，到分解的 [OpenZeppelin](https://moralis.io/what-is-openzeppelin-the-ultimate-guide/) 、 [BEP20](https://moralis.io/what-is-bep20-full-binance-smart-chain-token-guide/) 、 [ERC721](https://moralis.io/erc-721-token-standard-how-to-transfer-erc721-tokens/) 、 [ERC1155](https://moralis.io/erc1155-exploring-the-erc-1155-token-standard/) 等等！
 
-所以，如果你想成为一名区块链开发者，第一步就是和道德家签约。这将为您提供无限可扩展的后端基础设施，让您快速开发 dApps！
+所以，如果你想成为一名区块链开发者，第一步就是和 Moralis 家签约。这将为您提供无限可扩展的后端基础设施，让您快速开发 dApps！

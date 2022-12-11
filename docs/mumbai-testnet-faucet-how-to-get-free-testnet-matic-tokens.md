@@ -62,7 +62,7 @@ Mumbai 是 Polygon 的测试网，它是该网络 mainnet 的复制品。然而�
 
 ## 步骤 2:孟买测试网龙头——添加孟买测试网
 
-本节将介绍将孟买测试网添加到 MetaMask 钱包的两种可选方法，我们将从 Moralis 选项开始。如果你还没有，你需要注册道德。这不仅可以让你轻松地将 Mumbai testnet 添加到你的钱包中，而且将证明它在任何未来的 Web3 开发工作中都是有用的。
+本节将介绍将孟买测试网添加到 MetaMask 钱包的两种可选方法，我们将从 Moralis 选项开始。如果你还没有，你需要注册 Moralis。这不仅可以让你轻松地将 Mumbai testnet 添加到你的钱包中，而且将证明它在任何未来的 Web3 开发工作中都是有用的。
 
 有了 Moralis 账户，你需要做的就是导航到“Speedy Nodes”标签，点击多边形网络的“Endpoints”按钮，最后点击 Mumbai 备选方案的“Add to MetaMask”。一旦你点击这个按钮，这应该会提示你的元掩码钱包，你就可以添加网络。
 
@@ -100,7 +100,7 @@ PolygonScan 允许用户检查各种区块链数据，包括交易、地址、�
 
 此外，PolygonScan 为在多边形网络上使用 dapps 的任何人提供了更好的用户体验。不管你是在交易、出售、购买 [NFTs](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/) ，还是在玩你最喜欢的区块链游戏；PolygonScan 为大家提供了更好的体验。
 
-此外，如果你对区块链游戏开发感兴趣，你绝对应该看看道德元宇宙 SDK。举例来说，这个套件可以让你立刻[建造一个中世纪的元宇宙游戏](https://moralis.io/how-to-build-a-medieval-metaverse-game/)！
+此外，如果你对区块链游戏开发感兴趣，你绝对应该看看 Moralis 元宇宙 SDK。举例来说，这个套件可以让你立刻[建造一个中世纪的元宇宙游戏](https://moralis.io/how-to-build-a-medieval-metaverse-game/)！
 
 ## 孟买测试网水龙头-总结
 
@@ -120,4 +120,4 @@ PolygonScan 允许用户检查各种区块链数据，包括交易、地址、�
 
 作为 Moralis 的成员，您将获得市场上一些最好的开发工具。除了我们之前提到的 Moralis 元宇宙 SDK，您还可以访问 Moralis 的 [NFT API](https://moralis.io/nft-api/) 、[价格 API](https://moralis.io/introducing-the-moralis-price-api/) 、对 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 的本地支持等等！
 
-如果你想更深入地了解区块链的发展，[注册 Moralis](https://admin.moralis.io/register) 。创建一个帐户是免费的，你可以马上开始你的开发者之旅！此外，如果你有兴趣成为区块链认证，一定要去看看[道德学院](https://academy.moralis.io/)。在那里，我们提供行业领先的区块链课程，由行业专家进行视频指导！让道德学院从始至终为您的职业生涯提供动力和保障！
+如果你想更深入地了解区块链的发展，[注册 Moralis](https://admin.moralis.io/register) 。创建一个帐户是免费的，你可以马上开始你的开发者之旅！此外，如果你有兴趣成为区块链认证，一定要去看看[Moralis 学院](https://academy.moralis.io/)。在那里，我们提供行业领先的区块链课程，由行业专家进行视频指导！让 Moralis 学院从始至终为您的职业生涯提供动力和保障！

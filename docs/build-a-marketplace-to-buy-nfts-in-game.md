@@ -63,7 +63,7 @@
 
 ## 使用 Unity 和 Moralis 实施“购买游戏内 NFTs”——示例项目
 
-可能有些人第一次听说道德。如果是这样，你应该知道这是最终的 Web3 开发工具。这个" [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) "平台是满足您 Web3 相关后端需求的一站式解决方案。它使前端开发人员能够使用 Moralis 的基础设施，轻松创建出色的 Web3 应用程序。通过使用 Moralis，您不需要处理 RPC 节点的[限制。凭借其单一的工作流程，你可以在几分钟内](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)[创建一个道德 dapp](https://docs.moralis.io/moralis-dapp/getting-started/create-a-moralis-dapp) 。此外，Moralis 的跨链和跨平台互操作性为您提供了许多选择。因此，如果你想在我们的带领下完成示例项目，请确保[创建你的免费道德账户](https://admin.moralis.io/register)。此外，我们鼓励您加入 [Moralis 项目](https://moralis.io/projects/)并获得一些独特的 NFT。
+可能有些人第一次听说 Moralis。如果是这样，你应该知道这是最终的 Web3 开发工具。这个" [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) "平台是满足您 Web3 相关后端需求的一站式解决方案。它使前端开发人员能够使用 Moralis 的基础设施，轻松创建出色的 Web3 应用程序。通过使用 Moralis，您不需要处理 RPC 节点的[限制。凭借其单一的工作流程，你可以在几分钟内](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)[创建一个 Moralis dapp](https://docs.moralis.io/moralis-dapp/getting-started/create-a-moralis-dapp) 。此外，Moralis 的跨链和跨平台互操作性为您提供了许多选择。因此，如果你想在我们的带领下完成示例项目，请确保[创建你的免费 Moralis 账户](https://admin.moralis.io/register)。此外，我们鼓励您加入 [Moralis 项目](https://moralis.io/projects/)并获得一些独特的 NFT。
 
 ![](img/f7717ffd7bf07175643a6e51a1600d6d.png)
 
@@ -87,9 +87,9 @@
 
 ![](img/3870e27e8a591c09b42c9275caaa6b3f.png)
 
-### 初始道德设置
+### 初始 Moralis 设置
 
-现在是时候完成初始 Moralis 设置了(10:00)。幸运的是，这个设置很简单，几乎不需要时间。如果您还没有这样做，首先创建您的免费道德帐户。否则，只需登录您的帐户并访问您的道德管理面板。在那里，您会看到“服务器”选项卡内的“+创建服务器”按钮:
+现在是时候完成初始 Moralis 设置了(10:00)。幸运的是，这个设置很简单，几乎不需要时间。如果您还没有这样做，首先创建您的免费 Moralis 帐户。否则，只需登录您的帐户并访问您的 Moralis 管理面板。在那里，您会看到“服务器”选项卡内的“+创建服务器”按钮:
 
 ![](img/d1befd9b5e852952ab00232116b830de.png)
 
@@ -115,11 +115,11 @@
 
 ![](img/1721843648e7eeace936bdb12e886fad.png)
 
-此外，“商店库存”脚本代码演练将帮助您了解道德的力量。此外，您将看到像“FindAsync()”这样的挂钩是如何简化事情的。
+此外，“商店库存”脚本代码演练将帮助您了解 Moralis 的力量。此外，您将看到像“FindAsync()”这样的挂钩是如何简化事情的。
 
 ### 部署我们的 Web3 合同
 
-正如我们在最初的 Moralis 设置中指出的，我们的示例项目基于 Mumbai testnet。因此，您需要将此网络添加到元掩码中。幸运的是，[道德快速节点](https://moralis.io/speedy-nodes/)让这变得相当容易(29:30):
+正如我们在最初的 Moralis 设置中指出的，我们的示例项目基于 Mumbai testnet。因此，您需要将此网络添加到元掩码中。幸运的是，[Moralis 快速节点](https://moralis.io/speedy-nodes/)让这变得相当容易(29:30):
 
 ![](img/881fac4c7c3c488d94330ab9099c95a9.png)
 
@@ -153,6 +153,6 @@ https://www.youtube.com/watch?v=RRvUWx0AivI
 
 这篇文章让你有可能用 Unity 构建一个 Web3 游戏，允许玩家在游戏中购买 NFTs。您需要做的只是部署您自己的智能合约实例，并完成初始的 Moralis 设置。通过使用我们的代码，您有机会在几分钟内完成整个项目。此外，使用上面的视频教程，您有机会更详细地浏览代码。因此，在这一点上，你知道如何[铸造游戏资产为 NFT](https://moralis.io/how-to-mint-game-assets-as-nfts/)。
 
-如果你喜欢这个示例项目，我们强烈建议你参加我们的其他 Unity 教程。比如，学习做[区块链游戏交易](https://moralis.io/how-to-do-blockchain-game-transactions-with-unity/)，掌握用 Web3 登录连接 [Unity 游戏，或者搭建](https://moralis.io/connecting-a-unity-game-with-web3-login/) [Web3 MMORPG](https://moralis.io/build-a-web3-mmorpg-with-unity-in-10-minutes/) 。另一方面，你可能渴望探索区块链发展的其他方面。如果是这样，请访问[道德博客](https://moralis.io/blog/)和[道德 YouTube](https://www.youtube.com/c/MoralisWeb3) 。一些最新的话题包括一个 [EIP 1559 示例](https://moralis.io/eip-1559-example-what-is-eip-1559/)，一个完整的[去中心化财务指南](https://moralis.io/what-is-defi-the-full-decentralized-finance-guide/)，构建一个 [Web3 Twitter 克隆](https://moralis.io/how-to-build-a-web3-twitter-clone/)，构建一个[去中心化自治组织(DAO)](https://moralis.io/how-to-build-a-decentralized-autonomous-organization-dao/) ， [SPL 与 ERC20 令牌](https://moralis.io/spl-vs-erc20-tokens-comparing-solana-and-ethereum-tokens/)比较，构建一个[索拉纳令牌仪表板](https://moralis.io/how-to-build-a-solana-token-dashboard/)，如何[创建自己的元宇宙](https://moralis.io/how-to-create-your-own-metaverse/)，创建一个 [BNB NFT](https://moralis.io/how-to-create-a-bnb-nft/) 因此，这两个内容出口可以支持您的免费持续区块链发展教育。
+如果你喜欢这个示例项目，我们强烈建议你参加我们的其他 Unity 教程。比如，学习做[区块链游戏交易](https://moralis.io/how-to-do-blockchain-game-transactions-with-unity/)，掌握用 Web3 登录连接 [Unity 游戏，或者搭建](https://moralis.io/connecting-a-unity-game-with-web3-login/) [Web3 MMORPG](https://moralis.io/build-a-web3-mmorpg-with-unity-in-10-minutes/) 。另一方面，你可能渴望探索区块链发展的其他方面。如果是这样，请访问[Moralis 博客](https://moralis.io/blog/)和[Moralis YouTube](https://www.youtube.com/c/MoralisWeb3) 。一些最新的话题包括一个 [EIP 1559 示例](https://moralis.io/eip-1559-example-what-is-eip-1559/)，一个完整的[去中心化财务指南](https://moralis.io/what-is-defi-the-full-decentralized-finance-guide/)，构建一个 [Web3 Twitter 克隆](https://moralis.io/how-to-build-a-web3-twitter-clone/)，构建一个[去中心化自治组织(DAO)](https://moralis.io/how-to-build-a-decentralized-autonomous-organization-dao/) ， [SPL 与 ERC20 令牌](https://moralis.io/spl-vs-erc20-tokens-comparing-solana-and-ethereum-tokens/)比较，构建一个[索拉纳令牌仪表板](https://moralis.io/how-to-build-a-solana-token-dashboard/)，如何[创建自己的元宇宙](https://moralis.io/how-to-create-your-own-metaverse/)，创建一个 [BNB NFT](https://moralis.io/how-to-create-a-bnb-nft/) 因此，这两个内容出口可以支持您的免费持续区块链发展教育。
 
-然而，如果你想尽早成为 Web3 开发人员，你可能需要采取更专业的方法。因此，你应该考虑报名参加[道德学院](https://academy.moralis.io/)——发展最快的专注于区块链发展的在线学院。除了顶级的[课程](https://academy.moralis.io/all-courses/)，这里也是获得专家指导、个性化学习路径以及成为业内最令人惊叹的社区之一的成员的地方。
+然而，如果你想尽早成为 Web3 开发人员，你可能需要采取更专业的方法。因此，你应该考虑报名参加[Moralis 学院](https://academy.moralis.io/)——发展最快的专注于区块链发展的在线学院。除了顶级的[课程](https://academy.moralis.io/all-courses/)，这里也是获得专家指导、个性化学习路径以及成为业内最令人惊叹的社区之一的成员的地方。

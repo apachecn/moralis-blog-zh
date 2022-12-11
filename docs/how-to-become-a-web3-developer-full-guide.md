@@ -6,7 +6,7 @@
 
 在这里，我们将探讨如何轻松成为一名 Web3 开发者。我们会告诉你你应该主要关注的编程语言。此外，我们将向您展示一些非凡的加密工具。此外，这些工具可以使“如何成为 Web3 开发人员”的旅程更加顺利。
 
-更进一步，诸如 [Remix](https://moralis.io/remix-explained-what-is-remix/) 、 [Ganache](https://moralis.io/ganache-explained-what-is-ganache-blockchain/) 、 [Truffle](https://moralis.io/truffle-explained-what-is-the-truffle-suite/) 、 [OpenZeppelin](https://moralis.io/what-is-openzeppelin-the-ultimate-guide/) 、 [MetaMask](https://moralis.io/metamask-explained-what-is-metamask/) 等工具就等着被你利用并投入使用了。然而，在当前的 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)中， [Moralis](https://moralis.io/) 是你的头号操作系统。这个终极的 Web3 开发平台，也被称为“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”，让 Web3 开发变得轻而易举。它使您能够在几分钟内启动并运行 dApps ( [分散应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))。另外， [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 自带了最广泛的 [Web3 API](https://docs.moralis.io/moralis-server/web3-sdk/intro) ，包括[以太坊 API](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) 和 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 。你也可以用它来索引区块链。因此，现在就创建你的免费道德账户吧！
+更进一步，诸如 [Remix](https://moralis.io/remix-explained-what-is-remix/) 、 [Ganache](https://moralis.io/ganache-explained-what-is-ganache-blockchain/) 、 [Truffle](https://moralis.io/truffle-explained-what-is-the-truffle-suite/) 、 [OpenZeppelin](https://moralis.io/what-is-openzeppelin-the-ultimate-guide/) 、 [MetaMask](https://moralis.io/metamask-explained-what-is-metamask/) 等工具就等着被你利用并投入使用了。然而，在当前的 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)中， [Moralis](https://moralis.io/) 是你的头号操作系统。这个终极的 Web3 开发平台，也被称为“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”，让 Web3 开发变得轻而易举。它使您能够在几分钟内启动并运行 dApps ( [分散应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))。另外， [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 自带了最广泛的 [Web3 API](https://docs.moralis.io/moralis-server/web3-sdk/intro) ，包括[以太坊 API](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) 和 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 。你也可以用它来索引区块链。因此，现在就创建你的免费 Moralis 账户吧！
 
 ![](img/d6991e8a6699f37055dacfd2f3c4e203.png)
 
@@ -20,7 +20,7 @@
 
 ## 如何成为一名 Web3 开发者:你应该从前端还是后端开始？
 
-那么，一个有抱负的 Web3 开发者应该主要关注什么呢？幸运的是，你可以同时了解前端和后端。怎么会？道德都是可能的。这个[最好的 Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)可以让你用简短的代码片段覆盖所有与区块链相关的后端需求。请记住，整洁高效的 [Moralis 文档](https://docs.moralis.io/)完全由您支配。因此，您可以简单地复制相关的代码行，并将其粘贴到代码编辑器中。一旦你[创建了一个 Moralis 服务器](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)并用它的细节填充你的代码，你的后端担忧就消失了。
+那么，一个有抱负的 Web3 开发者应该主要关注什么呢？幸运的是，你可以同时了解前端和后端。怎么会？Moralis 都是可能的。这个[最好的 Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)可以让你用简短的代码片段覆盖所有与区块链相关的后端需求。请记住，整洁高效的 [Moralis 文档](https://docs.moralis.io/)完全由您支配。因此，您可以简单地复制相关的代码行，并将其粘贴到代码编辑器中。一旦你[创建了一个 Moralis 服务器](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)并用它的细节填充你的代码，你的后端担忧就消失了。
 
 那么，如何成为一名 Web3 开发者呢？确保你学会了如何创建一个合适的前端，并使用 Moralis 的 SDK 来覆盖后端。这就是成为 Web3 开发者的要点。但是不要担心，我们将在下面为您提供更详细的说明。另外，请不要像其他开发者一样，在 [RPC 节点](https://moralis.io/ethereum-rpc-nodes-what-they-are-and-why-you-shouldnt-use-them/)上构建。这是一种过时的方法，并且处理 RPC 节点的[限制是非常耗时的。另外，即使投入了时间和精力，你也可能得不到你想要的结果。因此，阻力最小的道路是一条安全得多的路线，这正是 Moralis 所提供的。](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)
 
@@ -62,15 +62,15 @@
 
 ### 学习使用 Moralis 的 SDK 来满足您的后端需求
 
-Moralis 带来的速度和简单性使其成为区块链开发的重要组成部分。使用 Moralis，您可以节省多达 87%的开发时间。此外，通过学习使用这个 Web3 开发平台，您不会冒任何风险。由于 Moralis 完全是关于跨链互操作性的，它使您能够跨所有支持的链部署 dApps，如 Ethereum、Polygon、BSC 和 Avalanche。此外，埃尔隆德也在酝酿之中。因此，通过使用道德，你可以让你的工作经得起未来的考验。
+Moralis 带来的速度和简单性使其成为区块链开发的重要组成部分。使用 Moralis，您可以节省多达 87%的开发时间。此外，通过学习使用这个 Web3 开发平台，您不会冒任何风险。由于 Moralis 完全是关于跨链互操作性的，它使您能够跨所有支持的链部署 dApps，如 Ethereum、Polygon、BSC 和 Avalanche。此外，埃尔隆德也在酝酿之中。因此，通过使用 Moralis，你可以让你的工作经得起未来的考验。
 
 ![](img/0d08aad18a6237ff7ff1ce603542ec2b.png)
 
-一旦你了解了 JavaScript 并掌握了 Web3 的基础知识，使用 Moralis 就非常容易了。你需要的所有细节都在 Moralis 的文档中，你可以免费获取。此外，你还可以免费创建你的道德账户。因此，你可以开始使用 Moralis 的 SDK，而不用花一分钱。此外，你可以在道德不和谐频道和道德论坛获得额外的支持。然而，如果你对专家指导感兴趣，[道德学院](https://academy.moralis.io/)是首要平台。除了不同区块链主题的高质量[课程](https://academy.moralis.io/all-courses)，你还将获得个性化的学习路径和指导。因此，你将能够更快地掌握 Web3 开发。
+一旦你了解了 JavaScript 并掌握了 Web3 的基础知识，使用 Moralis 就非常容易了。你需要的所有细节都在 Moralis 的文档中，你可以免费获取。此外，你还可以免费创建你的 Moralis 账户。因此，你可以开始使用 Moralis 的 SDK，而不用花一分钱。此外，你可以在 Moralis 不和谐频道和 Moralis 论坛获得额外的支持。然而，如果你对专家指导感兴趣，[Moralis 学院](https://academy.moralis.io/)是首要平台。除了不同区块链主题的高质量[课程](https://academy.moralis.io/all-courses)，你还将获得个性化的学习路径和指导。因此，你将能够更快地掌握 Web3 开发。
 
 ![](img/aa2dffbc8beee73ea393e8c76d4f5477.png)
 
-总而言之，学习如何使用道德是一种实践。因此，您的目标应该是承担尽可能多的示例项目。除了道德学院提供给你的那些，道德博客和 YouTube 频道上还有无数的教程。我们建议从简单的项目开始，以便掌握它的窍门。因此，掌握 [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/)可能是一个很好的起点。
+总而言之，学习如何使用 Moralis 是一种实践。因此，您的目标应该是承担尽可能多的示例项目。除了 Moralis 学院提供给你的那些，Moralis 博客和 YouTube 频道上还有无数的教程。我们建议从简单的项目开始，以便掌握它的窍门。因此，掌握 [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/)可能是一个很好的起点。
 
 ![](img/498eb993dd2de1084bfcd97552ff7d4e.png)
 
@@ -86,7 +86,7 @@ React Native 是另一个强有力的论据，说明为什么 JS 及其流行的
 
 如上所述，即使不知道如何创建智能合同，你也可以成为一名优秀的 Web3 开发人员。然而，当你接手更多独特的项目时，学习这种技能的需求也可能会出现。因此，我们想与您分享一些快速提示。如上图所示，智能合同创建需要关注的编程语言是 [Solidity](https://moralis.io/solidity-explained-what-is-solidity/) 。幸运的是，这种语言入门相对简单；但是，掌握起来也是相当棘手的。因此，我们建议您尽可能依赖经过验证的模板。此外，坚固性适用于所有基于 EVM 的链(以太坊、多边形、雪崩等)。)，这给了你很多选择。另一方面，如果你已经知道了 Rust，你可能想把重点放在建立在索拉纳区块链之上。
 
-而且学习 Solidity 有很多免费和付费的选择。一个很好的开始是在 Moralis 的 YouTube 频道上的“ [Learning Solidity](https://www.youtube.com/playlist?list=PLFPZ8ai7J-iTJDENUIY40VsU_5Wmxkr7j) ”播放列表。此外，“[以太坊智能合约编程 101](https://academy.moralis.io/courses/ethereum-smart-contract-programming-101/) 课程在道德学院等着你。
+而且学习 Solidity 有很多免费和付费的选择。一个很好的开始是在 Moralis 的 YouTube 频道上的“ [Learning Solidity](https://www.youtube.com/playlist?list=PLFPZ8ai7J-iTJDENUIY40VsU_5Wmxkr7j) ”播放列表。此外，“[以太坊智能合约编程 101](https://academy.moralis.io/courses/ethereum-smart-contract-programming-101/) 课程在 Moralis 学院等着你。
 
 ![](img/16394f93e321ae75eb19c5e1bcb502b9.png)
 

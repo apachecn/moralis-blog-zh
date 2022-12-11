@@ -4,7 +4,7 @@
 
 随着不可替代令牌的使用案例在元宇宙和现实世界中不断增长，各行各业的人都想涉足这一领域。此外，由于媒体更喜欢聚焦巨额[](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/)****售价，许多人希望购买一辆 NFT，然后卖掉获利。然而，真正最有影响力的收益来自那些知道如何创造 NFT 的人。此外，由于以太坊仍然是领导者，学习如何创建以太坊 NFT 是有意义的。所以，无论你是一个有经验的开发者还是刚刚开始** [**NFT 编程**](https://moralis.io/nft-programming-for-beginners/) **，这篇文章将通过学习如何创建一个以太坊 NFT 来演示你如何能够** [**在 2022 年进入 web 3**](https://moralis.io/how-to-get-into-web3-in-2022/)**的正确方法！****
 
-**在这里，你会发现一切你需要知道加入 NFT 时代。利用本文中获得的知识和技能，您将能够[创建自己的 NFT](https://moralis.io/how-to-create-your-own-nft-in-5-steps/) 或向您的客户提供这项服务。我们将首先介绍一些基础知识，帮助大家快速掌握。然后，我们将向您展示如何使用集中的 [NFT 市场](https://moralis.io/how-to-launch-an-nft-marketplace/)创建 NFT。最后，我们将指导您创建自己的分散式 NFT 明廷 dapp ( [分散式应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))。使用后者，你将能够轻松地创建一个以太坊 NFT。然而，创建这个 dapp 的基本工具是[Moralis](https://moralis.io/)——终极 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台。因此，[现在就创建你的免费道德账户](https://admin.moralis.io/register)。通过这样做，你将能够按照我们的指示完成你自己的 [NFT 铸造页面](https://moralis.io/how-to-launch-an-nft-minting-page-full-walkthrough/)。**
+**在这里，你会发现一切你需要知道加入 NFT 时代。利用本文中获得的知识和技能，您将能够[创建自己的 NFT](https://moralis.io/how-to-create-your-own-nft-in-5-steps/) 或向您的客户提供这项服务。我们将首先介绍一些基础知识，帮助大家快速掌握。然后，我们将向您展示如何使用集中的 [NFT 市场](https://moralis.io/how-to-launch-an-nft-marketplace/)创建 NFT。最后，我们将指导您创建自己的分散式 NFT 明廷 dapp ( [分散式应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))。使用后者，你将能够轻松地创建一个以太坊 NFT。然而，创建这个 dapp 的基本工具是[Moralis](https://moralis.io/)——终极 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台。因此，[现在就创建你的免费 Moralis 账户](https://admin.moralis.io/register)。通过这样做，你将能够按照我们的指示完成你自己的 [NFT 铸造页面](https://moralis.io/how-to-launch-an-nft-minting-page-full-walkthrough/)。**
 
 **![](img/2315112a9589c6845a73e3c76ed4f744.png)
 
@@ -12,7 +12,7 @@
 
 如果你熟悉基础知识，并渴望创建一个以太坊 NFT，请随意跳过这一部分。虽然，快速复习从来没有伤害任何人。那么，让我们开始研究以太坊 NFT 是什么。正如“以太坊”和“NFT”的组合词所暗示的，以太坊 NFT 是[以太坊](https://moralis.io/full-guide-what-is-ethereum/)链上不可替换的令牌。后者是最受欢迎的可编程区块链，是 2015 年推出的首款此类产品。现在，有许多其他著名的可编程链，其中许多是与 [EVM](https://moralis.io/evm-explained-what-is-ethereum-virtual-machine/) 兼容的。然而，尽管有时煤气费过高，以太坊仍然是最受 NFTs 欢迎的网络。
 
-此外，通过遵循本指南并学习如何创建一个 NFT 以太博物馆，您也可以很容易地将这些知识应用于其他链上的薄荷 NFT。这之所以成为可能，是因为道德已经将跨链互操作性集成到了它的基础中。因此，您可以使用它的后端基础设施，用相同的代码到达所有支持的区块链。
+此外，通过遵循本指南并学习如何创建一个 NFT 以太博物馆，您也可以很容易地将这些知识应用于其他链上的薄荷 NFT。这之所以成为可能，是因为 Moralis 已经将跨链互操作性集成到了它的基础中。因此，您可以使用它的后端基础设施，用相同的代码到达所有支持的区块链。
 
 ![](img/1a6610023fcdd7860e14fb04a9b93958.png)
 
@@ -60,9 +60,9 @@
 
 尽管如此，还要注意的是，OpenSea 已经开始实施[NFT 的铸造和交易，不收取天然气费](https://moralis.io/how-opensea-trades-nfts-without-gas-fees/)。当然，这也是你可以在自己的铸造 dapps 中加入的东西。
 
-## 如何用道德创造一个以太坊 NFT
+## 如何用 Moralis 创造一个以太坊 NFT
 
-在我们在下面的视频教程中把你交给 Moralis 的专家之前，我们想向你展示我们完成的例子 dapp。它遵循与 OpenSea 应用程序相对相似的步骤；然而，它是用道德家的 [IPFS 的](https://moralis.io/what-is-ipfs-interplanetary-file-system/)整合的。因此，这种分散式存储解决方案确保我们忠实于区块链技术的核心愿景。当用户首次登陆我们的示例 dapp 时，他们需要使用 MetaMask 钱包进行[认证:](https://moralis.io/how-to-authenticate-with-metamask/)
+在我们在下面的视频教程中把你交给 Moralis 的专家之前，我们想向你展示我们完成的例子 dapp。它遵循与 OpenSea 应用程序相对相似的步骤；然而，它是用 Moralis 家的 [IPFS 的](https://moralis.io/what-is-ipfs-interplanetary-file-system/)整合的。因此，这种分散式存储解决方案确保我们忠实于区块链技术的核心愿景。当用户首次登陆我们的示例 dapp 时，他们需要使用 MetaMask 钱包进行[认证:](https://moralis.io/how-to-authenticate-with-metamask/)
 
 ![](img/96cf734b410ed813521651b79ce5b344.png)
 
@@ -82,7 +82,7 @@
 
 ### 创建一个以太坊 NFT 铸造 Dapp 代码演练
 
-如前所述，是时候让我们把你交给一位道德专家的得力助手了(下面的视频从 3:41 开始)。他将向你展示如何创建上述 minter dapp。您将首先创建一个 [Python](https://moralis.io/python-explained-what-is-python/) flask 应用程序，它将触发相关的代码。而且，代码的核心部分在“[index.html](https://github.com/DanielMoralisSamples/19_MINTNFT/blob/master/app/templates/index.html)”和“ [logic.js](https://github.com/DanielMoralisSamples/19_MINTNFT/blob/master/app/static/js/logic.js) ”文件中，这两个文件都可以在 [GitHub](https://github.com/DanielMoralisSamples/19_MINTNFT) 上找到。
+如前所述，是时候让我们把你交给一位 Moralis 专家的得力助手了(下面的视频从 3:41 开始)。他将向你展示如何创建上述 minter dapp。您将首先创建一个 [Python](https://moralis.io/python-explained-what-is-python/) flask 应用程序，它将触发相关的代码。而且，代码的核心部分在“[index.html](https://github.com/DanielMoralisSamples/19_MINTNFT/blob/master/app/templates/index.html)”和“ [logic.js](https://github.com/DanielMoralisSamples/19_MINTNFT/blob/master/app/static/js/logic.js) ”文件中，这两个文件都可以在 [GitHub](https://github.com/DanielMoralisSamples/19_MINTNFT) 上找到。
 
 ![](img/5df2cfcd9fa97f33f2843f970091cf18.png)
 
@@ -94,15 +94,15 @@
 
 https://www.youtube.com/watch?v=WdQHnb_5m5Q![](img/f57db4064f6f9adc9e801ea52a529aba.png)
 
-#### 初始道德设置
+#### 初始 Moralis 设置
 
-如上所述，你需要你的道德服务器的详细信息来创建一个以太坊 NFT 铸造与道德 dapp。因此，您需要完成初始的 Moralis 设置。这意味着你需要创建一个免费的 Moralis 账户或者[登录](https://admin.moralis.io/login)现有的账户。然后，您可以[创建一个 Moralis 服务器](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)，复制它的细节，并粘贴到您的“logic.js”文件中。
+如上所述，你需要你的 Moralis 服务器的详细信息来创建一个以太坊 NFT 铸造与 Moralis dapp。因此，您需要完成初始的 Moralis 设置。这意味着你需要创建一个免费的 Moralis 账户或者[登录](https://admin.moralis.io/login)现有的账户。然后，您可以[创建一个 Moralis 服务器](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)，复制它的细节，并粘贴到您的“logic.js”文件中。
 
 ## 如何创建以太坊 NFT——总结
 
 至此，你知道如何创建一个以太坊 NFT 了。此外，您知道如何以集中或分散的方式实现这一点。此外，你知道使用信誉良好的 NFT 市场是最快的方式，但也有其缺点。另一方面，创造你自己的铸造 dapp，毫无疑问，更有力量。这是一项有价值的技能，因为非功能性测试正在成为主流。因此，我们鼓励您使用所有可用的资源来升级您的 [NFT 代币开发](https://moralis.io/nft-token-development-the-ultimate-guide/)技能。
 
-开始的好地方是 YouTube 上的道德伦理频道和 T2 的道德伦理博客。在这两个网站上，你可以找到大量的 NFT 教程。此外，他们将向你展示[如何铸造游戏中的 NFT 角色](https://moralis.io/nft-game-characters-how-to-mint-in-game-nft-characters/)，如何[推出一个白色标签的 NFT 市场](https://moralis.io/how-to-launch-a-white-label-nft-marketplace/)，[如何开发一个 NFT 稀有度排名 dapp](https://moralis.io/how-to-develop-an-nft-rarity-ranking-dapp/) ，[如何懒惰铸造 NFT](https://moralis.io/how-to-lazy-mint-nfts/)等等。当然，这两个场馆也覆盖了区块链的其他开发区。一些最新的话题包括[气体优化的顶级技巧](https://moralis.io/gas-optimizations-in-solidity-top-tips/)，如何[构建 2D Web3 游戏](https://moralis.io/how-to-build-a-2d-web3-game-full-guide%ef%bf%bc/)，如何[创建 GameFi 游戏](https://moralis.io/gamefi-tutorial-how-to-create-a-gamefi-game/)， [Web3 Firebase 认证](https://moralis.io/web3-firebase-authentication-create-a-web3-sign-in-with-moralis/)，以及如何创建 [Web3 音乐平台](https://moralis.io/web3-music-platform-create-a-web3-music-streaming-service/)。因此，这两个出口是继续免费区块链教育的完美选择。
+开始的好地方是 YouTube 上的 Moralis 伦理频道和 T2 的 Moralis 伦理博客。在这两个网站上，你可以找到大量的 NFT 教程。此外，他们将向你展示[如何铸造游戏中的 NFT 角色](https://moralis.io/nft-game-characters-how-to-mint-in-game-nft-characters/)，如何[推出一个白色标签的 NFT 市场](https://moralis.io/how-to-launch-a-white-label-nft-marketplace/)，[如何开发一个 NFT 稀有度排名 dapp](https://moralis.io/how-to-develop-an-nft-rarity-ranking-dapp/) ，[如何懒惰铸造 NFT](https://moralis.io/how-to-lazy-mint-nfts/)等等。当然，这两个场馆也覆盖了区块链的其他开发区。一些最新的话题包括[气体优化的顶级技巧](https://moralis.io/gas-optimizations-in-solidity-top-tips/)，如何[构建 2D Web3 游戏](https://moralis.io/how-to-build-a-2d-web3-game-full-guide%ef%bf%bc/)，如何[创建 GameFi 游戏](https://moralis.io/gamefi-tutorial-how-to-create-a-gamefi-game/)， [Web3 Firebase 认证](https://moralis.io/web3-firebase-authentication-create-a-web3-sign-in-with-moralis/)，以及如何创建 [Web3 音乐平台](https://moralis.io/web3-music-platform-create-a-web3-music-streaming-service/)。因此，这两个出口是继续免费区块链教育的完美选择。
 
 但是，如果你决心以更专业的方式进入 Web3，可以考虑报读 [Moralis Academy](https://academy.moralis.io/) 。一旦注册，你将获得高质量的[区块链发展课程](https://academy.moralis.io/all-courses)，一个令人惊叹的社区和专家指导。因此，你马上就会拥有[成为 Web3 开发者](https://moralis.io/how-to-become-a-web3-developer-full-guide/)所需的一切。
 

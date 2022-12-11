@@ -4,19 +4,19 @@
 
 **声称拥有一个游戏内资产的能力，比如一个**[**【NFT】**](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/)**，是 Web3 gaming** **的众多** [**好处之一。然而，如果一个用户想在游戏中拥有一个 NFT，玩家必须有能力首先声明它。而且，如果 NFTs 在一个**](https://moralis.io/benefits-of-web3-gaming-full-breakdown/)[**web 3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/)**的游戏中能够解锁特殊关卡，充当**[](https://moralis.io/develop-a-web3-game-with-nft-power-ups-in-9-minutes/)****的加电，代表可用物品等。，用户会更想要求这种游戏内的非功能性游戏。因此，将“声明”功能集成到您的 dapps 中是非常必要的。虽然实现这个特性看起来有些棘手，但我们想向您保证，使用正确的工具可以轻松完成。让我们在“如何获得游戏中的 NFT”指南中看看我们如何做到这一点！****
 
-**在本文中，我们将处理另一个 [Unity Web3](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/) 示例项目。您将了解如何使用 [Moralis 的元宇宙 SDK](https://moralis.io/metaverse/) 来满足您与区块链相关的后端需求。对于那些第一次加入我们的人，我们将从快速介绍[道德观](https://moralis.io/)开始。因此，你将能够了解为什么这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”操作系统是[最好的 Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)。随着我们的发展，我们将快速演示一下我们的示例 Web3 游戏，它具有“认领游戏中的 NFT”功能。该演示将帮助您决定是否要卷起袖子加入我们开发这个示例游戏。如果是这样的话，你将从连接 Unity 到 [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 开始。接下来，您将学习如何轻松实现 [Web3 登录](https://moralis.io/how-to-build-a-web3-login-in-5-steps/)。尽管如此，您将获得一个由 Moralis 专家提供的详细的代码演练。**
+**在本文中，我们将处理另一个 [Unity Web3](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/) 示例项目。您将了解如何使用 [Moralis 的元宇宙 SDK](https://moralis.io/metaverse/) 来满足您与区块链相关的后端需求。对于那些第一次加入我们的人，我们将从快速介绍[Moralis 观](https://moralis.io/)开始。因此，你将能够了解为什么这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”操作系统是[最好的 Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)。随着我们的发展，我们将快速演示一下我们的示例 Web3 游戏，它具有“认领游戏中的 NFT”功能。该演示将帮助您决定是否要卷起袖子加入我们开发这个示例游戏。如果是这样的话，你将从连接 Unity 到 [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 开始。接下来，您将学习如何轻松实现 [Web3 登录](https://moralis.io/how-to-build-a-web3-login-in-5-steps/)。尽管如此，您将获得一个由 Moralis 专家提供的详细的代码演练。**
 
 **![](img/0858f7b053776af128a371e32639098e.png)
 
-## 用道德宣称一个游戏中的 NFT
+## 用 Moralis 宣称一个游戏中的 NFT
 
 在关注我们的示例项目之前，我们需要确保您知道我们将使用什么工具。因为我们假设您精通 Unity，所以我们将关注最终的 Web3 开发平台——Moralis。当前 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)的顶峰使得从 Web2 到 Web3 游戏开发的过渡相当顺利。Moralis 还使精通 JavaScript 的开发人员能够更快地进入区块链开发领域。最终，Moralis 是构建 dapp([分散式应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))的最佳工具。它附带了一个广泛的 [Web3 API](https://docs.moralis.io/moralis-server/web3-sdk/intro) ，其中包括[以太坊 API](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) 和 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 。当使用 Moralis 时，你可以专注于创建一个非凡的 Web3 UI。此外，Moralis 帮助 dapp 创建者平均节省了 87%的开发时间。因此，这个工具可以让你在创纪录的时间内发布你的 Web3 应用。
 
 ![](img/dbedf89e5a30529a77b261bcbda55e48.png)
 
-当使用 Moralis 构建时，您通常会从 [Web3 身份验证](https://moralis.io/web3-authentication-the-full-guide/)开始，因为这是所有 dapps 的重要组成部分。幸运的是，这是道德家的专长之一。此外，它为您提供了几种选择。例如，当精通加密的用户是你的关注点时，[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)或 [WalletConnect](https://moralis.io/what-is-walletconnect-the-ultimate-walletconnect-guide/) 是你的选择。然而，如果你想促进 [Web3 用户的加入](https://moralis.io/how-to-boost-web3-user-onboarding-success-rates/)，使用 [Web3 社交登录](https://moralis.io/web3-social-login-sign-in-dapp-users-with-google-email-or-twitter/)或通过电子邮件进行 [Web3 认证。](https://moralis.io/how-to-do-web3-authentication-via-email/)
+当使用 Moralis 构建时，您通常会从 [Web3 身份验证](https://moralis.io/web3-authentication-the-full-guide/)开始，因为这是所有 dapps 的重要组成部分。幸运的是，这是 Moralis 家的专长之一。此外，它为您提供了几种选择。例如，当精通加密的用户是你的关注点时，[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)或 [WalletConnect](https://moralis.io/what-is-walletconnect-the-ultimate-walletconnect-guide/) 是你的选择。然而，如果你想促进 [Web3 用户的加入](https://moralis.io/how-to-boost-web3-user-onboarding-success-rates/)，使用 [Web3 社交登录](https://moralis.io/web3-social-login-sign-in-dapp-users-with-google-email-or-twitter/)或通过电子邮件进行 [Web3 认证。](https://moralis.io/how-to-do-web3-authentication-via-email/)
 
-我们还必须指出，Moralis 提供了跨链和跨平台的互操作性。因此，您可以使用相同的代码在几个区块链上部署优秀的 dapps。这增加了您的影响力，帮助您的工作经得起未来的考验。目前，Moralis 支持[以太坊](https://moralis.io/full-guide-what-is-ethereum/)、[雪崩](https://moralis.io/how-to-connect-to-avalanche-nodes/)、[多边形](https://moralis.io/how-to-connect-to-polygon-nodes/)、 [BNB 链](https://moralis.io/how-to-create-a-bnb-chain-token-in-5-minutes/)、Fantom、[索拉纳](https://moralis.io/what-is-solana-the-full-2022-guide/)。此外，其他 [EVM](https://moralis.io/evm-explained-what-is-ethereum-virtual-machine/) 兼容链正在筹备中。有了 Moralis，你可以创建 [NFT 市场](https://moralis.io/how-to-launch-an-nft-marketplace/)和 [DeFi](https://moralis.io/how-to-create-a-defi-dashboard-in-5-steps/) 交易所。此外，你可以构建一个 [Web3 Spotify 克隆](https://moralis.io/how-to-build-a-web3-spotify-clone/)、 [Web3 网飞克隆](https://moralis.io/how-to-develop-a-web3-netflix-clone/)等等。所以，[创建你的免费道德账户](https://admin.moralis.io/register)，今天就开始创建吧！
+我们还必须指出，Moralis 提供了跨链和跨平台的互操作性。因此，您可以使用相同的代码在几个区块链上部署优秀的 dapps。这增加了您的影响力，帮助您的工作经得起未来的考验。目前，Moralis 支持[以太坊](https://moralis.io/full-guide-what-is-ethereum/)、[雪崩](https://moralis.io/how-to-connect-to-avalanche-nodes/)、[多边形](https://moralis.io/how-to-connect-to-polygon-nodes/)、 [BNB 链](https://moralis.io/how-to-create-a-bnb-chain-token-in-5-minutes/)、Fantom、[索拉纳](https://moralis.io/what-is-solana-the-full-2022-guide/)。此外，其他 [EVM](https://moralis.io/evm-explained-what-is-ethereum-virtual-machine/) 兼容链正在筹备中。有了 Moralis，你可以创建 [NFT 市场](https://moralis.io/how-to-launch-an-nft-marketplace/)和 [DeFi](https://moralis.io/how-to-create-a-defi-dashboard-in-5-steps/) 交易所。此外，你可以构建一个 [Web3 Spotify 克隆](https://moralis.io/how-to-build-a-web3-spotify-clone/)、 [Web3 网飞克隆](https://moralis.io/how-to-develop-a-web3-netflix-clone/)等等。所以，[创建你的免费 Moralis 账户](https://admin.moralis.io/register)，今天就开始创建吧！
 
 ![](img/279955d112b975d5165363c6b937a9e4.png)
 
@@ -70,11 +70,11 @@
 
 ![](img/4a81383ea1594e07e9e9d567053afafd.png)
 
-首先，我们需要介绍 Web3 登录。这是在“道德设置”预设中完成的，预设位于“道德 web 3 管理器”中:
+首先，我们需要介绍 Web3 登录。这是在“Moralis 设置”预设中完成的，预设位于“Moralis web 3 管理器”中:
 
 ![](img/3c4b3369d3c888ca1226b71096abc242.png)
 
-正如您在上面的截图中看到的，您需要获得您的 Moralis 服务器的详细信息——服务器 URL 和应用程序 ID。幸运的是，Moralis 允许你用免费的 Moralis 帐户创建服务器。你只需要[登录](https://admin.moralis.io/login)到你的道德管理区。在那里，您可以[在“服务器”选项卡内创建一个道德服务器](https://docs.moralis.io/moralis-dapp/getting-started/create-a-moralis-dapp#2.-create-a-moralis-server):
+正如您在上面的截图中看到的，您需要获得您的 Moralis 服务器的详细信息——服务器 URL 和应用程序 ID。幸运的是，Moralis 允许你用免费的 Moralis 帐户创建服务器。你只需要[登录](https://admin.moralis.io/login)到你的 Moralis 管理区。在那里，您可以[在“服务器”选项卡内创建一个 Moralis 服务器](https://docs.moralis.io/moralis-dapp/getting-started/create-a-moralis-dapp#2.-create-a-moralis-server):
 
 ![](img/c9a9de01e7fc654d9a53fc48b6268d1d.png)
 
@@ -94,7 +94,7 @@
 
 ## 如何申请游戏中的 NFT 代码演练
 
-现在你已经完成了初始设置，你可以玩游戏了。然而，为了正确理解我们的示例 Web3 游戏的各个方面是如何工作的，我们建议观看下面的视频。在那里，一位道德专家会带你浏览脚本。
+现在你已经完成了初始设置，你可以玩游戏了。然而，为了正确理解我们的示例 Web3 游戏的各个方面是如何工作的，我们建议观看下面的视频。在那里，一位 Moralis 专家会带你浏览脚本。
 
 ### Web3 登录和敌人
 
@@ -110,7 +110,7 @@
 
 ### 老板和索赔要求游戏中的 NFT 功能
 
-有了涵盖你腰带下敌人的代码，你会更仔细地看如何在我们的游戏中编程老板的行为(20:22)。正如上面演示中所展示的，你还会看到确保 boss 在最后一个敌人被杀死时出现的代码。如果你还记得的话，老板的死是触发游戏内 NFT 的事件。这就是“道德自吹自擂”通过“道德自吹自擂”预设来达到目的的地方。后者还包含“声明 NFT 控制器”脚本，激活适当的 NFT 面板。有关使用户能够要求游戏内 NFT 的代码的更多细节，请使用下面 23:00 的视频。这也是我们使用一个相当简单的[智能合同](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/)来确保 NFT 所有权正确转移的部分。
+有了涵盖你腰带下敌人的代码，你会更仔细地看如何在我们的游戏中编程老板的行为(20:22)。正如上面演示中所展示的，你还会看到确保 boss 在最后一个敌人被杀死时出现的代码。如果你还记得的话，老板的死是触发游戏内 NFT 的事件。这就是“Moralis 自吹自擂”通过“Moralis 自吹自擂”预设来达到目的的地方。后者还包含“声明 NFT 控制器”脚本，激活适当的 NFT 面板。有关使用户能够要求游戏内 NFT 的代码的更多细节，请使用下面 23:00 的视频。这也是我们使用一个相当简单的[智能合同](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/)来确保 NFT 所有权正确转移的部分。
 
 https://www.youtube.com/watch?v=KBmaji1E2LY
 
@@ -120,4 +120,4 @@ https://www.youtube.com/watch?v=KBmaji1E2LY
 
 另一方面，如果你不熟悉 Unity，但知道 JavaScript，你可能想要建立一个 [2D Web3 游戏](https://moralis.io/how-to-build-a-2d-web3-game-full-guide%ef%bf%bc/)。此外，请使用 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)探索其他区块链发展话题。这两个出口涵盖了所有种类的示例项目和加密主题。例如，一些最新的文章关注于 [Web3 合同](https://moralis.io/what-are-web3-contracts-exploring-smart-contracts/)、[将 Web3 钱包连接到 Twitter 账户](https://moralis.io/connecting-web3-wallet-to-twitter-account/)、如何[将 Web3 钱包连接到网站](https://moralis.io/how-to-connect-a-web3-wallet-to-a-website/)、 [Web3 视频流服务](https://moralis.io/how-to-create-a-web3-video-streaming-service/)、如何设置 [BNB 钱包](https://moralis.io/binance-coin-wallet-guide-how-to-set-up-a-bnb-wallet/)、 [NFT 实用程序](https://moralis.io/nft-utility-exploring-nft-use-cases-in-2022/)等等。探索 Moralis 的免费内容也是了解区块链发展可能性的一个好方法。
 
-但是，如果你想[尽快成为 Web3 开发者](https://moralis.io/how-to-become-a-web3-developer-full-guide/)，你应该采取更专业的方法。因此，你可能会考虑报名参加[道德学院](https://academy.moralis.io/)。除了[专业等级的区块链课程](https://academy.moralis.io/all-courses)，你将获得个性化的学习路径、专家导师，并成为一个了不起的社区的成员。**
+但是，如果你想[尽快成为 Web3 开发者](https://moralis.io/how-to-become-a-web3-developer-full-guide/)，你应该采取更专业的方法。因此，你可能会考虑报名参加[Moralis 学院](https://academy.moralis.io/)。除了[专业等级的区块链课程](https://academy.moralis.io/all-courses)，你将获得个性化的学习路径、专家导师，并成为一个了不起的社区的成员。**

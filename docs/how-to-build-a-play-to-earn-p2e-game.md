@@ -7,11 +7,11 @@
 1.  **打造一款 2D Web3 游戏**
 2.  **合并 NFT**
 3.  **建立一个智能合同来运行一个 P2E 游戏**
-4.  **整合道德和智能合同**
+4.  **整合 Moralis 和智能合同**
 
-*注意:以下说明简要解释了创建一款“玩即赚”( P2E)游戏需要什么。因此，我们鼓励您观看每个部分中列出的视频。在每一个视频中，我们内部的道德专家将向您更详细地解释如何构建一个 P2E 游戏。*
+*注意:以下说明简要解释了创建一款“玩即赚”( P2E)游戏需要什么。因此，我们鼓励您观看每个部分中列出的视频。在每一个视频中，我们内部的 Moralis 专家将向您更详细地解释如何构建一个 P2E 游戏。*
 
-在本文中，您将学习如何使用 Phaser 和 Moralis 构建一个“玩赚”游戏。前者是一个开源的工作室游戏引擎，提供各种游戏元素甚至整个游戏。然而，[道德规范](https://moralis.io/)使得 Web3 的发展如丝般顺畅。这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”平台是最好的 Web3 开发平台，可以让精通 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 的开发人员创建杀手级应用程序。Moralis 还具有跨链和跨平台的互操作性。因此，它提供了无数的机会。 [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 配备了全面的工具和集成，可以满足您所有的后端需求。因此，您可以轻松地[同步和索引智能合约事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/)，进而[索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)。最重要的是，Moralis 还通过其 [web3uikit](https://moralis.io/web3ui-kit-the-ultimate-web3-user-interface-kit/) 和 [Web3 样板](https://moralis.io/web3-boilerplate-beginners-guide-to-web3/)提供前端快捷方式。所以，如果你想不费吹灰之力或不花一大笔钱就能开发一款游戏，确保[创建你的免费道德账户](https://admin.moralis.io/register)。
+在本文中，您将学习如何使用 Phaser 和 Moralis 构建一个“玩赚”游戏。前者是一个开源的工作室游戏引擎，提供各种游戏元素甚至整个游戏。然而，[Moralis 规范](https://moralis.io/)使得 Web3 的发展如丝般顺畅。这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”平台是最好的 Web3 开发平台，可以让精通 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 的开发人员创建杀手级应用程序。Moralis 还具有跨链和跨平台的互操作性。因此，它提供了无数的机会。 [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 配备了全面的工具和集成，可以满足您所有的后端需求。因此，您可以轻松地[同步和索引智能合约事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/)，进而[索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)。最重要的是，Moralis 还通过其 [web3uikit](https://moralis.io/web3ui-kit-the-ultimate-web3-user-interface-kit/) 和 [Web3 样板](https://moralis.io/web3-boilerplate-beginners-guide-to-web3/)提供前端快捷方式。所以，如果你想不费吹灰之力或不花一大笔钱就能开发一款游戏，确保[创建你的免费 Moralis 账户](https://admin.moralis.io/register)。
 
 ![](img/ab47226737d223f2f89fd9a767eff40a.png)
 
@@ -68,7 +68,7 @@ https://www.youtube.com/watch?v=D-KW4_FgYj0
 
 ![](img/2912b728fb73f290fb111bfaf96b7795.png)
 
-我们的目标是最终让游戏“免费玩”。尽管如此，我们将从要求玩家下注少量代币开始，因为这会使游戏的经济性更简单。赌注将给予玩家玩游戏的权利，并且对平衡我们游戏的经济非常重要。在第三部分视频的开始，您将看到一个包含代币的示例游戏的演示。然后，在 1:26，道德专家解释了我们的示例游戏的经济方面。此外，我们保持事情相对简单。本质上，赢得游戏的玩家可以收集赌注代币以及在游戏中赢得的代币。然而，如果他们输了，游戏的金库会收集他们的赌注代币。从 1:59 开始，您可以看到如何使用[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)来添加帐户。
+我们的目标是最终让游戏“免费玩”。尽管如此，我们将从要求玩家下注少量代币开始，因为这会使游戏的经济性更简单。赌注将给予玩家玩游戏的权利，并且对平衡我们游戏的经济非常重要。在第三部分视频的开始，您将看到一个包含代币的示例游戏的演示。然后，在 1:26，Moralis 专家解释了我们的示例游戏的经济方面。此外，我们保持事情相对简单。本质上，赢得游戏的玩家可以收集赌注代币以及在游戏中赢得的代币。然而，如果他们输了，游戏的金库会收集他们的赌注代币。从 1:59 开始，您可以看到如何使用[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)来添加帐户。
 
 在 2:28，你开始学习如何使用 [Mumbai testnet 龙头](https://moralis.io/mumbai-testnet-faucet-how-to-get-free-testnet-matic-tokens/)和 Polygon 龙头来获得一些“玩”自动代币。你需要这些硬币在 Polygon 的 testnet(孟买)上部署智能合约。然后，你将仔细看看我们的两个示例合同(3:11)。“ [P2EGame.sol](https://github.com/ashbeech/moralis-phaser-demo/blob/main/src/contracts/P2EGame.sol) ”契约负责游戏币在游戏中的流动，而“ [GameToken.sol](https://github.com/ashbeech/moralis-phaser-demo/blob/main/src/contracts/GameToken.sol) ”则负责铸造我们游戏的游戏币。最后，您将使用 Remix 来部署合同。
 
@@ -76,7 +76,7 @@ https://www.youtube.com/watch?v=D-KW4_FgYj0
 
 https://www.youtube.com/watch?v=1_qCiL0qajs
 
-## 第 4 部分-整合道德和智能合同
+## 第 4 部分-整合 Moralis 和智能合同
 
 在这一点上，你们应该都已经掌握了第 1-3 部分的内容。然而，如果你没有时间完成前面所有的步骤，你可以从 GitHub 克隆代码。后者链接在“建立一个游戏赚取-赶上”一节。当然，您还需要部署两个智能契约，如第三部分所示。因此，您将获得他们的合同地址，您必须将其粘贴到”。env "文件:
 
@@ -106,7 +106,7 @@ const p2e_contract_address = "0x7053c8dB1c4ED4C96c47E322A8517BcAeE4ECaE5";
 
 *注意:确保在部署合同后使用您从 Remix 获得的地址。这同样适用于合同的 ABI。*
 
-对于我们的云函数的更详细的代码演练，请使用下面 1:28 开始的视频。此外，“道德。“App.jsx”文件中的 Cloud.run()”确保我们的示例游戏正确使用云函数。因此，云功能触发了链上交易。
+对于我们的云函数的更详细的代码演练，请使用下面 1:28 开始的视频。此外，“Moralis。“App.jsx”文件中的 Cloud.run()”确保我们的示例游戏正确使用云函数。因此，云功能触发了链上交易。
 
 然而，在“游戏令牌”合同的情况下，玩家通过 Moralis 的 API (3:00)直接与之交互。我们使用“useWeb3ExecuteFunction()”函数来调用“批准”。这确保了只有具有赌注代币的玩家才能进入游戏。
 
@@ -127,10 +127,10 @@ const p2e_contract_address = "0x7053c8dB1c4ED4C96c47E322A8517BcAeE4ECaE5";
 1.  **打造一款 2D Web3 游戏**
 2.  **合并 NFT**
 3.  **建立一个智能合同来运行一个 P2E 游戏**
-4.  **整合道德和智能合同**
+4.  **整合 Moralis 和智能合同**
 
 在这个过程中，你必须学会如何使用 Remix、Moralis 和 Moralis 的云功能。最后，我们通知您，未来的教程即将推出，您可以在其中总结这个示例项目。因此，我们希望你期待创造一个令人敬畏的 [Web3 UI](https://moralis.io/web3-ui-how-to-create-a-great-dapp-ui/) 并实施反作弊措施。
 
-如果你认为我们的“建立一个游戏赚钱”示例项目很有趣，我们鼓励你访问[道德的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德的博客](https://moralis.io/blog/)。在那里，你会找到大量其他优秀的教程和区块链开发主题。例如，一些最新的文章涵盖了如何创建一个没有元掩码的[币安 NFT](https://moralis.io/how-to-create-a-binance-nft-in-5-steps/) ，[Web3](https://moralis.io/web3-without-metamask-web3-authentication-alternatives/)替代品，[以太坊名称服务](https://moralis.io/what-is-ethereum-name-service-full-ens-guide/) (ENS)，如何[声明一个游戏内的 NFT](https://moralis.io/how-to-claim-an-in-game-nft-full-guide/) ，[将 web 3 钱包连接到一个 Twitter 账户](https://moralis.io/connecting-web3-wallet-to-twitter-account/)，等等。然而，如果你更喜欢 Web3 游戏，从我们的《Unity Web3 编程入门指南》开始吧。这样，你将学会如何充分利用 [Moralis 的元宇宙 SDK](https://moralis.io/metaverse/) 。
+如果你认为我们的“建立一个游戏赚钱”示例项目很有趣，我们鼓励你访问[Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 的博客](https://moralis.io/blog/)。在那里，你会找到大量其他优秀的教程和区块链开发主题。例如，一些最新的文章涵盖了如何创建一个没有元掩码的[币安 NFT](https://moralis.io/how-to-create-a-binance-nft-in-5-steps/) ，[Web3](https://moralis.io/web3-without-metamask-web3-authentication-alternatives/)替代品，[以太坊名称服务](https://moralis.io/what-is-ethereum-name-service-full-ens-guide/) (ENS)，如何[声明一个游戏内的 NFT](https://moralis.io/how-to-claim-an-in-game-nft-full-guide/) ，[将 web 3 钱包连接到一个 Twitter 账户](https://moralis.io/connecting-web3-wallet-to-twitter-account/)，等等。然而，如果你更喜欢 Web3 游戏，从我们的《Unity Web3 编程入门指南》开始吧。这样，你将学会如何充分利用 [Moralis 的元宇宙 SDK](https://moralis.io/metaverse/) 。
 
-我们还建议您学习如何[存储链外数据](https://moralis.io/how-to-store-off-chain-data-unity-web3-database/)以及如何[与 Unity 的 Web3 数据库](https://moralis.io/how-to-communicate-with-a-web3-database-from-unity/)通信。此外，你还可以[将一个 Unity 应用程序连接到一个 Web3 钱包](https://moralis.io/how-to-connect-a-unity-app-to-a-web3-wallet/)，并用 Unity 进行[区块链交易。尽管如此，如果你渴望成为一名专业的 Web3 开发者，你应该报名参加道德学院。](https://moralis.io/how-to-do-blockchain-game-transactions-with-unity/)
+我们还建议您学习如何[存储链外数据](https://moralis.io/how-to-store-off-chain-data-unity-web3-database/)以及如何[与 Unity 的 Web3 数据库](https://moralis.io/how-to-communicate-with-a-web3-database-from-unity/)通信。此外，你还可以[将一个 Unity 应用程序连接到一个 Web3 钱包](https://moralis.io/how-to-connect-a-unity-app-to-a-web3-wallet/)，并用 Unity 进行[区块链交易。尽管如此，如果你渴望成为一名专业的 Web3 开发者，你应该报名参加 Moralis 学院。](https://moralis.io/how-to-do-blockchain-game-transactions-with-unity/)

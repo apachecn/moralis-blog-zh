@@ -4,7 +4,7 @@
 
 你知道自 2020 年以来，区块链发展一直是最受欢迎的职业之一吗？除此之外，以太坊仍然是区块链 [**Web3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) **开发的领头羊。因此，拥有以太坊编程技能的开发人员的工资继续攀升并不令人惊讶。因此，学习如何在以太坊上构建** [**dApps**](https://moralis.io/decentralized-applications-explained-what-are-dapps/) **是你在 Web3 之旅中可以做出的最佳决定之一。有些人可能认为开发 dApps 相对困难。然而，使用 Moralis，构建 Web3 应用程序是一个简单易行的过程。因此，我们将向您展示如何借助 Moralis 的平台在以太坊上构建 dApps。**
 
-区块链开发的一个很好的基础是拥有一些关于 JavaScript、HTML 和 CSS 的知识。尽管建议拥有上述一些技能，但几乎没有或根本没有这些技能的初学者仍然可以探索和学习如何在以太坊上构建 dApps。虽然标准的区块链开发路径包括相当复杂和耗时的后端编程，但有一种捷径叫做[道德(T5)。这个终极的 Web3 开发平台代表您负责后端基础设施。通过利用 Moralis 的平台，你可以克服潜在的障碍，完全理解如何在以太坊上构建 dApps。](https://moralis.io/)[创建您的帐户](https://admin.moralis.io/login)，立即开始您的区块链之旅！
+区块链开发的一个很好的基础是拥有一些关于 JavaScript、HTML 和 CSS 的知识。尽管建议拥有上述一些技能，但几乎没有或根本没有这些技能的初学者仍然可以探索和学习如何在以太坊上构建 dApps。虽然标准的区块链开发路径包括相当复杂和耗时的后端编程，但有一种捷径叫做[Moralis(T5)。这个终极的 Web3 开发平台代表您负责后端基础设施。通过利用 Moralis 的平台，你可以克服潜在的障碍，完全理解如何在以太坊上构建 dApps。](https://moralis.io/)[创建您的帐户](https://admin.moralis.io/login)，立即开始您的区块链之旅！
 
 ![](img/a1517e18c11a212ec3a62dd94046648a.png)
 

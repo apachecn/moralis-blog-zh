@@ -18,19 +18,19 @@
 
 ![](img/d74ed2f22507a61130453483cd95eb8a.png)
 
-# 通过道德网站与智能合同互动
+# 通过 Moralis 网站与智能合同互动
 
 您知道吗，您可以创建具有相当高级功能的 [dApps](https://moralis.io/decentralized-applications-explained-what-are-dapps/) (分散式应用程序)，而无需创建自己的智能合约。在这种情况下，您可以围绕现有的智能合约构建功能。这就是我们将要做的，我们将仔细研究如何通过网站与智能合约进行交互。然而，即使您的项目要求创建智能合同，您也不必从头开始。相反，你可以在 [OpenZeppelin](https://moralis.io/what-is-openzeppelin-the-ultimate-guide/) 访问无数的开源智能合同。
 
-接下来，我们将首先向您展示如何设置道德规范。完成初始设置后，您将能够使用 Moralis 通过网站与智能合约进行交互。接下来，我们将向您展示如何在 MATIC 中从头开始创建一个简单的 dApp 来支持捐赠。然而，我们也将为您呈现一个更快的替代方案，使用终极[以太坊 dApp 样板](https://moralis.io/ethereum-dapp-boilerplate-full-ethereum-react-boilerplate-tutorial/)。后者从一开始就为您提供了令人印象深刻的 UI。在这两种情况下，您都有机会创建自己的 dApp，并通过网站与智能合约进行交互。
+接下来，我们将首先向您展示如何设置 Moralis 规范。完成初始设置后，您将能够使用 Moralis 通过网站与智能合约进行交互。接下来，我们将向您展示如何在 MATIC 中从头开始创建一个简单的 dApp 来支持捐赠。然而，我们也将为您呈现一个更快的替代方案，使用终极[以太坊 dApp 样板](https://moralis.io/ethereum-dapp-boilerplate-full-ethereum-react-boilerplate-tutorial/)。后者从一开始就为您提供了令人印象深刻的 UI。在这两种情况下，您都有机会创建自己的 dApp，并通过网站与智能合约进行交互。
 
 ![](img/7d73999a8e7aced20bc489ec89414169.png)
 
-### 初始道德系统设置-第 1 部分
+### 初始 Moralis 系统设置-第 1 部分
 
 无论您是从头开始还是使用最实用的 [Web3 样板文件](https://moralis.io/web3-boilerplate-beginners-guide-to-web3/)，您都需要完成 Moralis 设置。按照下面的步骤，你会很快准备好创建你的 dApps。以下是行动步骤:
 
-1.  **创建你的免费道德账户**-如果你还没有创建你的免费道德账户，现在就创建吧。您可以使用简介末尾的链接，它会将您带到注册页面。在那里，输入您的电子邮件并创建您的密码。然后点击确认链接，确认链接将发送到您的电子邮件中。*另一方面，如果你已经有了一个道德家账户，只需简单地* [*登录*](https://admin.moralis.io/login) *到你的管理区。*
+1.  **创建你的免费 Moralis 账户**-如果你还没有创建你的免费 Moralis 账户，现在就创建吧。您可以使用简介末尾的链接，它会将您带到注册页面。在那里，输入您的电子邮件并创建您的密码。然后点击确认链接，确认链接将发送到您的电子邮件中。*另一方面，如果你已经有了一个 Moralis 家账户，只需简单地* [*登录*](https://admin.moralis.io/login) *到你的管理区。*
 
 2.  [**创建 Moralis 服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)–在您的 Moralis 管理区域内，导航至“服务器”选项卡(在导航选项卡的左侧)。点击右上角的“+创建新服务器”按钮。从下拉菜单中选择最适合您需求的网络类型(见下图)。*在处理示例项目时，您通常会关注“Testnet 服务器”选项(* [*连接到以太坊测试网*](https://moralis.io/ethereum-testnet-guide-connect-to-ethereum-testnets/) *)。例如，我们将使用 Polygon 的 testnet Mumbai。不过，当你准备好向用户展示你的 dApps 时，你需要创建一个“Mainnet 服务器”来接触你的观众。*
 
@@ -40,9 +40,9 @@
 
 ![](img/34c3e4fa8d33e0bad05190118eb52e67.png)
 
-*注意* *:因为你的服务器需要几分钟准备好，所以现在跳过下面第二部分的第三和第四步。一旦你有了你的，我们将回到道德体系的那一部分。js“文件或”。env "就绪*
+*注意* *:因为你的服务器需要几分钟准备好，所以现在跳过下面第二部分的第三和第四步。一旦你有了你的，我们将回到 Moralis 体系的那一部分。js“文件或”。env "就绪*
 
-### 初始道德标准设置-第 2 部分
+### 初始 Moralis 标准设置-第 2 部分
 
 3.  **访问服务器详情**–启动并运行您的服务器和您的”。js“或者”。env "文件准备好了，您想访问您的服务器的详细信息。只需点击“查看详情”按钮:
 
@@ -85,7 +85,7 @@
 </html>
 ```
 
-正如承诺的那样，你可以在下面的截图中看到这是一个非常简单和基本的 UI。除了 HTML 文件，我们还需要一个 JS 文件来覆盖 dApp 的后端功能。*这也是你完成“初始道德系统设置-第 2 部分”的第三和第四步的地方。*下面是我们在“main.js”文件中使用的代码:
+正如承诺的那样，你可以在下面的截图中看到这是一个非常简单和基本的 UI。除了 HTML 文件，我们还需要一个 JS 文件来覆盖 dApp 的后端功能。*这也是你完成“初始 Moralis 系统设置-第 2 部分”的第三和第四步的地方。*下面是我们在“main.js”文件中使用的代码:
 
 ```js
   /** Connect to Moralis server */
@@ -115,7 +115,7 @@
         document.getElementById("btn-logout").onclick = logOut;
 ```
 
-查看上面的代码，您已经可以看到 Moralis 提供的一些惊人的快捷方式。例如，只需使用“Moralis.authenticate ”,您就可以使用 Moralis 的元掩码集成登录用户。此外，注销用户是“道德”的一部分。User.logOut()"。
+查看上面的代码，您已经可以看到 Moralis 提供的一些惊人的快捷方式。例如，只需使用“Moralis.authenticate ”,您就可以使用 Moralis 的元掩码集成登录用户。此外，注销用户是“Moralis”的一部分。User.logOut()"。
 
 *注意* *:使用上述 JS 代码时，一定要使用你的服务器的详细资料。*
 
@@ -185,7 +185,7 @@ document.getElementById("btn-donate").onclick = donate;
 
 ![](img/9ed6b98262d12d79dddd15f1287f2be9.png)
 
-如果您想要详细的指导设置“[以太坊-样板](https://github.com/ethereum-boilerplate/ethereum-boilerplate)”，请务必观看 9:20 开始的视频。Moralis 的专家将向您展示如何克隆代码，如何在代码编辑器中初始化所有实例，以及如何调整代码。这也是您可以填充。env "文件与您的道德的服务器细节。此外，从 14:13 开始，他还将向您展示如何添加通知用户捐款成功的消息:
+如果您想要详细的指导设置“[以太坊-样板](https://github.com/ethereum-boilerplate/ethereum-boilerplate)”，请务必观看 9:20 开始的视频。Moralis 的专家将向您展示如何克隆代码，如何在代码编辑器中初始化所有实例，以及如何调整代码。这也是您可以填充。env "文件与您的 Moralis 的服务器细节。此外，从 14:13 开始，他还将向您展示如何添加通知用户捐款成功的消息:
 
 ![](img/0ec5f51895fcd80dae1446a57557c0cd.png)
 
@@ -199,4 +199,4 @@ https://www.youtube.com/watch?v=7TKqLJd_aYI
 
 ![](img/69b825fce598d16870a6cba08456505c.png)
 
-如果这个简单的教程启发了你，我们为你准备了更多。查看一下 [Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 的博客](https://moralis.io/blog/)，在那里你会找到大量高质量的免费内容。从解释到所有加密领域的示例项目。例如，我们的一些最新文章向您展示了如何[将 mint 功能集成到 JS 接口](https://moralis.io/integrate-mint-function-to-js-interface-nft-development/)，如何[用](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)[智能合约索引](https://moralis.io/the-graph-alternative-for-smart-contract-indexing/)索引区块链，如何[转移 ERC20 令牌](https://moralis.io/erc20-transfer-how-to-transfer-erc20-tokens/)，如何开发一个 [NFT 稀有度](https://moralis.io/how-to-develop-an-nft-rarity-ranking-dapp/)排名 dApp，如何[闪贷](https://moralis.io/how-do-flash-loans-work-full-walkthrough/)工作，等等。然而，如果你想[尽快成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，我们建议你注册[道德学院](https://academy.moralis.io/)。除了高质量的课程，你还可以接触到热情支持的社区和专家导师。
+如果这个简单的教程启发了你，我们为你准备了更多。查看一下 [Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 的博客](https://moralis.io/blog/)，在那里你会找到大量高质量的免费内容。从解释到所有加密领域的示例项目。例如，我们的一些最新文章向您展示了如何[将 mint 功能集成到 JS 接口](https://moralis.io/integrate-mint-function-to-js-interface-nft-development/)，如何[用](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)[智能合约索引](https://moralis.io/the-graph-alternative-for-smart-contract-indexing/)索引区块链，如何[转移 ERC20 令牌](https://moralis.io/erc20-transfer-how-to-transfer-erc20-tokens/)，如何开发一个 [NFT 稀有度](https://moralis.io/how-to-develop-an-nft-rarity-ranking-dapp/)排名 dApp，如何[闪贷](https://moralis.io/how-do-flash-loans-work-full-walkthrough/)工作，等等。然而，如果你想[尽快成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，我们建议你注册[Moralis 学院](https://academy.moralis.io/)。除了高质量的课程，你还可以接触到热情支持的社区和专家导师。

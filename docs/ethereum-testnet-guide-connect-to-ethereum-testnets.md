@@ -104,7 +104,7 @@
 
 ![](img/0927d81ed6c1594e2a4080f3e3baa91c.png)
 
-## 如何使用以太坊的测试网络与道德？
+## 如何使用以太坊的测试网络与 Moralis？
 
 当您使用 Moralis 时，您还可以轻松访问所有上述以太坊测试网络。下面，我们将介绍如何进行设置，使您能够连接到以太坊的测试网络。完成初始设置后，您就可以开始处理各种项目了。通过使用 [Moralis 文档](https://docs.moralis.io/introduction/readme)中可用的简短代码片段，你将能够毫不费力地处理与区块链相关的后端。您必须额外注意的唯一事情是在特定于链的函数中定义您选择的 testnet(默认选项是以太坊的 mainnet)。此外，您需要为您的特定 testnet 项目获得一些 ETH 来支付事务费用，并能够执行测试事务。
 
@@ -114,7 +114,7 @@
 
 为了使用 Moralis 的 SDK 并轻松访问以太坊的测试网络，您需要设置您的 Moralis 服务器。为此，请完成以下步骤:
 
-1.  [**创建您的 Moralis 帐户**](https://admin.moralis.io/register)–要创建您的免费 Moralis 帐户，请点击链接，输入您的电子邮件地址，并创建您的密码。您将通过确认您的电子邮件地址来完成该过程(您将收到一封带有确认链接的电子邮件)。*如果您已经有一个有效的道德家账户，只需* [*登录*](https://admin.moralis.io/login) *并访问您的管理区。*
+1.  [**创建您的 Moralis 帐户**](https://admin.moralis.io/register)–要创建您的免费 Moralis 帐户，请点击链接，输入您的电子邮件地址，并创建您的密码。您将通过确认您的电子邮件地址来完成该过程(您将收到一封带有确认链接的电子邮件)。*如果您已经有一个有效的 Moralis 家账户，只需* [*登录*](https://admin.moralis.io/login) *并访问您的管理区。*
 
 ![](img/2012f8c16f961fef0bd65c6bdcdefb39.png)
 
@@ -161,6 +161,6 @@
 
 作为一名[区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，你需要适应测试。此外，确保一切顺利运行是任何应用程序的重要组成部分，dApps 也不例外。因此，有多个以太坊测试网络就不足为奇了。在这里，你已经了解了格里尔、科万、林克比和罗普斯滕。此外，我们还展示了如何在 Moralis 中轻松地进行设置，以便在四个测试网络中的任何一个上测试您的 Web3 应用程序。此外，您还知道 MetaMask 是一个强大的工具，您可以将它用作通往以太坊测试网的网关。最后，我们还为您提供了每个以太坊测试网的不同 ETH 水龙头的链接。
 
-有了这些知识和强大的工具，如 Moralis(又名 crypto 的 Firebase)和 MetaMask，您就可以开始一些示例项目了。如果你需要一些灵感和指导，一定要看看[道德利斯的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德利斯的博客](https://moralis.io/blog/)。在我们最近的一些任务中，我们展示了[如何启动 NFT 市场](https://moralis.io/how-to-launch-an-nft-marketplace/)，构建 [OpenSea 克隆](https://moralis.io/opensea-clone-create-an-nft-marketplace-like-opensea/)，[如何创建 DeFi 仪表板](https://moralis.io/how-to-create-a-defi-dashboard-in-5-steps/)，以及[如何构建你的第一个 dApp](https://moralis.io/build-your-first-dapp-ethereum-tutorial/) 。使用终极[以太坊 dApp 样板](https://moralis.io/ethereum-dapp-boilerplate-full-ethereum-react-boilerplate-tutorial/)，许多任务可以在几分钟内完成。此外，如果你对创建自己的令牌感兴趣，请确保更仔细地查看一下 [ERC-20 令牌标准](https://moralis.io/erc20-exploring-the-erc-20-token-standard/)。另一方面，如果你是一个完全的初学者，我们强烈建议你报名参加道德学院的一些高质量[课程。](https://academy.moralis.io/all-courses)
+有了这些知识和强大的工具，如 Moralis(又名 crypto 的 Firebase)和 MetaMask，您就可以开始一些示例项目了。如果你需要一些灵感和指导，一定要看看[Moralis 利斯的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 利斯的博客](https://moralis.io/blog/)。在我们最近的一些任务中，我们展示了[如何启动 NFT 市场](https://moralis.io/how-to-launch-an-nft-marketplace/)，构建 [OpenSea 克隆](https://moralis.io/opensea-clone-create-an-nft-marketplace-like-opensea/)，[如何创建 DeFi 仪表板](https://moralis.io/how-to-create-a-defi-dashboard-in-5-steps/)，以及[如何构建你的第一个 dApp](https://moralis.io/build-your-first-dapp-ethereum-tutorial/) 。使用终极[以太坊 dApp 样板](https://moralis.io/ethereum-dapp-boilerplate-full-ethereum-react-boilerplate-tutorial/)，许多任务可以在几分钟内完成。此外，如果你对创建自己的令牌感兴趣，请确保更仔细地查看一下 [ERC-20 令牌标准](https://moralis.io/erc20-exploring-the-erc-20-token-standard/)。另一方面，如果你是一个完全的初学者，我们强烈建议你报名参加 Moralis 学院的一些高质量[课程。](https://academy.moralis.io/all-courses)
 
 ![](img/a74c659f211332cddc953bdc6af2c211.png)**

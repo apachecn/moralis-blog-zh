@@ -26,13 +26,13 @@ MetaMask 是市场上最成熟和最受欢迎的加密货币钱包之一。事�
 
 虽然这听起来像是大量的工作，但你会看到，通过使用 [Moralis 的 Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk) ，我们可以毫不费力地完成它。
 
-### 设置道德和其他网络识别工具
+### 设置 Moralis 和其他网络识别工具
 
 出于这个例子的目的，我们将使用 Visual Studio 代码(VSC)，MetaMask 的浏览器扩展，当然，还有 Moralis。如果您需要获得和设置前两个工具的帮助，请查看我们的"[以太坊初学者开发](https://moralis.io/ethereum-development-for-beginners)"指南。至于 Moralis 的设置，我们将在下面的分步说明中介绍。
 
-## 如何设置网络身份认证的道德标准
+## 如何设置网络身份认证的 Moralis 标准
 
-1.  [**创建您的道德家账户**](https://admin.moralis.io/register)——如果您还没有道德家账户，请确保创建一个。完全免费。只需点击链接(或[点击此处](https://admin.moralis.io/login)，输入您的电子邮件地址，并设置您的密码。然后通过确认您的电子邮件地址来完成您的 Moralis 帐户创建(您将收到一封带有确认链接的电子邮件)。如果您已经有一个有效的 Moralis 帐户，只需[登录](https://admin.moralis.io/login)。
+1.  [**创建您的 Moralis 家账户**](https://admin.moralis.io/register)——如果您还没有 Moralis 家账户，请确保创建一个。完全免费。只需点击链接(或[点击此处](https://admin.moralis.io/login)，输入您的电子邮件地址，并设置您的密码。然后通过确认您的电子邮件地址来完成您的 Moralis 帐户创建(您将收到一封带有确认链接的电子邮件)。如果您已经有一个有效的 Moralis 帐户，只需[登录](https://admin.moralis.io/login)。
 2.  **创建新服务器**–进入新的 Moralis 账户后，您将需要创建一个新服务器。您可以通过点击右上角的“+创建新服务器”按钮来完成此操作。接下来，从出现的下拉菜单中单击一个选项(见下图)。
 
 ![](img/59be10ccc52241bc2f2c985b9eb8e36b.png)

@@ -6,7 +6,7 @@
 
 没有合适的工具，懒惰的造币厂 NFT 会很麻烦；然而，在本教程中，我们将使用排名第一的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 操作系统——[Moralis](https://moralis.io/?utm_source=blog&utm_medium=post&utm_campaign=The%2520Ultimate%2520Guide%2520to%2520Web3%2520%25E2%2580%2593%2520What%2520is%2520Web3%253F)。Moralis 不仅使制造 NFT 成为一项更容易完成的任务，而且该平台可以用于众多不同的区块链项目。Moralis 为所有用户提供了无限可扩展的后端基础设施，这反过来又消除了开发后端的一些麻烦。此外，操作系统还提供了额外的开发工具，如 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) 、 [Price API](https://moralis.io/introducing-the-moralis-price-api/) 、 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 等等。
 
-所以，如果你有成为一名更好的区块链开发者的雄心，马上和 Moralis 签约吧。创建一个帐户是完全免费的，你将立即获得所有的好处道德！
+所以，如果你有成为一名更好的区块链开发者的雄心，马上和 Moralis 签约吧。创建一个帐户是完全免费的，你将立即获得所有的好处 Moralis！
 
 ## 什么是懒造币？
 
@@ -38,7 +38,7 @@ https://www.youtube.com/watch?v=n6rPr0sStTI
 
 ## 步骤 1:如何创建新的 NFTs 创建一个 Moralis 服务器并安装 Rarible 插件
 
-创建这个懒惰的 NFT dApp 的必需品是一个道德服务器。因此，第一步(如果你还没有)是[注册 Moralis](https://admin.moralis.io/register) 。一旦你手头有一个帐户，你会发现“+创建一个新的服务器”按钮在道德管理面板的顶部。单击此按钮将启动该过程，要创建服务器，您需要输入一个名称，选择一个地区，然后选择网络。对于这个演示 dApp，你选择哪个网络并不重要；然而，这应该基于你希望你的 dApp 运行在什么样的链上。
+创建这个懒惰的 NFT dApp 的必需品是一个 Moralis 服务器。因此，第一步(如果你还没有)是[注册 Moralis](https://admin.moralis.io/register) 。一旦你手头有一个帐户，你会发现“+创建一个新的服务器”按钮在 Moralis 管理面板的顶部。单击此按钮将启动该过程，要创建服务器，您需要输入一个名称，选择一个地区，然后选择网络。对于这个演示 dApp，你选择哪个网络并不重要；然而，这应该基于你希望你的 dApp 运行在什么样的链上。
 
 ![](img/07e81fe0ea60bf38c48bb32d67bf4f7c.png)
 
@@ -94,13 +94,13 @@ HTML 代码和 dApp 的结构完全取决于开发人员的偏好。然而，为
 
 将 HTML 元素添加到代码中后，下一步是添加提供必要功能的逻辑，允许用户创建新的 NFT。为此，我们可以创建一个“[main . js](https://github.com/MoralisWeb3/youtube-tutorials/blob/main/nft-minter/main.js)”[JavaScript](https://moralis.io/javascript-explained-what-is-javascript/)文件，该文件将包含三个不同的函数:“login()”、“initApp()”和“submit()”。
 
-然而，在我们深入研究 dApp 的功能之前，我们必须首先启动道德。为此，您需要返回到 Moralis 管理面板，并导航到“服务器”选项卡。在这里，您需要单击相关服务器的“View Details”按钮，并检索服务器 URL 和应用程序 ID。有了这些信息，您可以按以下方式输入:
+然而，在我们深入研究 dApp 的功能之前，我们必须首先启动 Moralis。为此，您需要返回到 Moralis 管理面板，并导航到“服务器”选项卡。在这里，您需要单击相关服务器的“View Details”按钮，并检索服务器 URL 和应用程序 ID。有了这些信息，您可以按以下方式输入:
 
 const SERVER URL = " INSERT SERVER _ URL "；
 
 const appId = " INSERT APP _ ID
 
-随着道德的启动，我们可以更深入地研究 dApp 的第一个功能。
+随着 Moralis 的启动，我们可以更深入地研究 dApp 的第一个功能。
 
 ### **登录()**
 
@@ -180,7 +180,7 @@ async function submit(){
 
 最后，我们获取 IPFS 文件的散列，并在调用“Moralis”时使用它。Plugins.rarible.lazyMint()"函数。在这个函数中，我们包括区块链、用户地址、令牌类型和令牌 URI。此外，我们还可以指定令牌售出时的版税金额。
 
-接下来，我们通过向用户显示一条成功消息以及一个到 NFT 的链接来结束一切，如果一切都按预期运行的话。就是这样；当与道德家一起工作时，它不必比那更复杂！
+接下来，我们通过向用户显示一条成功消息以及一个到 NFT 的链接来结束一切，如果一切都按预期运行的话。就是这样；当与 Moralis 家一起工作时，它不必比那更复杂！
 
 多亏了 Rarible 插件和 Moralis 对 IPFS 的本地支持，我们只需要几行代码就可以轻松制作一个 NFT，然后[上传到 IPFS](https://moralis.io/full-guide-how-to-upload-to-ipfs/) 。然而，如果你有兴趣仔细查看完整的 dApp，那么查看一下 [Moralis GitHub 页面](https://github.com/MoralisWeb3/youtube-tutorials/tree/main/nft-minter)，在那里你会找到完整的“index.html”和“main.js”文件。
 
@@ -196,4 +196,4 @@ async function submit(){
 
 然而，这并不是 Moralis 的全部，因为它的 Web3 操作系统可以用于各种区块链项目。因此，您能够以显著更快的速度[开发 dApps](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/) ,并且该过程变得更加易于使用该平台的工具。
 
-道德的可能性是无穷无尽的，例如，你可以[推出一个 NFT 市场](https://moralis.io/how-to-launch-an-nft-marketplace/)，[开发以太坊 dApps](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) ，[创建一个 BEP20 令牌](https://moralis.io/bep20-testnet-create-a-bep20-token-in-15-mins/)，等等。所以，如果你正在努力成为一名区块链开发者，那么现在就注册 Moralis 吧。只需要几秒钟，而且完全免费！
+Moralis 的可能性是无穷无尽的，例如，你可以[推出一个 NFT 市场](https://moralis.io/how-to-launch-an-nft-marketplace/)，[开发以太坊 dApps](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) ，[创建一个 BEP20 令牌](https://moralis.io/bep20-testnet-create-a-bep20-token-in-15-mins/)，等等。所以，如果你正在努力成为一名区块链开发者，那么现在就注册 Moralis 吧。只需要几秒钟，而且完全免费！

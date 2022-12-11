@@ -2,11 +2,11 @@
 
 > 原文：<https://moralis.io/avalanche-boilerplate-fastest-way-to-build-avalanche-dapps/>
 
-**您是否对 Avalanche 开发感兴趣，并希望利用该平台构建复杂的 Avalanche dapps？如果是这样的话，你应该知道** [**道德规范**](http://moralis.io)**‘雪崩样板——结合平台的企业级**[**web 3 API**](https://moralis.io/web3-apis-exploring-the-top-5-blockchain-apis/)**——提供了创建雪崩 dapps 的最快和最容易的方法！如果您对此感兴趣，请加入我们的教程，因为我们提供了使用 Avalanche 样板构建 dapps 的完整分解。**
+**您是否对 Avalanche 开发感兴趣，并希望利用该平台构建复杂的 Avalanche dapps？如果是这样的话，你应该知道** [**Moralis 规范**](http://moralis.io)**‘雪崩样板——结合平台的企业级**[**web 3 API**](https://moralis.io/web3-apis-exploring-the-top-5-blockchain-apis/)**——提供了创建雪崩 dapps 的最快和最容易的方法！如果您对此感兴趣，请加入我们的教程，因为我们提供了使用 Avalanche 样板构建 dapps 的完整分解。**
 
 在演示如何构建 Avalanche dapps 之前，我们将首先探索 Avalanche 网络和 Moralis 以太坊样板的复杂性。接下来，我们将直接进入教程，并说明如何使用 Moralis 的 Avalanche 样板文件构建 Avalanche dapps。因此，如果你正在寻找既高效又有效地开发 Avalanche dapps，加入我们，学习你需要知道的关于立即启动你的第一个项目的所有知识！
 
-此外，您希望在哪个网络上构建项目并不重要。当你选择使用道德，你将能够节省宝贵的资源和时间。要了解更多关于 Moralis 的功能，我们强烈建议您查看一些 Moralis 最著名的工具。例如，了解更多关于 [Web3 Streams API](https://moralis.io/streams/) ，允许您将[链上数据](https://moralis.io/on-chain-data-the-ultimate-guide-to-understanding-and-accessing-on-chain-data/)直接传输到任何后端！因此，如果您想获得更无缝的开发体验，请立即注册 Moralis！
+此外，您希望在哪个网络上构建项目并不重要。当你选择使用 Moralis，你将能够节省宝贵的资源和时间。要了解更多关于 Moralis 的功能，我们强烈建议您查看一些 Moralis 最著名的工具。例如，了解更多关于 [Web3 Streams API](https://moralis.io/streams/) ，允许您将[链上数据](https://moralis.io/on-chain-data-the-ultimate-guide-to-understanding-and-accessing-on-chain-data/)直接传输到任何后端！因此，如果您想获得更无缝的开发体验，请立即注册 Moralis！
 
 ## 什么是雪崩？雪崩解释道
 
@@ -26,7 +26,7 @@ Avalanche 背后的组织是艾娃实验室，他们表示他们已经在行业�
 
 尽管如此，本文还是简要介绍了 Avalanche 和该网络的一些最重要的功能。随着对 Avalanche 网络的更好理解，我们将在下一节探索 Moralis 的 Avalanche 样板文件。让我们首先介绍一下样板文件的一些主要特征，以说明您正在努力实现的目标！
 
-## 你在朝什么方向努力？–探索道德的雪崩样板
+## 你在朝什么方向努力？–探索 Moralis 的雪崩样板
 
 如果你想跳过教程，直接进入 Avalanche 样板代码，你可以找到下面的链接。然而，一旦你点击这个链接或进一步检查它，你会很快注意到它被称为“以太坊-样板”，这可能会令人困惑，因为你正在着手建立雪崩 dapps。然而，该模板是 EVM 兼容的，并且同样适用于雪崩网络！
 
@@ -62,9 +62,9 @@ Avalanche 背后的组织是艾娃实验室，他们表示他们已经在行业�
 
 [https://www.youtube.com/embed/Bb5Pc--kyAY?feature=oembed](https://www.youtube.com/embed/Bb5Pc--kyAY?feature=oembed)
 
-然而，上面的视频并没有涵盖使样板文件适用于雪崩网络的所有配置。如果你需要这方面的帮助，请跟随我们开始教程，向你展示如何创建一个道德帐户！
+然而，上面的视频并没有涵盖使样板文件适用于雪崩网络的所有配置。如果你需要这方面的帮助，请跟随我们开始教程，向你展示如何创建一个 Moralis 帐户！
 
-### 创建道德账户
+### 创建 Moralis 账户
 
 在克隆 Avalanche 样板文件之前，我们将关注一个基本的先决条件:创建一个 Moralis 帐户。创建您的帐户很容易，只需几秒钟。因此，您可以点击 Moralis 网站顶部的“[免费开始](https://admin.moralis.io/register)”按钮:
 
@@ -168,4 +168,4 @@ Avalanche 背后的组织是艾娃实验室，他们表示他们已经在行业�
 
 然而，你可能对 NFT 开发比游戏更感兴趣。如果是这样的话，Moralis 还是第一选择！借助 Moralis 的 [NFT API](https://moralis.io/nft-api/) ，您现在能够轻松获取 NFT 的在线数据，并在创纪录的时间内构建 NFT 项目。例如，看看我们的指南如何[轻松建造索拉纳 NFT 探索者](https://moralis.io/how-to-build-a-solana-nft-explorer/)！
 
-此外，无论你想涉足 Web3 开发的哪个领域，你都应该[与 Moralis](https://admin.moralis.io/register) 签约。创建你的道德帐户是完全免费的，只需要几秒钟！*
+此外，无论你想涉足 Web3 开发的哪个领域，你都应该[与 Moralis](https://admin.moralis.io/register) 签约。创建你的 Moralis 帐户是完全免费的，只需要几秒钟！*

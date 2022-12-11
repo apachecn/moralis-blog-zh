@@ -12,7 +12,7 @@
 
 如果你正在读这篇文章，你的答案很可能是肯定的！现在，在我们进一步探讨如何集成基于区块链的身份验证之前，让我们先回顾一些基础知识。
 
-除了介绍基础知识之外，我们还将了解领先的区块链身份认证替代方案。其中一些对于没有 crypto 经验的新用户来说特别有用。此外，我们将利用今天的文章向您展示如何集成 Moralis 为您带来的基于区块链的最佳认证系统。有了 Moralis 的 Web3 认证 API，你可以很容易地实现所有种类的 [Web3 认证](https://moralis.io/authentication/)方法。当然，如果你想加入我们，你需要[创建你的免费道德账户](https://admin.moralis.io/register)。但是，如上所述，让我们首先确保您都知道基于区块链和区块链的身份验证的基础知识。
+除了介绍基础知识之外，我们还将了解领先的区块链身份认证替代方案。其中一些对于没有 crypto 经验的新用户来说特别有用。此外，我们将利用今天的文章向您展示如何集成 Moralis 为您带来的基于区块链的最佳认证系统。有了 Moralis 的 Web3 认证 API，你可以很容易地实现所有种类的 [Web3 认证](https://moralis.io/authentication/)方法。当然，如果你想加入我们，你需要[创建你的免费 Moralis 账户](https://admin.moralis.io/register)。但是，如上所述，让我们首先确保您都知道基于区块链和区块链的身份验证的基础知识。
 
 ## 什么是区块链？
 
@@ -38,7 +38,7 @@
 
 此外，我们不能在谈论区块链安全时不提到“区块链三难困境”。目前，仍然不可能同时实现最高级别的去中心化、可伸缩性和安全性。因此，项目通常决定稍微牺牲一个方面来促进其他两个方面。然而，创新的想法，如分片，侧链和国家渠道正在探索和测试，以解决三难问题。
 
-关于区块链和它的安全，我们可以告诉你更多。然而，以上信息已经足够了，特别是因为本文的目的不一定是向您介绍区块链，而是向您展示如何集成基于区块链的身份验证。但是，如果你想了解更多关于区块链和比特币的知识，可以报名参加道德学院的“[区块链&比特币基础](https://academy.moralis.io/courses/blockchain-bitcoin-101)课程！
+关于区块链和它的安全，我们可以告诉你更多。然而，以上信息已经足够了，特别是因为本文的目的不一定是向您介绍区块链，而是向您展示如何集成基于区块链的身份验证。但是，如果你想了解更多关于区块链和比特币的知识，可以报名参加 Moralis 学院的“[区块链&比特币基础](https://academy.moralis.io/courses/blockchain-bitcoin-101)课程！
 
 ## 什么是区块链认证？
 
@@ -114,7 +114,7 @@ Moralis 提供了许多不同的方法来集成基于区块链的身份验证。
 
 ### 获取您的 Moralis Web3 API 密钥，用于基于区块链的身份验证
 
-要将基于区块链的身份验证集成到您的 NextJS 应用程序中，您必须拥有您的 Moralis Web3 API 密钥。此外，您将把它粘贴到" . env.local "文件中。因此，如果您还没有这样做，请使用简介中的“创建您的免费道德账户”链接，完成入职培训。随着你的 Moralis 帐户的建立和运行，你将能够访问你的管理区。从那里，您将通过两个简单的步骤获得您的 Moralis Web3 API 密钥:
+要将基于区块链的身份验证集成到您的 NextJS 应用程序中，您必须拥有您的 Moralis Web3 API 密钥。此外，您将把它粘贴到" . env.local "文件中。因此，如果您还没有这样做，请使用简介中的“创建您的免费 Moralis 账户”链接，完成入职培训。随着你的 Moralis 帐户的建立和运行，你将能够访问你的管理区。从那里，您将通过两个简单的步骤获得您的 Moralis Web3 API 密钥:
 
 ![Showing step 1 and 2: first, click on Web3 APIs on the Moralis admin panel. Then, copy the Web3 API key.](img/6be74733d2508ae2ad30df60e04ba092.png)
 
@@ -130,6 +130,6 @@ Moralis 提供了许多不同的方法来集成基于区块链的身份验证。
 
 如果您对掌握 Moralis 认证 API 感兴趣，我们鼓励您完成 Moralis 文档中的其他 Web3 认证操作指南。此外，您可以学习本文档提供的其他教程。此外，您还可以通过浏览 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)来扩展您的区块链发展知识。那里的一些最新主题向您展示了如何[快速构建 BNB 链 dapp](https://moralis.io/bnb-chain-boilerplate-how-to-build-bnb-chain-dapps/)，如何[将 dapp 连接到以太坊网络](https://moralis.io/set-up-and-connect-a-dapp-to-the-ethereum-network/)，如何[将 dapp 连接到多边形](https://moralis.io/tutorial-how-to-connect-a-dapp-to-polygon-network/)，[克隆 Zapper](https://moralis.io/how-to-clone-zapper-in-less-than-1-hour/) ，如何[使用 Azure 函数](https://moralis.io/how-to-connect-playfab-with-web3-using-azure-functions/)连接到 PlayFab 和 Web3，等等。
 
-另一方面，你可能想尽快成为全职加密员。如果是这样，你应该采取更专业的方法来进行加密教育。毕竟，成为区块链认证大大增加了你在这个破坏性行业中获得梦想工作的机会。因此，考虑报名参加[道德学院](https://academy.moralis.io/)。
+另一方面，你可能想尽快成为全职加密员。如果是这样，你应该采取更专业的方法来进行加密教育。毕竟，成为区块链认证大大增加了你在这个破坏性行业中获得梦想工作的机会。因此，考虑报名参加[Moralis 学院](https://academy.moralis.io/)。
 
 ![](img/d1e2b56aa5187e3ad48cab14278ff942.png)

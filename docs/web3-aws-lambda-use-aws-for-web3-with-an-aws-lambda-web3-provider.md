@@ -8,7 +8,7 @@
 2.  设置新项目
 3.  开发 Lambda 应用程序
 
-通过涵盖以上步骤，您将学习如何通过将[道德规范](https://moralis.io)节点 SDK 与服务集成来[创建 AWS Lambda 函数](https://moralis.io/creating-a-lambda-function-learn-how-to-create-an-aws-lambda-function/)。通过完成这个 Web3 AWS 教程，你将能够用 Lambda 运行 Web3 JavaScript 代码，你可以在所有未来的区块链项目中实现它！
+通过涵盖以上步骤，您将学习如何通过将[Moralis 规范](https://moralis.io)节点 SDK 与服务集成来[创建 AWS Lambda 函数](https://moralis.io/creating-a-lambda-function-learn-how-to-create-an-aws-lambda-function/)。通过完成这个 Web3 AWS 教程，你将能够用 Lambda 运行 Web3 JavaScript 代码，你可以在所有未来的区块链项目中实现它！
 
 如果这听起来令人兴奋，并且你想立即开始，你可以通过访问下面的“ *AWS Web3 教程*”部分进入教程。此外，你可以查看 AWS Lambda 的 [Web3 文档页面，以及下面的应用程序的完整 GitHub 库:](https://docs.moralis.io/docs/using-aws-lambda)
 
@@ -94,7 +94,7 @@ Web3 旨在保留 Web2 的积极动态方面，同时通过创建一个去中心
 
 要创建这个具有多种功能的 AWS Lambda 应用程序，您需要满足以下七个先决条件:
 
-1.  [创建一个道德账户](https://admin.moralis.io/register)
+1.  [创建一个 Moralis 账户](https://admin.moralis.io/register)
 2.  安装集成开发环境(IDE)
 3.  建立一个 [AWS 账户](https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-creating.html)
 4.  [安装 NodeJS](https://nodejs.org/en/)
@@ -325,6 +325,6 @@ serverless deploy
 
 因此，如果您已经学习了这么多，您现在应该知道如何使用 AWS Lambda 运行 Web3 JavaScript 代码。因此，您现在可以利用这项服务的优势，例如降低成本，并且不必担心管理服务器！
 
-如果你觉得这篇文章有帮助，可以考虑看看其他的道德指南。例如，您可能对我们的文章[感兴趣，探索终极的 ERC20 令牌 API](https://moralis.io/exploring-the-ultimate-erc20-token-api/) 。此外，请务必阅读我们的指南[如何使用多边形网钩](https://moralis.io/polygon-webhooks-how-to-use-webhooks-on-polygon/)！
+如果你觉得这篇文章有帮助，可以考虑看看其他的 Moralis 指南。例如，您可能对我们的文章[感兴趣，探索终极的 ERC20 令牌 API](https://moralis.io/exploring-the-ultimate-erc20-token-api/) 。此外，请务必阅读我们的指南[如何使用多边形网钩](https://moralis.io/polygon-webhooks-how-to-use-webhooks-on-polygon/)！
 
 然而，无论你从事什么样的 Web3 开发工作，都要马上和 Moralis 签约。你可以免费创建你的账户，只需要几秒钟！*

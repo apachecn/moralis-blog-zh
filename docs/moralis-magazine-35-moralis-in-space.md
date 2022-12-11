@@ -1,14 +1,14 @@
-# 道德杂志第 35 期——太空中的道德！
+# Moralis 杂志第 35 期——太空中的 Moralis！
 
 > 原文：<https://moralis.io/moralis-magazine-35-moralis-in-space/>
 
-道德工程现在炙手可热！不相信我们？问问我们的参与者就知道了！
+Moralis 工程现在炙手可热！不相信我们？问问我们的参与者就知道了！
 
 每个成功完成 Moralis 项目挑战的人都将获得一份我们的独家 NFT。这个集合已经发布了几十个 NFT，还会有更多的发布！
 
 密切关注新水滴的完整集合(每个项目都会有一个新的 NFT 水滴)。
 
-你在用道德建造什么？你卡住了吗？向我们提出问题和意见。谁知道呢，我们甚至可能会在未来的杂志上直接回复你！
+你在用 Moralis 建造什么？你卡住了吗？向我们提出问题和意见。谁知道呢，我们甚至可能会在未来的杂志上直接回复你！
 
 [**发送您的问题给我们**](https://ivanontech.typeform.com/to/R9K5lnGe)
 
@@ -24,19 +24,19 @@ Web3UI kit 是一个开源项目，专门用于让您尽可能快地将自己的
 
 **GitHub 回购:**https://github.com/web3ui/web3uikit T2
 
-## **道德工程更新**
+## **Moralis 工程更新**
 
 上周的 [Moralis 项目](https://moralis.io/projects/)参与者自豪地使用 Moralis、Unity 和 C#的组合制作了一款 [NFT 太空 FPS 射击游戏](https://moralis.io/moralis-projects-learn-to-build-a-web3-space-fps-game/)。想知道怎么回事吗？还不算太晚；点击下面的链接查看所有细节，并学习如何自己构建这个最新的项目！
 
 https://www.youtube.com/watch?v=KBmaji1E2LY
 
-准备好接受更多的道德项目了吗？好吧，准备好！下周，我们将“被捆到最大限度”。配备了 Web3UI 工具包、React、Moralis 和 Solidity，我们将使用这个编程发电站来实现一个目的:创建一个 [Web3 Airbnb](https://moralis.io/moralis-projects-learn-to-build-a-web3-airbnb-clone/) 克隆！
+准备好接受更多的 Moralis 项目了吗？好吧，准备好！下周，我们将“被捆到最大限度”。配备了 Web3UI 工具包、React、Moralis 和 Solidity，我们将使用这个编程发电站来实现一个目的:创建一个 [Web3 Airbnb](https://moralis.io/moralis-projects-learn-to-build-a-web3-airbnb-clone/) 克隆！
 
 在你的日历上做个标记，加入这个周末——如果你够大的话。
 
 https://www.youtube.com/watch?v=rj-Mb-xz1Os
 
-### **道德赛事观察**
+### **Moralis 赛事观察**
 
 上周在我们的 Web3 Donnas 活动中见到了你们这么多人，我们非常兴奋地开始计划我们的下一次活动！
 
@@ -48,15 +48,15 @@ https://www.youtube.com/watch?v=rj-Mb-xz1Os
 
 欢迎使用这个[邀请](http://moralis.io/discord)加入我们的不和频道，或者在 Twitter 上联系 Shiv[@ Shiv _ 24561](https://twitter.com/Shiv_24561)，为活动做好准备。
 
-你们每个人都是非凡事物的一部分，这本杂志就是要让道德的力量为你所用！
+你们每个人都是非凡事物的一部分，这本杂志就是要让 Moralis 的力量为你所用！
 
-我们都是道德家，在这里互相支持。如果你不是已经活跃在[道貌岸然道不和](https://discord.com/invite/P9N9HF97hH)的话，今天就是让你登场的日子。
+我们都是 Moralis 家，在这里互相支持。如果你不是已经活跃在[道貌岸然道不和](https://discord.com/invite/P9N9HF97hH)的话，今天就是让你登场的日子。
 
-在道德道的冲突中，你会发现一堆道德专家和法师同伴。发布您的项目并从社区获得反馈，参与编码挑战，并了解最新的 Moralis 特性和更新。
+在 Moralis 道的冲突中，你会发现一堆 Moralis 专家和法师同伴。发布您的项目并从社区获得反馈，参与编码挑战，并了解最新的 Moralis 特性和更新。
 
 * * *
 
-### 玩即赚游戏:与道德家一起玩！
+### 玩即赚游戏:与 Moralis 家一起玩！
 
 Web3 游戏开发商们，欢呼吧！Ash 本周回归，带来了三部曲中的第一部游戏赚取建造者系列！加入我们，因为我们将建立和实施自定义的游戏经济和收入机制在一起！
 
@@ -68,10 +68,10 @@ https://www.youtube.com/watch?v=A5Pt_juydwQ
 
 * * *
 
-感谢阅读！我们希望本周的道德杂志对你有用。
+感谢阅读！我们希望本周的 Moralis 杂志对你有用。
 
 继续建造！
 
 下次见💚
 
-道德研究小组
+Moralis 研究小组

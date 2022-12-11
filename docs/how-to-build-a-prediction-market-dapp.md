@@ -67,13 +67,13 @@
 
 通过完成概述的部分，你不仅将学习建立一个预测市场 dApp，而且你还将学习许多有价值的区块链开发技能，你可以在其他项目中使用。
 
-## 用道德规范构建预测市场 dApp 的环境设置
+## 用 Moralis 规范构建预测市场 dApp 的环境设置
 
-为了充分利用 Moralis，您需要[创建您的免费 Moralis 帐户](https://admin.moralis.io/register)。这将为您提供对管理面板、仪表板和整个 Moralis SDK 的访问。此外，它还将使您能够创建您的道德服务器。因此，创建了您的 Moralis 帐户后，完成以下步骤来创建 Moralis 服务器。
+为了充分利用 Moralis，您需要[创建您的免费 Moralis 帐户](https://admin.moralis.io/register)。这将为您提供对管理面板、仪表板和整个 Moralis SDK 的访问。此外，它还将使您能够创建您的 Moralis 服务器。因此，创建了您的 Moralis 帐户后，完成以下步骤来创建 Moralis 服务器。
 
 ![](img/273788b62c9afd1ccc92bb5e8f4d0987.png)
 
-### 创建一个道德服务器
+### 创建一个 Moralis 服务器
 
 1.  **登录您的 Moralis 账户**–只需[登录](https://admin.moralis.io/login)您的 Moralis 账户即可进入您的管理区。如果您没有帐户，请确保现在创建一个。
 
@@ -95,7 +95,7 @@
 
 ![](img/4a031fd49d52c80fc88ba0ce022679d1.png)
 
-4.  **初始化道德规范**–使用您的服务器的详细信息并填充。env "文件(您可能还需要将该文件从" . env.example "重命名为"。env"):
+4.  **初始化 Moralis 规范**–使用您的服务器的详细信息并填充。env "文件(您可能还需要将该文件从" . env.example "重命名为"。env"):
 
     *注意:* *继续下一节，稍后完成这一步(步骤四)。*
 
@@ -131,9 +131,9 @@
 
 ## 建立市场预测 dApp 分步视频说明
 
-环境设置完成后，您就可以卷起袖子构建如上所述的预测市场 dApp 了。由于有许多相当详细的方面要涵盖，你会更好地按照我们的道德专家在下面的视频中提供的指示。他将指导您完成这个示例项目的其余七个部分。万一六个小时对你来说太长了，确保把你的“建立预测市场”的任务分散到几天内。
+环境设置完成后，您就可以卷起袖子构建如上所述的预测市场 dApp 了。由于有许多相当详细的方面要涵盖，你会更好地按照我们的 Moralis 专家在下面的视频中提供的指示。他将指导您完成这个示例项目的其余七个部分。万一六个小时对你来说太长了，确保把你的“建立预测市场”的任务分散到几天内。
 
-以下是余下的七个部分，您将按照道德专家的指导完成:
+以下是余下的七个部分，您将按照 Moralis 专家的指导完成:
 
 *   用坚固创造你的聪明契约(19:59)。
 *   创建您的 ERC-20 令牌，并学习如何正确处理它(57:30)。
@@ -151,8 +151,8 @@ https://www.youtube.com/watch?v=yQSG6-3NHhI
 
 如果你遵循了文章和上面视频中提供的指导，你现在知道如何在六个小时内建立一个预测市场 dApp。此外，通过完成这个相当复杂的示例项目，您还学习了如何正确设置 Moralis 服务器，如何克隆 GitHub 项目，如何创建智能合同和 ERC-20 令牌。此外，您还学习了如何集成 Chainlink 的价格源和 VRF，如何使用 Moralis Speedy Nodes 部署智能合同，以及如何使用您的 JavaScript 技能通过 Moralis 的 SDK 创建 UI。此外，您现在知道如何同步事件，如何使用 Moralis 的数据库和 Moralis 的云功能，以及如何使用 Moralis 托管 dApp。
 
-正如开始时提到的，这是一个相当广泛的示例项目。所以，如果你想从简单的开始，我们鼓励你去看看[道德博客](https://moralis.io/blog/)和[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。在那里，您可以找到大量有价值的内容，解释了各种加密概念和术语，还提供了许多示例项目。例如，我们的一些最新指南向您展示了如何[创建免费令牌](https://moralis.io/create-free-token-how-to-deploy-your-own-testnet-crypto-token-in-10-mins/)，如何[用短信获取 Web3 事件](https://moralis.io/get-web3-events-with-sms-messages/)，如何[在币安智能链上创建 NFTs】，如何](https://moralis.io/create-nft-on-binance-smart-chain-full-guide/)[免费制作 NFT 而无需支付汽油费](https://moralis.io/how-to-mint-nfts-for-free-without-paying-gas-fees/)，如何[用共价 API 构建](https://moralis.io/how-to-build-with-the-covalent-api/)，如何[同步和索引智能合约事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/)，如何[构建跨链 dapp](https://moralis.io/how-to-build-cross-chain-dapps/)，以及
+正如开始时提到的，这是一个相当广泛的示例项目。所以，如果你想从简单的开始，我们鼓励你去看看[Moralis 博客](https://moralis.io/blog/)和[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。在那里，您可以找到大量有价值的内容，解释了各种加密概念和术语，还提供了许多示例项目。例如，我们的一些最新指南向您展示了如何[创建免费令牌](https://moralis.io/create-free-token-how-to-deploy-your-own-testnet-crypto-token-in-10-mins/)，如何[用短信获取 Web3 事件](https://moralis.io/get-web3-events-with-sms-messages/)，如何[在币安智能链上创建 NFTs】，如何](https://moralis.io/create-nft-on-binance-smart-chain-full-guide/)[免费制作 NFT 而无需支付汽油费](https://moralis.io/how-to-mint-nfts-for-free-without-paying-gas-fees/)，如何[用共价 API 构建](https://moralis.io/how-to-build-with-the-covalent-api/)，如何[同步和索引智能合约事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/)，如何[构建跨链 dapp](https://moralis.io/how-to-build-cross-chain-dapps/)，以及
 
-然而，如果你还不精通 JavaScript，但渴望[成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，我们建议你报名参加道德学院 [2021 区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)课程。此外，要想尽快成为全职加密员，一定要去看看[道德学院](https://academy.moralis.io/)的其他有价值的课程。
+然而，如果你还不精通 JavaScript，但渴望[成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，我们建议你报名参加 Moralis 学院 [2021 区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)课程。此外，要想尽快成为全职加密员，一定要去看看[Moralis 学院](https://academy.moralis.io/)的其他有价值的课程。
 
 ![](img/6ffafb0cd76c51a079aaa20899a4bcbb.png)

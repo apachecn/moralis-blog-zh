@@ -49,8 +49,8 @@ Dao 有许多好处，最突出的两个例子是透明度和建立群体信任�
 当使用 Moralis 操作系统时，创建这个应用程序变得相对容易。事实上，完整的过程可以分为以下三个步骤:
 
 1.  创建 Moralis 服务器
-2.  克隆道德民意调查 GitHub Repo
-3.  初始化道德
+2.  克隆 Moralis 民意调查 GitHub Repo
+3.  初始化 Moralis
 
 所以，事不宜迟，让我们继续下一节，创建我们自己的 Moralis 服务器！
 
@@ -90,9 +90,9 @@ git clone ”REPO LINK”
 npm i
 ```
 
-将一个克隆添加到您的本地开发环境并安装了所有依赖项之后，下一步是将项目或 dapp 链接到我们在上一步中创建的 Moralis 服务器。因此，让我们仔细看看如何初始化道德。
+将一个克隆添加到您的本地开发环境并安装了所有依赖项之后，下一步是将项目或 dapp 链接到我们在上一步中创建的 Moralis 服务器。因此，让我们仔细看看如何初始化 Moralis。
 
-### 步骤 3:构建一个 DAO 初始化道德
+### 步骤 3:构建一个 DAO 初始化 Moralis
 
 有了服务器和项目，最后一步是初始化 Moralis。为此，您需要在存储库中找到“. env.example”文件。在打开文件之前，您可以删除“.”。例“名称的一部分，只留下”。env”。
 
@@ -130,13 +130,13 @@ Dao，或称分散自治组织，是 Web3 最重要的特征之一，它们进�
 此外，在本文中，我们提供了一个快速教程，解释如何构建自己的分散自治组织。事实上，这一过程分为以下三个步骤:
 
 1.  创建 Moralis 服务器
-2.  克隆道德民意调查 GitHub Repo
-3.  初始化道德
+2.  克隆 Moralis 民意调查 GitHub Repo
+3.  初始化 Moralis
 
 通过利用 Moralis 平台的工具和从 GitHub 克隆项目的基础，我们能够在几分钟内创建这个 DAO。因此，这展示了与 Moralis 合作的力量，以及操作系统如何使 Web3 开发更容易。
 
 如果你的目标是[成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，我们建议在 Moralis 查看更多内容。例如，仔细阅读[分数 NFTs](https://moralis.io/what-are-fractional-nfts-the-ultimate-2022-f-nft-guide/) 、[动态 NFTs](https://moralis.io/what-are-dynamic-nfts-the-ultimate-2022-guide/) 、 [Web3 认证替代方案](https://moralis.io/web3-without-metamask-web3-authentication-alternatives/)、[区块链开发的最佳语言](https://moralis.io/best-languages-for-blockchain-development-full-tutorial/)等。
 
-此外，如果你想成为一名更熟练的区块链程序员，访问[道德学院](https://academy.moralis.io/)并报名参加市场上最好的[区块链课程](https://academy.moralis.io/all-courses)！
+此外，如果你想成为一名更熟练的区块链程序员，访问[Moralis 学院](https://academy.moralis.io/)并报名参加市场上最好的[区块链课程](https://academy.moralis.io/all-courses)！
 
 然而，[与 Moralis](https://admin.moralis.io/register) 签约，并从该平台提供的已开发的后端基础设施中获益。这将让你在所有未来的区块链项目上减少 87%的平均开发时间。此外，创建一个帐户是完全免费的，你可以在几分钟内开始你的开发工作！****

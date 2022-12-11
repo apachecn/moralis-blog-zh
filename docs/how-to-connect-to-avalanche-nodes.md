@@ -4,11 +4,11 @@
 
 根据你对 [**Web3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) **开发的实际经验，它可以是不言而喻的，也可以是相当混乱的。因此，如果你是区块链世界的新手，** [**dApp 开发**](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/) **可能看起来是一项艰巨的任务。然而，如果你用合适的工具来装备自己，这并不一定。一个这样的工具是区块链节点，这在开发**[**dApps**](https://moralis.io/decentralized-applications-explained-what-are-dapps/)**时至关重要。节点是任何区块链的重要组件，因为它们允许用户和应用程序直接与区块链通信。因此，如果你发现自己正在寻找，例如，开发雪崩 dApps，那么你可能会发现你需要连接到一个雪崩节点。然而，找到一个快速可靠的节点并不总是容易的。因此，我们将通过这篇文章进一步了解如何连接到雪崩节点。**
 
-尽管节点对区块链的生态系统至关重要，但建立和持续管理自己的节点可能是一项麻烦的任务。出于这个原因，开发人员正转向区块链节点提供商，因为他们是更方便的选择。一个很好的选择是[道德。](https://moralis.io/)
+尽管节点对区块链的生态系统至关重要，但建立和持续管理自己的节点可能是一项麻烦的任务。出于这个原因，开发人员正转向区块链节点提供商，因为他们是更方便的选择。一个很好的选择是[Moralis。](https://moralis.io/)
 
 Moralis 是 Web3 开发的首要操作系统，通过 Moralis 的快速节点，您可以从六个不同的网络(其中一个是 Avalanche)立即访问快速可靠的节点。此外，Moralis 还为所有用户提供底层后端基础设施。这使得开发人员可以在几个小时内构建 dApps，而不是几周或几个月。
 
-所以，如果你想成为一名区块链开发者，那就和 Moralis 签约吧。创建一个帐户是免费的，你将立即获得后端基础设施和所有的道德工具。
+所以，如果你想成为一名区块链开发者，那就和 Moralis 签约吧。创建一个帐户是免费的，你将立即获得后端基础设施和所有的 Moralis 工具。
 
 ### 雪崩解释——什么是雪崩？
 
@@ -36,13 +36,13 @@ Moralis 是 Web3 开发的首要操作系统，作为一个 Moralis 用户，有
 
 此外，Moralis 为一些网络提供了[存档节点](https://moralis.io/what-are-full-archive-nodes/)。因此，如果您的任何区块链项目需要区块链过去状态的即时信息，您可以访问某些节点的完整历史。此外，Moralis 在不断发展，并不断添加到平台中，为新的链和功能提供支持，这很容易理解为什么开发人员选择 Moralis。
 
-最后，Speedy Nodes 还与 Moralis 生态系统完全集成。这将让你轻松快速地开发 dApps。这只是许多伟大道德家的特征之一。要了解更多信息，请随意访问 [Moralis 博客](https://moralis.io/blog/)，在那里您可以找到更多令人兴奋的文章，这些文章可以让您成为更好的区块链开发人员。
+最后，Speedy Nodes 还与 Moralis 生态系统完全集成。这将让你轻松快速地开发 dApps。这只是许多伟大 Moralis 家的特征之一。要了解更多信息，请随意访问 [Moralis 博客](https://moralis.io/blog/)，在那里您可以找到更多令人兴奋的文章，这些文章可以让您成为更好的区块链开发人员。
 
 # 如何使用 Moralis 连接到雪崩节点
 
-随着对什么是道德的快速节点有了更好的理解，我们可以转移到主要话题，并解释如何连接到雪崩节点。在访问节点之前，您需要有一个帐户。所以，如果你还没有，第一步是注册道德。
+随着对什么是 Moralis 的快速节点有了更好的理解，我们可以转移到主要话题，并解释如何连接到雪崩节点。在访问节点之前，您需要有一个帐户。所以，如果你还没有，第一步是注册 Moralis。
 
-手头有一个帐户，你会发现在道德管理面板左侧的“快速节点”标签。一旦你点击这个标签，你会看到六个不同的替代网络，其中，你会发现雪崩网络。要连接到雪崩节点，您需要点击相关网络的“端点”按钮。这将为您提供两个不同的 URL，作为 Avalanche 的测试和主网络的 Moralis 支持节点。因此，您可以根据您计划在哪里开发/推出 dApp 来选择您喜欢的产品。
+手头有一个帐户，你会发现在 Moralis 管理面板左侧的“快速节点”标签。一旦你点击这个标签，你会看到六个不同的替代网络，其中，你会发现雪崩网络。要连接到雪崩节点，您需要点击相关网络的“端点”按钮。这将为您提供两个不同的 URL，作为 Avalanche 的测试和主网络的 Moralis 支持节点。因此，您可以根据您计划在哪里开发/推出 dApp 来选择您喜欢的产品。
 
 ![](img/40b85937296b3536a7d29b4d3bf5ddfc.png)
 
@@ -98,6 +98,6 @@ A [区块链节点提供商](https://moralis.io/infura-alternatives-and-blockcha
 
 然而，本教程展示了使用 Moralis 连接到 Avalanche 节点是多么容易，因为您所需要的只是一个帐户。我们还演示了如何将您的区块链项目连接到一个节点，以及在使用 Moralis 时更改元掩码网络是多么容易。
 
-尽管 Moralis 是一个节点提供者，但这仅仅触及了操作系统的皮毛。当使用 Moralis 时，可以利用平台的底层后端基础设施，这使得 dApp 开发变得更加容易。此外，除了快速节点，还有其他工具，如 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 、[道德的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 、对 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 的本地支持等等。
+尽管 Moralis 是一个节点提供者，但这仅仅触及了操作系统的皮毛。当使用 Moralis 时，可以利用平台的底层后端基础设施，这使得 dApp 开发变得更加容易。此外，除了快速节点，还有其他工具，如 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 、[Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 、对 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 的本地支持等等。
 
 所以，如果你正在寻找建立你的第一个 dApp，加入 65，000 多个区块链项目，今天就和 Moralis 签约吧！注册是免费的，只需要几分钟就可以开始你的第一个区块链项目！

@@ -8,7 +8,7 @@
 
 如果你接受今天的挑战，你将学会如何使用 NextJS 创建一个奇妙的社交媒体 [dapp](https://moralis.io/decentralized-applications-explained-what-are-dapps/) 。在这个过程中，您将学习如何使用最终的企业级 Web3 API 提供者——Moralis——来获取链上数据。当然，您还将学习如何使用 Lens Protocol——一个可组合和分散的社交图。本质上，Lens Protocol 是一个以分散方式存储社交媒体数据的后端解决方案。这个优秀的工具使你能够建立一个分散的社交媒体档案，并让用户拥有他们的数据和内容。此外，由于用户可以拥有自己的社交媒体元素，他们可以进一步利用它们。例如，他们可以向追随者收取费用或向他们提供奖励，如独特的 NFT([不可替代代币](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/))。
 
-因此，如果你相信去中心化的未来和拥有自己内容的权利，[创建你的免费道德账户](https://admin.moralis.io/register)并跟随我们。我们将从我们完成的分散式社交媒体简介的快速演示开始。因此，你会从今天的教程中知道期待什么。
+因此，如果你相信去中心化的未来和拥有自己内容的权利，[创建你的免费 Moralis 账户](https://admin.moralis.io/register)并跟随我们。我们将从我们完成的分散式社交媒体简介的快速演示开始。因此，你会从今天的教程中知道期待什么。
 
 ![](img/70ac3a4f9e4422b6048d3f2145bcf024.png)
 
@@ -125,11 +125,11 @@ import { client, Profile } from "./api/lensCalls";
 
 ![](img/793f2852468d0f51190eddeb01a298ca.png)
 
-因此，我们可以使用 Moralis 的 Web3 API 来使用该地址并获取它拥有的所有 NFT。为了获得这种能力，你必须完成初始道德设置。
+因此，我们可以使用 Moralis 的 Web3 API 来使用该地址并获取它拥有的所有 NFT。为了获得这种能力，你必须完成初始 Moralis 设置。
 
 ### 获取您的 Moralis Web3 API 密钥
 
-如果你还没有创建你的免费道德账户，现在就创建吧。您可以使用简介中的“创建您的免费 Moralis 帐户”链接或访问 Moralis 主页。一旦您的 Moralis 帐户启动并运行，您就可以访问您的 Moralis 仪表板。这是您将在侧边菜单中看到“Web3 APIs”选项卡的地方:
+如果你还没有创建你的免费 Moralis 账户，现在就创建吧。您可以使用简介中的“创建您的免费 Moralis 帐户”链接或访问 Moralis 主页。一旦您的 Moralis 帐户启动并运行，您就可以访问您的 Moralis 仪表板。这是您将在侧边菜单中看到“Web3 APIs”选项卡的地方:
 
 ![](img/b95415ad41cd7e6e65483b5a0934d19a.png)
 
@@ -141,7 +141,7 @@ import { client, Profile } from "./api/lensCalls";
 
 ![](img/a74b19caff41be290cc6b5be077b7236.png)
 
-### 进行道德 API 调用
+### 进行 Moralis API 调用
 
 现在您已经有了您的 Moralis Web3 API，您可以跟随我们开始进行 Moralis API 调用。为此，我们需要返回到“index.js”文件，首先导入 Moralis SDK。因此，我们在文件顶部添加了以下代码行:
 
@@ -149,7 +149,7 @@ import { client, Profile } from "./api/lensCalls";
 import Moralis from "moralis";
 ```
 
-然后，我们向下滚动到“ *getServerSideProps* ”函数。在该函数中，我们将重点关注在“*return*”(11:04)上方添加 API 调用。然而，我们首先初始化道德:
+然后，我们向下滚动到“ *getServerSideProps* ”函数。在该函数中，我们将重点关注在“*return*”(11:04)上方添加 API 调用。然而，我们首先初始化 Moralis:
 
 ![](img/ea2b7ad355a1ffe7206b62f2d2b41039.png)
 
@@ -194,8 +194,8 @@ https://www.youtube.com/watch?v=Nn6N7IJKcgE
 
 我们在今天的文章中谈了相当多的内容。然而，如果你跟随我们的领导和上面的视频，你有机会在不到 20 分钟的时间里创建你自己的分散式社交媒体档案 dapp。当然，这是可能的，因为你不必从零开始。取而代之的是，你使用了我们的起始代码，并且只是加入了 Web3 的后端功能。由于 Moralis 和 Lens Protocol 的文件，后者很简单。在此过程中，您还获得了 Moralis Web3 API 密匙，它使您能够访问最终的 Web3 API。此外，您使用了“ *getNFTs* ”和“ *getTokenMetadata* ”。
 
-如果你喜欢今天的教程，你应该探索一下 YouTube 频道和 Web3 的[道德博客](https://moralis.io/blog/)。那里的教程从最基础的到更高级的都有。因此，你可以选择适合你目前技能的。然而，感谢 Moralis，你所需要的就是你的 Web2 开发技能。此外，由于 Moralis 完全是关于跨平台的互操作性，您可以利用熟悉的工具加入 Web3 革命。ReactJS、NextJS、Firebase、Supabase、Unity 和其他平台可以成为你开始创建杀手级应用的入场券。还值得指出的是，Moralis 支持所有领先的可编程链。因此，您可以让您的 dapps 适应未来。
+如果你喜欢今天的教程，你应该探索一下 YouTube 频道和 Web3 的[Moralis 博客](https://moralis.io/blog/)。那里的教程从最基础的到更高级的都有。因此，你可以选择适合你目前技能的。然而，感谢 Moralis，你所需要的就是你的 Web2 开发技能。此外，由于 Moralis 完全是关于跨平台的互操作性，您可以利用熟悉的工具加入 Web3 革命。ReactJS、NextJS、Firebase、Supabase、Unity 和其他平台可以成为你开始创建杀手级应用的入场券。还值得指出的是，Moralis 支持所有领先的可编程链。因此，您可以让您的 dapps 适应未来。
 
-最后但并非最不重要的，你可能也想去全职加密尽快。这就是道德学院能够发挥作用的地方。通过成为区块链认证，你将大大增加你的机会，在任何时候登陆一个优秀的加密工作。
+最后但并非最不重要的，你可能也想去全职加密尽快。这就是 Moralis 学院能够发挥作用的地方。通过成为区块链认证，你将大大增加你的机会，在任何时候登陆一个优秀的加密工作。
 
 ![](img/3b7a6a2e23141fb90e330ce9e3eb7713.png)

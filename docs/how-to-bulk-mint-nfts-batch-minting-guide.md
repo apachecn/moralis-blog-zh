@@ -10,19 +10,19 @@
 
 ## 如何批量生产非功能性食品的基本知识
 
-在本文中，我们将进行一个示例项目，向您展示如何使用 Moralis 和 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 批量创建 NFTs 但是，在此之前，我们需要了解一些基础知识，以便让您快速掌握。了解什么是 NFT，什么是 NFT 铸币，什么是最流行的 NFT 标准，以及一些关于道德的基础知识将会在你前进的时候很好地为你服务。
+在本文中，我们将进行一个示例项目，向您展示如何使用 Moralis 和 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 批量创建 NFTs 但是，在此之前，我们需要了解一些基础知识，以便让您快速掌握。了解什么是 NFT，什么是 NFT 铸币，什么是最流行的 NFT 标准，以及一些关于 Moralis 的基础知识将会在你前进的时候很好地为你服务。
 
 *   [**什么是 NFT**](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/)**？–**不可替换令牌(NFT)是一种特殊的加密令牌，拥有独特的功能。本质上，NFT 是存储在数字分类账中的唯一且不可互换的数据单位。
 
 *   什么是 NFT 造币厂？–制造 NFT 是执行交易的过程，该交易将令牌的元数据存储在区块链上。此外，正是这一行动创造了 NFT。没有铸币，你只有数字文件和数据。
 *   **ERC-721 和 ERC-1155 NFT 标准**—[ERC-721 令牌标准](https://moralis.io/erc-721-token-standard-how-to-transfer-erc721-tokens/)是 NFTs 的主要标准之一， [ERC-1155 令牌标准](https://moralis.io/erc1155-exploring-the-erc-1155-token-standard/)是一种新颖的多令牌标准(适合批量铸造)。
-*   **什么是道德？–**Moralis 是整合了跨链互操作性的终极 Web3 开发平台。因此，它为大多数主要连锁店提供全面支持。此外， [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 包含了最广泛的[以太坊 API](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) ，包括一个[终极 NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 。此外，通过 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) ，Moralis 还可以作为最可靠的[节点提供者](https://moralis.io/infura-alternatives-and-blockchain-node-providers/)之一，帮助您克服 RPC 节点的所有[限制。后者使其成为 BSC](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/) 的最佳 [Infura 和雪崩](https://moralis.io/infura-bsc-alternatives-the-best-alternative-to-infura-for-bsc/)的最佳 [Infura。因此，如果你真的想学习如何以最快最简单的方式批量制造非功能性食物，请务必今天就](https://moralis.io/infura-for-avalanche-exploring-infura-avalanche-alternatives/)[创建你的免费道德账户](https://admin.moralis.io/register)！
+*   **什么是 Moralis？–**Moralis 是整合了跨链互操作性的终极 Web3 开发平台。因此，它为大多数主要连锁店提供全面支持。此外， [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 包含了最广泛的[以太坊 API](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) ，包括一个[终极 NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 。此外，通过 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) ，Moralis 还可以作为最可靠的[节点提供者](https://moralis.io/infura-alternatives-and-blockchain-node-providers/)之一，帮助您克服 RPC 节点的所有[限制。后者使其成为 BSC](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/) 的最佳 [Infura 和雪崩](https://moralis.io/infura-bsc-alternatives-the-best-alternative-to-infura-for-bsc/)的最佳 [Infura。因此，如果你真的想学习如何以最快最简单的方式批量制造非功能性食物，请务必今天就](https://moralis.io/infura-for-avalanche-exploring-infura-avalanche-alternatives/)[创建你的免费 Moralis 账户](https://admin.moralis.io/register)！
 
 ![](img/aebc7b8b0e347113209a73d0b45ef04a.png)
 
 ## 如何批量制造 NFT–示例项目
 
-我们相信学习新事物的最好方法是采取行动。因此，我们邀请您与我们一起承担以下示例项目。展望未来，我们将批量生产三种非功能性食品；然而，按照同样的原则，我们可以很容易地做几百个甚至几千个。如前所述，我们将使用 Moralis 来满足大部分后端需求。此外，我们将使用 [IPFS](https://moralis.io/full-guide-how-to-upload-to-ipfs/) 的分散文件存储解决方案。这将是无缝完成，因为道德提供与 IPFS 完全集成。此外，我们可以[上传文件夹到 IPFS](https://moralis.io/how-to-upload-folders-to-ipfs/) 的事实使我们能够批量上传文件(在我们的例子中，我们将上传 PNG 和 JSON 文件)。这也意味着所有文件将具有相同的哈希。此外，正是由于这个选项，我们将基本上能够批量制造非功能性食品。一旦我们以分散的方式上传了图像和元数据文件，我们将使用一个[智能契约](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/)模板来批量创建 NFT。此外，我们还将向您展示如何在 OpenSea 上显示这些 NFT。
+我们相信学习新事物的最好方法是采取行动。因此，我们邀请您与我们一起承担以下示例项目。展望未来，我们将批量生产三种非功能性食品；然而，按照同样的原则，我们可以很容易地做几百个甚至几千个。如前所述，我们将使用 Moralis 来满足大部分后端需求。此外，我们将使用 [IPFS](https://moralis.io/full-guide-how-to-upload-to-ipfs/) 的分散文件存储解决方案。这将是无缝完成，因为 Moralis 提供与 IPFS 完全集成。此外，我们可以[上传文件夹到 IPFS](https://moralis.io/how-to-upload-folders-to-ipfs/) 的事实使我们能够批量上传文件(在我们的例子中，我们将上传 PNG 和 JSON 文件)。这也意味着所有文件将具有相同的哈希。此外，正是由于这个选项，我们将基本上能够批量制造非功能性食品。一旦我们以分散的方式上传了图像和元数据文件，我们将使用一个[智能契约](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/)模板来批量创建 NFT。此外，我们还将向您展示如何在 OpenSea 上显示这些 NFT。
 
 我们需要完成的步骤:
 
@@ -50,7 +50,7 @@
 
 最后，我们已经准备好开始编写“images.js”文件中的代码(参见下面的实际代码)。在代码的顶部，我们导入上面安装的“npm 包”。接下来，我们希望我们的代码能够浏览图像。代码必须首先将图像从文件中读取到 JavaScript 的。为此，我们还需要将图像分配给一个数组(我们定义了两个数组，将在第三行和第四行中使用)。我们使用“for”循环继续(从第五行开始)。在循环中，我们确保代码将遍历图像文件并正确导出它们。这也是我们应用“paddedHex”的地方，它负责前面提到的 64 个字符的命名。
 
-代码的最后一部分(以“ *Promise.all* ”开头)是道德的力量显露出来的地方。在这里，代码需要上传图像到 IPFS。幸运的是，Moralis 通过其端点“ ***”上传文件夹*** ”来完成这项繁重的工作，确保我们包含图像的文件夹被上传到 IPFS。
+代码的最后一部分(以“ *Promise.all* ”开头)是 Moralis 的力量显露出来的地方。在这里，代码需要上传图像到 IPFS。幸运的是，Moralis 通过其端点“ ***”上传文件夹*** ”来完成这项繁重的工作，确保我们包含图像的文件夹被上传到 IPFS。
 
 以下是“images.js”文件中的完整代码:
 
@@ -94,7 +94,7 @@ Promise.all(promises).then( () => {
 })
 ```
 
-### 道德端点和您的 API 密钥
+### Moralis 端点和您的 API 密钥
 
 查看代码的“Promise.all”部分，您可以看到您需要使用 Moralis 的 IPFS 端点，并在“X-API-KEY”后面的引号内插入您的 API 键。
 
@@ -112,7 +112,7 @@ Promise.all(promises).then( () => {
 
 以下是获取 API 密钥需要遵循的步骤:
 
-1.  再次访问你的道德管理面板中的“Web3 API”标签:
+1.  再次访问你的 Moralis 管理面板中的“Web3 API”标签:
 
 ![](img/11f51206fc7b5c6e67a7fa41e1501916.png)
 
@@ -120,7 +120,7 @@ Promise.all(promises).then( () => {
 
 ![](img/54295b585fa49927204190e438efaf7f.png)
 
-*注意* *:要获得你的 API 密匙，你需要创建你的免费道德账户。如果你已经这样做了，点击* [*登录*](https://admin.moralis.io/login) *获取你的 API 密匙。*
+*注意* *:要获得你的 API 密匙，你需要创建你的免费 Moralis 账户。如果你已经这样做了，点击* [*登录*](https://admin.moralis.io/login) *获取你的 API 密匙。*
 
 一旦你复制了你的 API 密匙，把它插入到上面的代码中并保存文件。现在是运行代码的时候了，在终端中输入“ ***node image.js*** ”:
 
@@ -230,6 +230,6 @@ OpenSea 有时需要一段时间来处理您的请求。但是，如果您正确
 
 使用 VSC、Moralis、MetaMask、Remix 和 OpenSea，你可以毫不费力地完成以上步骤。
 
-此外，如果你在区块链的发展道路上寻找更多的灵感或指导，我们建议查看 [Moralis 的博客](https://moralis.io/blog/)和 [Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。在这两个网站上，您将能够找到大量高质量的内容，包括无数的示例项目。此外，如果你是一个完全的初学者，但希望[成为一名成功的区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，我们鼓励你报名参加[道德学院](https://academy.moralis.io/)的一门高质量课程。
+此外，如果你在区块链的发展道路上寻找更多的灵感或指导，我们建议查看 [Moralis 的博客](https://moralis.io/blog/)和 [Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。在这两个网站上，您将能够找到大量高质量的内容，包括无数的示例项目。此外，如果你是一个完全的初学者，但希望[成为一名成功的区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，我们鼓励你报名参加[Moralis 学院](https://academy.moralis.io/)的一门高质量课程。
 
 ![](img/24d44d1545f0344338437091ecb94651.png)

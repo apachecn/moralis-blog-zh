@@ -4,13 +4,13 @@
 
 Web3 领域有许多令人兴奋的利基市场；然而，非功能性测试仍然风靡一时。正如你可能知道的，2021 年呈现给我们的是 NFT 的巨大增长，它们的大量用例开始出现。因此，NFT 游戏已经浮出水面，并让程序员将全部注意力转向 NFT 游戏开发。此外，由于角色是任何类型游戏的关键元素，知道如何创建 NFT 游戏角色是至关重要的。现在，如果您已经熟悉了创建不可替换令牌的过程，您就会知道其中涉及到一个铸造过程。在这种情况下，它的意义在于，人们实际上必须为区块链游戏创造 NFT 游戏角色。因此，如果你想学习如何铸造游戏中的 NFT 角色，请跟随我们就这一主题为你提供进一步的教育。
 
-虽然目前最受欢迎的 NFT 都是关于数字收藏品和艺术，但 Web3 游戏将成为下一个大事件。你可能已经注意到 Axie Infinity 最近是多么受欢迎。此外，就像 Axie Infinity 和 [GameFi 以及 play-to-earn (P2E)](https://moralis.io/what-is-gamefi-and-play-to-earn-p2e/) 利基市场一样，NFT 发挥着重要作用。此外，游戏中的 NFT 可以表示各种对象。然而，NFT 游戏人物是其中最关键和最重要的方面。因此，我们想告诉你如何毫不费力地创造 NFT 人物。幸运的是，当我们使用[道德标准](https://moralis.io/)时，我们可以快速轻松地完成这一点。这个终极的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台被称为 [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) 是有道理的。它使您能够通过简单地复制和粘贴简短的代码片段来覆盖与区块链相关的后端。此外，结合终极[以太坊 dApp 样板](https://moralis.io/ethereum-dapp-boilerplate-full-ethereum-react-boilerplate-tutorial/)，你可以马上准备好自己的 NFT 游戏角色铸造 dApp ( [分散应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))。
+虽然目前最受欢迎的 NFT 都是关于数字收藏品和艺术，但 Web3 游戏将成为下一个大事件。你可能已经注意到 Axie Infinity 最近是多么受欢迎。此外，就像 Axie Infinity 和 [GameFi 以及 play-to-earn (P2E)](https://moralis.io/what-is-gamefi-and-play-to-earn-p2e/) 利基市场一样，NFT 发挥着重要作用。此外，游戏中的 NFT 可以表示各种对象。然而，NFT 游戏人物是其中最关键和最重要的方面。因此，我们想告诉你如何毫不费力地创造 NFT 人物。幸运的是，当我们使用[Moralis 标准](https://moralis.io/)时，我们可以快速轻松地完成这一点。这个终极的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台被称为 [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) 是有道理的。它使您能够通过简单地复制和粘贴简短的代码片段来覆盖与区块链相关的后端。此外，结合终极[以太坊 dApp 样板](https://moralis.io/ethereum-dapp-boilerplate-full-ethereum-react-boilerplate-tutorial/)，你可以马上准备好自己的 NFT 游戏角色铸造 dApp ( [分散应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))。
 
 ![](img/4c2a92422f46710a52f57d385ac3535b.png)
 
 ## NFT 游戏人物解释道
 
-在我们继续向您展示如何使用道德铸造 NFT 人物之前，我们需要让您快速了解一下。那么，什么是 NFT 游戏角色呢？我们来分解一下“NFT”和“游戏人物”的概念；不过，还是把重点放在后者吧。如果你玩过任何游戏，你很可能知道什么是游戏角色。他们代表屏幕后面的人或游戏中的任何其他实体。此外，不受玩家控制的游戏角色被称为非玩家角色(NPC)。此外，不同游戏中可用的角色数量差异很大。
+在我们继续向您展示如何使用 Moralis 铸造 NFT 人物之前，我们需要让您快速了解一下。那么，什么是 NFT 游戏角色呢？我们来分解一下“NFT”和“游戏人物”的概念；不过，还是把重点放在后者吧。如果你玩过任何游戏，你很可能知道什么是游戏角色。他们代表屏幕后面的人或游戏中的任何其他实体。此外，不受玩家控制的游戏角色被称为非玩家角色(NPC)。此外，不同游戏中可用的角色数量差异很大。
 
 然而，当我们添加不可替换的令牌(NFT)时，事情变得有点复杂。此外，虽然大多数 NFT 新手认为 NFT 是 JPEG 文件，但事实上，NFT 远不止如此。首先，JPEG 文件或任何其他类型的文件(PNG、MP3、MP4、PDF、GIF 等。)只是 NFTs 的视觉或听觉部分。使这些文件成为 NFT 的方面隐藏在后端，并且更加重要。如果没有[智能合约](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/)和可编程区块链(如[以太坊](https://moralis.io/full-guide-what-is-ethereum/)，这些文件将只是普通的数字文件。此外，您很可能知道，NFT 是代表唯一性的加密资产。涵盖唯一性的详细信息存储在每个 NFT 的元数据中，这些元数据存储在区块链上。因此，没有两个相同的非功能性测试。因此，即使它们表示相同的数字文件，它们的元数据也不相同。
 
@@ -54,11 +54,11 @@ Web3 领域有许多令人兴奋的利基市场；然而，非功能性测试仍
 
 我们鼓励您使用我们的代码并创建您自己版本的 NFT 铸币 dApp。但是，为了做到这一点，您需要首先完成一些简单的初始设置步骤。为了让事情尽可能简单，我们将事情分解为简单的步骤。第一部分将向您展示如何覆盖初始 Moralis 设置。此外，第二部分将指导您克隆我们的代码并初始化 Moralis SDK。
 
-### 初始道德设置
+### 初始 Moralis 设置
 
 为了最轻松地构建 dApps，您需要完成初始的 Moralis 设置。以下是您需要完成的步骤:
 
-1.  [**创建您的免费道德账户**](https://admin.moralis.io/register)——点击左侧链接进入注册页面。然后，输入您的电子邮件，创建您的密码，并单击将发送到您的电子邮件地址的确认链接。*当然，如果你已经有一个活跃的道德家账号，现在就* [*登录*](https://admin.moralis.io/login) *。*
+1.  [**创建您的免费 Moralis 账户**](https://admin.moralis.io/register)——点击左侧链接进入注册页面。然后，输入您的电子邮件，创建您的密码，并单击将发送到您的电子邮件地址的确认链接。*当然，如果你已经有一个活跃的 Moralis 家账号，现在就* [*登录*](https://admin.moralis.io/login) *。*
 
 2.  [**创建 Moralis 服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)–进入 Moralis 管理区域后，选择“服务器”选项卡，然后点击“+创建新服务器”按钮(右上角)。接下来，将出现一个包含三种服务器类型的下拉菜单(见下面的截图)。选择最适合您项目的网络类型。*然而，当示例项目或 dApp 测试有问题时，“Testnet 服务器”(* [*)或“本地 Devchain 服务器”是可行的方法。*](https://moralis.io/ethereum-testnet-guide-connect-to-ethereum-testnets/)
 
@@ -76,7 +76,7 @@ Web3 领域有许多令人兴奋的利基市场；然而，非功能性测试仍
 
 ![](img/ff4963a07782c2bb06270fde71878679.png)
 
-#### 初始化道德
+#### 初始化 Moralis
 
 *注* *:暂时跳过这一步。一旦你有了你的，你就会回来完成它。env”文件准备就绪。*
 
@@ -94,7 +94,7 @@ Web3 领域有许多令人兴奋的利基市场；然而，非功能性测试仍
 
 按照以下步骤复制我们修改过的样板文件(已经针对 NFT minter dApp 进行了调整):
 
-1.  首先，点击上面给出的“道德-NFT-游戏”链接。这样，您就可以在我们的 GitHub 仓库中访问代码。
+1.  首先，点击上面给出的“Moralis-NFT-游戏”链接。这样，您就可以在我们的 GitHub 仓库中访问代码。
 
 2.  接下来，单击“代码”按钮，然后单击 HTTPS 地址旁边的复制图标:
 
@@ -106,7 +106,7 @@ Web3 领域有许多令人兴奋的利基市场；然而，非功能性测试仍
 
 4.  克隆代码后，您需要安装所有的依赖项。同样，使用您的终端并输入以下命令行:
 
-*   ***cd 道德-NFT-游戏***
+*   ***cd Moralis-NFT-游戏***
 *   ***纱线安装***
 
 *注意:“yarn”和“npm”包管理器都是有效选项。如果您决定使用“npm ”,请确保输入正确的命令。*
@@ -129,6 +129,6 @@ https://www.youtube.com/watch?v=a3zIFrJl7UU
 
 至此，你应该对什么是 NFT 游戏角色有了清晰的认识。此外，你拥有创造 NFT 角色所必需的技能。此外，您还知道 NFT 提供了许多不同的用例，因此对于未来的应用程序有着巨大的潜力。此外，在我们的带领下，你也学会了如何轻松创造 NFT 人物。在我们的示例项目中，您已经有机会创建自己的 NFT 铸造 dApps。后者是制造各种 NFT 的好工具。此外，您还学习了如何使用 Moralis 和以太坊样板文件。因此，你已经准备好接受其他的范例项目，甚至处理你自己的 dApp 想法。
 
-如果 [NFT 开发](https://moralis.io/integrate-mint-function-to-js-interface-nft-development/)是你的主要兴趣，我们推荐探索 [NFT API 替代品](https://moralis.io/nft-api-alternatives-comparing-alchemys-nft-api-with-moralis-nft-api/)和 [NFT 令牌开发](https://moralis.io/nft-token-development-the-ultimate-guide/)。此外，一定要学会如何[发展自己的 NFT 市场](https://moralis.io/develop-your-own-nft-marketplace-step-by-step-guide/)。此外，通过访问 [Moralis 博客](https://moralis.io/blog/)和 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)，你可以继续你的免费加密教育。这两个网站都提供大量高质量的内容。例如，我们的一些最新主题涵盖了终极 [Web3UI 套件](https://moralis.io/web3ui-kit-the-ultimate-web3-user-interface-kit/)，最佳 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)，如何[获得 OpenSea API 密钥](https://moralis.io/get-an-opensea-api-key-in-2022-full-guide/)，[无汽油交易](https://moralis.io/gasless-transactions-exploring-gasless-transactions-on-ethereum/)， [Web3 登录](https://moralis.io/how-to-build-a-web3-login-in-5-steps/)， [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/)等等。但是，如果你想尽快去全职 crypto，你可能要考虑走更专业的路线。如果是这样，报名参加道德学院可能是你的下一个合乎逻辑的步骤。
+如果 [NFT 开发](https://moralis.io/integrate-mint-function-to-js-interface-nft-development/)是你的主要兴趣，我们推荐探索 [NFT API 替代品](https://moralis.io/nft-api-alternatives-comparing-alchemys-nft-api-with-moralis-nft-api/)和 [NFT 令牌开发](https://moralis.io/nft-token-development-the-ultimate-guide/)。此外，一定要学会如何[发展自己的 NFT 市场](https://moralis.io/develop-your-own-nft-marketplace-step-by-step-guide/)。此外，通过访问 [Moralis 博客](https://moralis.io/blog/)和 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)，你可以继续你的免费加密教育。这两个网站都提供大量高质量的内容。例如，我们的一些最新主题涵盖了终极 [Web3UI 套件](https://moralis.io/web3ui-kit-the-ultimate-web3-user-interface-kit/)，最佳 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)，如何[获得 OpenSea API 密钥](https://moralis.io/get-an-opensea-api-key-in-2022-full-guide/)，[无汽油交易](https://moralis.io/gasless-transactions-exploring-gasless-transactions-on-ethereum/)， [Web3 登录](https://moralis.io/how-to-build-a-web3-login-in-5-steps/)， [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/)等等。但是，如果你想尽快去全职 crypto，你可能要考虑走更专业的路线。如果是这样，报名参加 Moralis 学院可能是你的下一个合乎逻辑的步骤。
 
 ![](img/6c81baba5fd2eafcb38aef8fe6090d6e.png)

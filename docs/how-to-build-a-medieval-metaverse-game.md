@@ -20,13 +20,13 @@
 
 ## 如何构建元宇宙游戏——观看视频
 
-要直接进入视频教程并学习如何构建一个中世纪的元宇宙游戏，你可以访问道德 Youtube 频道:
+要直接进入视频教程并学习如何构建一个中世纪的元宇宙游戏，你可以访问 Moralis Youtube 频道:
 
 https://www.youtube.com/watch?v=wjqDSH29ZKk
 
 ## 构建中世纪元宇宙游戏的工具
 
-在本教程中，我们同时使用统一和道德。Unity 是游戏开发平台，而 Moralis 是区块链集成。
+在本教程中，我们同时使用统一和 Moralis。Unity 是游戏开发平台，而 Moralis 是区块链集成。
 
 ![](img/01b10ae267f2a9f7290c0157bb4d7aab.png)
 
@@ -76,7 +76,7 @@ https://www.youtube.com/watch?v=wjqDSH29ZKk
 
 ![](img/98064e02de3df535868706840af85965.png)
 
-## 用道德建立一个中世纪的元宇宙游戏
+## 用 Moralis 建立一个中世纪的元宇宙游戏
 
 Moralis 为开发人员提供了广泛的功能，无论他们是否来自区块链。这是什么意思？任何受过很少或基本区块链培训的游戏开发者都可以使用 Moralis 来插入游戏的区块链方面。
 
@@ -90,12 +90,12 @@ Moralis 为开发人员提供了广泛的功能，无论他们是否来自区块
 
 Moralis 为您处理以下事项:
 
-*   通过[道德快速节点](https://moralis.io/speedy-nodes/)设置区块链节点
+*   通过[Moralis 快速节点](https://moralis.io/speedy-nodes/)设置区块链节点
 *   消除 RPC 节点(在 Moralis 博客上探索 RPC 节点的[限制)](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)
-*   区块链索引(阅读[如何索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)以了解如果没有道德，这个过程会有多困难)
+*   区块链索引(阅读[如何索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)以了解如果没有 Moralis，这个过程会有多困难)
 *   智能合同同步
 *   Web3 钱包认证([使用元掩码](https://moralis.io/how-to-authenticate-with-metamask/)或 [WalletConnect](https://moralis.io/walletconnect-android-sdk-alternative-authenticate-android-apps-withmoralis/) 进行认证)
-*   API([道德 NFT API](https://moralis.io/announcing-the-moralis-nft-api/?utm_source=blog&utm_medium=post&utm_campaign=Moralis%2520Announces%2520Full%2520Support%2520for%2520Avalanche) ，等等)
+*   API([Moralis NFT API](https://moralis.io/announcing-the-moralis-nft-api/?utm_source=blog&utm_medium=post&utm_campaign=Moralis%2520Announces%2520Full%2520Support%2520for%2520Avalanche) ，等等)
 *   还有更多！
 
 ### 中世纪元宇宙游戏统一支持
@@ -114,7 +114,7 @@ Moralis 为您处理以下事项:
 
 现在你已经有了你需要的步骤和工具的概述，是时候开始构建中世纪的元宇宙游戏了。
 
-构建这个游戏所需的一切——所有代码和资产——都在中世纪元宇宙游戏的[道德回购](https://github.com/MoralisWeb3/youtube-tutorials/tree/main/unity-metaverse)中。因此，在学习教程的过程中，一定要不时地参考它。
+构建这个游戏所需的一切——所有代码和资产——都在中世纪元宇宙游戏的[Moralis 回购](https://github.com/MoralisWeb3/youtube-tutorials/tree/main/unity-metaverse)中。因此，在学习教程的过程中，一定要不时地参考它。
 
 ### 第一步——创造世界
 
@@ -134,7 +134,7 @@ Moralis 为您处理以下事项:
 
 你将会得到一个骨架外形的初级化身。然而，你可以通过打开预设包并进行修改来进一步定制你的角色。例如，你可以改进玩家的甲胄。在这种情况下，教程采用“男性 C”选项。此外，只需点击几下鼠标，您就可以更改角色的实际大小。
 
-准备好你的 3D 世界和全新的角色，你现在可以进行第 3 步，在这里你需要道德使区块链集成简单而快速。
+准备好你的 3D 世界和全新的角色，你现在可以进行第 3 步，在这里你需要 Moralis 使区块链集成简单而快速。
 
 ### 步骤 3–加密钱包集成
 
@@ -148,9 +148,9 @@ Moralis 为您处理以下事项:
 
 你只需要这个 SDK 中的两个预置就可以开始配置 Moralis 和 WalletConnect。为此，请按照视频 10 点的说明进行操作。
 
-在 10:17 开始“道德设置”部分。要完成这一步，您需要 Moralis 服务器的详细信息。因此，你需要在 Moralis 上建立一个账户。
+在 10:17 开始“Moralis 设置”部分。要完成这一步，您需要 Moralis 服务器的详细信息。因此，你需要在 Moralis 上建立一个账户。
 
-### 创建一个道德服务器
+### 创建一个 Moralis 服务器
 
 如果您还没有 Moralis 帐户，只需[注册](https://admin.moralis.io/register?utm_source=blog&utm_medium=post&utm_campaign=Announcing%2520the%2520Moralis%2520NFT%2520API)并免费创建一个新帐户。建立新帐户后，创建一个新的 Moralis 服务器。此外，只需点击几下鼠标即可完成。
 
@@ -164,7 +164,7 @@ Moralis 为您处理以下事项:
 
 ![](img/cc2270056ca6b0b61b73a3ce01a76a0f.png)
 
-#### 道德快速节点
+#### Moralis 快速节点
 
 在填充 Unity 之后，您还需要一样东西:您的 Moralis Speedy 节点的 URL。因此，要设置 Moralis Speedy Nodes，回到你的管理页面，点击左侧菜单下部的“Speedy Nodes”。
 
@@ -186,7 +186,7 @@ Moralis 为您处理以下事项:
 
 ## 如何建立一个中世纪的元宇宙游戏-总结
 
-元宇宙是当今科技界最令人兴奋的概念，开发者们都试图参与其中。此外，通过道德元宇宙 SDK，你可以以闪电般的速度创建元宇宙游戏和建造以太坊 dApps。
+元宇宙是当今科技界最令人兴奋的概念，开发者们都试图参与其中。此外，通过 Moralis 元宇宙 SDK，你可以以闪电般的速度创建元宇宙游戏和建造以太坊 dApps。
 
 ![](img/f60ea350f6b5801e7cde77222421bc85.png)
 

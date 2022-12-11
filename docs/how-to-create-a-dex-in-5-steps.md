@@ -2,11 +2,11 @@
 
 > 原文：<https://moralis.io/how-to-create-a-dex-in-5-steps/>
 
-**熟悉加密货币领域的人都知道** **dApp 开发者和加密投资者积极寻求扩大和推进他们在区块链的项目。一种流行的做法是在各种 dex 或分散交易所推出新的代币。通过这些令牌，用户能够与不同网络上的许多 dex 和 dApps 进行交互。此外，在某些情况下，不同的资产需要与各种链和** [**dApps**](https://moralis.io/decentralized-applications-explained-what-are-dapps/) **(分散的应用)进行交互。使用 DEX 是获取令牌的常见方式。有一个名副其实的过剩指数在市场上，与道德，你甚至可以创建自己的指数！因此，我们将解释如何使用**[**Moralis**](https://moralis.io/)**在五个步骤中创建索引。**
+**熟悉加密货币领域的人都知道** **dApp 开发者和加密投资者积极寻求扩大和推进他们在区块链的项目。一种流行的做法是在各种 dex 或分散交易所推出新的代币。通过这些令牌，用户能够与不同网络上的许多 dex 和 dApps 进行交互。此外，在某些情况下，不同的资产需要与各种链和** [**dApps**](https://moralis.io/decentralized-applications-explained-what-are-dapps/) **(分散的应用)进行交互。使用 DEX 是获取令牌的常见方式。有一个名副其实的过剩指数在市场上，与 Moralis，你甚至可以创建自己的指数！因此，我们将解释如何使用**[**Moralis**](https://moralis.io/)**在五个步骤中创建索引。**
 
 构建 DEX 一直是一项繁琐的任务。由于需要大量的后端开发，这既耗费资源又耗费时间。然而，通过使用 Moralis 可以避免大部分问题，因为该平台提供了一个高性能的现有后端基础设施。因此，有可能大大缩短所有区块链项目的开发过程。
 
-此外，Moralis 提供了一系列优秀的开发工具，允许您开发和部署 dApps。几个例子是 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) 、 [Moralis 的 NFT API](https://moralis.io/announcing-the-moralis-nft-api/) 、对 [IPFS 的本地支持](https://moralis.io/what-is-ipfs-interplanetary-file-system/)以及 [Moralis Price API](https://moralis.io/introducing-the-moralis-price-api/) 。然而，这些只是 Moralis 提供的众多好处中的一部分，完整的 [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 还有更多值得探索的地方。要了解更多，请务必访问[道德博客](https://moralis.io/blog/)。比如你知不知道 Moralis 有[完全支持雪崩](https://moralis.io/moralis-announces-full-support-for-avalanche/)，想学 [NFT 编程](https://moralis.io/nft-programming-for-beginners/)或者[以太坊开发](https://moralis.io/ethereum-development-for-beginners/)？
+此外，Moralis 提供了一系列优秀的开发工具，允许您开发和部署 dApps。几个例子是 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) 、 [Moralis 的 NFT API](https://moralis.io/announcing-the-moralis-nft-api/) 、对 [IPFS 的本地支持](https://moralis.io/what-is-ipfs-interplanetary-file-system/)以及 [Moralis Price API](https://moralis.io/introducing-the-moralis-price-api/) 。然而，这些只是 Moralis 提供的众多好处中的一部分，完整的 [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 还有更多值得探索的地方。要了解更多，请务必访问[Moralis 博客](https://moralis.io/blog/)。比如你知不知道 Moralis 有[完全支持雪崩](https://moralis.io/moralis-announces-full-support-for-avalanche/)，想学 [NFT 编程](https://moralis.io/nft-programming-for-beginners/)或者[以太坊开发](https://moralis.io/ethereum-development-for-beginners/)？
 
 Moralis 平台不仅在创建 DEX 时非常棒，对于所有 Web3 开发项目也是如此。所以，如果你想开发 dApps，那就马上和 Moralis 签约吧！
 
@@ -22,7 +22,7 @@ Moralis 平台不仅在创建 DEX 时非常棒，对于所有 Web3 开发项目�
 
 然而，DEX 通过使用[智能合约](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/)避免了这个问题，智能合约允许用户在进行交易之前保持对其资产的完全控制。因此，dex 是一种更安全的加密交易方式，因为我们可以避免集中化的一些缺陷，如单点故障。
 
-# 如何用 5 个步骤创建道德指数
+# 如何用 5 个步骤创建 Moralis 指数
 
 对什么是 DEX 有了更好的理解，我们可以继续讨论本文的主题:“如何用 5 个步骤创建一个 DEX”。开发任何类型 dApp 的最佳方式是利用首要的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台 Moralis。我们将从头开始制作一个 DEX，允许用户使用[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)登录并交易加密货币对。dApp 的用户界面(UI)将模仿 Uniswap 的用户界面，一旦最终确定，看起来将如下所示:
 
@@ -225,4 +225,4 @@ https://www.youtube.com/watch?v=XOvtnDx1m5c
 
 此外，如果你想了解更多与 Moralis 合作的潜力，那就去看看 Moralis 的博客吧。在这里，您可以找到展示使用该平台的强大功能的精彩文章。例如，有关于[如何给 dApps](https://moralis.io/how-to-add-fiat-gateway-to-dapps/) 添加菲亚特网关和[如何创建自己的 NFT 游戏](https://moralis.io/how-to-create-your-own-nft-in-5-steps/)的指南。
 
-有了这些好处，注册道德公司是显而易见的。加入该平台是完全免费的，只需要几秒钟，所以不要犹豫！
+有了这些好处，注册 Moralis 公司是显而易见的。加入该平台是完全免费的，只需要几秒钟，所以不要犹豫！

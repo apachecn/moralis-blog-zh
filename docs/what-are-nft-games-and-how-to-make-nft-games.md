@@ -4,7 +4,7 @@
 
 **无论是从朋友、YouTuber 还是主流媒体，你很可能听说过**[](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/)****。NFTs 的迅速普及让普通人和一些密码专家大吃一惊。随着游戏开发者寻找在游戏中利用 NFT 的方法，NFT 的增加也引起了他们的注意。有些人可能会说，NFT 奥运会不会长久；然而，我们知道 NFT 游戏才刚刚开始。因此，巨大的机会正等待着那些准备深入研究 NFT 游戏和 GameFi 空间的开发者。所以，继续读下去，找出以下问题的答案:“什么是 NFT 游戏？”以及“如何制作 NFT 游戏？”。****
 
-**如果你想学习如何制作 NFT 游戏，或者想得到“什么是 NFT 游戏”的正确答案问题，你来对地方了。我们不仅会为您提供开始工作所需的答案，而且您还将了解名为[道德(T3)的终极](https://moralis.io/) [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台。这个免费使用的工具为有经验的开发人员和初学者提供了他们应得的捷径。**
+**如果你想学习如何制作 NFT 游戏，或者想得到“什么是 NFT 游戏”的正确答案问题，你来对地方了。我们不仅会为您提供开始工作所需的答案，而且您还将了解名为[Moralis(T3)的终极](https://moralis.io/) [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台。这个免费使用的工具为有经验的开发人员和初学者提供了他们应得的捷径。**
 
 **此外，由于 Moralis 丰富的文档，使用该平台及其全部潜力非常简单。此外，由于这篇文章的一部分着重于如何用 Moralis 制作 NFT 游戏，我们建议[马上创建你的免费账户](https://admin.moralis.io/register)。因此，一旦我们到了如何创建一个 NFT 游戏的部分，你就准备好跟随了。事实上，对于初学者来说，Moralis 是开始 [NFT 编程的最好地方。除了制作 NFT 游戏，请通过](https://moralis.io/nft-programming-for-beginners/) [Moralis 博客](https://moralis.io/blog/)查看我们关于如何使用 Moralis 与 NFT 合作的其他提示和技巧！**
 
@@ -52,11 +52,11 @@
 
 虽然玩 NFT 游戏可能很有趣，某些游戏甚至可能会给你一个选择来赚一大笔钱，但我们向你保证，加密领域最大的机会在于专注于创造或开发一些东西。因此，我们发表这篇文章来告诉你如何制作 NFT 游戏，这样你就可以用你的创造力来开发一个非凡的 NFT 游戏。
 
-此外，如前所述，这并没有你想象的那么难。当然，这意味着您希望使用正确的工具，这样您就可以避免耗时的开发过程。这就是为什么 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 毫无疑问是你可以用于你的 [dApp](https://moralis.io/decentralized-applications-explained-what-are-dapps/) 开发的最强大的工具之一。此外，它是 NFT 相关项目的游戏规则改变者，并使 NFT 游戏开发变得容易。本质上，Moralis 为您提供了与 NFT 开发相关的所有正确工具，并通过复制和粘贴简短的代码行来帮助您处理后端。因此，您可以将您的注意力和资源投入到创建最好的前端，并确保良好的用户体验。如果你想了解更多关于[什么是道德观](https://youtu.be/txHnWDRB728)，请务必观看以下视频:
+此外，如前所述，这并没有你想象的那么难。当然，这意味着您希望使用正确的工具，这样您就可以避免耗时的开发过程。这就是为什么 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 毫无疑问是你可以用于你的 [dApp](https://moralis.io/decentralized-applications-explained-what-are-dapps/) 开发的最强大的工具之一。此外，它是 NFT 相关项目的游戏规则改变者，并使 NFT 游戏开发变得容易。本质上，Moralis 为您提供了与 NFT 开发相关的所有正确工具，并通过复制和粘贴简短的代码行来帮助您处理后端。因此，您可以将您的注意力和资源投入到创建最好的前端，并确保良好的用户体验。如果你想了解更多关于[什么是 Moralis 观](https://youtu.be/txHnWDRB728)，请务必观看以下视频:
 
 https://www.youtube.com/watch?v=txHnWDRB728
 
-### 如何用道德制作 NFT 游戏——初始设置
+### 如何用 Moralis 制作 NFT 游戏——初始设置
 
 在我们开始编写代码(在许多情况下，复制和粘贴)之前，我们必须创建一个 Moralis 服务器，导入 Moralis SDK，并初始化 Moralis。此外，无论你是想[创建自己的 ERC-20 令牌](https://moralis.io/how-to-create-your-own-erc-20-token-in-10-minutes/)、[建立一个加密钱包](https://moralis.io/how-to-build-a-crypto-wallet-in-4-steps/)，还是承担任何其他 Web3 开发任务，你都必须在使用 Moralis 时完成这些相同的步骤。幸运的是，它们是易于执行的简单任务。
 
@@ -104,7 +104,7 @@ https://www.youtube.com/watch?v=txHnWDRB728
 
 接下来，您将使用“preload”函数和“ping()”函数来管理游戏的生命周期。这样，您将确保后台被加载并且服务器被 pinged。
 
-接下来，您将添加控件和订阅。在这里，道德的力量将再次提供一个伟大的捷径，通过“游戏状态”标签，可在您的道德服务器的仪表板。您将通过应用“update”和“drawState”函数来完成前端编程。
+接下来，您将添加控件和订阅。在这里，Moralis 的力量将再次提供一个伟大的捷径，通过“游戏状态”标签，可在您的 Moralis 服务器的仪表板。您将通过应用“update”和“drawState”函数来完成前端编程。
 
 继续，你将关注 NFT 游戏创作的后端部分。在那里你将学习如何添加额外的功能，比如游戏的边界和特殊物品的收集。此外，您将了解如何使用“persistState”函数和后端的 ping 函数。后者将调用“getSVGString”函数，使您能够从区块链中获取用户的 SVG。
 

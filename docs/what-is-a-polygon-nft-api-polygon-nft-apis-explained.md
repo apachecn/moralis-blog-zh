@@ -8,7 +8,7 @@
 
 除了 NFT API， [Moralis](https://moralis.io/) 还提供了额外的工具和完全托管的后端基础设施。此外，操作系统为您提供了构建高级 dapps 的基本要素。例如，你可以学习如何[创建一个 OpenSea 克隆](https://moralis.io/create-an-opensea-clone-build-an-nft-marketplace-like-opensea/)来建立你自己的 NFT 市场。
 
-所以，如果你想为分散式网络开发 NFT 平台，马上创建一个道德账户！作为首要的 Web3 开发平台，Moralis 为您提供所需的一切。此外，首先，它是免费提供给你的！现在，让我们通过查看 NFT API 基础知识开始我们的“多边形 NFT API”之旅！
+所以，如果你想为分散式网络开发 NFT 平台，马上创建一个 Moralis 账户！作为首要的 Web3 开发平台，Moralis 为您提供所需的一切。此外，首先，它是免费提供给你的！现在，让我们通过查看 NFT API 基础知识开始我们的“多边形 NFT API”之旅！
 
 ## 多边形 NFT API-什么是 NFT 应用程序编程接口？
 
@@ -54,7 +54,7 @@ Blockend 开发人员可以通过利用开发工具显著提高效率。一个�
 
 ![](img/24e5938bb8438d524911993cee47ec41.png)
 
-道德 NFT API 可以被描述为一个规范化的跨链 API，可以说它使你避免了“重新发明轮子”。因此，这种“多边形 NFT API”提供了一种基础设施，有助于您的项目和各种区块链之间的通信，以获取与 NFT 相关的数据。这意味着您可以专注于开发过程的其他部分，例如为您的客户创造价值。
+Moralis NFT API 可以被描述为一个规范化的跨链 API，可以说它使你避免了“重新发明轮子”。因此，这种“多边形 NFT API”提供了一种基础设施，有助于您的项目和各种区块链之间的通信，以获取与 NFT 相关的数据。这意味着您可以专注于开发过程的其他部分，例如为您的客户创造价值。
 
 因此，Moralis 的 NFT API 使得多边形网络上的 NFT 开发更易于管理。然而，这是如何工作的，这对开发人员有什么好处呢？在以下三个部分中，我们将了解如何快速轻松地获取面 NFT 所有权数据、元数据和传输数据。所以，事不宜迟，让我们开始探索通过终极多边形 NFT API 可以获得什么类型的 NFT 所有权数据！
 
@@ -62,7 +62,7 @@ Blockend 开发人员可以通过利用开发工具显著提高效率。一个�
 
 根据你想创建的与 NFT 相关的项目的类型，获取准确的 NFT 所有权数据是非常有益的。您可以使用 Moralis 的 NFT API 快速获取多边形 NFT 所有权数据，并避免设置自己的基础设施来跟踪 NFT。此外，当代币在市场上交易时，您不需要担心客户代码。
 
-关于 Polygon NFT 所有权的数据是实时更新的，并且在交易完成后立即可用。还记得上一节的 NFT 系列吗？有了道德 NFT API，你只需要几行代码就可以获得一个集合的所有所有者。
+关于 Polygon NFT 所有权的数据是实时更新的，并且在交易完成后立即可用。还记得上一节的 NFT 系列吗？有了 Moralis NFT API，你只需要几行代码就可以获得一个集合的所有所有者。
 
 此外，该 API 还有一个特性叫做“令牌门”。这使得开发者只需简单的点击几下就可以“令牌门”他们的内容。因此，创作者可以收回对其内容的完全控制权。
 
@@ -95,7 +95,7 @@ const options = { chain: "", address: "",  limit: "" };
 const transferNFT = await Moralis.Web3API.token.getNFTTransfer(options);
 ```
 
-因此，有了道德 NFT API，你可以避免设置基础设施、托管和跨链开发的麻烦。这将使你作为开发人员的生活变得更加容易，你将能够在很短的时间内创建 dapps。
+因此，有了 Moralis NFT API，你可以避免设置基础设施、托管和跨链开发的麻烦。这将使你作为开发人员的生活变得更加容易，你将能够在很短的时间内创建 dapps。
 
 有关 Moralis NFT API 的更多信息，请查看官方的 NFT API [GitHub 库](https://github.com/nft-api/nft-api/#moralis-sdk-8)。在那里，您可以发现关于 API 如何改进您的开发人员体验的更多信息。然而，如果你更愿意为币安网络开发 NFT 项目，请查看我们的其他指南，探索[币安 NFT API](https://moralis.io/binance-nft-api-what-is-it-and-how-does-it-work/) ！
 
@@ -103,7 +103,7 @@ const transferNFT = await Moralis.Web3API.token.getNFTTransfer(options);
 
 随着以太网使用的增加，利用第 2 层扩展解决方案(如多边形网络)来避免过多的天然气成本变得越来越有吸引力。更重要的是，随着对 NFTs 兴趣的增加，现在开发与 NFT 相关的项目比以往任何时候都要热。出于这两个原因，我们带着这篇文章去探索 Moralis 的多边形 NFT API。
 
-多边形 NFT API 对多边形网络上所有 NFT 项目的开发过程有很大的帮助。获得这样一个工具最简单的方法是通过支持几个网络的道德 NFT API，包括 Polygon。使用 Moralis API，可以轻松获取 NFT 所有权数据、元数据和传输数据！
+多边形 NFT API 对多边形网络上所有 NFT 项目的开发过程有很大的帮助。获得这样一个工具最简单的方法是通过支持几个网络的 Moralis NFT API，包括 Polygon。使用 Moralis API，可以轻松获取 NFT 所有权数据、元数据和传输数据！
 
 ![](img/2c5ec5a478f8034b7491943b98b88819.png)
 
@@ -111,4 +111,4 @@ const transferNFT = await Moralis.Web3API.token.getNFTTransfer(options);
 
 因此，如果你是一个有抱负的 blockend 开发者，[注册 Moralis](https://admin.moralis.io/register) 并在几分钟内开始开发！
 
-此外，如果你想进一步磨练你的 Web3 开发技能，可以去看看道德学院。学院提供[区块链课程](https://academy.moralis.io/all-courses)如 [JavaScript 编程 101](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers) 、 [Moralis Web3 Dapp 编程](https://academy.moralis.io/courses/moralis-web3-dapp-programming)、[以太坊基础](https://academy.moralis.io/courses/ethereum-101)等。所以，报名参加学院，马上成为区块链认证！
+此外，如果你想进一步磨练你的 Web3 开发技能，可以去看看 Moralis 学院。学院提供[区块链课程](https://academy.moralis.io/all-courses)如 [JavaScript 编程 101](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers) 、 [Moralis Web3 Dapp 编程](https://academy.moralis.io/courses/moralis-web3-dapp-programming)、[以太坊基础](https://academy.moralis.io/courses/ethereum-101)等。所以，报名参加学院，马上成为区块链认证！

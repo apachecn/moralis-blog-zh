@@ -50,9 +50,9 @@ Moralis 为您的 dApp 用户添加这些功能只需几个小时，而不是几
 
 注册 Moralis 后，您只需点击一下就可以创建一个 Moralis 服务器。此外，当您使用 Moralis 创建 dApps 时，设置服务器是必不可少的一部分。此外，利用 Moralis 在以太坊上开发 dApp 是一个简单的三步过程:
 
-### **第一步:设置道德服务器**
+### **第一步:设置 Moralis 服务器**
 
-首先，您必须创建一个免费的道德帐户，然后登录到您的道德帐户。登录后，点击 Moralis 管理面板右上角的“+创建新服务器”按钮，设置 Moralis 服务器。
+首先，您必须创建一个免费的 Moralis 帐户，然后登录到您的 Moralis 帐户。登录后，点击 Moralis 管理面板右上角的“+创建新服务器”按钮，设置 Moralis 服务器。
 
 ![Server-creation-in-Moralis](img/90894439eecfb17c3284a23042fbd8f0.png)
 
@@ -82,7 +82,7 @@ npm install moralis
 
 ![npm-install-moralis](img/1fe47db5463edde3f47f70555dd57c27.png)
 
-### **第三步:初始化道德规范**
+### **第三步:初始化 Moralis 规范**
 
 最后一步是初始化 Moralis。这样做将使我们能够使用 Moralis 的特性和功能。为此，我们需要应用程序 ID 和服务器 URL。要获取此信息，请单击服务器上 Moralis 管理面板中的“查看详细信息”按钮。
 
@@ -177,7 +177,7 @@ const userEthNFTs = await Moralis.Web3API.account.getNFTs();
 npm run start
 ```
 
-因此，它将在生产模式下推出“道德-角度-应用程序”。
+因此，它将在生产模式下推出“Moralis-角度-应用程序”。
 
 在 Visual Studio 代码中，通过单击右下角的“+”按钮添加另一个终端选项卡。然后，运行以下命令:
 
@@ -289,6 +289,6 @@ https://www.youtube.com/watch?v=3WU8ple4zsM
 
 类似地，当 Angular 和 Moralis 集成发生时，它为您的前端提供了一个强大的解决方案。让你的 dApp 创建更快，你将享受到在 Angular 中构建以太坊 dApp 的所有其他好处，例如前端的单页编码和卓越的用户体验。
 
-如果你想让你的区块链发展技能更上一层楼，一定要去看看道德学院。在道德学院，我们教区块链从零开始发展。如果你对此感兴趣，请报名参加我们的 [2021 区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)课程。然而，如果你已经认为自己是一个有经验的开发人员，并想接受学习如何编写智能合同的挑战，请查看我们的[以太坊智能合同编程 101](https://academy.moralis.io/courses/ethereum-smart-contract-programming-101) 课程。在那里，您将深入了解智能合约的全部内容。此外，您将能够构建和部署自己的以太坊智能合约。
+如果你想让你的区块链发展技能更上一层楼，一定要去看看 Moralis 学院。在 Moralis 学院，我们教区块链从零开始发展。如果你对此感兴趣，请报名参加我们的 [2021 区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)课程。然而，如果你已经认为自己是一个有经验的开发人员，并想接受学习如何编写智能合同的挑战，请查看我们的[以太坊智能合同编程 101](https://academy.moralis.io/courses/ethereum-smart-contract-programming-101) 课程。在那里，您将深入了解智能合约的全部内容。此外，您将能够构建和部署自己的以太坊智能合约。
 
 ![](img/9d1820953662d116ba9af6603015801a.png)

@@ -28,16 +28,16 @@ IPFS 或“星际文件系统”由公司协议实验室于 2015 年开始开发
 
 我们将创建一个基本的 UI(用户界面),带有几个输入框和一个执行代码的按钮。因此，用户将能够输入名称、元数据描述和图像。只需点击一个按钮，他们就能把自己的信息上传到 IPFS。此外，我们将能够在几分钟内创建这个 dApp，这个过程可以分为六个不同的步骤:
 
-1.  创建一个道德服务器。
+1.  创建一个 Moralis 服务器。
 2.  从 Moralis 导入样板代码。
 3.  创建登录功能。
 4.  创建上传图像的功能。
 5.  创建上传元数据对象的功能。
 6.  创建一个函数来执行代码。
 
-在创建 dApp 之前，我们首先需要一个 Moralis 账户。其中一个原因是我们需要初始化 Moralis，为此，我们需要创建自己的服务器。所以，如果你没有帐号，你可以先注册[](http://moralis.io/)。一旦你有了一个帐户，我们就可以开始第一步，建立我们自己的道德服务器。
+在创建 dApp 之前，我们首先需要一个 Moralis 账户。其中一个原因是我们需要初始化 Moralis，为此，我们需要创建自己的服务器。所以，如果你没有帐号，你可以先注册[](http://moralis.io/)。一旦你有了一个帐户，我们就可以开始第一步，建立我们自己的 Moralis 服务器。
 
-## 第一步:创建一个道德服务器
+## 第一步:创建一个 Moralis 服务器
 
 因此，流程的第一步是创建一个 Moralis 服务器。要做到这一点，我们需要做的就是点击 Moralis 界面右上角的“+创建一个新服务器”。
 
@@ -53,7 +53,7 @@ IPFS 或“星际文件系统”由公司协议实验室于 2015 年开始开发
 
 一旦我们有了服务器、服务器 URL 和应用程序 ID，我们就可以继续创建应用程序本身。在我们从 Moralis 获取样板代码之前，我们需要创建一个 HTML 文件。我们将该文件命名为“ipfs.html ”,但是您可以随意命名。
 
-一旦我们准备好了文件，我们就可以访问 [道德文件](https://docs.moralis.io/guides/build-a-simple-dapp-in-3-minutes) 。我们需要做的就是将代码复制并粘贴到我们的 HTML 文件中。这是直接来自 Moralis 的代码的样子:
+一旦我们准备好了文件，我们就可以访问 [Moralis 文件](https://docs.moralis.io/guides/build-a-simple-dapp-in-3-minutes) 。我们需要做的就是将代码复制并粘贴到我们的 HTML 文件中。这是直接来自 Moralis 的代码的样子:
 
 ![](img/f18770348bf2184dd3210bf10cc45104.png)
 
@@ -77,7 +77,7 @@ IPFS 或“星际文件系统”由公司协议实验室于 2015 年开始开发
 
 ![](img/c8815cb8d7a1031991f2affd27eeee94.png)
 
-默认情况下，通过元掩码使用 Moralis 对用户进行身份验证。因此，一旦该功能被触发，用户的元掩码扩展将打开，允许他们通过自己的钱包进行身份验证。但是，也可以使用例如 WalletConnect 进行身份验证。如果你有兴趣了解这是如何做到的，道德博客 的 [提供了一篇关于](https://moralis.io/blog/) [如何使用 WalletConnect](https://moralis.io/how-to-connect-users-with-walletconnect/) 认证用户的优秀文章。
+默认情况下，通过元掩码使用 Moralis 对用户进行身份验证。因此，一旦该功能被触发，用户的元掩码扩展将打开，允许他们通过自己的钱包进行身份验证。但是，也可以使用例如 WalletConnect 进行身份验证。如果你有兴趣了解这是如何做到的，Moralis 博客 的 [提供了一篇关于](https://moralis.io/blog/) [如何使用 WalletConnect](https://moralis.io/how-to-connect-users-with-walletconnect/) 认证用户的优秀文章。
 
 ## 第四步:如何上传到 IPFS —上传图片功能
 
@@ -115,7 +115,7 @@ IPFS 或“星际文件系统”由公司协议实验室于 2015 年开始开发
 
 在这之后，当我们调用“uploadMetadata()”函数时，我们将“image”变量作为参数传递。然后“uploadMetadata()”函数创建元数据对象，将其上传到 IPFS，最后将对象的 URL 记录到控制台。
 
-就是这样！现在，我们已经成功地创建了自己的 dApp，可以用来上传文件到 IPFS。我们设法通过六个步骤创建了这个简单的应用程序，其便利性主要来自于使用 Moralis 平台。然而，如果你对这个过程还有疑问，那么我们推荐你看看下面这个来自道德 YouTube 频道[](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw):的视频
+就是这样！现在，我们已经成功地创建了自己的 dApp，可以用来上传文件到 IPFS。我们设法通过六个步骤创建了这个简单的应用程序，其便利性主要来自于使用 Moralis 平台。然而，如果你对这个过程还有疑问，那么我们推荐你看看下面这个来自 Moralis YouTube 频道[](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw):的视频
 
 [https://www.youtube.com/embed/jRjFn__kVJM?feature=oembed](https://www.youtube.com/embed/jRjFn__kVJM?feature=oembed)
 
@@ -123,7 +123,7 @@ IPFS 或“星际文件系统”由公司协议实验室于 2015 年开始开发
 
 作为 Moralis 的用户，我们可以快速方便地 [构建 dApps](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/) 用于上传文件到 IPFS。我们可以做到这一点，因为我们可以从 Moralis 文档中访问已经准备好的样板代码，并结合已经托管的后端基础设施。因此，我们可以按照这六个简单的步骤来创建 dApp:
 
-1.  创建一个道德服务器。
+1.  创建一个 Moralis 服务器。
 2.  从 Moralis 导入样板代码。
 3.  创建登录功能。
 4.  创建上传图像的功能。
@@ -132,4 +132,4 @@ IPFS 或“星际文件系统”由公司协议实验室于 2015 年开始开发
 
 遵循这六个步骤，我们可以在几分钟内轻松地创建一个 dApp，用来上传文件到 IPFS。但是，这并不是 Moralis 平台的极限，机会是无穷的。如果你经常阅读我们的博客，你会知道我们有很好的指南和教程来展示这个平台的潜力。例如，有关于 [如何构建多边形 dapp](https://moralis.io/how-to-build-polygon-dapps-easily/)的指南和关于 [如何创建自己的 NFT](https://moralis.io/how-to-create-your-own-nft-in-5-steps/) 的教程。
 
-所以，如果你想成为区块链开发者，今天就 [报名道德家](https://admin.moralis.io/register) ！使用该平台的机会是无限的，您可以显著缩短所有未来区块链项目的上市时间。
+所以，如果你想成为区块链开发者，今天就 [报名 Moralis 家](https://admin.moralis.io/register) ！使用该平台的机会是无限的，您可以显著缩短所有未来区块链项目的上市时间。

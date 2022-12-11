@@ -11,7 +11,7 @@ const response = await Moralis.EvmApi.balance.getNativeBalance({
 });
 ```
 
-如果你熟悉 [Moralis](https://moralis.io/) 和 NodeJS 框架，你将能够正确地将上述代码行合并到你的脚本中，并获得 Web3 钱包的平衡。此外，您可以通过访问下面的链接立即开始使用上述端点。另一方面，这可能是您第一次使用这个最终的 Web3 API 提供者。在这种情况下，请务必参加下面等待您的简单 dapp 教程。按照我们的建议，学习如何获得 crypto 的钱包余额，你只需要你的[免费道德账户](https://admin.moralis.io/register)和大约八分钟的时间。
+如果你熟悉 [Moralis](https://moralis.io/) 和 NodeJS 框架，你将能够正确地将上述代码行合并到你的脚本中，并获得 Web3 钱包的平衡。此外，您可以通过访问下面的链接立即开始使用上述端点。另一方面，这可能是您第一次使用这个最终的 Web3 API 提供者。在这种情况下，请务必参加下面等待您的简单 dapp 教程。按照我们的建议，学习如何获得 crypto 的钱包余额，你只需要你的[免费 Moralis 账户](https://admin.moralis.io/register)和大约八分钟的时间。
 
 [**Access the “getNativeBalance” Endpoint**](https://docs.moralis.io/reference/getnativebalance)
 
@@ -33,7 +33,7 @@ const response = await Moralis.EvmApi.balance.getNativeBalance({
 
 ![](img/711dcb3e646f374f54f4cf5cd345c230.png)
 
-此外，Moralis 还具有跨平台的互操作性，这意味着您可以将它的强大功能用于您最喜欢的遗留开发工具。这就是 Moralis 如何帮助你弥合 Web2 和 Web3 之间的发展差距。因此，毫不费力地获得 Web3 钱包平衡的能力只是道德的众多超能力之一。例如，您还可以使用 Moralis 的 Web3 身份验证 API 实现 [Web3 身份验证](https://moralis.io/authentication/)，使用 Moralis 的[流 API](https://moralis.io/streams/) 与智能合约交互并监听智能合约，以及将 NFT 功能与 Moralis 的 [NFT API](https://moralis.io/nft-api/) 相结合。然而，在这里，我们将重点教你如何获得本机加密钱包余额。
+此外，Moralis 还具有跨平台的互操作性，这意味着您可以将它的强大功能用于您最喜欢的遗留开发工具。这就是 Moralis 如何帮助你弥合 Web2 和 Web3 之间的发展差距。因此，毫不费力地获得 Web3 钱包平衡的能力只是 Moralis 的众多超能力之一。例如，您还可以使用 Moralis 的 Web3 身份验证 API 实现 [Web3 身份验证](https://moralis.io/authentication/)，使用 Moralis 的[流 API](https://moralis.io/streams/) 与智能合约交互并监听智能合约，以及将 NFT 功能与 Moralis 的 [NFT API](https://moralis.io/nft-api/) 相结合。然而，在这里，我们将重点教你如何获得本机加密钱包余额。
 
 ### “Web3 获取钱包余额”端点
 
@@ -51,12 +51,12 @@ const response = await Moralis.EvmApi.balance.getNativeBalance({
 
 ![](img/86e741776f168d2b29014ecad673e2ec.png)
 
-## 如何使用道德来平衡钱包
+## 如何使用 Moralis 来平衡钱包
 
 现在你已经知道了“Web3 获得钱包平衡”端点的来龙去脉，是时候开始今天的教程了。通过遵循下一节中的细节，您将能够构建一个示例钱包浏览器 dapp。最终，你需要完成以下三个步骤来获得 Web3 钱包余额:
 
 1.  创建 NodeJS 后端 Dapp
-2.  初始化道德
+2.  初始化 Moralis
 3.  创建 ReactJS 前端 Dapp
 
 然而，在向您展示如何为 crypto 获取钱包余额之前，让我们快速演示一下我们的示例 dapp。
@@ -154,7 +154,7 @@ app.get("/balance", async (req, res) => {
 
 查看上面的代码行，您可以看到这个 NodeJS dapp 从输入字段中查询详细信息。因此，我们将在前端链接到它们，创建“获取平衡”按钮。此外，您可以看到，如果没有提供“ *toBlock* ”，后端只查询“*地址*”和“*链*”参数。此外，上面的代码以原始格式返回结果，并在控制台记录结果和潜在的错误。
 
-### 步骤 2:初始化道德
+### 步骤 2:初始化 Moralis
 
 “index.js”脚本的最后一部分围绕着初始化 Moralis。因此，请确保将以下代码行添加到该脚本中:
 
@@ -168,7 +168,7 @@ Moralis.start({
 });
 ```
 
-尽管如此，要使上面的代码行工作，您必须用实际的 Web3 API 密钥替换" *MORALIS_API_KEY* "占位符。为此，您需要访问您的道德管理区。要访问后者，您需要准备好您的 Moralis 帐户。因此，如果你还没有这样做，请使用本文开头提到的“免费道德账户”链接来创建你的账户。进入 Moralis 管理区域后，选择“Web3 APIs”页面并复制 API 密钥:
+尽管如此，要使上面的代码行工作，您必须用实际的 Web3 API 密钥替换" *MORALIS_API_KEY* "占位符。为此，您需要访问您的 Moralis 管理区。要访问后者，您需要准备好您的 Moralis 帐户。因此，如果你还没有这样做，请使用本文开头提到的“免费 Moralis 账户”链接来创建你的账户。进入 Moralis 管理区域后，选择“Web3 APIs”页面并复制 API 密钥:
 
 ![](img/d65fa42c55442af190dbdcaa066a5b2a.png)
 
@@ -221,4 +221,4 @@ Moralis.start({
 
 如果你喜欢今天的教程，我们鼓励你更深入地钻研 Moralis 文档。现在您已经熟悉了这个概念，您会发现使用其他 Moralis 的 Web3 API 端点更加容易。除了 Moralis 文档之外，我们建议您使用 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)上的内容来扩展您的区块链发展视野。这两个出口可以作为你的免费持续加密教育。一些最新的话题集中在创建一个[《我的世界》Web3 游戏](https://moralis.io/creating-a-minecraft-web3-game-take-ideas-into-production/)，使用 Firebase 作为 [NFT 元数据存储](https://moralis.io/nft-metadata-storage-how-to-store-nft-metadata/)，构建一个[区块链不和谐机器人](https://moralis.io/blockchain-discord-bot-build-a-discord-bot-for-on-chain-events/)，[索拉纳智能合约示例](https://moralis.io/solana-smart-contract-examples-for-developers/)，[以太坊 webhooks](https://moralis.io/ethereum-webhooks-what-they-are-and-how-to-use-webhooks-for-ethereum/) 等等。
 
-最后但同样重要的是，你可能有兴趣采取更专业的方法来进行你的加密教育。在这种情况下，你应该报名参加道德学院。此外，如果您同意集中式金融基础设施需要被分散式解决方案所取代，您可能希望[在 2022 年](https://academy.moralis.io/courses/master-defi)掌握 DeFi。
+最后但同样重要的是，你可能有兴趣采取更专业的方法来进行你的加密教育。在这种情况下，你应该报名参加 Moralis 学院。此外，如果您同意集中式金融基础设施需要被分散式解决方案所取代，您可能希望[在 2022 年](https://academy.moralis.io/courses/master-defi)掌握 DeFi。

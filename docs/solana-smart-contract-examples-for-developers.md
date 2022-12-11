@@ -449,7 +449,7 @@ solana program deploy ./target/deploy/hello_world.so
 
 如果你觉得这个指南很有帮助，可以在 Moralis 的 [Web3 博客](https://moralis.io/blog/)查看更多内容。该博客为新的和更有经验的开发人员提供了新鲜和令人兴奋的 Web3 开发内容。例如，查看最近在 [Dogechain](https://moralis.io/build-with-dogecoin-on-evm-what-is-dogechain/) 上的指南或者如何[上传文件到 IPFS](https://moralis.io/how-to-upload-files-to-ipfs-full-guide/) ！
 
-此外，如果你想磨练你的索拉纳智能合同开发技能，考虑报名参加[道德学院](https://academy.moralis.io)。例如，查看“ [Rust 编程](https://academy.moralis.io/courses/rust-programming)”课程，在 Solana 智能合同开发中变得更加突出！
+此外，如果你想磨练你的索拉纳智能合同开发技能，考虑报名参加[Moralis 学院](https://academy.moralis.io)。例如，查看“ [Rust 编程](https://academy.moralis.io/courses/rust-programming)”课程，在 Solana 智能合同开发中变得更加突出！
 
 ![Moralis Academy Course: Solana Smart Contract Example Development](img/48133c269016d949e2512429551d8468.png)
 

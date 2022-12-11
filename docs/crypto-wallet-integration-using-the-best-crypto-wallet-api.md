@@ -64,7 +64,7 @@ Moralis 的 [Web3 认证 API](https://moralis.io/authentication/) 是向任何 d
 
 ![The MoralisSDK.authenticate crypto wallet integration code snippet inside a code editor.](img/e825b8710888bab2bbb5a93d0e762923.png)
 
-Moralis crypto wallet 集成 API 消除了一些与 Web3 身份验证相关的常见问题。这包括将用户重定向到第三方认证接口，理解 Web3 认证流程，了解钱包如何签名和验证消息，等等。因此，当与道德工作时，你可以通过避免这些多余的任务来节省大量的时间！
+Moralis crypto wallet 集成 API 消除了一些与 Web3 身份验证相关的常见问题。这包括将用户重定向到第三方认证接口，理解 Web3 认证流程，了解钱包如何签名和验证消息，等等。因此，当与 Moralis 工作时，你可以通过避免这些多余的任务来节省大量的时间！
 
 Moralis Web3 身份验证 API 为所有身份验证方法提供了统一的 API，以及用于轻松集成加密钱包的全面 SDK。此外，Moralis 的 Web3 Auth API 还在不断发展。因此，在一个快速发展的 Web3 行业中，Web3 Auth API 使您能够让所有身份验证流程面向未来。
 
@@ -409,7 +409,7 @@ function SignIn() {
 export default SignIn;
 ```
 
-这就是使用最佳加密钱包 API 的"*加密钱包集成"教程！如果你对代码有任何进一步的问题，或者想要更详细的添加加密钱包集成的过程，请查看下面的[道德 YouTube](https://www.youtube.com/c/MoralisWeb3) 视频！*
+这就是使用最佳加密钱包 API 的"*加密钱包集成"教程！如果你对代码有任何进一步的问题，或者想要更详细的添加加密钱包集成的过程，请查看下面的[Moralis YouTube](https://www.youtube.com/c/MoralisWeb3) 视频！*
 
 [https://www.youtube.com/embed/BmxD9KTHEGI?start=471&feature=oembed](https://www.youtube.com/embed/BmxD9KTHEGI?start=471&feature=oembed)
 
@@ -421,6 +421,6 @@ Web3 身份验证对于区块链开发至关重要，它允许用户使用来自
 
 如果您觉得本教程很有帮助，并想了解 Moralis 为您带来的更多精彩内容，请关注 Moralis 的 [Web3 博客](https://moralis.io/blog/)，它展示了独特的 Web3 开发内容。例如，查看我们关于 [Dogechain](https://moralis.io/build-with-dogecoin-on-evm-what-is-dogechain/) 的文章或者学习如何[上传文件到 IPFS](https://moralis.io/how-to-upload-files-to-ipfs-full-guide/) ！
 
-此外，如果你想成为一名更熟练的 Web3 开发者，可以考虑去看看道德学院。该学院为新的和更有经验的开发人员提供业界领先的区块链课程。例如，报名参加“[区块链&比特币 101](https://academy.moralis.io/courses/blockchain-bitcoin-101) ”课程，开始你的 Web3 开发者之旅。
+此外，如果你想成为一名更熟练的 Web3 开发者，可以考虑去看看 Moralis 学院。该学院为新的和更有经验的开发人员提供业界领先的区块链课程。例如，报名参加“[区块链&比特币 101](https://academy.moralis.io/courses/blockchain-bitcoin-101) ”课程，开始你的 Web3 开发者之旅。
 
 然而，你是否希望进入 Web3 开发，并希望利用区块链技术的力量？如果是这样，[立即与 Moralis](https://admin.moralis.io/register) 签约，使用企业级开发工具来增强您的 Web3 项目！**

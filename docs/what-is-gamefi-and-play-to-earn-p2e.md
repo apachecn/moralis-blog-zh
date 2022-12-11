@@ -4,11 +4,11 @@
 
 随着流行的“玩即赚”(P2E)游戏的出现，人们经常会问:“什么是 GameFi？”以及“什么是玩即赚游戏？”。此外，由于 NFT 在区块链游戏中代表游戏内物品，人们不禁会问，“[](https://moralis.io/what-are-nft-games-and-how-to-make-nft-games/)****什么是 NFT 游戏？”。许多人都很想成为 NFTs、NFT 游戏和新游戏模式(如通过代币整合激动人心的赚钱机会的 P2E)的蓬勃发展的生态系统的一部分。****
 
-**像 Moralis 这样的平台让开发者可以轻松创建和打造 NFT，[建立 NFT 交易界面](https://moralis.io/build-an-nft-trading-interface-full-guide/)，开发 [NFT 游戏](https://moralis.io/what-are-nft-games-and-how-to-make-nft-games/)。有了道德 NFT API，创建一个拥有你想要的所有特性的强大的 dApp 是很容易的。此外，连接到 Web3 和访问区块链数据的能力非常简单。此外，Moralis 的 NFT API 支持 [ERC-721](https://moralis.io/erc-721-token-standard-how-to-transfer-erc721-tokens/) 和 [ERC-1155](https://moralis.io/erc1155-exploring-the-erc-1155-token-standard/) 令牌标准。此外，Moralis 本身是跨链的，允许您默认构建[跨链 dapp](https://moralis.io/how-to-build-cross-chain-dapps/)，因此您永远不必担心兼容性问题。**
+**像 Moralis 这样的平台让开发者可以轻松创建和打造 NFT，[建立 NFT 交易界面](https://moralis.io/build-an-nft-trading-interface-full-guide/)，开发 [NFT 游戏](https://moralis.io/what-are-nft-games-and-how-to-make-nft-games/)。有了 Moralis NFT API，创建一个拥有你想要的所有特性的强大的 dApp 是很容易的。此外，连接到 Web3 和访问区块链数据的能力非常简单。此外，Moralis 的 NFT API 支持 [ERC-721](https://moralis.io/erc-721-token-standard-how-to-transfer-erc721-tokens/) 和 [ERC-1155](https://moralis.io/erc1155-exploring-the-erc-1155-token-standard/) 令牌标准。此外，Moralis 本身是跨链的，允许您默认构建[跨链 dapp](https://moralis.io/how-to-build-cross-chain-dapps/)，因此您永远不必担心兼容性问题。**
 
-**道德 NFT API 是如何工作的？它无缝地从区块链获取关于 NFT 所有权、细节、元数据、历史转让等信息。此外，对多区块链的支持使开发人员的工作更容易，允许您在创纪录的时间内启动 dApp！您消除了开发您的节点基础设施的麻烦，并且在学习[如何索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)时，您不需要进行不必要的深入。Moralis 处理您的后端，因此您可以专注于为您的用户构建一个优秀的前端。**
+**Moralis NFT API 是如何工作的？它无缝地从区块链获取关于 NFT 所有权、细节、元数据、历史转让等信息。此外，对多区块链的支持使开发人员的工作更容易，允许您在创纪录的时间内启动 dApp！您消除了开发您的节点基础设施的麻烦，并且在学习[如何索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)时，您不需要进行不必要的深入。Moralis 处理您的后端，因此您可以专注于为您的用户构建一个优秀的前端。**
 
-**如果你想找到“GameFi 是什么”这个问题的答案和探讨的话题玩赚(P2E)，这篇文章将是非常有益的。此外，由于 NFT 与 P2E 博彩有关，参见 Moralis 博客文章“[什么是 NFT？](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/)”。因此，你会明白什么是 NFT，以及道德家的[终极 NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 如何帮助程序员连接游戏的未来。**
+**如果你想找到“GameFi 是什么”这个问题的答案和探讨的话题玩赚(P2E)，这篇文章将是非常有益的。此外，由于 NFT 与 P2E 博彩有关，参见 Moralis 博客文章“[什么是 NFT？](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/)”。因此，你会明白什么是 NFT，以及 Moralis 家的[终极 NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 如何帮助程序员连接游戏的未来。**
 
 ## **GameFi 是什么？**
 
@@ -123,13 +123,13 @@ Moralis 提供了一个本地的跨链基础设施，使您能够创建非凡的
 
 要玩并了解更多分散式 P2E 游戏，您只需设置一个 Web3 钱包，如 MetaMask。 [MetaMask](https://moralis.io/metamask-explained-what-is-metamask/) 保存你的游戏资产。此外，它还用于用户认证，让您进入各种 GameFi 生态系统。下一件你需要做的事情是获得进入游戏所需的任何代币、硬币或资产。
 
-## 道德 NFT API
+## Moralis NFT API
 
 ![](img/f07e6afc240161381068c1b7526cbadd.png)
 
-作为一名开发人员，你的工具包中需要道德 NFT API。Moralis 的 NFT API 是你的 GameFi 和 P2E 项目中最好的入门 API。
+作为一名开发人员，你的工具包中需要 Moralis NFT API。Moralis 的 NFT API 是你的 GameFi 和 P2E 项目中最好的入门 API。
 
-它是一个易于管理、易于使用的索引 API，使您能够使用较短的代码行。你把后端剩下的重担交给道德家吧！
+它是一个易于管理、易于使用的索引 API，使您能够使用较短的代码行。你把后端剩下的重担交给 Moralis 家吧！
 
 Moralis NFT API 允许您轻松检索以下数据:
 
@@ -151,6 +151,6 @@ GameFi 和 P2E 是一个激动人心的空间，吸引了开发者和游戏玩�
 
 Moralis 帮助你创建新的 dApps，分散的游戏，以及由 DAOs 管理的 P2E 社区。有了对主要区块链的支持，包括以太坊、BSC、Polygon、Arbitrum 和 Avalanche，您应该能够在您最喜欢的区块链上无缝构建。此外，您可以在本地跨链架构中无缝集成其他组件。
 
-去探索“什么是 GameFi？”以及作为游戏和 dApp 开发者如何从中受益，你所需要做的就是[在 Moralis](https://admin.moralis.io/register?utm_source=blog&utm_medium=post&utm_campaign=MetaMask%2520Explained%2520%25E2%2580%2593%2520What%2520is%2520MetaMask%253F) 上注册。您将看到道德 NFT API 如何为您改变游戏，并帮助您在创纪录的时间内构建令人兴奋的 GameFi dApps。
+去探索“什么是 GameFi？”以及作为游戏和 dApp 开发者如何从中受益，你所需要做的就是[在 Moralis](https://admin.moralis.io/register?utm_source=blog&utm_medium=post&utm_campaign=MetaMask%2520Explained%2520%25E2%2580%2593%2520What%2520is%2520MetaMask%253F) 上注册。您将看到 Moralis NFT API 如何为您改变游戏，并帮助您在创纪录的时间内构建令人兴奋的 GameFi dApps。
 
 此外，Moralis 平台背后的智能工程有助于您专注于设计良好的前端，这是为您的游戏吸引新用户的关键！**

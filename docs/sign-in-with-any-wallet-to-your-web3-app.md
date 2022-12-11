@@ -10,7 +10,7 @@ Web3 身份验证对于构建兼容 Web3 的项目至关重要，因为它提供
 
 **此外，Moralis 的 Auth API 只是该平台众多有价值的工具之一。例如，Moralis 还提供了一个复杂的 NFT API，使得轻松无缝地开发与 NFT 相关的项目成为可能。**
 
-**所以，一定要注册 Moralis，因为这个平台提供了更无缝的开发者体验。道德可以帮助所有的 Web3 开发工作，并且创建一个帐户是完全免费的！**
+**所以，一定要注册 Moralis，因为这个平台提供了更无缝的开发者体验。Moralis 可以帮助所有的 Web3 开发工作，并且创建一个帐户是完全免费的！**
 
 ## **使用任何钱包登录**
 
@@ -381,7 +381,7 @@ export default SignIn;
 
 以上就是这个简短的教程，向您展示如何使用任何钱包登录。下一节将探索使用 Moralis 认证用户的其他方法！
 
-## 道德认证替代方案
+## Moralis 认证替代方案
 
 在上一节中，我们演示了如何使用 MetaMask、WalletConnect 和比特币基地钱包对用户进行身份验证。如果您对这些身份认证备选方案有进一步的兴趣，我们还有其他指南，您可能会感兴趣。例如，查看我们的指南，了解如何[添加比特币基地钱包登录功能](https://moralis.io/how-to-add-coinbase-wallet-login-functionality/)或集成[后端 Web3 认证功能](https://moralis.io/how-to-integrate-backend-web3-authentication-functionality/)。
 
@@ -409,4 +409,4 @@ Moralis 允许将元掩码身份验证轻松集成到所有项目中。此外，
 
 如果您发现可以通过 Moralis 访问 Web3 身份验证，那么您也应该知道这只是 Moralis 的一个亮点。例如，您可以轻松实现 [Web3 同步](https://moralis.io/syncs/)并创建 [Web3 webhooks](https://moralis.io/web3-webhooks-the-ultimate-guide-to-blockchain-webhooks/) 。
 
-此外，如果你想从总体上了解更多关于区块链发展的信息，请访问 Moralis 的 [Web3 博客](https://moralis.io/blog/)了解更多内容。我们推荐阅读我们关于[区块链 syncs](https://moralis.io/blockchain-syncs-exploring-on-chain-syncing/) 或[道德家的 NodeJS SDK for Web3](https://moralis.io/nodejs-sdk-for-web3-exploring-moralis-nodejs-sdk/) 的文章。此外，你可以[免费注册 Moralis](https://admin.moralis.io/register) 并在几分钟内开始创建复杂的 Web3 项目！因此，请确保立即创建您的帐户，并访问所有平台的工具，以使您的 Web3 开发工作更加容易！**
+此外，如果你想从总体上了解更多关于区块链发展的信息，请访问 Moralis 的 [Web3 博客](https://moralis.io/blog/)了解更多内容。我们推荐阅读我们关于[区块链 syncs](https://moralis.io/blockchain-syncs-exploring-on-chain-syncing/) 或[Moralis 家的 NodeJS SDK for Web3](https://moralis.io/nodejs-sdk-for-web3-exploring-moralis-nodejs-sdk/) 的文章。此外，你可以[免费注册 Moralis](https://admin.moralis.io/register) 并在几分钟内开始创建复杂的 Web3 项目！因此，请确保立即创建您的帐户，并访问所有平台的工具，以使您的 Web3 开发工作更加容易！**

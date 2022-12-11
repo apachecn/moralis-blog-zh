@@ -82,7 +82,7 @@ GameSparks 包括许多开发特性，允许你轻松地将游戏逻辑实现到
 
 ### Moralis 的 GameSparks 集成——如何轻松构建 Web3 游戏
 
-如果您已经了解了这么多，那么您现在应该知道 AWS GameSparks 是什么，该服务的主要特性，它的主要优势，以及它的一些最突出的用例。因此，最重要的是，本节简要概述了在 Web3 环境中使用 AWS GameSparks 的过程。如果您继续阅读，我们将为您指出开发完全模块化的“Web3 游戏设置”的正确方向。具体来说，我们将探索道德的 AWS 游戏公园集成的复杂性！
+如果您已经了解了这么多，那么您现在应该知道 AWS GameSparks 是什么，该服务的主要特性，它的主要优势，以及它的一些最突出的用例。因此，最重要的是，本节简要概述了在 Web3 环境中使用 AWS GameSparks 的过程。如果您继续阅读，我们将为您指出开发完全模块化的“Web3 游戏设置”的正确方向。具体来说，我们将探索 Moralis 的 AWS 游戏公园集成的复杂性！
 
 ![Moralis.](img/167085ec013dcb81731b5874bcf9a353.png)
 
@@ -110,8 +110,8 @@ AWS 是全球最著名、使用最广泛的云平台之一，为数百万客户�
 
 然而，如果你觉得这篇文章有帮助，请收听 Moralis [Web3 博客](https://moralis.io/blog/)来探索更多与区块链相关的内容。例如，了解更多关于 [Web3 for business](https://moralis.io/web3-for-business-how-and-why-you-can-integrate-web3-into-your-enterprise/) 或如何[立即为链上事件](https://moralis.io/blockchain-discord-bot-build-a-discord-bot-for-on-chain-events/)创建一个不和谐机器人！
 
-此外，假设您想更加精通 Web3 开发。如果是这样，马上报名[道德学院](https://academy.moralis.io)！Moralis Academy 为初学者和更有经验的开发人员提供了一系列业界最好的区块链课程。例如，查看以下涵盖 Web3 开发基础的课程:“[区块链&比特币基础](https://academy.moralis.io/courses/blockchain-bitcoin-101)”。
+此外，假设您想更加精通 Web3 开发。如果是这样，马上报名[Moralis 学院](https://academy.moralis.io)！Moralis Academy 为初学者和更有经验的开发人员提供了一系列业界最好的区块链课程。例如，查看以下涵盖 Web3 开发基础的课程:“[区块链&比特币基础](https://academy.moralis.io/courses/blockchain-bitcoin-101)”。
 
 ![Moralis Academy](img/488b8ab1f765c197ef7699bfa5296791.png)
 
-尽管如此，如果你正在寻找开发 Web3 游戏或任何其他项目，请立即与 Moralis 签约！创建一个道德帐户是免费的，只需要几秒钟，所以你不会有任何损失！
+尽管如此，如果你正在寻找开发 Web3 游戏或任何其他项目，请立即与 Moralis 签约！创建一个 Moralis 帐户是免费的，只需要几秒钟，所以你不会有任何损失！

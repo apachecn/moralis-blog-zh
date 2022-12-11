@@ -16,7 +16,7 @@
 
 此外，从技术上讲，第 1 层协议是区块链，可以在自己的链上处理和完成事务。相反，第二层(L2)扩展解决方案依赖于 L1 的安全性和一致性。除了比特币，最受欢迎的 L1 包括以太坊、BNB 链、索拉纳、卡尔达诺、波尔卡多特、雪崩、阿尔格兰德、Near、Fantom 和宇宙。另一方面，目前最流行的 L2 缩放解决方案是 Polygon，它建立在以太坊之上。然而，你可能也听说过 Arbitrum、Loopring、Immutable X 等等。
 
-*注:如果你想了解更多关于 L1、L2 和 L3 的知识，请务必查看道德学院的* [*第二层 vs 第三层*](https://academy.moralis.io/blog/layer-2-vs-layer-3-what-is-the-difference) *对比。或者，如果您是 crypto 新手，请参加“* [*区块链和比特币基础*](https://academy.moralis.io/courses/blockchain-bitcoin-101) *”课程，了解更多信息。*
+*注:如果你想了解更多关于 L1、L2 和 L3 的知识，请务必查看 Moralis 学院的* [*第二层 vs 第三层*](https://academy.moralis.io/blog/layer-2-vs-layer-3-what-is-the-difference) *对比。或者，如果您是 crypto 新手，请参加“* [*区块链和比特币基础*](https://academy.moralis.io/courses/blockchain-bitcoin-101) *”课程，了解更多信息。*
 
 ![](img/64cfc3698820760b3a78fd30bff39d82.png)
 
@@ -107,7 +107,7 @@ Moralis 的核心产品包括:
 *   [流 API](https://moralis.io/streams/)
 *   [Token API](https://moralis.io/token-api/)
 
-这些产品是轻松创建各种 dapps(分散式应用程序)的关键。事实上，你只需要[创建你的免费道德账户](https://admin.moralis.io/register)。然后，您将能够获得您的 Moralis Web3 API 密钥并开始“构建”。
+这些产品是轻松创建各种 dapps(分散式应用程序)的关键。事实上，你只需要[创建你的免费 Moralis 账户](https://admin.moralis.io/register)。然后，您将能够获得您的 Moralis Web3 API 密钥并开始“构建”。
 
 ![](img/091d0a3daf17c302ddc392bfa6264cfa.png)
 
@@ -115,8 +115,8 @@ Moralis 的核心产品包括:
 
 在这里，我们从基础开始，你有机会了解什么是第 1 层区块链。然后，我们仔细研究了回答“Aptos 是什么？”问题。这是我们解释 Aptos 是一个新的第 1 层(L1)区块链的地方。我们还通知你，当谈到 Aptos 团队时，我们只知道其联合创始人的名字，即莫谢赫和艾弗里·程。他们是 Meta 的前雇员，负责 Diem 区块链和 Novi Web3 钱包。这些项目最终被取消；然而，谢赫和清能够带着作为 Aptos 基础的技能和概念离开。除此之外，我们还关注 Aptos 链的六个独特的核心方面。最后，我们向您介绍了 Moralis 的特性，以帮助您采取 Web3 开发的最佳方法。
 
-本质上，本文为您提供了两种选择。一方面，你可以潜得更深，远远超出“Aptos 是什么？”问题，通过使用 Aptos 文档。另一方面，您可以用简单的方法开始开发 dapps。在这种情况下，你应该浏览一下[道德文件](https://docs.moralis.io/)、[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德博客](https://moralis.io/blog/)。这三个出口是你免费成为 dapp 开发者所需要的。除了许多优秀的教程，这些资源也可以作为您的免费持续加密教育。例如，一些最新的主题向您展示了如何将[动态 Web3 认证](https://moralis.io/add-dynamic-web3-authentication-to-a-website/)添加到网站，如何[使用 Firebase 作为 Web3](https://moralis.io/how-to-use-firebase-as-a-proxy-api-for-web3/) 的代理 API，如何集成[基于区块链的认证](https://moralis.io/blockchain-based-authentication-how-to-integrate/)，如何使用 [NodeJS Web3 模板](https://moralis.io/nodejs-web3-tutorial-create-dapps-using-a-nodejs-web3-example/)创建 dapps，等等。
+本质上，本文为您提供了两种选择。一方面，你可以潜得更深，远远超出“Aptos 是什么？”问题，通过使用 Aptos 文档。另一方面，您可以用简单的方法开始开发 dapps。在这种情况下，你应该浏览一下[Moralis 文件](https://docs.moralis.io/)、[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 博客](https://moralis.io/blog/)。这三个出口是你免费成为 dapp 开发者所需要的。除了许多优秀的教程，这些资源也可以作为您的免费持续加密教育。例如，一些最新的主题向您展示了如何将[动态 Web3 认证](https://moralis.io/add-dynamic-web3-authentication-to-a-website/)添加到网站，如何[使用 Firebase 作为 Web3](https://moralis.io/how-to-use-firebase-as-a-proxy-api-for-web3/) 的代理 API，如何集成[基于区块链的认证](https://moralis.io/blockchain-based-authentication-how-to-integrate/)，如何使用 [NodeJS Web3 模板](https://moralis.io/nodejs-web3-tutorial-create-dapps-using-a-nodejs-web3-example/)创建 dapps，等等。
 
-如果你想进一步扩大你的 Web3 知识，成为区块链认证是一条路要走。这就是道德学院支持你的地方。
+如果你想进一步扩大你的 Web3 知识，成为区块链认证是一条路要走。这就是 Moralis 学院支持你的地方。
 
 ![](img/36f5563e9a126cf64a9d2d984ec446a1.png)

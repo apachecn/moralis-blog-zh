@@ -32,9 +32,9 @@
 
 现在，您已经知道了什么是 DAO 智能协定，什么是 DAO，是时候仔细看看我们的 DAO 智能协定示例了。它会让你在十分钟内创造出你自己的刀。在此过程中，您还将学习如何设置和使用 Moralis。后者是使区块链开发尽可能简单的不可或缺的工具。首先，它使前端开发人员能够精通 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 并能够使用[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)来创建惊人的[dapp](https://moralis.io/decentralized-applications-explained-what-are-dapps/)(分散式应用程序)。此外，它还节省了大约 90%的后端编程时间。因此，与 Moralis 一起工作的开发人员可以快速交付工作产品，并且有多余的资源。这意味着专注于创造最佳用户体验，并为此花费更多时间。此外，正是后者决定了 dApp 的成功。
 
-在接下来的部分中，我们将首先引导您完成初始设置过程。然后，您将能够使用我们的 DAO 智能契约示例来创建您自己的 DAO。听起来令人畏惧？不用担心；我们将为您提供该流程的概述。然而，更多的细节，我们将把你交给一个道德专家的视频教程。
+在接下来的部分中，我们将首先引导您完成初始设置过程。然后，您将能够使用我们的 DAO 智能契约示例来创建您自己的 DAO。听起来令人畏惧？不用担心；我们将为您提供该流程的概述。然而，更多的细节，我们将把你交给一个 Moralis 专家的视频教程。
 
-此外，随着您继续进行下面的示例项目，您将有两种选择。你可以效仿道德专家的例子，从 [Web3 社交网络样板](https://github.com/ethereum-boilerplate/web3-social-network-boilerplate)开始。通过分叉和应用必要的调整，您可以创建一个 DAO。然而，你也可以克隆最终的代码，这也是由你在 GitHub 处理的。*该文件夹还包括我们的 DAO 智能合约示例(“。sol”文件)。*使用后者无疑是以创纪录的速度创建 DAO 函数(比如 poll)的最快方法。
+此外，随着您继续进行下面的示例项目，您将有两种选择。你可以效仿 Moralis 专家的例子，从 [Web3 社交网络样板](https://github.com/ethereum-boilerplate/web3-social-network-boilerplate)开始。通过分叉和应用必要的调整，您可以创建一个 DAO。然而，你也可以克隆最终的代码，这也是由你在 GitHub 处理的。*该文件夹还包括我们的 DAO 智能合约示例(“。sol”文件)。*使用后者无疑是以创纪录的速度创建 DAO 函数(比如 poll)的最快方法。
 
 ![](img/89978c6cc1d59bce17abcc75570091ff.png)
 
@@ -46,7 +46,7 @@
 
 无论您想使用 Moralis 创建 DAO 还是任何其他 dApp，您都需要从创建 Moralis 服务器开始。以下是如何做到这一点:
 
-1.  [**创建您的免费道德账户**](https://admin.moralis.io/register)——使用左边的链接进入注册页面。然后，输入您的电子邮件，创建您的密码，并单击将发送到您的电子邮件的确认链接。*不过，如果你已经有了一个 Moralis 账号，只需* [*登录*](https://admin.moralis.io/login) *到你的管理区即可。*
+1.  [**创建您的免费 Moralis 账户**](https://admin.moralis.io/register)——使用左边的链接进入注册页面。然后，输入您的电子邮件，创建您的密码，并单击将发送到您的电子邮件的确认链接。*不过，如果你已经有了一个 Moralis 账号，只需* [*登录*](https://admin.moralis.io/login) *到你的管理区即可。*
 
 2.  [**创建 Moralis 服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)–登录 Moralis 管理区域后，导航至“服务器”选项卡(位于导航选项卡的左侧)。然后，点击右上角的“+创建新服务器”按钮，选择最适合您需求的网络类型(见下图)。*在示例项目的情况下，你通常要关注“Testnet 服务器”选项(* [*连接以太坊 Testnet*](https://moralis.io/ethereum-testnet-guide-connect-to-ethereum-testnets/)*)。在我们的示例项目中，我们将使用 Mumbai，它是 Polygon 的 testnet。然而，一旦你测试了你的 dApp，你就需要创建一个“Mainnet 服务器”来接触你的观众。*
 
@@ -64,7 +64,7 @@
 
 ![](img/520ed2cfca844d6bb65bebfea89d464a.png)
 
-4.  **初始化道德规范** *(暂时跳过)*–填充您的编码文件(".env "文件(当使用我们的样板文件时)和 Moralis 服务器详细信息(应用程序 ID 和服务器 URL):
+4.  **初始化 Moralis 规范** *(暂时跳过)*–填充您的编码文件(".env "文件(当使用我们的样板文件时)和 Moralis 服务器详细信息(应用程序 ID 和服务器 URL):
 
 ![](img/1b45fe4ddbe671ea078e29866c80898b.png)
 
@@ -74,7 +74,7 @@
 
 1.  访问我们的 [GitHub](https://github.com/ashbeech/moralis-poll) 页面。
 
-2.  进入“道德调查”页面后，点击“代码”按钮，然后点击“复制”图标，如下图所示:
+2.  进入“Moralis 调查”页面后，点击“代码”按钮，然后点击“复制”图标，如下图所示:
 
 ![](img/9bb5639fdcc5f9d39a9cc05f30bf86e1.png)
 
@@ -102,8 +102,8 @@ https://www.youtube.com/watch?v=S-yBqLWEtGw
 
 ## DAO 智能合约示例–DAO 指南–摘要
 
-通过以上章节，您已经学习了很多关于 DAO、DAO 智能契约以及 Moralis 如何帮助您创建 DAO 的知识。此外，您现在知道了如何完成开发 dApps 的初始 Moralis 设置。尽管如此，您也有机会看到一位 Moralis 专家，他接手了一个 DAO smart contract 示例项目来创建一个简单的 poll dApp。如果你准备好进一步接受免费的 Web3 教育，一定要访问[道德博客](https://moralis.io/blog/)和[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。在那里你可以找到大量高质量的文章和视频。例如，我们的一些最新主题向您展示了如何[将 mint 函数集成到 JS 接口](https://moralis.io/integrate-mint-function-to-js-interface-nft-development/)，如何[使用](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)[图替代](https://moralis.io/the-graph-alternative-for-smart-contract-indexing/)索引区块链，如何[开发 NFT 稀有度排名 dApp](https://moralis.io/how-to-develop-an-nft-rarity-ranking-dapp/) ，如何[连接到 Arbitrum 节点](https://moralis.io/full-guide-how-to-connect-to-arbitrum-nodes/)，如何[连接到雪崩节点](https://moralis.io/how-to-connect-to-avalanche-nodes/)，如何 [flash 贷款](https://moralis.io/how-do-flash-loans-work-full-walkthrough/)工作，如何[构建以太坊 dApp](https://moralis.io/how-to-build-ethereum-dapps-in-angular/)
+通过以上章节，您已经学习了很多关于 DAO、DAO 智能契约以及 Moralis 如何帮助您创建 DAO 的知识。此外，您现在知道了如何完成开发 dApps 的初始 Moralis 设置。尽管如此，您也有机会看到一位 Moralis 专家，他接手了一个 DAO smart contract 示例项目来创建一个简单的 poll dApp。如果你准备好进一步接受免费的 Web3 教育，一定要访问[Moralis 博客](https://moralis.io/blog/)和[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。在那里你可以找到大量高质量的文章和视频。例如，我们的一些最新主题向您展示了如何[将 mint 函数集成到 JS 接口](https://moralis.io/integrate-mint-function-to-js-interface-nft-development/)，如何[使用](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)[图替代](https://moralis.io/the-graph-alternative-for-smart-contract-indexing/)索引区块链，如何[开发 NFT 稀有度排名 dApp](https://moralis.io/how-to-develop-an-nft-rarity-ranking-dapp/) ，如何[连接到 Arbitrum 节点](https://moralis.io/full-guide-how-to-connect-to-arbitrum-nodes/)，如何[连接到雪崩节点](https://moralis.io/how-to-connect-to-avalanche-nodes/)，如何 [flash 贷款](https://moralis.io/how-do-flash-loans-work-full-walkthrough/)工作，如何[构建以太坊 dApp](https://moralis.io/how-to-build-ethereum-dapps-in-angular/)
 
-此外，如果你渴望尽早成为一名区块链开发者，你可能需要采取更专业的方法。因此，考虑报名参加[道德学院](https://academy.moralis.io/)。除了访问各种特定区块链主题的最佳课程，您还可以加入最支持的社区。此外，你还会得到经验丰富的导师指导你走向成功。
+此外，如果你渴望尽早成为一名区块链开发者，你可能需要采取更专业的方法。因此，考虑报名参加[Moralis 学院](https://academy.moralis.io/)。除了访问各种特定区块链主题的最佳课程，您还可以加入最支持的社区。此外，你还会得到经验丰富的导师指导你走向成功。
 
 ![](img/3f18db40867ad35df3d4e722208d3eb4.png)

@@ -20,7 +20,7 @@ NFT 已经迅速成为密码行业最突出的特性之一，作为高度灵活�
 4.  数字艺术
 5.  数字身份
 
-如果你更想看一段关于 NFT 公用事业这些方面的视频，可以去看看道德 YouTube 频道。下面的片段让您更深入地了解了如何在 2022 年利用 NFTs:
+如果你更想看一段关于 NFT 公用事业这些方面的视频，可以去看看 Moralis YouTube 频道。下面的片段让您更深入地了解了如何在 2022 年利用 NFTs:
 
 https://www.youtube.com/watch?v=u3thNOPCS1s
 
@@ -28,9 +28,9 @@ https://www.youtube.com/watch?v=u3thNOPCS1s
 
 ## NFT 公用事业:会员排他性
 
-2022 年，NFTs 的一个重要用例将是为 DAOs 等组织提供独占访问。DAO 是分散自治组织的缩写，它是特定区块链项目或协议的管理机构。因此，如果您持有提供 DAO 访问权限的 NFT，您将额外获得参与特定平台、项目或 dapp(分散式应用程序)治理的专有权利。如果你想了解更多关于这些组织的信息，请查看以下道德指南[如何创建 DAO](https://moralis.io/how-to-create-a-dao-in-10-minutes/) 。
+2022 年，NFTs 的一个重要用例将是为 DAOs 等组织提供独占访问。DAO 是分散自治组织的缩写，它是特定区块链项目或协议的管理机构。因此，如果您持有提供 DAO 访问权限的 NFT，您将额外获得参与特定平台、项目或 dapp(分散式应用程序)治理的专有权利。如果你想了解更多关于这些组织的信息，请查看以下 Moralis 指南[如何创建 DAO](https://moralis.io/how-to-create-a-dao-in-10-minutes/) 。
 
-此外，NFTs 可以进一步被用作一个指示或标志，表明某人是社区的一部分，赢得了一场竞争，或显示对特定品牌的忠诚。这里的一个例子是最近推出的[道德项目](https://moralis.io/projects/)。在这里，你有可能通过与社区的其他成员一起建立每周项目来提升你的 [Web3 开发](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/)技能。一旦你通过这个过程磨练了你的技能，你就可以获得 NFTs 形式的奖励来展示你在 Web3 开发方面的熟练程度。
+此外，NFTs 可以进一步被用作一个指示或标志，表明某人是社区的一部分，赢得了一场竞争，或显示对特定品牌的忠诚。这里的一个例子是最近推出的[Moralis 项目](https://moralis.io/projects/)。在这里，你有可能通过与社区的其他成员一起建立每周项目来提升你的 [Web3 开发](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/)技能。一旦你通过这个过程磨练了你的技能，你就可以获得 NFTs 形式的奖励来展示你在 Web3 开发方面的熟练程度。
 
 ![](img/1f620acadb935d10abdbd8dbaa9dc07b.png)
 
@@ -88,7 +88,7 @@ NFT 不可替代的特性使其成为创造具有独特属性的独一无二的�
 
 此外，拥有一个安全的身份是至关重要的，它们变得越来越难以保护，即使是在熟悉的数字和物理环境中。现在，把元宇宙扔进等式里，保持一个人的身份安全变得更加困难。这就是非功能性身份证明发挥作用的地方，因为它是建立元宇宙身份的一种有效而安全的方式。因此，随着世界数字化程度的提高和元宇宙的发展，NFTs 可能会发挥重要作用。
 
-如果你对元宇宙有进一步的兴趣，看看[道德元宇宙 SDK](https://moralis.io/metaverse/) 让你立刻创建元宇宙 [dapps](https://moralis.io/decentralized-applications-explained-what-are-dapps/) ！例如，你可以阅读如何[用道德建造一个中世纪的元宇宙游戏](https://moralis.io/how-to-build-a-medieval-metaverse-game/)。
+如果你对元宇宙有进一步的兴趣，看看[Moralis 元宇宙 SDK](https://moralis.io/metaverse/) 让你立刻创建元宇宙 [dapps](https://moralis.io/decentralized-applications-explained-what-are-dapps/) ！例如，你可以阅读如何[用 Moralis 建造一个中世纪的元宇宙游戏](https://moralis.io/how-to-build-a-medieval-metaverse-game/)。
 
 ## NFT 电力公司——探索 2022 年使用案例:摘要
 

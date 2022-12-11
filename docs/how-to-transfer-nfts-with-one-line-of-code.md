@@ -22,15 +22,15 @@ NFTs 是“不可替换令牌”的缩写，这正是它们的本来面目，不
 
 不久前，创造独一无二的数字资产还是一个问题，现在很难确保所有数字资产的稀缺性、唯一性和所有权证明。然而，区块链和 NFTs 等技术不再是这种情况。因此，这些代币支持新的分散式资产互联网。
 
-### 什么是道德？
+### 什么是 Moralis？
 
-在我们深入研究如何用一行简单的代码来传递 NFT 之前，我们将更好地理解什么是道德，以便让您更好地了解这是如何实现的。
+在我们深入研究如何用一行简单的代码来传递 NFT 之前，我们将更好地理解什么是 Moralis，以便让您更好地了解这是如何实现的。
 
 ![](img/cec470e3a96c00f20be40c55b4cc6dbd.png)
 
 Moralis 是最终的 Web3 开发平台，支持更快、更简单的开发过程。该平台提供了开发和部署 dApps 所需的一切，目前有超过 5000 个区块链项目使用该平台的工具。因此，这些项目在没有不必要的成本或复杂性的情况下成功地扩展和构建了他们的 dApps。
 
-从传统的角度来看，Web3 最紧迫的问题之一是后端开发。然而，这也是 Moralis 进入 Web3 领域的原因。该平台为用户提供了一个无限可扩展的底层基础设施，使您作为开发人员可以避免开发过程中的繁重工作。因此，将后端开发的复杂性交给道德家是可能的。同时，你可以把时间集中在开发你的应用的前端和 [智能合约](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/) 上。
+从传统的角度来看，Web3 最紧迫的问题之一是后端开发。然而，这也是 Moralis 进入 Web3 领域的原因。该平台为用户提供了一个无限可扩展的底层基础设施，使您作为开发人员可以避免开发过程中的繁重工作。因此，将后端开发的复杂性交给 Moralis 家是可能的。同时，你可以把时间集中在开发你的应用的前端和 [智能合约](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/) 上。
 
 此外，Moralis 还提供了一系列优秀的开发工具，如[Moralis Speedy Nodes](https://moralis.io/speedy-nodes/)[web 3 API](https://docs.moralis.io/moralis-server/web3-sdk/intro)[NFT API](https://moralis.io/announcing-the-moralis-nft-api/)，原生支持[【IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/)等。这些只是平台的一些工具，它们在开发时都有很大的帮助。
 
@@ -42,7 +42,7 @@ Moralis 是最终的 Web3 开发平台，支持更快、更简单的开发过程
 
 在本文中，我们将通过创建一个允许我们发送 NFT 的基本 web 应用程序来展示 Moralis 的强大功能。我们将从头开始创建一个项目，其中我们将建立一个包含所有必要代码的 HTML 文件。然而，为了让我们的应用程序工作，用户必须有一个元掩码帐户。出于这个原因，我们将通过仔细研究 MetaMask 以及如何轻松设置帐户来开始本教程。
 
-然而，如果你更想看一段解释这一过程的视频，那么一定要从 [道德 YouTube 频道](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw) 查看这段视频。在这里，你可以跟随 Ivan 带你完成整个教程:
+然而，如果你更想看一段解释这一过程的视频，那么一定要从 [Moralis YouTube 频道](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw) 查看这段视频。在这里，你可以跟随 Ivan 带你完成整个教程:
 
 [https://www.youtube.com/embed/suZYvqrc_Hg?feature=oembed](https://www.youtube.com/embed/suZYvqrc_Hg?feature=oembed)
 
@@ -74,7 +74,7 @@ MetaMask 是市场上最大的加密钱包，每月活跃用户超过一千万�
 
 ## 如何用一行代码传输 NFTs–向“runcode()”函数添加逻辑
 
-最后，我们将向“runcode()”函数添加逻辑，允许我们传输 NFT。为此，我们可以从访问 [道德文件](https://docs.moralis.io/moralis-server/sending-assets) 开始，在那里我们会找到一些已经准备好的代码。在这个页面中，我们对发送 NFTs 或 ERC-721 令牌的代码感兴趣，它看起来像这样:
+最后，我们将向“runcode()”函数添加逻辑，允许我们传输 NFT。为此，我们可以从访问 [Moralis 文件](https://docs.moralis.io/moralis-server/sending-assets) 开始，在那里我们会找到一些已经准备好的代码。在这个页面中，我们对发送 NFTs 或 ERC-721 令牌的代码感兴趣，它看起来像这样:
 
 ![](img/b99dd0708d7a14a600f4c3d456d32469.png)
 
@@ -90,7 +90,7 @@ MetaMask 是市场上最大的加密钱包，每月活跃用户超过一千万�
 
 ## 如何用一行代码传输 NFTs 概要
 
-添加使 dApps 能够传输 NFT 的功能在传统上是一项要求相对较高的任务。其原因是该过程通常需要复杂的数据结构。开发这样的结构是一个困难且耗时的过程。然而，这可以通过利用道德来避免。
+添加使 dApps 能够传输 NFT 的功能在传统上是一项要求相对较高的任务。其原因是该过程通常需要复杂的数据结构。开发这样的结构是一个困难且耗时的过程。然而，这可以通过利用 Moralis 来避免。
 
 因此，我们可以使用该平台，只需一行简单的代码，就可以将 NFTs 从一个地址转移到另一个地址。这个过程基本上由两部分组成:获取元掩码钱包和创建一个简单的应用程序。该应用程序只包含一个 HTML 文件，其中包含导入、HTML 代码和一个简单的函数。
 
@@ -98,6 +98,6 @@ MetaMask 是市场上最大的加密钱包，每月活跃用户超过一千万�
 
 此外，添加发送 NFT 的能力并不是 Moralis 平台的限制，您可以做的事情还有很多，并且用例是无穷无尽的。Moralis 是 Web3 开发的最佳平台，除了其基础设施，该平台还具有一些工具，如 [Moralis 价格 API](https://moralis.io/introducing-the-moralis-price-api/) 、跨链兼容性、实时警报等。
 
-此外，道德博客经常更新无与伦比的 Web3 内容。刚刚最新的两篇文章解释了 [【币安】智能连锁发展](https://moralis.io/bsc-programming-guide-intro-to-binance-smart-chain-development-in-10-minutes/) 以及道德现在 [支持雪崩](https://moralis.io/moralis-announces-avalanche-support/) 使得这篇博客值得一读！
+此外，Moralis 博客经常更新无与伦比的 Web3 内容。刚刚最新的两篇文章解释了 [【币安】智能连锁发展](https://moralis.io/bsc-programming-guide-intro-to-binance-smart-chain-development-in-10-minutes/) 以及 Moralis 现在 [支持雪崩](https://moralis.io/moralis-announces-avalanche-support/) 使得这篇博客值得一读！
 
-所以， [与道德家](https://admin.moralis.io/register?utm_source=blog&utm_medium=post&utm_campaign=Want%2520the%2520Latest%2520in%2520%253Cspan%253EBlockchain%2520Development%253F%253C%252Fspan%253E) 签约是成为 dApp，token，或者 NFT 开发者的第一步。加入该平台后，您可以立即访问该平台的所有工具和已经建立的基础设施。因此，在开发未来的区块链项目时，您可以通过提高效率来节省时间和资源。
+所以， [与 Moralis 家](https://admin.moralis.io/register?utm_source=blog&utm_medium=post&utm_campaign=Want%2520the%2520Latest%2520in%2520%253Cspan%253EBlockchain%2520Development%253F%253C%252Fspan%253E) 签约是成为 dApp，token，或者 NFT 开发者的第一步。加入该平台后，您可以立即访问该平台的所有工具和已经建立的基础设施。因此，在开发未来的区块链项目时，您可以通过提高效率来节省时间和资源。

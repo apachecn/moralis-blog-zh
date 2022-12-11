@@ -4,7 +4,7 @@
 
 **不久前，每个区块链开发者都直接在** [**RPC 节点**](https://moralis.io/ethereum-rpc-nodes-what-they-are-and-why-you-shouldnt-use-them/) **之上构建。不幸的是，许多人仍然走这条路。因此，他们不得不处理 RPC 节点** **的** [**限制。然而，优秀的**](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)[**web 3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/)**开发平台及其工具可以使开发过程变得容易得多。您可能熟悉的另一种方法是 Alchemy API。虽然 Alchemy 是一个很好的** [**节点提供者**](https://moralis.io/infura-alternatives-and-blockchain-node-providers/) **并且它的 API 可能会让你上手，但是你可能会想考虑使用提供更多功能的 Alchemy API 替代品。幸运的是，有许多不同的 Alchemy API 选项可用。因此，在本文中，您将探索一些 Alchemy API 替代品和 Web3 开发平台。**
 
-Alchemy API 的一个很好的解决方案和优秀的替代品是一个完整的 [Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 。因此，我们分析了其他值得你关注的著名选择。此外，除了 Alchemy 的 API 之外，我们还将看看其他的 API，比如 Infura API、QuickNode API 和 Moralis API。虽然每种选择都有自己的优点和缺点，但有一种显然很突出。因此，我们将额外关注炼金术 API 替代品中的佼佼者——[道德家](https://moralis.io/)。因此，您将有机会了解是什么使 Moralis 成为最终的 Web3 开发平台。此外，这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”选项可以满足您所有与区块链相关的后端需求。这样，你就可以投入最大的努力、注意力和资源来创造最好的 Web3 UI。此外，使用 Moralis，您可以节省 87%的开发时间。
+Alchemy API 的一个很好的解决方案和优秀的替代品是一个完整的 [Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 。因此，我们分析了其他值得你关注的著名选择。此外，除了 Alchemy 的 API 之外，我们还将看看其他的 API，比如 Infura API、QuickNode API 和 Moralis API。虽然每种选择都有自己的优点和缺点，但有一种显然很突出。因此，我们将额外关注炼金术 API 替代品中的佼佼者——[Moralis 家](https://moralis.io/)。因此，您将有机会了解是什么使 Moralis 成为最终的 Web3 开发平台。此外，这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”选项可以满足您所有与区块链相关的后端需求。这样，你就可以投入最大的努力、注意力和资源来创造最好的 Web3 UI。此外，使用 Moralis，您可以节省 87%的开发时间。
 
 ![](img/7e4d744a72ce8f2b71d435e46ec1d3b8.png)
 
@@ -12,7 +12,7 @@ Alchemy API 的一个很好的解决方案和优秀的替代品是一个完整�
 
 清楚地了解当前的 Web3 技术体系是至关重要的。它使您能够避免在过时的开发工具和方法上浪费时间。如果你想有竞争力，使用区块链节点提供者和 API 提供者现在基本上是“必须做的”。然而，还有一个更高级的工具可用——web 3 开发平台。有了一个合适的[后端 Web3 平台](https://moralis.io/exploring-the-best-web3-backend-platform/)，你可以快速轻松地开发你的 dApps。因此，Alchemy API 和它的一些替代品不一定适合你。因此，让我们列出一些最流行的 Alchemy API 替代方案:
 
-*   道德
+*   Moralis
 *   共价的
 *   图表
 *   快速笔记
@@ -27,7 +27,7 @@ Alchemy API 的一个很好的解决方案和优秀的替代品是一个完整�
 
 看上面底部的图像，你可以看到我们有各种各样的可编程区块链(网络)。虽然以太坊可能仍然是最受欢迎的选择，但也有其他收费更低的选择。此外，您需要一种与区块链沟通和互动的方式。这就是节点发挥作用的地方。
 
-然而，对于许多开发人员来说，设置和运行自己的节点并不是明智之举。因此，节点提供商提供了一个更加实用的解决方案。然而，直接与节点通信仍然相当原始和有限。相反，Web3 开发平台为创建 dApps 提供了更全面、更先进的解决方案。这就是道德发挥作用的地方。作为市场上最受欢迎和最全面的 Web3 开发平台，Moralis 是绝对最好的 Alchemy API 替代品之一。下图显示了一些顶级 Web3 平台的总访问量，显示了 Moralis 有多受欢迎。
+然而，对于许多开发人员来说，设置和运行自己的节点并不是明智之举。因此，节点提供商提供了一个更加实用的解决方案。然而，直接与节点通信仍然相当原始和有限。相反，Web3 开发平台为创建 dApps 提供了更全面、更先进的解决方案。这就是 Moralis 发挥作用的地方。作为市场上最受欢迎和最全面的 Web3 开发平台，Moralis 是绝对最好的 Alchemy API 替代品之一。下图显示了一些顶级 Web3 平台的总访问量，显示了 Moralis 有多受欢迎。
 
 ![](img/1a578f7cd74d9d8d8419aa7ae10f6140.png)
 
@@ -56,7 +56,7 @@ Alchemy 是一家著名的区块链节点提供商和 API 提供商。Alchemy �
 对于 Alchemy API 的详细概述，您需要访问他们的文档。但是，以下是它们涵盖的类别:
 
 *   增强的 API:
-    *   NFT API(与以下道德标准的快速比较)
+    *   NFT API(与以下 Moralis 标准的快速比较)
 *   传输 API
 *   奇偶校验 API
 *   通知 API
@@ -71,13 +71,13 @@ Alchemy 是一家著名的区块链节点提供商和 API 提供商。Alchemy �
 
 ## 排名第一的炼金术 API 替代品——Moralis
 
-Moralis 是最终的 Web3 开发平台。因此，它也是头号炼金术 API 替代品。有了 Moralis，你只需要精通 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 和能够使用[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)就可以开始了。事实上，您可以在几分钟内开始构建。只需简单地[创建您的免费道德账户](https://admin.moralis.io/register)并从今天开始！
+Moralis 是最终的 Web3 开发平台。因此，它也是头号炼金术 API 替代品。有了 Moralis，你只需要精通 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 和能够使用[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)就可以开始了。事实上，您可以在几分钟内开始构建。只需简单地[创建您的免费 Moralis 账户](https://admin.moralis.io/register)并从今天开始！
 
 ![](img/c0687248ec9a5e3fa46281faf2f76581.png)
 
 值得注意的是，Moralis 的 SDK 非常广泛，并提供了完整的后端解决方案。这包括 Moralis 服务器、Moralis dashboard(数据库)、 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) 、“同步”功能、 [Web3 钱包](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/)集成、 [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/)解决方案、 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 集成、实时警报和最广泛的 Web3 API，包括终极[以太坊 API](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) 。有了这些工具，你就可以轻松完成 [Web3 登录](https://moralis.io/how-to-build-a-web3-login-in-5-steps/)。这包括 [Web3 社交登录](https://moralis.io/web3-social-login-sign-in-dapp-users-with-google-email-or-twitter/)和[通过电子邮件](https://moralis.io/how-to-do-web3-authentication-via-email/)进行 Web3 认证，这有助于推动 [Web3 用户的加入](https://moralis.io/how-to-boost-web3-user-onboarding-success-rates/)。此外，您还可以轻松地[同步和索引智能合约事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/)和[索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)。此外，您可以处理您的用户，以分散的方式存储数据，跨多个链部署 dApps，等等。说了这么多，现在让我们对 Moralis 的 API 做一个概述。
 
-### 道德 API
+### Moralis API
 
 Moralis 的 Web3 API 可以获取各种区块链数据。为了方便起见，根据获取信息的主要参数，Moralis Web3 API 分为四个主要类别:
 
@@ -128,9 +128,9 @@ Moralis 的 Web3 API 可以获取各种区块链数据。为了方便起见，�
 *   [NFT API](https://docs.moralis.io/moralis-server/web3-sdk/nft-api)
 *   [速率限制](https://docs.moralis.io/moralis-server/web3-sdk/rate-limit)
 
-Moralis 的专家不断更新 Moralis API，这意味着会定期添加新的 API 端点。此外，您应该记住，您可以将其他一些著名的 API 与 Moralis 一起使用。例如，通过安装[共价道德插件](https://moralis.io/plugins/covalent/)，你可以使用[共价 API](https://moralis.io/how-to-build-with-the-covalent-api/) 。此外，通过对 Alchemy API 和 Moralis API 的概述，你可以更仔细地了解这两个 [NFT API 的替代品](https://moralis.io/nft-api-alternatives-comparing-alchemys-nft-api-with-moralis-nft-api/)。
+Moralis 的专家不断更新 Moralis API，这意味着会定期添加新的 API 端点。此外，您应该记住，您可以将其他一些著名的 API 与 Moralis 一起使用。例如，通过安装[共价 Moralis 插件](https://moralis.io/plugins/covalent/)，你可以使用[共价 API](https://moralis.io/how-to-build-with-the-covalent-api/) 。此外，通过对 Alchemy API 和 Moralis API 的概述，你可以更仔细地了解这两个 [NFT API 的替代品](https://moralis.io/nft-api-alternatives-comparing-alchemys-nft-api-with-moralis-nft-api/)。
 
-### NFT API–炼金术与道德
+### NFT API–炼金术与 Moralis
 
 下图描绘了一幅清晰的画面:
 
@@ -166,8 +166,8 @@ https://www.youtube.com/watch?v=MS6yeEVL1XQ
 
 ![](img/766c96b2153746be5ba1de71b46e1b30.png)
 
-一旦进入你的管理区域，你将[创建一个道德服务器](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)。这样做将使您能够完全访问各种服务器功能。此外，这个 Alchemy API 替代品将会给你留下深刻印象，它的跨链互操作性和速度是由 [Moralis Nitro](https://moralis.io/moralis-releases-moralis-nitro/) 引入的。此外，如果你想继续你的免费加密教育或想要一些灵感，请确保查看[道德博客](https://moralis.io/blog/)和[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。那里有大量有价值的内容，包括无数的示例项目，您可以很容易地跟随。我们最近的一些话题集中在[克隆比特币基地钱包](https://moralis.io/cloning-coinbase-wallet-how-to-create-a-coinbase-clone/)，如何[创建一个索拉纳令牌](https://moralis.io/how-to-create-a-solana-token-in-5-steps/)，如何推出一个 [NFT 铸币页面](https://moralis.io/how-to-launch-an-nft-minting-page-full-walkthrough/)，如何[创建一个带有 Unity 的元宇宙](https://moralis.io/how-to-create-a-metaverse-dapp-with-unity/) dApp，[币安钱包](https://moralis.io/bsc-wallet-guide-how-to-set-up-a-binance-smart-chain-wallet/)设置，[治理令牌](https://moralis.io/what-are-governance-tokens-full-guide/)等等。
+一旦进入你的管理区域，你将[创建一个 Moralis 服务器](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)。这样做将使您能够完全访问各种服务器功能。此外，这个 Alchemy API 替代品将会给你留下深刻印象，它的跨链互操作性和速度是由 [Moralis Nitro](https://moralis.io/moralis-releases-moralis-nitro/) 引入的。此外，如果你想继续你的免费加密教育或想要一些灵感，请确保查看[Moralis 博客](https://moralis.io/blog/)和[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。那里有大量有价值的内容，包括无数的示例项目，您可以很容易地跟随。我们最近的一些话题集中在[克隆比特币基地钱包](https://moralis.io/cloning-coinbase-wallet-how-to-create-a-coinbase-clone/)，如何[创建一个索拉纳令牌](https://moralis.io/how-to-create-a-solana-token-in-5-steps/)，如何推出一个 [NFT 铸币页面](https://moralis.io/how-to-launch-an-nft-minting-page-full-walkthrough/)，如何[创建一个带有 Unity 的元宇宙](https://moralis.io/how-to-create-a-metaverse-dapp-with-unity/) dApp，[币安钱包](https://moralis.io/bsc-wallet-guide-how-to-set-up-a-binance-smart-chain-wallet/)设置，[治理令牌](https://moralis.io/what-are-governance-tokens-full-guide/)等等。
 
-尽管如此，如果你真的想尽早成为一名区块链开发者，你可能需要考虑一种更专业的方法。在这种情况下，你应该报读[道德学院](https://academy.moralis.io/)，这可能是你能做出的最佳选择。
+尽管如此，如果你真的想尽早成为一名区块链开发者，你可能需要考虑一种更专业的方法。在这种情况下，你应该报读[Moralis 学院](https://academy.moralis.io/)，这可能是你能做出的最佳选择。
 
 ![](img/f72b2c4689c88ad424c4ccaaf23ee6df.png)

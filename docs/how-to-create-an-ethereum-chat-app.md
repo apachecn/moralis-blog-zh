@@ -4,7 +4,7 @@
 
 在过去的十年里，世界上大多数人已经习惯了社交媒体和聊天应用。此时，大多数人无法想象没有这些有用工具的生活。然而，与此同时，那些利用用户数据的应用背后的科技巨头的意识也在快速增长。因此，许多用户关心隐私问题。因此，对于[**【web 3】**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/)**和去中心化成为主流来说，这是前所未有的好时机。幸运的是，有几个著名的、经过良好测试的可编程区块链可供开发人员构建 dApps。不过，** [**以太坊**](https://moralis.io/full-guide-what-is-ethereum/) **依然是首选。因此，我们想通过这篇文章向你展示如何创建一个以太坊聊天应用。**
 
-尽管第一个可编程区块链(以太坊)已经存在了六年多，一些开发者仍然专注于集中式解决方案。因此，对于精通 JavaScript 的个人来说，机会再好不过了。此外，与几年前不同，当时构建的唯一方法是直接在 [RPC 节点](https://moralis.io/ethereum-rpc-nodes-what-they-are-and-why-you-shouldnt-use-them/)之上，现在有先进的工具可用，使您能够克服 RPC 节点的所有[限制。此外，打破所有范式的代价是道德。这个终极的 Web3 开发平台，也被称为“](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/) [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”，它提供了在尽可能短的时间内创建各种 Web3 和移动友好的[分散式应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/) (dApps)所需的一切。通过使用 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) ，你可以很容易地用简短的代码片段覆盖区块链相关的后端编码。因此，您需要专注于提供最好的前端。
+尽管第一个可编程区块链(以太坊)已经存在了六年多，一些开发者仍然专注于集中式解决方案。因此，对于精通 JavaScript 的个人来说，机会再好不过了。此外，与几年前不同，当时构建的唯一方法是直接在 [RPC 节点](https://moralis.io/ethereum-rpc-nodes-what-they-are-and-why-you-shouldnt-use-them/)之上，现在有先进的工具可用，使您能够克服 RPC 节点的所有[限制。此外，打破所有范式的代价是 Moralis。这个终极的 Web3 开发平台，也被称为“](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/) [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”，它提供了在尽可能短的时间内创建各种 Web3 和移动友好的[分散式应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/) (dApps)所需的一切。通过使用 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) ，你可以很容易地用简短的代码片段覆盖区块链相关的后端编码。因此，您需要专注于提供最好的前端。
 
 在接下来的章节中，你将学习如何使用 Moralis 和终极[以太坊移动样板](https://moralis.io/ethereum-mobile-boilerplate-full-guide-to-ethereum-for-mobile/)来创建一个优秀的以太坊聊天应用。当然，为了充分利用这篇文章，我们邀请你跟随并创建你自己版本的以太坊聊天应用程序。
 
@@ -16,7 +16,7 @@
 
 ### 以太坊聊天应用–移动样板快速入门
 
-道德和以太坊移动样板都是关于简单和速度。因此，开始使用这些工具非常简单。要使用以太坊移动样板，请完成以下步骤:
+Moralis 和以太坊移动样板都是关于简单和速度。因此，开始使用这些工具非常简单。要使用以太坊移动样板，请完成以下步骤:
 
 ![](img/16a864da5d9ae08b8411dc8a99ade3a1.png)
 
@@ -54,9 +54,9 @@
 
 #### 创建 Moralis 服务器
 
-要获得以太坊移动样板的功能，您需要[创建一个道德服务器](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)。以下是您需要完成的步骤:
+要获得以太坊移动样板的功能，您需要[创建一个 Moralis 服务器](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)。以下是您需要完成的步骤:
 
-1.  [**创建一个免费的 Moralis 账户**](https://admin.moralis.io/register)–点击链接，通过输入您的电子邮件和创建您的密码来创建您的账户(不要忘记点击确认电子邮件中的确认链接来确认您的账户)。如果你已经准备好了你的道德账户，只需[登录](https://admin.moralis.io/login)。
+1.  [**创建一个免费的 Moralis 账户**](https://admin.moralis.io/register)–点击链接，通过输入您的电子邮件和创建您的密码来创建您的账户(不要忘记点击确认电子邮件中的确认链接来确认您的账户)。如果你已经准备好了你的 Moralis 账户，只需[登录](https://admin.moralis.io/login)。
 
 2.**创建您的 Moralis 服务器**–登录后，访问您的 Moralis 管理区域的“服务器”选项卡(如下图所示)。在那里，单击右上角的“+创建新服务器”按钮，并从下拉菜单中选择网络类型。例如项目，我们建议选择“Testnet 服务器”选项(查看我们的[以太坊 testnet](https://moralis.io/ethereum-testnet-guide-connect-to-ethereum-testnets/) 指南)。但是，当您希望您的移动 dApps 上线时，您需要选择“Mainnet 服务器”。
 
@@ -74,7 +74,7 @@
 
 ![](img/dd65c05861dbfe18cd2b5eae469ba1df.png)
 
-4.**初始化道德规范**–按照上一节(第四步)中的说明，您需要填充您的”。env "文件(以及" Providers.tsx "文件)和服务器的详细信息。通过这样做，您将获得由 Moralis 的 SDK 提供的全部后端功能。
+4.**初始化 Moralis 规范**–按照上一节(第四步)中的说明，您需要填充您的”。env "文件(以及" Providers.tsx "文件)和服务器的详细信息。通过这样做，您将获得由 Moralis 的 SDK 提供的全部后端功能。
 
 ![](img/53c22ad134069d83a0c6122a814ac7d0.png)
 

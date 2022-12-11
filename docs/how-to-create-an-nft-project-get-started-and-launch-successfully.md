@@ -6,7 +6,7 @@
 
 今天的指南将集中在索拉纳，一个受欢迎的非 EVM 连锁店。然而，类似的原则也适用于以太坊和 EVM 兼容链。此外，使创建 NFT 项目的过程尽可能简单的工具是 Moralis，它是一个跨链兼容的企业级 Web3 API 提供者。
 
-随着我们向前推进，我们将带您完成创建 NFT 项目的必要步骤，从计划概述开始。一旦我们概述了您需要考虑的步骤，我们还会通知您各种必要的工具。这就是索拉纳和 EVM 相容链之间的不同之处。但是，您可以使用 Moralis 的 Web3 API 在所有实例中获取链上数据。此外，如果你决定创造一些有用的 NFT 公用事业，道德将帮助你创造一个杀手 NFT dapp。此外，您可以使用 Moralis 的 Auth API 轻松实现 [Web3 认证](https://moralis.io/authentication/)。此外，如果你想创建一个 NFT 项目，将提供 NFT 铸造功能，你会想与智能合同互动。如果是这样，使用道德流 API 是最好的选择。也就是说，让我们开始探索如何创建一个 NFT 项目！
+随着我们向前推进，我们将带您完成创建 NFT 项目的必要步骤，从计划概述开始。一旦我们概述了您需要考虑的步骤，我们还会通知您各种必要的工具。这就是索拉纳和 EVM 相容链之间的不同之处。但是，您可以使用 Moralis 的 Web3 API 在所有实例中获取链上数据。此外，如果你决定创造一些有用的 NFT 公用事业，Moralis 将帮助你创造一个杀手 NFT dapp。此外，您可以使用 Moralis 的 Auth API 轻松实现 [Web3 认证](https://moralis.io/authentication/)。此外，如果你想创建一个 NFT 项目，将提供 NFT 铸造功能，你会想与智能合同互动。如果是这样，使用 Moralis 流 API 是最好的选择。也就是说，让我们开始探索如何创建一个 NFT 项目！
 
 ![Two animated figures collaborating on their NFT project ideas while sitting on a planet looking like a brain.](img/c6bb25e5b0840443d587663e3adefee6.png)
 
@@ -39,7 +39,7 @@ NFT 项目可以有多种形式。同样，基本的 NFT 项目工具也各不�
 
 然而，当添加与 Web3 相关的后端功能时，最终的 Web3 API 提供者 Moralis 是首选工具。你只需要你的 Moralis Web3 API 密匙，它可以通过一个免费的 Moralis 账户获得。然后，您可以通过简单地复制和粘贴代码片段到您的后端来使用所有种类的 API 端点。
 
-因此，当您对创建一个不涉及创建 NFT 的 NFT 项目感兴趣时，您可以使用遗留的开发工具和道德规范。
+因此，当您对创建一个不涉及创建 NFT 的 NFT 项目感兴趣时，您可以使用遗留的开发工具和 Moralis 规范。
 
 另一方面，如果您想要创建新的 NFT，您需要稍微扩展一下您的工具箱，尤其是如果您想要自己创建 NFT 的可视部分。那样的话，Photoshop 之类的软件就派上用场了。尽管如此，您也可以探索更集中的解决方案，比如 OpenSea。毕竟，许多 NFT 市场也能让你铸造代币。然而，如果你想认真对待一个 NFT 项目，你就要远离这些平台，或者只在 NFT 交易中使用它们。如果是这样，你必须熟悉智能合约(链上程序)和工具，如 Remix、Hardhat 和 Metaplex。
 
@@ -52,7 +52,7 @@ NFT 项目可以有多种形式。同样，基本的 NFT 项目工具也各不�
 **构建和测试 NFT Dapps:**
 
 *   传统开发工具
-*   道德
+*   Moralis
 *   Web3 钱包(例如元掩码和幻影)
 
 **创建 NFT:**
@@ -143,4 +143,4 @@ NFT 项目可以有多种形式。同样，基本的 NFT 项目工具也各不�
 
 如果你喜欢今天的指南和两个示例项目，请务必访问 [Moralis 文档](https://docs.moralis.io/)、 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)。这三个资源可以帮助你立刻免费成为 NFT 和 dapp 开发者。除了 NFT 开发之外，这些渠道还处理各种各样的 Web3 开发主题。例如，一些最新的文章解释了如何使用 [Firebase 作为 Web3](https://moralis.io/how-to-use-firebase-as-a-proxy-api-for-web3/) 的代理 API，如何集成[基于区块链的认证](https://moralis.io/blockchain-based-authentication-how-to-integrate/)，如何[使用 NodeJS Web3 示例](https://moralis.io/nodejs-web3-tutorial-create-dapps-using-a-nodejs-web3-example/)创建 dapps，如何编写 [Solana 智能合同](https://moralis.io/how-to-write-a-solana-smart-contract/)等等。
 
-最后但同样重要的是，你可能有兴趣得到一份很棒的加密工作。在这种情况下，成为区块链认证大大提高了你的机会。因此，一定要考虑报名参加[道德学院](https://academy.moralis.io/)。此外，如果你是一个加密新手，可以从“[初学者加密](https://academy.moralis.io/courses/crypto-for-beginners)课程开始。**
+最后但同样重要的是，你可能有兴趣得到一份很棒的加密工作。在这种情况下，成为区块链认证大大提高了你的机会。因此，一定要考虑报名参加[Moralis 学院](https://academy.moralis.io/)。此外，如果你是一个加密新手，可以从“[初学者加密](https://academy.moralis.io/courses/crypto-for-beginners)课程开始。**

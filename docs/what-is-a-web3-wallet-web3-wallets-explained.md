@@ -36,7 +36,7 @@
 
 在 Web3 生态系统中，我们还发现了另一个重要组件，即 dApps(去中心化应用程序)。这些都是分散的应用程序，通常位于区块链，最大的 dApps 生态系统目前位于区块链的[以太坊](https://moralis.io/full-guide-what-is-ethereum/)。有了 dApps 的去中心化特性，就有可能开发出强大的应用程序来消除中心化带来的各种问题，包括单点故障。
 
-然而，如果你有兴趣了解互联网的最新阶段，我们推荐你阅读来自[道德博客](https://moralis.io/blog/)的文章，更详细地解释 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 。
+然而，如果你有兴趣了解互联网的最新阶段，我们推荐你阅读来自[Moralis 博客](https://moralis.io/blog/)的文章，更详细地解释 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 。
 
 ## 你为什么需要一个 Web3 钱包？
 
@@ -84,13 +84,13 @@ Web3 钱包的第一个用例是完全管理您的加密资产的能力。为了
 
 比特币基地钱包是一个非托管的 Web3 钱包，独立于集中的比特币基地平台。因此，这为用户提供了一种独立于比特币基地中央控制体验 dApps 和密码世界的方式。此外，比特币基地钱包的一个独特之处在于，它可以根据用户名发送和接收加密资产。例如，当使用元掩码时，您只能根据钱包地址发送资产。这些是又长又难的单词和数字序列，这意味着它们容易出错，这可能会很成问题。
 
-此外，如果你想了解更多关于发送代币的信息，你可以看看这篇关于如何发送 ERC-20 代币的文章。这凸显了与道德家合作时，送 [ERC-20 代币](https://moralis.io/erc20-exploring-the-erc-20-token-standard/)是多么容易。
+此外，如果你想了解更多关于发送代币的信息，你可以看看这篇关于如何发送 ERC-20 代币的文章。这凸显了与 Moralis 家合作时，送 [ERC-20 代币](https://moralis.io/erc20-exploring-the-erc-20-token-standard/)是多么容易。
 
 ### 阿尔根特
 
 第三个钱包是 [Argent](https://www.argent.xyz/) ，它是市场上广泛的 Web3 钱包系列中相对较新的一个。Argent 迎合以太坊用户，因为它只与以太坊令牌兼容。此外，在使用 dApps 和 DeFi(去中心化金融)时，钱包专注于提供用户友好的客户体验。他们通过将 dApp 和协议原生集成到 Argent dApp 中来实现这一点。因此，可以通过他们的应用程序直接借入和借出资产，这表明可以避免使用应用程序内浏览器。
 
-如果您想了解更多关于 DeFi 的信息，我们建议您查看"[什么是 DeFi？](https://academy.moralis.io/blog/defi-explained-an-easy-explanation-to-defi)文章来自[道德学院](https://academy.moralis.io/)。而且，如果你想发展你的 DeFi 技能，你还可以仔细看看 [DeFi 101](https://academy.moralis.io/courses/defi-101) 和 [DeFi 201](https://academy.moralis.io/courses/defi-201) [区块链课程](https://academy.moralis.io/all-courses)。
+如果您想了解更多关于 DeFi 的信息，我们建议您查看"[什么是 DeFi？](https://academy.moralis.io/blog/defi-explained-an-easy-explanation-to-defi)文章来自[Moralis 学院](https://academy.moralis.io/)。而且，如果你想发展你的 DeFi 技能，你还可以仔细看看 [DeFi 101](https://academy.moralis.io/courses/defi-101) 和 [DeFi 201](https://academy.moralis.io/courses/defi-201) [区块链课程](https://academy.moralis.io/all-courses)。
 
 ![](img/b55f3f3153a563243b72fecec8000a23.png)
 
@@ -110,7 +110,7 @@ Web3 钱包的第一个用例是完全管理您的加密资产的能力。为了
 
 这些只是众多可供选择的方法中的五种，从简短的描述中你可能已经注意到了，它们彼此之间既相似又不同。因此，找到最适合你特定需求的钱包是你自己的事。
 
-此外，如果你没有找到你喜欢的替代品，你也可以使用 Moralis 建立自己的 Web3 钱包。如果您对此感兴趣，请查看解释如何[构建加密钱包](https://moralis.io/how-to-build-a-crypto-wallet-in-4-steps/)的指南。此外，如果你更喜欢观看解释这一过程的视频，那么看看下面来自[道德 YouTube 频道](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw)的剪辑:
+此外，如果你没有找到你喜欢的替代品，你也可以使用 Moralis 建立自己的 Web3 钱包。如果您对此感兴趣，请查看解释如何[构建加密钱包](https://moralis.io/how-to-build-a-crypto-wallet-in-4-steps/)的指南。此外，如果你更喜欢观看解释这一过程的视频，那么看看下面来自[Moralis YouTube 频道](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw)的剪辑:
 
 https://www.youtube.com/watch?v=zd0pBsmJI8s
 
@@ -122,6 +122,6 @@ https://www.youtube.com/watch?v=zd0pBsmJI8s
 
 此外，借助 Moralis 的力量，可以轻松快速地开发出具有特定功能的专属钱包。这是可能的，因为 Moralis 用户可以利用操作系统的底层后端基础设施，使得在几分钟内创建一个全功能的 Web3 钱包成为可能。
 
-然而，道德的局限并不止于此。事实上，有可能大大缩短您未来所有区块链项目的开发时间。如果你还需要说服，看看博客上的文章，展示如何简单地[创建以太坊 dApps](https://moralis.io/how-to-create-ethereum-dapps/) 、[开发自己的 NFT 市场](https://moralis.io/develop-your-own-nft-marketplace-step-by-step-guide/)或[在五个步骤中创建 BSC 令牌](https://moralis.io/how-to-create-a-bsc-token-in-5-steps/)。
+然而，Moralis 的局限并不止于此。事实上，有可能大大缩短您未来所有区块链项目的开发时间。如果你还需要说服，看看博客上的文章，展示如何简单地[创建以太坊 dApps](https://moralis.io/how-to-create-ethereum-dapps/) 、[开发自己的 NFT 市场](https://moralis.io/develop-your-own-nft-marketplace-step-by-step-guide/)或[在五个步骤中创建 BSC 令牌](https://moralis.io/how-to-create-a-bsc-token-in-5-steps/)。
 
 所以，如果你有野心提升你的 Web3 开发游戏，那么[马上和 Moralis](https://admin.moralis.io/register?utm_source=blog&utm_medium=post&utm_campaign=How%2520to%2520Create%2520a%2520BSC%2520Token%2520in%25205%2520Steps) 签约。这样做将提供对后端基础设施和 Moralis 工具的访问！

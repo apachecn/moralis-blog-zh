@@ -28,7 +28,7 @@
 
 ![](img/c14f73d06670d4a897f15d72d00adb2c.png)
 
-## 如何用道德生成成千上万的 NFT
+## 如何用 Moralis 生成成千上万的 NFT
 
 如前所述，我们有一篇单独的文章(链接如上)详细介绍了如何使用 Moralis 以分散的方式生成 NFT。除了 Moralis，我们还使用了代码编辑器(Visual Studio 代码)、Adobe Photoshop、 [MetaMask](https://moralis.io/metamask-explained-what-is-metamask/) 和 [Remix](https://moralis.io/remix-explained-what-is-remix/) 。此外，Moralis(又名 [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) )帮助我们涵盖了所有与区块链相关的后端方面。通过使用它的终极 [Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 和终极 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) ，我们可以在几分钟内实现原本需要几天甚至几周才能完成的功能。
 
@@ -80,7 +80,7 @@ https://www.youtube.com/watch?v=FcH7qXnOgzs
 
 ![](img/17bf8f539c452c159093c3fbc5a1acf9.png)
 
-代码上面的部分(上图中高亮显示的部分)是你图像的底层。此外，在 7:38 的视频中，道德专家介绍了“index.js”文件的详细信息。后者本质上是引擎本身，我们在其中编译所有的层——创建最终的 PNG 文件和元数据文件(JSON 文件)。此外，这也是确保这些文件以分散的方式上传的代码部分(9:13)。通过使用 Moralis 与 IPFS 的集成以及 Moralis 的 dashboard(数据库),一个简单的代码片段就涵盖了这项原本冗长的任务:
+代码上面的部分(上图中高亮显示的部分)是你图像的底层。此外，在 7:38 的视频中，Moralis 专家介绍了“index.js”文件的详细信息。后者本质上是引擎本身，我们在其中编译所有的层——创建最终的 PNG 文件和元数据文件(JSON 文件)。此外，这也是确保这些文件以分散的方式上传的代码部分(9:13)。通过使用 Moralis 与 IPFS 的集成以及 Moralis 的 dashboard(数据库),一个简单的代码片段就涵盖了这项原本冗长的任务:
 
 ![](img/d15f499188e5a94edcf500be58e7b2a0.png)
 

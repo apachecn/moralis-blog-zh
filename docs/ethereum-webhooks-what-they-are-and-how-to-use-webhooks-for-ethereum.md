@@ -97,9 +97,9 @@ await Moralis.Streams.addAddress({ address, id });
 
 不过，让我们先来仔细看看如何通过 Moralis 的 UI 来设置以太坊的 webhook！
 
-### 通过道德的管理面板
+### 通过 Moralis 的管理面板
 
-本节将向您展示如何使用 Moralis 的 web UI 构建一个流，通过以太坊 webhooks 接收链上数据。要跟进，你需要一个道德账户。因此，如果您还没有这样做，请立即[向道德家](https://admin.moralis.io/register)注册！
+本节将向您展示如何使用 Moralis 的 web UI 构建一个流，通过以太坊 webhooks 接收链上数据。要跟进，你需要一个 Moralis 账户。因此，如果您还没有这样做，请立即[向 Moralis 家](https://admin.moralis.io/register)注册！
 
 一旦你有了自己的账户，你就可以通过访问下面的页面来设置一个以太坊网络挂钩:“[*【https://admin.moralis.io/streams】*](https://admin.moralis.io/streams)”。要开始，请点击 Moralis 界面右侧的“+ New Stream ”:
 
@@ -141,7 +141,7 @@ Moralis.start({
 });
 ```
 
-如果您检查上面的代码，您会很快注意到您需要添加您的 Moralis API 密钥。为此，你需要一个道德账户。所以，如果你还没有，免费创建你的道德帐户！
+如果您检查上面的代码，您会很快注意到您需要添加您的 Moralis API 密钥。为此，你需要一个 Moralis 账户。所以，如果你还没有，免费创建你的 Moralis 帐户！
 
 有了帐户，您可以通过登录并导航到“Web3 APIs”选项卡来找到密钥。从那里，复制 Web3 API 密钥并替换代码中的" *YOUR_API_KEY* "以完成 Moralis 的初始化:
 
@@ -231,7 +231,7 @@ node “FILE_NAME”
 
 一旦您返回状态代码，您就可以开始工作了，并且已经成功地建立了一个接收以太坊 webhooks 的流。因此，当您监控的地址实际参与了传出/传入交易时，您将收到一个包含交易详细信息的以太坊 webhook！
 
-如果您在本教程中遇到任何问题，请务必查看 Moralis Web3 Streams API 的官方文档。此外，您可以加入道德不和谐频道，随时从我们的社区工程师那里获得出色的帮助！
+如果您在本教程中遇到任何问题，请务必查看 Moralis Web3 Streams API 的官方文档。此外，您可以加入 Moralis 不和谐频道，随时从我们的社区工程师那里获得出色的帮助！
 
 ![Join Moralis Discord and Moralis Magazine!](img/13694852e7d41593a802f3d66ea7e401.png)[**Join Moralis’ Discord Channel and Moralis Magazine**](https://moralis.io/joindiscord/)
 
@@ -256,7 +256,7 @@ node “FILE_NAME”
 
 如果你觉得这篇文章有帮助，请考虑在 Moralis 的 [Web3 博客](https://moralis.io/blog/)查看更多内容。这个博客为新的和更有经验的开发者提供了新的和相关的 Web3 开发内容。例如，仔细阅读[索拉纳智能合同示例](https://moralis.io/solana-smart-contract-examples-for-developers/)或者如何构建[区块链不和谐机器人](https://moralis.io/blockchain-discord-bot-build-a-discord-bot-for-on-chain-events/)！
 
-此外，如果你想成为一名更熟练的区块链开发者，可以考虑加入道德学院。学院提供很棒的开发课程，如果你是 Web3 新手，可以看看下面的课程:“[以太坊 101](https://academy.moralis.io/courses/ethereum-101) ”。
+此外，如果你想成为一名更熟练的区块链开发者，可以考虑加入 Moralis 学院。学院提供很棒的开发课程，如果你是 Web3 新手，可以看看下面的课程:“[以太坊 101](https://academy.moralis.io/courses/ethereum-101) ”。
 
 ![Moralis Academy](img/d242ec478765892eafe5d592c13e124a.png)
 

@@ -6,11 +6,11 @@
 
 **完整的认证 App 文档—**[**https://github . com/moralisweb 3/demo-apps/tree/main/nextjs _ moralis _ auth**](https://github.com/MoralisWeb3/demo-apps/tree/main/nextjs_moralis_auth)
 
-**缺乏统一的识别系统是传统 Web2 应用和网站生态系统的一个问题。例如，用户必须跟踪不同平台的多次登录，这会对整个领域的用户体验产生负面影响。然而，在 Web3 空间中情况并非如此，因为存在用于普遍存在的标识层的现有基础设施。此外，用户可以使用他们的 [Web3 钱包](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/)、 [Web3 身份](https://moralis.io/web3-identity-the-full-guide-to-authentication-identity-and-web3/)登录网站，甚至可以通过 Magic 等解决方案使用简单的电子邮件。此外，这是魔术的解决方案，我们将在本教程中直接关注。更具体地说，本文将说明如何使用 Magic 添加登录。链接使用[道德规范](https://moralis.io/)！**
+**缺乏统一的识别系统是传统 Web2 应用和网站生态系统的一个问题。例如，用户必须跟踪不同平台的多次登录，这会对整个领域的用户体验产生负面影响。然而，在 Web3 空间中情况并非如此，因为存在用于普遍存在的标识层的现有基础设施。此外，用户可以使用他们的 [Web3 钱包](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/)、 [Web3 身份](https://moralis.io/web3-identity-the-full-guide-to-authentication-identity-and-web3/)登录网站，甚至可以通过 Magic 等解决方案使用简单的电子邮件。此外，这是魔术的解决方案，我们将在本教程中直接关注。更具体地说，本文将说明如何使用 Magic 添加登录。链接使用[Moralis 规范](https://moralis.io/)！**
 
 **此外，我们使用 Moralis 的 [auth API](https://docs.moralis.io/reference/auth-api-overview) ，因为它使流程更容易访问。此外，API 允许我们使用单一代码片段添加身份验证机制，从而提供无缝的开发人员体验。此外，Moralis 的所有认证机制都是 T2 EIP-4361 T3 标准的实现。因此，Moralis Web3 认证与 Web2 和外链项目兼容。因此，这是 Moralis 弥合 Web2 和 Web3 之间差距的一种方式！**
 
-**所以，如果你有雄心成为一名区块链开发者，并使用魔法登录。林克，马上加入道德家！**
+**所以，如果你有雄心成为一名区块链开发者，并使用魔法登录。林克，马上加入 Moralis 家！**
 
 ## **什么是魔法。链接？**
 
@@ -58,7 +58,7 @@ Magic Auth 提供无密码和特定于应用程序的钱包认证基础架构。
 
 ## 用魔法添加登录。链接–先决条件
 
-本节将介绍一些在探索如何使用 Magic.Link 添加登录之前需要注意的准备工作。因此，如果你还没有，你需要从创建一个道德账户开始。此外，注册 Moralis 很容易，只需要几秒钟。此外，创建帐户是免费的！
+本节将介绍一些在探索如何使用 Magic.Link 添加登录之前需要注意的准备工作。因此，如果你还没有，你需要从创建一个 Moralis 账户开始。此外，注册 Moralis 很容易，只需要几秒钟。此外，创建帐户是免费的！
 
 ![](img/dd41291ba9fccb09bb4229793395f7fd.png)
 
@@ -138,7 +138,7 @@ export default MyApp;
 
 ### 步骤 3:设置请求消息端点
 
-现在您已经用“ *WagmiConfig* 和“*session provider”*包装了您的应用程序，您需要继续创建一个请求消息端点。简而言之，这个端点将负责向“*道德家发出请求。Auth”。*此外，端点将生成独特的消息，这些消息稍后将在客户端进行签名。
+现在您已经用“ *WagmiConfig* 和“*session provider”*包装了您的应用程序，您需要继续创建一个请求消息端点。简而言之，这个端点将负责向“*Moralis 家发出请求。Auth”。*此外，端点将生成独特的消息，这些消息稍后将在客户端进行签名。
 
 尽管如此，要添加这个请求消息端点，您必须创建一个 API“pages/API/auth/request-message . js”文件。文件设置完毕后，您可以继续添加以下内容:
 
@@ -380,8 +380,8 @@ npm run dev
 4.  " *NextAuth* "配置和创建登录页面
 5.  创建用户页面
 
-由于 Moralis 的 Auth API，我们可以很容易地添加这个认证机制。此外，该 API 使 Web3 身份验证变得更加容易访问，并提供了几个选项。因此，当与道德家一起工作时，你并不局限于魔法。例如，查看我们的两个教程[如何使用 RainbowKit](https://moralis.io/how-to-add-a-sign-in-with-rainbowkit-to-your-project-in-5-steps/) 添加登录或添加 WalletConnect 身份验证。
+由于 Moralis 的 Auth API，我们可以很容易地添加这个认证机制。此外，该 API 使 Web3 身份验证变得更加容易访问，并提供了几个选项。因此，当与 Moralis 家一起工作时，你并不局限于魔法。例如，查看我们的两个教程[如何使用 RainbowKit](https://moralis.io/how-to-add-a-sign-in-with-rainbowkit-to-your-project-in-5-steps/) 添加登录或添加 WalletConnect 身份验证。
 
 此外，Web3 auth 只是 Moralis 平台大放异彩的领域之一。此外，你有可能快速实现 [Web3 同步](https://moralis.io/syncs/)或者通过 Moralis 创建 [Web3 webhooks](https://moralis.io/web3-webhooks-the-ultimate-guide-to-blockchain-webhooks/) 。Moralis 还提供对其他工具的访问，比如 T4 NFT API T5。此外，通过这个，您可以轻松地创建 NFTs 和 NFT 相关的项目！
 
-所以，如果你想验证你的用户，实现 Web3 同步等等。，[马上报名道德家](https://admin.moralis.io/register)！创建帐户是免费的，你可以在几分钟内开始你的第一个项目！**
+所以，如果你想验证你的用户，实现 Web3 同步等等。，[马上报名 Moralis 家](https://admin.moralis.io/register)！创建帐户是免费的，你可以在几分钟内开始你的第一个项目！**

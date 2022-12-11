@@ -4,7 +4,7 @@
 
 凭借其广泛的生态系统、低廉的交易费用和受欢迎的 NFT 市场，BNB 连锁店被证明是那些想要创建不可替代代币(NFT)的人的首选网络。虽然 BNB 链不像 [**以太坊**](https://moralis.io/full-guide-what-is-ethereum/) **那么分散，但创作者愿意在这方面做出妥协，因为他们从创作 BNB NFT 中获得了更多的利润。因此，如果你想创造一个 BNB NFT 由于 BNB 代币的好处，你来对了地方。现在，对于那些认为你需要成为一个**[](https://moralis.io/solidity-explained-what-is-solidity/)****专家来完成这一点的人，不要担心。即使 BNB 链是**[**EVM**](https://moralis.io/evm-explained-what-is-ethereum-virtual-machine/)**——兼容并且我们可以使用以太坊的 NFT 标准(ERC-721 和 ERC-1155)，你也不需要精通扎实；然而，只有当你使用正确的工具和正确的指导。因此，如果您使用 Moralis，您可以在大约 20 分钟内轻松准备好 BNB NFTs。****
 
-**这篇文章将向你展示如何使用道德来创造一个 BNB·NFT。moralis([Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/))涵盖了所有与 Web3 相关的后端需求。此外， [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 还包括[终极 NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) ，这让 NFT 的开发变得轻而易举。然而，这个当前 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)的顶峰并不是我们将利用的唯一优秀工具。为了完成今天的示例项目，我们将创建一个 BNB·NFT，您还将使用 [Remix](https://moralis.io/remix-explained-what-is-remix/) 、 [OpenZeppelin](https://moralis.io/what-is-openzeppelin-the-ultimate-guide/) 和 [MetaMask](https://moralis.io/metamask-explained-what-is-metamask/) 。此外，您还将了解 Moralis 仪表盘和 Moralis 的云功能。有了这些知识，您就可以轻松地将 BNB NFT 整合到您的 dapp([分散式应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))中。尽管如此，如果这是你第一次接触 [best Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)，一定要[创建你的免费道德账户](https://admin.moralis.io/register)。您将需要它来承担本文所涉及的示例项目。**
+**这篇文章将向你展示如何使用 Moralis 来创造一个 BNB·NFT。moralis([Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/))涵盖了所有与 Web3 相关的后端需求。此外， [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 还包括[终极 NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) ，这让 NFT 的开发变得轻而易举。然而，这个当前 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)的顶峰并不是我们将利用的唯一优秀工具。为了完成今天的示例项目，我们将创建一个 BNB·NFT，您还将使用 [Remix](https://moralis.io/remix-explained-what-is-remix/) 、 [OpenZeppelin](https://moralis.io/what-is-openzeppelin-the-ultimate-guide/) 和 [MetaMask](https://moralis.io/metamask-explained-what-is-metamask/) 。此外，您还将了解 Moralis 仪表盘和 Moralis 的云功能。有了这些知识，您就可以轻松地将 BNB NFT 整合到您的 dapp([分散式应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))中。尽管如此，如果这是你第一次接触 [best Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)，一定要[创建你的免费 Moralis 账户](https://admin.moralis.io/register)。您将需要它来承担本文所涉及的示例项目。**
 
 **![](img/9614f3df0db5553020ba8c1f213e3a87.png)
 
@@ -12,7 +12,7 @@
 
 让我们简要概述一下创建 BNB NFT 所需的步骤。我们将从创建一个 Moralis 服务器开始。随着 Moralis 服务器的启动和运行，您将可以访问服务器的数据库和 Moralis 的云功能。然后，您需要创建您的智能合同。通过使用 OpenZeppelin，您将获得一个智能合同模板，消除了许多障碍。此外，您将有机会通过使用我们的智能合同获得额外的快捷方式。接下来，您将使用 Remix 对智能合约进行必要的调整。
 
-接下来，您将使用 Moralis dashboard 和 Moralis 的云功能存储 BNB NFT 的元数据。因此，您将获得 NFT 的 URI，您需要将它粘贴到您的智能合同中。然后，您还将 BNB 链的 testnet 添加到您的元掩码，这将使您能够连接到它的网络。在这一点上，你也将了解道德的快速节点。最后，你将有一切准备创造一个 BNB NFT。因此，您将使用 Remix 将您的智能合约部署到 BNB 连锁店的 testnet 来创建您的示例 NFT。
+接下来，您将使用 Moralis dashboard 和 Moralis 的云功能存储 BNB NFT 的元数据。因此，您将获得 NFT 的 URI，您需要将它粘贴到您的智能合同中。然后，您还将 BNB 链的 testnet 添加到您的元掩码，这将使您能够连接到它的网络。在这一点上，你也将了解 Moralis 的快速节点。最后，你将有一切准备创造一个 BNB NFT。因此，您将使用 Remix 将您的智能合约部署到 BNB 连锁店的 testnet 来创建您的示例 NFT。
 
 ![](img/4a2f8ee9c8a6f0b0a1beccf6b78a24d9.png)
 
@@ -66,7 +66,7 @@
 
 如您所知，URIs 是在 NFTs 的元数据中给出的，通常以 JSON 文件的形式出现。因此，接下来，我们将创建 JSON 文件，然后使用它们的 URIs 来创建我们的 BNB NFT。
 
-## BNB NFTs 的元数据和道德
+## BNB NFTs 的元数据和 Moralis
 
 当涉及到我们的 NFTs 的元数据时，Moralis 将使事情变得非常简单。此时，您应该已经准备好了 Moralis 服务器。因此，您可以打开您的仪表板:
 
@@ -144,6 +144,6 @@ https://www.youtube.com/watch?v=02VnfTIomn8
 
 至此，你知道如何在 20 分钟内创建一个 BNB·NFT 了。如果您接手了我们的示例项目，那么您已经学习了如何创建 Moralis 服务器以及如何使用 Remix。此外，您还有机会熟悉 Moralis 仪表盘和 Moralis 的云功能。这两个特性使您能够生成 NFT 的元数据和它们的 URIs。最后，您还有机会使用 Remix 和 MetaMask 部署您的示例智能合约。
 
-如果你喜欢这个示例项目，你应该探索一下 [Moralis 的博客](https://moralis.io/blog/)和 [YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。那里有几个教程可以帮助你[成为一名 Web3 开发者](https://moralis.io/how-to-become-a-web3-developer-full-guide/)。例如，一些最新的主题包括[分数 NFTs](https://moralis.io/what-are-fractional-nfts-the-ultimate-2022-f-nft-guide/) 、[动态 NFTs](https://moralis.io/what-are-dynamic-nfts-the-ultimate-2022-guide/) ，一个示例[即玩即赚(P2E)游戏智能合约](https://moralis.io/how-to-build-a-play-to-earn-p2e-game-smart-contract/)，以及[基于 NFT 的会员资格](https://moralis.io/what-are-nft-based-memberships-full-guide/)。此外，它还展示了如何构建一个 [Uniswap DEX 克隆](https://moralis.io/build-a-uniswap-dex-clone-with-html-css-javascript-moralis-on-the-ethereum-network/)，如何[获得区块链短信通知](https://moralis.io/how-to-get-blockchain-sms-notifications/)，如何[构建一个先玩后赚游戏](https://moralis.io/how-to-build-a-play-to-earn-p2e-game/)，如何添加一个 [Web3 connect wallet 按钮](https://moralis.io/how-to-add-a-web3-connect-wallet-button-to-your-website/)，使用一个 [Mumbai testnet 水龙头](https://moralis.io/mumbai-testnet-faucet-how-to-get-free-testnet-matic-tokens/)等等。然而，如果你想自信地快速成为一名区块链开发者，可以考虑报名参加道德学院。在那里，你将获得专业级的区块链发展课程。您还将获得个性化的学习路径和专家导师，并成为行业中最先进的社区之一的一部分。
+如果你喜欢这个示例项目，你应该探索一下 [Moralis 的博客](https://moralis.io/blog/)和 [YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。那里有几个教程可以帮助你[成为一名 Web3 开发者](https://moralis.io/how-to-become-a-web3-developer-full-guide/)。例如，一些最新的主题包括[分数 NFTs](https://moralis.io/what-are-fractional-nfts-the-ultimate-2022-f-nft-guide/) 、[动态 NFTs](https://moralis.io/what-are-dynamic-nfts-the-ultimate-2022-guide/) ，一个示例[即玩即赚(P2E)游戏智能合约](https://moralis.io/how-to-build-a-play-to-earn-p2e-game-smart-contract/)，以及[基于 NFT 的会员资格](https://moralis.io/what-are-nft-based-memberships-full-guide/)。此外，它还展示了如何构建一个 [Uniswap DEX 克隆](https://moralis.io/build-a-uniswap-dex-clone-with-html-css-javascript-moralis-on-the-ethereum-network/)，如何[获得区块链短信通知](https://moralis.io/how-to-get-blockchain-sms-notifications/)，如何[构建一个先玩后赚游戏](https://moralis.io/how-to-build-a-play-to-earn-p2e-game/)，如何添加一个 [Web3 connect wallet 按钮](https://moralis.io/how-to-add-a-web3-connect-wallet-button-to-your-website/)，使用一个 [Mumbai testnet 水龙头](https://moralis.io/mumbai-testnet-faucet-how-to-get-free-testnet-matic-tokens/)等等。然而，如果你想自信地快速成为一名区块链开发者，可以考虑报名参加 Moralis 学院。在那里，你将获得专业级的区块链发展课程。您还将获得个性化的学习路径和专家导师，并成为行业中最先进的社区之一的一部分。
 
 ![](img/2bcbe4720ebc48fabe1f1fb82d03ff13.png)**

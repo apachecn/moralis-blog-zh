@@ -82,19 +82,19 @@ NFTs 是不可替换令牌的缩写，那里的关键词是“不可替换”。
 
 这表明，作为一种使用户能够持有独特资产的机制，NFTs 可能会在元宇宙中发挥重要作用。它变得势在必行，因为一些数字资产，如以 NFTs 为代表的数字艺术，售价高达数百万美元，这意味着像令牌这样的安全机制是理想的。
 
-### 什么是道德元宇宙 SDK？
+### 什么是 Moralis 元宇宙 SDK？
 
-所以，现在我们明白了元宇宙需要什么，我们可以发现更多关于创造元宇宙体验和 Web3 游戏。开发这些经验和项目最简单的方法是利用道德。
+所以，现在我们明白了元宇宙需要什么，我们可以发现更多关于创造元宇宙体验和 Web3 游戏。开发这些经验和项目最简单的方法是利用 Moralis。
 
 Moralis 向所有用户提供已经开发的后端基础设施，使 [Web3 开发](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/)更加容易。事实上，有了 Moralis，开发区块链和元宇宙的项目变得明显更快，因为操作系统允许您将开发时间平均减少 87%。
 
 ![](img/8d75b64adcd5eeb16baa487dd4673361.png)
 
-除了后端基础设施，Moralis 还提供了几个有用的开发工具。其中之一是道德元宇宙 SDK。Moralis 元宇宙 SDK 允许开发人员在市场上的各种区块链中快速轻松地开发 Web3 游戏和元宇宙体验。
+除了后端基础设施，Moralis 还提供了几个有用的开发工具。其中之一是 Moralis 元宇宙 SDK。Moralis 元宇宙 SDK 允许开发人员在市场上的各种区块链中快速轻松地开发 Web3 游戏和元宇宙体验。
 
 此外，Moralis 元宇宙 SDK 具有与 Unity 的集成功能，这意味着您可以为 Xbox，PlayStation，任天堂，Windows，macOS，甚至 iOS 和 Android 构建项目，因为 [Moralis 的 React 本机支持](https://moralis.io/moralis-introduces-react-native-support/)。
 
-因此，如果你想开发 dApps、游戏或其他项目，仔细看看道德元宇宙 SDK 是非常值得的。你所要做的就是注册 Moralis 来获得这个开发包的全部权限！
+因此，如果你想开发 dApps、游戏或其他项目，仔细看看 Moralis 元宇宙 SDK 是非常值得的。你所要做的就是注册 Moralis 来获得这个开发包的全部权限！
 
 ## 什么是元宇宙总结
 
@@ -108,4 +108,4 @@ Moralis 向所有用户提供已经开发的后端基础设施，使 [Web3 开�
 
 如果你想了解更多关于 Moralis 的信息，请仔细看看 Moralis 的博客。这个博客提供了关于区块链发展的最好和最相关的信息。如果你有兴趣，可以看看[如何创造 10，000 个 NFT](https://moralis.io/how-to-mint-10000-nfts-full-walkthrough/)、[如何创造一个伟大的 dApp UI](https://moralis.io/web3-ui-how-to-create-a-great-dapp-ui/) 和 [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/)的指南。
 
-那么，希望[成为区块链的开发者](https://moralis.io/how-to-become-a-blockchain-developer/)？然后[今天就跟道德家](https://admin.moralis.io/register)报名吧！
+那么，希望[成为区块链的开发者](https://moralis.io/how-to-become-a-blockchain-developer/)？然后[今天就跟 Moralis 家](https://admin.moralis.io/register)报名吧！

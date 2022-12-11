@@ -4,7 +4,7 @@
 
 虽然市场波动会引起恐慌，但它为 Web3 的发展提供了极好的条件。因此，如果你是加密新手，我们强烈建议你学习全栈 Web3 开发。或者，如果你是一个经验丰富的程序员，想要磨练你的开发技能，尝试通过构建 Web3 项目来推出下一代 dapps 是一个不错的选择。无论你的立场如何，这篇文章都将大有裨益。通过跟随我们的教程，你将直接体验全栈 Web3 开发。还有，你会熟悉一些不可思议的工具，包括 [**React**](https://moralis.io/react-explained-what-is-react/) **，**[**hard hat**](https://moralis.io/hardhat-explained-what-is-hardhat/)**，以及**[**Moralis**](https://moralis.io/)**。**
 
-在我们给你机会卷起袖子之前，我们将确保我们都在同一页上。因此，我们将从回答“什么是全栈 Web3 开发？”开始我们的指南问题。我们还将看看使 Moralis [成为最好的 Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)的一些关键点。因此，您可以决定是否要将这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”平台用于您的项目。然后，我们将注意力转移到这里的示例项目。但是，我们将首先快速演示我们的示例 dapp，而不是立即构建。这样，您将能够决定是否想要亲自参与我们的全栈 Web3 开发壮举。当然，如果你已经掌握了基本知识，可以自由地[创建你的免费道德账户](https://admin.moralis.io/register)并开始建设！
+在我们给你机会卷起袖子之前，我们将确保我们都在同一页上。因此，我们将从回答“什么是全栈 Web3 开发？”开始我们的指南问题。我们还将看看使 Moralis [成为最好的 Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)的一些关键点。因此，您可以决定是否要将这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”平台用于您的项目。然后，我们将注意力转移到这里的示例项目。但是，我们将首先快速演示我们的示例 dapp，而不是立即构建。这样，您将能够决定是否想要亲自参与我们的全栈 Web3 开发壮举。当然，如果你已经掌握了基本知识，可以自由地[创建你的免费 Moralis 账户](https://admin.moralis.io/register)并开始建设！
 
 ![](img/c71278b531069733a97ebd0bf342f796.png)
 
@@ -20,13 +20,13 @@
 
 幸运的是， [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)近年来已经取得了长足的进步。如果你想知道“如何让 T2 在 2022 年进入 Web3 答案在于使用 Moralis——最终的 Web3 开发平台！有了它的平台，利用您的 JavaScript 熟练程度和 Web3 基础知识，您可以成为一名全栈 Web3 开发专家！
 
-### 遇见道德家
+### 遇见 Moralis 家
 
 Moralis 提供了构建高性能 dapps 的单一工作流程。因此，该平台使您能够在一个地方涵盖整个堆栈 Web3 开发。Moralis 的 Web3 工作流分为四个阶段，涵盖了从认证用户和监控历史和实时交易到强大的跨平台 SDK 和跨链 [Web3 API](https://docs.moralis.io/moralis-dapp/web3-api) 的所有内容。
 
 由于 [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/)是所有 dapps 的起点，Moralis 使您能够用一行代码实现它。因此，用户可以使用任何他们喜欢的 [Web3 钱包](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/)，例如 [MetaMask](https://moralis.io/metamask-explained-what-is-metamask/) ，来执行 [Web3 登录](https://moralis.io/how-to-build-a-web3-login-in-5-steps/)。此外，Moralis 支持传统登录方法，包括通过电子邮件进行的 [Web3 身份验证](https://moralis.io/how-to-do-web3-authentication-via-email/)和 [Web3 社交登录](https://moralis.io/web3-social-login-sign-in-dapp-users-with-google-email-or-twitter/)。由于大多数用户都熟悉这些认证方法，他们可以帮助您[提升 Web3 用户的参与度](https://moralis.io/how-to-boost-web3-user-onboarding-success-rates/)。另一方面，对于更懂加密的用户来说，使用元掩码进行认证的选项仍然是最受欢迎的选择。
 
-一旦用户通过身份验证，Moralis 的监控功能使您能够毫不费力地监控他们的转账、交易、铸币、刻录和所有其他与您的 dapp 相关的操作。此外， [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 有多种形式:网络 SDK、游戏 SDK 和后端 SDK。这样，你就可以在你喜欢的平台上使用道德的力量。尽管如此，由于 Moralis 的跨链互操作性，您永远不会被任何特定的链所束缚。因此，您的工作是面向未来的。另外，Moralis 提供了与它的[插件](https://moralis.io/plugins/)生态系统的无限集成。因此，如果您还没有这样做，请确保创建您的免费 Moralis 帐户并处理我们的示例项目！
+一旦用户通过身份验证，Moralis 的监控功能使您能够毫不费力地监控他们的转账、交易、铸币、刻录和所有其他与您的 dapp 相关的操作。此外， [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 有多种形式:网络 SDK、游戏 SDK 和后端 SDK。这样，你就可以在你喜欢的平台上使用 Moralis 的力量。尽管如此，由于 Moralis 的跨链互操作性，您永远不会被任何特定的链所束缚。因此，您的工作是面向未来的。另外，Moralis 提供了与它的[插件](https://moralis.io/plugins/)生态系统的无限集成。因此，如果您还没有这样做，请确保创建您的免费 Moralis 帐户并处理我们的示例项目！
 
 ![](img/9cfd36603ffec3ee5d5263ffad54c811.png)
 
@@ -196,7 +196,7 @@ https://www.youtube.com/watch?v=MI_Se26Sfmo
 
 ## 全栈 Web3 开发–构建 Web3 项目的终极指南–摘要
 
-在本文中，您了解了什么是全栈 Web3 开发。接下来，你熟悉了道德和我们的榜样情感 dapp。然后，您有机会卷起袖子完成我们的示例项目。因此，您能够实现全栈 Web3 开发的所有部分。其中包括:
+在本文中，您了解了什么是全栈 Web3 开发。接下来，你熟悉了 Moralis 和我们的榜样情感 dapp。然后，您有机会卷起袖子完成我们的示例项目。因此，您能够实现全栈 Web3 开发的所有部分。其中包括:
 
 *   部署智能合同
 *   建立一个引人注目和用户友好的前端
@@ -204,4 +204,4 @@ https://www.youtube.com/watch?v=MI_Se26Sfmo
 
 使用 Hardhat、React 和 Moralis，您可以在大约一个小时内完成所有三个主要阶段。
 
-如果你喜欢这个指南，我们鼓励你访问[道德伦理 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德伦理博客](https://moralis.io/blog/)。这两个网站都有许多区块链开发教程和其他加密文章。你可以用它们来了解 [Web3 游戏设计](https://moralis.io/web3-game-design-explaining-the-web3-game-design-process/)、[不可替换令牌](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/) (NFTs)、 [Unity Web3 编程](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/4)等等。此外，一些最新的话题集中在一个 [AR 元宇宙 NFT](https://moralis.io/how-to-create-an-ar-metaverse-nft-mystery-box/) 神秘盒子、 [Web3 增强现实](https://moralis.io/how-to-build-a-web3-augmented-reality-nft-loot-box/)、一个[以太坊 dapp API](https://moralis.io/what-is-an-ethereum-dapp-api-build-ethereum-dapps-easily/) 、一个 [Web3 博客 dapp](https://moralis.io/guide-to-creating-a-web3-blog-dapp/) ( [Web3 媒体](https://moralis.io/how-to-build-a-web3-medium-clone/))以及[以太坊合并](https://moralis.io/ethereum-merge-what-is-ethereum-2-0-and-the-merge/)。最终，拥有大量高质量的内容，这两个出口可能会支持你的免费和持续的加密教育。然而，如果你渴望[快速而自信地成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，那么[道德学院](https://academy.moralis.io/)可能就是你要去的地方！
+如果你喜欢这个指南，我们鼓励你访问[Moralis 伦理 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 伦理博客](https://moralis.io/blog/)。这两个网站都有许多区块链开发教程和其他加密文章。你可以用它们来了解 [Web3 游戏设计](https://moralis.io/web3-game-design-explaining-the-web3-game-design-process/)、[不可替换令牌](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/) (NFTs)、 [Unity Web3 编程](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/4)等等。此外，一些最新的话题集中在一个 [AR 元宇宙 NFT](https://moralis.io/how-to-create-an-ar-metaverse-nft-mystery-box/) 神秘盒子、 [Web3 增强现实](https://moralis.io/how-to-build-a-web3-augmented-reality-nft-loot-box/)、一个[以太坊 dapp API](https://moralis.io/what-is-an-ethereum-dapp-api-build-ethereum-dapps-easily/) 、一个 [Web3 博客 dapp](https://moralis.io/guide-to-creating-a-web3-blog-dapp/) ( [Web3 媒体](https://moralis.io/how-to-build-a-web3-medium-clone/))以及[以太坊合并](https://moralis.io/ethereum-merge-what-is-ethereum-2-0-and-the-merge/)。最终，拥有大量高质量的内容，这两个出口可能会支持你的免费和持续的加密教育。然而，如果你渴望[快速而自信地成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，那么[Moralis 学院](https://academy.moralis.io/)可能就是你要去的地方！

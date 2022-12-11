@@ -2,11 +2,11 @@
 
 > 原文：<https://moralis.io/how-to-build-with-the-covalent-api/>
 
-**即使以太坊仍然是部署**[**【dApps】**](https://moralis.io/decentralized-applications-explained-what-are-dapps/)**[**NFTs**](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/)**[**智能合约**](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/) **的主导链条，但显然跨链互通是不可避免的，这一点共价已经认可。因此，共价的 API 使区块链开发者能够使用这个大规模聚合器共价收集的来自多个区块链网络的索引数据。此外，Moralis 现在为其用户提供共价 Moralis 插件，使程序员能够在构建 Web3 应用程序时使用共价 API。因此，许多想要学习如何使用共价 API 进行构建的开发人员应该密切关注，因为我们将深入探讨共价、道德、插件以及这些元素如何结合才能让您的工作经得起未来考验的主题。******
+**即使以太坊仍然是部署**[**【dApps】**](https://moralis.io/decentralized-applications-explained-what-are-dapps/)**[**NFTs**](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/)**[**智能合约**](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/) **的主导链条，但显然跨链互通是不可避免的，这一点共价已经认可。因此，共价的 API 使区块链开发者能够使用这个大规模聚合器共价收集的来自多个区块链网络的索引数据。此外，Moralis 现在为其用户提供共价 Moralis 插件，使程序员能够在构建 Web3 应用程序时使用共价 API。因此，许多想要学习如何使用共价 API 进行构建的开发人员应该密切关注，因为我们将深入探讨共价、Moralis、插件以及这些元素如何结合才能让您的工作经得起未来考验的主题。******
 
 ****此外， [Moralis](https://moralis.io/) ，被称为“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”，是另一个在其 DNA 中具有跨链互操作性的优秀工具。这个终极的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台支持大多数主要的知名连锁店。此外， [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 提供了你所需要的一切，用简短的代码片段完全覆盖区块链相关的后端需求。因此，每一个精通 JavaScript 的程序员都可以在几分钟内创建令人难以置信的多链 Web3 应用程序。****
 
-****此外，由于共价 Moralis 插件，开发人员现在可以充分利用这两个跨链的可操作工具。此外，本文将向您展示如何快速、轻松地构建共价 API。接下来，你将学习如何安装[共价道德插件](https://moralis.io/plugins/covalent/)来开始。然后，我们还将了解一些特定的端点。然而，由于你们中的一些人可能第一次听说过共价，我们将从回答“什么是共价”这个问题开始在展示如何用共价 API 构建之前。****
+****此外，由于共价 Moralis 插件，开发人员现在可以充分利用这两个跨链的可操作工具。此外，本文将向您展示如何快速、轻松地构建共价 API。接下来，你将学习如何安装[共价 Moralis 插件](https://moralis.io/plugins/covalent/)来开始。然后，我们还将了解一些特定的端点。然而，由于你们中的一些人可能第一次听说过共价，我们将从回答“什么是共价”这个问题开始在展示如何用共价 API 构建之前。****
 
 ### ****什么是共价？****
 
@@ -26,11 +26,11 @@
 
 ![](img/1d47522a2232253e21203a1b1e67ea04.png)
 
-### 创建一个道德服务器
+### 创建一个 Moralis 服务器
 
-为了使用道德来构建共价 API，你需要安装共价道德插件；然而，要做到这一点，您必须首先创建您的 Moralis 服务器。下面是如何做的:
+为了使用 Moralis 来构建共价 API，你需要安装共价 Moralis 插件；然而，要做到这一点，您必须首先创建您的 Moralis 服务器。下面是如何做的:
 
-1.  [**创建您的道德家账户**](https://admin.moralis.io/register)——如果您还没有创建您的免费道德家账户，请务必现在就创建。只需点击上面的链接。然后，输入您的电子邮件地址，并创建您的密码(记得通过单击将发送到您的电子邮件地址的确认链接来确认您的电子邮件地址)。*如果您已经有了一个活跃的 Moralis 账户，* [*登录*](https://admin.moralis.io/login) *。*T12
+1.  [**创建您的 Moralis 家账户**](https://admin.moralis.io/register)——如果您还没有创建您的免费 Moralis 家账户，请务必现在就创建。只需点击上面的链接。然后，输入您的电子邮件地址，并创建您的密码(记得通过单击将发送到您的电子邮件地址的确认链接来确认您的电子邮件地址)。*如果您已经有了一个活跃的 Moralis 账户，* [*登录*](https://admin.moralis.io/login) *。*T12
     T14*T16】*
 2.  [**创建一个 Moralis 服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)——一旦登录，你将进入你的 Moralis 管理区。单击“服务器”选项卡，然后单击右上角的“+创建新服务器”按钮(见下图)。接下来，您将选择网络类型(mainnet 或 testnet)。当处理示例项目时，我们建议选择“testnet 服务器”选项(参见我们的[以太坊 Testnet 指南](https://moralis.io/ethereum-testnet-guide-connect-to-ethereum-testnets/))。然而，一旦你准备好让全功能的 dApps 上线，你会想要选择“Mainnet 服务器”选项。
 
@@ -54,7 +54,7 @@
 
 ![](img/6e9d97742f86ac5ff6c51b9b2b38a728.png)
 
-2.  **初始化道德规范**–现在，填充您的”。js“，”。html”(如果您是从零开始)，或者。env”文件(如果您使用的是最终的 [Web3 样板文件](https://moralis.io/web3-boilerplate-beginners-guide-to-web3/))和 Moralis 服务器详细信息(应用程序 ID 和服务器 URL)来获得所需的由 Moralis 覆盖的后端功能。此外，在代码编辑器中这样做(我们通常使用 Visual Studio 代码):
+2.  **初始化 Moralis 规范**–现在，填充您的”。js“，”。html”(如果您是从零开始)，或者。env”文件(如果您使用的是最终的 [Web3 样板文件](https://moralis.io/web3-boilerplate-beginners-guide-to-web3/))和 Moralis 服务器详细信息(应用程序 ID 和服务器 URL)来获得所需的由 Moralis 覆盖的后端功能。此外，在代码编辑器中这样做(我们通常使用 Visual Studio 代码):
 
 ![](img/5423539d188ce0f46e48b75088597707.png)![](img/d5c78f13c2a702dab0c74f08feb93cba.png)
 
@@ -68,7 +68,7 @@
 
 *![](img/c9d822a2db491c99c2db804190a3c89d.png)
 
-2.  要安装共价道德插件，请点击“阅读更多”按钮选择该插件:
+2.  要安装共价 Moralis 插件，请点击“阅读更多”按钮选择该插件:
 
 ![](img/c180ce858209178a1a79a8aa45f80ea3.png)
 
@@ -76,7 +76,7 @@
 
 ![](img/d76f7a59f082f23ec5014e4b35993723.png)
 
-4.  点击“安装插件”按钮后，您将被重定向到您的道德管理区，以完成插件的安装过程。这是您将看到的窗口:
+4.  点击“安装插件”按钮后，您将被重定向到您的 Moralis 管理区，以完成插件的安装过程。这是您将看到的窗口:
 
 ![](img/86453fb0c5e45f5383f561b3e7b609aa.png)
 
@@ -100,7 +100,7 @@
 
 ## 用共价 API 构建——探索端点
 
-此时，您应该已经正确地设置好了一切，这意味着您已经准备好使用共价 API 进行构建了。我们在 [GitHub](https://github.com/MoralisWeb3/plugindocs/tree/main/covalent%20plugin) 以及共价道德插件的页面上提供了使用该功能的详细说明，包括端点。因此，一定要探究其中的细节。然而，为了让事情变得更简单，这里有一些端点:
+此时，您应该已经正确地设置好了一切，这意味着您已经准备好使用共价 API 进行构建了。我们在 [GitHub](https://github.com/MoralisWeb3/plugindocs/tree/main/covalent%20plugin) 以及共价 Moralis 插件的页面上提供了使用该功能的详细说明，包括端点。因此，一定要探究其中的细节。然而，为了让事情变得更简单，这里有一些端点:
 
 *   **获取块**–使用链 ID 和块高度返回块。
 
@@ -340,6 +340,6 @@ https://www.youtube.com/watch?v=EdNH2A8TsUA
 
 在这一点上，你应该知道，共价是一个大规模的数据聚合器，通过使用共价 API，你可以访问各种链上的数据。此外，您还应该知道如何使用共价 API 进行构建。此外，您已经了解到，通过将 Moralis 的 SDK 与共价 Moralis 插件结合使用，您可以构建各种 dApps，还可以访问共价提供的所有数据。现在，这非常强大，因为它使您能够通过简单地复制和粘贴代码片段来开发跨链 dApps。
 
-如果你需要一些额外的免费加密教育，一定要访问[道德的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德的博客](https://moralis.io/blog/)。在这两个网站上，您还可以找到无数的示例项目，这是获得一些想法和掌握 Moralis 提供的简单性的好方法。一些最新的主题向您展示了如何[构建跨链 dApp](https://moralis.io/how-to-build-cross-chain-dapps/)，如何[托管 dApp](https://moralis.io/how-to-host-a-dapp-dapp-hosting-explained/) ，如何[构建去中心化消息应用](https://moralis.io/build-a-decentralized-messaging-app-in-5-steps/)，如何[创建 OpenSea 克隆](https://moralis.io/create-an-opensea-clone-build-an-nft-marketplace-like-opensea/)，如何[在没有汽油费的情况下制作 NFTs](https://moralis.io/how-to-mint-nfts-without-gas-fees/)，以及更多。此外，如果你真的想成为全职加密员，我们鼓励你探索[道德学院](https://academy.moralis.io/)的课程！
+如果你需要一些额外的免费加密教育，一定要访问[Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 的博客](https://moralis.io/blog/)。在这两个网站上，您还可以找到无数的示例项目，这是获得一些想法和掌握 Moralis 提供的简单性的好方法。一些最新的主题向您展示了如何[构建跨链 dApp](https://moralis.io/how-to-build-cross-chain-dapps/)，如何[托管 dApp](https://moralis.io/how-to-host-a-dapp-dapp-hosting-explained/) ，如何[构建去中心化消息应用](https://moralis.io/build-a-decentralized-messaging-app-in-5-steps/)，如何[创建 OpenSea 克隆](https://moralis.io/create-an-opensea-clone-build-an-nft-marketplace-like-opensea/)，如何[在没有汽油费的情况下制作 NFTs](https://moralis.io/how-to-mint-nfts-without-gas-fees/)，以及更多。此外，如果你真的想成为全职加密员，我们鼓励你探索[Moralis 学院](https://academy.moralis.io/)的课程！
 
 ![](img/ef847657a1cab8ae93a4dedf4bf1b249.png)*****

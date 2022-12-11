@@ -20,7 +20,7 @@ const response = await Moralis.EvmApi.token.getTokenPrice(options);
 
 接下来，您将首先学习什么是 ERC20 令牌 API，以及它如何有用。有了这些基础知识，我们将进一步了解 Moralis 企业级令牌 API。基本上，我们将对这个简洁的解决方案做一个概述。这也是我们将查看当前包含的 ERC20 令牌 API 端点的地方。此外，您将学习如何轻松地测试它们，并获得适用于任何编程语言的正确代码行。
 
-最后但同样重要的是，我们将重点向您展示如何利用“ *getTokenPrice* ”端点。毕竟，在许多类型的 dapps 中，获取 ERC20 令牌价格可能具有很大的价值。通过完成本教程，你也将学会如何开始与道德。然后，您将能够使用任何其他 ERC20 令牌 API 端点和整套 Moralis 的 web 3 API—[Auth API](https://moralis.io/authentication/)、 [NFT API](https://moralis.io/nft-api/) 和 [Streams API](http://v) 。
+最后但同样重要的是，我们将重点向您展示如何利用“ *getTokenPrice* ”端点。毕竟，在许多类型的 dapps 中，获取 ERC20 令牌价格可能具有很大的价值。通过完成本教程，你也将学会如何开始与 Moralis。然后，您将能够使用任何其他 ERC20 令牌 API 端点和整套 Moralis 的 web 3 API—[Auth API](https://moralis.io/authentication/)、 [NFT API](https://moralis.io/nft-api/) 和 [Streams API](http://v) 。
 
 ![Web3 API Code floating around a globe.](img/2837b2cf695769ca83a2902b5cee0888.png)
 
@@ -87,7 +87,7 @@ Moralis 的 ERC20 令牌 API 允许您将实时令牌数据集成到应用程序
 
 借助这些终端，您可以轻松支持实时价格源、投资组合应用、交易监控、所有权验证等。
 
-接下来，我们将进一步了解" *getTokenPrice* "端点，我们将在接下来的教程中使用它。然而，我们鼓励您使用[令牌 API 文档](https://docs.moralis.io/docs/token-api)来检查您可以与*道德一起使用的其他端点的细节。EvmApi.token* "方法。
+接下来，我们将进一步了解" *getTokenPrice* "端点，我们将在接下来的教程中使用它。然而，我们鼓励您使用[令牌 API 文档](https://docs.moralis.io/docs/token-api)来检查您可以与*Moralis 一起使用的其他端点的细节。EvmApi.token* "方法。
 
 #### “getTokenPrice”端点
 
@@ -118,7 +118,7 @@ Moralis 的 ERC20 令牌 API 允许您将实时令牌数据集成到应用程序
 
 ### 步骤 1:获取您的 ERC20 令牌 API 密钥并安装 Moralis SDK
 
-如果你还没有创建你的免费道德账户，现在就创建吧。你可以使用文章顶部的链接或 Moralis 主页上的“免费开始”按钮。您的帐户启动并运行后，您将可以访问您的管理区域，在这里您需要复制您的 ERC20 令牌 API 密钥，也称为 Web3 API 密钥:
+如果你还没有创建你的免费 Moralis 账户，现在就创建吧。你可以使用文章顶部的链接或 Moralis 主页上的“免费开始”按钮。您的帐户启动并运行后，您将可以访问您的管理区域，在这里您需要复制您的 ERC20 令牌 API 密钥，也称为 Web3 API 密钥:
 
 ![Step 1, click on Web3 APIs. Step 2, click on Copy your ERC20 Token API key.](img/f046def53200dd9be2d6563b00bf3147.png)
 
@@ -213,8 +213,8 @@ npx ts-node index.ts
 
 在今天的文章中，您有机会了解了 Web3 APIs 和 ERC20 令牌。当试图理解什么是 ERC20 令牌 API 时，这些知识就派上了用场。我们还告诉了您针对 ERC20 令牌的 API 是如何有用的。当我们向您介绍 Moralis 的令牌 API(也称为终极 ERC20 令牌 API)时，后者已经得到了澄清。在这里，您可以了解这个特定的 Web3 API 集中的所有当前端点以及它们能做什么。最后但同样重要的是，您有机会跟随我们的教程，并看到其中一个端点——“*getTokenPrice*”在运行。
 
-如果您真的想将 ERC20 令牌集成到 dapps 中，请确保使用其他令牌 API 端点进行测试。此外，您可能想对不可替换令牌(NFT)做同样的事情，这仍然是最流行的区块链用例之一。尽管如此，如果你在构建你的第一个 dapp 时需要一些帮助，一定要使用 Moralis 文档。另一方面，您可能有兴趣探索其他区块链发展主题。如果是这样的话，[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和我们的[加密博客](https://moralis.io/blog/)是很好的渠道。一些最新的文章关注于 [AWS Lambda NodeJS](https://moralis.io/aws-lambda-nodejs-tutorial-how-to-integrate-a-nodejs-sdk-example/) 、[乐观主义](https://moralis.io/exploring-the-optimism-network-a-next-gen-l2-blockchain-for-ethereum/)网络、 [Polygon webhooks](https://moralis.io/polygon-webhooks-how-to-use-webhooks-on-polygon/) 等等。
+如果您真的想将 ERC20 令牌集成到 dapps 中，请确保使用其他令牌 API 端点进行测试。此外，您可能想对不可替换令牌(NFT)做同样的事情，这仍然是最流行的区块链用例之一。尽管如此，如果你在构建你的第一个 dapp 时需要一些帮助，一定要使用 Moralis 文档。另一方面，您可能有兴趣探索其他区块链发展主题。如果是这样的话，[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和我们的[加密博客](https://moralis.io/blog/)是很好的渠道。一些最新的文章关注于 [AWS Lambda NodeJS](https://moralis.io/aws-lambda-nodejs-tutorial-how-to-integrate-a-nodejs-sdk-example/) 、[乐观主义](https://moralis.io/exploring-the-optimism-network-a-next-gen-l2-blockchain-for-ethereum/)网络、 [Polygon webhooks](https://moralis.io/polygon-webhooks-how-to-use-webhooks-on-polygon/) 等等。
 
-最后但同样重要的是，区块链行业有无数的工作机会，你可以通过获得区块链认证来增加获得梦想中的加密工作的机会。因此，一定要考虑报名参加道德学院。一旦进去，你就可以选择许多不同的课程。然而，考虑到集中式密码交易所最近的低迷，这可能是[掌握 DeFi](https://academy.moralis.io/courses/master-defi) 的正确时机。
+最后但同样重要的是，区块链行业有无数的工作机会，你可以通过获得区块链认证来增加获得梦想中的加密工作的机会。因此，一定要考虑报名参加 Moralis 学院。一旦进去，你就可以选择许多不同的课程。然而，考虑到集中式密码交易所最近的低迷，这可能是[掌握 DeFi](https://academy.moralis.io/courses/master-defi) 的正确时机。
 
 ![](img/79c0fcb4ced56062243aebf650c515f1.png)*

@@ -6,7 +6,7 @@
 
 接下来，你将学习如何使用[Moralis](https://moralis.io/)ultimate[web 3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/)开发平台在以太坊和 Avalanche 的 testnet 上进行无气体交易。此外，我们将使用“双经济”，这将是在我们的示例 dApp ( [分散式应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))中启用“发送无气以太网交易”功能的关键。如果你想从这篇文章中得到最大的收获，我们邀请你跟随我们的脚步，参与下面的示例项目。除了最终拥有自己的 dApp，在以太坊、 [Avalanche](https://moralis.io/how-to-build-avalanche-dapps-in-minutes/) 、[币安智能链](https://moralis.io/bsc-programming-guide-intro-to-binance-smart-chain-development-in-10-minutes/) (BSC)或 [Polygon](https://moralis.io/how-to-build-polygon-dapps-easily/) 上提供无汽油交易，您还将了解到其他细节，使您能够使用 Moralis 完成其他 Web3 开发任务。
 
-因此，把这当成一张免费的入场券，让你更接近全职加密。你也可以通过报名参加[道德学院](https://academy.moralis.io/)的一些高质量课程来采取更专业的方法。
+因此，把这当成一张免费的入场券，让你更接近全职加密。你也可以通过报名参加[Moralis 学院](https://academy.moralis.io/)的一些高质量课程来采取更专业的方法。
 
 ![](img/b578913332449665c6488630b3604205.png)
 
@@ -24,7 +24,7 @@
 
 ## 在以太坊上提供无汽油交易–示例项目
 
-如上所述，现在是我们接手一个示例项目的时候了，在这个项目中，您将学习如何在以太坊和其他 EVM 兼容的连锁店上进行无气交易。此外，我们的项目将存在于雪崩富士测试网。首先，我们将预览我们将要构建的 dApp，它将使用户能够发送无气 ETH 事务。一旦你对我们任务的最终目标有了清晰的理解，我们将帮助你适当地设置事情。这包括创建您的道德服务器和双经济账户。然后，我们将把您交给 Moralis 的一位专家，他将带您浏览代码，并为您提供自己完成这个示例项目所需的指导。
+如上所述，现在是我们接手一个示例项目的时候了，在这个项目中，您将学习如何在以太坊和其他 EVM 兼容的连锁店上进行无气交易。此外，我们的项目将存在于雪崩富士测试网。首先，我们将预览我们将要构建的 dApp，它将使用户能够发送无气 ETH 事务。一旦你对我们任务的最终目标有了清晰的理解，我们将帮助你适当地设置事情。这包括创建您的 Moralis 服务器和双经济账户。然后，我们将把您交给 Moralis 的一位专家，他将带您浏览代码，并为您提供自己完成这个示例项目所需的指导。
 
 ### 发送无气以太网交易–dApp 预览示例
 
@@ -64,7 +64,7 @@
 
 创建 Moralis 服务器需要遵循以下步骤:
 
-1.  [**创建您的道德家账户**](https://admin.moralis.io/register)——如果您还没有道德家账户，现在就创建一个。只需点击链接，输入您的电子邮件地址，并创建您的密码。不要忘记点击确认链接来确认您的电子邮件地址(您将收到一封电子邮件)。然而，如果你已经有一个有效的道德账户，只需[登录](https://admin.moralis.io/login)。
+1.  [**创建您的 Moralis 家账户**](https://admin.moralis.io/register)——如果您还没有 Moralis 家账户，现在就创建一个。只需点击链接，输入您的电子邮件地址，并创建您的密码。不要忘记点击确认链接来确认您的电子邮件地址(您将收到一封电子邮件)。然而，如果你已经有一个有效的 Moralis 账户，只需[登录](https://admin.moralis.io/login)。
 
 2.  [**创建一个 Moralis 服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)——只要你登录到你的 Moralis 账户，你就可以进入你的管理区。确保选择“服务器”选项卡。然后，点击右上角的“+创建新服务器”按钮(如下所示)。接下来，您需要从下拉菜单中选择最适合您需求的网络类型。*我们建议在处理示例项目时从“Testnet 服务器”选项开始。*
 
@@ -78,13 +78,13 @@
 
 ![](img/d075f775c064b81bc4774bd917be024f.png)
 
-4.  **初始化道德规范**–要初始化道德规范，您需要填充您的”。js“，”。html "，或"。env "(在使用[以太坊样板文件](https://moralis.io/ethereum-dapp-boilerplate-full-ethereum-react-boilerplate-tutorial/)的情况下)文件和 Moralis 服务器详细信息:
+4.  **初始化 Moralis 规范**–要初始化 Moralis 规范，您需要填充您的”。js“，”。html "，或"。env "(在使用[以太坊样板文件](https://moralis.io/ethereum-dapp-boilerplate-full-ethereum-react-boilerplate-tutorial/)的情况下)文件和 Moralis 服务器详细信息:
 
 ![](img/729c3c3b6a84eacb0dae21939e05398f.png)
 
 *注意* *:不要使用上图中的细节。相反，请确保使用您的特定服务器的详细信息。*
 
-### 访问道德的快速节点
+### 访问 Moralis 的快速节点
 
 正如您将在下面的视频中看到的，您可以使用 Moralis Speedy Nodes 来部署智能合同。要使用这个功能，你需要在你的 Moralis 管理区选择“快速节点”标签。在那里，您可以点击所有支持链的“端点”。在我们的案例中，我们决定使用 Avalanche。因此，单击雪崩网络选项上的“端点”按钮:
 
@@ -128,6 +128,6 @@ https://www.youtube.com/watch?v=r04x1YqnYLk
 
 如果您已经完成了设置，并按照上面视频提供的说明进行了操作，那么您现在就有了自己的 dApp，可以在以太坊、Avalanche、BSC 和 Polygon 上提供无气体交易。通过结合使用强大的工具，即 Moralis、Biconomy、Truffle 和 MetaMask，您可以为用户提供发送无气 ETH 事务的选项。此外，虽然您(作为一名开发人员或 dApp 的所有者)仍然需要支付交易费用，但是用户体验变得更加愉快。因此，在其他类型的 dApps 中实现这种功能肯定会在用户中给你加分。
 
-此外，我们需要指出的是，这个项目不像我们的其他一些教程那样基础。因此，如果你发现它对你目前的水平来说太高级了，一定要学习如何建立你的第一个 dApp。然而，如果你已经准备好迎接更有趣的挑战，拓展你的区块链开发技能，一定要看看[道德博客](https://moralis.io/blog/)和[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。我们的一些最新文章将向您展示如何[构建一个跨链桥](https://moralis.io/how-to-build-a-cross-chain-bridge/)，如何[构建一个预测市场 dApp](https://moralis.io/how-to-build-a-prediction-market-dapp/) ，如何[创建一个 DAO](https://moralis.io/how-to-create-a-dao-in-10-minutes/) ，如何[启动带有元掩码的 Web3 应用](https://moralis.io/metamask-for-developers-how-to-launch-web3-apps-with-metamask/)，如何[创建免费令牌](https://moralis.io/create-free-token-how-to-deploy-your-own-testnet-crypto-token-in-10-mins/)，如何[用短信获取 Web3 事件](https://moralis.io/get-web3-events-with-sms-messages/)，如何[在币安智能链上创建 NFT](https://moralis.io/create-nft-on-binance-smart-chain-full-guide/)，如何
+此外，我们需要指出的是，这个项目不像我们的其他一些教程那样基础。因此，如果你发现它对你目前的水平来说太高级了，一定要学习如何建立你的第一个 dApp。然而，如果你已经准备好迎接更有趣的挑战，拓展你的区块链开发技能，一定要看看[Moralis 博客](https://moralis.io/blog/)和[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。我们的一些最新文章将向您展示如何[构建一个跨链桥](https://moralis.io/how-to-build-a-cross-chain-bridge/)，如何[构建一个预测市场 dApp](https://moralis.io/how-to-build-a-prediction-market-dapp/) ，如何[创建一个 DAO](https://moralis.io/how-to-create-a-dao-in-10-minutes/) ，如何[启动带有元掩码的 Web3 应用](https://moralis.io/metamask-for-developers-how-to-launch-web3-apps-with-metamask/)，如何[创建免费令牌](https://moralis.io/create-free-token-how-to-deploy-your-own-testnet-crypto-token-in-10-mins/)，如何[用短信获取 Web3 事件](https://moralis.io/get-web3-events-with-sms-messages/)，如何[在币安智能链上创建 NFT](https://moralis.io/create-nft-on-binance-smart-chain-full-guide/)，如何
 
 ![](img/7c39f23251afebbdd7baafaa85749467.png)

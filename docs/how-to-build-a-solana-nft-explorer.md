@@ -4,9 +4,9 @@
 
 由于速度快、交易费用低，Solana 已经成为领先的可编程区块链之一。于是，很多专注于 NFT 的项目都决定利用 Solana，至此，有无数的 Solana NFT([**不可替代令牌**](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/) **)值得探索。也就是说，如果你是一名 NFT 开发者，知道如何在索拉纳区块链的 dapp 中呈现各种 NFT 是至关重要的。在本文中，我们将介绍一个能够做到这一点的 dapp 在 Solana 上展示 NFTs。更重要的是，在接下来的章节中，我们将展示如何在 Moralis 的帮助下快速、轻松地构建一个索拉纳 NFT 浏览器。多亏了** [**Moralis 的 Solana API**](https://moralis.io/solana-api/) **，你可以很容易地获取 NFT 元数据，然后使用图像 URL 整齐地显示 NFT。此外，多亏了 Moralis，你还可以建立一个带有附加过滤器的索拉纳 NFT 浏览器。**
 
-记住这一点，现在是学习更多关于 Solana 链编程的好时机。此外，通过学习如何建立一个索拉纳 NFT 浏览器，你也将熟悉道德。接下来，我们将向您展示如何设置您的帐户并获取您的 Moralis Web3 API 密钥。因此，您将能够使用 Moralis 进行各种 dapp 开发工作。
+记住这一点，现在是学习更多关于 Solana 链编程的好时机。此外，通过学习如何建立一个索拉纳 NFT 浏览器，你也将熟悉 Moralis。接下来，我们将向您展示如何设置您的帐户并获取您的 Moralis Web3 API 密钥。因此，您将能够使用 Moralis 进行各种 dapp 开发工作。
 
-由于 Moralis 完全是关于跨平台的互操作性，您将能够在流行的 Web2 开发平台上使用它。例如，你可以使用 Firebase、Supabase 或 Unity 来加入 Web3 革命。此外，在使用道德规范时，你永远不会拘泥于某个特定的区块链。虽然我们在这里建立了一个索拉纳 NFT 探索者，我们也可以专注于任何其他领先的网络。毕竟，Moralis 也是跨链互通的。因此，[创建您的免费道德账户](https://admin.moralis.io/register),跟随我们的脚步。
+由于 Moralis 完全是关于跨平台的互操作性，您将能够在流行的 Web2 开发平台上使用它。例如，你可以使用 Firebase、Supabase 或 Unity 来加入 Web3 革命。此外，在使用 Moralis 规范时，你永远不会拘泥于某个特定的区块链。虽然我们在这里建立了一个索拉纳 NFT 探索者，我们也可以专注于任何其他领先的网络。毕竟，Moralis 也是跨链互通的。因此，[创建您的免费 Moralis 账户](https://admin.moralis.io/register),跟随我们的脚步。
 
 ![](img/1ac9d9505b09cffbce19673d551d2272.png)
 
@@ -182,6 +182,6 @@ https://www.youtube.com/watch?v=EvxSq0MJnMI
 
 如果您喜欢今天的文章，请确保您的 Solana 编程更上一层楼。在这里，Moralis 文档、 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)将为您提供所需的所有指导。当然，你也可以利用这些宝贵的资源关注其他可编程链。除了以太坊，Moralis 已经支持所有领先的 EVM 兼容链，包括 BNB 链，雪崩，多边形，Cronos 和 Fantom。
 
-我们还应该指出，Web3 开发仍处于早期阶段，提供了无数的机会。因此，这可能是最好的时间去全职加密。如果你对此感兴趣，一定要考虑报名参加[道德学院](https://academy.moralis.io/)成为区块链认证。这将大大增加你获得梦想工作的机会。除了顶级的加密开发课程，道德学院也是获得专家指导的地方。此外，这个在线学院为您提供了个性化的学习路径和行业中最先进的社区之一的成员资格。
+我们还应该指出，Web3 开发仍处于早期阶段，提供了无数的机会。因此，这可能是最好的时间去全职加密。如果你对此感兴趣，一定要考虑报名参加[Moralis 学院](https://academy.moralis.io/)成为区块链认证。这将大大增加你获得梦想工作的机会。除了顶级的加密开发课程，Moralis 学院也是获得专家指导的地方。此外，这个在线学院为您提供了个性化的学习路径和行业中最先进的社区之一的成员资格。
 
 ![](img/444dccd4fe5714d7415df59895d38457.png)

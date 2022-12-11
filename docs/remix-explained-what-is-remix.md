@@ -4,7 +4,7 @@
 
 Remix，通常被称为 Remix IDE，是一个开源的以太坊 IDE，你可以用它来编写、编译和调试 Solidity 代码。因此，Remix 可能是 Web3 和 dApps 开发中非常重要的工具。简而言之，如果你在寻找“什么是混音”的答案，你来对地方了！在接下来的章节中，你会学到所有你需要知道的关于混音的基础知识。这些信息将帮助您决定它是否是您应该利用的合适工具。最重要的是，我们将告诉你一个令人惊叹的平台，它使你能够跳过耗时的后端编码，仍然部署优秀的[](https://moralis.io/decentralized-applications-explained-what-are-dapps/)****。****
 
-**事实上，我们来说说这个能力巨大的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台——[道德家](https://moralis.io/) 。Moralis 是一个涵盖所有后端开发需求的平台，只需一些简短的代码片段。你猜怎么着，道德是免费的！你需要入门的只是[JavaScript](https://moralis.io/javascript-explained-what-is-javascript/)技能。如果这是你已经得到的东西， [今天就创建你的免费账户](https://admin.moralis.io/register) 并开始开发令人敬畏的 dApps 吧！在你决定深入研究混音之前，了解一下 Moralis 真的会让你受益匪浅。**
+**事实上，我们来说说这个能力巨大的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台——[Moralis 家](https://moralis.io/) 。Moralis 是一个涵盖所有后端开发需求的平台，只需一些简短的代码片段。你猜怎么着，Moralis 是免费的！你需要入门的只是[JavaScript](https://moralis.io/javascript-explained-what-is-javascript/)技能。如果这是你已经得到的东西， [今天就创建你的免费账户](https://admin.moralis.io/register) 并开始开发令人敬畏的 dApps 吧！在你决定深入研究混音之前，了解一下 Moralis 真的会让你受益匪浅。**
 
 **具体来说，Moralis 是一款优秀的中间件，可以让您立即开始开发 dApps。这意味着你不必手动设置、管理和维护你自己的 Web3 后端，这通常是进入 Web3 领域的巨大障碍。相反，你可以专注于你最擅长的事情——项目的前端和核心理念。立即注册 Moralis，获得最佳的 dApp 开发流程！**
 
@@ -86,7 +86,7 @@ Remix，通常被称为 Remix IDE，是一个开源的以太坊 IDE，你可以�
 
 **在我们更仔细地研究 Remix 的一些组件之前，我们需要让你知道，Remix 对于 dApp 的创建绝不是必不可少的。有几种替代混音的方式，以 Windows、Linux、Mac 甚至以太坊的网站和应用程序的形式出现。根据流行的博客，以太坊是最受欢迎的选择，因为它是免费和开源的。其他选择包括 Solidity、Byton、KIN 和 TokenMint。但是不断有新的选择出现。**
 
-**如果你喜欢后端开发，以上选项都非常好。然而，如果你更喜欢关注前端，而不是在 dApp 创建的耗时的后端部分浪费时间和精力，那么你会爱上 Moralis。毫无疑问，道德是创造 dApps 的最简单的方法。**
+**如果你喜欢后端开发，以上选项都非常好。然而，如果你更喜欢关注前端，而不是在 dApp 创建的耗时的后端部分浪费时间和精力，那么你会爱上 Moralis。毫无疑问，Moralis 是创造 dApps 的最简单的方法。**
 
 **![](img/00a71bb2daafccf84c190e90d673baec.png)**
 
@@ -96,7 +96,7 @@ Remix，通常被称为 Remix IDE，是一个开源的以太坊 IDE，你可以�
 
 **如果您正在寻找一种方法来尽可能快地部署分散式应用程序，并提前完成那些延迟的时间表，Moralis 是您的救星。无论你是一个单独的开发者还是与一个更大的团队一起工作，这个终极的 Web3 开发平台都会支持你。如果您想获得灵感，我们邀请您在 Moralis 文档中查看如何使用 Moralis 在 3 分钟内 [构建一个简单的 dApp](https://docs.moralis.io/guides/build-a-simple-dapp-in-3-minutes)。**
 
-**我们理解在了解了道德之后，你可能会失去动力去更深地钻研混音。好的一面是你不需要这么做。然而，如果你决心掌握智能合约的后端，Remix IDE 肯定是一个强大的工具。**
+**我们理解在了解了 Moralis 之后，你可能会失去动力去更深地钻研混音。好的一面是你不需要这么做。然而，如果你决心掌握智能合约的后端，Remix IDE 肯定是一个强大的工具。**
 
 ## **什么是 Remix IDE？–特写**
 
@@ -122,7 +122,7 @@ Remix，通常被称为 Remix IDE，是一个开源的以太坊 IDE，你可以�
 
 ***   文件浏览器模块。*   插件管理器。*   设置。*   坚固性编辑器。*   终端。**
 
-**下面是典型的IDE 模块列表:**
+**下面是典型的 IDE 模块列表:**
 
 ***   编译器(Solidity)。*   部署&运行。*   调试器。*   坚固性静态分析。**
 

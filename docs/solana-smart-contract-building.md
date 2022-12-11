@@ -264,7 +264,7 @@ git clone “REPOSITORY_URL”
 2.  编写和部署 Solana 智能合同
 3.  创建测试应用程序
 
-本"*Solana Smart Contract Building "*指南的可访问性源自 Moralis。例如，借助 Moralis 的以太坊样板，您可以轻松设置测试应用程序。该模板利用了各种道德标准[web 3 API](https://moralis.io/web3-apis-exploring-the-top-5-blockchain-apis/)，包括 [Web3 认证 API](https://moralis.io/authentication/) 。这个 API 允许您轻松地将身份验证机制集成到任何 Web3 项目中。如果这听起来很有趣，你可以，例如，学习如何[添加比特币基地钱包登录功能](https://moralis.io/how-to-add-coinbase-wallet-login-functionality/)！
+本"*Solana Smart Contract Building "*指南的可访问性源自 Moralis。例如，借助 Moralis 的以太坊样板，您可以轻松设置测试应用程序。该模板利用了各种 Moralis 标准[web 3 API](https://moralis.io/web3-apis-exploring-the-top-5-blockchain-apis/)，包括 [Web3 认证 API](https://moralis.io/authentication/) 。这个 API 允许您轻松地将身份验证机制集成到任何 Web3 项目中。如果这听起来很有趣，你可以，例如，学习如何[添加比特币基地钱包登录功能](https://moralis.io/how-to-add-coinbase-wallet-login-functionality/)！
 
 此外，如果你觉得这个指南很有帮助，请点击 Moralis 的 [Web3 博客](https://moralis.io/blog/)查看更多内容。例如，学习如何[建立一个索拉纳 NFT 探索者](https://moralis.io/how-to-build-a-solana-nft-explorer/)或[创造自己的索拉纳 NFT](https://moralis.io/solana-nft-mint-tools-create-your-own-solana-nft/) ！
 

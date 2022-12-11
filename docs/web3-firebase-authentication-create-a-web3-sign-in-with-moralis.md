@@ -292,7 +292,7 @@ cd frontend/build
 
 如果你觉得这篇文章很有帮助，可以考虑在 Moralis 的 [Web3 博客](https://moralis.io/blog/)查看更多的区块链发展内容。例如，阅读我们在 [Web3 for business](https://moralis.io/web3-for-business-how-and-why-you-can-integrate-web3-into-your-enterprise/) 上的文章，或者学习如何[使用 Unity](https://moralis.io/how-to-build-a-web3-multiplayer-game-using-unity-multiplayer/) 构建 Web3 多人游戏！
 
-如果你想磨练你的 Web3 开发技能，你也应该考虑报名参加道德学院。如果你是 Web3 的新手，可以看看下面这个关于区块链行业基本面的课程:“[区块链&比特币 101](https://academy.moralis.io/courses/blockchain-bitcoin-101) ”。
+如果你想磨练你的 Web3 开发技能，你也应该考虑报名参加 Moralis 学院。如果你是 Web3 的新手，可以看看下面这个关于区块链行业基本面的课程:“[区块链&比特币 101](https://academy.moralis.io/courses/blockchain-bitcoin-101) ”。
 
 ![](img/cd50d245fb48ff7f6cb476198568a793.png)
 

@@ -152,11 +152,11 @@ ERC-1155 标准为您提供了自动 NFT 所需的所有功能，包括跟踪天
 
 在你的混音编辑器中打开一个新文件夹。它应该是一个与 Moralis 兼容的“index.html”文件。保存文件。创建一个 JSON 文件；对于这个例子，我们可以写“0.json”作为初始名称，并在该文件中包含实际的属性(图像、描述、名称等)。).它应该看起来像来自 OpenSea 的例子。
 
-在为 NFT 创建 JSON 字符串之后，您需要在某个地方托管它们。它不能在智能合约内或区块链本身上。需要有一个到 JSON 文件的外部链接，然后将它放入智能契约中。这就是道德的用武之地。
+在为 NFT 创建 JSON 字符串之后，您需要在某个地方托管它们。它不能在智能合约内或区块链本身上。需要有一个到 JSON 文件的外部链接，然后将它放入智能契约中。这就是 Moralis 的用武之地。
 
 ### **在 Moralis 上托管 JSON 文件**
 
-获取托管您的目录的 URL。为此，您需要来自 Moralis 服务器的各种 CLI。要继续，你需要有一个道德的帐户。如果你还没有注册，不要担心。只要去 [Moralis 的官方网站](https://admin.moralis.io/register?utm_source=blog&utm_medium=post&utm_campaign=Want%2520the%2520Latest%2520in%2520%253Cspan%253EBlockchain%2520Development%253F%253C%252Fspan%253E)就可以了。报名又快又简单，还免费！
+获取托管您的目录的 URL。为此，您需要来自 Moralis 服务器的各种 CLI。要继续，你需要有一个 Moralis 的帐户。如果你还没有注册，不要担心。只要去 [Moralis 的官方网站](https://admin.moralis.io/register?utm_source=blog&utm_medium=post&utm_campaign=Want%2520the%2520Latest%2520in%2520%253Cspan%253EBlockchain%2520Development%253F%253C%252Fspan%253E)就可以了。报名又快又简单，还免费！
 
 设置好 Moralis 帐户后，点击右上角的“+创建新服务器”按钮创建一个新服务器。创建服务器后，单击“查看详细信息”以检索 CLI API 密钥和 CLI API 密码。这些是你需要在稍后的混音中输入的细节。
 
@@ -222,7 +222,7 @@ OpenSea 等市场与托管的 NFT 元数据进行了有效的交互。通过只�
 
 当它在测试网上完美地工作时，你可以把它部署在主网上。只需从元掩码帐户中选择“Mainnet”。当你回到 OpenSea 时，选择 mainnet。
 
-## 道德使 NFT 编程变得更容易
+## Moralis 使 NFT 编程变得更容易
 
 ![](img/a48f8c8fef747b26afd946f974630722.png)
 
@@ -230,8 +230,8 @@ Beeple 开创性的 NFT 艺术作品“每一天:第一个 5000 天”(部分图
 
 正如您所看到的，Moralis 通过为您的 NFT 元数据提供主机来帮助简化 NFT 编程过程，因此您可以在几个小时内托管、测试和部署您的 NFT。
 
-在本文中，我们仅仅触及了 NFT 编程的基本部分。然而，要获得如何创建、启动、列出和管理 NFT 的全部细节，请务必查看本文开头提到的优秀的道德 NFT 视频教程。值得注意的是，除了成为你的 NFT 创造之旅的一部分，Moralis 还有工具来管理你未来的 NFT。
+在本文中，我们仅仅触及了 NFT 编程的基本部分。然而，要获得如何创建、启动、列出和管理 NFT 的全部细节，请务必查看本文开头提到的优秀的 Moralis NFT 视频教程。值得注意的是，除了成为你的 NFT 创造之旅的一部分，Moralis 还有工具来管理你未来的 NFT。
 
 DeFi NFT 平台如 [NFTmall](https://moralis.io/nftmall-announces-moralis-nft-api-deep-index-api-integration/) 和 [SuperFarm](https://moralis.io/announcing-superfarms-moralis-nft-api-integration/) 已经集成了 Moralis 的 API，NFTmall 称之为“Web3 后端开发的瑞士军刀”。随着如此庞大的项目发现了 Moralis 的便利性和可靠性，是时候更多地探索 NFTs 了。
 
-考虑这是第一步解锁道德可以做的不可思议的事情增压你的 NFT 建设！
+考虑这是第一步解锁 Moralis 可以做的不可思议的事情增压你的 NFT 建设！

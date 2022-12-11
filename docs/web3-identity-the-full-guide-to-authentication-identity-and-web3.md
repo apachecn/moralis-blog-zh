@@ -6,7 +6,7 @@
 
 为了理解什么是 Web3 身份，我们将从更仔细地研究 Web2 上下文中的身份验证和身份开始。在此过程中，我们将探索传统模型的一些缺点。接下来，我们将探讨什么是 Web3 身份，以及为什么它们对 Web3 生态系统至关重要。
 
-一旦我们掌握了 Web3 身份的概念，我们将进一步了解如何通过[道德](https://moralis.io/)来[认证 Web3 用户](https://moralis.io/how-to-authenticate-web3-users/)！由于 Moralis 的身份验证 API，这一点只需要一行代码就可以实现，使这个过程更加无缝。最后，我们将通过探索 Web3 身份的三个潜在用例来结束一切。
+一旦我们掌握了 Web3 身份的概念，我们将进一步了解如何通过[Moralis](https://moralis.io/)来[认证 Web3 用户](https://moralis.io/how-to-authenticate-web3-users/)！由于 Moralis 的身份验证 API，这一点只需要一行代码就可以实现，使这个过程更加无缝。最后，我们将通过探索 Web3 身份的三个潜在用例来结束一切。
 
 Web3 身份验证 API 是允许 Moralis 在 Web2 和 Web3 开发之间架起桥梁的工具之一。此外，Moralis 使得 [Web3 syncs](https://moralis.io/syncs/) 和 [Web3 webhooks](https://moralis.io/web3-webhooks-the-ultimate-guide-to-blockchain-webhooks/) 的实现更加无缝。此外，Moralis 提供了大量的 API。在这些接口中，你会发现[的 NFT API](https://moralis.io/nft-api/) 和[的 EVM API](https://docs.moralis.io/reference/evm-api-overview) 。
 
@@ -58,7 +58,7 @@ SSIs，或自我主权身份，将信息控制完全集中在用户周围。这�
 
 ![](img/0ffbe8aa42e61a54030483a386be5d1e.png)
 
-如果没有 Moralis 的身份验证 API，您将需要将用户重定向到第三方身份验证接口，完全掌握 Web3 身份验证流程，学习如何验证和签署钱包消息，建立钱包标准等。这些都是繁琐的任务，你可以通过使用道德来避免。相反，Moralis 为所有 Web3 auth 方法提供了一个统一的 API 以及一个全面的 SDK，它允许您将这些功能无缝地集成到所有项目中。更重要的是，该 API 兼容 Auth0 等其他 auth 聚合器。
+如果没有 Moralis 的身份验证 API，您将需要将用户重定向到第三方身份验证接口，完全掌握 Web3 身份验证流程，学习如何验证和签署钱包消息，建立钱包标准等。这些都是繁琐的任务，你可以通过使用 Moralis 来避免。相反，Moralis 为所有 Web3 auth 方法提供了一个统一的 API 以及一个全面的 SDK，它允许您将这些功能无缝地集成到所有项目中。更重要的是，该 API 兼容 Auth0 等其他 auth 聚合器。
 
 此外，如果你熟悉 Web3 领域，你也会知道这个行业发展很快。因此，你需要担心新的 [Web3 钱包](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/)和连锁店不断出现。然而，这一切都可以通过 Moralis 的 Web3 认证 API 来避免，因为它提供了一个面向未来的认证流程。
 

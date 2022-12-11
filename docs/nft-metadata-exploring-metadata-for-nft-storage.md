@@ -6,7 +6,7 @@ NFT 资产中的元数据起着至关重要的作用，因为它包含了使 NFT
 
 除了正确理解 NFT 资产中的元数据之外，您还希望用最好的工具装备自己。这就是终极 NFT API 让所有开发工作变得轻而易举的地方。该 API 提供了强大的端点，可以用简短的代码片段获取各种链上数据。因此，它是构建 NFT dapp 时最重要的工具。当然，[最好的 NFT API](https://moralis.io/nft-api/) 也可以让你获取元数据 NFT 内容。这意味着你可以显示代表 NFT 的文件，将 NFT 特色融入 NFT 游戏，等等。此外，为了帮助您回答“什么是 NFT 元数据？”有信心地提问，我们将看一看本文中的一个元数据示例。因此，您可以看到一些 Moralis API 端点在运行。
 
-此外，我们鼓励您亲自试乘这些终点。为此，[创建您的免费道德账户](https://admin.moralis.io/register)并跟随我们！然而，在我们卷起袖子之前，让我们解释一下 NFT 资产和 NFT 元数据存储中元数据的来龙去脉。
+此外，我们鼓励您亲自试乘这些终点。为此，[创建您的免费 Moralis 账户](https://admin.moralis.io/register)并跟随我们！然而，在我们卷起袖子之前，让我们解释一下 NFT 资产和 NFT 元数据存储中元数据的来龙去脉。
 
 ![Sign Up with Moralis](img/776315699d4da3e5c69ca048fbcedf78.png)[**Sign Up with Moralis**](https://admin.moralis.io/login)
 
@@ -87,9 +87,9 @@ NFT 资产中的元数据起着至关重要的作用，因为它包含了使 NFT
 *   准备好您最喜欢的代码编辑器或 IDE。我们倾向于使用 Visual Studio 代码(VSC)。
 *   安装你喜欢的包管理器*(“NPM”、“yarn”、“pnpm”或“pip”)*。
 
-### 步骤 1:设置道德标准
+### 步骤 1:设置 Moralis 标准
 
-如果你还没有建立并运行你的道德账户，现在就创建它。这将允许您访问您的管理区域，在那里您将能够获得您的 Web3 API 密钥:
+如果你还没有建立并运行你的 Moralis 账户，现在就创建它。这将允许您访问您的管理区域，在那里您将能够获得您的 Web3 API 密钥:
 
 ![Step 1, click on Web3 APIs. Step 2, copy the Web3 API key.](img/e8545d334d8ceb7372340b9d80b1a929.png)
 
@@ -195,8 +195,8 @@ node index.js
 
 *我们在今天的文章中谈了相当多的内容。首先，您有机会学习如何正确回答“什么是 NFT 元数据？”问题。因此，你发现了什么是 NFT，以及它们独特的链上数据使它们有价值。我们还解释了智能合约如何融入 NFT 的故事。接下来，您发现元数据实际上并没有存储在区块链上。相反，它通常存储在 NFT JSON 元数据文件中。然后，我们使用存储解决方案(如 IPFS)来托管这些文件。最后，您能够跟随我们的领导，创建并上传 NFT 元数据示例。*
 
-*如果你真的想发展 NFT，你有两个选择。您可以进一步探索如何创建自己的 NFT。这将需要处理智能合同，还需要将代表 NFT 的文件和元数据文件上传到 IPFS 或其他分散存储解决方案。当然，在道德博客的详细指导下，你可以毫不费力地做到这一点。*
+*如果你真的想发展 NFT，你有两个选择。您可以进一步探索如何创建自己的 NFT。这将需要处理智能合同，还需要将代表 NFT 的文件和元数据文件上传到 IPFS 或其他分散存储解决方案。当然，在 Moralis 博客的详细指导下，你可以毫不费力地做到这一点。*
 
-*当然，您也可能更喜欢探索其他区块链发展主题。除了我们的加密博客，[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)将帮助你。毕竟这两个风口涉及的话题很广。例如，一些最新的文章解释了[AWS Lambda 如何工作](https://moralis.io/how-aws-lambda-works-functions-and-architecture-explained/)，什么是 [GameSparks](https://moralis.io/aws-gamesparks-guide-what-is-gamesparks/) ，如何[获得 NFT 收集数据](https://moralis.io/nft-collection-data-how-to-get-nft-collection-data/)，等等。*
+*当然，您也可能更喜欢探索其他区块链发展主题。除了我们的加密博客，[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)将帮助你。毕竟这两个风口涉及的话题很广。例如，一些最新的文章解释了[AWS Lambda 如何工作](https://moralis.io/how-aws-lambda-works-functions-and-architecture-explained/)，什么是 [GameSparks](https://moralis.io/aws-gamesparks-guide-what-is-gamesparks/) ，如何[获得 NFT 收集数据](https://moralis.io/nft-collection-data-how-to-get-nft-collection-data/)，等等。*
 
-*最后但同样重要的是，你可能也渴望尽快成为全职加密员。如果是这样，你应该报名参加[道德学院](https://academy.moralis.io/)成为区块链认证，我们建议从[区块链和比特币基础](https://academy.moralis.io/courses/blockchain-bitcoin-101)开始。*
+*最后但同样重要的是，你可能也渴望尽快成为全职加密员。如果是这样，你应该报名参加[Moralis 学院](https://academy.moralis.io/)成为区块链认证，我们建议从[区块链和比特币基础](https://academy.moralis.io/courses/blockchain-bitcoin-101)开始。*

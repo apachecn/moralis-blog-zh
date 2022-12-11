@@ -4,7 +4,7 @@
 
 **不可否认，区块链科技** [**Web3 开发**](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/) **风靡全球。企业和组织越来越多地进入这个领域，互联网的这个新“阶段”正在改变大多数经济部门。区块链本质上是包含数据的不可变分布式分类帐。一个突出的例子是多边形网络。由于多边形区块链包含信息，作为开发人员，您必须能够实时访问此** [**链上数据**](https://moralis.io/on-chain-data-the-ultimate-guide-to-understanding-and-accessing-on-chain-data/) **。访问这些信息可以为所有客户提供更具吸引力的 UX(用户体验)。因此，我们将在本文中深入探讨如何从多边形区块链提取数据。**
 
-从传统的角度来看，从任何区块链提取数据都是一件非常麻烦的事情。然而，这也是 [Moralis](https://moralis.io/) 提供更易理解的开发者体验的地方。Moralis 的 Web3 syncs 等底层后端基础设施和工具使这一过程变得更加容易。然而，这只是道德如何帮助你的发展努力的一个突出的例子。此外，Moralis 还使 [Web3 认证](https://moralis.io/authentication/)变得更加容易。这与 Moralis 的 [NFT API](https://moralis.io/nft-api/) 和 [Web3 API](https://docs.moralis.io/moralis-dapp/web3-api) 相结合，可以让你轻松创建令牌和 dapps(去中心化应用)。
+从传统的角度来看，从任何区块链提取数据都是一件非常麻烦的事情。然而，这也是 [Moralis](https://moralis.io/) 提供更易理解的开发者体验的地方。Moralis 的 Web3 syncs 等底层后端基础设施和工具使这一过程变得更加容易。然而，这只是 Moralis 如何帮助你的发展努力的一个突出的例子。此外，Moralis 还使 [Web3 认证](https://moralis.io/authentication/)变得更加容易。这与 Moralis 的 [NFT API](https://moralis.io/nft-api/) 和 [Web3 API](https://docs.moralis.io/moralis-dapp/web3-api) 相结合，可以让你轻松创建令牌和 dapps(去中心化应用)。
 
 例如，有了 Moralis 的可访问性，你可以创建一个 [Web3 Spotify](https://moralis.io/how-to-build-a-web3-spotify-clone/) 的克隆，也许会彻底改变音乐行业。此外，如果您对令牌开发感兴趣，请务必查看我们关于[如何构建 minting dapp](https://moralis.io/how-to-build-a-minting-dapp/) 的文章！
 
@@ -48,7 +48,7 @@
 
 ![](img/0077f62bc26b7cb08558faff7568c665.png)
 
-幸运的是，你不必用道德来强调这一点。借助 Moralis 的 [Web3 syncs](https://moralis.io/syncs/) ，您可以轻松地从多边形区块链中提取数据，而不会出现任何问题。使用 Moralis 实现区块链同步允许您在实时更新的交易表中检测新的交易和事件，即使是在未确认的状态下。因此，您可以轻松地从面区块链中提取数据。
+幸运的是，你不必用 Moralis 来强调这一点。借助 Moralis 的 [Web3 syncs](https://moralis.io/syncs/) ，您可以轻松地从多边形区块链中提取数据，而不会出现任何问题。使用 Moralis 实现区块链同步允许您在实时更新的交易表中检测新的交易和事件，即使是在未确认的状态下。因此，您可以轻松地从面区块链中提取数据。
 
 此外，Moralis 的 Web3 同步是跨链兼容的。因此，您不仅可以从多边形区块链获取数据，还可以从其他网络获取数据。这表明你有潜力为更多的链开发复杂的 dapps。如果你对此感兴趣，请查看我们的指南[如何构建以太坊 dapp](https://moralis.io/ultimate-guide-how-to-build-ethereum-dapps/)或[如何创建 BSC dapp](https://moralis.io/how-to-create-bsc-dapps-quickly/)！
 
@@ -56,7 +56,7 @@
 
 从传统的角度来看，从多边形区块链提取数据相当麻烦。幸运的是，这不再是 Moralis 的情况，因为该平台允许您轻松地索引任何区块链。然而，即使在使用 Moralis 时任务变得更加容易完成，您可能仍然会对过程有疑问。因此，本节将研究如何通过以下三个步骤从面区块链提取数据:
 
-1.  创建道德 Dapp
+1.  创建 Moralis Dapp
 2.  获取合同地址和 ABI
 3.  添加同步事件
 
@@ -64,11 +64,11 @@
 
 https://www.youtube.com/watch?v=LMqqxkuo7b0
 
-如果您对 NFTs 有进一步的兴趣，请务必查看关于 [NFT 用例](https://nftcoders.com/learning-all-about-nft-use-cases-in-2022/)的优秀指南。但是，事不宜迟，让我们更进一步，仔细看看如何创建一个道德 dapp！
+如果您对 NFTs 有进一步的兴趣，请务必查看关于 [NFT 用例](https://nftcoders.com/learning-all-about-nft-use-cases-in-2022/)的优秀指南。但是，事不宜迟，让我们更进一步，仔细看看如何创建一个 Moralis dapp！
 
-## 从多边形区块链中提取数据–创建道德 Dapp
+## 从多边形区块链中提取数据–创建 Moralis Dapp
 
-如果你还没有，你需要做的第一件事就是创建一个道德账户。这只需要几秒钟，并且设置您的帐户是免费的。有了账户，你可以点击“+创建新的 dapp”按钮来创建你的 Dapp。
+如果你还没有，你需要做的第一件事就是创建一个 Moralis 账户。这只需要几秒钟，并且设置您的帐户是免费的。有了账户，你可以点击“+创建新的 dapp”按钮来创建你的 Dapp。
 
 ![](img/08e5b8a86e8b37cfa0cabbc3f8d96397.png)
 
@@ -106,7 +106,7 @@ https://www.youtube.com/watch?v=LMqqxkuo7b0
 
 ![](img/24edd569bae5f11992d4444fc0c4c886.png)
 
-填写完这两个字段后，您可以选择一个主题、命名表并添加描述。在我们的例子中，我们将表命名为“TransferPunks ”,并添加一个相同标签的描述。在那里，您可以决定是否要包括历史数据，这是我们选择的。现在，剩下的就是点击“继续”按钮，你将添加同步到你的道德 dapp！
+填写完这两个字段后，您可以选择一个主题、命名表并添加描述。在我们的例子中，我们将表命名为“TransferPunks ”,并添加一个相同标签的描述。在那里，您可以决定是否要包括历史数据，这是我们选择的。现在，剩下的就是点击“继续”按钮，你将添加同步到你的 Moralis dapp！
 
 ### Moralis 的 Web3 同步结果
 
@@ -126,7 +126,7 @@ https://www.youtube.com/watch?v=LMqqxkuo7b0
 
 接下来，我们了解了更多关于索引区块链数据的重要性。随着区块链状况的不断变化，掌握最新数据至关重要。这为所有用户提供了更具吸引力的 UX。然而，从历史的角度来看，将区块链指数化是一件非常具有挑战性的事情。幸运的是，随着 Moralis 的 Web3 syncs 使索引和同步链上数据变得更加容易，这种情况不再存在。事实上，多亏了 Moralis，我们可以通过以下三个步骤从多边形区块链提取数据:
 
-1.  创建道德 Dapp
+1.  创建 Moralis Dapp
 2.  获取合同地址和 ABI
 3.  添加同步事件
 
@@ -136,4 +136,4 @@ https://www.youtube.com/watch?v=LMqqxkuo7b0
 
 如果你资助这个有益的指南，并想要更多与区块链有关的精彩内容，请务必访问 [Moralis 博客](https://moralis.io/blog/)。在博客上，除了其他内容，你还会找到教你如何[实时收听智能合约交易的内容](https://moralis.io/how-to-listen-to-smart-contract-transactions-in-real-time/)、[用 MetaMask 认证 dapp 用户](https://moralis.io/how-to-authenticate-dapp-users-with-metamask/)、[用 Unity 运行智能合约](https://moralis.io/how-to-run-a-smart-contract-with-unity/)等等。
 
-你还可以学习[如何认证 Web3 用户](https://moralis.io/how-to-authenticate-web3-users/)并轻松设置自己的 [Web3 webhooks](https://moralis.io/web3-webhooks-the-ultimate-guide-to-blockchain-webhooks/) ！这将允许你立刻创建先进的 Web3 项目，并在市场上击败你的竞争对手。所以，如果你想让[成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，[马上和道德家](https://admin.moralis.io/login)签约吧！
+你还可以学习[如何认证 Web3 用户](https://moralis.io/how-to-authenticate-web3-users/)并轻松设置自己的 [Web3 webhooks](https://moralis.io/web3-webhooks-the-ultimate-guide-to-blockchain-webhooks/) ！这将允许你立刻创建先进的 Web3 项目，并在市场上击败你的竞争对手。所以，如果你想让[成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，[马上和 Moralis 家](https://admin.moralis.io/login)签约吧！

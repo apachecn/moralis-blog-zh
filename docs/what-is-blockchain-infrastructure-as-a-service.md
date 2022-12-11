@@ -109,7 +109,7 @@
 *   快速笔记
 *   肖像学
 *   bigquery
-*   道德
+*   Moralis
 
 **专注于智能合同开发的项目/工具**:
 
@@ -158,6 +158,6 @@
 
 如果您花了一些宝贵的时间来讨论以上部分，那么您已经了解了关于区块链基础架构即服务的所有信息。你现在知道这项颠覆性新技术的主干有很多方面。您了解了一些工具是以链上协议的形式出现的，而另一些是以链外项目的形式出现的。事实上，您甚至有机会探索哪些是领先的计算协议和区块链基础设施服务项目。最后但并非最不重要的一点是，由于 Moralis——最好的区块链基础设施即服务解决方案，您发现您可以利用您的传统开发技能加入 Web3 革命。
 
-如果你想简单地开始创建 dapps，你首先需要创建你的免费道德账户。接下来，您需要完成 Moralis 文档中的一些教程来掌握它的窍门。另一方面，你可能已经有了一些广泛的想法，你想以最小的麻烦来实现。在这种情况下，请务必遵循上面的“可扩展的 Web3 基础设施”链接，并联系我们的支持人员。
+如果你想简单地开始创建 dapps，你首先需要创建你的免费 Moralis 账户。接下来，您需要完成 Moralis 文档中的一些教程来掌握它的窍门。另一方面，你可能已经有了一些广泛的想法，你想以最小的麻烦来实现。在这种情况下，请务必遵循上面的“可扩展的 Web3 基础设施”链接，并联系我们的支持人员。
 
-此外，您可能有兴趣进一步拓展您在区块链的发展视野。如果是这样的话，一定要访问[道德的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德的博客](https://moralis.io/blog/)。这两个出口涵盖各种加密主题，可以支持您正在进行的区块链教育。例如，一些最新的文章教你[AWS Lambda 如何工作](https://moralis.io/how-aws-lambda-works-functions-and-architecture-explained/)，如何创建一个 [AWS Lambda 函数](https://moralis.io/creating-a-lambda-function-learn-how-to-create-an-aws-lambda-function/)，所有你需要知道的关于 [ultimate ERC20 token API](https://moralis.io/exploring-the-ultimate-erc20-token-api/) ，什么是 [GameSparks](https://moralis.io/aws-gamesparks-guide-what-is-gamesparks/) 等等。当然，你也可以通过报名参加[道德学院](https://academy.moralis.io/)来获得更专业的区块链教育，在那里你可以[在 2022 年](https://academy.moralis.io/courses/master-defi)掌握 DeFi。
+此外，您可能有兴趣进一步拓展您在区块链的发展视野。如果是这样的话，一定要访问[Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 的博客](https://moralis.io/blog/)。这两个出口涵盖各种加密主题，可以支持您正在进行的区块链教育。例如，一些最新的文章教你[AWS Lambda 如何工作](https://moralis.io/how-aws-lambda-works-functions-and-architecture-explained/)，如何创建一个 [AWS Lambda 函数](https://moralis.io/creating-a-lambda-function-learn-how-to-create-an-aws-lambda-function/)，所有你需要知道的关于 [ultimate ERC20 token API](https://moralis.io/exploring-the-ultimate-erc20-token-api/) ，什么是 [GameSparks](https://moralis.io/aws-gamesparks-guide-what-is-gamesparks/) 等等。当然，你也可以通过报名参加[Moralis 学院](https://academy.moralis.io/)来获得更专业的区块链教育，在那里你可以[在 2022 年](https://academy.moralis.io/courses/master-defi)掌握 DeFi。

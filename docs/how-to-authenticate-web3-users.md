@@ -98,7 +98,7 @@ const user = await Moralis.authenticate({ provider: "walletconnect" })
 const user = await Moralis.authenticate({ provider: "walletconnect", chainId: 56 })
 ```
 
-此外，您还有其他选项，如过滤移动链接选项。如果你想了解这方面的更多信息，请查阅道德文件。
+此外，您还有其他选项，如过滤移动链接选项。如果你想了解这方面的更多信息，请查阅 Moralis 文件。
 
 ### 如何认证 Web3 用户—幻影钱包
 

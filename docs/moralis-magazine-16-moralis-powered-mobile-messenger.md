@@ -1,24 +1,24 @@
-# 道德杂志第 16 期——道德手机信使
+# Moralis 杂志第 16 期——Moralis 手机信使
 
 > 原文：<https://moralis.io/moralis-magazine-16-moralis-powered-mobile-messenger/>
 
-# 什么是道德？
+# 什么是 Moralis？
 
 我们(Moralis DAO)支持并使用现有的最健壮和最强大的 Web3 框架。
 
 **Moralis 是一个强大的 Web3 框架**，但是作为 Moralis DAO，我们不仅仅是这样。我们希望通过为您提供快速构建应用程序所需的工具和组件来帮助您提升开发水平。
 
-道德杂志假期系列下周开始！
+Moralis 杂志假期系列下周开始！
 
-你不会想错过未来几周的《道德》杂志，因为我们为所有的道德法师准备了大量的宝藏！因此，在这个假期加入我们，享受 dApp 建筑冒险的舒适小屋。
+你不会想错过未来几周的《Moralis》杂志，因为我们为所有的 Moralis 法师准备了大量的宝藏！因此，在这个假期加入我们，享受 dApp 建筑冒险的舒适小屋。
 
 ![](img/74c63a096555d71de9cc0b584d8b2f6d.png)
 
-你在用道德建造什么？你卡住了吗？向我们提出问题和意见。谁知道呢，我们甚至可能会在未来的杂志上直接回复你！
+你在用 Moralis 建造什么？你卡住了吗？向我们提出问题和意见。谁知道呢，我们甚至可能会在未来的杂志上直接回复你！
 
 [**发送您的问题给我们**](https://ivanontech.typeform.com/to/R9K5lnGe)
 
-## 全球韦伯——由道德建造
+## 全球韦伯——由 Moralis 建造
 
 这些天，“元宇宙”似乎在每个人的脑海中，大量的数字世界正在发展，每个人都承诺他们自己的虚拟世界的愿景，以进行互动。
 
@@ -28,39 +28,39 @@
 
 然而，不要相信我们的话，自己去看看吧！只需要一个 Web3 钱包(比如 MetaMask)就可以开始了。
 
-#### 游戏开发者的道德观
+#### 游戏开发者的 Moralis 观
 
-全球韦伯只是众多不同的区块链游戏中的一个例子，这些游戏可以在后台使用道德。
+全球韦伯只是众多不同的区块链游戏中的一个例子，这些游戏可以在后台使用 Moralis。
 
 为了增加开发者的可访问性，正如上周宣布的，Moralis/Unity SDK 正在开发中。这将允许将 Web3 功能快速集成到基于 Unity 的游戏中。
 
-### 迫不及待——现在就想开发一款基于道德的多人游戏吗？
+### 迫不及待——现在就想开发一款基于 Moralis 的多人游戏吗？
 
 我们有工具来帮助您！查看这些教学视频，了解详细信息和技巧，由独一无二的 Ivan on Tech 制作:
 
 https://www.youtube.com/watch?v=QoBHweBw2Gshttps://www.youtube.com/watch?v=FIutG9R38ko
 
-本周的挑战是构建一个多人游戏:[https://github.com/ethereum-boilerplate/multiplayer-poc](https://github.com/ethereum-boilerplate/multiplayer-poc)。当你的游戏准备好了，一定要让我们看看你做了什么！获胜的参与者将从我们的稀有收藏品中获得一个独家无聊的道德法师 NFT。
+本周的挑战是构建一个多人游戏:[https://github.com/ethereum-boilerplate/multiplayer-poc](https://github.com/ethereum-boilerplate/multiplayer-poc)。当你的游戏准备好了，一定要让我们看看你做了什么！获胜的参与者将从我们的稀有收藏品中获得一个独家无聊的 Moralis 法师 NFT。
 
 ## 雪崩黑客马拉松来了！
 
-已经承诺成为一个大事件，你不想错过[道德雪崩黑客马拉松](https://moralis.io/avalanche-hackathon/)。随着超过 350，000 美元奖金的争夺，我们正在寻找，领域，并资助雪崩发展的未来；并确保你拥有获得成功的最佳工具:道德网 3。
+已经承诺成为一个大事件，你不想错过[Moralis 雪崩黑客马拉松](https://moralis.io/avalanche-hackathon/)。随着超过 350，000 美元奖金的争夺，我们正在寻找，领域，并资助雪崩发展的未来；并确保你拥有获得成功的最佳工具:Moralis 网 3。
 
 ![](img/10f214c1487889225046ad6f3c9d7a48.png)
 
 更多详情见官方公告:[https://moralis . io/presenting-the-moralis-avalanche-hackathon/？UTM _ source = Twitter&UTM _ medium = socials&UTM _ campaign = AVAX-HACK-PR](https://moralis.io/presenting-the-moralis-avalanche-hackathon/?utm_source=Twitter&utm_medium=socials&utm_campaign=AVAX-HACK-PR)。
 
-## 我们都是道德家
+## 我们都是 Moralis 家
 
-你们每个人都是非凡事物的一部分，这本杂志就是要让道德的力量为你所用！
+你们每个人都是非凡事物的一部分，这本杂志就是要让 Moralis 的力量为你所用！
 
-我们都是道德家，在这里互相支持。如果你不是已经活跃在[道貌岸然道不和](https://discord.com/invite/P9N9HF97hH)的话，今天就是让你登场的日子。
+我们都是 Moralis 家，在这里互相支持。如果你不是已经活跃在[道貌岸然道不和](https://discord.com/invite/P9N9HF97hH)的话，今天就是让你登场的日子。
 
-在道德道的冲突中，你会发现一堆道德专家和法师同伴。发布您的项目并从社区获得反馈，参与编码挑战，并了解最新的 Moralis 特性和更新。
+在 Moralis 道的冲突中，你会发现一堆 Moralis 专家和法师同伴。发布您的项目并从社区获得反馈，参与编码挑战，并了解最新的 Moralis 特性和更新。
 
-### 加入多链怪物/道德学院赠品
+### 加入多链怪物/Moralis 学院赠品
 
-道德和多链怪物正在赠送 PMON 代币和免费道德学院访问！这是一个双赢的局面，你所要做的就是发推文和标签来获得资格:[https://Twitter . com/MoralisAcademy/status/1465321295462207494](https://twitter.com/MoralisAcademy/status/1465321295462207494)。
+Moralis 和多链怪物正在赠送 PMON 代币和免费 Moralis 学院访问！这是一个双赢的局面，你所要做的就是发推文和标签来获得资格:[https://Twitter . com/MoralisAcademy/status/1465321295462207494](https://twitter.com/MoralisAcademy/status/1465321295462207494)。
 
 赠品不会持续太久；今天一定要进！
 
@@ -80,10 +80,10 @@ https://www.youtube.com/watch?v=5HIsa26LnYY&t=731s
 
 * * *
 
-感谢阅读！我们希望本周的道德杂志对你有用。
+感谢阅读！我们希望本周的 Moralis 杂志对你有用。
 
 继续建造！
 
 下次见💚
 
-道德研究小组
+Moralis 研究小组

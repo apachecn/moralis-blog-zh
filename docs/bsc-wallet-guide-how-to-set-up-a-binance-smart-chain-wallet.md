@@ -91,7 +91,7 @@
 在将 BSC(或任何其他区块链)添加到元掩码时，您有两种选择:
 
 1.  手动操作**。*这是一种更安全的方法，因此也是我们推荐的方法。***
-***   自动完成**。*使用一个信誉良好的网站，点击一个按钮* *就可以添加一个特定的链* ***。这是一种更快的方法，但有潜在的危险。如果您决定使用这种方法，请确保您信任该网站。有许多网站提供这种捷径；然而，我们不能担保他们。不过，我们可以担保道德。因此，请查看下面的说明。*******
+***   自动完成**。*使用一个信誉良好的网站，点击一个按钮* *就可以添加一个特定的链* ***。这是一种更快的方法，但有潜在的危险。如果您决定使用这种方法，请确保您信任该网站。有许多网站提供这种捷径；然而，我们不能担保他们。不过，我们可以担保 Moralis。因此，请查看下面的说明。*******
 
 #### ****如何手动将 BSC Wallet 添加到元掩码****
 
@@ -124,7 +124,7 @@
 
 #### 如何自动将 BSC Wallet 添加到元掩码
 
-如果你计划使用 Moralis 来加速你的 dApp 开发，你需要[创建你的免费 Moralis 账户](https://admin.moralis.io/register)。因此，您将能够访问您的道德管理区。在这里，您可以选择通过单击按钮将 BSC 钱包添加到元掩码中。方法如下:
+如果你计划使用 Moralis 来加速你的 dApp 开发，你需要[创建你的免费 Moralis 账户](https://admin.moralis.io/register)。因此，您将能够访问您的 Moralis 管理区。在这里，您可以选择通过单击按钮将 BSC 钱包添加到元掩码中。方法如下:
 
 1.  选择“快速节点”选项卡:
 
@@ -144,6 +144,6 @@
 
 在这本币安智能连锁钱包指南中，我们已经介绍了很多内容。因此，您现在知道了什么是 BSC wallet，以及如何为开发目的设置它。在此过程中，您还了解了一些关于币安智能链条的有用信息，以及它与币安链条的不同之处。此外，您还了解了最终的 Web3 开发平台 Moralis。后者使您能够在几分钟内[创建一个 BSC 令牌](https://moralis.io/how-to-create-a-bsc-token-in-5-steps/)或[构建 BSC dapp](https://moralis.io/how-to-build-bsc-dapps-easily/)，而不用担心后端。此外，Moralis 也是了解所有 BSC 相关事物的最佳地点之一，比如 [BEP-20](https://moralis.io/what-is-bep20-full-binance-smart-chain-token-guide/) 和 [BscScan](https://moralis.io/exploring-bscscan-full-guide/) 。
 
-此外， [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)是继续免费区块链教育的绝佳资源。这两个出口都拥有无数的示例项目，并解决了许多有趣的加密主题。例如，我们的一些最新文章专注于[可升级智能合约](https://moralis.io/what-are-upgradable-smart-contracts-full-guide/)、 [Web3 数据科学](https://moralis.io/web3-data-science-importing-on-chain-events/)、[如何铸造 10，000 个 NFT](https://moralis.io/how-to-mint-10000-nfts-full-walkthrough/)、 [NFT 游戏角色](https://moralis.io/nft-game-characters-how-to-mint-in-game-nft-characters/)、 [Web3 游戏化](https://moralis.io/web3-gamification-creating-a-coinmarketcap-diamonds-dapp/)、 [React Native Web3](https://moralis.io/react-native-web3-full-react-native-web3-dev-guide/) 以及[什么是元宇宙](https://moralis.io/what-is-the-metaverse-full-guide/)。然而，如果你是那些渴望尽快成为全职加密员的人之一，那么你可能需要考虑一个更专业的方法。如果是这样的话，你或许应该报名参加[道德学院](https://academy.moralis.io/)。除了获得优秀的[课程](https://academy.moralis.io/all-courses)，你还将成为一个不可思议的社区的一部分。除此之外，您将获得一份详细的计划，以最佳方式优化您的学习路径，并获得专家指导。
+此外， [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)是继续免费区块链教育的绝佳资源。这两个出口都拥有无数的示例项目，并解决了许多有趣的加密主题。例如，我们的一些最新文章专注于[可升级智能合约](https://moralis.io/what-are-upgradable-smart-contracts-full-guide/)、 [Web3 数据科学](https://moralis.io/web3-data-science-importing-on-chain-events/)、[如何铸造 10，000 个 NFT](https://moralis.io/how-to-mint-10000-nfts-full-walkthrough/)、 [NFT 游戏角色](https://moralis.io/nft-game-characters-how-to-mint-in-game-nft-characters/)、 [Web3 游戏化](https://moralis.io/web3-gamification-creating-a-coinmarketcap-diamonds-dapp/)、 [React Native Web3](https://moralis.io/react-native-web3-full-react-native-web3-dev-guide/) 以及[什么是元宇宙](https://moralis.io/what-is-the-metaverse-full-guide/)。然而，如果你是那些渴望尽快成为全职加密员的人之一，那么你可能需要考虑一个更专业的方法。如果是这样的话，你或许应该报名参加[Moralis 学院](https://academy.moralis.io/)。除了获得优秀的[课程](https://academy.moralis.io/all-courses)，你还将成为一个不可思议的社区的一部分。除此之外，您将获得一份详细的计划，以最佳方式优化您的学习路径，并获得专家指导。
 
 ![](img/df35eca22843d0cc42cb7646ddb78ff3.png)****

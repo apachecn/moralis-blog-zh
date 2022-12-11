@@ -45,7 +45,7 @@
 
 # **使用 Moralis 开发 BEP20 令牌**
 
-我们将深入探讨使用 Moralis 进行 BEP20 令牌开发，因为它提供了在 BSC 上创建和部署令牌的最简单快捷的方法。要跟进，请确保[登录您的道德账户](https://admin.moralis.io/login)。如果你还没有账户，现在就花时间[注册你的免费账户](https://admin.moralis.io/register)。
+我们将深入探讨使用 Moralis 进行 BEP20 令牌开发，因为它提供了在 BSC 上创建和部署令牌的最简单快捷的方法。要跟进，请确保[登录您的 Moralis 账户](https://admin.moralis.io/login)。如果你还没有账户，现在就花时间[注册你的免费账户](https://admin.moralis.io/register)。
 
 此外，请记住，还有其他方法可以开发 BEP20 令牌；然而，我们将关注最快和最简单的方法。因此，除了 Moralis，我们将使用各种工具，如 [MetaMask](https://moralis.io/metamask-explained-what-is-metamask/) 、 [Remix](https://moralis.io/remix-explained-what-is-remix/) 和 OpenZeppelin。
 
@@ -94,7 +94,7 @@ Moralis 还为包括 BSC 节点在内的所有 Moralis 快速节点提供了 [We
 新窗口打开后，您需要添加以下信息:
 
 *   **网络名称** : BSC Testnet
-*   **新的 RPC URL** :“输入道德快速节点 URL”
+*   **新的 RPC URL** :“输入 Moralis 快速节点 URL”
 *   **链条 ID** : 97
 *   **货币符号** : BNB
 *   **拦截浏览器网址**:https://testnet.bscscan.com

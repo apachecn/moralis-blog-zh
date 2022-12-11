@@ -42,11 +42,11 @@
 
 ![](img/52b06b5630fddfdafd7b8adb3442849a.png)
 
-## 带有 SMS 消息的 Web3 事件–道德设置
+## 带有 SMS 消息的 Web3 事件–Moralis 设置
 
 为了获得 Moralis 的完整后端功能，您需要创建一个 Moralis 服务器。因此，这也将使您能够通过 SMS 消息获得 Web3 事件。因此，以下是要遵循的步骤:
 
-1.  [**创建一个免费的 Moralis 账户**](https://admin.moralis.io/register)–点击左边的链接，创建你的免费 Moralis 账户。您只需要输入您的电子邮件地址并创建您的密码。最后，您还需要确认您的帐户才能完成该过程(单击将发送给您的确认电子邮件中的确认链接)。另一方面，如果你已经有了你的道德账户，只需[登录](https://admin.moralis.io/login)。
+1.  [**创建一个免费的 Moralis 账户**](https://admin.moralis.io/register)–点击左边的链接，创建你的免费 Moralis 账户。您只需要输入您的电子邮件地址并创建您的密码。最后，您还需要确认您的帐户才能完成该过程(单击将发送给您的确认电子邮件中的确认链接)。另一方面，如果你已经有了你的 Moralis 账户，只需[登录](https://admin.moralis.io/login)。
 2.  **[创建一个 Moralis 服务器](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)**–一旦登录，你需要进入你的 Moralis 管理区的“服务器”标签。然后，点击右上角的“+创建新服务器”按钮(见下图)。将出现一个下拉菜单，为您提供三个网络类型选项。由于我们将承担一个示例项目，我们建议您选择“Testnet 服务器”选项*(参见我们的* [*以太坊 testnet*](https://moralis.io/ethereum-testnet-guide-connect-to-ethereum-testnets/) *指南)*。*然而，当你想与各种 Mainnet 交互时，你需要选择“Mainnet Server”。*
 
 ![](img/a6a2bda37ff810cd5b7dd4f355d051eb.png)
@@ -135,12 +135,12 @@ https://www.youtube.com/watch?v=PEILxU53-Zs
 
 如果你正在阅读这篇文章，你一定已经完成了上面的示例项目，这意味着你现在知道如何设置来获取链上事件的文本消息。此外，您知道 Moralis 是最终的 Web3 开发工具，它使这个特性尽可能简单。总而言之，您需要完成以下步骤:
 
-1.  创建一个道德服务器。
+1.  创建一个 Moralis 服务器。
 2.  使用我们的智能合同模板或创建自己的模板，并使用 Remix 进行部署。
 3.  添加新的同步事件。
 4.  建立 Twilio 和 OneSignal 账户。
 5.  创建一个适当的云函数，在智能合同事件和 OneSignal 之间建立通信，以便为链上事件发送文本消息。
 
-此外，如果你喜欢这个示例项目，我们鼓励你访问[道德的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德的博客](https://moralis.io/blog/)。在那里，我们定期发布新鲜的教育和励志内容。我们的一些最新主题向您展示了如何[构建跨链 dApp](https://moralis.io/how-to-build-cross-chain-dapps/)、[托管 dApp](https://moralis.io/how-to-host-a-dapp-dapp-hosting-explained/) 、[构建去中心化的消息应用](https://moralis.io/build-a-decentralized-messaging-app-in-5-steps/)、[创建 OpenSea 克隆](https://moralis.io/create-an-opensea-clone-build-an-nft-marketplace-like-opensea/)、[无油费的 mint NFTs](https://moralis.io/how-to-mint-nfts-without-gas-fees/)，向您介绍终极的 [Web3 样板文件](https://moralis.io/web3-boilerplate-beginners-guide-to-web3/)等等。从本质上说，我们的两个网点都是很好的区块链发展教育，如果你想成为一名区块链的开发者，这些教育是非常有价值的。此外，如果你想满怀信心地去全职加密，我们建议你去[道德学院](https://academy.moralis.io/)学习高质量的课程。
+此外，如果你喜欢这个示例项目，我们鼓励你访问[Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 的博客](https://moralis.io/blog/)。在那里，我们定期发布新鲜的教育和励志内容。我们的一些最新主题向您展示了如何[构建跨链 dApp](https://moralis.io/how-to-build-cross-chain-dapps/)、[托管 dApp](https://moralis.io/how-to-host-a-dapp-dapp-hosting-explained/) 、[构建去中心化的消息应用](https://moralis.io/build-a-decentralized-messaging-app-in-5-steps/)、[创建 OpenSea 克隆](https://moralis.io/create-an-opensea-clone-build-an-nft-marketplace-like-opensea/)、[无油费的 mint NFTs](https://moralis.io/how-to-mint-nfts-without-gas-fees/)，向您介绍终极的 [Web3 样板文件](https://moralis.io/web3-boilerplate-beginners-guide-to-web3/)等等。从本质上说，我们的两个网点都是很好的区块链发展教育，如果你想成为一名区块链的开发者，这些教育是非常有价值的。此外，如果你想满怀信心地去全职加密，我们建议你去[Moralis 学院](https://academy.moralis.io/)学习高质量的课程。
 
 ![](img/9e0314ea4d5c33fcdaca91c888fb82a3.png)

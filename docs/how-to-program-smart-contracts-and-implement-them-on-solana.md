@@ -34,7 +34,7 @@ pub fn process_instruction(
 
 ### 概观
 
-接下来，我们将首先确保您了解什么是智能合同。然后，我们将把重点放在你需要用来编写智能合同的编程语言上。这是我们将遇到的索拉纳和 EVM 相容链之间的第一个主要区别。毕竟，在 Solana 上编程智能合约需要一种不同于以太坊编程的方法。此外，在本文中，我们将重点关注索拉纳网络。然而，我们将看看以太坊和索拉纳的一些智能合约示例，以确保您正确理解它们的关键组成部分。最后但同样重要的是，我们将一步一步地讲解如何在 Solana 上编写智能合同。这也是你使用 Moralis 带给你的终极 Solana API 的地方。因此，一定要准备好你的免费道德账户。
+接下来，我们将首先确保您了解什么是智能合同。然后，我们将把重点放在你需要用来编写智能合同的编程语言上。这是我们将遇到的索拉纳和 EVM 相容链之间的第一个主要区别。毕竟，在 Solana 上编程智能合约需要一种不同于以太坊编程的方法。此外，在本文中，我们将重点关注索拉纳网络。然而，我们将看看以太坊和索拉纳的一些智能合约示例，以确保您正确理解它们的关键组成部分。最后但同样重要的是，我们将一步一步地讲解如何在 Solana 上编写智能合同。这也是你使用 Moralis 带给你的终极 Solana API 的地方。因此，一定要准备好你的免费 Moralis 账户。
 
 ![Two users shaking hands while holding Solana smart contracts.](img/b2ed2b6e11acd60d773c96646590970d.png)
 
@@ -66,7 +66,7 @@ pub fn process_instruction(
 
 尽管如此，除了不同的编程语言之外，Solana 上的智能契约开发还需要不同的工具。例如，你不能使用 MetaMask Web3 钱包来支付 Solana 的交易费用。此外，您不能使用 Hardhat 或 Remix 来编译、部署和验证智能合约。相反，您必须使用为 Solana 编程设计的工具。首先，你需要 Solana CLI，还需要使用 Solana Web3 钱包。在下面的教程中，你会学到更多创建 Solana 程序所需的工具。
 
-*注:如果你想学习* [*铁锈编程*](https://academy.moralis.io/courses/rust-programming) *，道德学院有很棒的课程。*
+*注:如果你想学习* [*铁锈编程*](https://academy.moralis.io/courses/rust-programming) *，Moralis 学院有很棒的课程。*
 
 ## 智能合同示例
 
@@ -319,8 +319,8 @@ solana program deploy ./target/deploy/hello_world.so
 
 ## 如何编写智能合同并在 Solana 上实施——摘要
 
-在今天的文章中，您有机会学习如何在 Solana 上编写智能合同。然而，在我们开始本教程之前，我们已经介绍了基础知识。因此，您了解了智能合约是存储在区块链上的可执行代码集群。这些代码行可以读取和修改链上账户。您还了解到，Solana 的智能合约被称为程序。此外，我们解释了索拉纳和 EVM 兼容链使用不同的智能合约编程语言。后者使用 Solidity 和 Vyper，而 Rust 是 Solana 最受欢迎的选项。我们还看了一些智能合同示例。最后但同样重要的是，您有机会跟随我们的领导，创建和部署您自己的 Solana 程序。此外，你还有机会通过在几分钟内创建你的 dapp 来体验道德的力量。
+在今天的文章中，您有机会学习如何在 Solana 上编写智能合同。然而，在我们开始本教程之前，我们已经介绍了基础知识。因此，您了解了智能合约是存储在区块链上的可执行代码集群。这些代码行可以读取和修改链上账户。您还了解到，Solana 的智能合约被称为程序。此外，我们解释了索拉纳和 EVM 兼容链使用不同的智能合约编程语言。后者使用 Solidity 和 Vyper，而 Rust 是 Solana 最受欢迎的选项。我们还看了一些智能合同示例。最后但同样重要的是，您有机会跟随我们的领导，创建和部署您自己的 Solana 程序。此外，你还有机会通过在几分钟内创建你的 dapp 来体验 Moralis 的力量。
 
 如果你有兴趣了解更多关于 Solana 或以太坊的开发，请务必访问 [Moralis 文档](https://docs.moralis.io/)、 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)。这些资源包含教程和简单解释的完美结合，可以帮助你免费成为 Web3 开发者。我们的一些最新文章向您展示了如何将[动态 Web3 认证](https://moralis.io/add-dynamic-web3-authentication-to-a-website/)添加到网站，如何使用 [Firebase 作为 Web3](https://moralis.io/how-to-use-firebase-as-a-proxy-api-for-web3/) 的代理 API，如何集成[基于区块链的认证](https://moralis.io/blockchain-based-authentication-how-to-integrate/)，如何使用 [NodeJS Web3 示例](https://moralis.io/nodejs-web3-tutorial-create-dapps-using-a-nodejs-web3-example/)创建 dapps，等等。
 
-此外，您可能会对更专业的加密教育方法感兴趣。如果是这样的话，[道德学院](https://academy.moralis.io/)就是你需要的。在那里，你将成为区块链认证，这将有助于你去全职加密明显更快。
+此外，您可能会对更专业的加密教育方法感兴趣。如果是这样的话，[Moralis 学院](https://academy.moralis.io/)就是你需要的。在那里，你将成为区块链认证，这将有助于你去全职加密明显更快。

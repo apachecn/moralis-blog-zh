@@ -75,7 +75,7 @@ BSC 与最初的“币安链”并行构建，是交叉兼容的。因此，它�
 
 是否有可能使用 Infura BSC 替代方案构建 NFTs 和 NFT 平台，并降低交易费用？绝对的！
 
-为了理解 NFT，并深入研究有关铸造和销售以太币气体费用的问题，您可能希望从这篇文章开始，文章的主题是"[什么是 NFT？](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/)之后是关于 [NFT 编程的基础课程](https://moralis.io/nft-programming-for-beginners/)。此外，你可以了解在你的项目中使用道德家 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 的独特优势。Moralis 超越了节点支持，为您提供全面的 Web3 工具包，帮助您在几分钟内启动项目，而不是几周！此外，你可以选择在哪个区块链上进行构建，这样你就可以规避高昂的交易费用。
+为了理解 NFT，并深入研究有关铸造和销售以太币气体费用的问题，您可能希望从这篇文章开始，文章的主题是"[什么是 NFT？](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/)之后是关于 [NFT 编程的基础课程](https://moralis.io/nft-programming-for-beginners/)。此外，你可以了解在你的项目中使用 Moralis 家 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 的独特优势。Moralis 超越了节点支持，为您提供全面的 Web3 工具包，帮助您在几分钟内启动项目，而不是几周！此外，你可以选择在哪个区块链上进行构建，这样你就可以规避高昂的交易费用。
 
 ## 3.生态系统
 
@@ -97,7 +97,7 @@ BSC 的 TVL 或“锁定总价值”在 2021 年 8 月达到 289 亿美元，增
 
 ## “平衡计分卡信息系统”备选方案示例
 
-1.  道德
+1.  Moralis
 
 Moralis 是“BSC 的 Infura”选项的跨链等价物。作为 Infura BSC 的替代产品，它提供了节点支持基础设施。然而，与其他提供商不同，Moralis 提供了一个比典型的节点提供商或 IaaS 平台更全面的 Web3 基础设施，这些节点提供商或 IaaS 平台已经跟随 Infura 进入了这个领域。
 
@@ -113,7 +113,7 @@ Moralis 不断增加其 Web3 堆栈，使其更容易[创建自己的 NFT](https
 
 最终，Moralis 用户享受到了两个世界的精华:一个是精心设计的前端，另一个是完全支持的、健壮的、跨链兼容的、可无限扩展的后端——只需一行代码就可集成。
 
-#### 道德快速节点
+#### Moralis 快速节点
 
 ![](img/884aeddc8ea89f667239350817ce5225.png)
 
@@ -121,7 +121,7 @@ Moralis 不断增加其 Web3 堆栈，使其更容易[创建自己的 NFT](https
 
 使用 Moralis 时，您可以确保隐私和安全。它不记录用户请求或 IP 地址。审查您的节点提供商的隐私政策以确保没有意外是很重要的。
 
-#### 道德特征
+#### Moralis 特征
 
 *   轻松[用户认证](https://docs.moralis.io/moralis-server/getting-started/quick-start#authentication)。
 *   具有 [IPFS 支持](https://docs.moralis.io/moralis-server/files/ipfs)的分散式数据存储。

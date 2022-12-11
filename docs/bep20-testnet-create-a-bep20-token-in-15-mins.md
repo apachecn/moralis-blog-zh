@@ -42,7 +42,7 @@ BSC 是“币安智能链”的缩写，BSC 是币安生态系统的两个组成
 
 ## 如何创建 BEP20 令牌:入门
 
-现在我们更好地理解了 BSC 以及 BEP20 令牌是什么，我们可以在创建令牌本身之前查看必要的准备工作。因此，我们首先需要一个工作的 RPC 节点，因为我们需要将我们的[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)网络更改为 BSC 的 testnet。遗憾的是，BSC 的 testnet 并不是 MetaMask 的默认网络之一；然而，这正是为什么我们需要道德的快速节点。
+现在我们更好地理解了 BSC 以及 BEP20 令牌是什么，我们可以在创建令牌本身之前查看必要的准备工作。因此，我们首先需要一个工作的 RPC 节点，因为我们需要将我们的[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)网络更改为 BSC 的 testnet。遗憾的是，BSC 的 testnet 并不是 MetaMask 的默认网络之一；然而，这正是为什么我们需要 Moralis 的快速节点。
 
 ![](img/45f10b114defd0afe62155bd00ec1948.png)
 
@@ -54,7 +54,7 @@ BSC 是“币安智能链”的缩写，BSC 是币安生态系统的两个组成
 
 因此，首先，我们需要一个节点将元掩码网络更改为 BSC 的 testnet。获取节点的最佳和最有效的方式是使用 Moralis 提供的快速节点服务。这将为您提供一些市场上最快、最可靠的节点，我们可以使用它们将 BEP20 令牌部署到 testnet。
 
-如果你还没有，第一步是注册道德。一旦你有一个帐户，你可以导航到道德管理面板，然后点击“快速节点”标签。单击此选项卡将提供几个不同的选项供您选择，但由于我们正在构建 BEP20 令牌，您将需要选择“BSC 网络”。
+如果你还没有，第一步是注册 Moralis。一旦你有一个帐户，你可以导航到 Moralis 管理面板，然后点击“快速节点”标签。单击此选项卡将提供几个不同的选项供您选择，但由于我们正在构建 BEP20 令牌，您将需要选择“BSC 网络”。
 
 ![](img/1b277e6c94706ee707389c250cd131ce.png)
 
@@ -69,7 +69,7 @@ BSC 是“币安智能链”的缩写，BSC 是币安生态系统的两个组成
 这将提供一个新窗口，您需要在其中添加以下信息:
 
 *   网络名称:BSC Testnet
-*   新的 RPC URL: " *输入道德快速节点 URL* "
+*   新的 RPC URL: " *输入 Moralis 快速节点 URL* "
 *   链条编号:97
 *   货币符号:BNB
 *   区块浏览器网址:[https://testnet.bscscan.com](https://testnet.bscscan.com/)
@@ -176,6 +176,6 @@ contract tokenName is ERC20 {
 4.  编写合同代码。
 5.  编译和部署合同。
 
-通过遵循这五个步骤，我们创建了 BEP20 令牌，并轻松快速地将其添加到我们的 MetaMask 钱包中。因此，这展示了道德的力量；但是，这远远不是平台的极限。有了 Moralis，从[创建 DEX](https://moralis.io/how-to-create-a-dex-in-5-steps/) 到[构建 ETH dApps](https://moralis.io/how-to-build-eth-dapps-quickly/) 等等，一切都有可能实现！
+通过遵循这五个步骤，我们创建了 BEP20 令牌，并轻松快速地将其添加到我们的 MetaMask 钱包中。因此，这展示了 Moralis 的力量；但是，这远远不是平台的极限。有了 Moralis，从[创建 DEX](https://moralis.io/how-to-create-a-dex-in-5-steps/) 到[构建 ETH dApps](https://moralis.io/how-to-build-eth-dapps-quickly/) 等等，一切都有可能实现！
 
 此外，该平台提供了额外的有价值的开发工具，如 [Moralis Price API](https://moralis.io/introducing-the-moralis-price-api/) 、 [NFT API](https://moralis.io/announcing-the-moralis-nft-api/) 、对 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 的本地支持等。因此，如果你想开发 dApps 或额外的代币，[马上向 Moralis](https://admin.moralis.io/register) 注册！注册是完全免费的，只需要几秒钟就可以开始 Web3 开发。

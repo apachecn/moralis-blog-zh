@@ -8,7 +8,7 @@
 
 区块链开发中最耗时的一个方面是后端开发。开发一个完整的后端基础设施需要时间和资源；然而，程序员在构建 with[Moralis](https://moralis.io/)时不再需要从头开始构建这个基础设施。Moralis 是排名第一的 Web3 操作系统，支持 Web3 开发，并为您完成所有繁重的 Web3 工作。
 
-所以，如果你想成为一名区块链开发者，一定要马上去看看并加入 Moralis！加入该平台将为您提供后端基础设施以及工具，如[道德 NFT](https://moralis.io/announcing-the-moralis-nft-api/) 和[价格 API](https://moralis.io/introducing-the-moralis-price-api/) 、[道德快速节点](https://moralis.io/speedy-nodes/)等。此外，Moralis 提供了与所有其他 Moralis 功能深度集成的[终极 NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) ，如 [BEP20 令牌开发](https://moralis.io/bep20-token-development-full-guide/)、 [NFT 编程](https://moralis.io/nft-programming-for-beginners/)、如何[构建以太坊 dapp](https://moralis.io/ultimate-guide-how-to-build-ethereum-dapps/)等等。
+所以，如果你想成为一名区块链开发者，一定要马上去看看并加入 Moralis！加入该平台将为您提供后端基础设施以及工具，如[Moralis NFT](https://moralis.io/announcing-the-moralis-nft-api/) 和[价格 API](https://moralis.io/introducing-the-moralis-price-api/) 、[Moralis 快速节点](https://moralis.io/speedy-nodes/)等。此外，Moralis 提供了与所有其他 Moralis 功能深度集成的[终极 NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) ，如 [BEP20 令牌开发](https://moralis.io/bep20-token-development-full-guide/)、 [NFT 编程](https://moralis.io/nft-programming-for-beginners/)、如何[构建以太坊 dapp](https://moralis.io/ultimate-guide-how-to-build-ethereum-dapps/)等等。
 
 ### 什么是 dApps？
 
@@ -80,7 +80,7 @@ Solidity 是一种面向对象的编程语言，用于编写 [EVM](https://moral
 
 该框架提供了一系列优秀的特性来帮助开发过程。例如智能合同管理、自动化合同测试、脚本化迁移和部署、网络管理和交互式控制台。
 
-所有这些功能在开发智能合约时都很有帮助，所以如果你感兴趣，我们强烈建议你去看看 Truffle。例如，你可以在[道德的博客](https://moralis.io/blog/)上阅读更多关于完整的[松露套件](https://moralis.io/truffle-explained-what-is-the-truffle-suite/)生态系统的信息。
+所有这些功能在开发智能合约时都很有帮助，所以如果你感兴趣，我们强烈建议你去看看 Truffle。例如，你可以在[Moralis 的博客](https://moralis.io/blog/)上阅读更多关于完整的[松露套件](https://moralis.io/truffle-explained-what-is-the-truffle-suite/)生态系统的信息。
 
 ### 加纳切
 

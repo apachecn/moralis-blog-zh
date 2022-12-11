@@ -30,7 +30,7 @@ ERC-721 令牌和 NFT 通常代表从物理和数字资产的几乎任何东西�
 
 由于我们将使用 Moralis 制作一个 ERC-721 令牌，该过程包括五个步骤:
 
-1.  初始化道德并找到一个聪明的契约。
+1.  初始化 Moralis 并找到一个聪明的契约。
 2.  建立一个 HTML 索引文件。
 3.  创建登录功能。
 4.  增加上传功能。
@@ -38,7 +38,7 @@ ERC-721 令牌和 NFT 通常代表从物理和数字资产的几乎任何东西�
 
 实施这些步骤将导致 dApp 可以铸造不止一个 ERC-721 令牌。此外，因为我们在整个过程中与 Moralis 一起工作，所以几乎不需要预先开发技能。然而，最好有一些关于 JavaScript 的知识，因为这将有助于开发过程。
 
-尽管如此，这些步骤非常简单，如果你想仔细看看，可以看看关于如何创建自己的 NFT 的文章。此外，你也可以从[道德的 YouTube 频道](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw)中查看以下片段。这是完整过程的清晰而出色的视频指南:
+尽管如此，这些步骤非常简单，如果你想仔细看看，可以看看关于如何创建自己的 NFT 的文章。此外，你也可以从[Moralis 的 YouTube 频道](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw)中查看以下片段。这是完整过程的清晰而出色的视频指南:
 
 https://www.youtube.com/watch?v=WdQHnb_5m5Q
 
@@ -79,7 +79,7 @@ ERC-721 令牌合同仅设计用于创建一种特定类型的 NFT，这在某�
 
 然而，这种动态性的缺点是 ERC-1155 令牌要复杂得多。因此，我们建议新开发人员开始开发 ERC721 令牌，因为它们更容易处理。
 
-### 什么是道德？
+### 什么是 Moralis？
 
 Moralis 是在钱包之间创建和发送 ERC721 代币的首要平台，还有许多其他功能。具体来说，Moralis 让您有可能节省时间和金钱，不仅是在 [NFT 令牌开发](https://moralis.io/nft-token-development-the-ultimate-guide/)中，而且在创建 dApps 时也是如此。
 
@@ -87,7 +87,7 @@ Moralis 是在钱包之间创建和发送 ERC721 代币的首要平台，还有�
 
 Moralis 平台的众多好处之一是用户可以访问已经开发的后端基础设施。这为你未来的区块链项目提供了一个更快的开发过程。此外，它也是基础设施以及 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) ，使您只需一行代码就能传输令牌。
 
-此外，该平台还提供了大量优秀的开发工具，使各种令牌和 dApps 的开发过程变得轻而易举。例如，你可以用[道德快速节点](https://moralis.io/speedy-nodes/)轻松[构建 ETH dApps](https://moralis.io/how-to-build-eth-dapps-quickly/) 。然而，Moralis 的快速节点服务只是该平台的众多功能之一。
+此外，该平台还提供了大量优秀的开发工具，使各种令牌和 dApps 的开发过程变得轻而易举。例如，你可以用[Moralis 快速节点](https://moralis.io/speedy-nodes/)轻松[构建 ETH dApps](https://moralis.io/how-to-build-eth-dapps-quickly/) 。然而，Moralis 的快速节点服务只是该平台的众多功能之一。
 
 如果你想成为一名区块链开发者，我们强烈推荐你去看看 Moralis 博客。新鲜的、高质量的内容频繁发布，有助于你成为更好的开发者。例如，您可以查看解释用于区块链开发的[最佳语言](https://moralis.io/best-languages-for-blockchain-development-full-tutorial/)、[RPC 节点的限制](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)、[如何创建索引](https://moralis.io/how-to-create-a-dex-in-5-steps/)或[如何创建智能合同的文章。](https://moralis.io/how-to-create-smart-contracts/)
 

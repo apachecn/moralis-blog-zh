@@ -12,7 +12,7 @@
 
 你不确定什么是稳固吗？如果是这种情况，使用前面提到的“可靠性”链接。但是，知道它是一种面向对象的编程语言应该足以帮助您理解本文。此外，Solidity 还被用于在以太坊和其他 EVM 兼容链上签署智能合约。因此，如果你想成为编写智能合同的区块链开发者，你应该熟悉这种编码语言。幸运的是，这绝不是必须的。有了像 [Remix](https://moralis.io/remix-explained-what-is-remix/) 和 [OpenZeppelin](https://moralis.io/what-is-openzeppelin-the-ultimate-guide/) 这样的工具在你身边，你可以在了解坚实的基础上走得更远。
 
-此外，当使用当前 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)的顶峰时，Moralis，加上你的 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 熟练程度和使用最流行的 [Web3 钱包](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/)、 [MetaMask](https://moralis.io/metamask-explained-what-is-metamask/) 的能力，会让你走得很远。使用 Moralis(又名 [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) )，您可以快速创建跨多个链的非凡 dapp([分散应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))。因此，如果你渴望开始建设，现在就[创建你的免费道德账户](https://admin.moralis.io/register)。
+此外，当使用当前 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)的顶峰时，Moralis，加上你的 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 熟练程度和使用最流行的 [Web3 钱包](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/)、 [MetaMask](https://moralis.io/metamask-explained-what-is-metamask/) 的能力，会让你走得很远。使用 Moralis(又名 [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) )，您可以快速创建跨多个链的非凡 dapp([分散应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))。因此，如果你渴望开始建设，现在就[创建你的免费 Moralis 账户](https://admin.moralis.io/register)。
 
 ![](img/6e8f99191edbfc9784aa1d6f3169a9ef.png)
 
@@ -176,6 +176,6 @@ https://www.youtube.com/watch?v=IkdoQI7API0
 
 因此，你可以在 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)的帮助下继续你的免费加密教育。在那里，你会找到大量的文章和示例项目，帮助你快速进步。例如，一些最新的主题向您展示了如何构建一个 [2D Web3 游戏](https://moralis.io/how-to-build-a-2d-web3-game-full-guide%ef%bf%bc/)、[如何创建一个 GameFi 游戏](https://moralis.io/gamefi-tutorial-how-to-create-a-gamefi-game/)、[如何在 2022 年进入 Web3](https://moralis.io/how-to-get-into-web3-in-2022/)，如何使用 [Web3 Firebase 认证](https://moralis.io/web3-firebase-authentication-create-a-web3-sign-in-with-moralis/)、[如何进行区块链游戏交易](https://moralis.io/how-to-do-blockchain-game-transactions-with-unity/)，如何[创建一个 web 3 音乐平台](https://moralis.io/web3-music-platform-create-a-web3-music-streaming-service/)，如何进行[无线元宇宙互动](https://moralis.io/gasless-metaverse-interactions-exploring-zero-fee-dapps/)等等
 
-另一方面，你可能渴望尽早成为 Web3 开发者。如果是这样，你应该考虑报名参加[道德学院](https://academy.moralis.io/)。通过这样做，你将获得高质量的区块链发展[课程](https://academy.moralis.io/all-courses)。其中有[以太坊智能合约编程 101](https://academy.moralis.io/courses/ethereum-smart-contract-programming-101/) 课程，可以帮助你更好的理解稳健。然而，更深层次的价值在于在另一边等待你的社区和专家指导。
+另一方面，你可能渴望尽早成为 Web3 开发者。如果是这样，你应该考虑报名参加[Moralis 学院](https://academy.moralis.io/)。通过这样做，你将获得高质量的区块链发展[课程](https://academy.moralis.io/all-courses)。其中有[以太坊智能合约编程 101](https://academy.moralis.io/courses/ethereum-smart-contract-programming-101/) 课程，可以帮助你更好的理解稳健。然而，更深层次的价值在于在另一边等待你的社区和专家指导。
 
 ![](img/b8fb32407e67e4c2816c040998aa8509.png)**

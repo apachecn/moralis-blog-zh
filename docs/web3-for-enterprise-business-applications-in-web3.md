@@ -21,7 +21,7 @@
 
 严肃的公司和企业正急切地探索向 Web3 转变的意义。然而，企业将如何利用这项技术呢？这是一个万亿美元的问题，我们将在本文中重点关注，同时深入探讨 Web3 for enterprise 的复杂性！
 
-在探索 Web3 for enterprise 之前，我们先来仔细看看 Web3 以及 Web3 行业需要什么。通过这样做，我们将展示互联网发展下一步的潜力。更重要的是，一旦我们对 Web3 for enterprise 的内涵有了更深刻的理解，我们也会更仔细地研究[道德观](https://moralis.io)。Moralis 提供了一套开发工具，使得企业进入 Web3 比以往任何时候都更容易。
+在探索 Web3 for enterprise 之前，我们先来仔细看看 Web3 以及 Web3 行业需要什么。通过这样做，我们将展示互联网发展下一步的潜力。更重要的是，一旦我们对 Web3 for enterprise 的内涵有了更深刻的理解，我们也会更仔细地研究[Moralis 观](https://moralis.io)。Moralis 提供了一套开发工具，使得企业进入 Web3 比以往任何时候都更容易。
 
 例如，Moralis 提供了各种 API，比如 NFT API。这是一个跨链兼容的工具，这意味着您可以为各种不同的区块链网络创建 NFT。因此，这一个 API，例如，充当一个完美的[以太坊 NFT API](https://moralis.io/what-is-an-ethereum-nft-api-ethereum-nft-apis-explained/) 、[多边形 NFT API](https://moralis.io/what-is-a-polygon-nft-api-polygon-nft-apis-explained/) 等。如果这听起来很有趣，仔细看看我们的指南[如何创建一个 NFT 项目](https://moralis.io/how-to-create-an-nft-project-get-started-and-launch-successfully/)，它探索了如何开始并成功启动！
 
@@ -89,7 +89,7 @@ Web3 应用程序(又名 dapps)越来越受欢迎，为用户提供了更流畅�
 
 Web3 认证允许用户使用他们的 [Web3 钱包](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/)登录。因此，没有必要为所有不同的 dapps 创建帐户。然而，实现 Web3 认证或[基于区块链的认证](https://moralis.io/blockchain-based-authentication-how-to-integrate/)可能相当棘手，这就是为什么您可能会发现利用 Moralis 很有帮助。此外，这只是三个突出的例子，说明了 Web3 在企业中可能会发挥重要作用。面向企业的 Web3 还有更多功能！
 
-## 通过道德使企业的 Web3 变得可访问
+## 通过 Moralis 使企业的 Web3 变得可访问
 
 尽管面向企业的 Web3 肯定会成为一个越来越有吸引力的机会，但该领域的进入壁垒仍然很高。从传统的角度来看，组织和企业不总是很容易愿意冒险采用新技术，因为它可能成本高昂。
 
@@ -135,6 +135,6 @@ Moralis 的 NFT API 是使 Web3 开发更容易的众多特性之一。沿着 NF
 
 然而，从传统的角度来看，企业模型很难进入区块链空间。因此，降低这一领域的准入门槛至关重要，这也是 Moralis 的切入点。Moralis 提供了更无缝的开发体验，例如，通过其 Web3 Streams API，可以更容易地认证 Web3 用户和创建 [Web3 webhooks](https://moralis.io/web3-webhooks-the-ultimate-guide-to-blockchain-webhooks/) 。
 
-假设你对这个领域感兴趣，想成为一名区块链开发者。如果是这样的话，你可以在[道德博客](https://moralis.io/blog/)这里获得新鲜相关的 [Web3 开发](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/)内容。例如，探索更多关于 [Web3 栈](https://moralis.io/web3-stack-the-full-guide-to-web3-development/)或者如何[构建一个 Solana dapp](https://moralis.io/how-to-build-a-solana-dapp-in-3-steps/) ！
+假设你对这个领域感兴趣，想成为一名区块链开发者。如果是这样的话，你可以在[Moralis 博客](https://moralis.io/blog/)这里获得新鲜相关的 [Web3 开发](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/)内容。例如，探索更多关于 [Web3 栈](https://moralis.io/web3-stack-the-full-guide-to-web3-development/)或者如何[构建一个 Solana dapp](https://moralis.io/how-to-build-a-solana-dapp-in-3-steps/) ！
 
 因此，如果您对 Web3 for enterprise 感兴趣，[注册 Moralis](https://admin.moralis.io/register) 并获得一些最佳功能，让您轻松创建 Web3 兼容的项目，并弥合 Web2 和 Web3 之间的差距！

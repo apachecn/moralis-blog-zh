@@ -22,7 +22,7 @@
 
 此外，还有其他类型的 API 与 NFTs 相关。如果这听起来很有趣，请查看 Moralis 的 [NFT API](https://moralis.io/nft-api/) ，它支持几个网络，包括币安。
 
-### 为什么用道德来创造币安 Dapps？
+### 为什么用 Moralis 来创造币安 Dapps？
 
 虽然以太坊仍然是区块链最突出的发展，但网络有其拥挤的局限性。然而，这些问题表明，该行业正走在正确的轨道上，因为它是网络上采用和交易增加的直接结果。这一拥堵问题带来了高昂的交易成本，使得在以太坊区块链开发和运行 dapp 的成本更高。这是开发商选择币安等其他网络的最重要原因之一。
 
@@ -52,7 +52,7 @@
 
 除了是一个著名的节点提供商，Moralis 还提供了其他几个重要的工具，可以提供更有吸引力的开发人员体验。你会在这些工具中找到 Moralis 的 Web3 SDK 和 Web3 API。此外，这些工具也是跨链兼容的。因此，Web3 API 适用于多个网络，是一个非常可行的币安 dapp API。此外，无论你在做什么类型的币安项目，币安 dapp API 都非常好用。因此，如果你想[创建一个 NFT 市场](https://moralis.io/how-to-create-an-nft-marketplace/)、钱包、DeFi 平台、Web3 游戏等都没关系。，API 仍然为您提供了一个更易访问的开发过程。
 
-许多 dapps 共享一组标准功能，例如，它们要求用户验证自己、发送交易、获取余额等等。因此，避免为所有 dapps 从头开始重新发明这些功能是有意义的。相反，你可以通过简单地复制和粘贴已经开发的代码片段，利用道德币安 dapp API 来实现这个特性。
+许多 dapps 共享一组标准功能，例如，它们要求用户验证自己、发送交易、获取余额等等。因此，避免为所有 dapps 从头开始重新发明这些功能是有意义的。相反，你可以通过简单地复制和粘贴已经开发的代码片段，利用 Moralis 币安 dapp API 来实现这个特性。
 
 ## Moralis 的币安 Dapp API 是如何工作的？
 
@@ -74,7 +74,7 @@ Moralis.authenticate().then(function (user) {
 
 上面的代码允许你的 dapps 用户使用他们的 [Web3 钱包](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/)登录。此外，还可以利用其他解决方案来验证用户身份。一个突出的例子是 [WalletConnect](https://moralis.io/what-is-walletconnect-the-ultimate-walletconnect-guide/) ，如果你正在开发移动应用，这是一个很好的例子。如果这听起来很有趣，看看我们关于[如何用 WalletConnect](https://moralis.io/how-to-connect-users-with-walletconnect/) 连接用户的文章。
 
-一旦用户登录，这将自动填充您的道德数据库。这些信息将实时更新，为您提供最新的供应链数据。在下面的截图中，您将看到一些您有权访问的信息。但是我们如何在 dapps 中获取和使用这些数据呢？下面一节来看看吧！
+一旦用户登录，这将自动填充您的 Moralis 数据库。这些信息将实时更新，为您提供最新的供应链数据。在下面的截图中，您将看到一些您有权访问的信息。但是我们如何在 dapps 中获取和使用这些数据呢？下面一节来看看吧！
 
 ![](img/64d9e71119aac54eac8b1abf131268c2.png)
 
@@ -145,7 +145,7 @@ const options = {
 let transaction = await Moralis.transfer(options);
 ```
 
-然而，这只是涵盖了道德的币安 NFT API 的一些基本部分。如果你想了解更多的信息，请查阅官方的道德规范文档。此外，我们建议查看一些关于如何创建 BEP-20 令牌的指南[或关于如何创建 BSC dappss 的指南](https://moralis.io/bep20-testnet-create-a-bep20-token-in-15-mins/)或关于如何创建 BSC dapp 的指南，以便直接了解币安 dapp API 的全部功能！
+然而，这只是涵盖了 Moralis 的币安 NFT API 的一些基本部分。如果你想了解更多的信息，请查阅官方的 Moralis 规范文档。此外，我们建议查看一些关于如何创建 BEP-20 令牌的指南[或关于如何创建 BSC dappss 的指南](https://moralis.io/bep20-testnet-create-a-bep20-token-in-15-mins/)或关于如何创建 BSC dapp 的指南，以便直接了解币安 dapp API 的全部功能！
 
 ## 什么是币安 Dapp API？–总结
 

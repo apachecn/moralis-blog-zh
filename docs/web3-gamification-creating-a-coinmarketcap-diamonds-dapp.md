@@ -12,7 +12,7 @@
 
 ## Web3 游戏化——一个示例项目
 
-我们坚信通过行动来学习。因此，我们尽可能包括示例项目。因此，我们强烈鼓励你跟随我们的领导，创造一个 CoinMarketCap 钻石 dApp 克隆。这样做，你会学到很多关于 Web3 游戏化的知识。此外，您将能够使用这些知识，并将其实现到更独特的 dApps 中。此外，一旦你学会如何与道德和最终的 Web3 样板合作，你将拥有额外的优势，使你的 dApps 比竞争对手的更有吸引力。有了这些非凡的工具，您将节省大量的时间、精力和资金。因为我们在这个 Web3 游戏化的探索中有相当多的领域要涉及，所以让我们直接进入主题吧。
+我们坚信通过行动来学习。因此，我们尽可能包括示例项目。因此，我们强烈鼓励你跟随我们的领导，创造一个 CoinMarketCap 钻石 dApp 克隆。这样做，你会学到很多关于 Web3 游戏化的知识。此外，您将能够使用这些知识，并将其实现到更独特的 dApps 中。此外，一旦你学会如何与 Moralis 和最终的 Web3 样板合作，你将拥有额外的优势，使你的 dApps 比竞争对手的更有吸引力。有了这些非凡的工具，您将节省大量的时间、精力和资金。因为我们在这个 Web3 游戏化的探索中有相当多的领域要涉及，所以让我们直接进入主题吧。
 
 ### Web3 游戏化示例 dApp
 
@@ -32,7 +32,7 @@
 
 ## CoinMarketCap 钻石 dApp 克隆预览
 
-当用户登陆我们的 Web3 页面时，他们会看到上面截图中显示的选项。然而，为了与我们的 dApp 合作，他们需要使用 [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/) ( [Web3 登录](https://moralis.io/how-to-build-a-web3-login-in-5-steps/))来认证他们自己。幸运的是，道德规范和样板文件使得整合这个重要的 Web3 特性变得简单明了。因此，用户只需点击“认证”按钮，并选择他们的首选方法。*为了这个预览，我们用了* [*元蒙版*](https://moralis.io/metamask-explained-what-is-metamask/) *，这是我们* [*Web3 钱包*](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/) *的选择:*
+当用户登陆我们的 Web3 页面时，他们会看到上面截图中显示的选项。然而，为了与我们的 dApp 合作，他们需要使用 [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/) ( [Web3 登录](https://moralis.io/how-to-build-a-web3-login-in-5-steps/))来认证他们自己。幸运的是，Moralis 规范和样板文件使得整合这个重要的 Web3 特性变得简单明了。因此，用户只需点击“认证”按钮，并选择他们的首选方法。*为了这个预览，我们用了* [*元蒙版*](https://moralis.io/metamask-explained-what-is-metamask/) *，这是我们* [*Web3 钱包*](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/) *的选择:*
 
 ![](img/bf14064355bf476aeef1de332005b2db.png)
 
@@ -56,11 +56,11 @@
 
 ![](img/32a04f0c98cf439948df984cb98d27a0.png)
 
-### 道德初始设置
+### Moralis 初始设置
 
 如果您决定从头构建 dApps 或使用 Web3 样板文件，您必须首先完成一个简单的 Moralis 设置。以下是您需要遵循的步骤:
 
-1.  [**创建您的免费道德账户**](https://admin.moralis.io/register)——使用左边的链接进入注册页面。在那里，输入您的电子邮件并创建您的密码。要确认流程，请确保点击确认链接，该链接将发送到您的电子邮件地址。*当然，如果你已经有一个活跃的 Moralis 账号，只需* [*登录*](https://admin.moralis.io/login) *。*
+1.  [**创建您的免费 Moralis 账户**](https://admin.moralis.io/register)——使用左边的链接进入注册页面。在那里，输入您的电子邮件并创建您的密码。要确认流程，请确保点击确认链接，该链接将发送到您的电子邮件地址。*当然，如果你已经有一个活跃的 Moralis 账号，只需* [*登录*](https://admin.moralis.io/login) *。*
 
 2.  [**创建一个 Moralis 服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)–一旦登录到您的 Moralis 管理区域，选择“服务器”选项卡。然后，单击右上角的“+创建新服务器”按钮。从出现的下拉菜单中，选择最适合您需求的网络类型(参见下面的屏幕截图)。*在示例项目或测试你的 dApps 的情况下，最好关注“Testnet 服务器”(* [*以太坊 Testnet*](https://moralis.io/ethereum-testnet-guide-connect-to-ethereum-testnets/)*)或“本地 Devchain 服务器”选项。*
 
@@ -116,7 +116,7 @@
 
 为了涵盖我们的 Web3 游戏化示例 dApp 的前端，您需要设置很多行代码。幸运的是，Moralis 的一位专家准备了一个视频教程，你可以很容易地跟随(视频如下)。如果教程进展太快，暂停一下，坚持自己的节奏。他将首先指导您创建相关前端的细节。因此，您将看到如何轻松地添加 CoinMarketCap Diamonds dApp (3:52)的所有三个选项卡。创建选项卡的侧菜单后，您将创建三个页面中的每一个。要关注“我的符文”页面，跳到 6:15。对于“排行榜”页面，转到 12:36，对于“奖励”页面，转到 15:05。
 
-此外，如果你精通 JavaScript，创建前端对你来说就像在公园散步。然而，道德的力量在后端闪耀。从 20:49 开始，你会看到使用 Moralis 的仪表板(数据库)来索引区块链是多么容易。此功能使您能够高效、顺利地使用链上数据:
+此外，如果你精通 JavaScript，创建前端对你来说就像在公园散步。然而，Moralis 的力量在后端闪耀。从 20:49 开始，你会看到使用 Moralis 的仪表板(数据库)来索引区块链是多么容易。此功能使您能够高效、顺利地使用链上数据:
 
 ![](img/fed7f844b9407be7a10ab49df1979167.png)![](img/56651bb2a005fbe3a898852320836288.png)
 
@@ -128,10 +128,10 @@ https://www.youtube.com/watch?v=hufjWlGDvRA
 
 ## Web3 游戏化–创建共同市场钻石 dApp–总结
 
-我们今天已经走了很多路。在这一点上，你知道 Web3 游戏化功能可以帮助你的 dApp 获得流行和采用。此外，你已经知道，使用正确的工具，实现 Web3 游戏化是相当简单的。尽管如此，使用最终的 Web3 开发平台——Moralis(又名 [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) )和最终的 Web3 样板文件，你就有机会创建自己的 CoinMarketCap Diamonds dApp。因此，您现在也知道如何涵盖初始道德和样板设置步骤。当您接手其他示例项目或处理自己的想法时，后者将会派上用场。
+我们今天已经走了很多路。在这一点上，你知道 Web3 游戏化功能可以帮助你的 dApp 获得流行和采用。此外，你已经知道，使用正确的工具，实现 Web3 游戏化是相当简单的。尽管如此，使用最终的 Web3 开发平台——Moralis(又名 [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) )和最终的 Web3 样板文件，你就有机会创建自己的 CoinMarketCap Diamonds dApp。因此，您现在也知道如何涵盖初始 Moralis 和样板设置步骤。当您接手其他示例项目或处理自己的想法时，后者将会派上用场。
 
 接下来，我们建议您访问 [Moralis 博客](https://moralis.io/blog/)和 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)，利用这两个渠道获得免费的区块链发展教育。这两个内容平台都提供了各种加密方面的高质量解释。例如，我们的一些最新文章涵盖了 [Web3.js vs Ethers.js](https://moralis.io/web3-js-vs-ethers-js-guide-to-eth-javascript-libraries/) 、[无汽油交易](https://moralis.io/gasless-transactions-exploring-gasless-transactions-on-ethereum/)、[以太坊汽油费](https://moralis.io/ethereum-gas-fees-the-ultimate-2022-guide/)、 [GameFi 和 play-to-earn (P2E)](https://moralis.io/what-is-gamefi-and-play-to-earn-p2e/) 等等。此外，在这里你还可以找到很多其他的示例项目，包括如何[创建一个优秀的 Web3 UI](https://moralis.io/web3-ui-how-to-create-a-great-dapp-ui/) 的指南。
 
-如果你想尽早成为区块链开发者，我们建议你采取更专业的方法。因此，报名参加[道德学院](https://academy.moralis.io/)。通过这样做，你将有机会接触到[专业课程](https://academy.moralis.io/all-courses)，一个最支持的社区，并体验区块链发展导师。有了这一切，你将很容易通过所有潜在的障碍，并在任何时候全职加密。
+如果你想尽早成为区块链开发者，我们建议你采取更专业的方法。因此，报名参加[Moralis 学院](https://academy.moralis.io/)。通过这样做，你将有机会接触到[专业课程](https://academy.moralis.io/all-courses)，一个最支持的社区，并体验区块链发展导师。有了这一切，你将很容易通过所有潜在的障碍，并在任何时候全职加密。
 
 ![](img/07dd367a20b1d722215866064272f034.png)*

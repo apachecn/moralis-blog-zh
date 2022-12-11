@@ -2,15 +2,15 @@
 
 > 原文：<https://moralis.io/how-to-build-a-web3-amazon-marketplace/>
 
-谈到 Web2 市场，亚马逊无疑是最大的 Web2 电子商务市场。然而，由于 Web3 才刚刚起步，在加密领域还没有真正的 Amazon 替代品。因此，这为开发者提供了一个建立 Web3 亚马逊市场的绝佳机会。当然，你可能志存高远，所以你的最终目标可能是创造出像亚马逊一样大的东西。然而，仅仅通过学习如何创建一个 Web3 亚马逊克隆，你就可以为许多企业提供一种开始接受加密货币的方式。在这篇文章中，我们将向你展示如何建立一个 Web3 亚马逊市场的详细指南。因此，你将能够使用相同的原则来构建道德所支持的各种区块链。幸运的是，当您使用正确的[**web 3 tech stack**](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)**时，跨链互操作性就在您的掌握之中。**
+谈到 Web2 市场，亚马逊无疑是最大的 Web2 电子商务市场。然而，由于 Web3 才刚刚起步，在加密领域还没有真正的 Amazon 替代品。因此，这为开发者提供了一个建立 Web3 亚马逊市场的绝佳机会。当然，你可能志存高远，所以你的最终目标可能是创造出像亚马逊一样大的东西。然而，仅仅通过学习如何创建一个 Web3 亚马逊克隆，你就可以为许多企业提供一种开始接受加密货币的方式。在这篇文章中，我们将向你展示如何建立一个 Web3 亚马逊市场的详细指南。因此，你将能够使用相同的原则来构建 Moralis 所支持的各种区块链。幸运的是，当您使用正确的[**web 3 tech stack**](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)**时，跨链互操作性就在您的掌握之中。**
 
-也就是说，向前看，你将学会如何使用终极的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台、 [Moralis](https://moralis.io/) 。这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”选项是最好的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)。它为你提供了令人印象深刻的 Web3 SDK，包括终极[以太坊 API](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) 和 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 。因此，当你的目标是建立一个 Web3 亚马逊市场时，它是一个重要的工具。实质上，Moralis 是一个工具，它可以让你在大约一个小时内创建一个 Web3 Amazon 克隆。在接下来的章节中，你将有机会加入我们创建一个 Web3 Amazon 克隆。通过这样做，你也将学会如何完成最初的 Moralis 设置，从而在处理其他项目时被覆盖。因此，如果你对此感兴趣，请确保在继续之前[创建你的免费道德账户](https://admin.moralis.io/register)。
+也就是说，向前看，你将学会如何使用终极的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台、 [Moralis](https://moralis.io/) 。这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”选项是最好的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)。它为你提供了令人印象深刻的 Web3 SDK，包括终极[以太坊 API](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) 和 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 。因此，当你的目标是建立一个 Web3 亚马逊市场时，它是一个重要的工具。实质上，Moralis 是一个工具，它可以让你在大约一个小时内创建一个 Web3 Amazon 克隆。在接下来的章节中，你将有机会加入我们创建一个 Web3 Amazon 克隆。通过这样做，你也将学会如何完成最初的 Moralis 设置，从而在处理其他项目时被覆盖。因此，如果你对此感兴趣，请确保在继续之前[创建你的免费 Moralis 账户](https://admin.moralis.io/register)。
 
 ![](img/692d55a54b041a319925c8ea07dd837f.png)
 
 ## 用 Moralis 建立一个 Web3 亚马逊市场
 
-如上所述，我们将承担一个示例项目，我们的目标是创建一个 Web3 亚马逊克隆。此外，使我们能够以尽可能少的摩擦完成工作的一个重要工具是道德。后者将使我们能够最轻松地满足我们所有的后端需求。
+如上所述，我们将承担一个示例项目，我们的目标是创建一个 Web3 亚马逊克隆。此外，使我们能够以尽可能少的摩擦完成工作的一个重要工具是 Moralis。后者将使我们能够最轻松地满足我们所有的后端需求。
 
 例如，我们将使用 Moralis 的[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)集成来涵盖 [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/)。此外，通过使用 Moralis [Web3 API](https://docs.moralis.io/moralis-server/web3-sdk/intro) ，我们能够复制简短的代码片段来包含各种功能和特性。没有这条捷径，我们将被迫面对 RPC 节点的所有[限制。然而，当使用 Moralis 构建时，您可以投入所有的精力和资源来创建最佳的用户体验。因此，你创造一个伟大的 Web3 UI 的机会要高得多。此外，后者最终会给你的 dApps(分散式应用程序)带来明显更大的成功机会。](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)
 
@@ -66,7 +66,7 @@
 
 *注* *:“账户 1”是一个示例用户的账户，而“账户 2”是我们的示例亚马逊克隆店店主的账户。后者是用于购买的所有 MATIC 交易被发送到的地方。*
 
-#### 道德仪表板预览
+#### Moralis 仪表板预览
 
 交易完成后，我们可以在我们的 Moralis 仪表板中查看它:
 
@@ -132,6 +132,6 @@ https://www.youtube.com/watch?v=GKsIPkXWpyc
 
 如果你喜欢这个教育教程，我们在 [Moralis 博客](https://moralis.io/blog/)和 [Moralis YouTube](https://www.youtube.com/c/MoralisWeb3) 频道还有很多其他的在等着你。除了示例项目之外，这两个渠道还对各种加密主题提供了很好的解释。因此，它们提供了一个免费了解区块链发展的绝佳途径。例如，一些最新的话题包括如何[将 Unity 应用程序连接到 Web3 钱包](https://moralis.io/how-to-connect-a-unity-app-to-a-web3-wallet/)， [Alchemy API 替代方案](https://moralis.io/alchemy-api-alternatives-web3-development-platforms/)，如何创建 [BNB 链令牌](https://moralis.io/how-to-create-a-bnb-chain-token-in-5-minutes/)，[克隆比特币基地钱包](https://moralis.io/cloning-coinbase-wallet-how-to-create-a-coinbase-clone/)，如何[创建索拉纳令牌](https://moralis.io/how-to-create-a-solana-token-in-5-steps/)，一个 [NFT 铸造页面](https://moralis.io/how-to-launch-an-nft-minting-page-full-walkthrough/)演练，如何[用 Unity 创建元宇宙 dApp](https://moralis.io/how-to-create-a-metaverse-dapp-with-unity/)，如何促进 [Web3 用户加入](https://moralis.io/how-to-boost-web3-user-onboarding-success-rates/)
 
-然而，如果你真的想尽快成为一名区块链开发者，你可以考虑走一条更专业的道路。为了复制我们许多学生的成功，报名参加[道德学院](https://academy.moralis.io/)可能正是你所需要的。除了获得专业课程，你还将成为一个最先进的社区的一部分。最重要的是，你将获得专家指导和个性化的学习路径。
+然而，如果你真的想尽快成为一名区块链开发者，你可以考虑走一条更专业的道路。为了复制我们许多学生的成功，报名参加[Moralis 学院](https://academy.moralis.io/)可能正是你所需要的。除了获得专业课程，你还将成为一个最先进的社区的一部分。最重要的是，你将获得专家指导和个性化的学习路径。
 
 ![](img/7d542ece5ba3f61c168eea292261ef58.png)

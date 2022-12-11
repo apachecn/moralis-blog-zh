@@ -2,11 +2,11 @@
 
 > 原文：<https://moralis.io/how-aws-lambda-works-functions-and-architecture-explained/>
 
-**如果你是** [**道德家**](https://moralis.io) **博客的老读者，你可能已经读过我们以前的一篇文章** [**探索 AWS Lambda 及其用于**](https://moralis.io/exploring-aws-lambda-and-what-it-is-used-for/) **。该指南深入探讨了 AWS Lambda 的复杂性，为您提供了该服务的全面概述。然而，它并没有涵盖 AWS Lambda 如何工作的细节。因此，我们决定发表这篇文章，更深入地解释 AWS Lambda 是如何工作的，包括它的功能和架构。听起来很有趣？请跟随我们为您分解这一切！**
+**如果你是** [**Moralis 家**](https://moralis.io) **博客的老读者，你可能已经读过我们以前的一篇文章** [**探索 AWS Lambda 及其用于**](https://moralis.io/exploring-aws-lambda-and-what-it-is-used-for/) **。该指南深入探讨了 AWS Lambda 的复杂性，为您提供了该服务的全面概述。然而，它并没有涵盖 AWS Lambda 如何工作的细节。因此，我们决定发表这篇文章，更深入地解释 AWS Lambda 是如何工作的，包括它的功能和架构。听起来很有趣？请跟随我们为您分解这一切！**
 
 本文首先解释了 AWS Lambda 的来龙去脉，并概述了该服务是如何工作的。接下来，我们将通过解释 AWS Lambda 函数的角色以及它们如何工作来更深入地了解细节。一旦您熟悉了这个组件，本文将介绍 AWS Lambda 架构。最后，最重要的是，我们将简要概述一个 [AWS Lambda NodeJS](https://moralis.io/aws-lambda-nodejs-tutorial-how-to-integrate-a-nodejs-sdk-example/) 教程，在这里您可以学习如何使用 Moralis 通过 Lambda 运行 JavaScript 函数。
 
-一旦你意识到 AWS Lambda 是如何工作的，你就能把这个服务和其他方便的开发工具结合起来，比如 Moralis 的[web 3 API](https://moralis.io/web3-apis-exploring-the-top-5-blockchain-apis/)。如果这听起来很有趣，一定要检查道德[流 API](https://moralis.io/streams/) 。有了这个工具，您可以通过 webhooks 将链上数据无缝地传输到任何应用程序的后端。如果你想了解更多关于创建流的知识，你会发现我们关于[多边形网钩](https://moralis.io/polygon-webhooks-how-to-use-webhooks-on-polygon/)和[以太坊网钩](https://moralis.io/ethereum-webhooks-what-they-are-and-how-to-use-webhooks-for-ethereum/)的文章很有帮助！
+一旦你意识到 AWS Lambda 是如何工作的，你就能把这个服务和其他方便的开发工具结合起来，比如 Moralis 的[web 3 API](https://moralis.io/web3-apis-exploring-the-top-5-blockchain-apis/)。如果这听起来很有趣，一定要检查 Moralis[流 API](https://moralis.io/streams/) 。有了这个工具，您可以通过 webhooks 将链上数据无缝地传输到任何应用程序的后端。如果你想了解更多关于创建流的知识，你会发现我们关于[多边形网钩](https://moralis.io/polygon-webhooks-how-to-use-webhooks-on-polygon/)和[以太坊网钩](https://moralis.io/ethereum-webhooks-what-they-are-and-how-to-use-webhooks-for-ethereum/)的文章很有帮助！
 
 然而，如果你想使用上面提到的工具，[现在就注册 Moralis](https://admin.moralis.io/register) 。这样，您可以充分利用区块链技术的力量，开始构建行业领先的 dapps！
 
@@ -82,7 +82,7 @@ Lambda 函数接受事件源传递的事件，然后根据函数的逻辑处理�
 
 在仔细研究应用程序之前，您必须完成一些先决条件。您可以在下面的列表中找到所有要求:
 
-*   [与道德家签约](https://admin.moralis.io/register)
+*   [与 Moralis 家签约](https://admin.moralis.io/register)
 *   安装 IDE(集成开发环境)
 *   安装〔t0〕nodejs〔t1〕
 *   建立一个 [AWS 账户](https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-creating.html)
@@ -157,7 +157,7 @@ serverless deploy
 
 本教程到此为止！恭喜，您现在知道如何通过 AWS Lambda 构建、测试、部署和运行 JavaScript 函数了！
 
-如果您在本教程的任何一点上遇到了麻烦，请查看 Moralis 的 [AWS Lambda 文档](https://docs.moralis.io/docs/using-aws-lambda)以获得整个过程的更详细的分解。此外，您可以加入道德不和谐频道，直接获得专家帮助！
+如果您在本教程的任何一点上遇到了麻烦，请查看 Moralis 的 [AWS Lambda 文档](https://docs.moralis.io/docs/using-aws-lambda)以获得整个过程的更详细的分解。此外，您可以加入 Moralis 不和谐频道，直接获得专家帮助！
 
 ## 总结–AWS Lambda 是如何工作的？
 
@@ -169,6 +169,6 @@ AWS Lambda 采用事件驱动的架构，有三个核心组件:事件提供者�
 
 开发者上传到 Lambda 的代码被组织成“Lambda 函数”。所有 Lambda 函数都有配置信息，比如名称、入口点、描述和资源需求。此外，这些函数是以“无状态”风格编写的。这意味着他们对底层计算基础设施不做任何假设。此外，结合对 AWS Lambda 如何工作的更多了解，本文提供了一个 AWS Lambda NodeJS 教程。因此，如果您阅读了这一部分，您现在知道如何通过 Lambda 运行兼容 Web3 的 JavaScript 函数了！
 
-然而，如果你觉得这篇文章内容丰富，可以考虑看看其他的道德内容。Moralis 的 [Web3 博客](https://moralis.io/blog/)为有经验的和新的开发者提供新鲜和令人兴奋的 Web3 开发内容。例如，阅读更多关于 [Web3 for enterprise](https://moralis.io/web3-for-enterprise-business-applications-in-web3/) 或[如何获得 NFT](https://moralis.io/get-nft-metadata-how-to-get-the-metadata-of-an-nft/) 的元数据！
+然而，如果你觉得这篇文章内容丰富，可以考虑看看其他的 Moralis 内容。Moralis 的 [Web3 博客](https://moralis.io/blog/)为有经验的和新的开发者提供新鲜和令人兴奋的 Web3 开发内容。例如，阅读更多关于 [Web3 for enterprise](https://moralis.io/web3-for-enterprise-business-applications-in-web3/) 或[如何获得 NFT](https://moralis.io/get-nft-metadata-how-to-get-the-metadata-of-an-nft/) 的元数据！
 
 此外，今天就创建您的 Moralis 帐户，释放区块链技术的力量！您可以[免费注册 Moralis](https://admin.moralis.io/register) 并立即获得企业级开发工具！

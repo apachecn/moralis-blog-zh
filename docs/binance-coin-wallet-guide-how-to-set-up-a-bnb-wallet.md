@@ -97,7 +97,7 @@
 此时，您已经准备好了 MetaMask 钱包。然而，它还不能作为 BNB 钱包。因此，你还没有完成“如何建立一个 BNB 钱包”的任务。你仍然需要添加 BNB 连锁网络。此外，当您想要将 BNB 链或任何其他区块链添加到元掩码时，您可以采取两种途径:
 
 1.  可以手动做**。*如果安全是你的首要任务，选择这种方法。***
-2.  自动完成**。*你可以使用各种知名网站，点击* *按钮，这些网站会将任何支持的链添加到你的元掩码* ***中。因此，这种方法要快得多。然而，它有潜在的风险。因此，只使用你信任的网站至关重要。幸运的是，有许多著名的网站提供这种捷径，但我们只能担保道德。*****
+2.  自动完成**。*你可以使用各种知名网站，点击* *按钮，这些网站会将任何支持的链添加到你的元掩码* ***中。因此，这种方法要快得多。然而，它有潜在的风险。因此，只使用你信任的网站至关重要。幸运的是，有许多著名的网站提供这种捷径，但我们只能担保 Moralis。*****
 
 ### **如何手动设置 BNB 钱包**
 
@@ -130,7 +130,7 @@
 
 ### 如何自动设置 BNB 钱包
 
-现在，让我们来探讨一下如何自动设置 BNB 钱包。如上所述，你可以使用道德。一旦您[创建了您的免费 Moralis 帐户](https://admin.moralis.io/register)，您就可以访问您的 Moralis 管理区。从那里，你可以进入[道德高速节点](https://moralis.io/speedy-nodes/):
+现在，让我们来探讨一下如何自动设置 BNB 钱包。如上所述，你可以使用 Moralis。一旦您[创建了您的免费 Moralis 帐户](https://admin.moralis.io/register)，您就可以访问您的 Moralis 管理区。从那里，你可以进入[Moralis 高速节点](https://moralis.io/speedy-nodes/):
 
 1.  导航到“快速节点”选项卡:
 
@@ -150,6 +150,6 @@
 
 至此，您知道如何为开发人员建立一个 BNB 钱包了。一路上，你已经了解了 BNB 链的基本知识。结果，你现在知道什么是理学士，BC 和 BNB。此外，您经历了下载和安装 MetaMask 扩展的过程。最后，您还学习了如何手动和自动将 BNB 链添加到 MetaMask 中。这样，你就可以开始使用你的新 BNB 钱包了。接下来，我们建议从我们的 [BSC 编程指南](https://moralis.io/bsc-programming-guide-intro-to-binance-smart-chain-development-in-10-minutes/)开始，并学习使用 [BscScan](https://moralis.io/exploring-bscscan-full-guide/) 。接下来，您可以探索如何[创建 BSC dapp](https://moralis.io/how-to-create-bsc-dapps-quickly/)或者甚至学习如何[在几分钟内创建 BSC NFT](https://moralis.io/how-to-create-a-bsc-nft-in-less-than-20-minutes/) 。此外，了解如何[连接到 BSC 节点](https://moralis.io/how-to-connect-to-bsc-nodes/)或了解更多关于 [Infura BSC 替代方案](https://moralis.io/infura-bsc-alternatives-the-best-alternative-to-infura-for-bsc/)。
 
-另一方面，一定要访问 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)来探索区块链发展的其他方面。那里的一些最新话题涵盖了 Web3 游戏的[好处](https://moralis.io/benefits-of-web3-gaming-full-breakdown/)，如何[开发 Web3 网飞](https://moralis.io/how-to-develop-a-web3-netflix-clone/)克隆，如何[构建多链钱包](https://moralis.io/how-to-build-a-multi-chain-wallet-in-5-steps/)，如何[与 Web3 数据库](https://moralis.io/how-to-communicate-with-a-web3-database-from-unity/)通信，以及如何[构建元宇宙游戏](https://moralis.io/how-to-build-a-metaverse-game-in-25-minutes/)。另外，它回答了“为什么 Web3 很重要？”提问并探讨诸如 [DeFi staking](https://moralis.io/what-is-defi-staking-full-guide/) 、 [NFT 加电](https://moralis.io/develop-a-web3-game-with-nft-power-ups-in-9-minutes/)、 [Web3 元宇宙](https://moralis.io/web3-metaverse-how-do-web3-and-the-metaverse-fit-together/)等话题。因此，你可以通过这两个途径轻松获得免费的加密教育。然而，如果你想更自信地成为 Web3 开发者，我们建议你采取更专业的方法。因此，考虑参加[道德学院](https://academy.moralis.io/)！
+另一方面，一定要访问 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)来探索区块链发展的其他方面。那里的一些最新话题涵盖了 Web3 游戏的[好处](https://moralis.io/benefits-of-web3-gaming-full-breakdown/)，如何[开发 Web3 网飞](https://moralis.io/how-to-develop-a-web3-netflix-clone/)克隆，如何[构建多链钱包](https://moralis.io/how-to-build-a-multi-chain-wallet-in-5-steps/)，如何[与 Web3 数据库](https://moralis.io/how-to-communicate-with-a-web3-database-from-unity/)通信，以及如何[构建元宇宙游戏](https://moralis.io/how-to-build-a-metaverse-game-in-25-minutes/)。另外，它回答了“为什么 Web3 很重要？”提问并探讨诸如 [DeFi staking](https://moralis.io/what-is-defi-staking-full-guide/) 、 [NFT 加电](https://moralis.io/develop-a-web3-game-with-nft-power-ups-in-9-minutes/)、 [Web3 元宇宙](https://moralis.io/web3-metaverse-how-do-web3-and-the-metaverse-fit-together/)等话题。因此，你可以通过这两个途径轻松获得免费的加密教育。然而，如果你想更自信地成为 Web3 开发者，我们建议你采取更专业的方法。因此，考虑参加[Moralis 学院](https://academy.moralis.io/)！
 
 ![](img/c3f76d682056bc83419162ebb6f3c2b1.png)**

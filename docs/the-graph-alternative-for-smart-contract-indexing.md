@@ -50,7 +50,7 @@
 
 无论你是想使用 Moralis 进行智能合约索引，将其作为 [Infura 替代品](https://moralis.io/infura-alternatives-and-blockchain-node-providers/)(Moralis’[Speedy Nodes](https://moralis.io/speedy-nodes/))之一，还是使用其 Web3 SDK 开发 dApps，你都需要从创建 Moralis 服务器开始。以下是您需要遵循的步骤:
 
-1.  [**创建您的免费 Moralis 账户**](https://admin.moralis.io/register)–如果您还没有免费的 Moralis 账户，请点击该链接，输入您的电子邮件地址，创建您的密码，不要忘记点击将发送到您的电子邮件中的确认链接。然而，如果你已经有了一个道德账户，[登录](https://admin.moralis.io/login)到你的管理区。
+1.  [**创建您的免费 Moralis 账户**](https://admin.moralis.io/register)–如果您还没有免费的 Moralis 账户，请点击该链接，输入您的电子邮件地址，创建您的密码，不要忘记点击将发送到您的电子邮件中的确认链接。然而，如果你已经有了一个 Moralis 账户，[登录](https://admin.moralis.io/login)到你的管理区。
 
 2.  [**创建 Moralis 服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)–进入 Moralis 管理区域后，进入“服务器”选项卡，点击右上角的“+创建新服务器”按钮(见下图)。然后从下拉菜单中选择最适合您需求的网络类型。*由于示例“赌场”dApp 是在 Rinkeby 上直播的，所以选择“Testnet 服务器”选项(* [*连接以太坊 Testnet*](https://moralis.io/ethereum-testnet-guide-connect-to-ethereum-testnets/)*)。*
 
@@ -68,7 +68,7 @@
 
 ![](img/436c35f58f54ef3ce5c3398333fcf73e.png)
 
-4.  初始化道德规范 *(同样，你需要完成这个步骤来创建你的道德规范 dApps。)*–用上面获得的 Moralis 服务器详细信息(应用程序 ID 和服务器 URL)填充您的编码文件:
+4.  初始化 Moralis 规范 *(同样，你需要完成这个步骤来创建你的 Moralis 规范 dApps。)*–用上面获得的 Moralis 服务器详细信息(应用程序 ID 和服务器 URL)填充您的编码文件:
 
 ![](img/e8ce24b0e62786dc3e4bcbd232ad67b9.png)
 
@@ -136,7 +136,7 @@ bet(address,uint256,bool,uint8);
 *   **智能合约的地址**:*0x 387 ecdc 3 e 80 e 501 b 5b 0 b 80 ea 92 ca 69 DD 2 FDC 3415*
 *   **表名** : *这也可以是您喜欢的任何东西(这是将在您的 Moralis 仪表板中使用的类名)。同样，请随意跟随我们的领导，使用“赌场旋转”。*
 
-#### 道德的仪表板
+#### Moralis 的仪表板
 
 输入上述所有详细信息后，单击“确认”按钮创建您的同步事件。如果您已经正确完成了所有操作，您应该会看到以下屏幕:
 
@@ -158,6 +158,6 @@ https://www.youtube.com/watch?v=zrtcXd5cSe4
 
 现在，您知道了什么是图表，以及如何使用它进行智能合同索引。但是，您还了解到，图表不是索引智能合约的最简单也不是最快的方式。首先，它需要运行你自己的服务器，对节点来说是相当繁重的，而且要花相当多的时间用一种新的编程语言对它进行适当的编码。幸运的是，有了图形替代方案，精通 JavaScript 的开发人员可以在几分钟内完成智能合同索引。因此，它可以让你节省大量的时间，以及如何创建最有吸引力的前端。此外，Graph alternative 不仅仅是一个智能合同索引工具，它还是最终的 Web3 开发平台。
 
-如果你想接手其他有趣的示例项目，从而提升你的区块链开发技能，请务必访问 [Moralis 的博客](https://moralis.io/blog/)和 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。我们的一些最新主题向您展示了[如何连接到 Arbitrum 节点](https://moralis.io/full-guide-how-to-connect-to-arbitrum-nodes/)，如何在 Angular 中构建[以太坊 dApps](https://moralis.io/how-to-build-ethereum-dapps-in-angular/)，如何[构建 NFT 交易界面](https://moralis.io/build-an-nft-trading-interface-full-guide/)，如何使用 [OpenSea API 替代方案](https://moralis.io/opensea-api-alternative-list-nfts-with-this-opensea-plugin/)，[闪贷如何工作](https://moralis.io/how-do-flash-loans-work-full-walkthrough/)，如何为开发者使用[元掩码](https://moralis.io/metamask-for-developers-how-to-launch-web3-apps-with-metamask/)，如何[快速创建 DAO](https://moralis.io/how-to-create-a-dao-in-10-minutes/) ，如何进行[无气体交易 如何](https://moralis.io/how-to-do-gasless-transactions-on-ethereum/)[建立跨链桥](https://moralis.io/how-to-build-a-cross-chain-bridge/)，如何[建立预测市场 dApp](https://moralis.io/how-to-build-a-prediction-market-dapp/) ，等等。 此外，如果你有兴趣尽快成为全职加密员，我们建议你采取一种更专业的方式，报名参加[道德学院](https://academy.moralis.io/)提供的一些高质量[课程](https://academy.moralis.io/all-courses/)。
+如果你想接手其他有趣的示例项目，从而提升你的区块链开发技能，请务必访问 [Moralis 的博客](https://moralis.io/blog/)和 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。我们的一些最新主题向您展示了[如何连接到 Arbitrum 节点](https://moralis.io/full-guide-how-to-connect-to-arbitrum-nodes/)，如何在 Angular 中构建[以太坊 dApps](https://moralis.io/how-to-build-ethereum-dapps-in-angular/)，如何[构建 NFT 交易界面](https://moralis.io/build-an-nft-trading-interface-full-guide/)，如何使用 [OpenSea API 替代方案](https://moralis.io/opensea-api-alternative-list-nfts-with-this-opensea-plugin/)，[闪贷如何工作](https://moralis.io/how-do-flash-loans-work-full-walkthrough/)，如何为开发者使用[元掩码](https://moralis.io/metamask-for-developers-how-to-launch-web3-apps-with-metamask/)，如何[快速创建 DAO](https://moralis.io/how-to-create-a-dao-in-10-minutes/) ，如何进行[无气体交易 如何](https://moralis.io/how-to-do-gasless-transactions-on-ethereum/)[建立跨链桥](https://moralis.io/how-to-build-a-cross-chain-bridge/)，如何[建立预测市场 dApp](https://moralis.io/how-to-build-a-prediction-market-dapp/) ，等等。 此外，如果你有兴趣尽快成为全职加密员，我们建议你采取一种更专业的方式，报名参加[Moralis 学院](https://academy.moralis.io/)提供的一些高质量[课程](https://academy.moralis.io/all-courses/)。
 
 ![](img/9456b6c82cf2ead177ef8f0a7f02b2b5.png)

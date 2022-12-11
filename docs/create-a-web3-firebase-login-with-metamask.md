@@ -170,7 +170,7 @@ firebase ext:install moralis/moralis-auth
 
 ![](img/b3a20902e2037793e3e40311cde61d27.png)
 
-因此，如果您还没有，请确保立即[设置您的道德账户](https://admin.moralis.io/register)。有了自己的帐户，您可以通过登录 Moralis，点击“account”选项卡，点击“Keys ”,最后复制 Web3 API 密钥来获取 API 密钥:
+因此，如果您还没有，请确保立即[设置您的 Moralis 账户](https://admin.moralis.io/register)。有了自己的帐户，您可以通过登录 Moralis，点击“account”选项卡，点击“Keys ”,最后复制 Web3 API 密钥来获取 API 密钥:
 
 ![Moralis' Account Settings page, where users can obtain their Web3 API key, which is an essential step to create a Web3 Firebase login with MetaMask.](img/02db35bf51ef9eced3707e268094236a.png)
 

@@ -6,7 +6,7 @@
 
 接下来，我们将关注以太坊上的一个区块链演讲示例。首先，我们将使用 ethers.js 监听区块链。然后，我们将处理相同的链上事件，但使用 Moralis Streams API。因此，您将看到如何通过实现一些简单的代码片段来使用这个优秀的工具。此外，我们还将向您展示如何通过简洁的 UI 使用 ethers.js 和 Streams API 来收听区块链。
 
-最后，本文将帮助您开始有效地利用链上事件。此外，它将扩大你的区块链发展视野，让你熟悉道德。因此，你将准备好开始创建各种 dapps，进而加入 Web3 革命。因此，只需[创建您的免费道德账户](https://admin.moralis.io/register)并跟随我们的脚步！
+最后，本文将帮助您开始有效地利用链上事件。此外，它将扩大你的区块链发展视野，让你熟悉 Moralis。因此，你将准备好开始创建各种 dapps，进而加入 Web3 革命。因此，只需[创建您的免费 Moralis 账户](https://admin.moralis.io/register)并跟随我们的脚步！
 
 ![blue background with white letters stating what is ethers.js](img/bb49dd25c72dec540810633d84bd21a3.png)
 
@@ -158,7 +158,7 @@ Moralis.start({
 
 然而，正如你所看到的，对于这个例子，我们主要关注以太坊。除了" *chains* "选项，我们还需要定义一个描述、一个标签、一个 ABI、一个主题和一个 webhook URL。关于后者，您可以在开发时使用 ngrok 为您的本地主机创建一个隧道。
 
-继续我们的示例脚本，我们需要初始化 Moralis。这就是我们需要使用 Moralis Web3 API 密钥的地方。我们通过创建一个免费的道德账户来访问我们的管理区。从那里，我们开始分两步复制我们的 Web3 API，如下图所示:
+继续我们的示例脚本，我们需要初始化 Moralis。这就是我们需要使用 Moralis Web3 API 密钥的地方。我们通过创建一个免费的 Moralis 账户来访问我们的管理区。从那里，我们开始分两步复制我们的 Web3 API，如下图所示:
 
 ![step one, click on web3 apis followed by step two, which is clicking on the copy key](img/fc47debb2bb5cb5a94a3b221bea5cdda.png)
 
@@ -168,7 +168,7 @@ Moralis.start({
 
 最后，为了查看结果，我们运行“ *node index.js* ”命令。
 
-### 探索道德之流
+### 探索 Moralis 之流
 
 运行上述脚本后，我们可以在 Moralis 仪表板中看到" *usdcTransfers* "流:
 
@@ -190,4 +190,4 @@ Moralis.start({
 
 根据本文中获得的知识，您现在可以开始使用链上事件作为 dapps 的各种触发器了。除了 Streams API，Moralis 还为您提供了终极的 [NFT API](https://moralis.io/nft-api/) 、[令牌 API](https://moralis.io/token-api/) 和 [Web3 认证 API](https://moralis.io/authentication/) 。因此，您拥有处理各种 dapp 开发项目所需的所有工具。如需更多指导和练习，请使用 Moralis 文档和 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。如果你想探索区块链发展的其他话题，Moralis 的博客[是个好去处。一些最新的文章关注于](https://moralis.io/blog/) [Web3 存储](https://moralis.io/web3-storage-how-web3-data-storage-works/)、 [ethers.js vs Web3 流](https://moralis.io/ethers-js-vs-web3-streams-the-best-option-for-blockchain-developers/)、 [Palm NFT 工作室](https://moralis.io/exploring-the-palm-network-what-is-palm-nft-studio/)等等。另外，如果您对以太坊的开发最感兴趣，请务必阅读我们的文章，探索 [Goerli ETH](https://moralis.io/goerli-eth-what-is-the-goerli-testnet/) 和[se polia testnet](https://moralis.io/sepolia-testnet-guide-what-is-the-sepolia-testnet/)！
 
-此外，你应该考虑通过注册[道德学院](https://academy.moralis.io/)来采取更专业的方式来接受你的加密教育。在那里，你会找到大量令人惊叹的区块链发展课程，我们建议你从[区块链和比特币基础](https://academy.moralis.io/courses/blockchain-bitcoin-101)开始。
+此外，你应该考虑通过注册[Moralis 学院](https://academy.moralis.io/)来采取更专业的方式来接受你的加密教育。在那里，你会找到大量令人惊叹的区块链发展课程，我们建议你从[区块链和比特币基础](https://academy.moralis.io/courses/blockchain-bitcoin-101)开始。

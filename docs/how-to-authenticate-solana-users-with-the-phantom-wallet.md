@@ -4,9 +4,9 @@
 
 **如果用户想要进入 Web3 领域并与区块链交互，每个用户必须使用验证工具进行身份验证。当大多数用户** [**使用 MetaMask**](https://moralis.io/how-to-authenticate-with-metamask/) **进行身份验证时，在与以太坊 dapps(去中心化应用程序)交互时，用于验证 Solana 用户身份的头号钱包是 Phantom。** [**构建 Web3 apps**](https://moralis.io/metamask-for-developers-how-to-launch-web3-apps-with-metamask/) **时也是如此。当您决定** [**构建以太坊 dapp**](https://moralis.io/ultimate-guide-how-to-build-ethereum-dapps/)**时，您利用** [**为开发者提供元掩码**](https://moralis.io/metamask-for-developers-how-to-launch-web3-apps-with-metamask/) **，但是在创建 Solana dapps 时，您利用幻影钱包来验证用户。由于 Solana 可能是所有可编程区块链的主要竞争者，我们决定为那些想利用其网络的人提供一个简单的认证解决方案。因此，请跟随我们了解如何使用 Phantom wallet 认证 Solana 用户！**
 
-在接下来的教程中，我们将向你展示如何使用[道德规范](https://moralis.io/)来简化 Web3 开发。当使用 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 时，您可以节省时间和宝贵的资源。这个终极的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)完全是关于跨链和跨平台的互操作性。因此，你可以使用当前 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)的这个顶峰，用于以太坊、EVM 兼容链，甚至 Solana。此外，Moralis 允许你用你的 JavaScript 或 Unity 熟练程度成为 Web3 开发者。
+在接下来的教程中，我们将向你展示如何使用[Moralis 规范](https://moralis.io/)来简化 Web3 开发。当使用 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 时，您可以节省时间和宝贵的资源。这个终极的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)完全是关于跨链和跨平台的互操作性。因此，你可以使用当前 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)的这个顶峰，用于以太坊、EVM 兼容链，甚至 Solana。此外，Moralis 允许你用你的 JavaScript 或 Unity 熟练程度成为 Web3 开发者。
 
-在这里，我们将使用 Next.js 来[创建一个 Moralis dapp](https://docs.moralis.io/moralis-dapp/getting-started/create-a-moralis-dapp) 来验证 Solana 用户。然而，在我们深入本文的示例项目之前，让我们先了解一些基础知识。我们将首先探索 Solana 身份验证，并介绍幻影钱包的基础知识。此外，为了准备即将到来的教程，[创建你的免费道德账户](https://admin.moralis.io/register)！
+在这里，我们将使用 Next.js 来[创建一个 Moralis dapp](https://docs.moralis.io/moralis-dapp/getting-started/create-a-moralis-dapp) 来验证 Solana 用户。然而，在我们深入本文的示例项目之前，让我们先了解一些基础知识。我们将首先探索 Solana 身份验证，并介绍幻影钱包的基础知识。此外，为了准备即将到来的教程，[创建你的免费 Moralis 账户](https://admin.moralis.io/register)！
 
 ![](img/60893d19f510fe69d902fe8d4ad23595.png)
 
@@ -69,13 +69,13 @@ Web3 或加密钱包有多种形式，尽管主要分为两类:热钱包和冷�
 
 ![](img/a66e2d01e159c5ca83a099373f4cc3de.png)
 
-### 道德入门
+### Moralis 入门
 
-既然我们的 Next.js 应用程序(初始形式)已经正常运行，那么是时候完成初始的 Moralis 设置了。此时，你可能已经准备好了你的免费道德账户。因此，[通过输入您的凭据登录](https://admin.moralis.io/login)到您的道德管理区:
+既然我们的 Next.js 应用程序(初始形式)已经正常运行，那么是时候完成初始的 Moralis 设置了。此时，你可能已经准备好了你的免费 Moralis 账户。因此，[通过输入您的凭据登录](https://admin.moralis.io/login)到您的 Moralis 管理区:
 
 ![](img/bb4fa8b85bfc9409abd345585b7de5ca.png)
 
-然而，如果你还没有创建你的免费道德账户，现在就创建吧。作为一名新用户，您将在您的管理区内看到此屏幕:
+然而，如果你还没有创建你的免费 Moralis 账户，现在就创建吧。作为一名新用户，您将在您的管理区内看到此屏幕:
 
 ![](img/5a50952014c4d338a853e30ffa346801.png)
 
@@ -101,7 +101,7 @@ Web3 或加密钱包有多种形式，尽管主要分为两类:热钱包和冷�
 
 ![](img/732d02e4384f12e97e0dc2076497abe3.png)
 
-然后，我们将组件包装在“道德提供者”中:
+然后，我们将组件包装在“Moralis 提供者”中:
 
 ![](img/cfd71ae80e136ddfc351411145bc9e1b.png)
 
@@ -178,6 +178,6 @@ https://www.youtube.com/watch?v=IsTFNOedPkk
 
 ## 如何使用 Phantom Wallet 对 Solana 用户进行身份验证–总结
 
-今天，您已经了解了如何验证 Solana 用户身份的所有知识。你现在知道你可以通过使用幻影钱包和 Moralis 在几分钟内运行你的 Solana dapp。此外，你也有机会进一步发展你的 Solana 编程。因此，您可能已经创建了自己的 SPL 令牌和索拉纳令牌仪表板。尽管如此，您可以使用从本文中获得的知识在其他流行的链上开发杀手级 dapps。当然，如果你决定专注于以太坊或其他 EVM 兼容链，你将使用 MetaMask 而不是 Phantom。所以，如果你想探索其他的区块链发展教程，一定要访问[道德的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德的博客](https://moralis.io/blog/)。
+今天，您已经了解了如何验证 Solana 用户身份的所有知识。你现在知道你可以通过使用幻影钱包和 Moralis 在几分钟内运行你的 Solana dapp。此外，你也有机会进一步发展你的 Solana 编程。因此，您可能已经创建了自己的 SPL 令牌和索拉纳令牌仪表板。尽管如此，您可以使用从本文中获得的知识在其他流行的链上开发杀手级 dapps。当然，如果你决定专注于以太坊或其他 EVM 兼容链，你将使用 MetaMask 而不是 Phantom。所以，如果你想探索其他的区块链发展教程，一定要访问[Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 的博客](https://moralis.io/blog/)。
 
-除了各种示例项目，这两个出口还为您提供了各种加密主题的简单解释。因此，它们可以作为你持续的免费区块链发展教育的来源。例如，一些最新的话题包括 [Solidity smart contracts](https://moralis.io/what-are-solidity-smart-contracts-full-solidity-tutorial/) 教程、[去中心化 Twitter](https://moralis.io/2022-guide-to-building-a-decentralized-twitter/) 、使玩家能够[购买游戏内 NFTs 的 Web3 游戏](https://moralis.io/build-a-marketplace-to-buy-nfts-in-game/)、一个 [EIP 1559 示例](https://moralis.io/eip-1559-example-what-is-eip-1559/)、完整的[去中心化财务指南](https://moralis.io/what-is-defi-the-full-decentralized-finance-guide/)、如何[将游戏资产铸造成 NFTs](https://moralis.io/how-to-mint-game-assets-as-nfts/) 、建立一个[去中心化自治组织(DAO)](https://moralis.io/how-to-build-a-decentralized-autonomous-organization-dao/) 、创建[你自己的元宇宙](https://moralis.io/how-to-create-your-own-metaverse/)然而，如果你下定决心[满怀信心地成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，你应该考虑采取更专业的方法。因此，报名参加[道德学院](https://academy.moralis.io/)可能是你正确的道路。
+除了各种示例项目，这两个出口还为您提供了各种加密主题的简单解释。因此，它们可以作为你持续的免费区块链发展教育的来源。例如，一些最新的话题包括 [Solidity smart contracts](https://moralis.io/what-are-solidity-smart-contracts-full-solidity-tutorial/) 教程、[去中心化 Twitter](https://moralis.io/2022-guide-to-building-a-decentralized-twitter/) 、使玩家能够[购买游戏内 NFTs 的 Web3 游戏](https://moralis.io/build-a-marketplace-to-buy-nfts-in-game/)、一个 [EIP 1559 示例](https://moralis.io/eip-1559-example-what-is-eip-1559/)、完整的[去中心化财务指南](https://moralis.io/what-is-defi-the-full-decentralized-finance-guide/)、如何[将游戏资产铸造成 NFTs](https://moralis.io/how-to-mint-game-assets-as-nfts/) 、建立一个[去中心化自治组织(DAO)](https://moralis.io/how-to-build-a-decentralized-autonomous-organization-dao/) 、创建[你自己的元宇宙](https://moralis.io/how-to-create-your-own-metaverse/)然而，如果你下定决心[满怀信心地成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，你应该考虑采取更专业的方法。因此，报名参加[Moralis 学院](https://academy.moralis.io/)可能是你正确的道路。

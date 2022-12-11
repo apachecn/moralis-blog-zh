@@ -1,4 +1,4 @@
-# 道德杂志# 28–道德雪崩黑客马拉松结果
+# Moralis 杂志# 28–Moralis 雪崩黑客马拉松结果
 
 > 原文：<https://moralis.io/moralis-magazine-28-moralis-avalanche-hackathon-results/>
 
@@ -16,7 +16,7 @@ Moralis 刚刚完成了迄今为止最大的活动。在 Avalanche 以及一长�
 
 ![](img/48caea1d791c60f1db7f9d3b32410ac9.png)
 
-你在用道德建造什么？你卡住了吗？向我们提出问题和意见。谁知道呢，我们甚至可能会在未来的杂志上直接回复你！
+你在用 Moralis 建造什么？你卡住了吗？向我们提出问题和意见。谁知道呢，我们甚至可能会在未来的杂志上直接回复你！
 
 [**发送您的问题给我们**](https://ivanontech.typeform.com/to/R9K5lnGe)
 
@@ -54,17 +54,17 @@ https://www.youtube.com/watch?v=8fnzkkj2eBw
 
 现在，为了赢得目前正在进行的挑战，参与者被要求尽可能多地使用 Web3UI 工具包。尝试利用您将找到的用户登录脚本和其他功能。除了整合工具包，你的创造力是关键！愿最好的 dApp 赢！
 
-*获胜者将获得无聊的道德家法师合集的专属 NFT:*[](https://opensea.io/collection/boredmoralismages)**。**
+*获胜者将获得无聊的 Moralis 家法师合集的专属 NFT:*[](https://opensea.io/collection/boredmoralismages)**。**
 
-*你们每个人都是非凡事物的一部分，这本杂志就是要让道德的力量为你所用！*
+*你们每个人都是非凡事物的一部分，这本杂志就是要让 Moralis 的力量为你所用！*
 
-*我们都是道德家，在这里互相支持。如果你不是已经活跃在[道貌岸然道不和](https://discord.com/invite/P9N9HF97hH)的话，今天就是让你登场的日子。*
+*我们都是 Moralis 家，在这里互相支持。如果你不是已经活跃在[道貌岸然道不和](https://discord.com/invite/P9N9HF97hH)的话，今天就是让你登场的日子。*
 
-*在道德道的冲突中，你会发现一堆道德专家和法师同伴。发布您的项目并从社区获得反馈，参与编码挑战，并了解最新的 Moralis 特性和更新。*
+*在 Moralis 道的冲突中，你会发现一堆 Moralis 专家和法师同伴。发布您的项目并从社区获得反馈，参与编码挑战，并了解最新的 Moralis 特性和更新。*
 
 * * *
 
-## ***道德游戏建设者:新内容！***
+## ***Moralis 游戏建设者:新内容！***
 
 *如果你一直在关注我们的 Moralis 专家 Ash，那么你已经知道在 Moralis，我们为游戏开发者开发工具。每周，我们都在努力寻找将 Web3 工具集成到游戏中的最佳方式！*
 
@@ -80,10 +80,10 @@ https://www.youtube.com/watch?v=xcCMTb5jpKE
 
 * * *
 
-感谢阅读！我们希望本周的道德杂志对你有用。
+感谢阅读！我们希望本周的 Moralis 杂志对你有用。
 
 继续建造！
 
 下次见💚
 
-道德研究小组*
+Moralis 研究小组*

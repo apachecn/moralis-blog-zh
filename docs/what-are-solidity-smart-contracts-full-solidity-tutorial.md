@@ -24,7 +24,7 @@ Solidity 语言必须尽可能简单，这样智能合约才能在尽可能多�
 
 因为 Solidity 语言灵活且面向契约，所以非常适合为各种[去中心化应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/)(dapp)创建智能契约。根据它们的复杂性，开发 dapps 可能会很困难和耗时，尤其是对于那些编程新手。
 
-Moralis 是快速方便地为 dapps 创建后端基础设施的最佳平台。具体来说，Moralis 允许您只使用几行代码就可以做到这一点。此外，你可以很容易地学会如何用 Moralis 创建智能合同。注册一个[免费道德账户](https://admin.moralis.io/register)，这样你就可以专注于你的 dapp 的前端。剩下的我们来处理！y
+Moralis 是快速方便地为 dapps 创建后端基础设施的最佳平台。具体来说，Moralis 允许您只使用几行代码就可以做到这一点。此外，你可以很容易地学会如何用 Moralis 创建智能合同。注册一个[免费 Moralis 账户](https://admin.moralis.io/register)，这样你就可以专注于你的 dapp 的前端。剩下的我们来处理！y
 
 ![](img/7e3f815c838791cfeb7288143f8a1158.png)
 
@@ -78,7 +78,7 @@ Solidity [智能合约](https://moralis.io/smart-contracts-explained-what-are-sm
 
 内容审查和“去平台化”已经成为脸书、推特和 YouTube 等社交媒体平台上的热门话题。这些平台的缺点是，它们有一个集中的命令，用户发布的任何内容都可以被受雇监控内容的人查看、审查和删除。虽然有些规定在非法活动的情况下是合理的，但许多人认为这种监督侵犯了言论自由。如果不允许人们有相互冲突的观点，自由开放的社会与对立的观点斗争并找到最佳解决方案的可能性就会受到威胁。这就是稳健智能合约的用武之地。
 
-Blockchain 技术被用来创建开放的、通过点对点互动进行自我监管的社交媒体平台。您知道您可以使用道德在一个小时内构建自己的 [Web3 推特克隆体](https://moralis.io/how-to-build-a-web3-twitter-clone/)吗？
+Blockchain 技术被用来创建开放的、通过点对点互动进行自我监管的社交媒体平台。您知道您可以使用 Moralis 在一个小时内构建自己的 [Web3 推特克隆体](https://moralis.io/how-to-build-a-web3-twitter-clone/)吗？
 
 ![](img/2d4afe73912293e058f44a6df2f94e5e.png)
 
@@ -98,4 +98,4 @@ Blockchain 技术被用来创建开放的、通过点对点互动进行自我监
 
 互联网正在向 Web3 过渡，新的去中心化前沿需要开发高质量的 dapps。Dapps 基于区块链的智能合约。此外，它们在各方之间快速、安全、永久、廉洁且不受审查地执行不同类型的交易。他们也是点对点认证，消除了第三方，如银行，公证人和经纪人。
 
-目前，从头开始创建 dapps 既困难又耗时，尤其是在后端。幸运的是，您不必重新发明轮子，因为 Moralis 为您提供了快速构建 dapp 的工具。因此，你可以把你的梦想变成现实！你会加入道德网革命吗？**
+目前，从头开始创建 dapps 既困难又耗时，尤其是在后端。幸运的是，您不必重新发明轮子，因为 Moralis 为您提供了快速构建 dapp 的工具。因此，你可以把你的梦想变成现实！你会加入 Moralis 网革命吗？**

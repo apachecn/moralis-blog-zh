@@ -2,9 +2,9 @@
 
 > 原文：<https://moralis.io/how-to-build-a-web3-twitter-clone/>
 
-对于加密领域的用户来说，Twitter 一直是最受欢迎的社交媒体平台之一。然而，加密用户意识到，Twitter 的分散版本将非常有益，因为它将消除 Twitter 的集中平台的负面影响。因此，我们决定建立一个 Web3 Twitter 的克隆。通过创建和推出一个具有 Web3 功能的 Twitter 克隆，这样一个平台可以容纳区块链理工大学提供的许多优点，并可以为用户提供真正的去中心化。虽然这个任务听起来很麻烦，但是当使用正确的工具时，您会惊奇地发现这个过程是多么简单。此外，使用合适的工具，你可以在不到一小时三十分钟的时间内准备好一个 Web3 Twitter 替代品。因此，请密切关注我们在本文中探索如何使用诸如 [**道德**](http://moralis.io/) **和** [**混音**](https://moralis.io/remix-explained-what-is-remix/) **等工具来构建 Web3 Twitter 克隆！**
+对于加密领域的用户来说，Twitter 一直是最受欢迎的社交媒体平台之一。然而，加密用户意识到，Twitter 的分散版本将非常有益，因为它将消除 Twitter 的集中平台的负面影响。因此，我们决定建立一个 Web3 Twitter 的克隆。通过创建和推出一个具有 Web3 功能的 Twitter 克隆，这样一个平台可以容纳区块链理工大学提供的许多优点，并可以为用户提供真正的去中心化。虽然这个任务听起来很麻烦，但是当使用正确的工具时，您会惊奇地发现这个过程是多么简单。此外，使用合适的工具，你可以在不到一小时三十分钟的时间内准备好一个 Web3 Twitter 替代品。因此，请密切关注我们在本文中探索如何使用诸如 [**Moralis**](http://moralis.io/) **和** [**混音**](https://moralis.io/remix-explained-what-is-remix/) **等工具来构建 Web3 Twitter 克隆！**
 
-接下来，我们将首先仔细看看我们的示例 Web3 Twitter 克隆的演示。这样，你就会知道接下来会发生什么。因此，这也将帮助你决定是否要卷起袖子跟随我们的领导。此外，那些决定建立自己的 Web3 Twitter 替代品的人将会使用他们的[反应](https://moralis.io/react-explained-what-is-react/)技能。此外，我们将从创建和部署一个[智能契约](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/)开始。这就是我们将使用[实度](https://moralis.io/solidity-explained-what-is-solidity/)和混音的地方。然后，我们将关注使用 React 和 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 设置前端。我们将创建侧栏，主页，个人资料和设置页面。接下来，随着我们集成道德 SDK，事情会变得有趣起来。因此，我们将开始轻松整合 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 功能。因此，在继续之前，请务必[创建您的免费道德账户](https://admin.moralis.io/register)。
+接下来，我们将首先仔细看看我们的示例 Web3 Twitter 克隆的演示。这样，你就会知道接下来会发生什么。因此，这也将帮助你决定是否要卷起袖子跟随我们的领导。此外，那些决定建立自己的 Web3 Twitter 替代品的人将会使用他们的[反应](https://moralis.io/react-explained-what-is-react/)技能。此外，我们将从创建和部署一个[智能契约](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/)开始。这就是我们将使用[实度](https://moralis.io/solidity-explained-what-is-solidity/)和混音的地方。然后，我们将关注使用 React 和 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 设置前端。我们将创建侧栏，主页，个人资料和设置页面。接下来，随着我们集成 Moralis SDK，事情会变得有趣起来。因此，我们将开始轻松整合 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 功能。因此，在继续之前，请务必[创建您的免费 Moralis 账户](https://admin.moralis.io/register)。
 
 ![](img/f6da960d88e1e4c19ffbcbe7be1d36d1.png)
 
@@ -74,7 +74,7 @@
 
 ## 用 React、Moralis 和 Remix 构建一个 Web3 Twitter 克隆
 
-正如在简介中提到的，我们的示例 Web3 应用程序有几个方面。我们将使用 React 作为我们构建的前端。然后，是我们的“推特”智能合约，我们将使用 Remix 和 Solidity。最后是后端，我们将使用终极的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)——Moralis。这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”操作系统将使我们能够[索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)和[同步以及索引智能合约事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/)。我们将使用 Moralis dashboard(数据库)来完成这项工作，当您创建 Moralis 服务器时，就可以使用它了。幸运的是，你可以用你的免费道德账户做到这一点。因此，如果您还没有创建，请使用本文前面提到的链接！
+正如在简介中提到的，我们的示例 Web3 应用程序有几个方面。我们将使用 React 作为我们构建的前端。然后，是我们的“推特”智能合约，我们将使用 Remix 和 Solidity。最后是后端，我们将使用终极的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)——Moralis。这个“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) ”操作系统将使我们能够[索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)和[同步以及索引智能合约事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/)。我们将使用 Moralis dashboard(数据库)来完成这项工作，当您创建 Moralis 服务器时，就可以使用它了。幸运的是，你可以用你的免费 Moralis 账户做到这一点。因此，如果您还没有创建，请使用本文前面提到的链接！
 
 ***注:*** *继续向前，我们将开始查阅一个视频教程，你可以在本文底部找到。在该视频中，Moralis 专家将详细指导您完成所有步骤，所以请在观看时密切关注。此外，为了使过程尽可能简单和顺利，请确保克隆我们的代码。你有两个选择:你可以用我们的首发或者我们的* [*终码*](https://github.com/MoralisWeb3/youtube-tutorials/tree/main/Twitter-Start) *。如果你很着急，用后者。但是，如果您想充分利用这个示例项目，我们鼓励您克隆* [*起始代码*](https://github.com/MoralisWeb3/youtube-tutorials/tree/main/Twitter-Starter) *。*
 
@@ -116,7 +116,7 @@
 
 ## Web3 Twitter 后端
 
-现在你的前端已经准备好了，是时候给你的 Web3 Twitter 添加 Web3 功能了(57:29)。正如你已经知道的，你可以毫不费力地用 Moralis 做到这一点。所以，你需要[登录](https://admin.moralis.io/login)你的免费道德账户。在你的道德管理区，你需要[创建一个道德服务器](https://docs.moralis.io/moralis-dapp/getting-started/create-a-moralis-dapp#2.-create-a-moralis-server) (57:46):
+现在你的前端已经准备好了，是时候给你的 Web3 Twitter 添加 Web3 功能了(57:29)。正如你已经知道的，你可以毫不费力地用 Moralis 做到这一点。所以，你需要[登录](https://admin.moralis.io/login)你的免费 Moralis 账户。在你的 Moralis 管理区，你需要[创建一个 Moralis 服务器](https://docs.moralis.io/moralis-dapp/getting-started/create-a-moralis-dapp#2.-create-a-moralis-server) (57:46):
 
 ![](img/feadefd3bffe64e4a3e277203738ba46.png)
 
@@ -146,6 +146,6 @@ https://www.youtube.com/watch?v=HrlpTJD_CF0
 
 如果您喜欢这个示例项目，我们建议查看我们的其他“克隆”指南。其中包括构建一个 [Uniswap DEX 克隆](https://moralis.io/build-a-uniswap-dex-clone-with-html-css-javascript-moralis-on-the-ethereum-network/)、 [Web3 Airbnb 克隆](https://moralis.io/moralis-projects-learn-to-build-a-web3-airbnb-clone/)、 [Web3 网飞克隆](https://moralis.io/how-to-develop-a-web3-netflix-clone/)、 [Web3 Spotify 克隆](https://moralis.io/how-to-build-a-web3-spotify-clone/)、[比特币基地克隆](https://moralis.io/cloning-coinbase-wallet-how-to-create-a-coinbase-clone/)、 [OpenSea 克隆](https://moralis.io/create-an-opensea-clone-build-an-nft-marketplace-like-opensea/)，以及一个用于 Web3 的 [Reddit 克隆。此外，这些教程可以在](https://moralis.io/create-a-reddit-clone-for-web3-step-by-step-guide/) [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)上免费获得。除了这些稍微高级一些的教程，这两个网站还提供了无数其他更简单的示例项目和主题。例如，一些最新的文章集中在 [SPL vs ERC20 代币](https://moralis.io/spl-vs-erc20-tokens-comparing-solana-and-ethereum-tokens/)，一个[索拉纳代币仪表板](https://moralis.io/how-to-build-a-solana-token-dashboard/)，如何[创建你自己的元宇宙](https://moralis.io/how-to-create-your-own-metaverse/)，如何[创建一个 BNB NFT](https://moralis.io/how-to-create-a-bnb-nft/) ，[动态 NFT](https://moralis.io/what-are-dynamic-nfts-the-ultimate-2022-guide/)，[分数 NFT](https://moralis.io/what-are-fractional-nfts-the-ultimate-2022-f-nft-guide/)，[基于 NFT 的会员资格](https://moralis.io/what-are-nft-based-memberships-full-guide/)，如何建立一个[玩赚(P2E)游戏智能合约](https://moralis.io/how-to-build-a-play-to-earn-p2e-game-smart-contract/)
 
-如果你想快速自信地成为一名 Web3 开发者，就去看看 T2 的道德学院吧。道德学院是排名第一的区块链在线教育套件，提供顶级的[区块链发展课程](https://academy.moralis.io/all-courses)。此外，你可以获得个性化的学习路径和专家指导，并成为一个了不起的社区的一部分。最终，你可以在创纪录的时间内成为区块链认证！
+如果你想快速自信地成为一名 Web3 开发者，就去看看 T2 的 Moralis 学院吧。Moralis 学院是排名第一的区块链在线教育套件，提供顶级的[区块链发展课程](https://academy.moralis.io/all-courses)。此外，你可以获得个性化的学习路径和专家指导，并成为一个了不起的社区的一部分。最终，你可以在创纪录的时间内成为区块链认证！
 
 ![](img/cb863c705af1e5c16b2937275501e820.png)

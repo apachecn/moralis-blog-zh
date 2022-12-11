@@ -30,7 +30,7 @@ ERC 20 代币能够虚拟地代表各种事物。因此，它们的用例范围�
 
 # 如何获得任何以太坊代币价格
 
-获得以太币价格的过程并不一定很难。事实上，有了道德，这变得相当容易。Moralis 平台提供了所有必要的工具，并为用户提供了开箱即用的命令。为了展示 Moralis 的威力，我们将在本文中制作一个简单的应用程序，用户可以在其中查询以太币的价格。
+获得以太币价格的过程并不一定很难。事实上，有了 Moralis，这变得相当容易。Moralis 平台提供了所有必要的工具，并为用户提供了开箱即用的命令。为了展示 Moralis 的威力，我们将在本文中制作一个简单的应用程序，用户可以在其中查询以太币的价格。
 
 我们将要创建的应用程序将有三个不同的元素:一个输入字段、一个按钮和另一个显示 ttt 结果的字段。要获取代币的美元价格，用户需要提供代币地址，然后按“获取美元价格”按钮。因此，这是应用程序完成后的样子:
 
@@ -44,7 +44,7 @@ ERC 20 代币能够虚拟地代表各种事物。因此，它们的用例范围�
 2.  建立一个视图文件。
 3.  写前端逻辑。
 
-所有这些步骤都非常简单，但是为了使这个过程更加方便，我们将从创建 HTML 索引文件开始，逐一介绍每个步骤。然而，如果你更喜欢看解释这一过程的视频教程，那么从 [道德 YouTube 频道](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw) : 看看这个吧
+所有这些步骤都非常简单，但是为了使这个过程更加方便，我们将从创建 HTML 索引文件开始，逐一介绍每个步骤。然而，如果你更喜欢看解释这一过程的视频教程，那么从 [Moralis YouTube 频道](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw) : 看看这个吧
 
 [https://www.youtube.com/embed/ilMsx24c8k4?start=213&feature=oembed](https://www.youtube.com/embed/ilMsx24c8k4?start=213&feature=oembed)
 
@@ -74,7 +74,7 @@ ERC 20 代币能够虚拟地代表各种事物。因此，它们的用例范围�
 
 下面一行代码创建了一个新变量，解析传入的数据并将其返回，然后调用“moralis_query()”函数。该函数将返回一个 [JSON](https://moralis.io/json-explained-what-is-json-javascript-object-notation/) 变量，该变量将用于下一行，最终返回“res”变量。
 
-### “道德 _ 查询()”函数
+### “Moralis _ 查询()”函数
 
 接下来，我们有“moralis_query()”函数，它创建了两个不同的变量:一个我们想要查询的 URL 和一个标题字段。URL 变量由四个不同的元素组成:用于 API 的更广泛的 URL，后面是地址、链和链名，使得 URL 更特定于令牌类型。头字段的变量是来自 Moralis 的授权密钥的值。下一行代码以变量作为参数执行 GET 请求。最后，该函数返回 JSON 格式的变量“r”。
 
@@ -108,4 +108,4 @@ Moralis 提供全面管理的后端基础设施，让用户节省宝贵的时间
 
 有了 Moralis，我们可以创建这个简单的应用程序，使用平台的工具在几分钟内获得以太币的价格。再者，用 Moralis 可以创建各种 dapp，有兴趣的话还有关于 [如何构建 BSC dapp](https://moralis.io/how-to-build-bsc-dapps-easily/)和 [如何构建 ETH dapp](https://moralis.io/how-to-build-eth-dapps-quickly/)的优秀指南。此外， [Moralis 博客](https://moralis.io/blog/) 提供了大量可供选择的文章，让您扩展自己的 Web3 开发技能。
 
-因此，如果你想成为一名 Web3 开发者，我们强烈推荐你立即注册道德家的[](https://admin.moralis.io/register)。加入该平台是完全免费的，用户可以立即使用该平台的所有工具。
+因此，如果你想成为一名 Web3 开发者，我们强烈推荐你立即注册 Moralis 家的[](https://admin.moralis.io/register)。加入该平台是完全免费的，用户可以立即使用该平台的所有工具。

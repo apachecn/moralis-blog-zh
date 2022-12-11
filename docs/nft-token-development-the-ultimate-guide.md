@@ -93,7 +93,7 @@ if __name__ == "__main__":
 
 现在，让我们分解必要的代码，看看它如何实现创建您自己的 NFT 和继续 NFT 令牌开发的所有步骤。
 
-1.  初始化道德
+1.  初始化 Moralis
 
 要初始化 Moralis，您只需要输入几行代码，以及来自您新创建的 Moralis 服务器的详细信息(应用程序 ID 和服务器 URL)。
 
@@ -197,7 +197,7 @@ async function upload(){
 
 现在，将该对象保存到 Moralis 服务器或 IPFS 变得很容易。
 
-#### 道德 IPFS 仓库
+#### Moralis IPFS 仓库
 
 在本指南中，我们选择以分散的方式存储数据。因此，我们选择 IPFS(星际文件系统)。要保存文件，请使用以下命令(包含在上面的代码中):
 
@@ -278,7 +278,7 @@ async function notify(_txt){
 
 ## NFT 令牌开发-总结
 
-现在你有了它，一个 NFT 铸造 dApp 创造了几个简单的步骤与道德。Moralis 的一个最重要的特性让您在 NFT 开发中获得优势，这就是它在存储 NFT 元数据时支持集中式和分散式选项的能力。道德并没有规定你如何建立你的 dApps。相反，它将灵活、敏捷和强大的 dApp 开发的力量掌握在您的手中！
+现在你有了它，一个 NFT 铸造 dApp 创造了几个简单的步骤与 Moralis。Moralis 的一个最重要的特性让您在 NFT 开发中获得优势，这就是它在存储 NFT 元数据时支持集中式和分散式选项的能力。Moralis 并没有规定你如何建立你的 dApps。相反，它将灵活、敏捷和强大的 dApp 开发的力量掌握在您的手中！
 
 此外， [Moralis](https://moralis.io/speedy-nodes/) 可让您在几分钟内为您的 NFT 项目创建一个服务器，而 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) 可让您省去从头开始运行和设置自己的节点的繁重工作！此外，只需一行代码，Moralis 就能支持您 dApp 开发的每一步，从实现无缝用户认证到连接到 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 。它确实是最终的 Web3 开发平台，可以帮助您以更低的成本和复杂性构建和扩展 dApps。
 

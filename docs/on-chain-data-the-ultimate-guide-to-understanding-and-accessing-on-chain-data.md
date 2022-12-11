@@ -20,7 +20,7 @@ Moralis 的 [Web3 API](https://docs.moralis.io/moralis-dapp/web3-api) 、 [NFT A
 
 ![](img/58bbd848768266a87857978210ae0988.png)
 
-如果你想了解更多关于区块链技术和 Web3 开发的信息，请随时查看[道德学院](https://academy.moralis.io/)。如果你是加密领域的新手，请仔细看看“[区块链&比特币 101](https://academy.moralis.io/courses/blockchain-bitcoin-101) 课程，它涵盖了区块链技术和 Web3 开发的基础知识！
+如果你想了解更多关于区块链技术和 Web3 开发的信息，请随时查看[Moralis 学院](https://academy.moralis.io/)。如果你是加密领域的新手，请仔细看看“[区块链&比特币 101](https://academy.moralis.io/courses/blockchain-bitcoin-101) 课程，它涵盖了区块链技术和 Web3 开发的基础知识！
 
 ## 什么是链上数据？
 
@@ -66,7 +66,7 @@ Moralis 的 [Web3 API](https://docs.moralis.io/moralis-dapp/web3-api) 、 [NFT A
 
 在开发过程中，访问链上数据的最简单快捷的方法是利用 Moralis 操作系统。在该平台提供的工具中，您会发现 API 和 Moralis SDK，它们允许您作为开发人员只需一小段代码就可以查询各种数据。
 
-如果你想了解更多关于道德的各种 API，请仔细看看关于[以太坊 NFT API](https://moralis.io/what-is-an-ethereum-nft-api-ethereum-nft-apis-explained/) 和[以太坊 dapp API](https://moralis.io/what-is-an-ethereum-dapp-api-build-ethereum-dapps-easily/) 的文章。阅读这些文章将有助于您在以太坊网络上进行 Web3 开发。
+如果你想了解更多关于 Moralis 的各种 API，请仔细看看关于[以太坊 NFT API](https://moralis.io/what-is-an-ethereum-nft-api-ethereum-nft-apis-explained/) 和[以太坊 dapp API](https://moralis.io/what-is-an-ethereum-dapp-api-build-ethereum-dapps-easily/) 的文章。阅读这些文章将有助于您在以太坊网络上进行 Web3 开发。
 
 ![](img/b497f4b6c8657615b2b5ff2084f771f0.png)
 
@@ -82,7 +82,7 @@ Moralis 的 [Web3 API](https://docs.moralis.io/moralis-dapp/web3-api) 、 [NFT A
 
 每当交易在区块链网络上生效时，该事件都会被记录并存储在一个数字分类账中——区块链。这些信息是公开的，通常被称为链上数据。链上数据有多种形式。这些包括钱包地址、交易金额、NFT 余额、代币余额、[智能合约](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/)的代码等。
 
-这些信息是公开的，对您的开发工作非常有价值。因此，举例来说，如果你想[创建一个 Web3 Twitter 克隆版](https://moralis.io/how-to-build-a-web3-twitter-clone/)或者想[开发一个中世纪的元宇宙游戏](https://moralis.io/how-to-build-a-medieval-metaverse-game/)，你很可能会发现链上数据是一笔宝贵的资产。然而，从传统的角度来看，查询这些信息是一项非常麻烦的任务。幸运的是，你不再是这种情况，因为你有道德。
+这些信息是公开的，对您的开发工作非常有价值。因此，举例来说，如果你想[创建一个 Web3 Twitter 克隆版](https://moralis.io/how-to-build-a-web3-twitter-clone/)或者想[开发一个中世纪的元宇宙游戏](https://moralis.io/how-to-build-a-medieval-metaverse-game/)，你很可能会发现链上数据是一笔宝贵的资产。然而，从传统的角度来看，查询这些信息是一项非常麻烦的任务。幸运的是，你不再是这种情况，因为你有 Moralis。
 
 有了 Moralis，你现在可以用一小段代码轻松地查询所有种类的链上信息。因此，作为平台成员，您将能够在所有未来的开发流程中节省宝贵的时间和资源。这确保您可以专注于真正重要的事情，并尽可能为您的用户提供最佳体验！此外，请仔细看看 Moralis 的 [web3uikit](https://moralis.io/web3ui-kit-the-ultimate-web3-user-interface-kit/) 并学习如何[为所有未来项目创建一个伟大的 dapp UI](https://moralis.io/web3-ui-how-to-create-a-great-dapp-ui/) 。
 

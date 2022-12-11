@@ -111,8 +111,8 @@ node “FILE_NAME”
 
 随着对你正在努力的目标有了更深刻的理解，是时候向你展示如何获得钱包所拥有的所有代币了。此外，为了做到这一点，下面几节将教您如何创建一个简单的 NextJS 应用程序，您可以在其中输入一个地址并从指定的钱包中获取所有令牌作为回报。此外，由于 Moralis 的 [Token API](https://moralis.io/token-api/) ，您将能够只通过五个简单的步骤来创建这个应用程序:
 
-1.  完成先决条件并设置道德账户
-2.  获取您的道德 API 密钥
+1.  完成先决条件并设置 Moralis 账户
+2.  获取您的 Moralis API 密钥
 3.  项目设置
 4.  代码分解:“index.js”和“header.js”
 5.  代码分解:“main.js”
@@ -129,7 +129,7 @@ node “FILE_NAME”
 
 ![nodejs symbol on white background](img/dc682068226775f38097e090c71eabfa.png)
 
-除了 NodeJS 和 npm，你还必须[向 Moralis](https://admin.moralis.io/register) 注册。如果你还没有，现在就创建一个道德账户。建立一个帐户只需要几分钟，而且完全免费！
+除了 NodeJS 和 npm，你还必须[向 Moralis](https://admin.moralis.io/register) 注册。如果你还没有，现在就创建一个 Moralis 账户。建立一个帐户只需要几分钟，而且完全免费！
 
 ### 步骤 2:获取您的 Moralis API 密钥
 
@@ -311,12 +311,12 @@ return (
 
 在本文中，您看到了如何获得钱包拥有的所有令牌，这要感谢 Moralis 的令牌 API。为了展示这个 API，本文演示了如何创建一个简单的 NextJS dapp，允许任何人根据地址查询钱包的令牌余额。此外，由于 Moralis 的可访问性，您只需五个步骤就能创建此应用程序:
 
-1.  完成先决条件并设置道德账户
-2.  获取您的道德 API 密钥
+1.  完成先决条件并设置 Moralis 账户
+2.  获取您的 Moralis API 密钥
 3.  项目设置
 4.  代码分解:“index.js”和“header.js”
 5.  代码分解:“main.js”
 
 如果你觉得这篇文章有帮助，你可以在 Moralis 的 [Web3 博客](https://moralis.io/blog/)上查看其他令人兴奋的指南。例如，探索错综复杂的[以太坊网钩](https://moralis.io/ethereum-webhooks-what-they-are-and-how-to-use-webhooks-for-ethereum/)或学习如何[使用 Python](https://moralis.io/how-to-get-nft-collections-using-python-and-react/) 获得 NFT 收藏！此外，如果您对以太坊开发最感兴趣，请查看我们的文章，探索如何为 dapp 开发获得 ERC20 令牌的[平衡、](https://moralis.io/balance-of-erc20-how-to-get-balance-of-an-erc20-token-from-address/)[终极 ERC20 令牌 API](https://moralis.io/exploring-the-ultimate-erc20-token-api/) 和[最佳 ERC20 令牌平衡 API](https://moralis.io/the-best-erc20-token-balance-api-for-dapp-development/) ！
 
-尽管如此，如果你想充分利用区块链的力量，请立即与道德家签约。您可以免费设置您的帐户，而且只需几秒钟，因此您不会有任何损失！**
+尽管如此，如果你想充分利用区块链的力量，请立即与 Moralis 家签约。您可以免费设置您的帐户，而且只需几秒钟，因此您不会有任何损失！**

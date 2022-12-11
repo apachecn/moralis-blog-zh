@@ -4,7 +4,7 @@
 
 NFT(不可替换的令牌)的独特性提供了无数的机会，开发者可以构建各种与 NFT 相关的项目，并围绕这些项目使用各种用例。也就是说，当您 [**创建一个 NFT 项目**](https://moralis.io/how-to-create-an-nft-project-get-started-and-launch-successfully/) **时，无论是显示** [**NFT 收集数据的 dapp**](https://moralis.io/nft-collection-data-how-to-get-nft-collection-data/)**还是使用户能够** [**通过一个地址获得所有的 NFT**](https://moralis.io/how-to-get-all-nfts-owned-by-an-address-3-step-process/)**，正确理解各种 NFT 标准都很重要。一个这样的标准是 ERC 1155，这是本文的主要焦点！**
 
-接下来，我们将首先回答“什么是 ERC-1155？”问题。接下来，我们将确保您了解 ERC 721 和 ERC 1155 的区别。您还将有机会了解半可替换令牌。我们还将确保您熟悉 ERC 1155 智能合同。此外，除了确保您理解理论和概念，我们还将查看一个合同样本。最后，我们将探索获得 ERC-1155 钱包地址的最简单的方法。在这里，您将了解一些终极道德标准 [NFT API](https://moralis.io/nft-api/) 端点，以及如何轻松实现钱包平衡。
+接下来，我们将首先回答“什么是 ERC-1155？”问题。接下来，我们将确保您了解 ERC 721 和 ERC 1155 的区别。您还将有机会了解半可替换令牌。我们还将确保您熟悉 ERC 1155 智能合同。此外，除了确保您理解理论和概念，我们还将查看一个合同样本。最后，我们将探索获得 ERC-1155 钱包地址的最简单的方法。在这里，您将了解一些终极 Moralis 标准 [NFT API](https://moralis.io/nft-api/) 端点，以及如何轻松实现钱包平衡。
 
 说了这么多，我们需要涵盖一些理论，以确保您正确理解 ERC 1155 标准。然而，如果你喜欢边做边学，[创建你的免费 Moralis 账户](https://admin.moralis.io/register),学习 Moralis 文档中的许多优秀教程。例如，用 NodeJS 和 NextJS 构建你的[第一个 dapp 是一个很好的起点。然后，您可以继续阅读](https://docs.moralis.io/docs/your-first-dapp-nodejs) [NFT API 教程](https://docs.moralis.io/docs/nft-api)，并在“什么是 ERC-1155？”时返回本文问题出现了。
 
@@ -136,7 +136,7 @@ contract GameItems is ERC1155 {
 
 如果您已经阅读了上面的章节，那么您现在应该知道 ERC-1155 是什么，以及它的用处。看了上面的例子，你可能已经对如何写这类合同有了一个恰当的理解，特别是如果你知道 Solidity 的话。如果您不知道但想知道，请理解智能契约的创建和 NFT 的铸造超出了本文的范围。
 
-相反，我们想用这最后一节来解释如何轻松获得 ERC-1155 钱包地址。这就是道德简化事情的地方。但是在我们告诉您哪个 NFT API 端点将为您获取一个 ERC-1155 钱包地址之前，我们需要解释一些事情。
+相反，我们想用这最后一节来解释如何轻松获得 ERC-1155 钱包地址。这就是 Moralis 简化事情的地方。但是在我们告诉您哪个 NFT API 端点将为您获取一个 ERC-1155 钱包地址之前，我们需要解释一些事情。
 
 首先，请记住，用于铸造非功能性交易的智能合约也管理相应的非功能性交易的转移。这意味着您可以根据智能合约地址(也称为收集地址)来搜索 NFT。然而，一旦用户或玩家购买或以其他方式获得特定 NFT 的所有权，后者就被分配给用户的钱包。所以，当你得到一个 ERC-1155 钱包地址时，你实际上是在获取这个令牌的所有者。此外，多亏了 Moralis，您可以用一行代码以两种不同的方式做到这一点:
 
@@ -174,4 +174,4 @@ const response = await Moralis.EvmApi.nft.getNFTTokenIdOwners({
 *   开始建造杀手 dapps
 *   探索其他区块链发展主题
 
-如果你渴望开始构建，你在一开始就发现你只需要创建你的免费 Moralis 帐户，并遵循我们的教程。另一方面，如果你有兴趣探索其他加密话题，请访问[道德伦理 YouTube 频道](https://www.youtube.com/@MoralisWeb3)和[道德伦理博客](https://moralis.io/blog/)。一些最新的话题涵盖了 [web3.storage](https://moralis.io/an-introduction-to-web3-storage-what-is-it-and-how-does-it-work/) 和 [Web3 storage](https://moralis.io/web3-storage-how-web3-data-storage-works/) 、 [ethers.js vs Web3 streams](https://moralis.io/ethers-js-vs-web3-streams-the-best-option-for-blockchain-developers/) 、 [Palm NFT 工作室](https://moralis.io/exploring-the-palm-network-what-is-palm-nft-studio/)等等。此外，您可能希望以更专业的方式探索不同的区块链发展主题。如果是这样，考虑报名[道德学院](https://academy.moralis.io/)。这是获得区块链认证并从专业人士那里学习[以太坊基础知识](https://academy.moralis.io/courses/ethereum-101)的地方。
+如果你渴望开始构建，你在一开始就发现你只需要创建你的免费 Moralis 帐户，并遵循我们的教程。另一方面，如果你有兴趣探索其他加密话题，请访问[Moralis 伦理 YouTube 频道](https://www.youtube.com/@MoralisWeb3)和[Moralis 伦理博客](https://moralis.io/blog/)。一些最新的话题涵盖了 [web3.storage](https://moralis.io/an-introduction-to-web3-storage-what-is-it-and-how-does-it-work/) 和 [Web3 storage](https://moralis.io/web3-storage-how-web3-data-storage-works/) 、 [ethers.js vs Web3 streams](https://moralis.io/ethers-js-vs-web3-streams-the-best-option-for-blockchain-developers/) 、 [Palm NFT 工作室](https://moralis.io/exploring-the-palm-network-what-is-palm-nft-studio/)等等。此外，您可能希望以更专业的方式探索不同的区块链发展主题。如果是这样，考虑报名[Moralis 学院](https://academy.moralis.io/)。这是获得区块链认证并从专业人士那里学习[以太坊基础知识](https://academy.moralis.io/courses/ethereum-101)的地方。

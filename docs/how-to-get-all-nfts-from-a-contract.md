@@ -16,7 +16,7 @@ const response = await Moralis.EvmApi.nft.getContractNFTs({
 
 在上一轮牛市中，出现了许多与 NFT 相关的项目，包括 NFT 门户网站、市场等。现在，开发人员已经为这些令牌发现了越来越多的用例以及各种实用功能。因此，现在是学习如何围绕这些令牌轻松构建各种分散式应用程序(dapps)的最佳时机。也就是说，一个很好的起点是一个整洁的 NFT 浏览器——一个 dapp，使您能够从合同中获得所有的 NFT。虽然这项任务听起来很有挑战性，但如果使用正确的工具，这是一个非常简单的过程。
 
-多亏了 Moralis 的终极 [NFT API](https://moralis.io/nft-api/) 和它的“ *getContractNFTs* ”端点，您可以在几分钟内启动并运行一个全功能的 NFT 浏览器，这正是您将在今天文章的最后阶段学到的。然而，在我们重点向您展示如何以最简单的方式从 contract 获得所有 NFT 之前，我们需要了解一些基础知识。因此，我们将首先确保您知道什么是 NFTs 和智能合同，以及它们之间的关系。接下来，我们将仔细看看最重要的 NFT 开发工具。最后，在邀请您卷起袖子之前，我们还将确保您熟悉 Moralis 的" *getContractNFTs* "端点。毕竟，如果你决定完成本教程，后者将在后端为你做所有的艰苦工作。此外，在这种情况下，你还需要你的[免费道德账户](https://admin.moralis.io/register)。
+多亏了 Moralis 的终极 [NFT API](https://moralis.io/nft-api/) 和它的“ *getContractNFTs* ”端点，您可以在几分钟内启动并运行一个全功能的 NFT 浏览器，这正是您将在今天文章的最后阶段学到的。然而，在我们重点向您展示如何以最简单的方式从 contract 获得所有 NFT 之前，我们需要了解一些基础知识。因此，我们将首先确保您知道什么是 NFTs 和智能合同，以及它们之间的关系。接下来，我们将仔细看看最重要的 NFT 开发工具。最后，在邀请您卷起袖子之前，我们还将确保您熟悉 Moralis 的" *getContractNFTs* "端点。毕竟，如果你决定完成本教程，后者将在后端为你做所有的艰苦工作。此外，在这种情况下，你还需要你的[免费 Moralis 账户](https://admin.moralis.io/register)。
 
 ![NFTs & Smart Contracts - What are They?](img/5aa00a6da10102bd34b7fea521de3ba7.png)
 
@@ -28,7 +28,7 @@ const response = await Moralis.EvmApi.nft.getContractNFTs({
 
 智能合同还包括关于 NFT 的基本和可选细节。这些细节以元数据的形式出现。此外，链接到 NFT 文件(如 PNGs，JPEGs，MP3，pdf 等。)也包含在元数据文件中。
 
-最后，一旦部署了 NFT 智能合约，它们可以自动启动非功能性交易的铸造过程，或者提供“冷”铸造功能。后者能够在以后进行铸造。*要了解更多有关不同 NFT 标准和采矿流程的信息，请务必浏览* [*道德博客*](https://moralis.io/blog/) *。*
+最后，一旦部署了 NFT 智能合约，它们可以自动启动非功能性交易的铸造过程，或者提供“冷”铸造功能。后者能够在以后进行铸造。*要了解更多有关不同 NFT 标准和采矿流程的信息，请务必浏览* [*Moralis 博客*](https://moralis.io/blog/) *。*
 
 ![Animated man holding a giant pen and white canvas to start painting an NFT.](img/116e3e55b7c6a32825c8de614bef603a.png)
 
@@ -157,7 +157,7 @@ app.get("/allNft", async (req, res) => {
 
 ### 步骤 2:获取您的 Moralis API 密钥
 
-每次运行“index.js”文件时，您都希望启动 dapp。然而，在此之前，你要启动道德。这些代码行会解决这个问题:
+每次运行“index.js”文件时，您都希望启动 dapp。然而，在此之前，你要启动 Moralis。这些代码行会解决这个问题:
 
 ```js
 Moralis.start({
@@ -169,7 +169,7 @@ Moralis.start({
 });
 ```
 
-通过查看上面的代码行，您可以看到“ *MORALIS_API_KEY* ”占位符。您需要用实际的 Moralis Web3 API 密钥替换后者。因此，登录到您的道德帐户访问您的管理区。从那里，您将转到“Web3 APIs”页面并复制您的 API 密钥:
+通过查看上面的代码行，您可以看到“ *MORALIS_API_KEY* ”占位符。您需要用实际的 Moralis Web3 API 密钥替换后者。因此，登录到您的 Moralis 帐户访问您的管理区。从那里，您将转到“Web3 APIs”页面并复制您的 API 密钥:
 
 ![](img/b55681637bf2308c5516a8e55293a37f.png)
 
@@ -205,6 +205,6 @@ Moralis.start({
 
 在今天的文章中，您有机会了解了 NFTs 和智能合约的基础知识。因此，你现在知道智能合约负责制造非功能性交易。我们还讨论了主要的 NFT 开发工具。然后，您了解了 Moralis 的" *getContractNFTs* "端点的威力。最后，你有机会卷起袖子，跟随我们的领导建立一个 NFT 探险家 dapp 的例子。因此，您现在知道如何轻松地从 contract 中获取所有 NFT。
 
-如果你喜欢今天的教程，我们鼓励你使用 [Moralis 文档](https://docs.moralis.io/docs)并处理其他示例项目。如果您想继续您的 NFT 编程之旅，您应该关注“NFT API”部分。另一方面，您可以探索 Moralis Web3 API 提供的其他可能性。此外，确保使用[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和我们的博客来扩展您的区块链发展知识。我们的一些最新文章围绕着什么是 [Web3 提供商](https://moralis.io/web3-provider-why-blockchain-developers-should-use-one/)，如何[商业 web 3](https://moralis.io/web3-for-business-how-and-why-you-can-integrate-web3-into-your-enterprise/)工作，一个 [Web3 JS 教程](https://moralis.io/web3-js-tutorial-for-blockchain-developers/)的演示，构建一个 [Web3 Unity 多人游戏](https://moralis.io/how-to-build-a-web3-multiplayer-game-using-unity-multiplayer/)等等。
+如果你喜欢今天的教程，我们鼓励你使用 [Moralis 文档](https://docs.moralis.io/docs)并处理其他示例项目。如果您想继续您的 NFT 编程之旅，您应该关注“NFT API”部分。另一方面，您可以探索 Moralis Web3 API 提供的其他可能性。此外，确保使用[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和我们的博客来扩展您的区块链发展知识。我们的一些最新文章围绕着什么是 [Web3 提供商](https://moralis.io/web3-provider-why-blockchain-developers-should-use-one/)，如何[商业 web 3](https://moralis.io/web3-for-business-how-and-why-you-can-integrate-web3-into-your-enterprise/)工作，一个 [Web3 JS 教程](https://moralis.io/web3-js-tutorial-for-blockchain-developers/)的演示，构建一个 [Web3 Unity 多人游戏](https://moralis.io/how-to-build-a-web3-multiplayer-game-using-unity-multiplayer/)等等。
 
-此外，你可能有兴趣在密码部门找到一份令人难以置信的工作。如果是这样，成为区块链认证可以大大提高你的胜算。这就是道德学院进入画面的地方。在那里你可以找到许多区块链发展课程，包括教你如何[建立一个 NFT 市场的课程。此外，道德学院也是获得专家指导的地方，个性化的学习路径，并成为行业最先进的社区之一的成员。](https://academy.moralis.io/courses/ethereum-dapp-programming)**
+此外，你可能有兴趣在密码部门找到一份令人难以置信的工作。如果是这样，成为区块链认证可以大大提高你的胜算。这就是 Moralis 学院进入画面的地方。在那里你可以找到许多区块链发展课程，包括教你如何[建立一个 NFT 市场的课程。此外，Moralis 学院也是获得专家指导的地方，个性化的学习路径，并成为行业最先进的社区之一的成员。](https://academy.moralis.io/courses/ethereum-dapp-programming)**

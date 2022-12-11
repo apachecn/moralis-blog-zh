@@ -6,9 +6,9 @@
 
 https://www.youtube.com/watch?v=XmezdzLb154
 
-**Web3 认证在构建** [**去中心化应用**](https://moralis.io/decentralized-applications-explained-what-are-dapps/) **(dApps)时至关重要。因此，区块链开发人员必须知道如何构建 Web3 登录。如果你已经直接在** [**以太坊 RPC 节点**](https://moralis.io/ethereum-rpc-nodes-what-they-are-and-why-you-shouldnt-use-them/) **上编程，你会知道创建一个 Web3 登录特性是相当棘手和耗时的。然而，2021 引入了区块链开发的新方法，打破了 RPC 节点** **的** [**限制。我们说的是领先的**](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)[**Web 3.0**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/)**开发平台——**[**道德家**](https://moralis.io/) **。这款**[**Firebase for crypto**](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/)**[**JavaScript**](https://moralis.io/javascript-explained-what-is-javascript/)**——精通 Web3 SDK** **的开发者用。反过来，开发人员只需在他们的 dApps 中加入几行简短的代码，只需几个步骤就可以实现功能，并在创纪录的时间内启动他们的项目。在 Moralis 提供的众多解决方案中，我们将在本文中看看如何用 Moralis 的五个步骤构建一个 Web3 登录。****
+**Web3 认证在构建** [**去中心化应用**](https://moralis.io/decentralized-applications-explained-what-are-dapps/) **(dApps)时至关重要。因此，区块链开发人员必须知道如何构建 Web3 登录。如果你已经直接在** [**以太坊 RPC 节点**](https://moralis.io/ethereum-rpc-nodes-what-they-are-and-why-you-shouldnt-use-them/) **上编程，你会知道创建一个 Web3 登录特性是相当棘手和耗时的。然而，2021 引入了区块链开发的新方法，打破了 RPC 节点** **的** [**限制。我们说的是领先的**](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)[**Web 3.0**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/)**开发平台——**[**Moralis 家**](https://moralis.io/) **。这款**[**Firebase for crypto**](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/)**[**JavaScript**](https://moralis.io/javascript-explained-what-is-javascript/)**——精通 Web3 SDK** **的开发者用。反过来，开发人员只需在他们的 dApps 中加入几行简短的代码，只需几个步骤就可以实现功能，并在创纪录的时间内启动他们的项目。在 Moralis 提供的众多解决方案中，我们将在本文中看看如何用 Moralis 的五个步骤构建一个 Web3 登录。****
 
-**接下来，我们将首先介绍一些基础知识，帮助大家快速掌握。然后，我们将关注一个示例项目，向您展示如何快速构建 Web3 登录。我们将涵盖的任务将向您介绍 Next.js，以及它如何为您简化事情。当然，你也会看到创建一个干净简单的前端是多么容易。尽管如此，您也将有机会学习如何正确处理错误。我们将向您展示如何构建 Web3 登录，您也将学习如何使用 Moralis。通过完成 Moralis 的初始设置，您将知道如何在未来的项目中充分利用这个强大的工具。为了让您轻松跟随我们，请务必[创建您的免费道德账户](https://admin.moralis.io/register)。**
+**接下来，我们将首先介绍一些基础知识，帮助大家快速掌握。然后，我们将关注一个示例项目，向您展示如何快速构建 Web3 登录。我们将涵盖的任务将向您介绍 Next.js，以及它如何为您简化事情。当然，你也会看到创建一个干净简单的前端是多么容易。尽管如此，您也将有机会学习如何正确处理错误。我们将向您展示如何构建 Web3 登录，您也将学习如何使用 Moralis。通过完成 Moralis 的初始设置，您将知道如何在未来的项目中充分利用这个强大的工具。为了让您轻松跟随我们，请务必[创建您的免费 Moralis 账户](https://admin.moralis.io/register)。**
 
 **![](img/2d12fd27a5606bcf3da11516c798370a.png)
 
@@ -34,8 +34,8 @@ Web3 登录有时简称为 [Web3 认证](https://moralis.io/web3-authentication-
 
 1.  **Next.js 项目设置。**
 2.  **建造前端。**
-3.  **道德的初始设置。**
-4.  **整合道德观。**
+3.  **Moralis 的初始设置。**
+4.  **整合 Moralis 观。**
 5.  **错误处理。**
 
 除了我们的解释和截图之外，您还有机会观看一段 Moralis 专家完成上述步骤的视频。然而，在继续之前，让我们对您将要构建的界面做一个简单的预览。
@@ -92,7 +92,7 @@ Web3 登录有时简称为 [Web3 认证](https://moralis.io/web3-authentication-
 
 无论您决定从头开始创建 dApps(如在这个示例项目中)还是使用我们的终极 [Web3 样板](https://moralis.io/web3-boilerplate-beginners-guide-to-web3/)，您首先需要完成一些简单的 Moralis 设置步骤。因此，请遵循以下子步骤:
 
-1.  [**创建你的免费道德账户**](https://admin.moralis.io/register)——如果你还没有创建你的免费道德账户，现在就创建吧。您可以使用此步骤开始时的链接。因此，您将进入注册页面。在那里，您需要输入您的电子邮件并创建您的密码。要完成该流程，您需要点击确认链接(查看您的电子邮件收件箱)。*另一方面，如果您已经拥有一个有效的道德家账户，只需使用您的凭证* [*登录*](https://admin.moralis.io/login) *。*
+1.  [**创建你的免费 Moralis 账户**](https://admin.moralis.io/register)——如果你还没有创建你的免费 Moralis 账户，现在就创建吧。您可以使用此步骤开始时的链接。因此，您将进入注册页面。在那里，您需要输入您的电子邮件并创建您的密码。要完成该流程，您需要点击确认链接(查看您的电子邮件收件箱)。*另一方面，如果您已经拥有一个有效的 Moralis 家账户，只需使用您的凭证* [*登录*](https://admin.moralis.io/login) *。*
 
 2.  [**创建一个 Moralis 服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)–在您的 Moralis 管理区内，进入“服务器”选项卡。在那里，点击右上角的“+创建新服务器”按钮(见下面的截图)。接下来，您需要从下拉菜单中选择最适合您需求的网络类型(见下图)。*当处理示例项目或者测试你的 dApps 时，你想要关注“Testnet 服务器”或者“本地 Devchain 服务器”选项。在我们的情况下，我们将选择后者。但是，一旦你想向公众发布你的 dApps，你需要选择“Mainnet 服务器”。*
 
@@ -104,7 +104,7 @@ Web3 登录有时简称为 [Web3 认证](https://moralis.io/web3-authentication-
 
 3.  **安装 Moralis SDK**–在继续之前，您还需要安装 Moralis SDK。为此，在终端的命令行中输入“ **npm install moralis** ”，然后输入“ **npm install react-moralis** ”。然后，输入“ **npm 运行开发**”。
 
-## 步骤 4:如何构建 Web3 登录——整合道德
+## 步骤 4:如何构建 Web3 登录——整合 Moralis
 
 既然您的服务器已经启动并运行，是时候将 Moralis 集成到您的代码中了。然而，在这样做之前，打开 VSC 里面的“_app.js”并应用必要的调整(上面 24:02 的视频)。
 
@@ -116,7 +116,7 @@ Web3 登录有时简称为 [Web3 认证](https://moralis.io/web3-authentication-
 
 ![](img/9bb5e5115df120667de5f1f9d47433d8.png)
 
-5.  初始化道德规范–现在是初始化道德规范的时候了。这将最终让你完全接触到道德的力量，从而满足你的后端需求。在我们的示例项目中，您需要填充上面准备好的“_app.js”文件来连接和初始化 Moralis:
+5.  初始化 Moralis 规范–现在是初始化 Moralis 规范的时候了。这将最终让你完全接触到 Moralis 的力量，从而满足你的后端需求。在我们的示例项目中，您需要填充上面准备好的“_app.js”文件来连接和初始化 Moralis:
 
 ![](img/6d6de69bc4d1d6d72e2d043cc01df120.png)
 
@@ -138,10 +138,10 @@ Web3 登录有时简称为 [Web3 认证](https://moralis.io/web3-authentication-
 
 1.  **Next.js 项目设置。**
 2.  **建造前端。**
-3.  **道德的初始设置。**
-4.  **整合道德观。**
+3.  **Moralis 的初始设置。**
+4.  **整合 Moralis 观。**
 5.  **错误处理。**
 
-此外，您还了解了在几分钟内部署用户就绪的 dApps 的终极捷径。后者是通过使用最实用的 Web3 样板来完成的，可以从 GitHub 获得。此外，要获得更多免费的区块链发展教育，请访问[道德博客](https://moralis.io/blog/)和[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。我们最近的一些话题围绕着[以太坊煤气费](https://moralis.io/ethereum-gas-fees-the-ultimate-2022-guide/)、 [GameFi 和 play-to-earn (P2E)](https://moralis.io/what-is-gamefi-and-play-to-earn-p2e/) 、如何[通过网站](https://moralis.io/how-to-interact-with-smart-contracts-through-your-website/)与智能合约互动、如何[用 Moralis](https://moralis.io/walletconnect-android-sdk-alternative-authenticate-android-apps-withmoralis/) 认证 Android 应用、一个 [DAO 智能合约示例](https://moralis.io/dao-smart-contract-example-dao-guide/)、 [ERC20 合约](https://moralis.io/what-are-erc20-contracts-full-erc20-contract-guide/)等等。此外，你还有机会通过报名参加[道德学院](https://academy.moralis.io/)采取更专业的方法。有了顶级质量的课程、支持和欢迎的社区以及专业水平的指导，你应该在创纪录的时间内成为全职加密员。
+此外，您还了解了在几分钟内部署用户就绪的 dApps 的终极捷径。后者是通过使用最实用的 Web3 样板来完成的，可以从 GitHub 获得。此外，要获得更多免费的区块链发展教育，请访问[Moralis 博客](https://moralis.io/blog/)和[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。我们最近的一些话题围绕着[以太坊煤气费](https://moralis.io/ethereum-gas-fees-the-ultimate-2022-guide/)、 [GameFi 和 play-to-earn (P2E)](https://moralis.io/what-is-gamefi-and-play-to-earn-p2e/) 、如何[通过网站](https://moralis.io/how-to-interact-with-smart-contracts-through-your-website/)与智能合约互动、如何[用 Moralis](https://moralis.io/walletconnect-android-sdk-alternative-authenticate-android-apps-withmoralis/) 认证 Android 应用、一个 [DAO 智能合约示例](https://moralis.io/dao-smart-contract-example-dao-guide/)、 [ERC20 合约](https://moralis.io/what-are-erc20-contracts-full-erc20-contract-guide/)等等。此外，你还有机会通过报名参加[Moralis 学院](https://academy.moralis.io/)采取更专业的方法。有了顶级质量的课程、支持和欢迎的社区以及专业水平的指导，你应该在创纪录的时间内成为全职加密员。
 
 ![](img/50b19ff08b9304ac5457c41ec60a99cb.png)**

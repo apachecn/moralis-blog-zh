@@ -8,7 +8,7 @@
 
 如果你已经熟悉 ENS 或者想了解更多关于 [Web3 开发](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/)的信息，请继续浏览 [Moralis 博客](https://moralis.io/blog/)。在那里，您可以找到与区块链发展相关的高质量内容。例如，你可以了解更多关于如何让[成为区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)或[区块链开发的最佳语言](https://moralis.io/best-languages-for-blockchain-development-full-tutorial/)来启动你的旅程。
 
-你会很快注意到 [Moralis](https://moralis.io/) 是 Web3 开发的首要操作系统。此外，创建一个帐户是免费的，所以马上注册道德！
+你会很快注意到 [Moralis](https://moralis.io/) 是 Web3 开发的首要操作系统。此外，创建一个帐户是免费的，所以马上注册 Moralis！
 
 ## 以太坊名称服务是什么？–ENS 解释道
 
@@ -122,4 +122,4 @@ DAO 是特定项目或协议的治理主体，该组织的成员就有关协议�
 
 ![](img/ead5474d9f5b5370e7042bb69652295b.png)
 
-此外，请务必[向 Moralis](https://admin.moralis.io/register) 报名！创建一个账户是完全免费的，你将获得非凡的开发工具，如[道德利斯快速节点](https://moralis.io/speedy-nodes/)、道德利斯 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 、[价格 API](https://moralis.io/introducing-the-moralis-price-api/) 等。结合支持 Moralis 的基础设施，这些工具将允许您将所有未来区块链项目的开发时间平均减少 87%。因此，现在就创建您的帐户；你没什么可失去的！
+此外，请务必[向 Moralis](https://admin.moralis.io/register) 报名！创建一个账户是完全免费的，你将获得非凡的开发工具，如[Moralis 利斯快速节点](https://moralis.io/speedy-nodes/)、Moralis 利斯 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 、[价格 API](https://moralis.io/introducing-the-moralis-price-api/) 等。结合支持 Moralis 的基础设施，这些工具将允许您将所有未来区块链项目的开发时间平均减少 87%。因此，现在就创建您的帐户；你没什么可失去的！

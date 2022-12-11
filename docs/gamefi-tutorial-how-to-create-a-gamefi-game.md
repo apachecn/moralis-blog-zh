@@ -6,7 +6,7 @@ GameFi**——游戏和金融的结合——正变得极为流行。游戏玩家
 
 您知道吗，您可以相对快速地创建 GameFi 游戏，并节省大量开发时间。还好，是的！事实上，你可以用 Moralis 快速跟踪这个过程，它本质上是 crypto T1 的一个引爆点。最终的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/?utm_source=blog&utm_medium=post&utm_campaign=Build%2520a%2520Web3%2520MMORPG%2520with%2520Unity%2520in%252010%2520Minutes)，Moralis，为你做所有繁重的后端工作，同时你为你的用户创建一个令人愉快和沉浸式的 GameFi 游戏。
 
-在这里，你将学会如何快速简单地建立一个多人 RPG 游戏。没错，Moralis 非凡的 [SDK](https://docs.moralis.io/moralis-server/connect-the-sdk) 和 [Web3 API](https://docs.moralis.io/moralis-server/web3-sdk) 让您在创纪录的时间内构建令人难以置信的 Web3 应用、NFT 游戏和其他 Web3 应用，同时确保基础设施的质量！此外，有了道德家的[终极 NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/?utm_source=blog&utm_medium=post&utm_campaign=How%2520to%2520Create%2520a%2520Metaverse%2520dApp%2520with%2520Unity) ，你可以在[元宇宙](https://moralis.io/what-is-the-metaverse-full-guide/)里做任何事情。因此，你可以根据自己的设计建造任何一款[元宇宙 dApp](https://moralis.io/how-to-create-a-metaverse-dapp-with-unity/) 。
+在这里，你将学会如何快速简单地建立一个多人 RPG 游戏。没错，Moralis 非凡的 [SDK](https://docs.moralis.io/moralis-server/connect-the-sdk) 和 [Web3 API](https://docs.moralis.io/moralis-server/web3-sdk) 让您在创纪录的时间内构建令人难以置信的 Web3 应用、NFT 游戏和其他 Web3 应用，同时确保基础设施的质量！此外，有了 Moralis 家的[终极 NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/?utm_source=blog&utm_medium=post&utm_campaign=How%2520to%2520Create%2520a%2520Metaverse%2520dApp%2520with%2520Unity) ，你可以在[元宇宙](https://moralis.io/what-is-the-metaverse-full-guide/)里做任何事情。因此，你可以根据自己的设计建造任何一款[元宇宙 dApp](https://moralis.io/how-to-create-a-metaverse-dapp-with-unity/) 。
 
 此外，探索 Moralis 提供的所有功能会让您乐在其中。此外，作为一名 [Web3 开发者](https://moralis.io/how-to-become-a-web3-developer-full-guide/)，你会欣赏它如何补充你不断增长的 [Web3 技术栈](https://moralis.io/exploring-the-web3-tech-stack-full-guide/)。
 
@@ -42,15 +42,15 @@ Unity 是当今顶级的游戏开发平台之一。由于其直观和开发人�
 
 随着对 Web3 和 [NFT 游戏开发](https://moralis.io/nft-game-development-how-to-build-an-nft-game-app-in-minutes/)的热情，Unity 占据了中心舞台。任何想开发 GameFi 游戏的人都应该把它作为一种工具，用来构建更具沉浸感的环境。此外，为了创建一个 GameFi 游戏，Unity 提供了一些有吸引力的功能，如真实感资产和电影效果的渲染。
 
-此外，在学习如何创建 GameFi 游戏时，Unity 是一个非常实用的选择。此外， [Unity](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/) 提供 360 度解决方案，使您能够将熟悉的 Web2 工具与 Web3 游戏相结合。此外，道德男性比以往任何时候都更容易建立统一网络 3 项目。
+此外，在学习如何创建 GameFi 游戏时，Unity 是一个非常实用的选择。此外， [Unity](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/) 提供 360 度解决方案，使您能够将熟悉的 Web2 工具与 Web3 游戏相结合。此外，Moralis 男性比以往任何时候都更容易建立统一网络 3 项目。
 
-### 2.道德
+### 2.Moralis
 
 Moralis 将区块链基础设施组件添加到您的 GameFi 游戏中。作为最终的 Web3 开发平台，Moralis 为您提供所有必要的支持，以完成您游戏的奖励和激励设计。这种支持包括添加 [ERC-1155](https://moralis.io/erc1155-exploring-the-erc-1155-token-standard/) 和 [ERC-721](https://moralis.io/erc-721-token-standard-how-to-transfer-erc721-tokens/?utm_source=blog&utm_medium=post&utm_campaign=ERC1155%2520%25E2%2580%2593%2520Exploring%2520the%2520ERC-1155%2520Token%2520Standard) 代币来代表你游戏中的物品。
 
 无论你是区块链还是智能合同开发者，你都可以依赖 Moralis 的工具。通过使用 Moralis，你可以即时连接到[以太坊节点](https://moralis.io/how-to-connect-to-ethereum-nodes/)、 [BSC 节点](https://moralis.io/how-to-connect-to-bsc-nodes/)、[多边形节点](https://docs.moralis.io/speedy-nodes/connecting-to-rpc-nodes/connect-to-polygon-node?utm_source=blog&utm_medium=post&utm_campaign=How%2520to%2520Connect%2520to%2520Avalanche%2520Nodes)、[雪崩节点](https://moralis.io/how-to-connect-to-avalanche-nodes/)和[仲裁节点](https://moralis.io/full-guide-how-to-connect-to-arbitrum-nodes/)。
 
-道德的能力不仅仅止于节点。Moralis 可以让你[索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/?utm_source=blog&utm_medium=post&utm_campaign=Build%2520a%2520Web3%2520MMORPG%2520with%2520Unity%2520in%252010%2520Minutes)——众所周知，如果用其他方法来做，这是一项非常困难的任务。更重要的是，当谈到与多个区块链一起工作时，Moralis 允许您本地构建[跨链 dapp](https://moralis.io/how-to-build-cross-chain-dapps/)。因此，您的游戏可以立即连接到多个区块链平台，并吸引广泛的用户群。
+Moralis 的能力不仅仅止于节点。Moralis 可以让你[索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/?utm_source=blog&utm_medium=post&utm_campaign=Build%2520a%2520Web3%2520MMORPG%2520with%2520Unity%2520in%252010%2520Minutes)——众所周知，如果用其他方法来做，这是一项非常困难的任务。更重要的是，当谈到与多个区块链一起工作时，Moralis 允许您本地构建[跨链 dapp](https://moralis.io/how-to-build-cross-chain-dapps/)。因此，您的游戏可以立即连接到多个区块链平台，并吸引广泛的用户群。
 
 此外，您可以专注于您的游戏设计，少担心后端方面。由于您不需要担心连接到 RPC 节点，如何[同步和索引智能合同事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/?utm_source=blog&utm_medium=post&utm_campaign=The%2520Graph%2520Alternative%2520for%2520Smart%2520Contract%2520Indexing)、[如何索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)以及其他任务，您可以将时间投入到提高游戏质量上。
 
@@ -58,7 +58,7 @@ Moralis 将区块链基础设施组件添加到您的 GameFi 游戏中。作为�
 
 Moralis 为您提供了一个链上数据库，让您可以实时读写用户数据。因此，通过做大部分繁重的工作，Moralis 允许你创建一个更好的 Web3 UI。
 
-道德元宇宙 SDK 在[分散应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/?utm_source=blog&utm_medium=post&utm_campaign=How%2520to%2520Build%2520a%2520Web3%2520Login%2520in%25205%2520Steps)中为游戏开发创造了无限的可能性。此外，它还是帮助您创建 GameFi 游戏的终极工具，可以与世界上最好的游戏平台无缝协作。
+Moralis 元宇宙 SDK 在[分散应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/?utm_source=blog&utm_medium=post&utm_campaign=How%2520to%2520Build%2520a%2520Web3%2520Login%2520in%25205%2520Steps)中为游戏开发创造了无限的可能性。此外，它还是帮助您创建 GameFi 游戏的终极工具，可以与世界上最好的游戏平台无缝协作。
 
 ### 3.光子
 
@@ -90,7 +90,7 @@ Moralis 为您提供了一个链上数据库，让您可以实时读写用户数
 
 您需要输入您的 Moralis 服务器 URL 和应用程序 ID。因此，这是一个信号，让你注册 Moralis(如果你还没有注册)，创建一个新的服务器，并获得这些信息。
 
-### 第 2 步-创建一个道德账户
+### 第 2 步-创建一个 Moralis 账户
 
 首先，[注册一个新的 Moralis 账户](https://admin.moralis.io/register?utm_source=blog&utm_medium=post&utm_campaign=How%2520to%2520Index%2520the%2520Blockchain%2520%25E2%2580%2593%2520The%2520Ultimate%2520Guide)。然后，点击屏幕右上角的绿色按钮“+创建新服务器”。
 
@@ -106,11 +106,11 @@ Moralis 为您提供了一个链上数据库，让您可以实时读写用户数
 
 ![](img/a9db5b4a34bab2918895463b04d38e68.png)
 
-在用服务器细节填充 Unity 之后，在你的界面上点击 play 来看看游戏是如何运行的。你会在屏幕上找到一个二维码。扫描它连接到道德。现在，你可以点击“加入房间”进入游戏。如果一切顺利，这意味着你已经正确地完成了这一步。
+在用服务器细节填充 Unity 之后，在你的界面上点击 play 来看看游戏是如何运行的。你会在屏幕上找到一个二维码。扫描它连接到 Moralis。现在，你可以点击“加入房间”进入游戏。如果一切顺利，这意味着你已经正确地完成了这一步。
 
-#### 道德仪表板
+#### Moralis 仪表板
 
-如果你检查你的道德管理面板，你会发现实时的连锁数据库，使所有这一切都有可能在几个点击。
+如果你检查你的 Moralis 管理面板，你会发现实时的连锁数据库，使所有这一切都有可能在几个点击。
 
 要查看，请在 Moralis 中点击服务器上的“仪表板”按钮。在仪表板的左侧，您会找到所有的类。如果您单击“User”类，您将看到您已经登录。而且，你可以在它下面找到你钱包的 ETH 地址。此外，您现在可以随时读取和写入这些数据。
 

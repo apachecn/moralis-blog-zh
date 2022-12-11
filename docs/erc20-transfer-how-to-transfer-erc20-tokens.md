@@ -6,7 +6,7 @@
 
 接下来，我们将首先回答“什么是 ERC20？”，然后介绍 ERC20 传输的详细信息。此外，你将学习如何使用 [Moralis](https://moralis.io/) (又名 [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) )毫不费力地转移 ERC20 令牌。这个终极的 Web3 开发平台带有一个完整的 [Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) ，包括 [Web3 API](https://docs.moralis.io/moralis-server/web3-sdk/intro) 。后者使您能够在几分钟内构建出令人惊叹的 dApps(分散式应用),并轻松整合各种功能，包括 ERC20 传输功能。此外，您可以使用 Moralis 进行 [NFT 令牌开发](https://moralis.io/nft-token-development-the-ultimate-guide/)，用于 [ERC721](https://moralis.io/erc-721-token-standard-how-to-transfer-erc721-tokens/) 和 [ERC1155](https://moralis.io/erc1155-exploring-the-erc-1155-token-standard/) 标准。
 
-此外，Moralis 还具有跨链互操作性，因此它使您能够超越以太坊链。已经为各大知名连锁([币安智能连锁](https://moralis.io/bsc-programming-guide-intro-to-binance-smart-chain-development-in-10-minutes/)、[多边形](https://moralis.io/how-to-build-polygon-dapps-easily/)、[雪崩](https://moralis.io/how-to-build-avalanche-dapps-in-minutes/)等)提供全面支持。)并定期添加新的。因此，您可以跨多个链部署 dApps，而无需花费额外的时间或资源。此外，这种跨链的互操作性也使您的工作经得起未来的考验。因此，请务必今天就[创建您的免费道德账户](https://admin.moralis.io/register)！
+此外，Moralis 还具有跨链互操作性，因此它使您能够超越以太坊链。已经为各大知名连锁([币安智能连锁](https://moralis.io/bsc-programming-guide-intro-to-binance-smart-chain-development-in-10-minutes/)、[多边形](https://moralis.io/how-to-build-polygon-dapps-easily/)、[雪崩](https://moralis.io/how-to-build-avalanche-dapps-in-minutes/)等)提供全面支持。)并定期添加新的。因此，您可以跨多个链部署 dApps，而无需花费额外的时间或资源。此外，这种跨链的互操作性也使您的工作经得起未来的考验。因此，请务必今天就[创建您的免费 Moralis 账户](https://admin.moralis.io/register)！
 
 ![](img/33b83a0b82d7873e816a2f70b06aa4ff.png)
 
@@ -28,7 +28,7 @@
 
 ## ERC20 传输
 
-如果没有 Moralis 的 SDK，你需要使用 Web3.js 等基本的低级库以分散的方式发送资产。后者使编程这个看似简单的功能变得非常具有挑战性。在其他细节中，开发人员应该知道特定智能合约的 ABI，以启动 ERC20 转移。NFT 交易也是如此。然而，有了 Moralis 的支持，您可以通过几行代码跳过所有的复杂性。Hack，在 ETH 传输的情况下，你只需要一行代码。为了能够自己使用这个令人敬畏的工具，请确保在继续之前创建您的免费道德账户。
+如果没有 Moralis 的 SDK，你需要使用 Web3.js 等基本的低级库以分散的方式发送资产。后者使编程这个看似简单的功能变得非常具有挑战性。在其他细节中，开发人员应该知道特定智能合约的 ABI，以启动 ERC20 转移。NFT 交易也是如此。然而，有了 Moralis 的支持，您可以通过几行代码跳过所有的复杂性。Hack，在 ETH 传输的情况下，你只需要一行代码。为了能够自己使用这个令人敬畏的工具，请确保在继续之前创建您的免费 Moralis 账户。
 
 ### 我能从哪里转移 ERC20 代币？
 
@@ -102,7 +102,7 @@ let result = await Moralis.transfer(options)
 
 在进行下面视频中的示例项目之前，请遵循以下 Moralis 设置步骤:
 
-1.  创建你的免费道德账户-如果你还没有创建你的免费道德账户，现在就创建吧。按照简介末尾的链接，输入您的电子邮件地址，创建您的密码，然后单击将发送到您的电子邮件的确认链接。另一方面，如果你已经有一个道德账户，只需[登录](https://admin.moralis.io/login)到你的管理区。
+1.  创建你的免费 Moralis 账户-如果你还没有创建你的免费 Moralis 账户，现在就创建吧。按照简介末尾的链接，输入您的电子邮件地址，创建您的密码，然后单击将发送到您的电子邮件的确认链接。另一方面，如果你已经有一个 Moralis 账户，只需[登录](https://admin.moralis.io/login)到你的管理区。
 
 2.  [**创建 Moralis 服务器**](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)–在您的 Moralis 管理区域内，导航至“服务器”选项卡，然后单击右上角的“+创建新服务器”按钮(见下图)。接下来，从下拉菜单中选择最适合您需求的网络类型。*为了我们的示例项目，我们将使用 Ropsten，因此选择“Testnet 服务器”选项。然而，当您准备好部署功能性 dApps 时，您需要选择“Mainnet 服务器”。*
 
@@ -120,7 +120,7 @@ let result = await Moralis.transfer(options)
 
 ![](img/83b248eb4842a0e0f01f7f093e422147.png)
 
-4.  **初始化道德规范**–使用上一步中复制的细节来填充您的编码文件(".html“，“. js”，”。jsx”，或者”。env "如果使用终极[以太坊 dApp 样板](https://moralis.io/ethereum-dapp-boilerplate-full-ethereum-react-boilerplate-tutorial/)):
+4.  **初始化 Moralis 规范**–使用上一步中复制的细节来填充您的编码文件(".html“，“. js”，”。jsx”，或者”。env "如果使用终极[以太坊 dApp 样板](https://moralis.io/ethereum-dapp-boilerplate-full-ethereum-react-boilerplate-tutorial/)):
 
 ![](img/dc40225a36ab533d1f1cbfa11e8fe721.png)
 
@@ -136,8 +136,8 @@ https://www.youtube.com/watch?v=suZYvqrc_Hg
 
 你现在知道什么是 ERC20，以及 ERC20 转让的所有细节。此外，您还知道如何使用不同的公开可用工具转移 ERC20 令牌。元掩码对于区块链开发人员来说是一个方便的选择。此外，您已经看到了使用 Moralis 服务器向您的 dApp 添加 ERC20 传输功能是多么简单。
 
-如果你想进一步提高你的加密编程，请访问[道德利斯的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德利斯的博客](https://moralis.io/blog/)。这两个渠道都为你提供了大量的免费内容。这有助于解释不同的区块链开发概念，并指导您完成各种示例项目。一些最新的文章向您展示了如何[连接到 Arbitrum 节点](https://moralis.io/full-guide-how-to-connect-to-arbitrum-nodes/)，如何[连接到雪崩节点](https://moralis.io/how-to-connect-to-avalanche-nodes/)，如何[构建 NFT 交易界面](https://moralis.io/build-an-nft-trading-interface-full-guide/)，如何[构建以太坊 dApps in Angular](https://moralis.io/how-to-build-ethereum-dapps-in-angular/) ，如何[构建跨链桥](https://moralis.io/how-to-build-a-cross-chain-bridge/)，h [如何进行闪贷](https://moralis.io/how-do-flash-loans-work-full-walkthrough/)，如何在以太坊上进行[无气交易](https://moralis.io/how-to-do-gasless-transactions-on-ethereum/)， 如何使用一个 [OpenSea API 替代品](https://moralis.io/opensea-api-alternative-list-nfts-with-this-opensea-plugin/)，如何[在几分钟内创建一个 DAO](https://moralis.io/how-to-create-a-dao-in-10-minutes/) ，如何[构建一个预测市场 dApp](https://moralis.io/how-to-build-a-prediction-market-dapp/) ，等等。
+如果你想进一步提高你的加密编程，请访问[Moralis 利斯的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 利斯的博客](https://moralis.io/blog/)。这两个渠道都为你提供了大量的免费内容。这有助于解释不同的区块链开发概念，并指导您完成各种示例项目。一些最新的文章向您展示了如何[连接到 Arbitrum 节点](https://moralis.io/full-guide-how-to-connect-to-arbitrum-nodes/)，如何[连接到雪崩节点](https://moralis.io/how-to-connect-to-avalanche-nodes/)，如何[构建 NFT 交易界面](https://moralis.io/build-an-nft-trading-interface-full-guide/)，如何[构建以太坊 dApps in Angular](https://moralis.io/how-to-build-ethereum-dapps-in-angular/) ，如何[构建跨链桥](https://moralis.io/how-to-build-a-cross-chain-bridge/)，h [如何进行闪贷](https://moralis.io/how-do-flash-loans-work-full-walkthrough/)，如何在以太坊上进行[无气交易](https://moralis.io/how-to-do-gasless-transactions-on-ethereum/)， 如何使用一个 [OpenSea API 替代品](https://moralis.io/opensea-api-alternative-list-nfts-with-this-opensea-plugin/)，如何[在几分钟内创建一个 DAO](https://moralis.io/how-to-create-a-dao-in-10-minutes/) ，如何[构建一个预测市场 dApp](https://moralis.io/how-to-build-a-prediction-market-dapp/) ，等等。
 
-然而，如果你刚刚开始，我们建议探索为初学者开发的[以太坊](https://moralis.io/ethereum-development-for-beginners/)，或者为初学者开发的 [NFT 编程](https://moralis.io/nft-programming-for-beginners/)，以防你对不可替代的代币更感兴趣。尽管如此，如果你渴望[尽早成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，一定要报名参加[道德学院](https://academy.moralis.io/)。对于那些还不精通 JavaScript 的人来说，“ [2021 区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)”课程应该是一个很好的选择。
+然而，如果你刚刚开始，我们建议探索为初学者开发的[以太坊](https://moralis.io/ethereum-development-for-beginners/)，或者为初学者开发的 [NFT 编程](https://moralis.io/nft-programming-for-beginners/)，以防你对不可替代的代币更感兴趣。尽管如此，如果你渴望[尽早成为一名区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)，一定要报名参加[Moralis 学院](https://academy.moralis.io/)。对于那些还不精通 JavaScript 的人来说，“ [2021 区块链开发者 JavaScript 编程](https://academy.moralis.io/courses/javascript-programming-for-blockchain-developers)”课程应该是一个很好的选择。
 
 ![](img/76b7ff6a6ec564b6af1a9f1e9f708d5c.png)

@@ -48,7 +48,7 @@ NFT(不可替代代币)开创了以透明和去中心化为特征的资产所有
 
 #### 什么是分数 NFT？–使用案例
 
-基于以上所述，可以合理地假设分数 NFT 的几种有趣的使用方式将很快出现。因此，这将增加与传统非功能性测试相关的大量用例。如果你愿意，你可以看看道德博客，了解更多关于 T2 NFT 电力公司的信息。本指南深入探讨了如何将 NFTs 用作会员专属、音乐 NFTs 和数字艺术等。到目前为止，在我们的“什么是分数 NFT？”旅程中，我们讨论了传统 NFT 与 F-NFT，分数 NFT 如何工作，以及什么是分数 NFT。因此，现在让我们来探讨分数 NFT 带来了什么好处！
+基于以上所述，可以合理地假设分数 NFT 的几种有趣的使用方式将很快出现。因此，这将增加与传统非功能性测试相关的大量用例。如果你愿意，你可以看看 Moralis 博客，了解更多关于 T2 NFT 电力公司的信息。本指南深入探讨了如何将 NFTs 用作会员专属、音乐 NFTs 和数字艺术等。到目前为止，在我们的“什么是分数 NFT？”旅程中，我们讨论了传统 NFT 与 F-NFT，分数 NFT 如何工作，以及什么是分数 NFT。因此，现在让我们来探讨分数 NFT 带来了什么好处！
 
 ### F-NFT 的优势
 
@@ -70,11 +70,11 @@ NFT(不可替代代币)开创了以透明和去中心化为特征的资产所有
 
 由于相当昂贵的代币市场相对较小，人们通常较少交易较昂贵的非功能性货币。由于数据不足，缺乏交易使得很难确定 NFT 的确切市场价值。因此，通过细分令牌，它变得更便宜。因此，它允许更多的人交易和竞拍细分资产，从而更容易找到 NFT 的实际价值。
 
-### 用道德创建 NFT
+### 用 Moralis 创建 NFT
 
 对 F-NFT 有了更好的理解，你就能回答“什么是分数 NFT？”问题，我们将在本节介绍使用 Moralis 创建 NFT 的基本步骤。我们将提供一个过程的概要，让您了解使用 Moralis 进行区块链开发是多么容易。因此，可以将流程分为以下五个步骤:
 
-1.  初始化道德并找到一个聪明的契约
+1.  初始化 Moralis 并找到一个聪明的契约
 2.  创建一个 HTML 索引文件
 3.  制作一个简单的登录功能
 4.  创建上传功能
@@ -84,7 +84,7 @@ NFT(不可替代代币)开创了以透明和去中心化为特征的资产所有
 
 ![](img/f662d453ac31fa5708766a9ea21f6722.png)
 
-此外，如果你对 NFT 开发有额外的兴趣，你也可以学习创建自己的 NFT 集合，类似于[crypto punk](https://opensea.io/collection/cryptopunks)的集合。所以，如果你想进入 NFT 收藏品市场，请随意仔细看看下面的指南:“[如何铸造 10，000 NFT](https://moralis.io/how-to-mint-10000-nfts-full-walkthrough/)”。此外，你可以进一步学习如何[建立一个 NFT 交易界面](https://moralis.io/build-an-nft-trading-interface-full-guide/)和[利用该平台开发自己的 NFT 市场](https://moralis.io/develop-your-own-nft-marketplace-step-by-step-guide/)。因此，这说明了道德使进入 NFT 发展的几个方面成为可能。
+此外，如果你对 NFT 开发有额外的兴趣，你也可以学习创建自己的 NFT 集合，类似于[crypto punk](https://opensea.io/collection/cryptopunks)的集合。所以，如果你想进入 NFT 收藏品市场，请随意仔细看看下面的指南:“[如何铸造 10，000 NFT](https://moralis.io/how-to-mint-10000-nfts-full-walkthrough/)”。此外，你可以进一步学习如何[建立一个 NFT 交易界面](https://moralis.io/build-an-nft-trading-interface-full-guide/)和[利用该平台开发自己的 NFT 市场](https://moralis.io/develop-your-own-nft-marketplace-step-by-step-guide/)。因此，这说明了 Moralis 使进入 NFT 发展的几个方面成为可能。
 
 最后，Moralis 并没有限制你开发 NFT，而是允许你轻松地创建可替换的令牌。例如，你可以学习[如何创建自己的 ERC-20 令牌](https://moralis.io/how-to-create-your-own-erc-20-token-in-10-minutes/)或[如何创建 BSC 令牌](https://moralis.io/how-to-create-a-bsc-token-in-5-steps/)。
 
@@ -98,10 +98,10 @@ NFT 已经迅速成为密码行业最显著的特征之一。因此，开发人�
 
 分数 NFT 提供了大量的好处，如民主化、增加流动性和价格发现。因此，它们有可能对整个市场的几个方面产生积极影响。例如，F-NFT 使小投资者有可能购买更受欢迎的 NFT；同时，它也为潜在的卖家提供了更大的市场。
 
-此外，我们还简要介绍了使用 Moralis——最终的 Web3 后端平台——创建您自己的 NFT 的过程。然而，我们所看到的远不是道德的局限性。事实上，该平台使所有区块链发展项目更容易获得。此外，系统的工具和底层基础设施允许您在几分钟内[构建 dapps](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/) ！
+此外，我们还简要介绍了使用 Moralis——最终的 Web3 后端平台——创建您自己的 NFT 的过程。然而，我们所看到的远不是 Moralis 的局限性。事实上，该平台使所有区块链发展项目更容易获得。此外，系统的工具和底层基础设施允许您在几分钟内[构建 dapps](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/) ！
 
 ![](img/a4e7783931aaf9051e55d2e4a6d7bc03.png)
 
 您还可以浏览 Moralis，找到可以让您更加精通区块链开发的相关内容。例如，你可以了解更多关于区块链发展的最佳语言和 T2 元宇宙的信息。此外，您还可以探索 [Web3 钱包](https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/)，了解 [Moralis 的 web3uikit](https://moralis.io/web3ui-kit-the-ultimate-web3-user-interface-kit/) 如何让区块链的发展变得轻而易举！
 
-所以，如果你想成为一名区块链开发者，那么今天就和道德家签约，开始你的 Web3 之旅吧！
+所以，如果你想成为一名区块链开发者，那么今天就和 Moralis 家签约，开始你的 Web3 之旅吧！

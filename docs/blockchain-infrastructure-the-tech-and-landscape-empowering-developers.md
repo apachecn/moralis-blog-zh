@@ -8,7 +8,7 @@
 
 ![Enterprise companies using Moralis](img/0f2881356a1ca3d8e342a10c3bb92bbf.png)![home5partner5](img/e391fa81b52d769750dfb158abef5fc2.png)![metamaskGray2](img/ee7c5ce09a817b561113a2bd74a54fa6.png)![home5partner6](img/08d0dea277c0b40839f616f1a7bffb9e.png)![home5partner1](img/012d381cc1a7879c4943b2147fcea522.png)![metamaskGray](img/c87dfc6fad44456069a0bbf180592a63.png)![home5partner2](img/c8d663802579f83d081a59d9de2a59fb.png)![home5partner3](img/e5210272991a5ff5adb5c23f934b1606.png)![home5partner4](img/0f2881356a1ca3d8e342a10c3bb92bbf.png)![home5partner5](img/e391fa81b52d769750dfb158abef5fc2.png)![metamaskGray2](img/ee7c5ce09a817b561113a2bd74a54fa6.png)![home5partner6](img/08d0dea277c0b40839f616f1a7bffb9e.png)![home5partner1](img/012d381cc1a7879c4943b2147fcea522.png)![metamaskGray](img/c87dfc6fad44456069a0bbf180592a63.png)![home5partner2](img/c8d663802579f83d081a59d9de2a59fb.png)![home5partner3](img/e5210272991a5ff5adb5c23f934b1606.png)![Portrait of the co-founder of Polygon Network and a testimonial statement from using Moralis as blockchain infrastructure.](img/a14731069c4e54b9c8b806bdeedc6c7d.png)[**Use Scalable Web3 Infrastructure Today**](https://moralis.io/scale/)
 
-Moralis 弥合了 Web2 和 Web3 之间的发展差距。因此，这个最终的 Web3 API 提供者通过授权 Web2 开发者使用传统工具创建分散式应用程序(dapps ),丰富了区块链基础设施的前景。然而，值得指出的是，我们还将关注道德之外的解决方案。因此，本文旨在帮助您更好地了解区块链的整体基础设施。
+Moralis 弥合了 Web2 和 Web3 之间的发展差距。因此，这个最终的 Web3 API 提供者通过授权 Web2 开发者使用传统工具创建分散式应用程序(dapps ),丰富了区块链基础设施的前景。然而，值得指出的是，我们还将关注 Moralis 之外的解决方案。因此，本文旨在帮助您更好地了解区块链的整体基础设施。
 
 ### 概观
 
@@ -18,7 +18,7 @@ Moralis 弥合了 Web2 和 Web3 之间的发展差距。因此，这个最终的
 
 接下来，我们将首先确保您能够回答“什么是区块链基础设施？”问题。此外，您将了解 CoinDesk 的“*数字资产分类标准*”(DACS)，这在试图了解区块链基础设施时会非常有帮助。接下来，我们将探索区块链的技术基础设施及其当前的状况，尤其是计算领域。然后，我们还将关注 dapp 开发的领先提供商。最后，我们将密切关注区块链开发者的头号基础设施——Moralis。
 
-另一方面，如果你喜欢边做边学，确保现在就创建你的[免费道德账户](https://admin.moralis.io/register)。然后，通过完成[道德文件](https://docs.moralis.io/)中概述的一些教程，开始使用这个 [Web3 提供商](https://moralis.io/web3-provider-why-blockchain-developers-should-use-one/)。
+另一方面，如果你喜欢边做边学，确保现在就创建你的[免费 Moralis 账户](https://admin.moralis.io/register)。然后，通过完成[Moralis 文件](https://docs.moralis.io/)中概述的一些教程，开始使用这个 [Web3 提供商](https://moralis.io/web3-provider-why-blockchain-developers-should-use-one/)。
 
 ![Person holding a hologram showing the text blockchain.](img/2228eac73fbfc479b8157722defe23b6.png)
 
@@ -119,7 +119,7 @@ Moralis 弥合了 Web2 和 Web3 之间的发展差距。因此，这个最终的
     *   魔力
     *   bigquery
     *   双经济
-    *   道德
+    *   Moralis
 
 *   **专注于智能合同开发的项目**:
     *   坚固性(适用于以太坊和其他 EVM 兼容链)
@@ -153,9 +153,9 @@ Moralis 弥合了 Web2 和 Web3 之间的发展差距。因此，这个最终的
 
 Moralis 在弥合 Web2 和 Web3 之间的发展差距方面做了令人难以置信的工作。得益于其跨平台的互操作性，Moralis 使传统开发人员能够轻松创建 dapps。此外，Moralis 还具有跨链互操作性。因此，只要更改一行代码，您就可以轻松地从一开始就创建多链 dapps 或切换链。
 
-Moralis 是一个高度可扩展的 Web3 基础设施工具。毕竟，它的企业级 API 可以覆盖大量的调用，以快速访问所有 NFT、DeFi、事务和令牌数据。它还支持以太坊和其他 EVM 网页挂钩。这就是为什么领先的项目，如 MetaMask、Delta、Polygon 和许多其他项目使用 Moralis 作为“ [Web3 for business](https://moralis.io/web3-for-business-how-and-why-you-can-integrate-web3-into-your-enterprise/) ”来获取链上数据。到目前为止，利用道德力量的项目在上市时间上平均减少了 87%。此外，还节省了超过 8600 万美元的工程总成本。
+Moralis 是一个高度可扩展的 Web3 基础设施工具。毕竟，它的企业级 API 可以覆盖大量的调用，以快速访问所有 NFT、DeFi、事务和令牌数据。它还支持以太坊和其他 EVM 网页挂钩。这就是为什么领先的项目，如 MetaMask、Delta、Polygon 和许多其他项目使用 Moralis 作为“ [Web3 for business](https://moralis.io/web3-for-business-how-and-why-you-can-integrate-web3-into-your-enterprise/) ”来获取链上数据。到目前为止，利用 Moralis 力量的项目在上市时间上平均减少了 87%。此外，还节省了超过 8600 万美元的工程总成本。
 
-此外，Moralis 提供 24/7 全球支持，帮助确保所有使用此 [Web3 for enterprise](https://moralis.io/web3-for-enterprise-business-applications-in-web3/) 解决方案的项目获得成功所需的所有协助。此外，道德学院还通过道德学院建立了行业领先的[区块链商业培训项目](https://academy.moralis.io/business)。因此，您的团队可以使用 Moralis 的核心产品——[EVM API](https://moralis.io/evm-api/)、[索拉纳 API](https://moralis.io/solana-api/) 、 [NFT API](https://moralis.io/nft-api/) 、 [Auth API](https://moralis.io/authentication/) 、 [Streams API](https://moralis.io/streams/) 和 [Token API](https://moralis.io/token-api/) 启动一个成功的 Web3 项目。
+此外，Moralis 提供 24/7 全球支持，帮助确保所有使用此 [Web3 for enterprise](https://moralis.io/web3-for-enterprise-business-applications-in-web3/) 解决方案的项目获得成功所需的所有协助。此外，Moralis 学院还通过 Moralis 学院建立了行业领先的[区块链商业培训项目](https://academy.moralis.io/business)。因此，您的团队可以使用 Moralis 的核心产品——[EVM API](https://moralis.io/evm-api/)、[索拉纳 API](https://moralis.io/solana-api/) 、 [NFT API](https://moralis.io/nft-api/) 、 [Auth API](https://moralis.io/authentication/) 、 [Streams API](https://moralis.io/streams/) 和 [Token API](https://moralis.io/token-api/) 启动一个成功的 Web3 项目。
 
 如果你想尝试这个区块链技术基础设施的发电站，创建你的免费 Moralis 帐户，并承担一个或两个示例项目。但是，如果您决心更大规模地为区块链基础设施的发展做出贡献，请使用上面的“可扩展的 Web3 基础设施”链接并联系我们的支持人员。
 
@@ -165,6 +165,6 @@ Moralis 是一个高度可扩展的 Web3 基础设施工具。毕竟，它的企
 
 在今天的文章中，您有机会了解区块链网络基础设施的所有信息。从“什么是区块链基础设施？”问题，我们为您提供了一些基础知识，您能够探索 CoinDesk 的“*数字资产分类标准*”(DAC)。展望未来，我们专注于推动这一颠覆性行业向前发展的计算领域和其他重要技术和工具。此外，我们甚至列出了区块链网络基础设施的领先提供商。最后但同样重要的是，您发现了是什么使 Moralis 成为区块链开发者的头号基础设施。
 
-现在由你来决定你是否会让这里得到的信息有价值。当然，这完全取决于你目前的目标和情况。例如，如果你主要对免费了解区块链的发展感兴趣，你可能想探索一下[道德的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德的博客](https://moralis.io/blog/)。一些最新的话题涵盖了 [AWS GameSparks](https://moralis.io/aws-gamesparks-guide-what-is-gamesparks/) 、 [NFT 收集数据](https://moralis.io/nft-collection-data-how-to-get-nft-collection-data/)、 [IPFS 对于 NFT 元数据](https://moralis.io/ipfs-nft-how-to-use-ipfs-for-nft-metadata/)等。你也可以通过注册[道德学院](https://academy.moralis.io/)来接受更专业的加密教育。如果你是 Web3 初学者，我们建议从[区块链和比特币基础](https://academy.moralis.io/courses/blockchain-bitcoin-101)开始。
+现在由你来决定你是否会让这里得到的信息有价值。当然，这完全取决于你目前的目标和情况。例如，如果你主要对免费了解区块链的发展感兴趣，你可能想探索一下[Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 的博客](https://moralis.io/blog/)。一些最新的话题涵盖了 [AWS GameSparks](https://moralis.io/aws-gamesparks-guide-what-is-gamesparks/) 、 [NFT 收集数据](https://moralis.io/nft-collection-data-how-to-get-nft-collection-data/)、 [IPFS 对于 NFT 元数据](https://moralis.io/ipfs-nft-how-to-use-ipfs-for-nft-metadata/)等。你也可以通过注册[Moralis 学院](https://academy.moralis.io/)来接受更专业的加密教育。如果你是 Web3 初学者，我们建议从[区块链和比特币基础](https://academy.moralis.io/courses/blockchain-bitcoin-101)开始。
 
 另一方面，你可能更喜欢通过弄脏双手来学习。如果是这样的话，你应该学习 Moralis 文档中的教程。然而，您可能还需要一个可靠的区块链技术基础设施来支持您的企业。在这种情况下，请联系我们的支持团队，让他们知道您的需求和愿望。

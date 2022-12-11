@@ -96,7 +96,7 @@ Dogechain 是一个 EVM 兼容的基于多边形边缘的区块链，旨在增�
 
 如果你觉得这个指南很有帮助，请点击 [Web3 博客](https://moralis.io/blog/)查看更多 Moralis 独特的 Web3 开发内容。例如，你可以了解所有你需要知道的关于[跨链桥接](https://moralis.io/cross-chain-bridging-deep-dive/)或如何[上传文件到 IPFS](https://moralis.io/how-to-upload-files-to-ipfs-full-guide/) ！
 
-更重要的是，如果你想磨练你的 Web3 开发技能，考虑报名参加[道德学院](https://academy.moralis.io)。该学院为新的和更有经验的开发人员提供一系列高质量的区块链课程。如果这听起来很有趣，请通过“[区块链&比特币 101](https://academy.moralis.io/courses/blockchain-bitcoin-101) ”或“[以太坊 101](https://academy.moralis.io/courses/ethereum-101) ”课程开始您的 Web3 开发之旅！
+更重要的是，如果你想磨练你的 Web3 开发技能，考虑报名参加[Moralis 学院](https://academy.moralis.io)。该学院为新的和更有经验的开发人员提供一系列高质量的区块链课程。如果这听起来很有趣，请通过“[区块链&比特币 101](https://academy.moralis.io/courses/blockchain-bitcoin-101) ”或“[以太坊 101](https://academy.moralis.io/courses/ethereum-101) ”课程开始您的 Web3 开发之旅！
 
 ![](img/e7c66ea0ac642119ed457bd7d536e559.png)
 

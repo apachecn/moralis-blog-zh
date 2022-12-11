@@ -4,7 +4,7 @@
 
 通过 NFT(不可替代的代币)市场，创作者可以向大众展示他们的 NFT 艺术。此外，通过向市场列出 NFT，代币获得大量曝光，因为 NFT 的市场由于 NFT 的流行度增加而驱动大量流量。因此，NFT 的创造者不需要太担心拍卖和出售他们的 NFT 代币。然而，对 NFTs 感兴趣的不仅仅是密码爱好者，还有大公司。正因如此，现在正是开始学习 [**NFT 令牌开发**](https://moralis.io/nft-token-development-the-ultimate-guide/) **的绝佳时机。具体来说，知道如何创建一个 NFT 市场是一项非常受欢迎的技能，每个程序员都应该知道如何做。因此，我们将在本文中探索如何使用 Moralis 及其终极** [**Web3**](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) **开发平台创建 NFT 市场的开发过程。**
 
-由于我们在 NFT 及其用例方面仍处于早期阶段，谁知道呢，任何渴望成为区块链开发者的开发者都有可能成为下一个被大众接受的大 NFT 市场的创造者。当然，总会有主要的 NFT 市场，但每个 NFT 的发布或系列都有自己的 NFT 市场是有意义的。此外，你可能会得到下一个机会，为一家大型区块链公司开发一个致力于 NFTs 的市场。因此，能够创建一个 NFT 市场是一项可以让你的职业生涯经得起未来考验的技能，在[道德家](https://moralis.io/)的帮助下，这是一项你可以轻松掌握的技能。
+由于我们在 NFT 及其用例方面仍处于早期阶段，谁知道呢，任何渴望成为区块链开发者的开发者都有可能成为下一个被大众接受的大 NFT 市场的创造者。当然，总会有主要的 NFT 市场，但每个 NFT 的发布或系列都有自己的 NFT 市场是有意义的。此外，你可能会得到下一个机会，为一家大型区块链公司开发一个致力于 NFTs 的市场。因此，能够创建一个 NFT 市场是一项可以让你的职业生涯经得起未来考验的技能，在[Moralis 家](https://moralis.io/)的帮助下，这是一项你可以轻松掌握的技能。
 
 ![](img/82d7f43bd254070b6e4a8d483973fd9d.png)
 
@@ -65,7 +65,7 @@
 
 一旦交易完成，新主人就可以卖掉那幅 NFT。
 
-## **如何用道德创造 NFT 市场**
+## **如何用 Moralis 创造 NFT 市场**
 
 既然我们已经知道了我们将构建什么，现在是时候列出后端特性和组件了，这些特性和组件是使功能显示与我们在上一节中介绍的一致所必需的。这些措施如下:
 
@@ -75,7 +75,7 @@
 
 如果我们要通过直接在一个 [RPC 节点](https://moralis.io/ethereum-rpc-nodes-what-they-are-and-why-you-shouldnt-use-them/)之上构建来实现上述所有后端功能，将是极具挑战性的。然而，当我们使用 Moralis 时，我们可以通过简单地复制和粘贴来自 [Moralis 文档](https://docs.moralis.io/)的代码片段来覆盖我们 dApp 的整个后端。因此，Moralis 让创建 NFT 市场变得简单明了。此外，您节省了大量时间，这意味着您可以完全专注于前端，并提供最佳的用户体验。
 
-## 道德——创建 NFT 市场的终极捷径
+## Moralis——创建 NFT 市场的终极捷径
 
 当你[创建你的免费 Moralis 账户](https://admin.moralis.io/register)时，你进入[创建 Moralis 服务器](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)，这是你[用 Moralis 构建 dApps](https://moralis.io/ultimate-guide-how-to-build-ethereum-dapps/) 的起点。一旦你有了一个活动的服务器，你就可以在所有其他工具中使用[以太坊 API](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) 。
 
@@ -114,7 +114,7 @@ contract MarketPlace{
 
 ### **如何创建 NFT 市场 dApp 部分**
 
-这可能是你最感兴趣的部分。这是我们确保用户看到并使用我们的 NFT 市场的地方。出于示例项目的目的，我们创建了三个文件:“ [logic.js](https://github.com/DanielMoralisSamples/25_NFT_MARKET_PLACE/blob/master/static/logic.js) ”、“ [cloudCode.js](https://github.com/DanielMoralisSamples/25_NFT_MARKET_PLACE/blob/master/moralis_cloud_code/cloudCode.js) ”和“【index.html】T5”。每个文件的完整代码也可以从 [GitHub](https://github.com/DanielMoralisSamples/25_NFT_MARKET_PLACE) 获得。我们用“ *logic.js* ”文件来确保我们的 dApp 的主要功能。因此，它值得特别关注。这也是道德的全部力量付诸行动的地方。此外，要初始化 Moralis，您需要粘贴您的 Moralis 服务器 URL 和应用程序 ID:
+这可能是你最感兴趣的部分。这是我们确保用户看到并使用我们的 NFT 市场的地方。出于示例项目的目的，我们创建了三个文件:“ [logic.js](https://github.com/DanielMoralisSamples/25_NFT_MARKET_PLACE/blob/master/static/logic.js) ”、“ [cloudCode.js](https://github.com/DanielMoralisSamples/25_NFT_MARKET_PLACE/blob/master/moralis_cloud_code/cloudCode.js) ”和“【index.html】T5”。每个文件的完整代码也可以从 [GitHub](https://github.com/DanielMoralisSamples/25_NFT_MARKET_PLACE) 获得。我们用“ *logic.js* ”文件来确保我们的 dApp 的主要功能。因此，它值得特别关注。这也是 Moralis 的全部力量付诸行动的地方。此外，要初始化 Moralis，您需要粘贴您的 Moralis 服务器 URL 和应用程序 ID:
 
 ```js
 Moralis.initialize(""); // Application ID from moralis.io
@@ -136,13 +136,13 @@ Moralis.authenticate().then(function(){
 
 剩下的代码确保“populate”和“subscribe”函数获得正确的数据。此外，这意味着确保所有东西都整齐地展示给我们的用户。Moralis 通过使用从“moralisDashboard”数据库获取数据的代码片段来完成所有繁重的后端工作。这些代码片段包括:
 
-*   ***道德家。*** 查询(" PlacedOfferings ")
-*   ***道德家。*** 查询(" ClosedOfferings ")
-*   ***道德家。*** 查询(" PolygonNFTOwners ")
-*   ***道德家。Cloud.run("getBalance "，params)*T3】**
-*   ***道德家。units . from Wei(present balance)*T3】**
-*   ***道德家。cloud . run(" place offing "，params)*T3】**
-*   ***道德家。***
+*   ***Moralis 家。*** 查询(" PlacedOfferings ")
+*   ***Moralis 家。*** 查询(" ClosedOfferings ")
+*   ***Moralis 家。*** 查询(" PolygonNFTOwners ")
+*   ***Moralis 家。Cloud.run("getBalance "，params)*T3】**
+*   ***Moralis 家。units . from Wei(present balance)*T3】**
+*   ***Moralis 家。cloud . run(" place offing "，params)*T3】**
+*   ***Moralis 家。***
 
 ![](img/c19cef845faf16e087a4c0f10ef3d32c.png)
 

@@ -6,7 +6,7 @@
 
 我们使用 Moralis 的认证解决方案来覆盖 Web3 登录、Filecoin 存储和 Unity 游戏引擎。当然，我们将由您来决定是否采纳我们的概念，并以您独特的方式在 Unity 中使用 Filecoin。接下来，我们将进一步了解我们的 Filecoin 利用率示例应用程序。后者是通过存储和检索 PNG 文件在 Unity 中使用 Filecoin 的一种简洁方式。当我们展示这个示例项目时，您将学习 Filecoin 的基础知识。因此，您还会发现更容易决定这是否是适合您的存储解决方案。此外，您还将了解 Moralis——最终的 Web3 后端解决方案。虽然我们在这里将重点介绍如何使用 Moralis Web3 Auth API，但 Moralis 还可以提供更多内容。
 
-除了 [Web3 认证](https://moralis.io/authentication/)，Moralis 的 [Web3 同步](https://moralis.io/syncs/)和 Moralis Web3 API 帮助你毫不费力地创建各种杀手级 dapps(去中心化应用)。因此，[创建你的免费道德账户](https://admin.moralis.io/register)，让你的 Web3 开发尽可能简单。
+除了 [Web3 认证](https://moralis.io/authentication/)，Moralis 的 [Web3 同步](https://moralis.io/syncs/)和 Moralis Web3 API 帮助你毫不费力地创建各种杀手级 dapps(去中心化应用)。因此，[创建你的免费 Moralis 账户](https://admin.moralis.io/register)，让你的 Web3 开发尽可能简单。
 
 ![](img/e3c5c5b80096d5d15416d3f87a2f2557.png)
 
@@ -24,7 +24,7 @@ Filecoin 提供可证明的安全性和真实性。得益于内容寻址和加�
 
 ### 认识 Moralis——轻松开发 Web3 的门户
 
-由于 Moralis 的 Unity SDK 使我们能够使用这个流行的游戏引擎进行 Web3 开发，因此，在 Unity 中使用 Filecoin，您应该了解更多关于这个优秀工具的信息。然而，除非你一直生活在岩石下，否则你很可能已经熟悉道德。如果没有别的，你在介绍中了解到 Moralis 是最终的 Web3 后端平台。这一切都是为了让传统开发者能够轻松加入 Web3 革命。
+由于 Moralis 的 Unity SDK 使我们能够使用这个流行的游戏引擎进行 Web3 开发，因此，在 Unity 中使用 Filecoin，您应该了解更多关于这个优秀工具的信息。然而，除非你一直生活在岩石下，否则你很可能已经熟悉 Moralis。如果没有别的，你在介绍中了解到 Moralis 是最终的 Web3 后端平台。这一切都是为了让传统开发者能够轻松加入 Web3 革命。
 
 因为 Moralis 是跨平台互操作的，所以您可以在不同的平台和编程语言上使用它。此外，Moralis 从一开始就考虑到了跨链的互操作性。因此，该平台支持所有领先的可编程链，包括以太坊、索拉纳、BNB 链、Polygon、Avalanche、Cronos、Fantom 等。因此，您可以使用相同的代码行来扩展您的范围。此外，事实上，Moralis 继续不断地添加对新链的全面支持，也是对您工作的未来证明。
 
@@ -102,7 +102,7 @@ Filecoin 提供可证明的安全性和真实性。得益于内容寻址和加�
 
 ![](img/6da4939c396d3bf55289a6c33744c2cd.png)
 
-#### Filecoin，Unity，Web3。储物和道德——我们的视频教程
+#### Filecoin，Unity，Web3。储物和 Moralis——我们的视频教程
 
 最后，这是我们上面提到的视频教程。除了更详细的代码演练之外，在这里你可以学到关于 Filecoin、Unity、Moralis 和 Web3 的所有知识。储物件，让你的双手变脏。从 8:47 开始，你可以了解更多关于前面提到的黑客马拉松的细节，包括奖金池细分。
 
@@ -114,4 +114,4 @@ https://www.youtube.com/watch?v=ksivvqiK95I
 
 此外，您还了解了 Moralis x Filecoin 1，2，Web3 黑客马拉松，它提供了相当可观的奖金池。所以，如果你熟悉 C#，就在 Unity 中使用 Filecoin，创造出令人敬畏的 Web3 游戏。然而，如果你首先需要打磨一下你的 Web3 技能，那么接一些有趣的例子项目应该是你的主要关注点。幸运的是，你可以在 [Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 的博客](https://moralis.io/blog/)上找到很多教程。当然，学习如何用 Moralis 的 Unity SDK 将 Unity 转换成一个强大的 Web3 开发工具只是其中的一小部分。本质上，这两个出口可以告诉你如何快速和容易地创建各种 dapps。
 
-尽管如此，除了“在 Unity 中使用 Filecoin”这个话题之外，另一个更专业的途径是报名参加[道德学院](https://academy.moralis.io/)。道德学院是排名第一的 Web3 在线教育平台。在那里，你可以很快成为区块链认证，并去全职加密在任何时候！
+尽管如此，除了“在 Unity 中使用 Filecoin”这个话题之外，另一个更专业的途径是报名参加[Moralis 学院](https://academy.moralis.io/)。Moralis 学院是排名第一的 Web3 在线教育平台。在那里，你可以很快成为区块链认证，并去全职加密在任何时候！

@@ -215,7 +215,7 @@ functions:
     handler: functions/getNativeBalance.handler
 ```
 
-接下来，是时候通过添加 Moralis 的“getNativeBalance”功能来定制函数了。为此，导航回“getNativeBalance.js ”,开始添加道德要求:
+接下来，是时候通过添加 Moralis 的“getNativeBalance”功能来定制函数了。为此，导航回“getNativeBalance.js ”,开始添加 Moralis 要求:
 
 ```js
 const Moralis = require('moralis').default;

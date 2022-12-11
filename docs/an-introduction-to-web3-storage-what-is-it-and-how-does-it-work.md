@@ -101,7 +101,7 @@ Filecoin 允许任何人作为存储提供商加入和参与，确保极具竞�
 
 事实上，不要使用 web3.storage，而是使用 Moralis 并利用它的所有工具，包括最好的 IPFS API。此外，通过“上传文件夹”终端，您可以快速轻松地将文件上传到 IPFS。此外，您可以通过三个简单的步骤实现这一点:
 
-1.  创建文件并初始化道德
+1.  创建文件并初始化 Moralis
 2.  定义文件数组
 3.  上传文件到 IPFS
 
@@ -129,10 +129,10 @@ const response = await Moralis.EvmApi.ipfs.uploadFolder({
 
 ## Web3 简介。存储—它是什么？它是如何工作的？–总结
 
-在今天的文章中，您有机会了解了有关 web3.storage 的所有知识。因此，您现在知道了它是什么，它是如何工作的，以及这种 web3 数据存储解决方案的主要优势是什么。在此过程中，您还学习了 Filecoin 和 IPFS 的基础知识，它们是 web3.storage 所依赖的底层协议。尽管如此，您也有机会通过点击“ *Filecoin in Unity* ”链接来体验一下 web3.storage。通过这样做，您还可以直接看到 Moralis 的强大功能，无论您使用哪种 Web3 存储解决方案，它都是用来创建 dapps 的工具。你还发现道德公司合并了 IPFS。因此，对于您的特定项目，您甚至不需要额外的存储解决方案。
+在今天的文章中，您有机会了解了有关 web3.storage 的所有知识。因此，您现在知道了它是什么，它是如何工作的，以及这种 web3 数据存储解决方案的主要优势是什么。在此过程中，您还学习了 Filecoin 和 IPFS 的基础知识，它们是 web3.storage 所依赖的底层协议。尽管如此，您也有机会通过点击“ *Filecoin in Unity* ”链接来体验一下 web3.storage。通过这样做，您还可以直接看到 Moralis 的强大功能，无论您使用哪种 Web3 存储解决方案，它都是用来创建 dapps 的工具。你还发现 Moralis 公司合并了 IPFS。因此，对于您的特定项目，您甚至不需要额外的存储解决方案。
 
-有了本文中获得的知识和技能，您就可以开始自己的 Web3 开发思路了。然而，你可能也需要先练习一下。如果是这样，请务必阅读 [Moralis 文档](https://docs.moralis.io/docs)中的教程。如果你想探索其他区块链发展话题，请访问[道德网 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德网博客](https://moralis.io/blog/)。一些最新的主题探讨了一些问题，例如:[什么是 Ethers.js](https://moralis.io/full-guide-what-is-ethers-js/) ，如何将 [Python 和 Web3](https://moralis.io/python-and-web3-a-web3-and-python-tutorial-for-blockchain-development/) 结合起来，如何[设置自动化的 Web3 通知电子邮件](https://moralis.io/how-to-set-up-automated-web3-notification-emails-with-python/)，什么是[Palm 区块链](https://moralis.io/palm-blockchain-what-is-the-palm-network/)等等。
+有了本文中获得的知识和技能，您就可以开始自己的 Web3 开发思路了。然而，你可能也需要先练习一下。如果是这样，请务必阅读 [Moralis 文档](https://docs.moralis.io/docs)中的教程。如果你想探索其他区块链发展话题，请访问[Moralis 网 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 网博客](https://moralis.io/blog/)。一些最新的主题探讨了一些问题，例如:[什么是 Ethers.js](https://moralis.io/full-guide-what-is-ethers-js/) ，如何将 [Python 和 Web3](https://moralis.io/python-and-web3-a-web3-and-python-tutorial-for-blockchain-development/) 结合起来，如何[设置自动化的 Web3 通知电子邮件](https://moralis.io/how-to-set-up-automated-web3-notification-emails-with-python/)，什么是[Palm 区块链](https://moralis.io/palm-blockchain-what-is-the-palm-network/)等等。
 
-同样值得一提的是，区块链产业提供了很多机会。如果你想尽快成为全职加密员，拥有优势会有所帮助；被区块链认证已经成为许多其他人的优势。因此，一定要考虑报名参加[道德学院](https://academy.moralis.io/)，在那里你可以先掌握[区块链和比特币基础](https://academy.moralis.io/courses/blockchain-bitcoin-101)。
+同样值得一提的是，区块链产业提供了很多机会。如果你想尽快成为全职加密员，拥有优势会有所帮助；被区块链认证已经成为许多其他人的优势。因此，一定要考虑报名参加[Moralis 学院](https://academy.moralis.io/)，在那里你可以先掌握[区块链和比特币基础](https://academy.moralis.io/courses/blockchain-bitcoin-101)。
 
 ![certificate for a user after becoming blockchain certified](img/5db01555af5afb398e9bc9f5b9cb1682.png)

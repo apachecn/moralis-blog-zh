@@ -112,10 +112,10 @@ https://www.youtube.com/watch?v=A1otlAAIsME
 
 ## 克隆比特币基地钱包–如何创建比特币基地克隆–摘要
 
-在本文中，你已经有机会了解了克隆比特币基地钱包的要点。此外，如果你已经使用了我们的指导，包括上面的视频，你现在知道如何使用最终的移动 dApp 样板。后者，结合道德，使所有的差异。这就是开发人员在创建移动 dApps 时节省 87%以上开发时间的方法。此外，在处理 web dApps 时，您可以使用终极的 [Web3 样板文件](https://moralis.io/web3-boilerplate-beginners-guide-to-web3/)来获得更快的结果。
+在本文中，你已经有机会了解了克隆比特币基地钱包的要点。此外，如果你已经使用了我们的指导，包括上面的视频，你现在知道如何使用最终的移动 dApp 样板。后者，结合 Moralis，使所有的差异。这就是开发人员在创建移动 dApps 时节省 87%以上开发时间的方法。此外，在处理 web dApps 时，您可以使用终极的 [Web3 样板文件](https://moralis.io/web3-boilerplate-beginners-guide-to-web3/)来获得更快的结果。
 
 既然您已经知道如何创建比特币基地克隆，我们鼓励您进一步开发您的移动 dApp。因此，你可以开始构思自己的想法，或者在 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)或 [Moralis 博客](https://moralis.io/blog/)获得一些灵感。在那里，你可以找到大量的内容，提供各种加密方面的简单解释和示例项目教程。例如，我们的一些最新主题包括推出一个 [NFT 铸造页面](https://moralis.io/how-to-launch-an-nft-minting-page-full-walkthrough/)、[什么是元宇宙](https://moralis.io/what-is-the-metaverse-full-guide/)、如何[用 Unity](https://moralis.io/how-to-create-a-metaverse-dapp-with-unity/) 创建一个元宇宙 dApp、一个[可重入智能合约示例](https://moralis.io/what-is-reentrancy-reentrancy-smart-contract-example/)等等。此外，这两个出口是一个伟大的方式来继续你的免费区块链发展教育。
 
-然而，如果你真的想尽快成为一名区块链开发者，你可能需要考虑一种更专业的方法。在这种情况下，你应该报读[道德学院](https://academy.moralis.io/)，在众多高质量的[课程](https://academy.moralis.io/all-courses)中做出选择。尽管如此，一个更大的价值正以最不可思议的社区的形式等待着你。此外，您将获得个性化的教育途径，以优化您的进步，并获得专业指导，以获得更多捷径。
+然而，如果你真的想尽快成为一名区块链开发者，你可能需要考虑一种更专业的方法。在这种情况下，你应该报读[Moralis 学院](https://academy.moralis.io/)，在众多高质量的[课程](https://academy.moralis.io/all-courses)中做出选择。尽管如此，一个更大的价值正以最不可思议的社区的形式等待着你。此外，您将获得个性化的教育途径，以优化您的进步，并获得专业指导，以获得更多捷径。
 
 ![](img/3afd78fbee34f5e4edf79be8f69d16bc.png)

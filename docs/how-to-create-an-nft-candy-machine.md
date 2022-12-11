@@ -146,4 +146,4 @@ https://www.youtube.com/watch?v=BPQXek6lMUE
 
 我们在文章中谈了相当多的内容。首先，我们学习了基础知识，您了解了什么是 Solana NFTs，什么是 Metaplex，包括 Metaplex 通过其 NFT 糖果机简化了 NFT 的铸造。接下来，你有机会跟随我们的领导，完成所有八个阶段，最终铸造你的 Solana NFTs。在此过程中，您完成了最初的 NFT 糖果机设置，并了解了更多关于构成 NFT 的资产。最后，如果你按照我们的说明，你现在知道如何使用糖果机 v2 来单独和批量制造茄尼茶。尽管如此，您还有机会使用 Moralis 创建一个 NFT 仪表板。
 
-为了提高你的信心和技能，我们鼓励你访问[道德博客](https://moralis.io/blog/)和[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。在这些网站上，你可以学到很多关于 Solana 编程的知识，以及 Moralis 如何帮助你更快地提高编程技能。然而，索拉纳开发只是这两个渠道覆盖的一小部分。毕竟，Moralis 是关于跨链互操作性的。因此，通过完成我们的教程，你可以免费学习成为一名 Web3 开发者。然而，你可能有兴趣成为区块链认证。在这种情况下，[道德学院](https://academy.moralis.io/)就是你要去的地方。
+为了提高你的信心和技能，我们鼓励你访问[Moralis 博客](https://moralis.io/blog/)和[Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。在这些网站上，你可以学到很多关于 Solana 编程的知识，以及 Moralis 如何帮助你更快地提高编程技能。然而，索拉纳开发只是这两个渠道覆盖的一小部分。毕竟，Moralis 是关于跨链互操作性的。因此，通过完成我们的教程，你可以免费学习成为一名 Web3 开发者。然而，你可能有兴趣成为区块链认证。在这种情况下，[Moralis 学院](https://academy.moralis.io/)就是你要去的地方。

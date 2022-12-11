@@ -32,7 +32,7 @@ Web3 应用程序，或者通常被称为 dapps(去中心化应用程序)，很�
 
 ![](img/7588a17a590b37ede2f1893c884ff310.png)
 
-首先，我们将探索道德的以太坊样板。这将说明你的工作目标和最终产品的样子。此外，由于以太坊样板，您将能够只通过三个步骤构建一个 Web3 应用程序:
+首先，我们将探索 Moralis 的以太坊样板。这将说明你的工作目标和最终产品的样子。此外，由于以太坊样板，您将能够只通过三个步骤构建一个 Web3 应用程序:
 
 1.  复制样板文件
 2.  配置环境变量
@@ -164,9 +164,9 @@ https://www.youtube.com/watch?v=Bb5Pc–kyAY
 
 如果你觉得这个指南很有趣，想要更多精彩的内容，可以看看 Moralis 的 [Web3 博客](https://moralis.io/blog/)。该博客的特色是每天更新的新鲜和引人入胜的内容。例如，你可以了解不同的[类型的 Dao](https://moralis.io/full-2022-guide-to-different-types-of-daos/)或者[如何建立一个分散的社交媒体档案](https://moralis.io/how-to-build-a-decentralized-social-media-profile/)！
 
-此外，您应该查看官方的道德规范文档。在那里，你会找到更多关于 Moralis 如何工作的教程。例如，您可以探索 [Solana API](https://docs.moralis.io/reference/solana-api) ，它允许您为 Solana 网络构建独特的项目。你还可以探索 Moralis [Web3 Streams](https://moralis.io/streams/) API，使你能够在任何网络上接收 webhooks。
+此外，您应该查看官方的 Moralis 规范文档。在那里，你会找到更多关于 Moralis 如何工作的教程。例如，您可以探索 [Solana API](https://docs.moralis.io/reference/solana-api) ，它允许您为 Solana 网络构建独特的项目。你还可以探索 Moralis [Web3 Streams](https://moralis.io/streams/) API，使你能够在任何网络上接收 webhooks。
 
-此外，如果你是这个行业的新手，你可以在道德学院学习 Web3 开发的基础知识。学院为初学者和更有经验的开发者提供精彩的[区块链课程](https://academy.moralis.io/all-courses)。例如，报名参加“[区块链&比特币基础](https://academy.moralis.io/courses/blockchain-bitcoin-101)”课程开始学习吧！
+此外，如果你是这个行业的新手，你可以在 Moralis 学院学习 Web3 开发的基础知识。学院为初学者和更有经验的开发者提供精彩的[区块链课程](https://academy.moralis.io/all-courses)。例如，报名参加“[区块链&比特币基础](https://academy.moralis.io/courses/blockchain-bitcoin-101)”课程开始学习吧！
 
 ![](img/67a4d9b8c499ac4e8a0a527f1ca50d60.png)
 

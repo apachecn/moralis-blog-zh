@@ -2,7 +2,7 @@
 
 > 原文：<https://moralis.io/creating-a-lambda-function-learn-how-to-create-an-aws-lambda-function/>
 
-**您有兴趣学习如何创建 AWS Lambda 函数吗？如果是这样的话，你就很幸运了！本文提供了创建 Lambda 函数的全面教程。为了说明这个过程，我们将向您展示如何通过创建和部署一个具有多种功能的 Lambda 应用程序来集成 Moralis 的 NodeJS SDK 和 AWS。更重要的是，由于[道德规范](https://moralis.io)的可访问性，你只需三步就能做到:**
+**您有兴趣学习如何创建 AWS Lambda 函数吗？如果是这样的话，你就很幸运了！本文提供了创建 Lambda 函数的全面教程。为了说明这个过程，我们将向您展示如何通过创建和部署一个具有多种功能的 Lambda 应用程序来集成 Moralis 的 NodeJS SDK 和 AWS。更重要的是，由于[Moralis 规范](https://moralis.io)的可访问性，你只需三步就能做到:**
 
 1.  先决条件
 2.  配置 AWS 和设置项目
@@ -76,7 +76,7 @@ AWS Lambda 是由 Amazon Web Services (AWS)提供的无服务器和事件驱动�
 
 要创建 AWS Lambda 函数，您需要满足以下七个先决条件:
 
-1.  **建立一个道德账户**–首先，你需要一个道德账户。所以，如果你还没有，[马上和道德家](https://admin.moralis.io/register)签约吧！
+1.  **建立一个 Moralis 账户**–首先，你需要一个 Moralis 账户。所以，如果你还没有，[马上和 Moralis 家](https://admin.moralis.io/register)签约吧！
 
 2.  **创建 AWS 账户**——除了注册 Moralis，你还需要一个 [AWS 账户](https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-creating.html)来创建 AWS Lambda 功能。
 

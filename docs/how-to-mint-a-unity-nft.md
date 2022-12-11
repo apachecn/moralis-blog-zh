@@ -4,7 +4,7 @@
 
 你可能知道 Unity 是领先的跨平台游戏引擎之一，支持各种桌面、移动、主机和 VR 平台。然而，你可能没有意识到，多亏了 Moralis，你可以在你的 [**Web3 游戏设计**](https://moralis.io/web3-game-design-explaining-the-web3-game-design-process/) **和区块链游戏开发中使用 Unity。通过在您的 Unity 项目中使用 Moralis，您可以很容易地合并许多 Web3 元素，比如 NFT。例如，您只需复制并粘贴 Moralis 提供的简短代码片段，就可以在几分钟内启动并运行一个简单的 Unity NFT minter dapp(**[](https://moralis.io/decentralized-applications-explained-what-are-dapps/)****)。如果您想使用这个"**[**Firebase for crypto**](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/)**"平台来快速轻松地打造一个 Unity NFT，请跟随本文内容并密切关注本文末尾的视频！****
 
-**如果你是第一次接触 [Unity Web3 编程](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/)，不用担心；当我们前进时，你将有机会跟随我们的领导。在此，我们说明了您需要完成的确切步骤，以获得此 Unity NFT minter dapp 的完整功能。此外，我们将带您浏览最重要的脚本，让您正确理解 dapp 是如何工作的。在这个过程中，你还将了解是什么让 Moralis 成为[最好的 Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)。但是，在我们向您展示如何创建您自己的 Unity NFT minter 之前，我们将快速演示一下这个 Unity dapp。因此，你会对未来会发生什么有一个正确的理解，以及你是否真的想使用它。所以，如果你想开始建立这个团结 NFT minter dapp，[创建你的免费道德账户](https://admin.moralis.io/register)并跟随我们的领导！**
+**如果你是第一次接触 [Unity Web3 编程](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/)，不用担心；当我们前进时，你将有机会跟随我们的领导。在此，我们说明了您需要完成的确切步骤，以获得此 Unity NFT minter dapp 的完整功能。此外，我们将带您浏览最重要的脚本，让您正确理解 dapp 是如何工作的。在这个过程中，你还将了解是什么让 Moralis 成为[最好的 Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)。但是，在我们向您展示如何创建您自己的 Unity NFT minter 之前，我们将快速演示一下这个 Unity dapp。因此，你会对未来会发生什么有一个正确的理解，以及你是否真的想使用它。所以，如果你想开始建立这个团结 NFT minter dapp，[创建你的免费 Moralis 账户](https://admin.moralis.io/register)并跟随我们的领导！**
 
 **![](img/fd4f9afeff732056ee9afb143b2fdcae.png)
 
@@ -30,13 +30,13 @@
 
 ![](img/0de38c72e5b8e68e23e4029cf798a6df.png)
 
-## 道德驱动的统一 NFT 铸币厂
+## Moralis 驱动的统一 NFT 铸币厂
 
-正如简介中提到的，正如你在上面的演示中看到的“Powered by Moralis”图标所示，这个终极的 Web3 开发平台是使用 Unity 进行 Web3 开发的关键。因此，我们应该告诉你更多关于道德的事情。
+正如简介中提到的，正如你在上面的演示中看到的“Powered by Moralis”图标所示，这个终极的 Web3 开发平台是使用 Unity 进行 Web3 开发的关键。因此，我们应该告诉你更多关于 Moralis 的事情。
 
 ![](img/3b4234f32ba86ba8ad800130651d67c8.png)
 
-### 遇见道德家
+### 遇见 Moralis 家
 
 Moralis 为构建高性能 dapps 提供了单一的 Web3 工作流。它使你能够使用 JavaScript 或 Unity experience 轻松创建 Web3 应用程序。首先，Moralis 使您能够涵盖多种类型的 Web3 身份验证。相应的，你可以[用 MetaMask](https://moralis.io/how-to-authenticate-with-metamask/) 、 [WalletConnect](https://moralis.io/what-is-walletconnect-the-ultimate-walletconnect-guide/) 认证，甚至可以通过 email 和 [Web3 社交登录](https://moralis.io/web3-social-login-sign-in-dapp-users-with-google-email-or-twitter/)关注 [Web3 认证。后两个选项对于促进](https://moralis.io/how-to-do-web3-authentication-via-email/) [Web3 用户加入](https://moralis.io/how-to-boost-web3-user-onboarding-success-rates/)特别有效。此外，Moralis 在身份和会话管理方面实现了最大的灵活性。此外，由于 Moralis monitoring，您可以获得所有关于用户转账、交易、造币、烧伤和其他与您的 dapp 相关的行为的数据。本质上，您可以[索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)，而无需处理 RPC 节点的[限制。](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)
 
@@ -58,7 +58,7 @@ Moralis 为构建高性能 dapps 提供了单一的 Web3 工作流。它使你�
 
 “Moralis Web3 设置”窗口提示您输入 dapp 信息:确切地说是 dapp URl 和 ID。正如两个输入字段下面的说明所示，您需要使用 Moralis 来获取这些详细信息。这里有详细的说明，可以帮助你做到这一点:
 
-1.  现在，你可能已经准备好了你的道德账户。因此，只需[登录](https://admin.moralis.io/login)。另一方面，如果您没有帐户，请确保创建您的免费 Moralis 帐户:
+1.  现在，你可能已经准备好了你的 Moralis 账户。因此，只需[登录](https://admin.moralis.io/login)。另一方面，如果您没有帐户，请确保创建您的免费 Moralis 帐户:
 
 ![](img/bf7615b806a75a57472c773e9a14fdf9.png)
 
@@ -157,9 +157,9 @@ Moralis 为构建高性能 dapps 提供了单一的 Web3 工作流。它使你�
         }
 ```
 
-上面的代码检查您是否提供了来自智能合约的详细信息和元数据 URL。如果缺少任何细节，该函数将记录相应的错误。但是，如果提供了所有详细信息，“MintNft”函数将返回“请确认您钱包中的交易”消息，并触发造币操作。后者是通过“执行”功能完成的，这是我们使用道德力量的地方。
+上面的代码检查您是否提供了来自智能合约的详细信息和元数据 URL。如果缺少任何细节，该函数将记录相应的错误。但是，如果提供了所有详细信息，“MintNft”函数将返回“请确认您钱包中的交易”消息，并触发造币操作。后者是通过“执行”功能完成的，这是我们使用 Moralis 力量的地方。
 
-#### 道德的“执行”功能和力量
+#### Moralis 的“执行”功能和力量
 
 下面是“执行”功能:
 
@@ -215,6 +215,6 @@ https://www.youtube.com/watch?v=dFf6Ml30NbM
 
 如果你喜欢这个主题，我们鼓励你更深入地学习 Unity Web3 编程。例如，你可以探索如何[与来自 Unity 的 Web3 数据库](https://moralis.io/how-to-communicate-with-a-web3-database-from-unity/)通信，[存储离线数据](https://moralis.io/how-to-store-off-chain-data-unity-web3-database/)，进行[区块链游戏交易](https://moralis.io/how-to-do-blockchain-game-transactions-with-unity/)，以及将 [Unity 游戏与 Web3 登录](https://moralis.io/connecting-a-unity-game-with-web3-login/)连接。你也可以[开始生成 NFT](https://nftcoders.com/begin-generating-nfts-in-15-minutes/)或者[创建一个 NFT 造币网站](https://nftcoders.com/create-an-nft-minting-website-in-5-steps/)！
 
-然而，如果你对创作 [DeFi](https://moralis.io/what-is-defi-the-full-decentralized-finance-guide/) 或 [DAO](https://moralis.io/how-to-build-a-decentralized-autonomous-organization-dao/) dapps 更感兴趣，我们鼓励你探索 [Moralis 博客](https://moralis.io/blog/)和 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。在那里，您会找到大量的解释和示例项目。一些最新的话题集中在 [Web3 同步](https://moralis.io/web3-syncing-how-to-sync-smart-contract-web3-events/)、 [Web3 webhooks](https://moralis.io/web3-webhooks-the-ultimate-guide-to-blockchain-webhooks/) 、如何[在 Web3](https://moralis.io/how-to-build-on-web3-in-minutes/) 上快速构建、[全栈 Web3 开发](https://moralis.io/full-stack-web3-development-the-ultimate-guide-to-building-web3-projects/)、AR 元宇宙 NFT 和 [Web3 增强现实](https://moralis.io/how-to-build-a-web3-augmented-reality-nft-loot-box/)。因此，这两个出口可以作为你正在进行的密码教育。但是，采取更专业的方法往往会带来更好的结果。因此，你应该考虑报名参加 T21 道德学院。除了顶级的[区块链发展课程](https://academy.moralis.io/all-courses/)，这里也是获得个性化学习路径和专家指导的地方。然而，最大的价值正以道德社区的形式等待着你。
+然而，如果你对创作 [DeFi](https://moralis.io/what-is-defi-the-full-decentralized-finance-guide/) 或 [DAO](https://moralis.io/how-to-build-a-decentralized-autonomous-organization-dao/) dapps 更感兴趣，我们鼓励你探索 [Moralis 博客](https://moralis.io/blog/)和 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。在那里，您会找到大量的解释和示例项目。一些最新的话题集中在 [Web3 同步](https://moralis.io/web3-syncing-how-to-sync-smart-contract-web3-events/)、 [Web3 webhooks](https://moralis.io/web3-webhooks-the-ultimate-guide-to-blockchain-webhooks/) 、如何[在 Web3](https://moralis.io/how-to-build-on-web3-in-minutes/) 上快速构建、[全栈 Web3 开发](https://moralis.io/full-stack-web3-development-the-ultimate-guide-to-building-web3-projects/)、AR 元宇宙 NFT 和 [Web3 增强现实](https://moralis.io/how-to-build-a-web3-augmented-reality-nft-loot-box/)。因此，这两个出口可以作为你正在进行的密码教育。但是，采取更专业的方法往往会带来更好的结果。因此，你应该考虑报名参加 T21 Moralis 学院。除了顶级的[区块链发展课程](https://academy.moralis.io/all-courses/)，这里也是获得个性化学习路径和专家指导的地方。然而，最大的价值正以 Moralis 社区的形式等待着你。
 
 ![](img/5d48c5f46bb17749e3069fb0ccf59f04.png)**

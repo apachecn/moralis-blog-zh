@@ -6,11 +6,11 @@
 
 **完整样板文件——**[https://github . com/ether eum-Boilerplate/ether eum-Boilerplate](https://github.com/ethereum-boilerplate/ethereum-boilerplate)**T5】**
 
-这篇文章将展示一个最快最简单的方法来建立一个以太坊 dapp。事实上，多亏了 Moralis，你只需要简单的五个步骤就可以创建一个 dapp。然而，如果你不想经历每一步，你可以使用上面的链接直接进入道德以太坊样板代码！
+这篇文章将展示一个最快最简单的方法来建立一个以太坊 dapp。事实上，多亏了 Moralis，你只需要简单的五个步骤就可以创建一个 dapp。然而，如果你不想经历每一步，你可以使用上面的链接直接进入 Moralis 以太坊样板代码！
 
 此外，由于 Moralis 支持跨链兼容性，因此在为其他 [EVM](https://moralis.io/evm-explained-what-is-ethereum-virtual-machine/) 兼容链开发 dapps 时，可以使用相同的模板。因此，当与 Moralis 合作时，您不会将自己局限于一个网络，您可以轻松地为 Polygon、BNB 智能链等开发 dapps。此外，样板文件甚至兼容索拉纳！如果[索拉纳编程](https://moralis.io/solana-programming-the-ultimate-guide-to-solana-development/)让你感兴趣，看看 Moralis 的[索拉纳 API](https://docs.moralis.io/reference/solana-api) 。这个工具为 Solana network 提供了一个更加无缝的开发体验，让您可以立即创建 dapps。
 
-所以，如果你想为索拉纳网络创建 EVM 兼容的 dapps 或项目，这并不重要；与道德家签约应该是显而易见的。此外，创建一个帐户是完全免费的，所以你不会有任何损失！
+所以，如果你想为索拉纳网络创建 EVM 兼容的 dapps 或项目，这并不重要；与 Moralis 家签约应该是显而易见的。此外，创建一个帐户是完全免费的，所以你不会有任何损失！
 
 ## 什么是以太坊 Dapp？
 
@@ -30,9 +30,9 @@
 
 ## 分 5 步建造以太坊 Dapp
 
-随着对 dapp 和去中心化带来的好处有了更深刻的理解，我们可以进入主题，向您展示如何快速构建以太坊 dapp。为了让你的生活更容易，我们将使用道德的以太坊样板代码。有了这个模板，结合 Moralis 的诸多优势，如平台的 [Web3 认证](https://moralis.io/authentication/)功能，您将能够通过以下五个步骤构建一个以太坊 dapp:
+随着对 dapp 和去中心化带来的好处有了更深刻的理解，我们可以进入主题，向您展示如何快速构建以太坊 dapp。为了让你的生活更容易，我们将使用 Moralis 的以太坊样板代码。有了这个模板，结合 Moralis 的诸多优势，如平台的 [Web3 认证](https://moralis.io/authentication/)功能，您将能够通过以下五个步骤构建一个以太坊 dapp:
 
-1.  **创建道德账户**
+1.  **创建 Moralis 账户**
 2.  **克隆 GitHub 库**
 3.  **配置环境变量**
 4.  **启动 Dapp**
@@ -48,11 +48,11 @@
 
 https://www.youtube.com/watch?v=Bb5Pc–kyAY
 
-尽管如此，如果你跟着做，我们将从深入第一步开始教程，并向你展示如何创建一个道德帐户！
+尽管如此，如果你跟着做，我们将从深入第一步开始教程，并向你展示如何创建一个 Moralis 帐户！
 
-### 步骤 1:创建道德账户
+### 步骤 1:创建 Moralis 账户
 
-为了建造一个以太坊 dapp，你首先需要的是一个道德账户。创建一个道德账户很简单，只需要几秒钟。更重要的是，注册 Moralis 是完全免费的！
+为了建造一个以太坊 dapp，你首先需要的是一个 Moralis 账户。创建一个 Moralis 账户很简单，只需要几秒钟。更重要的是，注册 Moralis 是完全免费的！
 
 但是，如果你已经有一个帐户，你可以跳过这一部分，直接进入第二步。
 
@@ -108,7 +108,7 @@ cd ethereum-boilerplate
 
 第一个是“ *APP_CHAIN_ID”，*，最初等于“ *0x1”。*这是以太坊的链 ID，当你想要建立一个以太坊 dapp 时，你可以保持原样。第二个“ *APP_DOMAIN* ”变量也是如此，可以保持不变。
 
-接下来，您必须将变量“ *MORALIS_API_KEY* 设置为您的 API 密钥。这是你的道德账户进入画面的地方，因为这是你获取钥匙的地方。因此，您可以导航回 Moralis 管理面板。接下来，您需要单击“Account”，选择“Keys”选项卡，然后复制“Web3 Api Key”。现在您有了密钥，您可以设置“ *MORALIS_API_KEY* ”变量等于这个值。
+接下来，您必须将变量“ *MORALIS_API_KEY* 设置为您的 API 密钥。这是你的 Moralis 账户进入画面的地方，因为这是你获取钥匙的地方。因此，您可以导航回 Moralis 管理面板。接下来，您需要单击“Account”，选择“Keys”选项卡，然后复制“Web3 Api Key”。现在您有了密钥，您可以设置“ *MORALIS_API_KEY* ”变量等于这个值。
 
 ![](img/e498021f11d46f1245bfd44314e88187.png)
 
@@ -176,7 +176,7 @@ yarn run dev
 
 多亏了 Moralis 的以太坊样板，只需五个简单的步骤就可以构建一个以太坊 dapp:
 
-1.  **创建道德账户**
+1.  **创建 Moralis 账户**
 2.  **克隆 GitHub 库**
 3.  **配置环境变量**
 4.  **启动 Dapp**

@@ -8,7 +8,7 @@
 
 ![](img/9113bc131ca7f79506c41afa83ceab0b.png)
 
-## 为什么要用道德来开发以太坊 dApps
+## 为什么要用 Moralis 来开发以太坊 dApps
 
 以太坊是第一个可编程的区块链，也是将[智能合约](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/)引入世界的那个。因此，它有一个良好的开端。因此，它能够在全球范围内建立一个广泛而忠诚的社区。此外，只要有强大的社区，我们通常就会看到巨大的成果，以太坊的成功证实了这一点。
 
@@ -32,7 +32,7 @@
 
 如果你想克服运行自己的节点的困难，你很可能听说过[区块链节点提供商](https://moralis.io/infura-alternatives-and-blockchain-node-providers/)。虽然市场上有许多著名的选择，但 Infura 仍然迎合大多数以太坊 dApps。然而，Infura 把你限制在以太坊的区块链。另一方面，Moralis 给你的不仅仅是点头——让你真正开发完整的以太坊 dApps。
 
-当探索其他链时，您可能已经在为 BSC 搜索 [Infura 或为雪崩](https://moralis.io/infura-bsc-alternatives-the-best-alternative-to-infura-for-bsc/)搜索 [Infura。如果是这样，Moralis 就是你的答案——因为它对这两个链都提供了完全的支持。此外，Moralis 为开发者提供了所有支持链的](https://moralis.io/infura-for-avalanche-exploring-infura-avalanche-alternatives/)[Moralis Speedy Nodes](https://moralis.io/speedy-nodes/)；然而，这只是道德全部范围的一小部分。当您拥有 Moralis 的 Web3 SDK 和 Moralis 的 Web3 API 时，您可以满足所有的区块链开发需求。
+当探索其他链时，您可能已经在为 BSC 搜索 [Infura 或为雪崩](https://moralis.io/infura-bsc-alternatives-the-best-alternative-to-infura-for-bsc/)搜索 [Infura。如果是这样，Moralis 就是你的答案——因为它对这两个链都提供了完全的支持。此外，Moralis 为开发者提供了所有支持链的](https://moralis.io/infura-for-avalanche-exploring-infura-avalanche-alternatives/)[Moralis Speedy Nodes](https://moralis.io/speedy-nodes/)；然而，这只是 Moralis 全部范围的一小部分。当您拥有 Moralis 的 Web3 SDK 和 Moralis 的 Web3 API 时，您可以满足所有的区块链开发需求。
 
 Moralis 对以太坊的支持会加速你所有的以太坊开发。无论你建立一个 NFT 市场，加密钱包，DeFi 仪表板，跨链桥，NFT 游戏，或以太坊指数，都是如此。所有这些类型的分散式应用程序都有很多共同点。它们中的每一个都需要登录用户、获取余额(可替换令牌和[NFT](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/))、交易、智能合约事件、提供实时警报、发送交易，并且它们需要数据库。因此，避免为每个 dApp 从头构建所有这些重复的功能是有意义的。因此，Moralis 的以太坊 API 功能通过复制和粘贴简短的代码片段为您提供了强大的区块链特性。
 
@@ -74,7 +74,7 @@ Moralis.Web3.authenticate().then(function (user) {
 
 *   获取 mainnet 上当前用户的 ERC-20 令牌余额:
 
-***常数余额=等待道德。web 3 API . account . gettokenbalances()；*T3】**
+***常数余额=等待 Moralis。web 3 API . account . gettokenbalances()；*T3】**
 
 *   获取 mainnet 上当前用户的 NFT 余额:
 
@@ -140,7 +140,7 @@ let result = await Moralis.transfer(options)
 
 ![](img/19de179676c7ae1f8e5ed7b1dca15894.png)
 
-## 以太坊应用编程接口——使用道德标准开发以太坊应用编程接口——摘要
+## 以太坊应用编程接口——使用 Moralis 标准开发以太坊应用编程接口——摘要
 
 在 2021 年创建 dApps 时，运行自己的 RPC 节点并围绕它构建基础设施并不是最佳选择。这种过时的 Web3 编程方式有很大的局限性，会消耗大量的时间和其他资源。此外，让你的 dApp 保持最新也极具挑战性。然而，我们已经向您展示了当使用高质量的以太坊 API 时，dApp 开发是多么简单。它减轻了您的负担，因为它通过允许您复制和粘贴单行代码，覆盖了大部分后端编码。这样，您可以将您的注意力和资源投入到在前端创建最佳用户体验上。
 

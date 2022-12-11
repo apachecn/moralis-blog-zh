@@ -78,11 +78,11 @@ Twitter 是最受欢迎的社交媒体平台之一，被不同行业的不同社
 
 ## 在不到 90 分钟的时间里建立一个分散的 Twitter
 
-那些决定动手的人现在将学习如何完成我们“建立一个去中心化的 Twitter”探索的四个阶段。您将从使用 Remix 部署我们的“链上推文”智能合约开始。既然你可以复制我们合同的代码，你就不必担心你的[可靠性](https://moralis.io/solidity-explained-what-is-solidity/)技能。然后，您将使用 React 来构建我们的分散式 Twitter 的前端。最后，您将释放 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 的力量来覆盖后端特性。幸运的是，你可以在[创建你的免费道德账户](https://admin.moralis.io/register)，它提供了你建立一个去中心化 Twitter 所需的一切。
+那些决定动手的人现在将学习如何完成我们“建立一个去中心化的 Twitter”探索的四个阶段。您将从使用 Remix 部署我们的“链上推文”智能合约开始。既然你可以复制我们合同的代码，你就不必担心你的[可靠性](https://moralis.io/solidity-explained-what-is-solidity/)技能。然后，您将使用 React 来构建我们的分散式 Twitter 的前端。最后，您将释放 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 的力量来覆盖后端特性。幸运的是，你可以在[创建你的免费 Moralis 账户](https://admin.moralis.io/register)，它提供了你建立一个去中心化 Twitter 所需的一切。
 
 ![](img/874e716c6ec7169a04568f955d797c5f.png)
 
-***注意:*** *由于视频可以显示的不仅仅是截图，我们将包括时间戳。跳转到本文底部视频中的每个时间戳。您将有机会在内部道德专家的带领下，在不到 90 分钟的时间内完成我们的项目。尽管如此，从克隆我们的代码开始。如果您想探索完成的 Twitter 克隆，请使用* [*最终代码*](https://github.com/MoralisWeb3/youtube-tutorials/tree/main/Twitter-Start) *。尽管如此，我们鼓励您使用* [*起始代码*](https://github.com/MoralisWeb3/youtube-tutorials/tree/main/Twitter-Starter) *并按照我们的指示实现其余代码。*
+***注意:*** *由于视频可以显示的不仅仅是截图，我们将包括时间戳。跳转到本文底部视频中的每个时间戳。您将有机会在内部 Moralis 专家的带领下，在不到 90 分钟的时间内完成我们的项目。尽管如此，从克隆我们的代码开始。如果您想探索完成的 Twitter 克隆，请使用* [*最终代码*](https://github.com/MoralisWeb3/youtube-tutorials/tree/main/Twitter-Start) *。尽管如此，我们鼓励您使用* [*起始代码*](https://github.com/MoralisWeb3/youtube-tutorials/tree/main/Twitter-Starter) *并按照我们的指示实现其余代码。*
 
 ### 第一阶段——在区块链上部署智能合约来发布推文
 
@@ -124,7 +124,7 @@ Twitter 是最受欢迎的社交媒体平台之一，被不同行业的不同社
 
 ### 第三阶段——构建我们去中心化 Twitter 的后端
 
-前端完成后，您应该添加 Web3 功能来创建一个去中心化的 Twitter。因此，请务必从 57:29 开始使用下面的视频指南。如前所述，这是道德家让事情变得非常简单的地方。但是，您确实需要完成一些初始设置。因此，[登录](https://admin.moralis.io/login)到您的 Moralis 账户，访问您的 Moralis 管理区内的“服务器”选项卡(57:46)。在那里，你需要[创建你的道德服务器](https://docs.moralis.io/moralis-dapp/getting-started/create-a-moralis-dapp#2.-create-a-moralis-server):
+前端完成后，您应该添加 Web3 功能来创建一个去中心化的 Twitter。因此，请务必从 57:29 开始使用下面的视频指南。如前所述，这是 Moralis 家让事情变得非常简单的地方。但是，您确实需要完成一些初始设置。因此，[登录](https://admin.moralis.io/login)到您的 Moralis 账户，访问您的 Moralis 管理区内的“服务器”选项卡(57:46)。在那里，你需要[创建你的 Moralis 服务器](https://docs.moralis.io/moralis-dapp/getting-started/create-a-moralis-dapp#2.-create-a-moralis-server):
 
 ![](img/9a10cecc713914981ed36e42413d2e35.png)
 
@@ -150,6 +150,6 @@ https://www.youtube.com/watch?v=HrlpTJD_CF0
 
 如果你接手了上面的例子项目，你现在已经有了自己的分散式 Twitter。您已经学会了使用现有的 JavaScript 和 React 技能来创建相对高级的 dapp。此外，在 Remix 和 Moralis 等优秀工具的帮助下，你可以不费吹灰之力地报道区块链的方方面面。尽管如此，既然您知道了使用正确的工具和适当的指导进行区块链开发并不是什么大不了的事情，那么您应该着手其他的示例项目。例如，你可以深入我们的其他“克隆”专长。其中包括构建一个 [Uniswap DEX 克隆](https://moralis.io/build-a-uniswap-dex-clone-with-html-css-javascript-moralis-on-the-ethereum-network/)，一个 [Web3 网飞克隆](https://moralis.io/how-to-develop-a-web3-netflix-clone/)，一个 [Web3 Spotify 克隆](https://moralis.io/how-to-build-a-web3-spotify-clone/)，一个 [Reddit 克隆 Web3](https://moralis.io/create-a-reddit-clone-for-web3-step-by-step-guide/) ，一个 [OpenSea 克隆](https://moralis.io/opensea-clone-create-an-nft-marketplace-like-opensea/)，以及一个[比特币基地克隆](https://moralis.io/cloning-coinbase-wallet-how-to-create-a-coinbase-clone/)。
 
-此外，您可能希望探索其他加密和区块链开发主题。如果是的话，去看看道德博客和 T2 的 YouTube 频道。那里的一些最新文章和教程包括一个 [EIP 1559 示例](https://moralis.io/eip-1559-example-what-is-eip-1559/)，完整的[去中心化财务指南](https://moralis.io/what-is-defi-the-full-decentralized-finance-guide/),“[mint 游戏资产作为 NFT](https://moralis.io/how-to-mint-game-assets-as-nfts/)”教程，构建一个[去中心化自治组织(DAO)](https://moralis.io/how-to-build-a-decentralized-autonomous-organization-dao/) , [分数 NFT](https://moralis.io/what-are-fractional-nfts-the-ultimate-2022-f-nft-guide/)， [SPL vs ERC20 令牌](https://moralis.io/spl-vs-erc20-tokens-comparing-solana-and-ethereum-tokens/)，构建一个[索拉纳令牌仪表板](https://moralis.io/how-to-build-a-solana-token-dashboard/)，[创建你自己的元宇宙](https://moralis.io/how-to-create-your-own-metaverse/)此外，如果你精通 Unity，请确保探索 [Unity Web3 编程](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/)。此外，您可以通过构建一个使玩家能够[购买游戏内 NFTs](https://moralis.io/build-a-marketplace-to-buy-nfts-in-game/)的 Web3 游戏来了解 [Web3 游戏设计](https://moralis.io/web3-game-design-explaining-the-web3-game-design-process/)。
+此外，您可能希望探索其他加密和区块链开发主题。如果是的话，去看看 Moralis 博客和 T2 的 YouTube 频道。那里的一些最新文章和教程包括一个 [EIP 1559 示例](https://moralis.io/eip-1559-example-what-is-eip-1559/)，完整的[去中心化财务指南](https://moralis.io/what-is-defi-the-full-decentralized-finance-guide/),“[mint 游戏资产作为 NFT](https://moralis.io/how-to-mint-game-assets-as-nfts/)”教程，构建一个[去中心化自治组织(DAO)](https://moralis.io/how-to-build-a-decentralized-autonomous-organization-dao/) , [分数 NFT](https://moralis.io/what-are-fractional-nfts-the-ultimate-2022-f-nft-guide/)， [SPL vs ERC20 令牌](https://moralis.io/spl-vs-erc20-tokens-comparing-solana-and-ethereum-tokens/)，构建一个[索拉纳令牌仪表板](https://moralis.io/how-to-build-a-solana-token-dashboard/)，[创建你自己的元宇宙](https://moralis.io/how-to-create-your-own-metaverse/)此外，如果你精通 Unity，请确保探索 [Unity Web3 编程](https://moralis.io/unity-web3-beginners-guide-to-unity-web3-programming/)。此外，您可以通过构建一个使玩家能够[购买游戏内 NFTs](https://moralis.io/build-a-marketplace-to-buy-nfts-in-game/)的 Web3 游戏来了解 [Web3 游戏设计](https://moralis.io/web3-game-design-explaining-the-web3-game-design-process/)。
 
-尽管如此，你可能渴望尽快成为一名区块链开发者。如果是这样，你需要考虑采取更专业的方法。因此，报名参加[道德学院](https://academy.moralis.io/)可能是你正确的道路。**
+尽管如此，你可能渴望尽快成为一名区块链开发者。如果是这样，你需要考虑采取更专业的方法。因此，报名参加[Moralis 学院](https://academy.moralis.io/)可能是你正确的道路。**

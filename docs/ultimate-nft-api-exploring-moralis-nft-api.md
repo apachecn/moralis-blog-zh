@@ -23,7 +23,7 @@ NFT API 是每个 NFT dApp 的核心组件。无论你是想[开发一个 NFT �
 
 为了理解什么是 NFT API，我们首先要确定什么是 API。“应用程序编程接口”或 API 基本上是一个接口，它使软件能够与其他软件进行交互。从本质上讲，API 使得不同的指令集能够被传输或翻译，以便相互理解。因此，一组 API 通过确保所有可复制的功能在每个请求上可预测地交付，允许在稳定的环境中进行一致的编码。
 
-当谈到 NFT API 时，上述特性特别关注于处理非功能性测试。它们简化了与 NFTs 相关的后端信息获取。虽然有几个 NFT API 可供选择，但我们将关注最终的 NFT API，即 [Moralis 的 NFT API](https://moralis.io/announcing-the-moralis-nft-api/?utm_source=blog&utm_medium=post&utm_campaign=Want%2520the%2520Latest%2520in%2520%253Cspan%253EBlockchain%2520Development%253F%253C%252Fspan%253E) 。这个 NFT API 是一个易于管理和使用的索引 API。此外，虽然其他 NFT API 选项需要使用多个请求，因此需要几行代码，但道德 NFT API 为用户提供了单行代码，这些代码将在后端完成所有繁重的工作。这包括获取与特定 NFT 相关的所有链上数据，您可以使用这些数据构建各种 NFT dapp。后者包括 NFT 钱包、NFT 追踪器、NFT 市场、NFT 游戏等。，不费吹灰之力。
+当谈到 NFT API 时，上述特性特别关注于处理非功能性测试。它们简化了与 NFTs 相关的后端信息获取。虽然有几个 NFT API 可供选择，但我们将关注最终的 NFT API，即 [Moralis 的 NFT API](https://moralis.io/announcing-the-moralis-nft-api/?utm_source=blog&utm_medium=post&utm_campaign=Want%2520the%2520Latest%2520in%2520%253Cspan%253EBlockchain%2520Development%253F%253C%252Fspan%253E) 。这个 NFT API 是一个易于管理和使用的索引 API。此外，虽然其他 NFT API 选项需要使用多个请求，因此需要几行代码，但 Moralis NFT API 为用户提供了单行代码，这些代码将在后端完成所有繁重的工作。这包括获取与特定 NFT 相关的所有链上数据，您可以使用这些数据构建各种 NFT dapp。后者包括 NFT 钱包、NFT 追踪器、NFT 市场、NFT 游戏等。，不费吹灰之力。
 
 ![](img/41fb68cea7e02ac74c5ce7eb4c525b3d.png)
 
@@ -37,7 +37,7 @@ NFT API 是每个 NFT dApp 的核心组件。无论你是想[开发一个 NFT �
 
 此外，由于 NFT 是代币，它们是可交易的；因此，它们也提供了一种将价值从数字世界转移到现实生活中的方式。尽管如此，不可替代的令牌提供了更广泛的用例，在这些用例中，它们可以作为各种证书、所有权等等的现实解决方案。
 
-也就是说，你可以很有信心，NFT 会一直存在，知道如何使用高质量 NFT API 的开发人员可以获得优势，并从这个破坏性的利基市场中明显受益。如果你还是不能回答"[什么是 NFT？](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/)“带着十足的信心，确保更深入地阅读我们的[道德博客](https://moralis.io/blog/)中关于该主题的文章。
+也就是说，你可以很有信心，NFT 会一直存在，知道如何使用高质量 NFT API 的开发人员可以获得优势，并从这个破坏性的利基市场中明显受益。如果你还是不能回答"[什么是 NFT？](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/)“带着十足的信心，确保更深入地阅读我们的[Moralis 博客](https://moralis.io/blog/)中关于该主题的文章。
 
 ## 探索 Moralis 的 NFT API
 
@@ -57,13 +57,13 @@ NFT API 是每个 NFT dApp 的核心组件。无论你是想[开发一个 NFT �
 *   NFT 的历史变迁
 *   令牌地址、令牌 ID、令牌哈希和令牌 URI
 
-此外，Moralis 的 NFT API 完全支持以太坊的 ERC-721 和 ERC-1155 令牌标准。因此，你可以使用最受欢迎的 NFT 代币。此外，通过使用这个强大的 NFT API，您可以构建无服务器的 NFT 应用程序，而无需大量的[以太坊](https://moralis.io/full-guide-what-is-ethereum/)、 [EVM](https://moralis.io/evm-explained-what-is-ethereum-virtual-machine/) 或[可靠性](https://moralis.io/solidity-explained-what-is-solidity/)知识。本质上，如果你知道如何使用[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)，并且精通 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) ，你就万事俱备了。现在就[创建你的免费道德账户](https://admin.moralis.io/register)，开始构建你的 Web3 应用。效仿一些声誉卓著的项目，比如已经在使用道德 NFT API 的 SuperFarm。
+此外，Moralis 的 NFT API 完全支持以太坊的 ERC-721 和 ERC-1155 令牌标准。因此，你可以使用最受欢迎的 NFT 代币。此外，通过使用这个强大的 NFT API，您可以构建无服务器的 NFT 应用程序，而无需大量的[以太坊](https://moralis.io/full-guide-what-is-ethereum/)、 [EVM](https://moralis.io/evm-explained-what-is-ethereum-virtual-machine/) 或[可靠性](https://moralis.io/solidity-explained-what-is-solidity/)知识。本质上，如果你知道如何使用[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)，并且精通 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) ，你就万事俱备了。现在就[创建你的免费 Moralis 账户](https://admin.moralis.io/register)，开始构建你的 Web3 应用。效仿一些声誉卓著的项目，比如已经在使用 Moralis NFT API 的 SuperFarm。
 
 ![](img/44c7e552d94dd34e00e6abb477b77720.png)
 
 ## 使用终极 NFT API
 
-在这里，我们将看看由道德 NFT API 提供的一些强大而简单的函数，向您展示使用它是多么容易。我们还将向您展示使用 Moralis 创建和启动您自己的 NFT 是多么简单。
+在这里，我们将看看由 Moralis NFT API 提供的一些强大而简单的函数，向您展示使用它是多么容易。我们还将向您展示使用 Moralis 创建和启动您自己的 NFT 是多么简单。
 
 #### 搜索 NFT
 
@@ -127,7 +127,7 @@ https://www.youtube.com/watch?v=tBMk1iZa85Y
 
 此外，该视频将指导您完成所有步骤，包括设置您的 Moralis 服务器并获取其详细信息。此外，为了这个示例项目的目的，您将需要使用 Visual Studio 代码(VSC)和它的一些插件，包括“实时服务器”。后者将启动一个小型网络服务器来托管你的 dApp。这样，您将能够使用 MetaMask 并检查您的 dApp 的进度和功能。
 
-### 使用道德 NFT API 创建 NFT 游戏
+### 使用 Moralis NFT API 创建 NFT 游戏
 
 由于 NFT 游戏现在很流行，我们鼓励你看看下面的文章，这是我们的两节课课程，将指导你一步一步地完成 [NFT 游戏开发](https://moralis.io/nft-game-development-how-to-build-an-nft-game-app-in-minutes/)过程:“ [NFT 游戏开发——如何在几分钟内建立一个 NFT 游戏应用](https://moralis.io/nft-game-development-how-to-build-an-nft-game-app-in-minutes/)”。它将向您展示用 Moralis 的 NFT API 开发 NFT 游戏是多么容易。此外，您还可以通过查看那篇文章来为您的 NFT 发展寻找灵感。
 是的，Moralis 的 SDK 及其 NFT API 带来的强大功能提供了无与伦比的简单性，使您能够显著更快地部署成品。
@@ -143,8 +143,8 @@ https://www.youtube.com/watch?v=tBMk1iZa85Y
 
 ## 终极 NFT API–探索 Moralis 的 NFT API–总结
 
-非功能性交易似乎会持续下去。它们不仅颠覆了数字艺术、收藏品和游戏行业，还可能提供数字世界之外的许多用例。因此，开发人员掌握 NFT 开发技能的时候到了——有了道德家的 NFT，终于有了一个能够支持简单开发的 NFT API。
+非功能性交易似乎会持续下去。它们不仅颠覆了数字艺术、收藏品和游戏行业，还可能提供数字世界之外的许多用例。因此，开发人员掌握 NFT 开发技能的时候到了——有了 Moralis 家的 NFT，终于有了一个能够支持简单开发的 NFT API。
 
-根据本文中的信息，您将能够结合使用终极 NFT API 和 Moralis 的 SDK 来提高您的 Web3 开发速度。有了这个快捷方式，您就可以将最大的精力放在创建最用户友好的 NFT 应用程序上，并最终节省时间和资源。按照我们的建议，您将首先完成几个示例项目。因此，你将学会正确使用这些强大的工具——并看到道德的全部力量。例如，Moralis 还允许你轻松地[构建以太坊 dApp](https://moralis.io/ultimate-guide-how-to-build-ethereum-dapps/)，[创建 DEX](https://moralis.io/how-to-create-a-dex-in-5-steps/) ，[添加菲亚特网关](https://moralis.io/how-to-add-fiat-gateway-to-dapps/)，[创建雪崩 dApp](https://moralis.io/how-to-create-an-avalanche-dapp-in-4-steps/) ，等等。例如，Moralis 是顶级的 BSC 测试网络提供商，也是领先的备选供应商。最重要的是，所有这些都可以与 Moralis 的 NFT 开发工具无缝协作。因此，你很快就能建造 NFT dApps！
+根据本文中的信息，您将能够结合使用终极 NFT API 和 Moralis 的 SDK 来提高您的 Web3 开发速度。有了这个快捷方式，您就可以将最大的精力放在创建最用户友好的 NFT 应用程序上，并最终节省时间和资源。按照我们的建议，您将首先完成几个示例项目。因此，你将学会正确使用这些强大的工具——并看到 Moralis 的全部力量。例如，Moralis 还允许你轻松地[构建以太坊 dApp](https://moralis.io/ultimate-guide-how-to-build-ethereum-dapps/)，[创建 DEX](https://moralis.io/how-to-create-a-dex-in-5-steps/) ，[添加菲亚特网关](https://moralis.io/how-to-add-fiat-gateway-to-dapps/)，[创建雪崩 dApp](https://moralis.io/how-to-create-an-avalanche-dapp-in-4-steps/) ，等等。例如，Moralis 是顶级的 BSC 测试网络提供商，也是领先的备选供应商。最重要的是，所有这些都可以与 Moralis 的 NFT 开发工具无缝协作。因此，你很快就能建造 NFT dApps！
 
 ![](img/3f922cceb77a7bdf72262e3fabd2e17e.png)

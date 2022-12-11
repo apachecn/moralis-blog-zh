@@ -20,7 +20,7 @@ AWS 是“亚马逊网络服务”的缩写，是市场上最著名的云计算�
 
 如果您有兴趣知道这个问题的答案，请加入我们，因为我们在本文中提供了如何使用 Moralis 上传 AWS Lambda 函数的完整演练。此外，在深入核心部分之前，本指南还提供了对 AWS Lambda 的简要介绍。但是，如果你觉得这不是一个足够的概述，或者想要更多关于服务的细节，请查看我们关于 [AWS Lambda 的指南以及它用于](https://moralis.io/exploring-aws-lambda-and-what-it-is-used-for/)的用途！
 
-Moralis [AWS Lambda NodeJS](https://moralis.io/aws-lambda-nodejs-tutorial-how-to-integrate-a-nodejs-sdk-example/) 集成负责本教程中显示的可访问性。然而，它只是道德给你带来的众多便利之一。另一个很好的例子是由 Moralis 提供的各种[web 3 API](https://moralis.io/web3-apis-exploring-the-top-5-blockchain-apis/)！例如，如果你想了解更多这方面的知识，请查看 [EVM API](https://moralis.io/evm-api/) ，让你轻松创建 EVM 兼容的项目！
+Moralis [AWS Lambda NodeJS](https://moralis.io/aws-lambda-nodejs-tutorial-how-to-integrate-a-nodejs-sdk-example/) 集成负责本教程中显示的可访问性。然而，它只是 Moralis 给你带来的众多便利之一。另一个很好的例子是由 Moralis 提供的各种[web 3 API](https://moralis.io/web3-apis-exploring-the-top-5-blockchain-apis/)！例如，如果你想了解更多这方面的知识，请查看 [EVM API](https://moralis.io/evm-api/) ，让你轻松创建 EVM 兼容的项目！
 
 然而，在继续这篇文章之前，[在 Moralis](https://admin.moralis.io/register) 上注册，因为需要一个帐户才能继续！更重要的是，创建一个帐户是完全免费的，只需要几秒钟就可以设置好！
 
@@ -57,7 +57,7 @@ AWS Lambda 是基于事件驱动的无服务器架构的计算服务。AWS Lambd
 
 在开始开发和部署 Lambda 函数之前，有几个先决条件需要处理。更具体地说，总共有七个:
 
-1.  道德账户–你首先需要的是一个道德账户。因此，如果你还没有，[立即加入道德家](https://admin.moralis.io/register)！
+1.  Moralis 账户–你首先需要的是一个 Moralis 账户。因此，如果你还没有，[立即加入 Moralis 家](https://admin.moralis.io/register)！
 
 2.  **集成开发环境(IDE)**–接下来，您需要下载并安装一个 IDE。我们推荐 Visual Studio 代码(VSC ),因为这是我们在整个教程中使用的环境。
 
@@ -194,7 +194,7 @@ npm install moralis
 const Moralis = require('moralis').default;
 ```
 
-接下来，您必须用前面指定的 Web3 API 密钥初始化 Moralis。因此，在道德要求下输入以下代码片段:
+接下来，您必须用前面指定的 Web3 API 密钥初始化 Moralis。因此，在 Moralis 要求下输入以下代码片段:
 
 ```js
 const startMoralis = async () => {
@@ -347,7 +347,7 @@ serverless deploy
 
 如果你觉得这篇关于部署 Lambda 函数的教程很有帮助，你可能想在 Moralis 的 [Web3 博客](https://moralis.io/blog/)查看更多内容。例如，学习如何[将 IPFS 用于 NFT 元数据](https://moralis.io/ipfs-nft-how-to-use-ipfs-for-nft-metadata/)或探索[多边形 webhooks](https://moralis.io/polygon-webhooks-how-to-use-webhooks-on-polygon/) ！
 
-此外，如果你想成为一名更熟练的区块链开发者，去看看[道德学院](https://academy.moralis.io)！该学院为新的和更有经验的开发人员提供了很好的区块链课程。例如，如果你是这个领域的新手，通过下面的课程学习 Web3 开发的基础知识:“[以太坊基础](https://academy.moralis.io/courses/ethereum-101)”。
+此外，如果你想成为一名更熟练的区块链开发者，去看看[Moralis 学院](https://academy.moralis.io)！该学院为新的和更有经验的开发人员提供了很好的区块链课程。例如，如果你是这个领域的新手，通过下面的课程学习 Web3 开发的基础知识:“[以太坊基础](https://academy.moralis.io/courses/ethereum-101)”。
 
 ![](img/fc7a6bf5592ce8576971d33668613f29.png)
 

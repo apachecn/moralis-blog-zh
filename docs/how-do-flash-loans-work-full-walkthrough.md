@@ -64,15 +64,15 @@
 
 ![](img/be9f09a6e0bbef278d6af48208e2e4df.png)
 
-### 初始设置–使用道德
+### 初始设置–使用 Moralis
 
-4.  现在，[创建您的免费道德账户](https://admin.moralis.io/register)。只需点击左边的链接，输入您的电子邮件地址，创建您的密码。然后，您只需点击您将通过电子邮件地址收到的确认链接。*如果您已经有一个活跃的 Moralis 账户，只需* [*登录*](https://admin.moralis.io/login) *。*
+4.  现在，[创建您的免费 Moralis 账户](https://admin.moralis.io/register)。只需点击左边的链接，输入您的电子邮件地址，创建您的密码。然后，您只需点击您将通过电子邮件地址收到的确认链接。*如果您已经有一个活跃的 Moralis 账户，只需* [*登录*](https://admin.moralis.io/login) *。*
 
 ![](img/ee17dca2a77fd27bfbde715a21c7b355.png)
 
 5.  登录到您的 Moralis 帐户后，是时候[创建一个 Moralis 服务器](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)了。在您的管理区域中，转到“服务器”选项卡，然后单击“+创建新服务器”按钮，选择网络类型，输入服务器详细信息，并单击“添加实例”完成。*如果您需要更详细的说明，请点击本步骤开头的链接。*创建服务器后，您将能够访问其详细信息(通过“查看详细信息”按钮)，您将在为您的 flash loans 实验室版本构建 UI 时使用这些信息。
 
-6.  现在是使用道德快速节点的时候了。因此，转到“快速节点”标签，点击“雪崩网络”选项下的“端点”。然后，复制“Testnet”下的 URL 地址:
+6.  现在是使用 Moralis 快速节点的时候了。因此，转到“快速节点”标签，点击“雪崩网络”选项下的“端点”。然后，复制“Testnet”下的 URL 地址:
 
 ![](img/24b057ef1d9346d548bee516a47dcea2.png)
 
@@ -111,7 +111,7 @@ https://www.youtube.com/watch?v=YBm68v6oWXw
 
 ## 闪贷是怎么运作的？–完整演练–总结
 
-闪贷是怎么运作的？如果你已经适当地涵盖了上述部分，你现在已经清楚地了解什么是快速贷款和如何快速贷款的功能。此外，您还学习了如何完成创建自己的快速贷款实验室所需的初始设置。此外，按照上面的视频，您应该已经有了一个可供您使用的功能性快速贷款实验室。有了这些，你可能会给自己冠上“半快速贷款专家”的头衔。尽管如此，如果你有兴趣进一步了解 DeFi 知识，请务必查看[道德学院](https://academy.moralis.io/)的“[DeFi 101–2022 Ready](https://academy.moralis.io/courses/defi-101)”课程。
+闪贷是怎么运作的？如果你已经适当地涵盖了上述部分，你现在已经清楚地了解什么是快速贷款和如何快速贷款的功能。此外，您还学习了如何完成创建自己的快速贷款实验室所需的初始设置。此外，按照上面的视频，您应该已经有了一个可供您使用的功能性快速贷款实验室。有了这些，你可能会给自己冠上“半快速贷款专家”的头衔。尽管如此，如果你有兴趣进一步了解 DeFi 知识，请务必查看[Moralis 学院](https://academy.moralis.io/)的“[DeFi 101–2022 Ready](https://academy.moralis.io/courses/defi-101)”课程。
 
 此外，你可以通过使用 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)上的免费内容[成为区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)。我们定期在这两个网站上发布有价值的内容。我们的一些最新主题教你如何[用短信](https://moralis.io/get-web3-events-with-sms-messages/)获取 Web3 事件，如何[构建预测市场 dApp](https://moralis.io/how-to-build-a-prediction-market-dapp/) ，如何[构建跨链桥](https://moralis.io/how-to-build-a-cross-chain-bridge/)，如何[在币安智能链上创建 NFT](https://moralis.io/create-nft-on-binance-smart-chain-full-guide/)，面向开发者的[元掩码](https://moralis.io/metamask-for-developers-how-to-launch-web3-apps-with-metamask/)，如何[使用 OpenSea API 替代方案](https://moralis.io/opensea-api-alternative-list-nfts-with-this-opensea-plugin/)，如何[创建免费令牌](https://moralis.io/create-free-token-how-to-deploy-your-own-testnet-crypto-token-in-10-mins/)，如何做【T2
 

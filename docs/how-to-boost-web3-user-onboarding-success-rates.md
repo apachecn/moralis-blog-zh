@@ -4,7 +4,7 @@
 
 许多因素，如积极的用户体验(UX)和高质量、用户友好的用户界面(用户界面)，都在 Web3 用户入职成功率中发挥着重要作用。此外，这部分包括简单性。现在，如果你有任何区块链开发的经验，你知道需要简化的一个过程是如何让 Web3 用户参与进来。因此，如果我们能够使入职过程平滑无缝，我们将获得更多的用户，我们的[**【dApps】**](https://moralis.io/decentralized-applications-explained-what-are-dapps/)**(分散应用)将更有可能成功。幸运的是，有几种工具可以实现这一点。在这里，我们将仔细研究这些工具，并探索如何使用 Moralis 轻松提高 Web3 用户的加入成功率。**
 
-在本文中，您将发现如何使 Web3 用户入门无缝且简单。通过使用终极的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台、 [Moralis](https://moralis.io/) 以及它的一些最新集成，Web3 用户登录变得没有摩擦。此外，一个令人印象深刻的部分是 Moralis(又名 [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) )使你能够用几行代码实现 [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/)。通过[创建你的免费道德账户](https://admin.moralis.io/register)，你可以获得终极的 Web3 SDK。因此，你得到了一个完整的[以太坊 API](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) ，包括一个极其强大的 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 。另外， [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 为您提供了 Moralis 服务器、Moralis 仪表板(数据库)和 Moralis 同步功能。后者使您能够[索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)和[同步并索引智能合约事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/)。接下来，我们将首先介绍一些基础知识，帮助大家快速掌握。然而，本文的核心是 Web3 用户入门设置指南。
+在本文中，您将发现如何使 Web3 用户入门无缝且简单。通过使用终极的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发平台、 [Moralis](https://moralis.io/) 以及它的一些最新集成，Web3 用户登录变得没有摩擦。此外，一个令人印象深刻的部分是 Moralis(又名 [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) )使你能够用几行代码实现 [Web3 认证](https://moralis.io/web3-authentication-the-full-guide/)。通过[创建你的免费 Moralis 账户](https://admin.moralis.io/register)，你可以获得终极的 Web3 SDK。因此，你得到了一个完整的[以太坊 API](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) ，包括一个极其强大的 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 。另外， [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 为您提供了 Moralis 服务器、Moralis 仪表板(数据库)和 Moralis 同步功能。后者使您能够[索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)和[同步并索引智能合约事件](https://moralis.io/sync-and-index-smart-contract-events-full-guide/)。接下来，我们将首先介绍一些基础知识，帮助大家快速掌握。然而，本文的核心是 Web3 用户入门设置指南。
 
 ![](img/2cd16ae19654bc94023215907ca99ce2.png)
 
@@ -42,7 +42,7 @@
 
 ## 如何促进 Web3 用户的加入
 
-如前所述，Moralis 为您提供了创建跨链互操作 dApps 所需的所有工具。因此，您可以在所有受支持的区块链上使用相同的代码部署所有面向未来的 dApps。此外，这个优秀的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)让开发者节省了超过 87%的开发时间。单是道德就令人印象深刻；然而，当您将它的集成添加到图片中时，事情变得更加简单。此外，集成在 Web3 用户加入中扮演着重要的角色。更具体的说，我们说的是 Web3Auth 和 Magic(由 Magic Labs 开发)。前者为您提供 [Web3 社交登录](https://moralis.io/web3-social-login-sign-in-dapp-users-with-google-email-or-twitter/)和电子邮件登录，而后者则是通过电子邮件进行 [Web3 认证。此外，Magic 还提供了无密码登录选项，具有特殊的用户友好型吸引力。](https://moralis.io/how-to-do-web3-authentication-via-email/)
+如前所述，Moralis 为您提供了创建跨链互操作 dApps 所需的所有工具。因此，您可以在所有受支持的区块链上使用相同的代码部署所有面向未来的 dApps。此外，这个优秀的 [Web3 后端平台](https://moralis.io/exploring-the-best-web3-backend-platform/)让开发者节省了超过 87%的开发时间。单是 Moralis 就令人印象深刻；然而，当您将它的集成添加到图片中时，事情变得更加简单。此外，集成在 Web3 用户加入中扮演着重要的角色。更具体的说，我们说的是 Web3Auth 和 Magic(由 Magic Labs 开发)。前者为您提供 [Web3 社交登录](https://moralis.io/web3-social-login-sign-in-dapp-users-with-google-email-or-twitter/)和电子邮件登录，而后者则是通过电子邮件进行 [Web3 认证。此外，Magic 还提供了无密码登录选项，具有特殊的用户友好型吸引力。](https://moralis.io/how-to-do-web3-authentication-via-email/)
 
 在接下来的部分中，您将有机会了解如何利用这些优秀工具的所有细节。因此，我们将指导您完成初始设置，以便您可以开始使用。总的来说，您将学习如何使用 Moralis 和 Moralis 与 Web3Auth 的集成，以及 Moralis 与 Magic 的无密码集成来创建更好的 Web3 登录。
 
@@ -97,7 +97,7 @@ https://www.youtube.com/watch?v=44ItBuw86AA
 
 ## 无密码登录–实施
 
-如果你想专注于无密码电子邮件登录，那么你需要专注于道德的神奇集成。与 Web3Auth 一样，在这种情况下，您也需要完成一些初始设置步骤。以下是您需要遵循的步骤(更多详细信息，请使用 Moralis 文档中的[“魔法”说明](https://docs.moralis.io/moralis-server/users/crypto-login/magic)):
+如果你想专注于无密码电子邮件登录，那么你需要专注于 Moralis 的神奇集成。与 Web3Auth 一样，在这种情况下，您也需要完成一些初始设置步骤。以下是您需要遵循的步骤(更多详细信息，请使用 Moralis 文档中的[“魔法”说明](https://docs.moralis.io/moralis-server/users/crypto-login/magic)):
 
 1.  您需要获得您的 Magic API 密钥。因此，访问官方 [Magic](https://magic.link/) 网站，点击“开始”按钮。然后，完成注册过程:
 
@@ -142,12 +142,12 @@ https://www.youtube.com/watch?v=gLJ4YejmG2E
 
 ![](img/1d3cfafe8fcb8f36315eb7ad4b2b3f25.png)
 
-道德启动后，你就可以利用以上两个部分采取行动了。因此，您将很容易实现一个用户友好的 Web3 onboarding 方法。
+Moralis 启动后，你就可以利用以上两个部分采取行动了。因此，您将很容易实现一个用户友好的 Web3 onboarding 方法。
 
 ## 如何提高 Web3 用户入职成功率——总结
 
-此时，您应该是 Web3 身份验证的半个专家了。您现在知道什么是用户入职，以及为什么它必须尽可能无摩擦。此外，您知道典型的 Web3 登录(使用热钱包)对于密码领域的新手来说是不友好的。因此，你已经有机会了解两个道德整合，使一个巨大的差异。因此，您现在已经准备好提高 Web3 用户入职成功率。
+此时，您应该是 Web3 身份验证的半个专家了。您现在知道什么是用户入职，以及为什么它必须尽可能无摩擦。此外，您知道典型的 Web3 登录(使用热钱包)对于密码领域的新手来说是不友好的。因此，你已经有机会了解两个 Moralis 整合，使一个巨大的差异。因此，您现在已经准备好提高 Web3 用户入职成功率。
 
-无论你是否准备好接受一些有趣的项目，或者如果你想继续你的免费区块链教育，你都应该看看 [Moralis 博客](https://moralis.io/blog/)和 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。我们的一些最新主题涵盖了 [Web3 游戏化](https://moralis.io/web3-gamification-creating-a-coinmarketcap-diamonds-dapp/)、 [React Native Web3](https://moralis.io/react-native-web3-full-react-native-web3-dev-guide/) 、[什么是元宇宙](https://moralis.io/what-is-the-metaverse-full-guide/)、[可重入智能合约示例](https://moralis.io/what-is-reentrancy-reentrancy-smart-contract-example/)、[治理令牌](https://moralis.io/what-are-governance-tokens-full-guide/)、 [BSC 钱包指南](https://moralis.io/bsc-wallet-guide-how-to-set-up-a-binance-smart-chain-wallet/)等等。然而，如果你渴望尽早成为一名区块链开发者，你需要考虑一种更专业的方法。如果是这样的话，报名参加道德学院可能是你下一个合乎逻辑的步骤。通过这样做，你可以参加专业的[课程](https://academy.moralis.io/all-courses)，加入一个了不起的社区，并得到专家的指导。
+无论你是否准备好接受一些有趣的项目，或者如果你想继续你的免费区块链教育，你都应该看看 [Moralis 博客](https://moralis.io/blog/)和 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)。我们的一些最新主题涵盖了 [Web3 游戏化](https://moralis.io/web3-gamification-creating-a-coinmarketcap-diamonds-dapp/)、 [React Native Web3](https://moralis.io/react-native-web3-full-react-native-web3-dev-guide/) 、[什么是元宇宙](https://moralis.io/what-is-the-metaverse-full-guide/)、[可重入智能合约示例](https://moralis.io/what-is-reentrancy-reentrancy-smart-contract-example/)、[治理令牌](https://moralis.io/what-are-governance-tokens-full-guide/)、 [BSC 钱包指南](https://moralis.io/bsc-wallet-guide-how-to-set-up-a-binance-smart-chain-wallet/)等等。然而，如果你渴望尽早成为一名区块链开发者，你需要考虑一种更专业的方法。如果是这样的话，报名参加 Moralis 学院可能是你下一个合乎逻辑的步骤。通过这样做，你可以参加专业的[课程](https://academy.moralis.io/all-courses)，加入一个了不起的社区，并得到专家的指导。
 
 ![](img/ea5a237cf0893fc099ae3d2624c50733.png)**

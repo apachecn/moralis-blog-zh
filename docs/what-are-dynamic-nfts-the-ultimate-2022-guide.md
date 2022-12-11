@@ -6,7 +6,7 @@
 
 如果您对动态 NFT 感兴趣，请跟随我们在整篇文章中更详细地探索这些令牌。我们将从一个动态的 NFT 实际需要什么开始。接下来，我们将深入研究动态 NFT 是如何工作的。另外，我们将把它们与更熟悉的静态 NFT 概念进行比较。此外，我们将探索动态 NFT 的一些潜在用例，因为这进一步说明了它们为什么有用。最后，我们将仔细看看如何使用最终的 Web3 后端平台 [Moralis](https://moralis.io/) 创建你的 NFT。
 
-这个操作系统提供了一些最好的 Web3 开发工具。其中包括 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) 、 [Moralis 的元宇宙 SDK](https://moralis.io/metaverse/) 、 [Price API](https://moralis.io/introducing-the-moralis-price-api/) 等等。这些工具与系统的底层后端基础设施相结合，确保用户获得市场上最好的开发人员体验！因此，如果你还没有注册，现在就注册吧！免费创建你的道德账户，然后[在创纪录的时间内成为区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)！现在，事不宜迟，让我们从回答问题“什么是动态 NFT”开始我们的旅程。
+这个操作系统提供了一些最好的 Web3 开发工具。其中包括 [Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) 、 [Moralis 的元宇宙 SDK](https://moralis.io/metaverse/) 、 [Price API](https://moralis.io/introducing-the-moralis-price-api/) 等等。这些工具与系统的底层后端基础设施相结合，确保用户获得市场上最好的开发人员体验！因此，如果你还没有注册，现在就注册吧！免费创建你的 Moralis 账户，然后[在创纪录的时间内成为区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)！现在，事不宜迟，让我们从回答问题“什么是动态 NFT”开始我们的旅程。
 
 ## 什么是动态 NFT？
 
@@ -75,7 +75,7 @@
 
 现在，您对动态 NFT 已经比较熟悉了，可以回答“什么是动态 NFT？”问题，并了解如何使用它们，您可能会对创建自己的令牌感兴趣。如果是那样的话，你肯定是到对地方了。你想要创造什么样的 NFT 并不重要；Moralis 是最好的平台，非常容易用于任何类型的 NFT 开发。
 
-借助 Moralis 的后端基础设施和市场上一些最好的开发工具，您可以在几分钟内创建各种有趣的 NFT。一个对 NFT 发展有重大帮助的工具是 [Moralis 的 NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 。事实上，当利用道德，你将能够[创造自己的 NFT](https://moralis.io/how-to-create-your-own-nft-in-5-steps/) 在五个简单的步骤！
+借助 Moralis 的后端基础设施和市场上一些最好的开发工具，您可以在几分钟内创建各种有趣的 NFT。一个对 NFT 发展有重大帮助的工具是 [Moralis 的 NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 。事实上，当利用 Moralis，你将能够[创造自己的 NFT](https://moralis.io/how-to-create-your-own-nft-in-5-steps/) 在五个简单的步骤！
 
 ![](img/e9ba82a241996f849a9bad7727ce0279.png)
 
@@ -83,7 +83,7 @@
 
 更重要的是，Moralis 使开发你自己的 NFT 市场成为可能，也使 T2 建立 NFT 交易界面成为可能。因此，该平台为您提供了所有必要的工具，以便您可以开始 NFT 开发！
 
-如果你对其他类型的代币感兴趣，你可以在道德博客上了解更多关于 [ERC-20](https://moralis.io/erc20-exploring-the-erc-20-token-standard/) 和 [ERC-1155](https://moralis.io/erc1155-exploring-the-erc-1155-token-standard/) 代币的信息。此外，看看我们的指南[如何在十分钟内创建自己的 ERC-20 代币](https://moralis.io/how-to-create-your-own-erc-20-token-in-10-minutes/)！
+如果你对其他类型的代币感兴趣，你可以在 Moralis 博客上了解更多关于 [ERC-20](https://moralis.io/erc20-exploring-the-erc-20-token-standard/) 和 [ERC-1155](https://moralis.io/erc1155-exploring-the-erc-1155-token-standard/) 代币的信息。此外，看看我们的指南[如何在十分钟内创建自己的 ERC-20 代币](https://moralis.io/how-to-create-your-own-erc-20-token-in-10-minutes/)！
 
 ## 什么是动态非功能性测试–摘要
 

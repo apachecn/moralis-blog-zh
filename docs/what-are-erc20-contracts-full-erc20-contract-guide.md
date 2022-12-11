@@ -4,7 +4,7 @@
 
 到现在为止，大多数人都听说过区块链，比如以太坊。比特币是第一个区块链，以太坊链是第一个可编程的区块链。此外，凭借其先发优势和强大的社区，以太坊仍然是部署 dapp([](https://moralis.io/decentralized-applications-explained-what-are-dapps/)****)的最受欢迎的途径。另外，以太坊的区块链还支持最大数量的加密令牌。包括一些声誉极佳的加密货币，如 LINK、ZRX、MKR 和 BAT，它们都基于 ERC20 合约。不确定什么是 ERC20 合约？不要担心；到本文结束时，您将对什么是 ERC20 合同有一个坚实的理解。****
 
-**接下来，我们首先要确保你们都知道什么是 ERC20 智能合约。我们还将从总体上解释智能合约，包括它们允许的内容。然后，我们将向您展示如何创建 [*ERC20*](https://moralis.io/erc20-exploring-the-erc-20-token-standard/) 令牌，以加深您的理解。通过概述 ERC20 契约的使用，您还将看到 [Moralis](https://moralis.io/) (又名 [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) )的实际应用。您将学习如何使用这个终极的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发工具来帮助加速各种区块链开发任务。本质上，Moralis 为前端开发者提供了使用 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 和[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)创建非凡的 dApps 的能力。当然，除了前端开发人员，许多后端程序员也在跳上这辆“面向未来的列车”。所以，如果你真的想成为一名区块链开发者，请确保今天就创建你的免费道德账户。**
+**接下来，我们首先要确保你们都知道什么是 ERC20 智能合约。我们还将从总体上解释智能合约，包括它们允许的内容。然后，我们将向您展示如何创建 [*ERC20*](https://moralis.io/erc20-exploring-the-erc-20-token-standard/) 令牌，以加深您的理解。通过概述 ERC20 契约的使用，您还将看到 [Moralis](https://moralis.io/) (又名 [Firebase for crypto](https://moralis.io/firebase-for-crypto-the-best-blockchain-firebase-alternative/) )的实际应用。您将学习如何使用这个终极的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发工具来帮助加速各种区块链开发任务。本质上，Moralis 为前端开发者提供了使用 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 和[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)创建非凡的 dApps 的能力。当然，除了前端开发人员，许多后端程序员也在跳上这辆“面向未来的列车”。所以，如果你真的想成为一名区块链开发者，请确保今天就创建你的免费 Moralis 账户。**
 
 **![](img/1ee6fc9aaa3cd8634b5e21de5857cdb0.png)
 
@@ -49,17 +49,17 @@ ERC20 标准是确保以太坊区块链正常运行的众多脚本标准之一�
 
 ## 创建 ERC20 令牌
 
-如果您已经学习了上述章节，那么您现在应该对什么是 ERC20 智能合约有一个非常清晰的理解。这样，你就可以学习如何制作 ERC-20 代币了。幸运的是，这比大多数人想象的要简单得多。事实上，在道德家的帮助下，你可以在十分钟左右完成这项工作。我们将在下面介绍创建 ERC-20 令牌的主要步骤。但是，要获得更详细的指导，请使用下面的视频。不过，让我们先指导您完成初始设置。
+如果您已经学习了上述章节，那么您现在应该对什么是 ERC20 智能合约有一个非常清晰的理解。这样，你就可以学习如何制作 ERC-20 代币了。幸运的是，这比大多数人想象的要简单得多。事实上，在 Moralis 家的帮助下，你可以在十分钟左右完成这项工作。我们将在下面介绍创建 ERC-20 令牌的主要步骤。但是，要获得更详细的指导，请使用下面的视频。不过，让我们先指导您完成初始设置。
 
 ### 初始设置
 
-在创建 ERC20 令牌之前，您需要完成某些设置步骤。这些包括初始道德设置、获取道德快速节点、设置元掩码和获取 ETH(游戏或真实 ETH)。
+在创建 ERC20 令牌之前，您需要完成某些设置步骤。这些包括初始 Moralis 设置、获取 Moralis 快速节点、设置元掩码和获取 ETH(游戏或真实 ETH)。
 
-#### 初始道德设置
+#### 初始 Moralis 设置
 
 为了将 Moralis 用于您的区块链开发工作，包括创建 ERC20 令牌，请遵循以下子步骤:
 
-1.  [**创建你的自由道德账户**](https://admin.moralis.io/register)——如果你还没有创建你的自由道德账户，现在就创建吧。在下一页，输入您的电子邮件地址，创建您的密码，然后单击确认链接(发送到您的电子邮件收件箱)。然而，如果你已经有了一个 Moralis 账户，只需[登录](https://admin.moralis.io/login)。
+1.  [**创建你的自由 Moralis 账户**](https://admin.moralis.io/register)——如果你还没有创建你的自由 Moralis 账户，现在就创建吧。在下一页，输入您的电子邮件地址，创建您的密码，然后单击确认链接(发送到您的电子邮件收件箱)。然而，如果你已经有了一个 Moralis 账户，只需[登录](https://admin.moralis.io/login)。
 
 *注意* *:为了创建 ERC20 令牌，您不需要完成下面的子步骤 2–4。然而，当您决定使用 Moralis 进行 dApp 开发时，它们会派上用场。*
 
@@ -83,7 +83,7 @@ ERC20 标准是确保以太坊区块链正常运行的众多脚本标准之一�
 
 ![](img/7987e72833b2d96dc7dc1389f8aaa3cd.png)
 
-#### 获取道德的快速节点
+#### 获取 Moralis 的快速节点
 
 创建 ERC20 令牌时，您需要一个功能完整的[节点](https://moralis.io/node-js-explained-what-is-node-js/)。除非你想通过自己运行一个来面对 RPC 节点的[限制，否则 Moralis 提供了一个很好的捷径。](https://moralis.io/exploring-the-limitations-of-rpc-nodes-and-the-solution-to-them/)[创建账户后，Moralis Speedy Nodes](https://moralis.io/speedy-nodes/) 任你使用。因此，您可以在 [Infura 备选方案](https://moralis.io/infura-for-avalanche-exploring-infura-avalanche-alternatives/)中利用这一首选。
 
@@ -95,7 +95,7 @@ ERC20 标准是确保以太坊区块链正常运行的众多脚本标准之一�
 
 ![](img/2d7130e31877302d4b04958b67b53ee3.png)
 
-您在上图中看到的每个网络的 URL 是节点。通过点击您决定使用的网络旁边的“复制”图标，您可以复制相关的地址。尽管如此，当你设置道德快速节点时，你将使用这个与 [*布朗尼*](https://moralis.io/eth-brownie-explained-what-is-brownie/) *。*
+您在上图中看到的每个网络的 URL 是节点。通过点击您决定使用的网络旁边的“复制”图标，您可以复制相关的地址。尽管如此，当你设置 Moralis 快速节点时，你将使用这个与 [*布朗尼*](https://moralis.io/eth-brownie-explained-what-is-brownie/) *。*
 
 #### MetaMask Setup
 
@@ -111,7 +111,7 @@ ERC20 标准是确保以太坊区块链正常运行的众多脚本标准之一�
 
 完成初始设置后，是时候把你交给 Moralis 的专家了。他将指导您通过使用 ERC20 合同来创建 ERC20 令牌所需的步骤。以下是他将指导您完成的步骤:
 
-1.  建立一个道德快速节点。
+1.  建立一个 Moralis 快速节点。
 2.  添加一个 pragma 行，同时导入适当的 OpenZeppelin 包。
 3.  创建以太坊令牌合同。
 4.  测试合同。
@@ -140,8 +140,8 @@ let result = await Moralis.transfer(options)
 
 此时，回答“什么是 ERC20 合同？”应该没有问题一瞬间。您知道，ERC20 合约是一个遵循 ERC20 协议细节的智能合约。此外，您知道它们用于在以太坊上铸造代币，并确保这些代币被正确转移。因此，以太坊上的代币被称为 ERC20 代币对你来说是完全有意义的。此外，您还学习了如何创建自己的 ERC20 令牌。尽管如此，您已经发现 Moralis 可用于快速轻松地将 ERC20 传输功能集成到您的 dApps 中。
 
-如果你想利用免费资源拓展你在区块链的发展视野，我们建议你访问[道德的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德的博客](https://moralis.io/blog/)。这两个渠道都定期生产高价值的内容。我们的一些最新文章向您展示了如何[将 mint 功能集成到 JS 接口](https://moralis.io/integrate-mint-function-to-js-interface-nft-development/)，如何[索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)，如何[开发 NFT 稀有度排名 dApp](https://moralis.io/how-to-develop-an-nft-rarity-ranking-dapp/) ，如何[连接雪崩节点](https://moralis.io/how-to-connect-to-avalanche-nodes/)，如何[连接仲裁节点](https://moralis.io/full-guide-how-to-connect-to-arbitrum-nodes/)，如何[构建 NFT 交易接口](https://moralis.io/build-an-nft-trading-interface-full-guide/)，如何构建[以太坊 dApp in Angular](https://moralis.io/how-to-build-ethereum-dapps-in-angular/)，如何 [flash](https://moralis.io/how-do-flash-loans-work-full-walkthrough/)
+如果你想利用免费资源拓展你在区块链的发展视野，我们建议你访问[Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[Moralis 的博客](https://moralis.io/blog/)。这两个渠道都定期生产高价值的内容。我们的一些最新文章向您展示了如何[将 mint 功能集成到 JS 接口](https://moralis.io/integrate-mint-function-to-js-interface-nft-development/)，如何[索引区块链](https://moralis.io/how-to-index-the-blockchain-the-ultimate-guide/)，如何[开发 NFT 稀有度排名 dApp](https://moralis.io/how-to-develop-an-nft-rarity-ranking-dapp/) ，如何[连接雪崩节点](https://moralis.io/how-to-connect-to-avalanche-nodes/)，如何[连接仲裁节点](https://moralis.io/full-guide-how-to-connect-to-arbitrum-nodes/)，如何[构建 NFT 交易接口](https://moralis.io/build-an-nft-trading-interface-full-guide/)，如何构建[以太坊 dApp in Angular](https://moralis.io/how-to-build-ethereum-dapps-in-angular/)，如何 [flash](https://moralis.io/how-do-flash-loans-work-full-walkthrough/)
 
-然而，如果你有兴趣采取一种更专业的方法，一种能让你尽快成为全职加密员的方法，那么一定要报名参加[道德学院](https://academy.moralis.io/)。你不仅能接触到高质量的课程，还能为你提供详细的成功之路。最重要的是，它将让你接触到导师和一个先进的加密社区。
+然而，如果你有兴趣采取一种更专业的方法，一种能让你尽快成为全职加密员的方法，那么一定要报名参加[Moralis 学院](https://academy.moralis.io/)。你不仅能接触到高质量的课程，还能为你提供详细的成功之路。最重要的是，它将让你接触到导师和一个先进的加密社区。
 
 ![](img/feb5d1a4d334f72dc423c37e33e0ad49.png)**

@@ -4,7 +4,7 @@
 
 NFT，或不可替代的代币，启发了 Palm 网络的创建。此外，Palm 区块链网络有望成为 NFT 创造者的游戏规则改变者。然而，许多人对这个新推出的网络并不熟悉，他们想知道，“Palm 网络到底是什么？”。如果你也是这样问自己的人之一，那么你来对地方了！
 
-接下来，我们将介绍 Palm 区块链网络的来龙去脉，以帮助您确定是否应该考虑将其用于您的项目。我们还将解释从 Palm 获取链上 NFT 数据的最简单方法。毕竟，一个可靠的 NFT API 是构建 NFT dapp(分散式应用程序)的关键——在这个以 NFT 为中心的网络或任何其他区块链上用简单的方法。事实上，在构建与 NFT 相关的项目或任何其他 dapps 时， [Moralis](https://moralis.io/) 及其 Web3 APIs 套件使开发人员能够快速轻松地进行构建。因此，道德是你的首选。说了这么多，让我们深入到“什么是掌网？”问题。
+接下来，我们将介绍 Palm 区块链网络的来龙去脉，以帮助您确定是否应该考虑将其用于您的项目。我们还将解释从 Palm 获取链上 NFT 数据的最简单方法。毕竟，一个可靠的 NFT API 是构建 NFT dapp(分散式应用程序)的关键——在这个以 NFT 为中心的网络或任何其他区块链上用简单的方法。事实上，在构建与 NFT 相关的项目或任何其他 dapps 时， [Moralis](https://moralis.io/) 及其 Web3 APIs 套件使开发人员能够快速轻松地进行构建。因此，Moralis 是你的首选。说了这么多，让我们深入到“什么是掌网？”问题。
 
 ![](img/6a588b85ee63552e5bd945c3da06f04d.png)
 
@@ -71,7 +71,7 @@ Moralis 也是跨平台互操作的。因此，您可以使用遗留开发平台
 
 此外，Moralis 为您提供了一流的文档，其中包括可以帮助您开始创建杀手级 dapps 的教程。在这里，您可以学习如何正确使用 Moralis 的 Web3 APIs。在大多数情况下，这就像复制粘贴一行代码一样简单。在指定 Palm 网络时，可以使用“ *EvmChain。手掌*或 *11297108109* (链 ID)。
 
-如果您有兴趣在“什么是 Palm 网络？”一文中使用您的知识旅程，[创建您的免费道德账户](https://admin.moralis.io/register)并开始建设。使用 API 参考文档页面，可以随意使用每个 API 端点，例如[通过钱包端点获取 NFTs 的文档页面](https://docs.moralis.io/reference/getwalletnfts):
+如果您有兴趣在“什么是 Palm 网络？”一文中使用您的知识旅程，[创建您的免费 Moralis 账户](https://admin.moralis.io/register)并开始建设。使用 API 参考文档页面，可以随意使用每个 API 端点，例如[通过钱包端点获取 NFTs 的文档页面](https://docs.moralis.io/reference/getwalletnfts):
 
 ![](img/ee25c3e5e60854d1ff6382724a53790c.png)
 
@@ -105,4 +105,4 @@ Moralis 的 Web3 APIs 是快捷方式，可以帮助您将项目的上市时间�
 
 另一方面，你可能已经有了一个严肃的 NFT 项目——一个可以从 Moralis 的服务中大大受益的项目。如果是这样，请务必在我们的[可扩展 Web3 基础架构](https://moralis.io/scale/)页面底部填写您的请求，联系我们的 24/7 全球支持。
 
-请务必通过浏览 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)进一步扩展您的区块链发展知识。这两个出口涵盖了无数的话题。一些最新文章关注[区块链基础设施公司](https://moralis.io/blockchain-infrastructure-companies-how-to-choose-the-right-provider/)、[区块链基础设施即服务](https://moralis.io/what-is-blockchain-infrastructure-as-a-service/)、 [Web3 webhooks](https://moralis.io/moralis-webhooks-an-introduction-to-web3-webhooks/) 、 [Web3 AWS Lambda](https://moralis.io/web3-aws-lambda-use-aws-for-web3-with-an-aws-lambda-web3-provider/) 等等。当然，你也可以采取更专业的方法来进行你的加密教育。在这种情况下，报名参加道德学院可能是你正确的下一步。如果是这样，我们建议从[区块链和比特币基本面](https://academy.moralis.io/courses/blockchain-bitcoin-101)开始。
+请务必通过浏览 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)进一步扩展您的区块链发展知识。这两个出口涵盖了无数的话题。一些最新文章关注[区块链基础设施公司](https://moralis.io/blockchain-infrastructure-companies-how-to-choose-the-right-provider/)、[区块链基础设施即服务](https://moralis.io/what-is-blockchain-infrastructure-as-a-service/)、 [Web3 webhooks](https://moralis.io/moralis-webhooks-an-introduction-to-web3-webhooks/) 、 [Web3 AWS Lambda](https://moralis.io/web3-aws-lambda-use-aws-for-web3-with-an-aws-lambda-web3-provider/) 等等。当然，你也可以采取更专业的方法来进行你的加密教育。在这种情况下，报名参加 Moralis 学院可能是你正确的下一步。如果是这样，我们建议从[区块链和比特币基本面](https://academy.moralis.io/courses/blockchain-bitcoin-101)开始。

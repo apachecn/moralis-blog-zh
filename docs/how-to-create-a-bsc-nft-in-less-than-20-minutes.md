@@ -6,17 +6,17 @@
 
 在不到 20 分钟的时间内，在币安智能链上构建一个 NFT？这听起来好得难以置信吗？嗯，如果我们利用[](https://moralis.io/)，这是可能的。借助 Moralis 的平台，我们可以显著缩短所有区块链项目的开发时间，例如通过几个简单的步骤创建一个 NFT。Moralis 为用户提供了一个全面管理的后端基础设施，使开发过程更快更容易。因此，我们将把如何在 Moralis 平台上创建 BSC NFT 的过程作为基础。
 
-如果你更想看一个视频，解释如何在币安智能链上建立一个 NFT 的过程，我们建议查看以下来自 [道德 YouTube 频道](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw) 的视频。在这里，你会找到一个优秀而深入的教程，引导你完成整个过程:
+如果你更想看一个视频，解释如何在币安智能链上建立一个 NFT 的过程，我们建议查看以下来自 [Moralis YouTube 频道](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw) 的视频。在这里，你会找到一个优秀而深入的教程，引导你完成整个过程:
 
 [https://www.youtube.com/embed/02VnfTIomn8?feature=oembed](https://www.youtube.com/embed/02VnfTIomn8?feature=oembed)
 
-因此，如果你正在寻找开发 [dApps](https://moralis.io/decentralized-applications-explained-what-are-dapps/) 、代币或 NFTs，我们强烈建议你马上与道德家签约！加入该平台是完全免费的，你将获得所有有价值的工具，如 NFT API、Price API、[web 3 API](https://docs.moralis.io/moralis-web3-rest/deep-index-api)等等。
+因此，如果你正在寻找开发 [dApps](https://moralis.io/decentralized-applications-explained-what-are-dapps/) 、代币或 NFTs，我们强烈建议你马上与 Moralis 家签约！加入该平台是完全免费的，你将获得所有有价值的工具，如 NFT API、Price API、[web 3 API](https://docs.moralis.io/moralis-web3-rest/deep-index-api)等等。
 
 # 如何在不到 20 分钟的时间内打造币安智能连锁 NFT
 
-如果你是 [道德博客](https://moralis.io/blog/) 的老读者，你可能会偶然发现一篇解释 [如何创建自己的 NFT](https://moralis.io/how-to-create-your-own-nft-in-5-steps/) 的文章。因此，您可能已经熟悉了使用 Moralis 及其平台的强大功能。如何在币安智能链上建立一个 NFT 的过程就像你想在任何其他链上做一样简单。然而，为了进一步简化这个过程，我们将在本文中把它分成四个简单的步骤:
+如果你是 [Moralis 博客](https://moralis.io/blog/) 的老读者，你可能会偶然发现一篇解释 [如何创建自己的 NFT](https://moralis.io/how-to-create-your-own-nft-in-5-steps/) 的文章。因此，您可能已经熟悉了使用 Moralis 及其平台的强大功能。如何在币安智能链上建立一个 NFT 的过程就像你想在任何其他链上做一样简单。然而，为了进一步简化这个过程，我们将在本文中把它分成四个简单的步骤:
 
-1.  创建一个道德服务器。
+1.  创建一个 Moralis 服务器。
 2.  制作一个新的 Moralis 类和云函数。
 3.  打造 NFT 明廷智能合约 。
 4.  编制合同并将其部署到 BSC 区块链公司。
@@ -144,11 +144,11 @@
 使用合适的工具，创建 BSC NFT 的过程非常简单。借助 Moralis，我们可以在不到 20 分钟的时间内建立一个币安 NFT 智能链，展示与 Moralis 合作的便利性。此外，我们不仅可以构建 NFT，还可以构建 dApps 和其他令牌。如果你感兴趣，Moralis 博客的特色文章包括:“ [如何在 10 分钟内创建自己的 ERC-20 令牌](https://moralis.io/how-to-create-your-own-erc-20-token-in-10-minutes/) ”和“ [如何快速创建 BSC dapp](https://moralis.io/how-to-create-bsc-dapps-quickly/)”。
 此外，如何创建 BSC NFT 的过程可以分解为四个不同的步骤:
 
-1.  创建一个道德服务器。
+1.  创建一个 Moralis 服务器。
 2.  制作一个新的 Moralis 类和云函数。
 3.  打造 NFT 明廷智能合约 。
 4.  编制合同并将其部署到 BSC 区块链公司。
 
 使用 Moralis Speedy Nodes 等工具，如何在币安智能链上构建 NFT 的开发过程变得相当容易，我们可以快速轻松地部署合同。其中一个原因是该平台为所有用户提供了完全托管的后端基础设施。此外，Moralis 还提供了其他强大的工具，如对元掩码和[](https://moralis.io/what-is-ipfs-interplanetary-file-system/)的原生支持。
 
-因此，如果您想开发 NFT、可替换令牌或 dApps，我们建议您今天就向道德家 注册 [！注册 Moralis 是完全免费的，你可以在几分钟内成为一名 NFT 开发者。](https://admin.moralis.io/login)
+因此，如果您想开发 NFT、可替换令牌或 dApps，我们建议您今天就向 Moralis 家 注册 [！注册 Moralis 是完全免费的，你可以在几分钟内成为一名 NFT 开发者。](https://admin.moralis.io/login)

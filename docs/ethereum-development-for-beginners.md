@@ -2,17 +2,17 @@
 
 > 原文：<https://moralis.io/ethereum-development-for-beginners/>
 
-随着越来越多的公司开始采用区块链技术，对以太坊开发的兴趣正在高涨。以太坊开发者需求量大已经不是什么秘密了，供应根本跟不上需求。其中一个原因可能是程序员可能认为以太坊的开发太具挑战性了。然而，以太坊的开发并不像看起来那么困难，尤其是当你利用道德的时候。在这篇“初学者以太坊开发”文章中，我们将回顾开始以太坊开发之旅需要知道的一切。
+随着越来越多的公司开始采用区块链技术，对以太坊开发的兴趣正在高涨。以太坊开发者需求量大已经不是什么秘密了，供应根本跟不上需求。其中一个原因可能是程序员可能认为以太坊的开发太具挑战性了。然而，以太坊的开发并不像看起来那么困难，尤其是当你利用 Moralis 的时候。在这篇“初学者以太坊开发”文章中，我们将回顾开始以太坊开发之旅需要知道的一切。
 
 在下面的章节中，我们将涵盖所有你需要知道的，使你能够用 Moralis 设置以太坊开发的基本工具。这将有助于你马上开始进行简单的基于以太坊的项目。此外，虽然可能有很多著名的区块链可用，以太坊仍然是 dApp 开发的主导。因此，学习以太坊编程是必由之路。
 
-我们将介绍四种简单易用的主要工具，它们将对您的开发过程有所帮助。然而，能显著加速你的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发的最重要的工具当然是[道德规范](https://moralis.io/)。Moralis 是市场上领先的 Web3 开发平台。因此，它使开发人员能够专注于应用程序的前端，而 Moralis 负责后端。因此，Moralis 让初学者的以太坊开发成为一个不复杂且简单的过程。如果您已经掌握了不错的 JavaScript 技能，本文将为您提供额外的知识来推进您的以太坊开发过程。道德最大的好处是它是免费的。所以，请务必今天就在[与道德家](https://admin.moralis.io/register)签约！
+我们将介绍四种简单易用的主要工具，它们将对您的开发过程有所帮助。然而，能显著加速你的 [Web3](https://moralis.io/the-ultimate-guide-to-web3-what-is-web3/) 开发的最重要的工具当然是[Moralis 规范](https://moralis.io/)。Moralis 是市场上领先的 Web3 开发平台。因此，它使开发人员能够专注于应用程序的前端，而 Moralis 负责后端。因此，Moralis 让初学者的以太坊开发成为一个不复杂且简单的过程。如果您已经掌握了不错的 JavaScript 技能，本文将为您提供额外的知识来推进您的以太坊开发过程。Moralis 最大的好处是它是免费的。所以，请务必今天就在[与 Moralis 家](https://admin.moralis.io/register)签约！
 
 ![](img/cced177c0da03b00a6c966b948a102f4.png)
 
 # 以太坊开发的基本工具
 
-如上所述，我们将帮助您熟悉四种基本工具，当将这些工具与 Moralis 结合使用时，它们将使初学者和有经验的程序员尽可能简单地开发以太坊。但是，你可以把这篇文章当作以太坊开发的入门指南。它涵盖了四个工具，可以帮助你建立道德。其中包括 [MetaMask](https://moralis.io/metamask-explained-what-is-metamask/) ，Visual Studio 代码， [Node.js](https://moralis.io/node-js-explained-what-is-node-js/) ，以及 [Ganache](https://moralis.io/ganache-explained-what-is-ganache-blockchain/) 。但是，如果您不熟悉这些工具，也不用担心。在整篇文章中，我们将简要介绍和解释它们，并说明从哪里获得它们。
+如上所述，我们将帮助您熟悉四种基本工具，当将这些工具与 Moralis 结合使用时，它们将使初学者和有经验的程序员尽可能简单地开发以太坊。但是，你可以把这篇文章当作以太坊开发的入门指南。它涵盖了四个工具，可以帮助你建立 Moralis。其中包括 [MetaMask](https://moralis.io/metamask-explained-what-is-metamask/) ，Visual Studio 代码， [Node.js](https://moralis.io/node-js-explained-what-is-node-js/) ，以及 [Ganache](https://moralis.io/ganache-explained-what-is-ganache-blockchain/) 。但是，如果您不熟悉这些工具，也不用担心。在整篇文章中，我们将简要介绍和解释它们，并说明从哪里获得它们。
 
 与其深究以太坊开发的理论，不如从行动开始学习以太坊编程。因此，这里介绍的所有工具将使您能够立即开始处理简单的项目，并逐渐掌握初学者的以太坊开发。然后，你可以进入更高级的项目和任务，提升你的技能。获得一些想法和后续练习教程的好地方是 [Moralis 的 YouTube 频道](https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw)。事不宜迟，让我们看看第一个工具。
 
@@ -102,4 +102,4 @@ Moralis 使您能够使用您的 JavaScript 技能，并将您的最大注意力
 
 幸运的是，MetaMask 基本上是使用起来最简单的工具之一，JavaScript 是一种容易掌握的编程语言。然而，即使你对后者一无所知，在[学院](https://academy.ivanontech.com/)有一门很好的课程，可以带你从“初学者以太坊开发”阶段立即进入专业水平。
 
-现在，您已经掌握了学习以太坊编程所需的所有信息。因此，一定要采取行动——开始着手一些示例项目，了解更多关于道德的细节，拓展你的 JavaScript 技能，等等。今天就去做全职加密！
+现在，您已经掌握了学习以太坊编程所需的所有信息。因此，一定要采取行动——开始着手一些示例项目，了解更多关于 Moralis 的细节，拓展你的 JavaScript 技能，等等。今天就去做全职加密！

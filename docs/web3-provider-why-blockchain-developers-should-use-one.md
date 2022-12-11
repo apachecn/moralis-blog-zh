@@ -4,7 +4,7 @@
 
 了解什么是 Web3 提供者，提供者如何运作，以及如何利用提供者，对于任何想要过渡到 Web3 的遗留开发者来说都是必不可少的。虽然区块链理工大学的 T2 分校有许多提供商，但并不是所有的都提供相同的服务。记住这一点，重要的是要知道你想完成什么，以确定你需要什么样的 Web3 提供商。毕竟，在许多情况下，一个提供[基于区块链的认证](https://moralis.io/blockchain-based-authentication-how-to-integrate/)的可靠提供商是你实现你的杀手级 dapp 想法所需要的全部。此外，这完全取决于您想要集成什么类型的链上交互并提供给最终用户。
 
-接下来，本文首先回答了“什么是 Web3 提供商？”问题。这样，我们就能在今天的讨论中增加一些清晰度。接下来，我们将解释为什么 Web3 提供商如此重要，如此受欢迎。我们还将仔细看看一些 Web3 提供商的例子。最后但同样重要的是，我们将向您展示如何连接到最终的 Web3 API 提供者，使您能够轻松开发优秀的 dapps。这意味着你将学习如何导入 Moralis 的 JS SDK。此外，我们将演示如何毫不费力地实现 [Web3 认证](https://moralis.io/authentication/)。当然，为了充分利用这篇文章，我们推荐你[创建你的免费道德账户](https://admin.moralis.io/register)并跟随我们的脚步。
+接下来，本文首先回答了“什么是 Web3 提供商？”问题。这样，我们就能在今天的讨论中增加一些清晰度。接下来，我们将解释为什么 Web3 提供商如此重要，如此受欢迎。我们还将仔细看看一些 Web3 提供商的例子。最后但同样重要的是，我们将向您展示如何连接到最终的 Web3 API 提供者，使您能够轻松开发优秀的 dapps。这意味着你将学习如何导入 Moralis 的 JS SDK。此外，我们将演示如何毫不费力地实现 [Web3 认证](https://moralis.io/authentication/)。当然，为了充分利用这篇文章，我们推荐你[创建你的免费 Moralis 账户](https://admin.moralis.io/register)并跟随我们的脚步。
 
 ![A digital globe with the word "Web 3.0" on it.](img/12cb382fc2187e74ae5b09a3f6eed3c3.png)
 
@@ -64,7 +64,7 @@ API 是用于构建和集成应用程序的一组定义和协议。考虑到这�
 
 **领先的 Web3 API 提供商:**
 
-*   道德
+*   Moralis
 *   共价的
 *   快速笔记
 *   图表
@@ -119,7 +119,7 @@ Moralis.start({
 
 ```
 
-查看上面的代码行，您可以看到您需要您的 Moralis Web3 API 密钥。因此，请确保登录您的道德账户。通过这样做，您将进入您的管理区域，在这里您可以复制您的 API 密钥:
+查看上面的代码行，您可以看到您需要您的 Moralis Web3 API 密钥。因此，请确保登录您的 Moralis 账户。通过这样做，您将进入您的管理区域，在这里您可以复制您的 API 密钥:
 
 ![Showing a user's admin page after logging in to Moralis. We also see the Web3 API page where the user can fetch their API key.](img/68c5fa22bddb33be7eb0d7446675c01b.png)
 
@@ -147,11 +147,11 @@ Moralis.start({
 *   *@moralisweb3/core*
 *   *@moralisweb3/auth*
 *   *@moralisweb3/evm-api*
-*   *道德网页 3/左 api*
+*   *Moralis 网页 3/左 api*
 *   *@moralisweb3/evm-utils*
 *   *@moralisweb3/sol-utils*
 
-除了上面列出的任何软件包之外，您还需要安装" *@moralisweb3/core* "软件包。让我们看一个例子来澄清这个问题。因此，如果您想关注道德 EVM API，可以使用以下命令:
+除了上面列出的任何软件包之外，您还需要安装" *@moralisweb3/core* "软件包。让我们看一个例子来澄清这个问题。因此，如果您想关注 Moralis EVM API，可以使用以下命令:
 
 *   如果使用*纱*，输入:
 
@@ -230,4 +230,4 @@ MetaMask 和 WalletConnect 是有经验的加密用户的首选。然而，如�
 
 如果您准备开始构建，我们鼓励您从本文共享的教程开始。然而，你可以在 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)上随意探索 Moralis 文档中涉及的其他示例项目。这些资源可以帮助你利用你遗留的编程知识免费成为一名 Web3 开发者。此外，它们也是持续、免费的区块链发展教育的极好来源。例如，一些最新的主题解释了如何[创建一个 NFT 项目](https://moralis.io/how-to-create-an-nft-project-get-started-and-launch-successfully/)，什么是 [Sui 区块链](https://moralis.io/what-is-sui-blockchain-the-ultimate-guide/)，如何着手[构建以太坊 dapps](https://moralis.io/building-ethereum-dapps-create-test-and-deploy/) ，如何使用 MetaMask 创建一个 [Web3 Firebase 登录，等等。](https://moralis.io/create-a-web3-firebase-login-with-metamask/)
 
-另一方面，你可能有兴趣尽快成为全职加密员。在这种情况下，你可以考虑通过完成道德学院的一些课程来获得区块链认证。如果你是加密领域的新手，我们建议你从“[区块链和比特币 101](https://academy.moralis.io/courses/blockchain-bitcoin-101) 课程开始！
+另一方面，你可能有兴趣尽快成为全职加密员。在这种情况下，你可以考虑通过完成 Moralis 学院的一些课程来获得区块链认证。如果你是加密领域的新手，我们建议你从“[区块链和比特币 101](https://academy.moralis.io/courses/blockchain-bitcoin-101) 课程开始！
