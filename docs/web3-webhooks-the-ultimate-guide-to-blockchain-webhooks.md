@@ -8,7 +8,7 @@
 
 如果您完成了本指南中的所有先决条件，您可以使用 Moralis 的 JS SDK 以编程方式设置区块链 webhooks，下面是一个代码示例:
 
-```
+```js
 import Moralis from 'moralis';
 import { EvmChain } from "@moralisweb3/evm-utils";
 
@@ -112,7 +112,7 @@ Streams API 允许您通过轻松设置 Web3 webhooks 将区块链数据流式�
 
 手头有一个 JS 项目，您可以通过在文件顶部输入以下内容来初始化 Moralis SDK:
 
-```
+```js
 import Moralis from 'moralis';
 import { EvmChain } from "@moralisweb3/evm-utils";
 Moralis.start({
@@ -128,7 +128,7 @@ Moralis.start({
 
 初始化 Moralis 后，创建一个新的" *stream* "对象，您可以在其中指定链、提供描述、添加标签和 webhook URL。下面是一个可能的例子:
 
-```
+```js
 const stream = {
   chains: [EvmChain.ETHEREUM, EvmChain.POLYGON], // list of blockchains to monitor
   description: "monitor Bobs wallet", // your description
@@ -139,7 +139,7 @@ const stream = {
 
 最后，在调用 Moralis 的“ *Moralis”时，将“ *stream* ”对象作为参数传递。Streams.add(stream)* 函数，添加一个新的“ *{ id }* ”对象，以及你想要监控的地址:
 
-```
+```js
 const newStream = await Moralis.Streams.add(stream);
 const { id } = newStream.toJSON(); // { id: 'YOUR_STREAM_ID', ...newStream }
 // Now we attach Bobs address to the stream
@@ -149,7 +149,7 @@ await Moralis.Streams.addAddress({ address, id });
 
 总而言之，整个文件应该是这样的:
 
-```
+```js
 import Moralis from 'moralis';
 import { EvmChain } from "@moralisweb3/evm-utils";
 
@@ -175,7 +175,7 @@ await Moralis.Streams.addAddress({ address, id });
 
 这就是代码；剩下的就是运行程序了。打开一个新的终端，然后“cd”到包含该代码的文件的位置，并以该文件的名称运行以下命令:
 
-```
+```js
 node “FILE_NAME”
 ```
 
@@ -213,7 +213,7 @@ node “FILE_NAME”
 
 为此，您需要返回状态代码 200，以便启动流。此外，这是测试主体的外观:
 
-```
+```js
 {
   "abi": {},
   "block": {

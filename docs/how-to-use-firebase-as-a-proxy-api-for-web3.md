@@ -86,7 +86,7 @@ https://www.youtube.com/watch?v=iSg7uq2ZWgM
 
 在那里，使用存储库 URL 输入下面的命令，然后按 enter 键。此外，请确保您位于先前创建的文件夹的位置:
 
-```
+```js
 git clone “REPOSITORY_URL”
 ```
 
@@ -98,25 +98,25 @@ git clone “REPOSITORY_URL”
 
 ***对于 Mac:***
 
-```
+```js
 sudo npm i -g firebase-tools
 ```
 
 ***对于 Windows:***
 
-```
+```js
 npm i -g firebase-tools
 ```
 
 运行该命令后，它会提示您输入密码。只要你输入密码，它就会初始化 Firebase。然后，一旦所有安装完成，您就可以使用以下命令登录 Firebase:
 
-```
+```js
 firebase login
 ```
 
 如果您没有登录，此命令将自动打开您的 web 浏览器，允许您登录。登录后，就该初始化您在介绍先决条件时设置的项目了。因此，在终端中输入以下命令:
 
-```
+```js
 firebase init
 ```
 
@@ -142,19 +142,19 @@ firebase init
 
 您可以通过在终端中输入以下命令来导航到该文件:
 
-```
+```js
 cd functions
 ```
 
 在那里，通过输入以下命令安装 Moralis:
 
-```
+```js
 npm i moralis
 ```
 
 接下来，打开“functions/index.js”文件，用以下内容替换所有代码:
 
-```
+```js
 const functions = require("firebase-functions");
 const Moralis = require("moralis").default;
 const { EvmChain } = require("@moralisweb3/evm-utils");
@@ -191,7 +191,7 @@ exports.getPrice = functions.https.onRequest(async (req, res) => {
 
 既然已经敲定了云功能，就该部署 Firebase 功能了。您可以通过在终端中输入以下命令来实现这一点:
 
-```
+```js
 firebase deploy --only functions
 ```
 
@@ -201,7 +201,7 @@ firebase deploy --only functions
 
 部署功能到此为止！但是，您可能还想确保一切都按预期运行。因此，使用以下命令导航回您的 IDE 并跳转到“前端”文件夹:
 
-```
+```js
 cd..
 
 cd frontend
@@ -209,13 +209,13 @@ cd frontend
 
 接下来，通过在终端中输入以下内容来安装所有必要的依赖项:
 
-```
+```js
 npm i 
 ```
 
 最后，使用以下输入启动应用程序:
 
-```
+```js
 npm run start
 ```
 

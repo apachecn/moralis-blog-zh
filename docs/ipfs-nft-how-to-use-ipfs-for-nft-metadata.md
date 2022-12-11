@@ -4,7 +4,7 @@
 
 NFT 元数据的存储解决方案多种多样，从流行的集中式存储服务到出色的分散式存储解决方案。在本文中，我们将关注一个脱颖而出的分散化替代方案——IPFS。此外，我们将看看开发人员如何使用以下端点来创建“IPFS NFT”的结果:
 
-```
+```js
 const response = await Moralis.EvmApi.ipfs.uploadFolder({ abi });
 ```
 
@@ -97,15 +97,15 @@ IPFS·NFT 不是 IPFS“拥有”或“铸造”的不可替代的象征。相�
 
 我们将很快向您展示将上面复制的 API 密钥粘贴到哪里。但是让我们首先确保您为您的项目安装了 Moralis SDK，该项目主要关注 NFT 和 IPFS。幸运的是，您可以用一个命令来完成这个任务(使用与您的包管理器相匹配的命令):
 
-```
+```js
 npm install moralis
 ```
 
-```
+```js
 yarn add moralis
 ```
 
-```
+```js
 pnpm add moralis
 ```
 
@@ -113,7 +113,7 @@ pnpm add moralis
 
 有了 Moralis SDK，您就可以创建一个“IPFS NFT 元数据”脚本，该脚本适当地合并了“ *uploadFolder* ”端点。下面几行代码可以完成这个任务:
 
-```
+```js
 const Moralis = require('moralis').default;
 const { EvmChain } = require('@moralisweb3/evm-utils');
 
@@ -169,7 +169,7 @@ runApp();
 
 你已经到了“NFT·IPFS”教程的最后阶段。假设您正在使用上面的 JavaScript 示例脚本，您只需要在终端中输入以下命令:
 
-```
+```js
 node index.js
 ```
 

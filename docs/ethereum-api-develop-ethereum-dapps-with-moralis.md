@@ -48,7 +48,7 @@ Moralis 对以太坊的支持会加速你所有的以太坊开发。无论你建
 
 如前所述，大多数 dApps 需要整合许多功能。为用户提供登录或验证自己的选项就是这样的功能之一。当直接在 RPC 节点上构建时，创建这些基本特性需要花费很多精力，而使用 Moralis 通过两个简短的代码片段就可以做到这一点:
 
-```
+```js
 Moralis.Web3.authenticate().then(function (user) {
     console.log(user.get('ethAddress'))
 })
@@ -100,7 +100,7 @@ Moralis.Web3.authenticate().then(function (user) {
 
 *   发送以太网:
 
-```
+```js
 // sending 0.5 ETH
 const options = {type: "native", amount: Moralis.Units.ETH("0.5"), receiver: "0x.."}
 let result = await Moralis.transfer(options)
@@ -108,7 +108,7 @@ let result = await Moralis.transfer(options)
 
 *   转移 ERC-20:
 
-```
+```js
 // sending 0.5 tokens with 18 decimals
 const options = {type: "erc20", 
                  amount: Moralis.Units.Token("0.5", "18"), 
@@ -119,7 +119,7 @@ let result = await Moralis.transfer(options)
 
 *   发送 NFT:
 
-```
+```js
 // sending a token with token id = 1
 const options = {type: "erc721",  
                  receiver: "0x..",

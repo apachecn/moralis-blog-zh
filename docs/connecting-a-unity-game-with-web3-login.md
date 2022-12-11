@@ -122,7 +122,7 @@
 
 第一个*值得一提的*行包含了 Moralis 的名称空间:
 
-```
+```js
 using MoralisWeb3ApiSdk;
 using Moralis.WebGL;
 using Moralis.WebGL.Platform.Objects;
@@ -130,7 +130,7 @@ using Moralis.WebGL.Platform.Objects;
 
 接下来，我们来关注一下“MoralisController”。这个钩子负责 Moralis setup 选项卡(我们在这里输入服务器的详细信息)。此外，我们还需要一个身份验证按钮(“authButton”)和一个钱包地址标签(“wallet address label”):
 
-```
+```js
     public MoralisController moralisController;
     public GameObject authButton;
     public TextMeshProUGUI walletAddressLabel;
@@ -138,7 +138,7 @@ using Moralis.WebGL.Platform.Objects;
 
 我们希望在 start 上启动 Moralis 控制器。此外，我们希望检查用户是否已经登录:
 
-```
+```js
     private async void Start()
     {
         if (moralisController != null)
@@ -159,7 +159,7 @@ using Moralis.WebGL.Platform.Objects;
 
 脚本中使用的另一个重要方法是“LoginWithWeb3”。后者与 GL 兼容，完成所有繁重的工作。它还包括“GetWalletAddress”方法，该方法获取用户的地址，并在用户成功登录后显示这些地址:
 
-```
+```js
   private string GetWalletAddress(MoralisUser user)
     {
         return user.ethAddress;

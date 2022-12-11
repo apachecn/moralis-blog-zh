@@ -66,7 +66,7 @@ HTML 文件相对简单，包含优惠券生成器 UI 的字段和按钮的代�
 
 看一下 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 文件更有趣，因为我们在这里找到了生成优惠券的逻辑。首先，我们有“login()”函数，它简单地初始化了 [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 。这一点很重要，因为该工具包提供了对一些基本功能的访问，这些功能可以“开箱即用”，其中之一是消息散列功能。
 
-```
+```js
 async function login(){
     Moralis.Web3.enableWeb3().then(async function (){
         const chainIdHex = await Moralis.switchNetwork("0x2A");
@@ -76,7 +76,7 @@ async function login(){
 
 当我们调用 JavaScript 文件的第二个函数:“grantCoupon()”时，消息散列函数执行。此外，该函数使用 UI 中的输入元素创建一个对象。然后这个对象被字符串化和散列化。在对象的散列之后，我们利用散列来创建签名。签名和散列然后被组合成完整的优惠券，该优惠券被返回给 UI:
 
-```
+```js
 async function grantCoupon(){
     const objectType = document.getElementById("objectType").value;
     const objectRank = document.getElementById("objectRank").value;
@@ -106,7 +106,7 @@ async function grantCoupon(){
 
 第一个函数是“verifyMessage()”，它将签署消息的帐户与 admin 地址进行比较。通过这样做，我们可以确保管理员地址创建所有可兑换的优惠券，因此没有人可以在我们的游戏中创建新的项目。在这个实例中，我们已经在契约中对管理地址进行了硬编码。尽管如此，函数看起来是这样的:
 
-```
+```js
 function verifyMessage(bytes32 _hashedMessage, uint8 _v, bytes32 _r, bytes32 _s) internal pure returns (bool) {
         bytes memory prefix = "\x19Ethereum Signed Message:\n32";
         bytes32 prefixedHashMessage = keccak256(abi.encodePacked(prefix, _hashedMessage));
@@ -117,7 +117,7 @@ function verifyMessage(bytes32 _hashedMessage, uint8 _v, bytes32 _r, bytes32 _s)
 
 第二个函数是“claimCoupon()”，该函数首先检查优惠券是否已经被认领。此外，该函数还通过“verifyMessage()”函数确保签名者与管理地址的签名者相同。如果这两个先决条件都满足，将执行链上操作。然而，正如您可能在契约代码中注意到的，您需要自己添加逻辑，这取决于您希望契约做什么。
 
-```
+```js
 function claimCoupon(bytes32 _hashedMessage, uint8 _v, bytes32 _r, bytes32 _s) external {
         require (!claimed[_hashedMessage],"coupon already claimed");
         require (verifyMessage(_hashedMessage, _v, _r, _s),"Invalid signature or incorrect hash");
@@ -139,7 +139,7 @@ function claimCoupon(bytes32 _hashedMessage, uint8 _v, bytes32 _r, bytes32 _s) e
 
 接下来，我们有“logic-verify.js”，在我们深入研究这些函数之前，您会注意到您需要实现我们在上一步中从 Remix 复制的契约地址和 ABI。在代码中会是这样的:
 
-```
+```js
 const protocolContract = ""; // your contract address here
 const protocolABI = [{}]
 ```
@@ -148,7 +148,7 @@ const protocolABI = [{}]
 
 在“login()”之后，我们有“splitCoupon()”函数。这个功能实质上是将优惠券分成不同的部分。然后在执行我们在上一步中创建的智能契约时使用这些部分。下面是完整的函数:
 
-```
+```js
 function splitCoupon(coupon){
     const hash = coupon.slice(0,66);
     const signature = coupon.slice(66, coupon.length);
@@ -163,7 +163,7 @@ function splitCoupon(coupon){
 
 然后我们有了最重要的函数，就是“verify()”。这个函数获取优惠券，调用“splitCoupon()”函数，获取散列和签名，最后用适当的参数调用契约。因此，该函数如下所示:
 
-```
+```js
 async function verify(){
     const coupon = document.getElementById("coupon").value;
     const couponParts = splitCoupon(coupon);

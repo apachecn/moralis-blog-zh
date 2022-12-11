@@ -78,7 +78,7 @@
 
 正如“config.js”文件的名称所示，我们将使用该文件来确定我们的收集引擎如何生成最终的图像文件。这包括图像大小、元数据描述、基本图像 URL、版本 ID、NFT 数量和其他详细信息。代码如下:
 
-```
+```js
 // image width in pixels
 const width = 1000;
 // image height in pixels
@@ -149,7 +149,7 @@ module.exports = {
 
 为了创建我们的 NFT 引擎，我们将使用“index.js”文件。这是我们的每个图像层文件和相应的元数据(JSON 文件)被编译的地方。这个引擎如何工作的细节并不重要，因为你可以简单地使用我们在 GitHub 提供的代码。但是，将文件正确链接到您的 Moralis 服务器详细信息是非常重要的。这些是我们用于该目的的代码行:
 
-```
+```js
 // Moralis creds
 const appId = "YOUR_MORALIS_APP_ID";
 const serverUrl = "YOUR_MORALIS_SERVER_URL";
@@ -168,21 +168,21 @@ Moralis.start({ serverUrl, appId, masterKey });
 
 我们想要关注的“index.js”代码的另一部分是确保我们的文件保存到 [IPFS](https://moralis.io/full-guide-how-to-upload-to-ipfs/) 的代码行。通过使用这个存储选项，我们确保我们的项目具有真正的分散化。这也是道德家让事情变得简单和方便的地方。没有道德，这将是一个漫长而艰苦的过程；然而，使用这个强大的工具，我们用两行代码覆盖了它:
 
-```
+```js
 const file = new Moralis.File(filename, { base64: base64 });
 const fileIpfs = await file.saveIPFS({ useMasterKey: true });
 ```
 
 此外，我们定义了两个常量，这样我们就可以在代码的其他部分轻松使用我们保存到 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 的文件:
 
-```
+```js
 const filePath = file.ipfs();
 const fileHash = file.hash();
 ```
 
 例如，我们将在 JSON 文件中使用“file . ipfs()”ID。此外，我们还使用 Moralis 与 IPFS 的集成来上传包含以下代码片段的 JSON 文件:
 
-```
+```js
 let _metaFile = await metaFile.saveIPFS({ useMasterKey: true });
 ```
 
@@ -202,7 +202,7 @@ let _metaFile = await metaFile.saveIPFS({ useMasterKey: true });
 
 我们通过将这些代码行添加到“index.js”文件中来完成上述任务:
 
-```
+```js
 const FileDatabase = new Moralis.Object("Files");
 FileDatabase.set("name", _params.editionCount.toString());
 FileDatabase.set("path", _params.filePath);

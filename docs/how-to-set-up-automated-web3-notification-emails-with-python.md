@@ -69,7 +69,7 @@ Flask 是一个 web 框架，一个让你轻松开发 web 应用的 Python 模�
 
 为了清楚起见，我们鼓励你以我们为榜样，使用 Visual Studio 代码(VSC)。接下来，创建“自动邮件”文件夹，并在 VSC 中打开它。然后，您可以通过输入以下命令来启动 Python 虚拟环境:
 
-```
+```js
 python3 -m venv venv
 ```
 
@@ -79,7 +79,7 @@ python3 -m venv venv
 
 接下来，您需要运行以下命令行:
 
-```
+```js
 Source venv/bin/activate
 ```
 
@@ -89,13 +89,13 @@ Source venv/bin/activate
 
 在虚拟环境运行的情况下，使用以下命令继续安装最新版本的“ *pip* ”:
 
-```
+```js
 pip install --upgrade pip
 ```
 
 接下来，是时候安装所有的依赖项了。因此，输入以下命令:
 
-```
+```js
 pip install flask flask_cors 
 ```
 
@@ -105,7 +105,7 @@ pip install flask flask_cors
 
 然后，使用以下代码行导入一个示例 Flask 应用程序:
 
-```
+```js
 from flask import Flask
 from flask import request
 from flask import jsonify
@@ -159,7 +159,7 @@ if __name__ == "__main__":
 
 为了完成今天教程的最后阶段，您需要重新关注“backend.py”脚本。首先，你需要在顶部导入“ *EmailMessage* ”、“ *ssl* ”和“ *smtlib* ”。接下来，您必须初始化一些关键变量。最终，“backend.py”的前十二行应该是这样的:
 
-```
+```js
 from flask import Flask
 from flask import request
 from flask import jsonify
@@ -182,7 +182,7 @@ subject="New Donation"
 
 最后，是时候在“ *@app.route* ”中添加必要的代码行了:
 
-```
+```js
 @app.route('/streams', methods=["POST"])
 def streams():
 

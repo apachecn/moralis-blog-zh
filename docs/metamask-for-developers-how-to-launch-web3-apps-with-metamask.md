@@ -76,25 +76,25 @@ https://www.youtube.com/watch?v=9kdVAeZ7knk
 
 一旦进入 Visual Studio 代码，您就可以打开一个新的终端和“Git Bash ”,并输入以下命令:
 
-```
+```js
 git clone https://github.com/ethereum-boilerplate/ethereum-boilerplate.git
 ```
 
 上面命令中的链接是从 GitHub 页面复制的样板链接。这将克隆 GitHub 存储库，以便我们可以安装样板文件。因此，有了克隆的样板文件，我们可以通过输入以下内容进入正确的目录:
 
-```
+```js
 cd ethereum-boilerplate/
 ```
 
 一旦我们进入正确的目录，我们可以通过下一个命令简单地安装它:
 
-```
+```js
 yarn install
 ```
 
 此命令将安装所有依赖项。在安装过程中，我们可以转到 Visual Studio 代码左侧的菜单，只需删除“. env.example”文件即可更改其名称。例子”。而且，在”。env "文件，您会看到两个基本行:
 
-```
+```js
 REACT_APP_MORALIS_APPLICATION_ID = 
 REACT_APP_MORALIS_SERVER_URL =
 ```
@@ -105,7 +105,7 @@ REACT_APP_MORALIS_SERVER_URL =
 
 现在，Web3 应用程序已经完成，我们可以通过在终端中输入以下命令来启动 dApp:
 
-```
+```js
 yarn run start
 ```
 

@@ -14,14 +14,14 @@ Moralis 配备了令人印象深刻的 Web3 SDK 和 T2 的 Moralis 元宇宙 SDK
 
 如前所述，我们将在此指导您使用我们有用的智能合同的代码。所以，让我们从顶部开始，这里有一行杂注:
 
-```
+```js
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 ```
 
 以下是我们需要导入的 OpenZeppelin 合同。这样，我们就可以使用这些经过验证的合同的细节来简化我们的工作。因此，我们在不牺牲安全性的情况下节省了时间。
 
-```
+```js
 import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
@@ -31,13 +31,13 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 我们合同的实际代码从以下内容开始:
 
-```
+```js
 contract AssetFactory is ERC1155, AccessControl, Ownable {
 ```
 
 这一行包含我们的智能合约的名称，并定义我们将关注 [ERC-1155 令牌标准](https://moralis.io/erc1155-exploring-the-erc-1155-token-standard/)。接下来，我们定义将在智能合约中使用的所有变量:
 
-```
+```js
   string public name; // Token name
   string public symbol; // Token symbol
   string public contractURI; // Token uri
@@ -55,7 +55,7 @@ contract AssetFactory is ERC1155, AccessControl, Ownable {
 
 我们的智能契约包含两个结构，使我们能够跟踪契约中的数据:
 
-```
+```js
   // Whitelist data storage
   struct Whitelist {
     address buyer;
@@ -75,7 +75,7 @@ contract AssetFactory is ERC1155, AccessControl, Ownable {
 
 此外，我们然后将上述两个结构中的每一个映射到一个令牌 ID 的索引:
 
-```
+```js
   // Mapping each user to corresponding whitelist data
   mapping(uint256 => Whitelist) public whitelist;
   // Token owners
@@ -92,7 +92,7 @@ contract AssetFactory is ERC1155, AccessControl, Ownable {
 
 我们构建了“AssetsFactory.sol”智能契约的构造器，它与我们正在部署的资产类型无关。这允许我们在设置所有关键描述性变量的同时创建新资产:
 
-```
+```js
   constructor(
     address _root,
     string memory _name,
@@ -116,7 +116,7 @@ contract AssetFactory is ERC1155, AccessControl, Ownable {
 
 查看上面的代码行，可以看到构造函数覆盖了 admin wallet 的地址名称(" _root ")和资产的所有细节(名称、符号等)。)如前所述。然后，代码设置上面解释的两个角色——白名单角色和默认管理员角色。此外，以下也是我们的单函数修饰符的代码行:
 
-```
+```js
   modifier onlyAdmin() {
     require(isRole(DEFAULT_ADMIN_ROLE, msg.sender), "Restricted to admins.");
     _;
@@ -129,7 +129,7 @@ contract AssetFactory is ERC1155, AccessControl, Ownable {
 
 因为我们希望这个智能契约拥有围绕角色的灵活性，所以这是“addAdmin”、“addToRole”、“renounceAdmin”和“isRole”函数所允许的:
 
-```
+```js
   function addAdmin(bytes32 roleId, bytes32 adminRoleId) external onlyAdmin {
     _setRoleAdmin(roleId, adminRoleId);
     //emit AdminRoleSet(roleId, adminRoleId);
@@ -154,7 +154,7 @@ contract AssetFactory is ERC1155, AccessControl, Ownable {
 
 接下来，我们有只读函数，当你想把游戏资产做成 NFT 时，这些函数也需要完成它们的工作:
 
-```
+```js
   function getContractURI() public view returns (string memory) {
     return contractURI; // Contract-level metadata
   }
@@ -186,7 +186,7 @@ contract AssetFactory is ERC1155, AccessControl, Ownable {
 
 这是我们的“batchMint”函数:
 
-```
+```js
   function batchMint(
     address _to,
     uint256[] memory _tokenIds,
@@ -213,7 +213,7 @@ contract AssetFactory is ERC1155, AccessControl, Ownable {
 
 尽管如此，我们也希望能够动态地设置某些资产变量。因此，我们包括了一种设置 URIs、白名单过期时间、关键功能暂停和资产成本的方法:
 
-```
+```js
   function setURI(string memory _uri) public onlyAdmin {
     _setURI(_uri);
   }
@@ -235,7 +235,7 @@ contract AssetFactory is ERC1155, AccessControl, Ownable {
 
 此外，如果您还记得，我们提到过白名单角色是一个编程角色。本质上，它将是一个机器人，使用“addToWhitelist”函数:
 
-```
+```js
   function addToWhitelist(uint256 _tokenId, address _address)
     external
     onlyRole(WHITELISTER_ROLE)
@@ -259,7 +259,7 @@ contract AssetFactory is ERC1155, AccessControl, Ownable {
 
 这是购买功能:
 
-```
+```js
  function buy(
     uint256 _tokenId,
     address _buyer,
@@ -311,7 +311,7 @@ contract AssetFactory is ERC1155, AccessControl, Ownable {
 
 通过以上所有功能，玩家可以将游戏资产铸造成 NFT，并获得这些资产的所有权。然而，我们也想追踪游戏 Unity 前端之外的所有权。这意味着我们需要让所有权能够被二级市场追踪，比如 OpenSea。我们通过“_beforeTokenTransfer”函数实现了这一点:
 
-```
+```js
   function _beforeTokenTransfer(
     address operator,
     address from,

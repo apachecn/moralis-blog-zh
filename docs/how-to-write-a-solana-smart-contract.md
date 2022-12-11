@@ -50,7 +50,7 @@ Solana 于 2017 年由 Solana Labs 首次推出，Solana Labs 是该网络背后
 
 首先，打开一个新的 Unix 终端并运行以下命令:
 
-```
+```js
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
@@ -60,7 +60,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 一旦 Rust 成功安装，下一步就是安装 Solana CLI。要安装 CLI，您只需要几个命令，您可以通过在终端中输入以下命令并按 enter 键来开始:
 
-```
+```js
 sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
 ```
 
@@ -70,26 +70,26 @@ sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
 
 从那里，通过以下命令创建一个新的本地 Solana 密钥对:
 
-```
+```js
 mkdir ~/my-solana-wallet
 solana-keygen new --outfile ~/my-solana-wallet/my-keypair.json
 ```
 
 一旦您的机器上有一个 Solana 钱包，通过以下输入获取钱包地址:
 
-```
+```js
 solana address
 ```
 
 通过输入以下命令，设置 devnet 集群以用于本地事务:
 
-```
+```js
 solana config set --url https://api.devnet.solana.com
 ```
 
 最后，通过在终端中运行以下命令，将测试 SOL 令牌空投到钱包中:
 
-```
+```js
 solana airdrop 1
 ```
 
@@ -103,7 +103,7 @@ solana airdrop 1
 
 接下来，通过在终端中输入以下命令，创建一个新的 Rust 项目:
 
-```
+```js
 cargo init hello_world --lib
 ```
 
@@ -113,13 +113,13 @@ cargo init hello_world --lib
 
 在那里，使用以下命令导航到正确的位置:
 
-```
+```js
 cd hello_world
 ```
 
 然后，您可以通过添加以下代码片段来更新“Cargo.toml”文件:
 
-```
+```js
 [lib]
 name = "hello_world"
 crate-type = ["cdylib", "lib"]
@@ -131,13 +131,13 @@ crate-type = ["cdylib", "lib"]
 
 接下来，删除“src/lib.rs”文件中的所有代码。在那里，您可以通过运行以下命令将 Solana 程序包添加到项目中:
 
-```
+```js
 cargo add solana_program
 ```
 
 剩下的工作就是将合同代码添加到“src/lib.rs”文件中。首先，您需要导入 Solana 程序:
 
-```
+```js
 use solana_program::{
     account_info::AccountInfo,
     entrypoint,
@@ -149,13 +149,13 @@ use solana_program::{
 
 接下来，用“ *process_instruction* 函数定义“*入口点*”:
 
-```
+```js
 entrypoint!(process_instruction);
 ```
 
 最后，创建“ *process_instruction* ”函数本身，并添加用于记录“ *Hello World！！*"消息:
 
-```
+```js
 pub fn process_instruction(
     program_id: &Pubkey,
     accounts: &[AccountInfo],
@@ -168,7 +168,7 @@ pub fn process_instruction(
 
 这将是“src/lib.rs”文件最终版本的代码:
 
-```
+```js
 use solana_program::{
     account_info::AccountInfo,
     entrypoint,
@@ -190,13 +190,13 @@ pub fn process_instruction(
 
 在那里，通过在终端中输入以下命令来构建项目:
 
-```
+```js
 cargo build-bpf
 ```
 
 项目构建完成后，通过“ *solana program deploy* ”命令部署智能合约，并指定。/target/deploy/hello_world.so "路径:
 
-```
+```js
 solana program deploy ./target/deploy/hello_world.so
 ```
 
@@ -216,7 +216,7 @@ solana program deploy ./target/deploy/hello_world.so
 
 然后，您可以再次打开您最喜欢的 IDE，创建一个文件夹，并启动一个新的终端。从那里，通过使用 repo URL 输入以下命令，将项目克隆到您的本地目录:
 
-```
+```js
 git clone “REPOSITORY_URL”
 ```
 

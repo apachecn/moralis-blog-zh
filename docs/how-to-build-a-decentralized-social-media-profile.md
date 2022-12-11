@@ -74,7 +74,7 @@
 
 接下来，我们返回到“lensCalls.js”文件。在那里，我们必须首先使用这行代码导出我们的查询:
 
-```
+```js
 Export const Profile= ‘
 
 ‘
@@ -88,20 +88,20 @@ Export const Profile= ‘
 
 打开“index.js”文件，它覆盖了我们的 dapp 的前端，就像在初始阶段演示的那样。要获取一个实际的分散式社交媒体档案，我们需要添加适当的代码。因此，向下滚动到“index.js”文件的底部，并使用以下代码行:
 
-```
+```js
 export async function getServerSideProps() {
   const response = await client.query(Profile).toPromise();
 ```
 
 但是，要实现上述查询功能，我们还需要导入“ *urqlClient* ”和“ *Profile* ”。因此，我们将这一行代码添加到“index.js”文件的顶部:
 
-```
+```js
 import { client, Profile } from "./api/lensCalls";
 ```
 
 然后，我们还可以在“ *getServerSideProps* ”函数中添加一个适当的“ *return* ”:
 
-```
+```js
   return {
     props: { profile: response?.data.profile, nftArray: nftArray, myNFT: myNFT },
   };
@@ -145,7 +145,7 @@ import { client, Profile } from "./api/lensCalls";
 
 现在您已经有了您的 Moralis Web3 API，您可以跟随我们开始进行 Moralis API 调用。为此，我们需要返回到“index.js”文件，首先导入 Moralis SDK。因此，我们在文件顶部添加了以下代码行:
 
-```
+```js
 import Moralis from "moralis";
 ```
 
@@ -161,7 +161,7 @@ import Moralis from "moralis";
 
 接下来，我们希望在“我在关注”页面上仅显示镜头协议 NFTs。因此，我们需要实现能够进行适当过滤的代码行。对于详细的演练，使用下面的视频，从 12:10 开始。最终，这些是我们使用的代码行:
 
-```
+```js
   let nftArray = [];
   let nfts = balances?.data.result;
 

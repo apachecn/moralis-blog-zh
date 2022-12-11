@@ -66,7 +66,7 @@ Polygon 是一个去中心化的以太坊缩放平台。因此，这是以太坊
 
 因为您已经安装了" *express* "依赖项，所以您可以专注于设置您的 express 服务器。为此，您需要创建一个“index.js”文件。然后，用以下代码填充该文件:
 
-```
+```js
 const express = require('express')
 const app = express()
 const port = 3000
@@ -82,7 +82,7 @@ app.listen(port, () => {
 
 此外，还要确保将“ *start* ”脚本添加到“package.json”文件中:
 
-```
+```js
 "scripts": {
   "start": "node index.js"
 },
@@ -96,7 +96,7 @@ app.listen(port, () => {
 
 通过将 dapp 与 Moralis 服务集成，您将导入包括 Polygon API 的 Moralis EVM API。为此，您将使用“index.js”文件。此外，这也是您需要粘贴 Moralis Web3 API 密钥的地方。我们将很快向您展示如何获得 API 密钥，但是首先，在“index.js”文件的顶部添加以下代码行:
 
-```
+```js
 // Import Moralis
 const Moralis = require('moralis').default
 // Import the EvmChain dataType
@@ -105,7 +105,7 @@ const { EvmChain } = require("@moralisweb3/evm-utils")
 
 接下来，添加以下三个变量:
 
-```
+```js
 const MORALIS_API_KEY = "replace_me"
 const address = "replace_me"
 const chain = EvmChain.POLYGON
@@ -141,7 +141,7 @@ const chain = EvmChain.POLYGON
 
 当您将 dapp 连接到多边形时，您可以使用 Moralis ' "*getNativeBalance*"端点获取 MATIC balance。如果您想以简洁的方式完成这些，我们鼓励您在“index.js”文件中创建“ *getDemoData* 函数:
 
-```
+```js
 async function getDemoData() {
   // Get native balance
   const nativeBalance = await Moralis.EvmApi.balance.getNativeBalance({
@@ -160,7 +160,7 @@ async function getDemoData() {
 
 此外，确保您还添加了“ */crypto-data* ”端点。后者将返回“ *getDemoData* 函数的结果，并允许您使用“*http://localhost:3000/demo*查看响应:
 
-```
+```js
 app.get("/demo", async (req, res) => {
   try {
     // Get and return the crypto data
@@ -178,7 +178,7 @@ app.get("/demo", async (req, res) => {
 
 通过调用上述端点，您可以查看以下格式的响应:
 
-```
+```js
 {
     "native": "0.169421625822962794"
 }
@@ -190,7 +190,7 @@ app.get("/demo", async (req, res) => {
 
 今天，有许多 ERC 20 代币。当然，大多数在以太坊链上，但也有很多在多边形链上。因此，您可以使用“ *getWalletTokenBalances* ”端点来获取特定地址的所有 ERC-20 令牌的余额。要实现此功能，请将以下代码行添加到“ *getDemoData* ”中:
 
-```
+```js
     // Get token balances
   const tokenBalances = await Moralis.EvmApi.token.getWalletTokenBalances({
     address,
@@ -211,7 +211,7 @@ app.get("/demo", async (req, res) => {
 
 多边形链上有几个流行的 NFT，现在你知道如何连接到多边形网络，你可以很容易地获取它们。通过将下面几行代码添加到您的" *getDemoData* "函数中，您可以获取给定地址的前十个 NFT:
 
-```
+```js
    const nftsBalances = await Moralis.EvmApi.nft.getWalletNFTs({
     address,
     chain,

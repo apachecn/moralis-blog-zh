@@ -59,7 +59,7 @@
 
 如前所述，Moralis 使耗时的任务变得明显更快更容易，当我们谈到象征性价格收购时，我们会体验到这一点。要获得某个令牌价格，我们只需使用以下代码片段:
 
-```
+```js
 Moralis.Web3API.token.getTokenPrice(options)
 ```
 
@@ -73,7 +73,7 @@ Moralis.Web3API.token.getTokenPrice(options)
 
 下面是一个“getTokenPrice”函数在“AAVE”令牌中的应用示例:
 
-```
+```js
 Moralis.Web3API.token.getTokenPrice({address:”0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9”, to_block: 13359177 })
 ```
 
@@ -87,13 +87,13 @@ Moralis.Web3API.token.getTokenPrice({address:”0x7fc66500c84a76ad7e9c93437bfc5a
 
 查看显示我们希望 dApp 如何呈现令牌价格的图像，我们看到图表的 X 轴应该显示日期。因此，我们需要找到一种方法来收集特定日期的令牌价格，而不是块数。幸运的是，我们可以再次依靠道德来为我们做艰苦的工作。
 
-```
+```js
 Moralis.Web3API.native.getDateToBlock(options)
 ```
 
 上述函数接受两个参数；一个是“chain”，可选(默认考虑以太坊的 chain)，另一个是“date”，必选。“ [Moment.js](https://momentjs.com/) 接受的任何日期格式都可以。使用上面的函数并输入一个日期作为参数，我们得到一个块号作为回报。这里有一个例子:
 
-```
+```js
 Moralis.Web3API.native.getDateToBlock({date:“2021-10-05”})
 ```
 
@@ -107,7 +107,7 @@ Moralis.Web3API.native.getDateToBlock({date:“2021-10-05”})
 
 在我们的“index.html”文件中，我们现在可以创建一个数组。这将为我们提供填充图表的数据点。下面是实现这一点的代码:
 
-```
+```js
 let dates1 = Array(Number(days).fill().map((e.i) =>
 moment().substract(i, “d”).format(“YYYY-MM-DD”)
 ).reverse()
@@ -115,7 +115,7 @@ moment().substract(i, “d”).format(“YYYY-MM-DD”)
 
 因为我们要减去日期，所以需要使用“reverse()”函数来获得正确的格式。为了填充上面的数组，我们使用了前面几节中提到的两个 Moralis 函数。以下几行代码将帮助我们通过日期获取块:
 
-```
+```js
 let blocks1 = await Promise.all(dates1.map(async(e,i) =>
 await Moralis.Web3API.native.getDateToBlock({date:e})
 ))
@@ -123,7 +123,7 @@ await Moralis.Web3API.native.getDateToBlock({date:e})
 
 这些代码将使我们能够获得分配给我们阵列的数据块的价格:
 
-```
+```js
 let prices1 = await Promise.all(blocks1.map(async(e,i) =>
 await Moralis.Web3API.token.getTokenPrice({address: addrs, to_block:e.block})
 ))

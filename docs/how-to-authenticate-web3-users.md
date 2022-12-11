@@ -82,19 +82,19 @@ Moralis 为所有身份验证方法提供了一个 API，提供了全面的 SDK�
 
 您需要做的第一件事是通过以下脚本添加 WalletConnect 提供程序:
 
-```
+```js
 <script src=”https://github.com/WalletConnect/walletconnect-monorepo/releases/download/1.7.1/web3-provider.min.js"></script>
 ```
 
 一旦添加了提供程序，您就可以调用之前的相同基本函数，包括一个提供程序选项。它看起来会像这样:
 
-```
+```js
 const user = await Moralis.authenticate({ provider: "walletconnect" })
 ```
 
 此外，您还可以指定 WalletConnect 默认使用的链 id。您需要做的只是提供“chainId”:
 
-```
+```js
 const user = await Moralis.authenticate({ provider: "walletconnect", chainId: 56 })
 ```
 
@@ -104,7 +104,7 @@ const user = await Moralis.authenticate({ provider: "walletconnect", chainId: 56
 
 我们要深入了解的最后一个选项是，您的用户是否安装了虚拟钱包。Phantom 集成非常简单，允许您为 Solana 网络创建复杂的 dapps。因此，如果您想通过 Phantom 对用户进行身份验证，您只需指定“类型”,函数如下所示:
 
-```
+```js
 Moralis.authenticate({type: ”sol"})
 ```
 

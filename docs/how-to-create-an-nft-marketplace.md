@@ -101,7 +101,7 @@
 
 我们示例中使用的智能合约的要点可以通过查看它所涵盖的事件来了解:
 
-```
+```js
 contract MarketPlace{
     event OfferingPlaced(bytes32 indexed offeringId, address indexed hostContract, address indexed offerer,  uint tokenId, uint price, string uri);
     event OfferingClosed(bytes32 indexed offeringId, address indexed buyer);
@@ -116,14 +116,14 @@ contract MarketPlace{
 
 这可能是你最感兴趣的部分。这是我们确保用户看到并使用我们的 NFT 市场的地方。出于示例项目的目的，我们创建了三个文件:“ [logic.js](https://github.com/DanielMoralisSamples/25_NFT_MARKET_PLACE/blob/master/static/logic.js) ”、“ [cloudCode.js](https://github.com/DanielMoralisSamples/25_NFT_MARKET_PLACE/blob/master/moralis_cloud_code/cloudCode.js) ”和“【index.html】T5”。每个文件的完整代码也可以从 [GitHub](https://github.com/DanielMoralisSamples/25_NFT_MARKET_PLACE) 获得。我们用“ *logic.js* ”文件来确保我们的 dApp 的主要功能。因此，它值得特别关注。这也是道德的全部力量付诸行动的地方。此外，要初始化 Moralis，您需要粘贴您的 Moralis 服务器 URL 和应用程序 ID:
 
-```
+```js
 Moralis.initialize(""); // Application ID from moralis.io
 Moralis.serverURL = ""; // Server URL from moralis.io
 ```
 
 继续，通过查看下面的代码行，您可以看到我们的 dApp 的主要目的。“Moralis.authenticate()”确保在对用户进行身份验证时执行正确的功能:
 
-```
+```js
 Moralis.authenticate().then(function(){
     populateNFTs();
     populateOfferings();

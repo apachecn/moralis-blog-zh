@@ -60,7 +60,7 @@ HTML 代码和 dApp 的结构完全取决于开发人员的偏好。然而，为
 
 正如您所看到的，页面顶部有一个标题，后面是一个容器，其中有三个输入字段和一个提交按钮。标题、字段和按钮的代码如下所示:
 
-```
+```js
 <body>
         <div class="container">
             <div class="row">
@@ -106,7 +106,7 @@ const appId = " INSERT APP _ ID
 
 “main.js”文件的第一个函数是“login()”，它检查是否有当前的 [MetaMask](https://moralis.io/metamask-explained-what-is-metamask/) 用户。如果找不到，那么该函数调用“Moralis.authenticate()”和“initApp()”函数。如果有一个现有用户，那么这个函数只需调用“initApp()”。尽管如此，这是完整函数的样子:
 
-```
+```js
 async function login() {
   if (!user) {
    try {
@@ -127,7 +127,7 @@ async function login() {
 
 接下来，我们有“initApp()”函数，它非常简单。首先，该函数向用户显示 dApp 的界面。其次，它还增加了通过 onclick 事件提交惰性制造 NFT 所需信息的选项。因此，这是完整的功能:
 
-```
+```js
 function initApp(){
     document.querySelector("#app").style.display = "block";
     document.querySelector("#submit_button").onclick = submit;
@@ -138,7 +138,7 @@ function initApp(){
 
 最后，我们有“submit()”函数，在这里可以找到大部分的铸造逻辑。这是完整功能的样子，它由几个不同的部分组成:
 
-```
+```js
 async function submit(){
     const input = document.querySelector('#input_image');
     let data = input.files[0]

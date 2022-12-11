@@ -98,7 +98,7 @@
 
 因此，如果我们首先查看“getNFTs.js”文件，它包含以下代码行:
 
-```
+```js
 import Moralis from 'moralis';
 
 export default async function handler(req, res) {
@@ -121,7 +121,7 @@ export default async function handler(req, res) {
 
 另一方面，“getNFTMetadata.js”文件使用类似的代码行:
 
-```
+```js
 import Moralis from 'moralis';
 
 export default async function handler(req, res) {

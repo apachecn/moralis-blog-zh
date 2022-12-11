@@ -52,7 +52,7 @@ API 基本上翻译一组指令，并确保在安全的开发环境中兼容编�
 
 这就是 Moralis Web3 API 的亮点，因为该接口提供了一组已经开发并经过实战检验的代码片段，允许开发人员用几行代码实现高级功能。因此，不需要建立复杂的后端基础设施来验证用户身份，只需两行代码就可以用 Moralis 来实现:
 
-```
+```js
 Moralis.authenticate().then(function (user) {
     console.log(user.get(''))
 })
@@ -106,7 +106,7 @@ Moralis.authenticate().then(function (user) {
 
 我们要深入了解的最后一个示例是发送资产。当创建一个 Web3 项目时，允许用户或你的 dapp 代表用户进行交易是很好的。使用 Polygon dapp API，发送多边形资产非常容易，只需几行代码就可以完成。首先，这是你如何使用 Moralis 的 Web3 API 发送 Polygon [NFTs](https://moralis.io/non-fungible-tokens-explained-what-are-nfts/) :
 
-```
+```js
 // sending a token with token id = 1
 const options = {
   type: "erc721",
@@ -121,7 +121,7 @@ let transaction = await Moralis.transfer(options);
 
 **发送本机令牌:**
 
-```
+```js
 const options = {
   type: "native",
   amount: Moralis.Units.ETH("0.5"),
@@ -132,7 +132,7 @@ let result = await Moralis.transfer(options);
 
 **发送 BEP-20 令牌:**
 
-```
+```js
 // sending 0.5 tokens with 18 decimals
 const options = {
   type: "erc20",

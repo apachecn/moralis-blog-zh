@@ -98,7 +98,7 @@ ERC 721 最初是以 EIP 草案的形式出现的(“*以太坊改进提案*”)
 
 如果你想回答“什么是 ERC-1155？”自信地提问，看看以下标准的合同样本会有所帮助。以下代码行代表了一个游戏中令牌化物品的简单 ERC 1155 契约的示例:
 
-```
+```js
 // contracts/GameItems.sol
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
@@ -142,7 +142,7 @@ contract GameItems is ERC1155 {
 
 *   **通过合同获得一个 ERC-1155 钱包地址:**
 
-```
+```js
 const response = await Moralis.EvmApi.nft.getNFTOwners({
     address,
     chain,
@@ -151,7 +151,7 @@ const response = await Moralis.EvmApi.nft.getNFTOwners({
 
 *   **通过令牌 ID** 获取 ERC-1155 钱包地址:
 
-```
+```js
 const response = await Moralis.EvmApi.nft.getNFTTokenIdOwners({
     address,
     chain,

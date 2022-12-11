@@ -54,7 +54,7 @@
 
 如果你有前端开发的经验，你会知道在创建上面预览的 dApp 的 UI 时，我们可以有很多方法。让我们看看与 OpenSea 的交互，例如，与 Moralis 的 [OpenSea 插件](https://moralis.io/opensea-api-alternative-list-nfts-with-this-opensea-plugin/)。我们首先创建一个新的“React”项目和这三个文件:“ [index.js](https://github.com/YosephKS/moralis-opensea-plugins/blob/main/src/index.js) ”、“ [App.js](https://github.com/YosephKS/moralis-opensea-plugins/blob/main/src/App.js) ”和“ [package.json](https://github.com/YosephKS/moralis-opensea-plugins/blob/main/package.json) ”。此外，我们安装了最新版本的 Moralis 和 Moralis-React 库。此外，我们在“index.js”文件中导入了这些库:
 
-```
+```js
 import React from "react";
 import ReactDOM from "react-dom";
 import { MoralisProvider } from "react-moralis";
@@ -66,7 +66,7 @@ import reportWebVitals from "./reportWebVitals";
 
 然后，插入相应的服务器 URL 和应用程序 ID:
 
-```
+```js
 <MoralisProvider
 				appId={process.env.REACT_APP_MORALIS_APP_ID}
 				serverUrl={process.env.REACT_APP_MORALIS_SERVER_URL}
@@ -77,13 +77,13 @@ import reportWebVitals from "./reportWebVitals";
 
 另一个关键动作是在“ *App.js* ”文件中初始化 OpenSea 插件。您还需要导入“useMoralis”挂钩。我们在“ *App.js* ”的顶部这样做:
 
-```
+```js
 import { useMoralis } from "react-moralis";
 ```
 
 此外，让我们在“App()”函数中调用该挂钩:
 
-```
+```js
 function App() {
 	const {
 		Moralis,
@@ -99,7 +99,7 @@ function App() {
 
 现在，我们最后初始化“useEffect()”函数中的插件:
 
-```
+```js
 	useEffect(() => {
 		if (isInitialized) {
 			Moralis.initPlugins();
@@ -124,7 +124,7 @@ function App() {
 
 当谈到我们的“获取资产”按钮时，插件网页上的代码行稍加修改就可以完成任务:
 
-```
+```js
 const getAsset = async () => {
 		const res = await Moralis.Plugins.opensea.getAsset({
 			network: "testnet",
@@ -147,7 +147,7 @@ const getAsset = async () => {
 
 接下来，要了解“获取订单”功能，只需按照“获取资产”按钮的提示进行操作(如上所述)。下面是用于该功能的几行代码(“ *App.js* ”):
 
-```
+```js
 const getOrder = async () => {
 		const res = await Moralis.Plugins.opensea.getOrders({
 			network: "testnet",
@@ -168,7 +168,7 @@ const getOrder = async () => {
 
 对于“创建购买订单”，使用与上述两个功能相同的原则。通过从插件的文档页面复制代码行，并应用小的调整，您将得到:
 
-```
+```js
 	const createBuyOrder = async () => {
 		await Moralis.Plugins.opensea.createBuyOrder({
 			network: "testnet",
@@ -190,7 +190,7 @@ const getOrder = async () => {
 
 在这一点上，你知道该怎么做。因此，使用以下代码行向“创建销售订单”按钮添加功能:
 
-```
+```js
 	const createSellOrder = async () => {
 		const expirationTime = Math.round(Date.now() / 1000 + 60 * 60 * 24);
 		const startAmount = 1;

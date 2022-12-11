@@ -50,7 +50,7 @@ https://www.youtube.com/watch?v=WdQHnb_5m5Q
 
 ### 用于转移 ERC721 令牌的代码:
 
-```
+```js
 // sending a token with token id = 1
 const options = {type: "erc721",  
                  receiver: "0x..",

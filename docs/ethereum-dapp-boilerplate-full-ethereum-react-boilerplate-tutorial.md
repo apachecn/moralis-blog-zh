@@ -60,7 +60,7 @@
 
 此外，“ **< AddressInput / >** ”组件带有几个选项，包括自动对焦和占位符。以下是示例代码:
 
-```
+```js
 const [address, setAddress] = useState();
 
 <AddressInput autoFocus placeholder="Input your Address" onChange={setReceiver} />
@@ -70,7 +70,7 @@ const [address, setAddress] = useState();
 
 除了“输入地址”之外，这个高级以太坊 dApp 样板文件还包括“ **<地址/ >** ”组件，它使您能够用块状头像显示以太坊地址。此外，它还包括一个可选的“可复制”图标显示、块状头像显示和文本大小(显示多少字符)调整。下面是一些“ **<地址/ >** 代码的例子:
 
-```
+```js
 <Address />
 <Address avatar />
 <Address avatar copyable />
@@ -112,26 +112,26 @@ const [address, setAddress] = useState();
 
 此外，与“**<【coin price/>**”一样，“ **< ERC20Balance / >** ”组件使用 Moralis 的 Web3 API，这意味着它不需要活动的 Web3 提供者。此外，该组件允许您定义要在哪个链上显示的 ERC-20 令牌的余额。如果未定义，它将显示用户的钱包所连接的网络上的令牌。下面是“ **< ERC20Balance / >** 的示例代码:
 
-```
+```js
 *<erc20 balance chain = " polygon "/>*
 
 ```
 此外，以太坊 dApp 样板还允许您显示 ERC-20 令牌交易。为此，它使用了“**</ERC 20 transfers/>**”组件。同样，显示也是分页的。此外，正如使用“**<”ERC 20 balance/>**”一样，您也可以选择定义特定的链。如果未定义，则考虑连接的钱包网络。下面是示例代码:
 
-```
+```js
 *<erc20 transfers chain = " polygon "/>*
 
 ```
 **以太坊 dApp 样板组件–钱包**想象一下，如果您可以用一个术语将钱包添加到您的 dApp 中。好吧，这个“ **<”钱包/ >** ”组件正是这么做的。这确实向您展示了最好的以太坊 dApp 样板的强大功能，以及当您决定使用它时可以获得的简单性。钱包包括输入用户要发送资产的地址的字段、输入金额的字段和执行交易的“转移”按钮。当然，在用户从钱包中选择特定资产后，所有这些选项都可用。**以太坊 dApp 样板组件–DEX**上面介绍的所有组件都是自动完全起作用的(在 GitHub 上完成“快速启动”步骤之后)。但是，为了让“ **< DEX / >** 组件工作，需要安装从 [Moralis 的插件](https://moralis.io/plugins/)到[程序令牌交换](https://moralis.io/how-to-program-token-swaps-with-1inch-plugin/)的 [1inch 插件](https://moralis.io/plugins/1inch/)。幸运的是，这可以通过在你的道德管理区点击几下来完成。首先，您需要创建一个服务器(下面提供了详细的说明)。然后，单击 Moralis 服务器上的“插件”选项。下一步，点击“转到插件商店！”按钮。然后你需要安装 1inch 插件。首先，点击 Moralis 1 inch 插件上的“阅读更多”按钮，选择该插件:在下一步中，您可以选择安装插件:一旦你完成了安装(当你点击你的服务器的“插件”按钮时，你应该能够看到列出的 1 英寸插件，如下所示)，你将能够使用“ **< DEX / >** ”组件。**以太坊 dApp 样板–挂钩**钩子是终极以太坊 dApp 样板的另一个重要方面。与包含 UI 元素的组件不同，挂钩为您提供了一些代码片段，让您可以访问链上数据。这意味着您可以在您的 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) 代码中使用一个钩子来获取数据，并添加前端代码以使钩子传递您想要的任何东西。本质上，您使用一个特定的钩子来围绕它构建您自己的组件。以下是 Moralis 的以太坊 dApp 样板文件包含的挂钩:  **   ***use web 3 contract()*** *   ***useerc 20 balance()*** *   ***useerc 20 transfers()*** *   ***useNativeBalance()*** *   ***useNativeTransactions()***  **   ***【使用传送()***  *   ***【使用传送()***  *   ***useipfs()*T3**  **   ***【use tokens ice()*** *   ***【usincdex()********与组件相比，钩子需要更多的编码；然而，它们给了你更多的灵活性来创建你想要的 UI。就功能而言，使用钩子可以获得与使用组件相同的结果。****为了更好地理解钩子以及如何使用它们，我们推荐查看 [Moralis 的文档](https://docs.moralis.io/)。由于我们花费了大量资源来确保我们为开发人员提供业内最好、最整洁的文档之一，所以您可以通过仔细查看获得很多价值。******如何安装以太坊 dApp 样板******如果你想使用最好的以太坊 dApp 样板文件，你需要遵循这些简单的步骤:** ***   使用“***git clone https://github . com/ether eum-boilerplate/ether eum-boilerplate . git***”克隆或派生“以太坊-样板”存放库。** ***   安装所有依赖项:**
 
-```
+```js
 **cd ethereum-boilerplate
 yarn install**
 ```
 
  ***   在“src/index.js”文件中，将您的“appId”和“serverUrl”从您的 Moralis 服务器(详情见下一节)提供给“ **< MoralisProvider >** ”:**
 
-```
+```js
 **<MoralisProvider appId={APP_ID} serverUrl={SERVER_URL}>
   <App />
 </MoralisProvider>**
@@ -164,10 +164,10 @@ https://www.youtube.com/watch?v=svE0v0argZg
 如果你想学习如何最好地利用 Moralis 的强大工具，我们强烈建议你进行几个示例项目，我们在 [Moralis 的博客](https://moralis.io/blog/)和 [Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)的各种文章中都有涉及。例如，你可以[创建一个 NFT 市场](https://moralis.io/how-to-create-an-nft-marketplace/)、[散装薄荷 NFTs](https://moralis.io/how-to-bulk-mint-nfts-batch-minting-guide/) ，探索 [ERC721](https://moralis.io/erc-721-token-standard-how-to-transfer-erc721-tokens/) 和 [ERC1155](https://moralis.io/erc1155-exploring-the-erc-1155-token-standard/) ，学习[上传文件夹到 IPFS](https://moralis.io/how-to-upload-folders-to-ipfs/) ，或者接受其他令人兴奋的任务来掌握[以太坊 API](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) 。
 
 ![](img/8a4ea2c641a071c9e539d4e95e4182b2.png)** 
-```
+```js
 
 ```
 
-```
+```js
 
 ```

@@ -74,13 +74,13 @@ dapps 中的关键词是“去中心化”，这提供了几个优点。由于�
 
 从那里，您将能够通过终端运行以下命令将项目克隆到您的本地存储库(确保您在正确的位置将项目克隆到您之前创建的正确文件夹):
 
-```
+```js
 git clone “BOILERPLATE_URL”
 ```
 
 复制好样板文件后，您可以使用以下命令跳转到正确的文件夹:
 
-```
+```js
 cd ethereum-boilerplate
 ```
 
@@ -118,7 +118,7 @@ cd ethereum-boilerplate
 
 因此，该文件的最终代码应该如下所示:
 
-```
+```js
 APP_CHAIN_ID=0x13881
 APP_DOMAIN=ethereum.boilerplate 
 MORALIS_API_KEY= "YOUR_API_KEY"
@@ -130,14 +130,14 @@ NEXTAUTH_URL=http://localhost:3000
 
 一旦完成了环境变量的配置，就差不多可以启动 Web3 应用程序了。但是，在这样做之前，您必须安装必要的依赖项。根据您使用的是 npm 还是 yarn，您可以使用以下命令之一:
 
-```
+```js
 npm i
 yarn
 ```
 
 安装完所有的依赖项后，接下来您需要做的就是运行一个本地开发服务器。您可以通过以下两种方式之一来实现:
 
-```
+```js
 npm run dev
 run yarn dev
 ```

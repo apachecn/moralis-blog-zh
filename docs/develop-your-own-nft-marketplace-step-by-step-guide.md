@@ -99,7 +99,7 @@ https://www.youtube.com/watch?v=EMOYpgl5S1w
 
 首先，我们有“populateNFTs()”函数，它看起来是这样的:
 
-```
+```js
 async function populateNFTs(){
     const localNFTs = await getNFTs().then(function (data){
         let nftDisplays = getNFTObjects(data);
@@ -114,7 +114,7 @@ async function populateNFTs(){
 
 接下来，我们有“populateOfferings()”函数:
 
-```
+```js
 async function populateOfferings(){
     let offeringArray = await getOfferings();
     let offerings = await getOfferingObjects(offeringArray);
@@ -130,7 +130,7 @@ async function populateOfferings(){
 
 最后，我们有最后一个在用户认证后触发的函数，它是“populateBalance()”。这个函数只是查询用户钱包的余额，然后在 dApp 中显示信息。因此，该函数如下所示:
 
-```
+```js
 async function populateBalance(){
     const presentBalance = await getBalance(ethereum.selectedAddress);
     const formatedBalance = "Your Market Place Balance is " + Moralis.Units.FromWei(presentBalance) + " ETH"
@@ -142,7 +142,7 @@ async function populateBalance(){
 
 我们使用前面的函数来填充数据，并在用户通过 MetaMask 验证后显示给用户。然而，我们也需要一些功能来执行网站的行动。首先，我们需要一个函数来选择数字收藏品，这个函数是这样的:
 
-```
+```js
 async function selectNFT(nftObject){
     const nftId = nftObject.parentElement.id;
     let nft = window.nftArray.find(object => object.object_id == nftId);
@@ -170,7 +170,7 @@ async function selectNFT(nftObject){
 
 这是一个允许用户在市场上提供和销售数字收藏品的功能:
 
-```
+```js
 async function offerNFT(context){
     let nftId = context.parentElement.parentElement.id;
     let nft = window.nftArray.find(object => object.object_id == nftId);
@@ -194,7 +194,7 @@ async function offerNFT(context){
 
 最后一个函数是“buyNFT()”函数，它允许用户在市场上购买这些数字收藏品。这非常简单，只要用户从 UI 中单击按钮，该函数就会调用另外两个函数。
 
-```
+```js
 async function buyNFT(context){
     const offeringId = context.parentElement.parentElement.id;
     let offering = window.offeringArray.find(object => object.offeringId == offeringId);
@@ -212,7 +212,7 @@ async function buyNFT(context){
 
 最后，我们还有 dApp 的三个“订阅”功能。这些功能非常重要，因为每当市场上发生数字收藏品交易时，它们都允许我们为我们的用户实时地持续更新 dApp。例如,“subscribeOfferings()”函数如下所示:
 
-```
+```js
 async function subscribeOfferings(){
     let query = new Moralis.Query("PlacedOfferings");
     subscriptionAlerts = await query.subscribe();

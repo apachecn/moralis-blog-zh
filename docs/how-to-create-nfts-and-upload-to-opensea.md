@@ -106,7 +106,7 @@ https://www.youtube.com/watch?v=M5eCg_udGIA
 
 HTML 代码的“脚本”部分(“config.html”文件)是一个关键方面:
 
-```
+```js
  <!-- Scripts -->
         <script src="https://cdn.jsdelivr.net/npm/[email protected]/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/[email protected]/dist/web3.min.js"></script>
@@ -117,7 +117,7 @@ HTML 代码的“脚本”部分(“config.html”文件)是一个关键方面:
 
 至于 JavaScript 代码，我们将创建“uploadCollection.js ”,它将在单击“上传收藏”按钮后启动。这也是我们将使用 Moralis 服务器详细信息的地方:
 
-```
+```js
 Moralis.initialize("JzMDtI9JeuUMAtiJalAqQbenxGpU5QVH6dCUaxK6"); // Application ID from moralis.io
 Moralis.serverURL = "https://axsxr6qx1ncv.moralishost.com:2053/server"; // Server URL from moralis.io
 Moralis.authenticate()
@@ -125,13 +125,13 @@ Moralis.authenticate()
 
 此外，这是我们使用 Moralis 的力量来创建关于 IPFS 的新文件的代码部分(这大大简化了过程):
 
-```
+```js
  ***让 imageFile = new Moralis。File(data.name，data)；*T3】**
 
 ```
 *注意* *:请记住，对于大型收藏，上传图像可能需要一段时间。***步骤 2:创建 NFT**这是我们项目中直接解决“如何创建 NFTs”方面的部分。它获取我们在上一步中上传的集合文件，并生成随机的 NFT。除了使用图像作为输入值，它还包含随机选择的特征(基于我们提供的集合)。*观看以上视频了解更多详情，从 7:55 开始。*遵循与上一步相同的路径，我们使用一个 HTML 文件(“index.html”)来为我们的用户创建一个网页(一个界面)，并使用一个 JavaScript 文件(“logic.js”)来添加功能。HTML 代码的“脚本”部分(“index.html”)再次扮演了重要角色，因为它导入了我们完成工作所需的所有内容:
 
-```
+```js
     <!-- Scripts -->
         <script src="https://cdn.jsdelivr.net/npm/[email protected]/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/[email protected]/dist/web3.min.js"></script>
@@ -141,7 +141,7 @@ Moralis.authenticate()
 
 **我们 dApp 的逻辑部分**至于我们 dApp 的逻辑部分，我们将其分为三个部分: 1.  **初始化 web 3-***(显示在 9:57 开始的视频中。)我们用道德来完成这件事。* 2.  **生成角色——***(显示在 11:00 开始的视频中。)这里我们使用了一组简单的函数，包括“getRandomValues()”和我们之前上传的集合图像(我们已经准备好了“ipfsCollections.json”文件)。* 3.  **将生成的角色铸造成 NFT——***(显示在 19:54 开始的视频中。)为了创建 NFTs，我们需要一个* [ *智能契约* ](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/) *和一个我们为此创建的函数。*为了访问 Moralis 的能力，我们再次使用服务器细节。此外，如上所述，要创建 NFT，我们需要使用智能契约。 [*创建智能契约*](https://moralis.io/how-to-create-smart-contracts/) *超出了本示例项目的范围，因此我们为您提供了一个您可以使用的智能契约(来自“logic.js”的一行代码):****const NFT _ contract _ address = " 0x 0 FB 6 ef 3505 b 9 c 52 ed 39595433 a 21 af 9 b 5 FCC 4431 "****//NFT 明廷合约使用这一个:“含电池”，这个合约的代码在 GitHub 资源库“contract_base”下，供您参考。*此外，这是我们的 mint 函数的代码:
 
-```
+```js
 async function mintToken(_uri){
   const encodedFunction = web3.eth.abi.encodeFunctionCall({
     name: "mintToken",
@@ -167,6 +167,6 @@ async function mintToken(_uri){
 
 **第三步:上传 NFTs 到 OpenSea** 在创建 NFT 之后，它们将被添加到代码中提供的地址。如果您有相同的地址连接到您的 OpenSea 帐户，NFTs 将自动上传到那里(您不需要手动上传 NFTs 到 OpenSea)。此外，请注意你使用的网络。如果你在 testnet 上创建你的 NFT，你需要连接并上传 NFT 到 OpenSea 的 testnet([https://testnets.opensea.io/](https://testnets.opensea.io/))。与 mainnet 一样，如果您创建自己的帐户并使用相同的地址，上传过程将自动执行。**上传 NFTs 到 OpenSea** 说到使用 OpenSea，请记住这不是一个完全去中心化的平台。此外，甚至有报道称，一名 OpenSea 员工利用该平台进行某种内幕交易。也就是说，我们建议以分散的方式制造 NFT(其中一种方式已经在本文中讨论过)。然而，由于 OpenSea 仍然提供最受欢迎的 NFT 市场之一，您可能仍然希望将 NFTs 上传到 OpenSea。请记住，您的 OpenSea 帐户只是您的加密钱包的一个窗口，显示里面所有的 NFT。因此，如果您没有看到您的 NFTs，您的 MetaMask 钱包很可能没有正确连接到 OpenSea。以下是 OpenSea 帮助中心提供的两个最常见的原因:**如何创建 NFTs 并上传到 open sea–摘要**如果您对区块链开发很认真，学习如何创建 NFT 是一项强烈推荐掌握的技能。为什么？就目前的情况来看，NFT 将会继续存在，对任何知道如何以分散的方式创建 NFT 的人的需求预计在未来几年将会上升。因此，我们希望你能很好地利用从这里获得的宝贵知识。您现在知道，在 Moralis 的帮助下，您可以相当容易地编写一个简单的 dApp，它可以生成随机的 NFT。您还了解到显示或列出您在 OpenSea 帐户上创建的 NFT 非常简单。只要您连接到同一个钱包，您就不必手动将 NFTs 上传到 OpenSea。但是，您需要确保您在同一个网络上(mainnet 或 testnet)。有了适当的指导和强大的工具，如 Moralis，您就拥有了提升区块链开发水平的一切。如果你需要更多的灵感，请务必查看我们在 [Moralis 的 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 的博客](https://moralis.io/blog/)上的丰富内容。例如，Moralis 的博客讲述了 [NFT 令牌开发](https://moralis.io/nft-token-development-the-ultimate-guide/)、[如何成为区块链开发者](https://moralis.io/how-to-become-a-blockchain-developer/)、[构建以太坊 dApps](https://moralis.io/how-to-build-decentralized-apps-dapps-quickly-and-easily/) 。    
 
-```
+```js
 
 ```

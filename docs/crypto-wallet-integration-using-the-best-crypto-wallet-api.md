@@ -100,7 +100,7 @@ Moralis Web3 身份验证 API 为所有身份验证方法提供了统一的 API�
 
 本节从“request-message.js”开始，分别剖析每个文件，以提供后端功能的详细概述。此外，该文件包含请求消息的端点，这是它的全部代码:
 
-```
+```js
 import Moralis from 'moralis';
 
 const config = {
@@ -133,7 +133,7 @@ export default async function handler(req, res) {
 
 上面的代码触发了 Moralis 的" *Moralis。Auth.requestMessage()* "函数，带有用户的地址和链 ID。该代码还创建了一个发送到客户端的新消息。一旦用户在消息上签名，就会发送一个 post 请求，将我们带到“[…nextauth]。js "代码:
 
-```
+```js
 import CredentialsProvider from 'next-auth/providers/credentials';
 import NextAuth from 'next-auth';
 import Moralis from 'moralis';
@@ -204,7 +204,7 @@ app 的前端由“_app.js”、“index.js”等几个设置文件组成。但�
 
 最初，该文件包含一些导入。在这种情况下，我们对用于引入使用 wagmi 的各种身份验证方法的连接器特别感兴趣。这基本上就是您用于客户端 Web3 连接的内容:
 
-```
+```js
 import { signIn } from "next-auth/react";
 import { useAccount, useConnect, useSignMessage, useDisconnect } from "wagmi";
 import { useRouter } from "next/router";
@@ -218,7 +218,7 @@ import axios from "axios";
 
 在必要的导入之后，我们将探索" *handleAuth(wal)* "函数。该功能负责连接不同的钱包连接器。函数将“ *wal* ”参数作为参数，指定要使用哪个备选项。然而，在连接建立之前，代码创建了一个“*用户数据*”对象来存储关于用户的信息。下面是函数的初始部分:
 
-```
+```js
  const handleAuth = async (wal) => {
     if (isConnected) {
       await disconnectAsync();
@@ -231,7 +231,7 @@ import axios from "axios";
 
 接下来，该函数包含三个“ *if* ”语句，用于本教程中使用的三个备选项:
 
-```
+```js
  if (wal === "meta") {
       const { account, chain } = await connectAsync({
         connector: new MetaMaskConnector({}),
@@ -261,7 +261,7 @@ import axios from "axios";
 
 该信息用于向 Moralis 的 Auth API 发送 post 请求:
 
-```
+```js
 console.log("Sending Connected Account and Chain ID to Moralis Auth API");
 
     const { data } = await axios.post("/api/auth/request-message", userData, {
@@ -273,7 +273,7 @@ console.log("Sending Connected Account and Chain ID to Moralis Auth API");
 
 有了消息后，代码再次使用 wagmi 对消息进行签名，向 Moralis 发送最终的 post 请求进行验证，并创建用户 JWT，该用户将被推送到用户页面:
 
-```
+```js
 console.log("Received Signature Request From Moralis Auth API");
 
     const message = data.message;
@@ -294,7 +294,7 @@ console.log("Received Signature Request From Moralis Auth API");
 
 最后，代码还包括三个按钮，连接到不同的选项。每个按钮运行“ *handleAuth(wal)* 函数，不同的参数对应于之前指定的“ *if* 语句:
 
-```
+```js
 <div>
       <h3>Web3 Authentication</h3>
       <button onClick={() => handleAuth("meta")}>
@@ -313,7 +313,7 @@ console.log("Received Signature Request From Moralis Auth API");
 
 最终，“signin.js”文件看起来是这样的:
 
-```
+```js
 import { signIn } from "next-auth/react";
 import { useAccount, useConnect, useSignMessage, useDisconnect } from "wagmi";
 import { useRouter } from "next/router";

@@ -130,7 +130,7 @@
 
 接下来，我们通过添加一个容器来调整“index.jsx”文件，我们的 canvas 元素将附加到该容器中。在“<app>”行上方，我们添加以下内容:</app>
 
-```
+```js
 <div id= “game-container”></div>
 ```
 
@@ -144,7 +144,7 @@
 
 这也是我们通过在 VSC 的终端输入“npm i phaser”来安装 Phaser 的提示。接下来，仍然在" [App.jsx](https://github.com/ashbeech/moralis-phaser-demo/blob/main/src/App.jsx) "文件中，我们使用" let game = null 初始化我们的" game "变量。然后，我们需要添加一些额外的导入并调整“App()”函数。这也是我们添加以下“config”对象的地方，通过它我们的 Phaser 游戏被启动:
 
-```
+```js
   if (!loaded) {
     setLoaded(true);
     const config = {

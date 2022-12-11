@@ -92,7 +92,7 @@ JS 通常被称为“web 的第三层”,因为这种语言可以更新 CSS 和 
 
 运行该命令后，命名该文件并填入所需的详细信息。当您按 enter 键选择最后一个选项时，它应该在您的本地目录中设置一个新的“package.json”文件，该文件应该包含与下面的代码片段类似的代码:
 
-```
+```js
 {
   "name": "simple-nodejs-demo",
   "version": "1.0.0",
@@ -109,13 +109,13 @@ JS 通常被称为“web 的第三层”,因为这种语言可以更新 CSS 和 
 
 对于项目设置，通过运行以下命令来安装 Moralis 和 Express 依赖项:
 
-```
+```js
 npm install moralis express
 ```
 
 最后，通过创建一个名为“index.js”的新文件并添加以下内容来设置一个 Express 服务器:
 
-```
+```js
 const express = require('express')
 const app = express()
 const port = 3000
@@ -131,7 +131,7 @@ app.listen(port, () => {
 
 从那里，将下面的脚本添加到“package.json”文件中:
 
-```
+```js
 "scripts": {
   "start": "node index.js"
 },
@@ -139,7 +139,7 @@ app.listen(port, () => {
 
 然后，您应该能够通过在终端中输入以下命令并按 enter 键来运行服务器:
 
-```
+```js
 npm run start
 ```
 
@@ -155,7 +155,7 @@ npm run start
 
 使用 API 键，打开 IDE 并导航到“index.js”文件。从那里，您可以通过输入以下代码来导入和初始化 Moralis:
 
-```
+```js
 const express = require('express')
 // Import Moralis
 const Moralis = require('moralis').default
@@ -201,7 +201,7 @@ startServer()
 
 多亏了 Moralis，这是一个非常简单的任务，您可以通过创建一个" *getDemoData()* "函数并将其添加到"*链*"变量下的" index.js "文件中来获取所有这些数据。这是该函数的完整代码:
 
-```
+```js
 async function getDemoData() {
   // Get native balance
   const nativeBalance = await Moralis.EvmApi.balance.getNativeBalance({
@@ -256,7 +256,7 @@ app.get("/demo", async (req, res) => {
 
 如果您遵循了 Web3 JS 教程的步骤，那么您的“index.js”文件现在应该看起来像这样:
 
-```
+```js
 const express = require("express")
 const Moralis = require("moralis").default
 const { EvmChain } = require("@moralisweb3/evm-utils")

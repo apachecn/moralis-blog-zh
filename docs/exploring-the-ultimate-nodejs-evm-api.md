@@ -67,7 +67,7 @@ NodeJS，或 Node.js，是 2009 年诞生的一个编程平台或环境。它的
 
 接下来，创建“index.js”文件，它将负责 Express 服务器的设置:
 
-```
+```js
 const express = require('express')
 const app = express()
 const port = 3000
@@ -83,7 +83,7 @@ app.listen(port, () => {
 
 另外，请确保将以下脚本添加到您的“package.json”文件中:
 
-```
+```js
 "scripts": {
   "start": "node index.js"
 },
@@ -141,7 +141,7 @@ Moralis 的 NodeJS EVM API 将链作为一个名为“Moralis dataTypes”的独
 
 要使用最终的 NodeJS EVM API 创建新地址，可以使用“ *EvmAddress.create()* ”。此外，地址需要在括号内，就像这样:
 
-```
+```js
 EvmAddress.create("0x1234567890123456789012345678901234567890")
 ```
 
@@ -160,7 +160,7 @@ EvmAddress.create("0x1234567890123456789012345678901234567890")
 
 使用“EvmAPI”会给你带来我们 NodeJS EVM API 不可思议的强大功能。就像“EvmChain”和“EvmAddress”一样，“EvmAPI”跟在“Moralis”后面。后面是 API 和 API 端点的类型。下面是一个获取账户代币余额的示例:
 
-```
+```js
 "Moralis.EvmApi.account.getTokeBalances()”
 ```
 

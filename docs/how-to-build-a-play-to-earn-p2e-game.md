@@ -94,13 +94,13 @@ https://www.youtube.com/watch?v=1_qCiL0qajs
 
 在“云函数”功能内部，需要粘贴来自“ [CloudFile.js](https://github.com/ashbeech/moralis-phaser-demo/blob/main/src/components/Cloud/CloudFile.js) 的内容。此外，这一行代码定义了玩家获胜时要使用的函数:
 
-```
+```js
 Moralis.Cloud.define("playerWon", async (request) =>
 ```
 
 上面的函数调用 P2E 契约，它通过链上交易分配奖金。因此，合同地址也必须包含在我们的代码中:
 
-```
+```js
 const p2e_contract_address = "0x7053c8dB1c4ED4C96c47E322A8517BcAeE4ECaE5";
 ```
 

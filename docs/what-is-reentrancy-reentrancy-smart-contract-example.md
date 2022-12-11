@@ -49,13 +49,13 @@
 
 这个可重入性智能契约示例的主要漏洞是它接收地址作为函数参数:
 
-```
+```js
 function deposit(address _beneficiary, address _approver) external payable
 ```
 
 后者是极其危险的，因为它让一个潜在有害的外部合同去做我们不希望它做的事情。此外，通过来自“withdrawFunds”函数的调用(如下所示)，我们将 [EVM](https://moralis.io/evm-explained-what-is-ethereum-virtual-machine/) 的执行传递给外部智能契约，这为可重入攻击打开了大门。
 
-```
+```js
 (bool result,) = caller.call{value: escrowRegistry[_escrowID].amount}("");
 ```
 

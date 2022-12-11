@@ -4,7 +4,7 @@
 
 得益于市场领先的 [Web3 基础设施](https://moralis.io/web3-infrastructure-exploring-the-best-solution-for-web3-development/)提供商提供的企业级 API，开发人员可以获得 Web3 钱包余额，并为他们的 dapps 添加原生余额功能。通过使用 Moralis 的“ *getNativeBalance* ”端点，您可以立即获得钱包本机加密余额:
 
-```
+```js
 const response = await Moralis.EvmApi.balance.getNativeBalance({
     address,
     chain,
@@ -103,7 +103,7 @@ const response = await Moralis.EvmApi.balance.getNativeBalance({
 
 当您准备好一个基本的 NodeJS 应用程序并在 Express 服务器上运行时，您可以创建您的“index.js”脚本。后者将使用“ *getNativeBalance* ”端点在后端获取钱包余额。但是，您必须首先在文件顶部定义所需的常数:
 
-```
+```js
 const express = require("express");
 const Moralis = require("moralis").default;
 const app = express();
@@ -113,7 +113,7 @@ const port = 3000;
 
 有了上面几行代码，确保您的 dapp 使用了“ *cors* 和“ *express* ”:
 
-```
+```js
 app.use(cors());
 app.use(express.json());
 ```
@@ -122,7 +122,7 @@ app.use(express.json());
 
 您现在可以创建" *get* 端点到" *balance* 的路由。使用一个简单的“ *if-else* ”语句，您可以确保“ *getNativeBalance* ”端点接受所提供的参数(如上所示)。因此，下面是您需要添加到“index.js”文件中的几行代码:
 
-```
+```js
 app.get("/balance", async (req, res) => {
   try {
     const { query } = req;
@@ -158,7 +158,7 @@ app.get("/balance", async (req, res) => {
 
 “index.js”脚本的最后一部分围绕着初始化 Moralis。因此，请确保将以下代码行添加到该脚本中:
 
-```
+```js
 Moralis.start({
   apiKey: "MORALIS_API_KEY",
 }).then(() => {
@@ -184,7 +184,7 @@ Moralis.start({
 
 而且我们 dapp 前端功能的核心文件是“ [App.js](https://github.com/MoralisWeb3/youtube-tutorials/blob/main/GetBalance/app/src/App.js) ”。后者使用“ *fetchBalance* 函数获取输入地址的钱包余额。以下是该功能的详细信息:
 
-```
+```js
  async function fetchBalance() {
 
     let res;

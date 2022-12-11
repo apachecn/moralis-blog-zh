@@ -110,13 +110,13 @@ AWS Lambda 是由 Amazon Web Services (AWS)提供的无服务器和事件驱动�
 
 终端启动后，继续运行以下命令:
 
-```
+```js
 aws configure
 ```
 
 这将自动提示您的终端，您需要添加您的“ *AWS 秘密访问密钥*和“ *AWS 访问密钥 ID* ”。最后，它应该是这样的:
 
-```
+```js
 AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
 AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 Default region name [None]: ENTER
@@ -129,7 +129,7 @@ Default output format [None]: ENTER
 
 要设置项目，首先创建一个新文件夹。从那里，用 IDE 打开该文件夹，并在终端中运行以下命令:
 
-```
+```js
 serverless
 ```
 
@@ -167,7 +167,7 @@ serverless
 
 最后，您必须添加您的 Moralis API 密钥，方法是将“serverless.yml”文件中的代码替换为以下内容:
 
-```
+```js
 service: aws-node-project
 
 frameworkVersion: '3'
@@ -191,7 +191,7 @@ functions:
 
 现在，有了初始模板，是时候仔细看看本教程的核心部分，并向您展示如何创建 Lambda 函数了。首先，您需要安装 Moralis 依赖项。这样，打开一个新的终端，将“ *cd* ”放入项目的根文件夹中。在那里，通过运行以下命令安装 Moralis:
 
-```
+```js
 npm install moralis
 ```
 
@@ -213,13 +213,13 @@ npm install moralis
 
 从那里，您需要添加 Moralis 的" *getNativeBalance* "功能。为此，首先在文件顶部输入 Moralis 要求:
 
-```
+```js
 const Moralis = require('moralis').default;
 ```
 
 然后，您可以通过添加以下代码片段，用您的 API 密钥初始化 Moralis:
 
-```
+```js
 const startMoralis = async () => {
   await Moralis.start({
     apiKey: process.env.MORALIS_API_KEY
@@ -231,7 +231,7 @@ startMoralis();
 
 最后，用下面的代码替换文件中的" *module.exports.handler"* "部分，该代码实现了获取 wallet 本机余额的 SDK 方法:
 
-```
+```js
 module.exports.handler = async (event) => {
   // Get native balance
   const nativeBalance = await Moralis.EvmApi.balance.getNativeBalance({
@@ -250,7 +250,7 @@ module.exports.handler = async (event) => {
 
 最终，这应该是“getNativeBalance.js”文件的最终状态:
 
-```
+```js
 'use strict';
 const Moralis = require('moralis').default;
 
@@ -288,7 +288,7 @@ module.exports.handler = async (event) => {
 
 从那里，打开文件并添加以下代码:
 
-```
+```js
 'use strict';
 const Moralis = require('moralis').default;
 
@@ -316,7 +316,7 @@ module.exports.handler = async (event) => {
 
 最后，打开“serverless.yml”文件，将下面的代码片段添加到文件的“ *functions* 部分:
 
-```
+```js
 getWalletNfts:
     handler: functions/getWalletNfts.handler
 ```
@@ -329,7 +329,7 @@ getWalletNfts:
 
 然后，您需要将“*地址*和“*链*参数添加到文件中，该文件看起来像这样(确保添加您想要查询信息的地址和正确的链 ID):
 
-```
+```js
 {
     "address": "0x99EXAMPLEADDRESS",
     "chain": "chain_id"
@@ -338,7 +338,7 @@ getWalletNfts:
 
 接下来，您可以通过打开终端并运行下面的命令来测试这两个功能:
 
-```
+```js
 serverless invoke -f FUNCTION_NAME --path event.json
 ```
 
@@ -352,7 +352,7 @@ serverless invoke -f FUNCTION_NAME --path event.json
 
 既然已经成功创建了 Lambda 函数，剩下的工作就是将项目上传到 AWS Lambda。幸运的是，部署 AWS Lambda 函数相对简单。打开终端，确保您位于项目的根文件夹中，并运行以下命令:
 
-```
+```js
 serverless deploy
 ```
 

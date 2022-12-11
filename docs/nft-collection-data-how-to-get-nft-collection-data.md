@@ -4,11 +4,11 @@
 
 大多数不可替换的代币属于 NFT 收藏。因此，如果你打算建立与 NFT 相关的 dapps，了解如何获得 NFT 收集的数据会非常有益。幸运的是，您不必构建一个能够让您从头开始做这件事的基础设施。相反，这里有两个代码片段，可以帮助您不费吹灰之力地获得您需要的所有 NFT 集合数据:
 
-```
+```js
 const response = await Moralis.EvmApi.nft.getNFTContractMetadata({address,});
 ```
 
-```
+```js
 const response = await Moralis.EvmApi.nft.getContractNFTs({address,});
 ```
 
@@ -107,15 +107,15 @@ Moralis 是 NFT 集合的终极数据工具，特别是由于“ *getNFTContract
 
 现在，保持您的 API 密钥，并专注于在您的项目中安装 Moralis SDK。一个简单的命令就能解决问题；请确保使用与您的软件包管理器相匹配的命令:
 
-```
+```js
 npm install moralis
 ```
 
-```
+```js
 yarn add moralis
 ```
 
-```
+```js
 pnpm add moralis
 ```
 
@@ -123,7 +123,7 @@ pnpm add moralis
 
 既然您已经访问了 Moralis，那么是时候创建一个示例脚本了，它充分结合了本文开头给出的代码行。当然，您可以简单地从我们的示例“index.js”脚本中复制粘贴以下代码行:
 
-```
+```js
 const Moralis = require("moralis").default;
 const { EvmChain } = require("@moralisweb3/evm-utils");
 
@@ -158,7 +158,7 @@ runApp();
 
 此时，您应该已经准备好了上面几行代码，包括实际的 Web3 API 键。因此，您已经准备好执行程序并探索结果——所有的 NFT 收集数据。因此，在您的终端中输入以下命令:
 
-```
+```js
 node index.js
 ```
 
@@ -166,7 +166,7 @@ node index.js
 
 最后，您可以在您的终端中探索结果。如果您使用“0 XB 47 E3 CD 837 ddf 8e 4c 57 f 05d 70 ab 865 de 6e 193 BBB”地址(如上所述)，您应该会看到以下响应:
 
-```
+```js
 {
   "total": 9991,
   "page": 0,

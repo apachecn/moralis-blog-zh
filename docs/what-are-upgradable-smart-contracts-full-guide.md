@@ -45,13 +45,13 @@
 
 1.  首先，我们需要继承一个可初始化的契约。这是通过一行简单的代码完成的:
 
-```
+```js
 contract ExampleContractName is initializable {}
 ```
 
 默认情况下，上面一行代码用于透明代理模式。但是，在使用 UUPS 代理模式时，我们需要添加“UUPSUpgradable”。因此，这是在这些情况下使用的代码行:
 
-```
+```js
 contract ExampleContractName is initializable, UUPSUpgradable {}
 ```
 
@@ -63,7 +63,7 @@ contract ExampleContractName is initializable, UUPSUpgradable {}
 
 4.  接下来，我们需要在初始化函数中调用可升级契约的 **"_init"** 函数。这里有一个例子:
 
-```
+```js
 function initialize() initializer public {
 __ERC1155_init(“”);
 __Ownable_init();

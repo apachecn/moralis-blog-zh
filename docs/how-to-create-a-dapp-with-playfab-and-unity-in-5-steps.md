@@ -169,7 +169,7 @@
 
 最后，打开”。csproj "文件。在其中，您应该看到“ *ItemGroup* ”元素和一个或多个“*package reference*”元素。您需要选择该部分，并用以下代码行替换它:
 
-```
+```js
 <ItemGroup>
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.1.1"/>
     <PackageReference Include="PlayFabAllSDK" Version="1.127.220718"/>
@@ -184,7 +184,7 @@
 
 当您创建函数时，它会生成“ChallengeRequest.cs”文件。但是，我们希望您将其重命名为“MoralisPlayFab.cs”，并将该类重命名为“ *MoralisPlayFab* ”。接下来，您需要用以下语句替换现有的“【T2 使用”语句:
 
-```
+```js
 using System;
 using System.IO;
 using System.Threading.Tasks;
@@ -203,7 +203,7 @@ using Newtonsoft.Json;
 
 然后，在" *MoralisPlayFab* "类中创建以下变量:
 
-```
+```js
 private static string AuthenticationApiUrl = Environment.GetEnvironmentVariable("MORALIS_AUTHENTICATION_API_URL", EnvironmentVariableTarget.Process);
 
 private static string Web3ApiUrl = Environment.GetEnvironmentVariable("MORALIS_WEB3_API_URL", EnvironmentVariableTarget.Process);
@@ -213,7 +213,7 @@ private static string ApiKey = Environment.GetEnvironmentVariable("MORALIS_API_K
 
 您还需要将“ *run* 方法”的名称改为“ *ChallengeRequest* ”。此外，删除“ *HttpTrigger* ”的“ *get* ”参数。尽管如此，还是复制了“*challenge request*”方法，并将其重命名为“ *ChallengeVerify* ”。此外，还将以下代码行添加到这两种方法中的每一种方法中:
 
-```
+```js
 // Create the function execution's context through the request
 string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
 // Deserialize Playfab context

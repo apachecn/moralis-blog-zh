@@ -35,7 +35,7 @@
 
 然后，你需要把你的 app 用一个“ ***<道德提供者>*** ”包装起来。此外，您应该提供您的“appId”和“serverUrl”(更多信息，请参见下一小节):
 
-```
+```js
 import React from "react";
 import ReactDOM from "react-dom";
 import { MoralisProvider } from "react-moralis";
@@ -50,7 +50,7 @@ ReactDOM.render(
 
 现在剩下要做的就是调用应用程序中的钩子:
 
-```
+```js
 import React from "react";
 import { useMoralis } from "react-moralis";
 
@@ -112,7 +112,7 @@ function App() {
 
 查看" [Providers.tsx](https://github.com/MoralisWeb3/demo-apps/blob/main/react-native-boilerplate/frontend/Providers.tsx) "文件(单击上面的链接查看完整代码)，代码中有一些部分值得特别注意。首先，我们需要初始化 Moralis(这是我们使用“Moralis 设置-获取应用程序 ID 和服务器 URL”小节中获得的详细信息的地方):
 
-```
+```js
 const appId = "INSERT_APP_ID"; // Application ID from moralis.io
 const serverUrl = "INSERT_SERVER_URL"; // Server URL from moralis.io
 const environment = "native";
@@ -126,7 +126,7 @@ Moralis.setEnableWeb3(enableViaWalletConnect);
 
 这为您提供了对 Moralis API 的完全访问，包括其先进的 [NFT API](https://moralis.io/ultimate-nft-api-exploring-moralis-nft-api/) 、[以太坊 API](https://moralis.io/ethereum-api-develop-ethereum-dapps-with-moralis/) 以及许多其他强大的快捷方式。现在，让我们看看代码的另一个重要部分，确保我们初始化 Moralis 和 WalletConnect:
 
-```
+```js
 export const Providers = ({ children }: ProvidersProps) => {
   return (
     <WalletConnectProvider {...walletConnectOptions}>
@@ -144,7 +144,7 @@ export const Providers = ({ children }: ProvidersProps) => {
 
 “ [App.tsx](https://github.com/MoralisWeb3/demo-apps/blob/main/react-native-boilerplate/frontend/App.tsx) ”文件包含为我们的示例应用程序提供所有功能和 UI 组件的代码。整个代码太广泛了，我们无法在这里完全覆盖(要查看完整的代码，请单击上面的链接)；然而，让我们来看看“挂钩调用”的代码行:
 
-```
+```js
 import React, { useEffect } from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { useMoralis, useMoralisWeb3Api, useMoralisWeb3ApiCall } from "react-moralis";
@@ -155,14 +155,14 @@ import { useWalletConnect } from "./WalletConnect";
 
 *   包含令牌余额的函数(只显示了一部分代码):
 
-```
+```js
     Moralis.Web3API.account.getTokenBalances({ address: "" }).then(console.log);
   }, []);
 ```
 
 *   负责验证和显示用户详细信息的功能:
 
-```
+```js
 function App(): JSX.Element {
   const connector = useWalletConnect();
   const { authenticate, authError, isAuthenticating, isAuthenticated, logout, Moralis } = useMoralis();

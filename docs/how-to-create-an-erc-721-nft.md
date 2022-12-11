@@ -84,12 +84,12 @@ https://www.youtube.com/watch?v=WdQHnb_5m5Q
 
 一旦你有了自己的项目，你需要初始化 Moralis。为此，您将通过单击“查看详细信息”按钮从您的服务器获取服务器 URL 和应用程序 ID。然后，您可以通过填充" [logic.js](https://github.com/DanielMoralisSamples/19_MINTNFT/blob/master/app/static/js/logic.js) "文件并以下列方式实现 URL 和 ID 来继续操作:
 
-```
+```js
 *moralis . initialize(" ")；//来自 moralis.io 的应用程序 ID*
 
 ```
 Moralis.serverURL = ""; // Server URL from moralis.io
-```
+```js
 
 步骤 2:寻找智能合同dApp 的另一个重要组成部分是智能合同。可以从头开始创建合同，也可以利用现有的合同。为了使这一过程更容易，我们决定为本教程提供一个已经准备好的智能合同。因此，有可能避免找到一个或编写自己的契约的繁琐任务。然而，如果你对创建[智能合同](https://moralis.io/smart-contracts-explained-what-are-smart-contracts/)感兴趣，请查看我们关于[如何创建智能合同](https://moralis.io/how-to-create-smart-contracts/)的指南。要实现协定，您需要在“logic.js”文件的代码的以下部分中，在引号之间输入协定地址:
 
@@ -101,7 +101,7 @@ Ethereum Rinkeby 0x0Fb6EF3505b9c52Ed39595433a21aF9B5FCc4431
 Polygon Mumbai 0x351bbee7C6E9268A1BF741B098448477E08A0a53
 BSC Testnet 0x88624DD1c725C6A95E223170fa99ddB22E1C6DDD
 */
-```
+```js
 
 此外，如果您愿意，您可以在 GitHub 资源库中找到合同的代码。您可以点击下面的文件来仔细查看整个智能合约:" [nft_base.sol](https://github.com/DanielMoralisSamples/19_MINTNFT/blob/master/contract_base/contracts/nft_base.sol) "步骤 3:创建 dApp接下来，我们将仔细查看“logic.js”文件，dApp 的大部分基本代码都是在这个文件中分配的。更重要的是，我们将把注意力放在三个主要函数上:“login()”、“upload()”和“mintToken(_uri)”。然而，在深入研究这些函数之前，另一个重要的文件是“[index.html](https://github.com/DanielMoralisSamples/19_MINTNFT/blob/master/app/templates/index.html)”，我们需要提到它。这个文件包含了所有用于构建 dApp 内容的 HTML 代码。在这里您可以找到字段和按钮的代码。我们不会更详细地研究这个文件，因为 dApp 应该如何构造取决于您，这应该基于您的偏好。因此，让我们回到“logic.js ”,更仔细地看看“login()”函数。登录()三个主要函数中的第一个是“login()”，它允许用户使用元掩码验证自己。因此，一旦用户输入他们的用户名和电子邮件地址，他们就可以单击 UI 中的“连接元掩码”按钮进行身份验证。这是完整的功能:
 
@@ -120,7 +120,7 @@ async function login(){
       document.getElementById("description").removeAttribute("disabled");
   })
 }
-```
+```js
 
 上传()第二个功能是“upload()”，它确保输入到 dApp 中的文件用于创建一个 Moralis 对象，该对象又通过“上传”到 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) 。saveIPFS()" Moralis 函数。该对象的 URI 随后被用来创建一个元数据道德对象，这个元数据道德对象以 [JSON](https://moralis.io/json-explained-what-is-json-javascript-object-notation/) 格式被再次上传到 IPFS。最后，在调用“mintToken(_uri)”函数时，对象的 URI 作为参数传递。
 
@@ -145,7 +145,7 @@ async function upload(){
   const metadataURI = metadataFile.ipfs();
   const txt = await mintToken(metadataURI).then(notify)
 }
-```
+```js
 
 mintToken(_uri)最后一个函数是“mintToken(_uri)”，它实质上是铸造 ERC-721 NFT。该函数创建一个包含编码函数调用的新对象。然后将它与其他参数一起添加到“transactionParameters”对象中。然后，函数的最后一部分将事务发送到区块链，铸造令牌，并返回一个事务 ID 以确认 ERC-721 令牌已成功创建。因此，这是整个函数:
 
@@ -171,7 +171,7 @@ async function mintToken(_uri){
   });
   return txt
 }
-```
+```js
 
 现在就是这样！通过遵循本教程的三个步骤，你将能够通过你的 NFT minting dApp 连续创建 ERC-721 NFT。然而，如果你想更详细地了解整个代码，请向上滚动，仔细看看我们在文章前面链接的视频。这将为你提供大部分问题的答案。如何创建 ERC-721 NFT-总结这篇文章证明了通过使用已建立的 NFT 市场(如 OpenSea)或使用 Moralis 操作系统创建 NFT minting dApp 来创建 ERC-721 NFT 是可能的。我们将创建 dApp 的过程分为以下三个步骤: 1.  初始化道德 2.  寻找智能合同 3.  创建 dApp遵循这三个步骤，我们可以在几分钟内轻松地创建一个 NFT 造币厂 dApp。大多数可访问性源自 Moralis 的后端基础设施和操作系统的 SDK。因此，我们能够避免大多数复杂的后端开发，减轻我们的大部分工作量，让我们专注于应用程序的前端/UI。此外，如果你有兴趣学习更多关于 Web3 UI 开发的知识，一定要阅读我们关于 Moralis 的文章。然而，这只是 Moralis 为您提供更容易理解的区块链开发过程的众多实例之一。如果你想了解更多关于道德家的能力，请访问[道德家博客](https://moralis.io/blog/)。在这里你可以找到更多的文章，例如，[如何创建自己的 ERC-20 令牌](https://moralis.io/how-to-create-your-own-erc-20-token-in-10-minutes/)或[如何创建 BNB 链令牌](https://moralis.io/how-to-create-a-bnb-chain-token-in-5-minutes/)。所以，如果你想加速你的 Web3 开发之旅，[现在就注册 Moralis](https://admin.moralis.io/register) ！创建一个账户是免费的，你可以立即利用该平台的有用工具。    
 

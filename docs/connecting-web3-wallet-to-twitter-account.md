@@ -97,19 +97,19 @@ Moralis 最近增加了一个来自“Web3Auth”的新认证功能，使 Web3 �
 5.  将 Web3Auth 的 SDK 添加到应用程序中。
     1.  如果您通过“CDN”导入 Moralis，可以使用以下代码行:
 
-```
+```js
 <script src="https://unpkg.com/@web3auth/[email protected]/dist/web3auth.umd.min.js"></script>
 ```
 
 2.  但是，如果您通过“npm”或“yarn”导入 Moralis，请使用以下命令:
 
-```
+```js
 npm install --save @web3auth/web3auth
 ```
 
 6.  有了 Web3Auth 项目的客户机 ID，SDK 也准备好了，就可以使用 authenticate 函数了。正如您在下面看到的，该函数接受一些参数。此外，客户机 ID 是唯一必需的参数。以下是您需要使用的代码行(不要忘记用您的客户端 ID 替换占位符):
 
-```
+```js
 const user = await Moralis.authenticate({
 	provider: "web3Auth",
 	clientId: "ABC*****************",

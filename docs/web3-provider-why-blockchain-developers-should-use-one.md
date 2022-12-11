@@ -92,25 +92,25 @@ Moralis 被列在 API 列表的顶部是有原因的——它是最终的 Web3 A
 
 *   如果使用*纱*，输入:
 
-```
+```js
 yarn add moralis
 ```
 
 *   如果您使用 *npm* ，请输入:
 
-```
+```js
 npm install moralis
 ```
 
 *   如果使用 *pnpm* ，输入:
 
-```
+```js
 pnpm add moralis
 ```
 
 成功安装 Moralis 后，您需要初始化它。为此，使用“ *start* 方法:
 
-```
+```js
 import Moralis from 'moralis';
 
 Moralis.start({
@@ -127,7 +127,7 @@ Moralis.start({
 
 此外，还可以通过调用“ *Moralis.start(config)* ”来设置具体的配置。这里有一个例子:
 
-```
+```js
 Moralis.start({
   apiKey: "YOUR_API_KEY",
   formatEvmAddress: 'checksum',
@@ -155,25 +155,25 @@ Moralis.start({
 
 *   如果使用*纱*，输入:
 
-```
+```js
 yarn add @moralisweb3/core @moralisweb3/evm-api
 ```
 
 *   如果您使用 *npm* ，请输入:
 
-```
+```js
 npm i @moralisweb3/core @moralisweb3/evm-api
 ```
 
 *   如果使用 *pnpm* ，输入:
 
-```
+```js
 pnpm add @moralisweb3/core @moralisweb3/evm-api
 ```
 
 接下来，您需要将模块注册到代码顶部的核心包中:
 
-```
+```js
 import MoralisCore from '@moralisweb3/core';
 import MoralisEvmApi from '@moralisweb3/evm-api';
 
@@ -184,7 +184,7 @@ core.registerModules([MoralisEvmApi]);
 
 注册完模块后，您可以按照描述最终 NodeJS Web3 提供程序基本初始化的步骤中描述的类似方式初始化应用程序:
 
-```
+```js
 core.start({
   apiKey: '<YOUR_API_KEY>',
   // ...and any other configuration
@@ -193,7 +193,7 @@ core.start({
 
 按照上面的代码行，您可以使用已安装模块中包含的任何功能。当然，您还需要在代码中调用正确的模块:
 
-```
+```js
 import MoralisEvmApi from '@moralisweb3/evm-api';
 import { EvmChain } from '@moralisweb3/evm-utils';
 

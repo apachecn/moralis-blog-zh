@@ -54,7 +54,7 @@ ERC-1155 是一个两全其美的协议，因为 [ERC1155](https://moralis.io/er
 
 要使用 Moralis 移动给定区块链上的本机资产，首先需要创建一个“option”对象。将它的“type”值设置为“native ”,以便 Moralis 理解您想要转移本机资产。原因是，对于跨链资产的转移，您需要实现其他程序。在下一阶段，您必须指定转移的金额。不管你用的是哪种区块链(以太坊，多边形，币安智能链等等。)，使用“Moralis.units.ETH”命令。由于每个事务都有发送方和接收方，现在是时候指定“接收方”了。在下面输入你想要的钱包地址，就可以了。
 
-```
+```js
  // sending 0.5 ETH
  const options = {type: "native", amount: Moralis.Units.ETH("0.5"), receiver: "0x.."}
  let result = await Moralis.transfer(options)
@@ -64,7 +64,7 @@ ERC-1155 是一个两全其美的协议，因为 [ERC1155](https://moralis.io/er
 
 要使用 Moralis 平台发送 ERC-20 代币，您需要代币的合同地址和小数位数。检查您在 Etherscan 或您的项目使用的任何其他 block explorer 上的帐户，以找到这些数据。要启动 Moralis 事务，您必须使用 helper 函数:“Moralis。单位.令牌”。它可以让你把数值乘以小数位数。不参考块浏览器也可以获得令牌的元数据。Moralis 的 SDK 为此提供了一个解决方案。只需查看我们关于[获取令牌元数据](https://docs.moralis.io/moralis-server/web3-sdk/token#gettokenmetadatabysymbol)的文档。
 
-```
+```js
  // sending 0.5 tokens with 18 decimals
  const options ={type: "erc20",
              	amount: Moralis.units.Token("0.5", "18"),
@@ -77,7 +77,7 @@ ERC-1155 是一个两全其美的协议，因为 [ERC1155](https://moralis.io/er
 
 为了传输这些类型的令牌，您将需要 NFT 的“contractAddress”以及“tokenID”。这里您不需要指定“金额”,因为您一次只能转移一个令牌。
 
-```
+```js
  // sending a token with token id = 1
  const options = {type: "erc721",
               	receiver: "0x..",
@@ -90,7 +90,7 @@ ERC-1155 是一个两全其美的协议，因为 [ERC1155](https://moralis.io/er
 
 要传输这些令牌，也称为半可替换令牌，您必须指定 NFT 的“contactAddress”和“tokenID”。您还应该确定要转移的令牌的“数量”。
 
-```
+```js
  // sending 15 tokens with token id = 1
  const options = {type: "erc1155",
              	   receiver: "0x..",
@@ -106,7 +106,7 @@ ERC-1155 是一个两全其美的协议，因为 [ERC1155](https://moralis.io/er
 
 由于这个功能，您现在可以在完成流程之前获得“transactionHash ”,它本质上是一个事务 ID。使用“收据”命令，您可以在完成交易处理后获得交易收据。通过在事务选项部分将“awaitReceipt”更改为“false ”,您将接收所有作为事件回调的数据。
 
-```
+```js
  const txOptions = {
   type: "erc20",
   amount: Moralis.Units.Token("10","18"),

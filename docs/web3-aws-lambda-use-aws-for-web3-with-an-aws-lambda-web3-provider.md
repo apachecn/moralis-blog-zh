@@ -118,13 +118,13 @@ Web3 旨在保留 Web2 的积极动态方面，同时通过创建一个去中心
 
 在第二步中，我们将向您展示如何设置项目。但是，在这样做之前，您需要配置您的 AWS 凭证。因此，打开您的 IDE，启动一个新的终端，并运行以下命令:
 
-```
+```js
 aws configure
 ```
 
 一旦您运行上面的命令，它会提示您输入您的“ *AWS 秘密访问密钥*”。接下来，您必须添加您的“ *AWS 访问密钥 ID* ”。最后，还剩下两个提示，您只需点击“enter”即可。总而言之，它应该是这样的:
 
-```
+```js
 AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
 AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 Default region name [None]: ENTER
@@ -135,7 +135,7 @@ Default output format [None]: ENTER
 
 AWS 凭证配置完成后，我们现在将向您展示如何设置项目。首先，创建一个新文件夹。然后，用 IDE 打开它，并在新的终端中运行以下命令:
 
-```
+```js
 serverless
 ```
 
@@ -169,7 +169,7 @@ serverless
 
 最后，打开“serverless.yml”文件，用下面的代码片段替换其中的内容:
 
-```
+```js
 service: aws-node-project
 
 frameworkVersion: '3'
@@ -193,7 +193,7 @@ functions:
 
 本节将向您展示如何添加应用程序的这两个功能。但是，在这样做之前，您需要安装 Moralis 依赖项。因此，将 *cd* 放到项目的根文件夹中，并在终端中运行下面的命令:
 
-```
+```js
 npm install moralis
 ```
 
@@ -209,7 +209,7 @@ npm install moralis
 
 最后，复制下面代码片段中的代码，替换“getNativeBalance.js”文件中的所有内容:
 
-```
+```js
 'use strict';
 const Moralis = require('moralis').default;
 
@@ -243,14 +243,14 @@ module.exports.handler = async (event) => {
 
 然后，您可以打开“serverless.yml ”,将下面的代码输入到“*函数*”部分:
 
-```
+```js
 getWalletNfts:
     handler: functions/getWalletNfts.handler
 ```
 
 最后，打开“getWalletNfts.js”并添加以下代码片段中的代码:
 
-```
+```js
 'use strict';
 const Moralis = require('moralis').default;
 
@@ -286,7 +286,7 @@ module.exports.handler = async (event) => {
 
 从那里，你需要添加两个参数到这个文件中，“T0”地址“T1”和“T2”链“T3”:
 
-```
+```js
 {
     "address": "0x99EXAMPLEADDRESS",
     "chain": "chain_id"
@@ -295,7 +295,7 @@ module.exports.handler = async (event) => {
 
 但是，请确保添加了要监视的钱包的地址和要查询的区块链的链 ID。添加参数后，您可以测试每个函数。为此，运行下面的命令，将“*FUNCTION _ NAME”*替换为函数的实际名称:
 
-```
+```js
 serverless invoke -f “FUNCTION_NAME” --path event.json
 ```
 
@@ -305,7 +305,7 @@ serverless invoke -f “FUNCTION_NAME” --path event.json
 
 对结果满意后，您可以通过在终端中导航到应用程序的根文件夹并运行以下命令来部署它们:
 
-```
+```js
 serverless deploy
 ```
 

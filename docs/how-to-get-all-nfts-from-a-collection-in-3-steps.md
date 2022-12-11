@@ -4,7 +4,7 @@
 
 多亏了 Moralis 的终极 NFT API，任何开发者都可以从一个集合中获得所有的 NFT。安装 Moralis SDK 并使用“***【getContractNFTs】*****”*****NFT API 端点；就这么简单！本质上，通过下面的代码片段，您可以涵盖从集合中获取不可替换令牌的核心内容:***
 
-```
+```js
  *const response = await Moralis.EvmApi.nft.getContractNFTs({
     address,
     chain,
@@ -94,15 +94,15 @@ NFT(不可替换令牌)是一种特殊的加密资产。根据“不可替换”
 
 在下一节中，您将看到在哪里粘贴您的 API 密匙。但是，在继续之前，请在您的项目中安装 Moralis SDK。根据您使用的软件包管理器，您需要运行以下命令之一:
 
-```
+```js
 npm install moralis
 ```
 
-```
+```js
 yarn add moralis
 ```
 
-```
+```js
 pnpm add moralis
 ```
 
@@ -110,7 +110,7 @@ pnpm add moralis
 
 完成初始设置后，您就可以专注于一个示例脚本了，它使您能够毫不费力地从一个集合中获取所有的 NFT。下面是一个“index.js”脚本:
 
-```
+```js
 const Moralis = require("moralis").default;
 const { EvmChain } = require("@moralisweb3/evm-utils");
 
@@ -147,19 +147,19 @@ runApp();
 
 **对于 JavaScript:**
 
-```
+```js
 node index.js
 ```
 
 **对于打字稿:**
 
-```
+```js
 node index.ts
 ```
 
 运行适当的命令后，检查终端的结果。如果您没有更改上面代码中的地址，您应该会看到以下结果:
 
-```
+```js
 {
   "total": 9991,
   "page": 0,

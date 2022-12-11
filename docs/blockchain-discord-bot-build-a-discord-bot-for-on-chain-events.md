@@ -76,7 +76,7 @@
 
 如果您想学习如何以最简单的方式为链上事件构建一个 Discord bot，可以从一个简单的 NodeJS Express dapp 开始。你可以在本教程的 GitHub repo 中找到[启动代码](https://github.com/MoralisWeb3/youtube-tutorials/blob/main/Discord-Blockchain-Bot/starter.js)。此外，确保您安装了“ngrok ”,以创建到您的 Express dapp 的“ngrok”隧道。为此，请打开一个新的终端并输入以下命令:
 
-```
+```js
 ngrok http 3000
 ```
 
@@ -88,13 +88,13 @@ ngrok http 3000
 
 接下来，您希望使用以下命令安装所有依赖项:
 
-```
+```js
 npm i express moralis discord.js dotenv
 ```
 
 此外，我们建议您也安装" *nodemon* "以便您能够查看更改，而无需停止并重启您的服务器。因此，也使用下面的命令:
 
-```
+```js
 npm i nodemon
 ```
 
@@ -104,7 +104,7 @@ npm i nodemon
 
 最后，您可以使用下面的命令运行 dapp 了:
 
-```
+```js
 npm run start
 ```
 
@@ -172,13 +172,13 @@ npm run start
 
 使用当前的“index.js”代码(在“starter.js”文件中提供)，任何拥有您的 webhook 地址的人都可以发出 post 请求。因此，您必须实现必要的调整来验证 webhook 发送方。首先，在“index.js”文件的顶部导入 Moralis:
 
-```
+```js
 const Moralis = require("moralis").default;
 ```
 
 然后，通过添加以下代码行来初始化 Moralis 的实例:
 
-```
+```js
 Moralis.start({
   apiKey: process.env.APIKEY,
 })
@@ -194,13 +194,13 @@ Moralis.start({
 
 准备好 Web3 API 密钥后，返回到“index.js”文件，并在顶部要求“ *dotenv* ”:
 
-```
+```js
 require("dotenv").config();
 ```
 
 现在，您希望通过将“ *app.listen* ”放入“*中，然后放入*，确保您的 dapp 仅在启动 Moralis 后启动:
 
-```
+```js
 Moralis.start({
   apiKey: process.env.APIKEY,
 }).then(() => {
@@ -260,7 +260,7 @@ Moralis.start({
 
 在我们“*如何构建一个不和谐机器人*”任务的最后一步，您需要添加必要的代码行，以确保上面创建的机器人成为一个加密监视器不和谐机器人。因此，返回到您的“index.js”脚本，并在顶部导入“ *discord.js* ”:
 
-```
+```js
 const discord = require("discord.js");   
 
 Next, create a Discord client just below the imports:
@@ -290,7 +290,7 @@ client.login(process.env.PASS);
 
 变量就位后，您可以在“ *try* ”中添加必要的代码行:
 
-```
+```js
     let from = body.txs[0].fromAddress;
     let amount = Number(body.txs[0].value / 1E18);
 

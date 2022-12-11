@@ -60,25 +60,25 @@
 
 我们希望您和我们一样对第一步感到兴奋！此外，本教程的第一步围绕着安装依赖项、库和 RainbowKit。最初，我们将安装 Moralis、next-auth 和 axios 依赖项。此外，要安装这三个组件，您只需要下面的 *npm* 命令:
 
-```
+```js
 npm install moralis next-auth axios
 ```
 
 接下来，我们需要安装一个库，这是使用 RainbowKit 添加登录所需的。因此，我们将安装流行的 wagmi 库。此外，您可能还记得以前的内容，因为 RainbowKit 就是基于此来确保 Web3 生态系统的大部分之间的互操作性。无论如何，要安装 wagmi 依赖项，您可以使用以下命令:
 
-```
+```js
 npm install wagmi ethers
 ```
 
 除了 wagmi，你还需要安装 RainbowKit。这可以通过下面的代码片段来实现:
 
-```
+```js
 npm install @rainbow-me/rainbowkit
 ```
 
 最后，在第一步的最后一部分，您需要将一些环境变量添加到应用程序根目录下的“. env.local”文件中。相应地，这是您需要添加的内容:
 
-```
+```js
 APP_DOMAIN=amazing.finance
 MORALIS_API_KEY=xxxx
 NEXTAUTH_URL=http://localhost:3000
@@ -97,7 +97,7 @@ NEXTAUTH_SECRET=7197b3e8dbee5ea6274cab37245eec212
 
 要启动第二步，您需要创建一个新的“pages/_app.jsx”文件。接下来，您可以用“ *WagmiConfig* ”和“ *SessionProvider* ”来包装您的页面。为此，您只需将以下内容添加到刚刚创建的文件中:
 
-```
+```js
 import { createClient, configureChains, defaultChains, WagmiConfig } from 'wagmi';
 import { publicProvider } from 'wagmi/providers/public';
 import { SessionProvider } from 'next-auth/react';
@@ -141,7 +141,7 @@ export default MyApp;
 
 我们的页面被包装在“ *WagmiConfig* 和“ *SessionProvider* 中”，您需要创建一个请求消息端点。此外，该端点将向“*道德家发出请求。Auth"* 并生成在客户端签名的唯一消息。此外，要添加端点，您可以创建一个名为“pages/API/auth/request-message . js”的新 API 文件，并添加以下内容:
 
-```
+```js
 import Moralis from 'moralis';
 
 const config = {
@@ -178,7 +178,7 @@ export default async function handler(req, res) {
 
 在这一步中，您可以继续创建一个新的“pages/api/auth/[…nextauth]。js”文件。此外，这将用于配置“ *NextAuth* ”。此外，该文件应该如下所示:
 
-```
+```js
 import CredentialsProvider from 'next-auth/providers/credentials';
 import NextAuth from 'next-auth';
 import Moralis from 'moralis';
@@ -239,7 +239,7 @@ export default NextAuth({
 
 按照“*next auth”*配置，您必须创建一个新的页面文件“pages/signin.jsx”。此外，该文件需要包含以下内容:
 
-```
+```js
 import { ConnectButton } from '@rainbow-me/rainbowkit'
 import { signIn, useSession } from 'next-auth/react'
 import { useAccount, useSignMessage, useNetwork } from 'wagmi'
@@ -303,7 +303,7 @@ export default SignIn
 
 在如何使用 RainbowKit 添加登录的教程的最后一步中，您将设置一个用户页面。因此，首先创建一个“pages/user.jsx”文件。有了这个页面，您可以继续将以下内容实现到文件中:
 
-```
+```js
 import { getSession, signOut } from 'next-auth/react';
 
 // gets a prop from getServerSideProps

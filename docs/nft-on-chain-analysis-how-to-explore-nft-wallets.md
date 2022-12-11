@@ -102,7 +102,7 @@
 
 这是我们将以下代码行复制到“cf”文件夹内的“cloud.js”文件中的位置(下面的视频，从 6:30 开始):
 
-```
+```js
 Moralis.settings.setAPIRateLimit({
   anonymous:10, authenticated:20, windowMs:60000
 })
@@ -140,14 +140,14 @@ Moralis.settings.setAPIRateLimit({
 
 我们将首先和上面安装的软件包:
 
-```
+```js
 const Moralis = require("moralis/node");
 const fs = require("fs");
 ```
 
 然后，我们还需要添加我们的道德 dapps 的凭据:
 
-```
+```js
 const serverUrl ="xxx";
 const appId="xxx";
 ```
@@ -158,7 +158,7 @@ const appId="xxx";
 
 此外，我们还需要定义一个契约，我们希望将我们的 NFT 链分析集中在这个契约上。如前所述，我们将在此重点介绍月鸟系列:
 
-```
+```js
 const contractAddress = "0x23581767a106ae21c074b2276D25e5C3e136a68b"; //Moonbirds
 ```
 

@@ -4,7 +4,7 @@
 
 当[创建一个 NFT 项目](https://moralis.io/how-to-create-an-nft-project-get-started-and-launch-successfully/)时，简化 NFT 相关任务的工具，比如获取 NFT 元数据，是必不可少的。得益于来自 Moralis 的[终极 NFT API](https://moralis.io/nft-api/) ，开发者在使用“ *getNFTMetadata* ”端点时可以轻松获得 NFT 的元数据:
 
-```
+```js
 const response = await Moralis.EvmApi.nft.getNFTMetadata({
     address,
     chain,
@@ -92,15 +92,15 @@ const response = await Moralis.EvmApi.nft.getNFTMetadata({
 
 暂时保留您的 API 密钥。首先，通过运行下面的命令之一来安装 Moralis SDK。选择与您正在使用的软件包管理器相匹配的软件包:
 
-```
+```js
 npm install moralis
 ```
 
-```
+```js
 yarn add moralis
 ```
 
-```
+```js
 pnpm add moralis
 ```
 
@@ -108,7 +108,7 @@ pnpm add moralis
 
 在本节中，我们将为您提供一个示例脚本，该脚本只需几行代码即可获取 NFT 的元数据。因此，这是一个获取 NFT 元数据的示例“index.js”脚本:
 
-```
+```js
 const Moralis = require("moralis").default;
 const { EvmChain } = require("@moralisweb3/evm-utils");
 
@@ -148,19 +148,19 @@ runApp();
 
 **对于 JavaScript:**
 
-```
+```js
 node index.js
 ```
 
 **对于打字稿:**
 
-```
+```js
 node index.ts
 ```
 
 一旦您执行了适当的命令，查看您的终端，看看代码返回什么。如果您使用“*0x b 47 E3 CD 837 ddf 8 e4c 57 f 05d 70 ab 865 de 6e 193 BBB*”地址和 3931 令牌 ID，您应该会看到以下结果:
 
-```
+```js
 {
   "token_address": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
   "token_id": "3931",

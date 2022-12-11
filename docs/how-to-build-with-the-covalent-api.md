@@ -104,7 +104,7 @@
 
 *   **获取块**–使用链 ID 和块高度返回块。
 
-```
+```js
 interface GetBlockDto {
   chainId: number;
   blockHeight: string;
@@ -115,7 +115,7 @@ await Moralis.Plugins.covalent.getBlock(GetBlockDto);
 
 *   **所有合同元数据**–使用链 ID，返回区块链上所有合同及其元数据的列表。
 
-```
+```js
 interface GetAllContractMetaDto {
   chainId: number;
   pageNumber?: number;
@@ -127,7 +127,7 @@ await Moralis.Plugins.covalent.getAllContractMetadata(GetAllContractMetaDto);
 
 *   **获取区块高度**–使用链 ID、开始日期和结束日期，返回一个日期范围内特定链的所有区块高度。
 
-```
+```js
 interface GetBlockHeightsDto {
   chainId: number;
   blockHeight: string;
@@ -142,7 +142,7 @@ await Moralis.Plugins.covalent.getBlockHeights(GetBlockHeightsDto);
 
 *   **返回链**–返回所有链的列表。
 
-```
+```js
 interface GetChainsDto {}
 
 await Moralis.Plugins.covalent.getChains(GetChainsDto);
@@ -150,7 +150,7 @@ await Moralis.Plugins.covalent.getChains(GetChainsDto);
 
 *   **链状态**–返回所有链状态的列表。
 
-```
+```js
 interface GetChainStatusesDto {}
 
 await Moralis.Plugins.covalent.getChainsStatuses(GetChainStatusesDto);
@@ -160,7 +160,7 @@ await Moralis.Plugins.covalent.getChainsStatuses(GetChainStatusesDto);
 
 *   **获取令牌持有者的变化**–使用链 ID 和钱包地址返回令牌持有者及其当前/历史余额的分页列表。
 
-```
+```js
 interface GetChangesInTokenHoldersDto {
   chainId: number;
   address: Address;
@@ -176,7 +176,7 @@ await Moralis.Plugins.covalent.getChangesInTokenHolerBetweenBlockHeights(GetChan
 
 *   **地址**的 ERC-20 令牌交易–使用链 ID、用户地址和交易散列返回所有 ERC-20 令牌合约传输。
 
-```
+```js
 interface GetErc20TokenTransactionsForAddressDto {
   chainId: number;
   address: Address;
@@ -191,7 +191,7 @@ await Moralis.Plugins.covalent.getErc20TokenTransfersForAddress(GetErc20TokenTra
 
 *   **一段时间内的历史投资组合价值**–使用链 ID 和钱包地址以 24 小时间隔时间戳返回过去 30 天的钱包价值。
 
-```
+```js
 interface GetHistoricalPortfolioValueOverTimeDto {
   chainId: number;
   address: Address;
@@ -203,7 +203,7 @@ await Moralis.Plugins.covalent.getHistoricalPortfolioValueOverTime(GetHistorical
 
 *   **通过约定地址获取日志事件**–使用链 ID 和约定地址，返回由特定智能约定发出的已解码日志事件的分页列表。
 
-```
+```js
 interface GetLogEventsByContractAddressDto {
   chainId: number;
   contractAddress: Address;
@@ -218,7 +218,7 @@ await Moralis.Plugins.covalent.getLogEventsByContractAddress(GetLogEventsByContr
 
 *   **按主题接收日志事件**–使用链 ID 和主题，返回已解码日志事件的分页列表。
 
-```
+```js
 interface GetLogEventsByTopicDto {
   chainId: number;
   topic: Topic;
@@ -237,7 +237,7 @@ await Moralis.Plugins.covalent.getTokenHoldersByTopic(GetLogEventsByTopicDto);
 
 *   **合同**的 NFT 令牌 ID–使用链 ID 和合同地址返回区块链上 NFT 合同的所有令牌 ID 的列表。
 
-```
+```js
 interface GetNFTTokenIDsForContractDto {
   chainId: number;
   contractAddress: Address;
@@ -250,7 +250,7 @@ await Moralis.Plugins.covalent.getNftTokenIdForContract(GetNFTTokenIDsForContrac
 
 *   **获取合同**的 NFT 交易–使用链 ID、合同地址和令牌 ID，返回交易列表。
 
-```
+```js
 interface GetNFTTransactionsForContractDto {
   chainId: number;
   contractAddress: Address;
@@ -264,7 +264,7 @@ await Moralis.Plugins.covalent.getNftTransactionsForContract(GetNFTTransactionsF
 
 *   **契约**的 NFT 外部元数据–使用链 ID、契约地址和令牌 ID 获取并返回外部元数据。*它同时支持*[*【ERC】721*](https://moralis.io/erc-721-token-standard-how-to-transfer-erc721-tokens/)*和*[*【ERC】1155*](https://moralis.io/erc1155-exploring-the-erc-1155-token-standard/)*标准。*
 
-```
+```js
 interface GetNFTExternalMetaForContractDto {
   chainId: number;
   contractAddress: Address;
@@ -276,7 +276,7 @@ await Moralis.Plugins.covalent.getNftExternalMetadataForContract(GetNFTExternalM
 
 *   **获取地址**的代币余额–使用链 ID 和钱包地址返回当前代币余额及其现货价格。
 
-```
+```js
 interface GetTokenBalancesForAddressDto {
   chainId: number;
   address: Address;
@@ -288,7 +288,7 @@ await Moralis.Plugins.covalent.getTokenBalancesForAddress(GetTokenBalancesForAdd
 
 *   **获取任意街区高度的令牌持有者**–使用链 ID 和钱包地址返回令牌持有者的分页列表。如果省略块高度，则使用最新的块。
 
-```
+```js
 interface GetBlockTokenHoldersDto {
   chainId: number;
   contractAddress: Address;
@@ -305,7 +305,7 @@ await Moralis.Plugins.covalent.getBlockTokenHolders(GetBlockTokenHoldersDto);
 
 *   **获取事务**–使用链 ID 和事务散列返回事务数据及其解码的事件日志。
 
-```
+```js
 interface GetTransactionDto {
   chainId: number;
   transactionHash: TransactionHash;
@@ -316,7 +316,7 @@ await Moralis.Plugins.covalent.getTransaction(GetTransactionDto);
 
 *   **获取地址**的交易–使用链 ID 和钱包地址返回所有交易及其解码的日志事件。
 
-```
+```js
 interface GetTransactionsForAddressDto {
   chainId: number;
   address: Address;

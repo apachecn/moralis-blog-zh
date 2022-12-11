@@ -62,7 +62,7 @@ https://www.youtube.com/watch?v=IkdoQI7API0
 
 ### 功能
 
-```
+```js
   function optionA() external {
         for (uint i =0; i < arrayFunds.length; i++){
             totalFunds = totalFunds + arrayFunds[i];
@@ -76,7 +76,7 @@ https://www.youtube.com/watch?v=IkdoQI7API0
 
 ### 功能
 
-```
+```js
 function optionB() external {
         uint _totalFunds;
         for (uint i =0; i < arrayFunds.length; i++){
@@ -92,7 +92,7 @@ function optionB() external {
 
 ### 功能
 
-```
+```js
 function optionC() external {
         uint _totalFunds;
         uint[] memory _arrayFunds = arrayFunds;
@@ -117,7 +117,7 @@ function optionC() external {
 
 因此，为了实现这一点，我们利用了名为“unsafe_inc(unit x)”的帮助函数:
 
-```
+```js
   function unsafe_inc(uint x) private pure returns (uint) {
         unchecked { return x + 1; }
     }
@@ -125,7 +125,7 @@ function optionC() external {
 
 我们将在执行“optionD()”时利用这个函数。因此，这是最终且最便宜的函数:
 
-```
+```js
  function optionD() external {
         uint _totalFunds;
         uint[] memory _arrayFunds = arrayFunds;

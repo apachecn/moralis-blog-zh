@@ -102,7 +102,7 @@
 
 “ [App.tsx](https://github.com/ethereum-boilerplate/web3-chat-app-react-native/blob/master/frontend/App.tsx) ”文件是编写应用程序结构代码的地方。这就是我们必须创建一个合适的导航容器的地方:
 
-```
+```js
 function App(): JSX.Element {
   const connector = useWalletConnect();
   const {
@@ -144,7 +144,7 @@ function App(): JSX.Element {
 
 另一个重要的文件是“ [CryptoAuth.js](https://github.com/ethereum-boilerplate/web3-chat-app-react-native/blob/master/frontend/Components/CryptoAuth.js) ”。在其他细节中，它包含“handleCryptoLogin”功能，我们确保聊天窗口在用户登录后显示。下面是涵盖这一方面的部分代码:
 
-```
+```js
   const handleCryptoLogin = () => {
     authenticate({ connector })
       .then(() => {
@@ -177,14 +177,14 @@ function App(): JSX.Element {
 
 通过使用 Moralis 和构造 Moralis 函数，我们可以正确地处理消息:
 
-```
+```js
   const newMessage = new Moralis.Object("Messages");
   const newUserTyping = new Moralis.Object("UserTyping");
 ```
 
 我们将上述内容与“sendMessage”函数结合使用，确保消息保存在 Moralis 服务器数据库中“messages”类的右栏中:
 
-```
+```js
   const sendMessage = () => {
     newMessage.set('userId', currentUserId);
     newMessage.set('message', message);
@@ -198,7 +198,7 @@ function App(): JSX.Element {
 
 设置好上述云功能后，我们可以通过对所有上述云功能使用“getAllMessages”功能在以太坊聊天应用程序中显示消息:
 
-```
+```js
   const getAllMessages = async () => {
     const result = await Moralis.Cloud.run("getAllMessages");
     setMessages(result)
@@ -207,7 +207,7 @@ function App(): JSX.Element {
 
 此外，为了确保应用程序中显示的所有消息都是实时更新的，我们使用了“订阅消息”功能:
 
-```
+```js
   const subscribeToMessages = async () => {
     let query = new Moralis.Query('Messages');
     let subscription = await query.subscribe();
@@ -233,7 +233,7 @@ function App(): JSX.Element {
 
 此外，在“subscribeToMessages”示例之后，我们创建了“subscribeToTyping”函数，该函数将确保在数据库中正确跟踪和标记该操作:
 
-```
+```js
 const subscribeToTyping = async () => {
     let query = new Moralis.Query('UserTyping');
     let subscription = await query.subscribe();
@@ -248,7 +248,7 @@ const subscribeToTyping = async () => {
 
 除了“subscribeToTyping”函数之外，我们还创建了“onChangeText”和“Type”函数来获得我们所追求的功能:
 
-```
+```js
   const onChangeText = (message) => {
     setMessage(message);
     Type(currentUserId);
@@ -271,7 +271,7 @@ const subscribeToTyping = async () => {
 
 此外，我们还需要“stopTyping”功能来检测用户何时停止键入:
 
-```
+```js
   const stopTyping = () => {
     if (otherUserTyping && otherUserTyping.attributes.isTyping) {
       otherUserTyping.set('isTyping', false);

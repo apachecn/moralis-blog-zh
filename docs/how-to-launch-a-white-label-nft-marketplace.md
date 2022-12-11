@@ -86,7 +86,7 @@ https://www.youtube.com/watch?v=EMOYpgl5S1w
 
 为了理解智能合约，我们需要更仔细地研究代码中包含的事件。该契约由四个事件组成:“OfferingPlaced()”、“OfferingClosed()”、“balance retracted()”和“OperatorChanged()”。因此，合同代码看起来是这样的:
 
-```
+```js
 contract MarketPlace{
     event OfferingPlaced(bytes32 indexed offeringId, address indexed hostContract, address indexed offerer, uint tokenId, uint price, string uri);
     event OfferingClosed(bytes32 indexed offeringId, address indexed buyer);
@@ -113,7 +113,7 @@ dApp 的主要文件是“logic.js”，我们将把大部分注意力放在这�
 
 尽管如此，我们在“logic.js”文件中需要注意的第一件事是初始化 Moralis。为此，您需要从服务器获取应用程序 ID 和服务器 URL。您可以通过单击服务器上的“查看详细信息”按钮来获取这些信息。然后，您可以将它复制粘贴到文件中，看起来应该是这样的:
 
-```
+```js
 Moralis.initialize(""); // Application ID from moralis.io
 Moralis.serverURL = ""; // Server URL from moralis.io
 ```
@@ -122,7 +122,7 @@ Moralis.serverURL = ""; // Server URL from moralis.io
 
 接下来，我们有一个名为“Moralis.authenticate()”的基本函数。您可以看到下面的函数，这确保了当用户验证他们自己时，所有正确的函数都被执行:
 
-```
+```js
 Moralis.authenticate().then(function(){
     populateNFTs();
     populateOfferings();
@@ -135,7 +135,7 @@ Moralis.authenticate().then(function(){
 
 剩下的代码确保所有的“填充”和“订阅”函数获得正确的数据。除此之外，代码还确保所有数据都整齐地显示给用户。最后，Moralis 通过从 Moralis 仪表板获取数据的代码片段来处理所有繁重的后端工作。这些代码片段包括以下内容:
 
-```
+```js
 Moralis.Query(“PlacedOfferings”)
 Moralis.Query(“ClosedOfferings”)
 Moralis.Query(“PolygonNFTOwners”)

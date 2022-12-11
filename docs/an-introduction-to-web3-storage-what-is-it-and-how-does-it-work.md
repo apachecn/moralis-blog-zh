@@ -107,7 +107,7 @@ Filecoin 允许任何人作为存储提供商加入和参与，确保极具竞�
 
 如果你想更深入地了解这个过程，可以探索我们的分步指南，“如何将文件上传到 IPFS——全指南 ”。简而言之，只需创建一个 Moralis 帐户，并完成上述步骤。最后，下面的端点完成了任务:
 
-```
+```js
 const response = await Moralis.EvmApi.ipfs.uploadFolder({
 ```
 

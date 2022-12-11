@@ -82,13 +82,13 @@ Moralis 的 Cronos 样板文件为 dapp 提供了极好的基础，具有大多�
 
 接下来，确保您位于正确的位置，对应于您刚刚创建的文件夹，并在终端中输入以下带有 repo URL 的命令:
 
-```
+```js
 git clone “BOILERPLATE_URL”
 ```
 
 如果您运行上面的命令，它应该会将 GitHub repo 克隆到您的本地目录中。在那里，确保通过下面的命令再次导航到正确的文件夹:
 
-```
+```js
 cd ethereum-boilerplate 
 ```
 
@@ -100,7 +100,7 @@ cd ethereum-boilerplate
 
 接下来，项目位于本地目录中，是时候对代码进行一些必要的配置了。更具体地说，您必须打开“. env.local.example”文件，并首先将文件名更改为“. env.local”。以下是该文件的初始代码:
 
-```
+```js
 APP_CHAIN_ID=0x1
 APP_DOMAIN=ethereum.boilerplate
 MORALIS_API_KEY= # Get your KEY https://admin.moralis.io/account/profile
@@ -121,7 +121,7 @@ NEXTAUTH_URL=http://localhost:3000 # replace for production
 
 *这涵盖了您需要处理的所有配置！最后，您的" . env.local "文件应该类似于以下内容:*
 
-```
+```js
 *APP_CHAIN_ID=0x19
 APP_DOMAIN=ethereum.boilerplate
 MORALIS_API_KEY= "YOUR_API_KEY"
@@ -133,21 +133,21 @@ NEXTAUTH_URL=http://localhost:3000*
 
 *完成所有配置后，Cronos dapp 就完成了。但是，在运行 dapp 之前，您还必须安装几个依赖项。为此，在终端中运行以下命令之一，具体取决于您使用的是" *npm"* 还是" *yarn"* :*
 
-```
+```js
 *npm i*
 ```
 
-```
+```js
 *yarn* 
 ```
 
 *接下来，剩下的工作就是通过以下命令之一在本地主机上运行 dapp:*
 
-```
+```js
 *npm run dev*
 ```
 
-```
+```js
 *yarn run dev*
 ```
 

@@ -125,7 +125,7 @@
 
 然后，您将对“hardhat.config.js”文件(12:31)进行必要的调整。您将使用该文件来编译和验证您的智能合约。在文件的顶部，您将添加以下代码行:
 
-```
+```js
 require(“@nomiclabs/hardhat-etherscan”); 
 	const dotenv=require(“dotenv”);
 

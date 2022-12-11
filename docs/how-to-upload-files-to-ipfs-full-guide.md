@@ -4,7 +4,7 @@
 
 得益于 Moralis 的企业级 Web3 APIs，将文件上传到 IPFS 是一个简单的过程。如果您想将文件上传到 IPFS，请继续阅读，我们会一步一步地解释如何设置完整的“upload.js”文件，这样您就可以利用以下 Moralis 端点:
 
-```
+```js
 const response = await Moralis.EvmApi.ipfs.uploadFolder({
 ```
 
@@ -58,7 +58,7 @@ IPFS 是“星际文件系统”的缩写。此外，它是一个分布式系统
 
 有了一个文件，您需要启动一个新的 Moralis 实例。这相对简单，您可以将以下内容添加到您的文件中:
 
-```
+```js
 const Moralis = require("moralis").default;
 const fs = require("fs"); 
 
@@ -82,7 +82,7 @@ async function uploadToIpfs() {
 
 既然您已经初始化了一个新的 Moralis 实例，那么您必须定义一个想要上传到 IPFS 的文件数组。为此，您必须定义一个路径来存储文件和要上传的内容。它应该是这样的:
 
-```
+```js
 const uploadArray = [
         {
             path: "cat.png",
@@ -105,7 +105,7 @@ const uploadArray = [
 
 剩下的工作就是启动 Moralis 的“上传文件夹”端点，并将文件数组作为参数传递:
 
-```
+```js
 const response = await Moralis.EvmApi.ipfs.uploadFolder({
         abi: uploadArray,
     });
@@ -113,13 +113,13 @@ const response = await Moralis.EvmApi.ipfs.uploadFolder({
 
 从那里，您可以添加下面的代码来记录响应，当您最终调用端点时，它提供 IPFS 内容标识符:
 
-```
+```js
 console.log(response.result)
 ```
 
 然而，这应该是“upload.js”文件的完整代码:
 
-```
+```js
 const Moralis = require("moralis").default;
 const fs = require("fs"); 
 
@@ -160,7 +160,7 @@ uploadToIpfs();
 
 在那里，确保您位于之前设置的文件的正确位置，并使用您的文件名运行以下命令:
 
-```
+```js
 node "FILE_NAME"
 ```
 

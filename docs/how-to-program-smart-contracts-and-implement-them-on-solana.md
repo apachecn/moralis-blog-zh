@@ -4,7 +4,7 @@
 
 你如何设计智能合同并实现它们？具体来说，你如何为索拉纳网络实现这一点？请跟随本文，我们将演示如何完成上述任务的三步流程。组成 Solana 智能合同或 Solana 程序的代码行如下所示:
 
-```
+```js
 use solana_program::{
     account_info::AccountInfo,
     entrypoint,
@@ -93,7 +93,7 @@ pub fn process_instruction(
 
 以下是一份基本的 ERC 20 智能合约:
 
-```
+```js
 // contracts/GLDToken.sol
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -110,7 +110,7 @@ contract GLDToken is ERC20 {
 
 下面是一个基本的 ERC-721 智能合同的例子:
 
-```
+```js
 // contracts/GameItem.sol
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -160,7 +160,7 @@ contract GameItem is ERC721URIStorage {
 
 首先打开一个新的 Unix 终端，输入以下命令:
 
-```
+```js
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
@@ -170,7 +170,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 这个过程可能需要一些时间来完成，但这是它的铁锈安装。因此，您可以继续安装 Solana CLI(3:26)。首先，输入以下命令:
 
-```
+```js
 sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
 ```
 
@@ -180,29 +180,29 @@ sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
 
 接下来，您必须创建一个新的本地 Solana 密钥对(本地 wallet)。因此，输入这两个命令:
 
-```
+```js
 mkdir ~/my-solana-wallet
 ```
 
-```
+```js
 solana-keygen new --outfile ~/my-solana-wallet/my-keypair.json
 ```
 
 然后，您可以通过以下方式获取您的钱包地址:
 
-```
+```js
 solana address
 ```
 
 接下来，您还需要设置 devnet 集群:
 
-```
+```js
 solana config set --url https://api.devnet.solana.com
 ```
 
 最后但同样重要的是，你必须得到一些测试 SOL 来覆盖 Solana devnet 上的事务。这个命令将向您空投一个 SOL:
 
-```
+```js
 solana airdrop 1
 ```
 
@@ -220,7 +220,7 @@ solana airdrop 1
 
 然后，使用以下命令创建一个新的 Rust 项目:
 
-```
+```js
 cargo init hello_world --lib
 ```
 
@@ -230,13 +230,13 @@ cargo init hello_world --lib
 
 接下来，进入“hello_world”文件夹。您可以通过输入以下命令来完成此操作:
 
-```
+```js
 cd hello_world
 ```
 
 进入上述文件夹后，继续更新“Cargo.toml”文件中的代码行。只需复制粘贴以下代码行:
 
-```
+```js
 [lib]
 name = "hello_world"
 crate-type = ["cdylib", "lib"]
@@ -248,7 +248,7 @@ crate-type = ["cdylib", "lib"]
 
 然后，打开“src”文件夹中的“lib.rs”文件并删除其内容。接下来，通过输入以下命令添加 Solana 程序包:
 
-```
+```js
 cargo add solana_program
 ```
 
@@ -256,7 +256,7 @@ cargo add solana_program
 
 至此，您已经为添加代码行做好了一切准备，这些代码行将构成您的 Solana 智能合同(Solana 程序)。因此，将以下代码行粘贴到“lib.rs:
 
-```
+```js
 use solana_program::{
     account_info::AccountInfo,
     entrypoint,
@@ -279,13 +279,13 @@ pub fn process_instruction(
 
 有了上面的代码，您就可以继续构建项目了。因此，在您的终端中输入以下命令:
 
-```
+```js
 cargo build-bpf
 ```
 
 一旦上面的命令构建了项目，您就可以使用“ *solana program deploy* ”命令部署您的 Solana 程序。您需要用一个目标路径来补充这个命令。相应地，输入以下命令:
 
-```
+```js
 solana program deploy ./target/deploy/hello_world.so
 ```
 

@@ -8,7 +8,7 @@
 
 通过跟随本教程并完成必要的先决条件，您将学会以两种方式创建以太坊 webhooks:通过 Moralis 的 web UI(用户界面)或用 Moralis JS SDK 编程。如果你想直接进入教程，请进入“*以太坊 web hooks——如何为以太坊设置 web hook*”部分！您还可以在下面找到一个以编程方式设置以太坊 webhook 的代码示例:
 
-```
+```js
 import Moralis from 'moralis';
 import { EvmChain } from "@moralisweb3/evm-utils";
 
@@ -133,7 +133,7 @@ await Moralis.Streams.addAddress({ address, id });
 
 一旦完成了 JS 项目的设置，就可以通过初始化 Moralis 的 SDK 继续。为此，请在 JS 文件的顶部添加以下代码片段:
 
-```
+```js
 import Moralis from 'moralis';
 import { EvmChain } from "@moralisweb3/evm-utils";
 Moralis.start({
@@ -149,7 +149,7 @@ Moralis.start({
 
 接下来，您必须创建一个新的" *stream* "对象，并指定一些属性。这包括链，描述，标签和你的网页挂钩网址。您将在下面找到一个示例:
 
-```
+```js
 const stream = {
   chains: [EvmChain.ETHEREUM, EvmChain.POLYGON], // List of blockchains to monitor
   description: "monitor Bobs wallet", // Your description
@@ -160,7 +160,7 @@ const stream = {
 
 最后，通过调用“ *Moralis”创建一个新的流。Streams.add(stream)* 函数以“ *stream* ”对象为参数，添加一个“ *{ id }* ”对象，以及您要监视的钱包地址:
 
-```
+```js
 const newStream = await Moralis.Streams.add(stream);
 const { id } = newStream.toJSON(); // { id: 'YOUR_STREAM_ID', ...newStream }
 // Now we attach Bobs address to the stream
@@ -170,7 +170,7 @@ await Moralis.Streams.addAddress({ address, id });
 
 因此，您现在应该有一个如下所示的 JS 文件:
 
-```
+```js
 import Moralis from 'moralis';
 import { EvmChain } from "@moralisweb3/evm-utils";
 
@@ -196,7 +196,7 @@ await Moralis.Streams.addAddress({ address, id });
 
 那就涵盖了代码！剩下的工作就是通过在终端中输入以下内容并按回车键来运行程序:
 
-```
+```js
 node “FILE_NAME”
 ```
 
@@ -206,7 +206,7 @@ node “FILE_NAME”
 
 此外，要使流可操作，您必须返回状态代码 200，您将在下面找到测试主体:
 
-```
+```js
 {
   "abi": {},
   "block": {

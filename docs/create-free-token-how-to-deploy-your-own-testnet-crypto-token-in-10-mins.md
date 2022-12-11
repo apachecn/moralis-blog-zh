@@ -40,7 +40,7 @@
 
 4.  将上面复制的地址粘贴到您在代码编辑器中创建的" [network_setting.bash](https://github.com/DanielMoralisSamples/Video_Tutorials/blob/main/04-my_token/scripts/network_settings.bash) "文件中(您可以从 GitHub 使用我们的文件；请务必添加您的详细信息)。因此，代码如下:
 
-```
+```js
 #!/bin/bash
 brownie networks add Ethereum ropsten_test host='YOUR LINK' chainid=3 explorer='https://api-ropsten.exit'
 ```
@@ -53,7 +53,7 @@ brownie networks add Ethereum ropsten_test host='YOUR LINK' chainid=3 explorer='
 
 我们将使用 VSC 来创建名为“ [my_token.sol](https://github.com/DanielMoralisSamples/Video_Tutorials/blob/main/04-my_token/contracts/my_token.sol) ”的智能合约。您可以自己键入，或者简单地复制下面的代码行，并根据您的详细信息进行更改:
 
-```
+```js
 // SDPX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 

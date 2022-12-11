@@ -119,7 +119,7 @@ Moralis 为构建高性能 dapps 提供了单一的 Web3 工作流。它使你�
 
 有关详细的代码演练，请观看本文底部的视频，从 9:41 开始。但是，我们想简要地看一下我们的 minter dapp 的主要函数，“MintNft()”，它是由“mint”按钮调用的:
 
-```
+```js
    public async void MintNft()
         {
             if (contractAddress == string.Empty || contractAbi == string.Empty || contractFunction == string.Empty)
@@ -163,7 +163,7 @@ Moralis 为构建高性能 dapps 提供了单一的 Web3 工作流。它使你�
 
 下面是“执行”功能:
 
-```
+```js
         private async UniTask<string> ExecuteMinting(string tokenUrl)
         {
             // Dummy TokenId based on current time.

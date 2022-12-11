@@ -128,7 +128,7 @@ https://www.youtube.com/watch?v=32LHYSyv6Ko
 
 我们可以继续向下滚动到“//道德信用”部分:
 
-```
+```js
 // Moralis creds
 const serverUrl = process.env.SERVER_URL;
 const appId = process.env.APP_ID;
@@ -148,7 +148,7 @@ const apiKey = process.env.API_KEY;
 
 对“config.js”和“index.js”文件的所有配置完成后，我们可以简单地继续并开始生成艺术品。这相对简单，您只需在终端中输入以下内容:
 
-```
+```js
 node index.js
 ```
 
@@ -174,7 +174,7 @@ node index.js
 
 接下来，我们需要一个智能合同，我们可以用它来创建非功能性交易。在这种情况下，我们将利用一个已经开发好的契约:“ [NFTcontract.sol](https://github.com/ashbeech/moralis-mutants-nft-engine/blob/main/NFTContract.sol) ”。我们将利用 [Remix](https://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null) 来创建这个合同，因为这使得合同的编译和部署更加容易。完整的合同看起来是这样的:
 
-```
+```js
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 

@@ -13,7 +13,7 @@
 
 如果你想直接跳到教程，向下滚动到“*如何设置和使用 Polygon Webhooks with Moralis* ”部分！此外，您将在下面的代码片段中找到以编程方式设置多边形 webhook 的完整代码:
 
-```
+```js
 import Moralis from 'moralis';
 import { EvmChain } from "@moralisweb3/evm-utils";
 
@@ -121,7 +121,7 @@ Web3 webhooks 与传统的 webhooks 有着相同的用途:支持跨系统通信�
 
 在设置了 JavaScript 文件并安装了依赖项之后，是时候初始化 Moralis SDK 了。为此，复制下面的代码片段，并将其添加到 JavaScript 文件的顶部:
 
-```
+```js
 import Moralis from 'moralis';
 import { EvmChain } from "@moralisweb3/evm-utils";
 Moralis.start({
@@ -137,7 +137,7 @@ Moralis.start({
 
 接下来，创建一个名为" *stream"* 的新对象，并添加以下属性:链、描述、标签和 webhook URL。下面，您将看到它应该是什么样子的示例:
 
-```
+```js
 const stream = {
   chains: [EvmChain.ETHEREUM, EvmChain.POLYGON], // List of blockchains to monitor
   description: "monitor Bobs wallet", // Your description
@@ -148,7 +148,7 @@ const stream = {
 
 从那里，使用“*流*”对象来调用道德家的“*”道德家。Streams.add(stream)* "函数。最后，创建一个新的“{ *id* }”对象，并添加您要监视的钱包地址:
 
-```
+```js
 const newStream = await Moralis.Streams.add(stream);
 const { id } = newStream.toJSON(); // { id: 'YOUR_STREAM_ID', ...newStream }
 // Now we attach Bobs address to the stream
@@ -158,7 +158,7 @@ await Moralis.Streams.addAddress({ address, id });
 
 最终，您的 JavaScript 文件应该看起来像这样:
 
-```
+```js
 import Moralis from 'moralis';
 import { EvmChain } from "@moralisweb3/evm-utils";
 
@@ -184,7 +184,7 @@ await Moralis.Streams.addAddress({ address, id });
 
 这涵盖了如何用 Moralis 以编程方式设置一个多边形 webhook！剩下的工作就是打开终端，用文件名运行下面的代码:
 
-```
+```js
 node “FILE_NAME”
 ```
 
@@ -222,7 +222,7 @@ node “FILE_NAME”
 
 不管你是通过编程还是通过 Moralis 的网络用户界面来创建多边形网络钩子；当启动一个新的流时，您将总是收到一个多边形测试 webhook。因此，要使流完全运行，您必须返回状态代码 200。您可以在下面找到测试主体:
 
-```
+```js
 {
   "abi": {},
   "block": {

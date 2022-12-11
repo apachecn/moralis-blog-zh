@@ -84,7 +84,7 @@
 
 您将通过以下代码行获得“logic.js”文件夹中的绘图数据(视频如下 45:16 所示):
 
-```
+```js
 function setPlotData() {
     const plotID = ethers.utils.id(JSON.stringify(plotView));
     document.getElementById("plotX").value = plotView.plotX
@@ -98,7 +98,7 @@ function setPlotData() {
 
 这里，图 ID 是最重要的数据，您将使用 [Ethers.js 库](https://moralis.io/javascript-libraries-ethers-js-vs-web3-js/)对其进行“散列”。后者包含在道德中。这行代码授予对它的访问权限:
 
-```
+```js
 const ethers = Moralis.web3Library;
 ```
 
@@ -116,14 +116,14 @@ const ethers = Moralis.web3Library;
 
 使用 Moralis 非常简单。Moralis 让创建各种 dapp([去中心化应用](https://moralis.io/decentralized-applications-explained-what-are-dapps/))变得轻而易举，包括 metaverses。完成初始设置只需几分钟。因此，在创建你的免费 Moralis 账户后，你可以[登录](https://admin.moralis.io/login)到你的 Moralis 管理区，[创建你的 Moralis 服务器](https://docs.moralis.io/moralis-dapp/getting-started/create-a-moralis-dapp#2.-create-a-moralis-server) (57:36)。一旦您的服务器启动并运行，您就可以获得它的详细信息(服务器 URL 和应用程序 ID)。然后，将这些细节添加到“logic.js”文件的顶部:
 
-```
+```js
 const serverUrl = "PASTE YOUR SERVER URL";
 const appId = "PASTE YOUR  APP ID";
 ```
 
 上面几行代码将使您能够访问 Moralis 的 SDK，但是您还需要包含一些其他的 Web3 常量:
 
-```
+```js
 const contractAddress = ""; // your own contract
 const contractABI = []; // your contract’s ABI
 ```

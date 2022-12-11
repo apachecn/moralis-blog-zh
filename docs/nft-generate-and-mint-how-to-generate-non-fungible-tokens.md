@@ -75,7 +75,7 @@ Moralis 提供的服务器已经准备好了，现在您可以开始构建 NFT m
 
 对于这个简单的 flask dApp，我们使用“run.py”来触发目录中的所有内容。使用以下代码:
 
-```
+```js
 from app import app		
 if __name__ == "__main__": app.run()
 ```
@@ -92,7 +92,7 @@ if __name__ == "__main__": app.run()
 
 要在您的 NFT 项目中初始化 Moralis，您需要从上一步中获得的服务器信息。输入以下几行:
 
-```
+```js
 Moralis.initialize(""); // Application ID from moralis.io 
 Moralis.serverURL = ""; // Server URL from moralis.io
 ```
@@ -101,7 +101,7 @@ Moralis.serverURL = ""; // Server URL from moralis.io
 
 现在您已经用几行代码初始化了 Moralis(就这么简单),接下来继续智能契约。输入以下内容:
 
-```
+```js
 const nft_contract_address = "" //NFT Minting Contract Use This One "Batteries Included", code of this contract is in the github repository under contract_base for your reference.
 /*
 
@@ -123,7 +123,7 @@ BSC Testnet 0x88624DD1c725C6A95E223170fa99ddB22E1C6DDD */
 
 ##### **文件选择和上传**
 
-```
+```js
 <div class="input-group mb-3">
             <input type="file" disabled = "true" id="file">
           </div>
@@ -141,7 +141,7 @@ BSC Testnet 0x88624DD1c725C6A95E223170fa99ddB22E1C6DDD */
 
 完成 HTML 索引文件后，继续 JavaScript 部分。既然已经初始化了 Moralis 和智能契约，现在就可以编写将 dApp 连接到 MetaMask 的代码了。
 
-```
+```js
 async function login(){
   document.getElementById('submit').setAttribute("disabled", null);
   document.getElementById('username').setAttribute("disabled", null);
@@ -162,7 +162,7 @@ async function login(){
 
 添加上述代码后，下一步是启用上传功能。有了这个功能，很容易将对象保存到 IPFS 或你的道德服务器。这完全取决于你喜欢哪种储物解决方案。您可以通过键入以下代码来实现这一点:
 
-```
+```js
 async function upload(){
   const fileInput = document.getElementById("file");
   const data = fileInput.files[0];
@@ -189,7 +189,7 @@ async function upload(){
 
 Moralis 允许您使用 IPFS 以分散的方式保存文件。以下命令可以实现这一点:
 
-```
+```js
 await imageFile.saveIPFS();
 ```
 
@@ -197,13 +197,13 @@ await imageFile.saveIPFS();
 
 要从 Moralis 获取 URI，请键入以下代码:
 
-```
+```js
 const imageURI = imageFile.ipfs();
 ```
 
 ### **创建元数据对象**
 
-```
+```js
 Const metadata = {
 	“name”: document.getElementById(“name”).value,
 	“description”: document.getElementById (“description”).value,
@@ -217,7 +217,7 @@ Const metadata = {
 
 您可以在 IPFS 中将元数据存储为 JSON 对象或文件，如下所示:
 
-```
+```js
 const metadataFile = new Moralis.File("metadata.json", {base64 : btoa(JSON.stringify(metadata))});
   await metadataFile.saveIPFS();
   const metadataURI = metadataFile.ipfs();
@@ -231,7 +231,7 @@ const metadataFile = new Moralis.File("metadata.json", {base64 : btoa(JSON.strin
 
 您终于准备好创建 mint 函数了，这是“NFT 生成和 mint”过程的最后一步。下面的代码启用了它:
 
-```
+```js
 async function mintToken(_uri){
   const encodedFunction = web3.eth.abi.encodeFunctionCall({
     name: "mintToken",

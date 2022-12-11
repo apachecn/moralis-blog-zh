@@ -73,20 +73,20 @@
 
 查看“index.html”文件，我们首先需要包含“ ”元素内的所有包。这是添加 Moralis 包的代码行:
 
-```
+```js
 <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
 ```
 
 另外两行代码起着重要作用，您可以在其中添加上一节中获得的服务器详细信息:
 
-```
+```js
 Moralis.initialize("YOUR APP ID HERE");
 Moralis.serverURL = "YOUR SERVER URL HERE";
 ```
 
 “logic.js”文件的前两行也是如此:
 
-```
+```js
 const serverUrl = "YOUR SERVER URL HERE";
 const appId = "YOUR APP ID HERE";
 ```
@@ -97,7 +97,7 @@ const appId = "YOUR APP ID HERE";
 
 通过内置的[元掩码认证](https://moralis.io/how-to-authenticate-with-metamask/)，Moralis 使登录功能变得极其简单。只需点击一个按钮，然后进行元掩码确认，用户就可以通过身份验证。此外，我们可以编写代码，在用户登录后自动显示他们的余额。这正是我们将为示例 DeFi 仪表板所做的。下面是“index.html”文件中包含身份验证的几行代码:
 
-```
+```js
     async function login() {
           let user = Moralis.User.current();
           if (!user) {
@@ -154,7 +154,7 @@ const appId = "YOUR APP ID HERE";
 
 为了利用这些数据，我们使用“logic.js”文件。在代码中，我们有多个查询。例如，我们在“displayTokens”和“displayNFTS”函数中使用它。以下是“显示令牌”功能的一部分:
 
-```
+```js
 async function displayTokens(chn, chnSymbol, nativeAdd, nativeDecimals,dbRef, dbRefNative, htmlRef){
     const query = new Moralis.Query(dbRef)
     query.equalTo("address", Moralis.User.current().get("ethAddress"))
@@ -179,7 +179,7 @@ async function displayTokens(chn, chnSymbol, nativeAdd, nativeDecimals,dbRef, db
 
 此外，下面是“displayNFTS”函数的代码:
 
-```
+```js
 async function displayNFTS(chn, dbRef){
     const query = new Moralis.Query(dbRef)
     query.equalTo("owner_of", Moralis.User.current().get("ethAddress"))

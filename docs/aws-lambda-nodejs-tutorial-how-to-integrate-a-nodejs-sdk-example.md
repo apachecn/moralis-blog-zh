@@ -100,13 +100,13 @@ NodeJS 是一个开源的、跨平台的 JavaScript 运行时环境。更重要�
 
 由于您在第一步中安装了 AWS CLI，因此从这里开始，通过运行以下命令来配置凭据:
 
-```
+```js
 aws configure
 ```
 
 运行该命令会提示您的终端，您必须添加您的“ *AWS 访问密钥 ID* 和“ *AWS 秘密访问密钥*”。它应该是这样的:
 
-```
+```js
 AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
 AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 Default region name [None]: ENTER
@@ -117,7 +117,7 @@ Default output format [None]: ENTER
 
 现在您已经完成了 AWS 凭证的配置，这一小节将介绍应用程序本身的设置过程。因此，首先，创建一个新文件夹并用 IDE 打开它。从那里，再次打开一个新的终端并运行下面的命令:
 
-```
+```js
 serverless
 ```
 
@@ -155,7 +155,7 @@ serverless
 
 此外，添加您的 Moralis API 键作为环境变量。为此，请用以下代码片段替换“serverless.yml”中的代码:
 
-```
+```js
 service: aws-node-project
 
 frameworkVersion: '3'
@@ -181,7 +181,7 @@ functions:
 
 首先，打开终端并导航到项目的根文件夹。您可以通过运行" *cd 'FOLDER_NAME'* "来完成此操作。在那里，您可以通过运行以下命令来安装 Moralis:
 
-```
+```js
 npm install moralis
 ```
 
@@ -199,7 +199,7 @@ npm install moralis
 
 然后，您可以通过打开“serverless.yml”文件并更改函数的名称和处理程序来继续。它现在看起来应该类似于这样:
 
-```
+```js
 service: aws-node-project
 
 frameworkVersion: '3'
@@ -217,13 +217,13 @@ functions:
 
 接下来，是时候通过添加 Moralis 的“getNativeBalance”功能来定制函数了。为此，导航回“getNativeBalance.js ”,开始添加道德要求:
 
-```
+```js
 const Moralis = require('moralis').default;
 ```
 
 然后，您可以添加下面的代码片段，使用指定为环境变量的 Web3 API 键来初始化 Moralis:
 
-```
+```js
 const startMoralis = async () => {
   await Moralis.start({
     apiKey: process.env.MORALIS_API_KEY
@@ -235,7 +235,7 @@ startMoralis();
 
 最后，用下面的代码替换整个" *module.exports.handler* "来实现所需的 SDK 方法:
 
-```
+```js
 module.exports.handler = async (event) => {
   // Get native balance
   const nativeBalance = await Moralis.EvmApi.balance.getNativeBalance({
@@ -254,7 +254,7 @@ module.exports.handler = async (event) => {
 
 最终，您的“getNativeBalance.js”文件应该看起来像这样:
 
-```
+```js
 'use strict';
 const Moralis = require('moralis').default;
 
@@ -292,7 +292,7 @@ module.exports.handler = async (event) => {
 
 从那里，打开“serverless.yml”文件，并在“函数”部分添加以下代码:
 
-```
+```js
 getWalletNfts:
     handler: functions/getWalletNfts.handler
 ```
@@ -301,7 +301,7 @@ getWalletNfts:
 
 最后，通过将以下代码添加到“getWalletNfts.js”文件来完成“ *getWalletNfts* ”函数:
 
-```
+```js
 'use strict';
 const Moralis = require('moralis').default;
 
@@ -341,7 +341,7 @@ module.exports.handler = async (event) => {
 
 然后可以添加一个“*地址*和“*链*作为参数。它可能看起来像这样:
 
-```
+```js
 {
     "address": "0x99EXAMPLEADDRESS",
     "chain": "chain_id"
@@ -350,7 +350,7 @@ module.exports.handler = async (event) => {
 
 然而，正如您从代码片段中看到的，您需要添加您想要余额的钱包地址和您想要查询的链的 ID。从那里，您可以测试这些函数，例如，在终端中输入以下内容来测试" *getNativeBalance* "函数:
 
-```
+```js
 serverless invoke -f getNativeBalance --path event.json
 ```
 
@@ -360,7 +360,7 @@ serverless invoke -f getNativeBalance --path event.json
 
 既然您已经确保一切正常，剩下的工作就是将您的项目部署到 AWS。为此，请确保您位于项目的根文件夹中，并在终端中运行以下命令:
 
-```
+```js
 serverless deploy
 ```
 

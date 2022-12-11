@@ -8,7 +8,7 @@
 
 上图中步骤的可访问性如下所示，在这里您可以找到通过 Moralis 的 JavaScript SDK 以编程方式设置 Web3 流的完整代码。该流根据地址监控钱包活动，确保您收到所有交易的 Moralis webhooks:
 
-```
+```js
 import Moralis from 'moralis';
 import { EvmChain } from "@moralisweb3/evm-utils";
 
@@ -105,13 +105,13 @@ await Moralis.Streams.addAddress({ address, id });
 
 首先，打开您首选的集成开发环境(IDE)并设置一个 JavaScript 项目。在项目文件夹中，创建一个新文件并安装所有 Moralis 依赖项。如果您使用 NodeJS，请打开一个终端并运行以下命令:
 
-```
+```js
 npm install moralis
 ```
 
 使用 JavaScript 项目，打开文件，通过在文件顶部添加以下代码片段来初始化 Moralis JavaScript SDK:
 
-```
+```js
 import Moralis from 'moralis';
 import { EvmChain } from "@moralisweb3/evm-utils";
 
@@ -126,7 +126,7 @@ Moralis.start({
 
 将密钥添加到 JavaScript 文件并初始化 Moralis 后，您可以创建一个新的" *stream* "对象，您必须向其中添加一些参数。具体来说，您需要指定链、描述、标签和 webhook URL。为了澄清事情，它可能是这样的:
 
-```
+```js
 const stream = {
   chains: [EvmChain.ETHEREUM, EvmChain.POLYGON], // List of blockchains to monitor
   description: "monitor Bobs wallet", // Your description
@@ -137,7 +137,7 @@ const stream = {
 
 最重要的是，称之为道德。Streams.add(stream) "函数，并将“ *stream* ”对象作为参数传递。结合调用函数，添加一个新的“ *{ id }* ”对象和您要监视的钱包地址:
 
-```
+```js
 const newStream = await Moralis.Streams.add(stream);
 const { id } = newStream.toJSON(); // { id: 'YOUR_STREAM_ID', ...newStream }
 
@@ -149,7 +149,7 @@ await Moralis.Streams.addAddress({ address, id });
 
 因此，您现在应该有一个 JavaScript 文件，其代码类似于下面的代码:
 
-```
+```js
 import Moralis from 'moralis';
 import { EvmChain } from "@moralisweb3/evm-utils";
 
@@ -175,7 +175,7 @@ await Moralis.Streams.addAddress({ address, id });
 
 从这里开始，剩下的就是运行程序了。为此，在 JavaScript 文件中打开一个新的终端“ *cd* ，并运行下面的命令:
 
-```
+```js
 node “FILE_NAME”
 ```
 
@@ -183,7 +183,7 @@ node “FILE_NAME”
 
 每当你创建一个新的流，无论你是通过编程还是通过 Moralis 的管理面板，你都会收到一个 Moralis 测试 webhook。因此，要使流可操作，您需要返回状态代码 200。你可以在下面找到测试体的样子:
 
-```
+```js
 {
   "abi": {},
   "block": {

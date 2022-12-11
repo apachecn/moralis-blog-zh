@@ -44,7 +44,7 @@ Parse 是 Parse Server 的创始人，Parse Server 是一个开源的后端即�
 
 首先，您需要安装解析服务器包。为此，使用" *yarn add parse-server* "命令。然后，您需要初始化您的解析服务器。因此，创建“parseServer.ts”文件并添加以下代码行:
 
-```
+```js
 import { ParseServer } from 'parse-server';
 
 export const parseServer = new ParseServer({
@@ -64,7 +64,7 @@ export const parseServer = new ParseServer({
 
 如上所述，如果您想要访问数据库，您必须设置一个仪表板。因此，使用" *yarn add parse-dashboard* "命令。此外，就像您使用解析服务器一样，您需要按照相同的步骤初始化您的仪表板。因此，创建“parseDashboard.ts”文件并粘贴以下代码行:
 
-```
+```js
 import ParseDashboard from 'parse-dashboard';
 
 export const parseDashboard = new ParseDashboard({
@@ -87,7 +87,7 @@ export const parseDashboard = new ParseDashboard({
 
 要开始集成过程，首先使用" *yarn add moralis* "命令安装 Moralis SDK。接下来，用以下代码行初始化 Moralis:
 
-```
+```js
 import Moralis from 'moralis';
 
 Moralis.start({
@@ -117,7 +117,7 @@ Moralis.start({
 
 因此，安装并启动了 Moralis SDK 之后，您必须创建自己的身份验证适配器。此外，后者将结合 Moralis Web3 Auth API 来验证身份验证请求。相应地，创建“MoralisAuthAdapter.ts”文件，并用以下代码行填充它:
 
-```
+```js
 function validateAuthData(authData: any) {
   const { message, signature, network, id, authId } = authData;
 
@@ -162,7 +162,7 @@ export default {
 
 此外，为了正确设置您的身份验证适配器，您需要将它添加到您的自托管解析服务器初始化器中。因此，相应地更新您的“parseServer.ts”文件:
 
-```
+```js
 import { ParseServer } from 'parse-server';
 import MoralisAuthAdapter from './auth/MoralisAuthAdapter';
 
@@ -186,7 +186,7 @@ export const parseServer = new ParseServer({
 
 有了身份验证适配器，还需要创建身份验证服务。此外，后者将负责向解析服务器请求消息和验证。因此，创建“authService.ts”文件，并用以下代码行填充它:
 
-```
+```js
 import Moralis from 'moralis';
 import { authRequests } from '../store';
 import { ParseServerRequest } from '../utils/ParseServerRequest';
@@ -266,7 +266,7 @@ export async function verifyMessage({ network, signature, message }) {
 
 这些代码行将所有这些联系在一起，以便您的后端正常运行:
 
-```
+```js
 import Moralis from 'moralis';
 import express from 'express';
 import cors from 'cors';
@@ -305,14 +305,14 @@ app.listen(config.PORT, () => {
 
 因此，在这一点上，是时候创建你的前端。因此，为了确保前端的所有功能都正常，您需要从添加" *ethers* 和" *axios* 依赖关系开始:
 
-```
+```js
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
 ```
 
 此外，您需要适当的代码行来检索关于用户钱包的基本信息。由于我们决定使用元掩码，下面的方法可以解决这个问题:
 
-```
+```js
 const connectToMetamask = async () => {
   const provider = new ethers.providers.Web3Provider(window.ethereum, 'any');
 
@@ -335,7 +335,7 @@ const connectToMetamask = async () => {
 
 此外，这是包括上述认证流程的功能:
 
-```
+```js
 const handleAuth = async () => {
   // Connect to Metamask
   const { signer, chain, account } = await connectToMetamask();

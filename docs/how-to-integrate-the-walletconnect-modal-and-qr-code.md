@@ -97,29 +97,29 @@
 
 具备了上述先决条件，您就可以安装所需的依赖项了。因此，您可以使用以下命令之一(取决于您的软件包管理器)来安装 Moralis、NextAuth 和 Axios:
 
-```
+```js
 npm install moralis next-auth axios
 ```
 
-```
+```js
 yarn add moralis next-auth axios
 ```
 
-```
+```js
 pnpm add moralis next-auth axios
 ```
 
 此外，您还需要使用以下命令之一安装 wagmi Web3 库:
 
-```
+```js
 npm install wagmi ethers
 ```
 
-```
+```js
 yarn add wagmi ethers
 ```
 
-```
+```js
 pnpm add wagmi ethers
 ```
 
@@ -143,7 +143,7 @@ pnpm add wagmi ethers
 
 NextJS 使用“App”组件来初始化页面，您可以覆盖它来控制页面初始化。为此，用“ *WagmiConfig* ”和“ *SessionProvider* ”来包装您的页面。因此，在“pages”文件夹中创建“_app.jsx”文件。然后，使用以下代码行填充该文件:
 
-```
+```js
 import { createClient, configureChains, defaultChains, WagmiConfig } from 'wagmi';
 import { publicProvider } from 'wagmi/providers/public';
 import { SessionProvider } from 'next-auth/react';
@@ -173,7 +173,7 @@ export default MyApp;
 
 通过创建一个新的 API 文件并将其命名为“request-message.js”来开始这一步。确保在“auth”文件夹中创建该文件。后者应该在“pages/api”里面。此外，该端点将向" *Moralis 发出请求。Auth* ”来生成唯一的消息。稍后，您需要在客户端对该消息进行签名。下面是您需要复制粘贴到“request-message.js”中的代码行:
 
-```
+```js
 import Moralis from 'moralis';
 
 const config = {
@@ -208,7 +208,7 @@ export default async function handler(req, res) {
 
 完成初始设置并准备好“_app.jsx”和“request-message.js”文件后，就可以集成 WalletConnect 了。首先在“pages”文件夹中创建“signin.jsx”文件。一旦您按照我们的说明填充该文件，它将作为一个新页面。首先，输入以下内容:
 
-```
+```js
 function SignIn() {
     return (
         <div>
@@ -222,7 +222,7 @@ export default SignIn;
 
 继续，您需要创建“通过 WalletConnect 验证”按钮，如上面的演示所示。而且，就目前而言，还有“ *console.log* ”用户的详细资料。您将通过更新您的“signin.jsx”文件来实现这两个目标，如下所示:
 
-```
+```js
 import { useConnect } from 'wagmi';
 import { InjectedConnector } from 'wagmi/connectors/injected';
 import axios from 'axios';
@@ -253,7 +253,7 @@ export default SignIn;
 
 有了上面几行代码，您已经拥有了 Web3 身份验证页面的外观。因此，是时候添加实际的 Web3 功能了。因此，从扩展“ *handleAuth* ”功能开始。您将使用后者来调用之前创建的“ *requestMessage* ”端点。因此，更新“signin.jsx”脚本以匹配下面的代码行:
 
-```
+```js
 import { useAccount, useConnect, useSignMessage, useDisconnect } from 'wagmi';
 import { InjectedConnector } from 'wagmi/connectors/injected';
 import axios from 'axios';
@@ -306,7 +306,7 @@ export default SignIn;
 
 为了正确配置 NextAuth，请创建“[…nextauth]。js”文件。另外，确保该文件位于“auth”文件夹中(路径:“pages/api/auth/”)。然后，将以下代码添加到该文件中:
 
-```
+```js
 import CredentialsProvider from 'next-auth/providers/credentials';
 import NextAuth from 'next-auth';
 import Moralis from 'moralis';
@@ -367,7 +367,7 @@ export default NextAuth({
 
 至于对“signin.jsx”文件的最后调整，您需要为它配备 NextAuth 身份验证。此外，您还将从 wagmi 导入“ *WalletConnectConnector* ，从 Next 导入“ *useRouter* ”。此外，下面几行代码也将适当扩展“*签到*功能:
 
-```
+```js
 import { signIn } from 'next-auth/react';
 import { useAccount, useConnect, useSignMessage, useDisconnect } from 'wagmi';
 import { useRouter } from 'next/router';
@@ -430,7 +430,7 @@ export default SignIn;
 
 在上面的步骤中，您已经完成了“登录”页面。然而，如果您还记得上面的演示，我们的示例 dapp 也有“用户”页面。因此，重新访问“pages”文件夹并创建一个新文件——“user . jsx”。使用以下代码行确保该页面显示一些基本的用户信息，并提供“注销”按钮:
 
-```
+```js
 import { getSession, signOut } from 'next-auth/react';
 
 // Gets a prop from getServerSideProps

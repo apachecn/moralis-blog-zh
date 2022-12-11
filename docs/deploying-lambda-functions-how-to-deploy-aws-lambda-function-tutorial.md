@@ -91,13 +91,13 @@ AWS Lambda 是基于事件驱动的无服务器架构的计算服务。AWS Lambd
 
 现在，由于您在上一节中安装了 AWS CLI，您可以通过运行以下命令来配置您的 AWS 凭据:
 
-```
+```js
 aws configure
 ```
 
 一旦运行“ *aws configure* ”，您将需要在终端中输入一些数据并进行一些选择。因此，首先输入您的“ *AWS 访问密钥 ID* ”。其次，对“ *AWS 秘密访问密钥”*进行同样的操作。最后，对于区域名称和输出格式，按 enter 键。最终，它应该是这样的:
 
-```
+```js
 AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
 AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 Default region name [None]: ENTER
@@ -108,7 +108,7 @@ Default output format [None]: ENTER
 
 在这一小节中，我们将向您展示如何使用无服务器框架工具来设置项目的准系统状态。因此，若要继续，请创建一个新文件夹并用 IDE 打开它。然后，您可以打开一个新的终端并运行以下命令:
 
-```
+```js
 serverless
 ```
 
@@ -142,7 +142,7 @@ serverless
 
 最后，您需要添加您的 Moralis API 密钥，这可以通过用以下代码片段替换“serverless.yml”文件中的代码来完成:
 
-```
+```js
 service: aws-node-project
 
 frameworkVersion: '3'
@@ -168,7 +168,7 @@ functions:
 
 然而，在深入研究这些函数的代码之前，您必须安装 Moralis 依赖项。因此，再次打开终端，将“*CD”*放入项目的根文件夹，并运行以下命令:
 
-```
+```js
 npm install moralis
 ```
 
@@ -190,13 +190,13 @@ npm install moralis
 
 接下来，导航回“getNativeBalance.js”文件并添加 Moralis 的“ *getNativeBalance()* ”功能，首先输入 Moralis 要求:
 
-```
+```js
 const Moralis = require('moralis').default;
 ```
 
 接下来，您必须用前面指定的 Web3 API 密钥初始化 Moralis。因此，在道德要求下输入以下代码片段:
 
-```
+```js
 const startMoralis = async () => {
   await Moralis.start({
     apiKey: process.env.MORALIS_API_KEY
@@ -208,7 +208,7 @@ startMoralis();
 
 最后，您需要做的最后一件事是用下面的代码替换完整的" *module.exports.handler* "部分。这样，您将实现正确的 SDK 方法:
 
-```
+```js
 module.exports.handler = async (event) => {
   // Get native balance
   const nativeBalance = await Moralis.EvmApi.balance.getNativeBalance({
@@ -227,7 +227,7 @@ module.exports.handler = async (event) => {
 
 这涵盖了第一个" *getNativeBalance()* "函数，现在您应该有一个类似于下面的文件:
 
-```
+```js
 'use strict';
 const Moralis = require('moralis').default;
 
@@ -267,7 +267,7 @@ module.exports.handler = async (event) => {
 
 最后，将以下代码添加到“getWalletNfts.js”文件中:
 
-```
+```js
 'use strict';
 const Moralis = require('moralis').default;
 
@@ -303,7 +303,7 @@ module.exports.handler = async (event) => {
 
 在这里，将钱包地址和链 ID 作为参数添加到文件中。它应该是这样的:
 
-```
+```js
 {
     "address": "0x99EXAMPLEADDRESS",
     "chain": "chain_id"
@@ -312,7 +312,7 @@ module.exports.handler = async (event) => {
 
 一旦添加了钱包地址和链 ID，就可以运行测试了。因此，假设您想要尝试“ *getNativeBalance()* ”函数。在这种情况下，打开一个新的终端，并运行以下命令:
 
-```
+```js
 serverless invoke -f getNativeBalance --path event.json
 ```
 
@@ -322,7 +322,7 @@ serverless invoke -f getNativeBalance --path event.json
 
 一旦您知道函数按预期工作，您必须部署您的 AWS Lambda 应用程序。为了部署 Lambda 函数，请确保您位于项目的根文件夹中，并在新的终端中运行以下命令:
 
-```
+```js
 serverless deploy
 ```
 

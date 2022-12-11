@@ -68,7 +68,7 @@ https://www.youtube.com/watch?v=3Ij6wp0fuXw
 
 实例启动并运行后，我们可以单击相关服务器的“查看详细信息”按钮。在可用信息中，您将找到服务器 URL 和应用程序 ID。现在，有了这些信息，您可以继续创建一个 JavaScript 文件。在该文件中，您将使用先前获取的信息并输入以下内容:
 
-```
+```js
 Moralis.initialize("paste Moralis app ID here”);
 Moralis.serverURL = "paste Moralis server URL here”;
 ```
@@ -83,7 +83,7 @@ Moralis.serverURL = "paste Moralis server URL here”;
 
 正如你从上面的图片中看到的，我们最初只有一个登录按钮。用户登录后，会出现“注销”或“测试签名”的附加选项。因此，我们需要将这些按钮添加到 HTML 代码中。下面是登录按钮的代码示例:
 
-```
+```js
 <button id=”btn-auth">Login</button>
 ```
 
@@ -109,7 +109,7 @@ Moralis.serverURL = "paste Moralis server URL here”;
 
 最初，这个函数使用元掩码验证用户，除非传递了一个参数。在这种情况下，我们希望使用 WalletConnect 对用户进行身份验证，这意味着我们需要输入一个提供者作为参数。在本例中，我们创建了一个“const ”,最初在 JavaScript 文件中用“walletconnect”对其赋值。然后，我们简单地使用这个“const”并在调用“Moralis.authenticate()”函数时将其作为参数传递。此外，在调用“Moralis.enableWeb3()”函数时，我们还将相同的“const”作为参数传递。因此，完整的函数如下所示:
 
-```
+```js
 async function authenticate() {
  try {
   user = await Moralis.authenticate({ provider });
@@ -125,7 +125,7 @@ async function authenticate() {
 
 接下来，我们还需要“enableWeb3()”函数来指定提供者。由于我们希望使用 WalletConnect 对用户进行身份验证，因此我们将再次使用相同的“const ”,并将其作为参数传递。因此，这个函数看起来是这样的:
 
-```
+```js
 async function enableWeb3() {
  try {
   web3 = await Moralis.enableWeb3({ provider });

@@ -58,7 +58,7 @@ Solana 的智能合约架构与更传统的 EVM 区块链模型略有不同。�
 
 ****我们三个 Solana 样本智能合约中的第一个，“ [*hello_world*](https://github.com/JohnVersus/solana-contracts/blob/main/hello_world/src/lib.rs) ”相对简单。您可以在下面找到该智能合约的完整代码:****
 
-```
+```js
 **use solana_program::{
     account_info::AccountInfo, entrypoint, entrypoint::ProgramResult, msg, pubkey::Pubkey,
 };
@@ -81,7 +81,7 @@ pub fn hello_world(
 
 ****接下来，让我们仔细看看“[](https://github.com/JohnVersus/solana-contracts/blob/main/tic_tac_toe/src/lib.rs)*”第二样智能契约。这个契约比上一个契约更复杂，因为它处理了多人井字游戏的逻辑。然而，这是索拉纳智能合约的全部代码:*****
 
-```
+```js
 ***use borsh::{BorshDeserialize, BorshSerialize};
 use solana_program::{
     account_info::AccountInfo, entrypoint, entrypoint::ProgramResult, msg, pubkey::Pubkey,
@@ -239,7 +239,7 @@ pub fn tic_tac_toe(
 
 *****我们三个初始索拉纳样本智能合约的最后一个是“ [*【微博】*](https://github.com/JohnVersus/solana-contracts/blob/main/micro_blog/src/lib.rs) ”。就像第一个例子一样，这是一个相对简单的契约。下面，您将看到完整的代码:*****
 
-```
+```js
 ***use borsh::{BorshDeserialize, BorshSerialize};
 use std::str;
 
@@ -310,7 +310,7 @@ pub fn micro_blog(
 
 此外，我们提出 Metaplex 是因为我们下面展示的索拉纳 NFT 智能合约就是基于该协议的。更具体地说，我们将简要地研究一下索拉纳·NFT 为 Metaplex 的[糖果机](https://github.com/metaplex-foundation/metaplex-program-library/blob/master/candy-machine-core/program/src/lib.rs)签订的智能合同。这是整个代码的样子:
 
-```
+```js
 use anchor_lang::prelude::*;
 
 pub use errors::CandyError;
@@ -386,19 +386,19 @@ pub mod candy_machine_core {
 
 首先，如果你还没有安装 Rust，Solana CLI 和 Solana wallet。接下来，打开您选择的 IDE 并启动一个新的终端。从那里，通过在终端中运行以下命令，建立一个" *Hello World* " Cargo 项目:
 
-```
+```js
 cargo init hello_world --lib
 ```
 
 这将在您的目录中创建一个货物库，其中包含用于构建 Solana 智能合约示例的文件。然后，您可以使用下面的命令导航到“hello_world”文件:
 
-```
+```js
 cd hello_world
 ```
 
 接下来，打开“Cargo.toml”文件，复制下面的代码片段，并将其添加到文件的底部:
 
-```
+```js
 [lib]
 name = "hello_world"
 crate-type = ["cdylib", "lib"]
@@ -406,13 +406,13 @@ crate-type = ["cdylib", "lib"]
 
 然后，您可以通过运行以下命令导航回终端并添加 Solana 程序包:
 
-```
+```js
 cargo add solana_program
 ```
 
 最后，打开“src/lib.rs”文件，将其所有内容替换为“ *Solana 智能合同示例*”部分中的“ *hello_world* ”合同代码:
 
-```
+```js
 use solana_program::{
     account_info::AccountInfo, entrypoint, entrypoint::ProgramResult, msg, pubkey::Pubkey,
 };
@@ -431,13 +431,13 @@ pub fn hello_world(
 
 有了合同代码，您现在应该能够通过输入以下 Cargo 命令并在终端中运行它来构建 Solana 智能合同:
 
-```
+```js
 cargo build-bpf
 ```
 
 接下来，剩下的工作就是使用下面的命令部署契约:
 
-```
+```js
 solana program deploy ./target/deploy/hello_world.so
 ```
 

@@ -50,13 +50,13 @@ Web3 认证只是 Moralis 大放异彩的领域之一。如果你努力成为一
 
 如果您还没有，那么您需要做的第一件事就是安装一些依赖项。因此，您可以继续安装 Moralis、next-auth 和 axios。您可以通过以下命令实现这一点:
 
-```
+```js
 npm install moralis next-auth axios
 ```
 
 要添加比特币基地钱包登录功能，您还必须使用 Web3 库。对于这个简短的教程，我们将使用 Wagmi。因此，您需要安装一个 Wagmi 依赖项，这可以通过下面的代码片段来实现:
 
-```
+```js
 npm install wagmi ethers
 ```
 
@@ -64,7 +64,7 @@ npm install wagmi ethers
 
 最后，您还需要将环境变量添加到应用程序根目录下的“. env.local”文件中:
 
-```
+```js
 APP_DOMAIN=amazing.finance
 MORALIS_API_KEY=xxxx
 NEXTAUTH_URL=http://localhost:3000
@@ -81,7 +81,7 @@ snipper 中的“ *NEXTAUTH_URL* ”变量被设置为“ *http://localhost:3000
 
 现在，您需要创建一个新的“pages/_app.jsx”文件。接下来，您还必须用“ *SessionProvider* ”和“ *WagmiConfig* ”来包装您的页面。这样做之后，在您的应用程序中应该是这样的:
 
-```
+```js
 import { createClient, configureChains, defaultChains, WagmiConfig } from 'wagmi';
 import { publicProvider } from 'wagmi/providers/public';
 import { SessionProvider } from 'next-auth/react';
@@ -109,7 +109,7 @@ export default MyApp;
 
 一旦你用“ *SessionProvider* 和“ *WagmiConfig* ”完成了对应用的包装，你就可以继续创建一个新的 API 文件“pages/API/auth/request-message . js”。然后，您利用这个端点向“ *Moralis”发送请求。Auth* ”。这将生成唯一的消息，这些消息稍后将在客户端进行签名。此外，它在您的存储库中应该是这样的:
 
-```
+```js
 import Moralis from 'moralis';
 
 const config = {
@@ -144,7 +144,7 @@ export default async function handler(req, res) {
 
 现在我们已经看了包装部分，我们可以继续下一步。因此，在本节中，您将创建一个登录页面。因此，您可以继续创建一个名为“signin.jsx”的新页面文件，这是登录页面的完整代码:
 
-```
+```js
 import { CoinbaseWalletConnector } from 'wagmi/connectors/coinbaseWallet'
 import { signIn } from 'next-auth/react'
 import { useAccount, useConnect, useSignMessage, useDisconnect } from 'wagmi'
@@ -210,7 +210,7 @@ export default SignIn
 
 在上面的代码中，我们确保扩展了" *handleAuth* "功能来调用我们在前面的步骤中创建的"*请求-消息*"端点。此外，我们确保添加了一个“*next auth”*配置，这也是我们将要创建的。相应地，您可以创建另一个 API 文件，“pages/api/auth/[…nextauth]。js”。此外，它还应包含以下内容:
 
-```
+```js
 import CredentialsProvider from 'next-auth/providers/credentials';
 import NextAuth from 'next-auth';
 import Moralis from 'moralis';
@@ -271,7 +271,7 @@ export default NextAuth({
 
 最后，本教程的最后一步是创建一个用户页面。因此，我们将创建一个名为“users.jsx”的新页面，该文件应该如下所示:
 
-```
+```js
 import { getSession, signOut } from 'next-auth/react';
 
 // gets a prop from getServerSideProps

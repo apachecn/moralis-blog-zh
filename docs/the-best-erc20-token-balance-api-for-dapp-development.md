@@ -4,13 +4,13 @@
 
 一个可靠的 ERC20 令牌平衡 API 是每个区块链开发者必须使用的工具。你在寻找这样的工具吗？不要再看了！借助 Moralis 的 ERC20 令牌平衡 API 端点，您可以使用一小段代码[获得钱包的本机加密平衡](https://moralis.io/get-wallet-balance-how-to-get-wallets-native-crypto-balance/):
 
-```
+```js
 const response = await Moralis.EvmApi.balance.getNativeBalance(options)
 ```
 
 此外，通过以下端点，您可以获得令牌余额:
 
-```
+```js
 const response = await Moralis.EvmApi.token.getWalletTokenBalances(options)
 ```
 
@@ -97,7 +97,7 @@ ERC20 令牌 API 是一个特定的 Web3 API，它围绕着关于 ERC20 令牌�
 
 一旦准备好 NodeJS 应用程序并在 Express 服务器上运行，就可以专注于创建“index.js”脚本了。在那里，您将使用最好的 ERC20 令牌平衡 API。首先在文件顶部定义所需的常数:
 
-```
+```js
 const express = require("express");
 const Moralis = require("moralis").default;
 const app = express();
@@ -107,14 +107,14 @@ const port = 3000;
 
 此外，确保您的 dapp 使用“ *cors* 和“ *express* ”:
 
-```
+```js
 app.use(cors());
 app.use(express.json());
 ```
 
 有了上面几行代码，就可以创建“ *get* ”端点到“ *balance* ”路由。通过一个简单的“ *if-else* ”语句，您可以确保“ *getNativeBalance* ”端点接受其参数。最后，您需要用下面几行代码扩展“index.js”文件:
 
-```
+```js
 app.get("/balance", async (req, res) => {
   try {
     const { query } = req;
@@ -150,7 +150,7 @@ app.get("/balance", async (req, res) => {
 
 要初始化 Moralis，您需要用下面几行填充上面创建的“index.js”脚本:
 
-```
+```js
 Moralis.start({
   apiKey: "MORALIS_API_KEY",
 }).then(() => {
@@ -170,7 +170,7 @@ Moralis.start({
 
 您可能有创建 ReactJS 应用程序的经验，并且完全有能力自己创建上面演示的前端。然而，您可以通过使用我们的 [GitHub](https://github.com/MoralisWeb3/youtube-tutorials/tree/main/GetBalance/app) repo 来节省一些时间。尽管如此，让我们看看 dapp 前端的核心功能——编码在“ [App.js](https://github.com/MoralisWeb3/youtube-tutorials/blob/main/GetBalance/app/src/App.js) 脚本中。以下是由“获取余额”按钮触发的“*获取余额*功能的详细信息:
 
-```
+```js
 async function fetchBalance() {
 
     let res;

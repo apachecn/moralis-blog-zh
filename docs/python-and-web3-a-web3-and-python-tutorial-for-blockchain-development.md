@@ -6,13 +6,13 @@
 
 1.  使用下面的终端命令安装 Moralis Python SDK:
 
-```
+```js
 pip install moralis
 ```
 
 2.  进行 Moralis Web3 API 调用。下面是查询 Web3 钱包的本机余额的示例:
 
-```
+```js
 from moralis import evm_api
 
 api_key = "YOUR_API_KEY"
@@ -146,7 +146,7 @@ Moralis 是业界最好的 Web3 基础设施提供商之一，提供各种开发
 
 接下来，将“ *cd* ”放到项目的根文件夹中，并在您的终端中运行以下命令:
 
-```
+```js
 python3 -m venv venv
 ```
 
@@ -156,27 +156,27 @@ python3 -m venv venv
 
 在那里，使用下面的命令初始化环境:
 
-```
+```js
 source venv/bin/activate
 ```
 
 初始化虚拟环境后，通过在终端中运行以下输入，确保您拥有最新版本的" *pip"* :
 
-```
+```js
 pip install --upgrade pip
 ```
 
 最重要的是，您需要安装所需的依赖项。对于本教程，总共有三个，您可以在下面找到安装它们的命令。分别输入，然后按顺序运行:
 
-```
+```js
 pip install flask
 ```
 
-```
+```js
 pip install flask_cors
 ```
 
-```
+```js
 pip install moralis
 ```
 
@@ -186,7 +186,7 @@ pip install moralis
 
 首先，在项目的根文件夹中创建一个新的“app.py”文件。打开文件并在顶部添加依赖项的导入:
 
-```
+```js
 from flask import Flask
 from flask import request
 from moralis import auth
@@ -195,14 +195,14 @@ from flask_cors import CORS
 
 在导入下面，初始化应用程序，并通过添加以下代码片段将其包装在“ *CORS* 中:
 
-```
+```js
 app = Flask(__name__)
 CORS(app)
 ```
 
 接下来，为 Moralis API 键添加一个新变量:
 
-```
+```js
 api_key = "xxx"
 ```
 
@@ -214,7 +214,7 @@ api_key = "xxx"
 
 *   "***/request challenge***"–当用户验证自己时，他们向 Moralis 请求挑战，这是通过这个初始路径完成的。“ */requestChallenge* ”路由包含一个“ *reqChallenge()* ”函数，该函数获取请求参数，添加一个“ *body* ”变量，从“ */requestChallenge* ”端点获取结果，最后将结果传递给客户端:
 
-```
+```js
 @app.route('/requestChallenge', methods=["GET"])
 def reqChallenge():
 
@@ -241,7 +241,7 @@ def reqChallenge():
 
 *   "***/verify challenge***"–一旦用户在消息上签名，结果就会被发送到应用程序的后端，并使用第二种方法进行验证。“ */verifyChallenge* ”路由包含“ *verifyChallenge()* ”函数，负责获取请求参数，添加“ *body* ”变量，从 Moralis Auth API 端点获取结果，并将结果传递给客户端:
 
-```
+```js
 @app.route('/verifyChallenge', methods=["GET"])
 def verifyChallenge():
 
@@ -261,14 +261,14 @@ def verifyChallenge():
 
 此外，添加下面的代码片段，指定您希望运行应用程序的位置:
 
-```
+```js
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=3000, debug=True)
 ```
 
 涵盖了 Web3 Python Flask 应用程序代码！总而言之,“app.py”文件现在看起来应该是这样的:
 
-```
+```js
 from flask import Flask
 from flask import request
 from moralis import auth
@@ -326,7 +326,7 @@ if __name__ == "__main__":
 
 现在您已经添加了 Web3 Python 应用程序代码，您需要启动项目。因此，打开一个新的终端并运行以下命令:
 
-```
+```js
 python3 app.py
 ```
 
@@ -350,7 +350,7 @@ python3 app.py
 
 一旦您有了项目的本地副本，您现在应该能够启动 React 应用程序了。因此，打开一个终端，将" *cd* "放入项目的根文件夹，输入以下命令，然后按 enter 键:
 
-```
+```js
 npm run start
 ```
 

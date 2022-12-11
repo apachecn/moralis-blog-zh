@@ -90,13 +90,13 @@ Web3 应用程序，或者通常被称为 dapps(去中心化应用程序)，很�
 
 现在，打开一个新的终端，repo URL 可供您使用，您可以使用以下命令克隆项目(确保在您之前创建的文件夹的位置运行该命令):
 
-```
+```js
 git clone “BOILERPLATE_URL”
 ```
 
 使用以太坊样板代码运行上面的命令后，您可以通过该命令导航到正确的文件夹:
 
-```
+```js
 cd ethereum-boilerplate
 ```
 
@@ -122,7 +122,7 @@ cd ethereum-boilerplate
 
 此外，在我们向您展示如何启动 dapp 之前，您必须将文件名改为“. env.local”。" . env.local "文件的最终代码应该如下所示:
 
-```
+```js
 APP_CHAIN_ID=0x1
 APP_DOMAIN=ethereum.boilerplate 
 MORALIS_API_KEY= "YOUR_API_KEY"
@@ -134,14 +134,14 @@ NEXTAUTH_URL=http://localhost:3000
 
 配置完成后，下一步是启动 dapp。但是，在启动 dapp 之前，您需要安装依赖项。此外，根据您使用的是“*纱线*还是“ *npm* ，您可以在终端中输入以下任一项:
 
-```
+```js
 npm i
 yarn
 ```
 
 接下来，剩下的工作就是执行这个命令，在本地主机上运行应用程序:
 
-```
+```js
 npm run dev
 yarn run dev
 ```

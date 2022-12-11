@@ -67,7 +67,7 @@
 
 现在已经有了" *express* "依赖项，可以设置 express 服务器了。因此，创建一个“index.js”文件，并添加以下代码行:
 
-```
+```js
 const express = require('express')
 const app = express()
 const port = 3000
@@ -83,7 +83,7 @@ app.listen(port, () => {
 
 接下来，打开“package.json”文件并添加“ *start* 脚本:
 
-```
+```js
 "scripts": {
   "start": "node index.js"
 },
@@ -95,7 +95,7 @@ app.listen(port, () => {
 
 现在，为了将您的 NodeJS 应用程序与 Moralis 的服务集成，请使用上面创建的“index.js”文件。这是您将导入 Moralis 及其 EVM API 的地方。此外，这也是您提供 Moralis Web3 API 密钥的地方。因此，在“index.js”文件的顶部添加以下导入行:
 
-```
+```js
 // Import Moralis
 const Moralis = require('moralis').default
 // Import the EvmChain dataType
@@ -104,7 +104,7 @@ const { EvmChain } = require("@moralisweb3/evm-utils")
 
 然后，添加这些变量:
 
-```
+```js
 const MORALIS_API_KEY = "replace_me"
 const address = "replace_me"
 const chain = EvmChain.ETHEREUM
@@ -124,7 +124,7 @@ const chain = EvmChain.ETHEREUM
 
 尽管如此，您还需要“index.js”中的以下代码行来初始化 Moralis:
 
-```
+```js
 const startServer = async () => {
   await Moralis.start({
     apiKey: MORALIS_API_KEY,
@@ -143,7 +143,7 @@ const startServer = async () => {
 
 如果您通过我们的说明将 dapp 连接到以太坊，您可以使用 Moralis 的" *getNativeBalance* "端点来获取本机余额。为此，在“index.js”文件中创建“ *getDemoData* 函数:
 
-```
+```js
 async function getDemoData() {
   // Get native balance
   const nativeBalance = await Moralis.EvmApi.balance.getNativeBalance({
@@ -160,7 +160,7 @@ async function getDemoData() {
 
 正如您在上面看到的那样，“*getNativeBalance*”EVM API 端点接受一个地址和一个链作为参数。因为我们已经在“index.js”中定义了这两个参数，所以我们可以在这里使用它们。此外，您还需要添加“ */crypto-data* ”端点来返回“ *getDemoData* 函数的结果:
 
-```
+```js
 app.get("/demo", async (req, res) => {
   try {
     // Get and return the crypto data
@@ -178,7 +178,7 @@ app.get("/demo", async (req, res) => {
 
 有了上面几行代码，您就可以使用“*http://localhost:3000/demo*”调用“ */crypto-data* ”端点了。此外，响应应该是这样的:
 
-```
+```js
 {
     "native": "0.169421625822962794"
 }
@@ -190,7 +190,7 @@ app.get("/demo", async (req, res) => {
 
 你可能知道，有许多 ERC 20 代币。因此，能够显示它们的余额是非常重要的。幸运的是，Moralis 提供了" *getWalletTokenBalances* "端点来完成这个任务。因此，下面是您可以添加到“ *getDemoData* ”函数以获取 ERC-20 余额的代码行:
 
-```
+```js
     // Get token balances
   const tokenBalances = await Moralis.EvmApi.token.getWalletTokenBalances({
     address,
@@ -211,7 +211,7 @@ app.get("/demo", async (req, res) => {
 
 当你知道如何将 dapp 连接到以太坊时，你也可以获取 NFT。出于本教程的考虑，我们将使用函数" *getDemoData* 获取给定地址的前十个 NFT。此外，我们还必须相应地格式化输出——将“ *nfts* 添加到“ *return* ”中。尽管如此，这些代码行将获取 NFT 并返回它们的元数据:
 
-```
+```js
    const nftsBalances = await Moralis.EvmApi.nft.getWalletNFTs({
     address,
     chain,

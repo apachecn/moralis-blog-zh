@@ -4,7 +4,7 @@
 
 构建 dapps 时，高质量的 ERC20 令牌 API 至关重要。通过使用以下代码行，您可以使用 Moralis 的企业级 ERC20 令牌 API 来获取任何 EVM 兼容链上的任何 ERC20 令牌的价格:
 
-```
+```js
 const response = await Moralis.EvmApi.token.getTokenPrice(options);
 ```
 
@@ -124,15 +124,15 @@ Moralis 的 ERC20 令牌 API 允许您将实时令牌数据集成到应用程序
 
 我们将很快向您展示粘贴 API 密钥的位置。但是现在，坚持下去，集中精力安装 Moralis SDK。您可以通过运行以下命令之一来实现这一点(取决于您使用的软件包管理器):
 
-```
+```js
 npm install moralis
 ```
 
-```
+```js
 yarn add moralis
 ```
 
-```
+```js
 pnpm add moralis
 ```
 
@@ -140,7 +140,7 @@ pnpm add moralis
 
 下面几行代码代表我们的示例“index.js”脚本，它正确地合并了“ *getTokenPrice* ”端点:
 
-```
+```js
 const Moralis = require("moralis").default;
 const { EvmChain } = require("@moralisweb3/evm-utils");
 
@@ -179,19 +179,19 @@ runApp();
 
 **对于 JavaScript:**
 
-```
+```js
 node index.js
 ```
 
 **对于打字稿:**
 
-```
+```js
 npx ts-node index.ts
 ```
 
 尽管如此，如果您没有更改上面的示例地址("*0x c 02 AAA 39 b 223 Fe 8d 0 a 0 e 5 C4 f 27 EAD 9083 c 756 cc 2*")，您应该会看到以下响应:
 
-```
+```js
 {
   "nativePrice": {
     "value": "1000000000000000000",

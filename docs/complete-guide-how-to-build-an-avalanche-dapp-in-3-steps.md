@@ -96,13 +96,13 @@ https://www.youtube.com/watch?v=Bb5Pc–kyAY
 
 从那里，导航回您的 IDE，并使用您刚才获取的 URL 将以下命令输入到终端中(在运行该命令之前，确保您位于正确的文件夹中，该文件夹应该是您刚才创建的文件夹):
 
-```
+```js
 git clone “BOILERPLATE_URL”
 ```
 
 接下来，您可以使用以下命令跳转到以太坊样板文件夹:
 
-```
+```js
 cd ethereum-boilerplate
 ```
 
@@ -136,7 +136,7 @@ cd ethereum-boilerplate
 
 . env.local 文件的最终代码应该是这样的:
 
-```
+```js
 APP_CHAIN_ID=0xA869
 APP_DOMAIN=ethereum.boilerplate 
 MORALIS_API_KEY= "YOUR_API_KEY"
@@ -148,14 +148,14 @@ NEXTAUTH_URL=http://localhost:3000
 
 现在您已经完成了对“. env.local”文件的配置，剩下的就是启动应用程序了。但是，要这样做，您必须首先安装必要的依赖项。此外，根据您使用的是“*NPM”*还是“*yarn”*，您可以使用任一命令并将其输入终端:
 
-```
+```js
 npm i
 yarn
 ```
 
 一旦安装了依赖项，您就可以继续使用以下任一项运行本地开发服务器:
 
-```
+```js
 npm run dev
 yarn run dev
 ```

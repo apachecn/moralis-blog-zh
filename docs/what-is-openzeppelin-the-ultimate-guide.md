@@ -24,13 +24,13 @@ OpenZeppelin 开发人员使用 [Solidity](https://moralis.io/solidity-explained
 
 要安装 CLI，请输入以下命令:
 
-```
+```js
 $ npm install @openzeppelin/cli
 ```
 
 要初始化一个新的 OpenZeppelin 项目，请在终端中(在节点项目中)键入以下命令:
 
-```
+```js
 $ npx openzeppelin init
 ```
 
@@ -40,7 +40,7 @@ $ npx openzeppelin init
 
 接下来，为以太坊上的 dApp 开发创建一个本地区块链。最好的模拟器之一是 [Ganache](https://moralis.io/ganache-explained-what-is-ganache-blockchain/) ，我们有一篇关于它的详细文章。只需使用命令行“npm install ganache-cli”来安装它。要使用 Ganache 启动新的开发网络，请在单独的终端中键入以下命令:
 
-```
+```js
  $ npx ganache-cli  --deterministic
 ```
 

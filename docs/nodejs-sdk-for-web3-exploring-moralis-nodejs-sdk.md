@@ -62,7 +62,7 @@ https://www.youtube.com/watch?v=RPK37-_ZJFE
 
 我们将从向您展示如何设置您的应用程序来使用 Moralis NodeJS SDK 开始这个简短的指南。这是一个简单的过程，根据上面的视频，您只需要下面的代码片段来初始化 Web3 的 NodeJS SDK:
 
-```
+```js
 Moralis.start({
     apiKey: env.MORALIS_API_KEY,
     logLevel: 'error',
@@ -83,14 +83,14 @@ Moralis.start({
 
 您可以通过以下两个代码片段之一创建新的类实例:
 
-```
+```js
 const chain = EvmChain.ETHEREUM; 
 EvmChain.create(1);
 ```
 
 一旦创建了类实例，就可以访问各种信息。例如，以下是您可以使用的命令列表:
 
-```
+```js
 console.log('decimal', chain.decimal);
 console.log('hex', chain.hex);
 console.log('format', chain.format());
@@ -110,7 +110,7 @@ console.log('currency', chain.currency);
 
 接下来，我们将仔细研究 Web3 的 NodeJS SDK 如何处理 EVM 地址。这可能是它在项目中的样子:
 
-```
+```js
 const address = EvmAddress.create(EVM_ADDRESS); 
 console.log('lowercase', address.lowercase);
 console.log('checksum, address.checksum);
@@ -127,7 +127,7 @@ console.log('format', address.format());
 
 为了说明这是如何工作的，我们举一个简单的例子，在这个例子中，我们在以太坊上查询一个特定地址的令牌余额。代码如下所示:
 
-```
+```js
 const tokenResponse = await Moralis.EvmApi.account.getTokenBalances({
     chain: EvmChain.ETHEREUM,
     address: ETHEREUM_ADDRESS

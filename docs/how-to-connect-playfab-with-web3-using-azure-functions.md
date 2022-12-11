@@ -188,7 +188,7 @@ https://www.youtube.com/watch?v=xWAzP5otc38&t=337s
 
 有了这个项目，下一步是添加包。为此，请打开。csproj "文件。该文件将有一个带有一个或多个“PackageReference”的“ItemGroup”元素，您可以用以下代码替换它:
 
-```
+```js
 <ItemGroup>
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.1.1"/>
     <PackageReference Include="PlayFabAllSDK" Version="1.127.220718"/>

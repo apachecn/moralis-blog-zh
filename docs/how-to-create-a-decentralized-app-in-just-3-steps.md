@@ -99,13 +99,13 @@ https://www.youtube.com/watch?v=Bb5Pc–kyAY
 
 打开新的终端，确保您位于刚刚创建的文件的正确位置，并使用 GitHub 存储库 URL 运行以下命令:
 
-```
+```js
 git clone “BOILERPLATE_URL”
 ```
 
 这将把以太坊样板文件克隆到您的本地目录中，从那里，您可以通过在终端中输入以下内容来导航到正确的文件夹:
 
-```
+```js
 cd ethereum-boilerplate
 ```
 
@@ -135,7 +135,7 @@ cd ethereum-boilerplate
 
 #### 最终" . env.local "代码:
 
-```
+```js
 APP_CHAIN_ID=0x1
 APP_DOMAIN=ethereum.boilerplate 
 MORALIS_API_KEY= "YOUR_API_KEY"
@@ -147,14 +147,14 @@ NEXTAUTH_URL=http://localhost:3000
 
 在“创建去中心化应用”指南的最后一部分，我们将快速向您展示如何启动 d app。首先，您需要安装适当的依赖项。为此，您只需打开一个新的终端并输入以下命令之一:
 
-```
+```js
 npm i
 yarn
 ```
 
 从这里开始，最后一步是在本地主机上运行 dapp，这可以通过以下命令之一来完成:
 
-```
+```js
 npm run dev
 yarn run dev
 ```

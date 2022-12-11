@@ -76,7 +76,7 @@ Moralis 为您的 dApp 用户添加这些功能只需几个小时，而不是几
 
 该命令如下所示:
 
-```
+```js
 npm install moralis
 ```
 
@@ -94,7 +94,7 @@ npm install moralis
 
 初始化 Moralis 服务器的代码如下:
 
-```
+```js
 /* Moralis init code */
 1\. const serverUrl = "YOUR_SERVER_URL";
 2\. const appId = "YOUR_APP_ID";
@@ -109,7 +109,7 @@ npm install moralis
 
 在 Moralis 服务器启动后初始化 [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 后，您可以开始使用 SDK。例如，如果您希望允许用户登录到您的 dApp，您需要复制粘贴两行代码，如下所示:
 
-```
+```js
 Moralis.Web3.authenticate().then(function(user){
 console.log(user.get('ethAddress'))
 })
@@ -121,7 +121,7 @@ Moralis 的 SDK 是一个强大的工具箱，可以帮助您快速轻松地构�
 
 #### **获取交易:**
 
-```
+```js
 //get mainnet transactions for the current user
 const transactions = await Moralis.Web3API.account.getTransactions();
 ```
@@ -130,7 +130,7 @@ const transactions = await Moralis.Web3API.account.getTransactions();
 
 #### **获得自动/BNB 平衡:**
 
-```
+```js
 //get mainnet native balance for the current user
 const balance = await Moralis.Web3API.account.getNativeBalance();
 ```
@@ -141,7 +141,7 @@ const balance = await Moralis.Web3API.account.getNativeBalance();
 
 #### **获取 ERC-20 余额:**
 
-```
+```js
 const balance = await Moralis.Web3API.account.getTokenBalance();
 ```
 
@@ -149,7 +149,7 @@ const balance = await Moralis.Web3API.account.getTokenBalance();
 
 #### **获得 NFT 平衡:**
 
-```
+```js
 const userEthNFTs = await Moralis.Web3API.account.getNFTs();
 ```
 
@@ -173,7 +173,7 @@ const userEthNFTs = await Moralis.Web3API.account.getNFTs();
 
 在命令行终端中运行以下命令:
 
-```
+```js
 npm run start
 ```
 
@@ -181,7 +181,7 @@ npm run start
 
 在 Visual Studio 代码中，通过单击右下角的“+”按钮添加另一个终端选项卡。然后，运行以下命令:
 
-```
+```js
 npm run demo
 ```
 
@@ -203,7 +203,7 @@ npm run demo
 
 这些是提到的命令:
 
-```
+```js
 npm run start
 
 npm run demo
@@ -211,7 +211,7 @@ npm run demo
 
 如果发生这种情况，请运行以下命令:
 
-```
+```js
 npm install
 ```
 

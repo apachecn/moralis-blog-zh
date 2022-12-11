@@ -54,7 +54,7 @@
 
 以下是“images.js”文件中的完整代码:
 
-```
+```js
 let fs = require("fs");
 let axios = require("axios");
 
@@ -140,7 +140,7 @@ Promise.all(promises).then( () => {
 
 以下是“metadata.js”文件中的完整代码:
 
-```
+```js
 let fs = require("fs");
 let axios = require("axios");
 

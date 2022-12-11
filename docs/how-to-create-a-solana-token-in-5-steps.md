@@ -68,19 +68,19 @@ https://www.youtube.com/watch?v=IsTFNOedPkk
 
 **MacOS & Linux:**
 
-```
+```js
 sh -c "$(curl -sSfL https://release.solana.com/v1.9.5/install)"
 ```
 
 **视窗:**
 
-```
+```js
 curl https://release.solana.com/v1.9.5/solana-install-init-x86_64-pc-windows-msvc.exe --output C:\solana-install-tmp\solana-install-init.exe --create-dirs
 ```
 
 有了 Solana CLI，第一步的下一步是安装 SPL CLI。要安装 CLI，您可以使用以下输入:
 
-```
+```js
 cargo install spl-token-cli
 ```
 
@@ -92,19 +92,19 @@ cargo install spl-token-cli
 
 创建 Solana 令牌的第二步包括生成一个“文件系统钱包”并获取一些 testnet SOL。我们需要这个来支付网络交易。让我们从创建一个钱包开始，这是通过以下命令完成的:
 
-```
+```js
 solana-keygen new --no-outfile
 ```
 
 现在您有了一个钱包，您可以通过检查钱包的 SOL 余额来确保一切正常:
 
-```
+```js
 solana balance
 ```
 
 最初，由于您刚刚创建了您的钱包，余额应该等于零。但是，我们将改变这一点，因为我们将获得一些 testnet SOL。然而，在获得 SOL 之前，我们还需要确保我们在 testnet 集群上:
 
-```
+```js
 solana config get
 ```
 
@@ -114,13 +114,13 @@ solana config get
 
 如你所见，我们现在在测试网上。现在，如果您不在正确的集群或网络上，那么您需要对此进行配置。我们可以很容易地做到这一点，只需使用以下输入进入正确的网络:
 
-```
+```js
 solana config set --url https://api.devnet.solana.com
 ```
 
 如果你和 EVM 一起工作，这基本上等同于交换链条。然后，您可以使用与前面相同的命令来检查您是否在正确的集群上，如果是，只需通过以下命令获取 testnet SOL:
 
-```
+```js
 solana airdrop 1
 ```
 
@@ -130,7 +130,7 @@ solana airdrop 1
 
 因此，我们需要做的第一件事是用以下输入创建令牌本身:
 
-```
+```js
 spl-token create-token
 ```
 
@@ -140,19 +140,19 @@ spl-token create-token
 
 正如您在上面的截图中看到的，我们收到了一个令牌 ID 和一个签名。然后，我们可以利用令牌 ID 来检查特定令牌的余额:
 
-```
+```js
 spl-token supply <token-identifier>
 ```
 
 初始供应量应该为零，因为我们没有向令牌添加任何东西。但是，不要担心，我们会告诉你如何添加你想要的数量。然而，在实际创建供应之前，我们确实需要为程序创建一个帐户。手动添加的原因是，默认情况下，索拉纳区块链上的程序通常没有任何存储空间。因此，我们需要自己添加帐户:
 
-```
+```js
 spl-token create-account <token-identifier>
 ```
 
 使用为我们的令牌创建的帐户，我们可以通过以下命令简单地铸造指定数量的令牌:
 
-```
+```js
  spl-token mint <token-identifier> <token-amount>
 ```
 
@@ -168,25 +168,25 @@ spl-token create-account <token-identifier>
 
 因此，您需要做的第一件事是，再次创建一个新令牌。然而，这一次，由于这是一个 NFT，您将需要指定小数等于“0”。因此，创建 NFT 的命令如下所示:
 
-```
+```js
 spl-token create-token --decimals 0
 ```
 
 创建了 NFT 后，下一步类似于创建可替换令牌，您需要为该程序创建一个帐户。这是以完全相同的方式完成的:
 
-```
+```js
 spl-token create-account <token-identifier>
 ```
 
 有了这个账户，你就可以开始铸造代币了。然而，由于这是一个 NFT，您将简单地铸造一个令牌，因为他们打算是完全独特的。因此，您可以输入以下内容，并将令牌 ID 和帐户替换为您的值:
 
-```
+```js
 spl-token mint <token-identifier> 1 <token-account>
 ```
 
 令牌生成后，最后一部分只是禁用未来的生成，因为我们只希望这些令牌中的一个存在。这可以通过以下命令完成:
 
-```
+```js
 spl-token authorize <token-identifier> mint --disable
 ```
 
@@ -194,7 +194,7 @@ spl-token authorize <token-identifier> mint --disable
 
 现在，如果您决定创建可替换、不可替换或两者都创建的令牌，您可以通过输入以下命令来检查钱包的余额:
 
-```
+```js
 spl-token accounts
 ```
 
@@ -206,7 +206,7 @@ spl-token accounts
 
 由于我们在本教程中创建了 testnet 令牌，您需要做的第一件事是将您的虚拟钱包的网络更改为 testnet。选择合适的网络后，转移令牌就变得相对容易了。事实上，您所需要做的就是输入以下命令并更改参数以满足您的需求:
 
-```
+```js
 spl-token transfer <token-identifier> <token-amount> <wallet-address> --fund-recipient
 ```
 

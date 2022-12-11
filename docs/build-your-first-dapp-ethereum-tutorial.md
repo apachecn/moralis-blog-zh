@@ -91,7 +91,7 @@
 
 如上所述，我们将从一个基本的 HTML 结构开始:
 
-```
+```js
 <html>
   <head>
     <title>Moralis</title>
@@ -108,7 +108,7 @@
 
 接下来，我们需要初始化 SDK。在上面的“道德设置”一节中，我们已经完成了这一部分的大部分工作。然而，由于我们那时还没有准备好 HTML 文件，现在是实现这一步的时候了。使用 Moralis 的文档，并将“初始化 SDK”部分中的代码复制到“连接 SDK”部分下:
 
-```
+```js
 const serverUrl = "https://xxxxx/server";
 const appId = "YOUR_APP_ID";
 Moralis.start({ serverUrl, appId });
@@ -116,14 +116,14 @@ Moralis.start({ serverUrl, appId });
 
 您必须将上面的代码行添加到“”中。此外，确保用您实际的服务器 URL 和应用程序 ID 填充空格。接下来，我们需要在" "里面添加两个脚本来激活 Moralis 和 Web3:
 
-```
+```js
 <script src="https://cdn.jsdelivr.net/npm/[email protected]/dist/web3.min.js"></script>
 <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
 ```
 
 剩下的就是添加“***moralis . authenticate***”函数，该函数会将功能添加到“登录”按钮中。同样，我们在按钮上添加了“***”onclick = " log in()*“**”。将所有这些放在一起，这就是您现在应该拥有的 HTML 代码:
 
-```
+```js
 <html>
   <head>
     <title>Moralis</title>

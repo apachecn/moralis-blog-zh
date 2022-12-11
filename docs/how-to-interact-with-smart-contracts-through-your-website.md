@@ -69,7 +69,7 @@
 
 我们将从一个普通的 JS(普通 JavaScript)项目开始。首先，我们将使用一个非常简单的 HTML 代码作为 dApp 的主干。下面是我们将要开始的 HTML 代码:
 
-```
+```js
 <html>
      <head>
           <tittle>Vanilla Boilerplate</title>
@@ -87,7 +87,7 @@
 
 正如承诺的那样，你可以在下面的截图中看到这是一个非常简单和基本的 UI。除了 HTML 文件，我们还需要一个 JS 文件来覆盖 dApp 的后端功能。*这也是你完成“初始道德系统设置-第 2 部分”的第三和第四步的地方。*下面是我们在“main.js”文件中使用的代码:
 
-```
+```js
   /** Connect to Moralis server */
         const serverUrl = "https://xxxxx.yourserver.com:2053/server";
         const appId = "YOUR_APP_ID";
@@ -131,7 +131,7 @@
 
 下一步是添加合同集成，这将使我们能够使用登录的钱包进行自动捐赠。为了添加这个功能，让我们从在 HTML 代码中添加一个附加按钮开始:
 
-```
+```js
 <button id=”btn-donate”>Donate</button>
 ```
 
@@ -141,7 +141,7 @@
 
 这里是我们“捐赠”功能的代码:
 
-```
+```js
  async function donate() {
         let options = {
           contractAddress: "0x356d2E7a0d592bAd95E86d19479c37cfdBb68Ab9",
@@ -169,7 +169,7 @@
 
 此外，我们需要通过添加“await Moralis.enableWeb3()”来启用 Web3 功能“登录”函数中的行(在“console.lo(use)上方)).我们还需要在底部添加以下代码行:
 
-```
+```js
 document.getElementById("btn-donate").onclick = donate;
 ```
 

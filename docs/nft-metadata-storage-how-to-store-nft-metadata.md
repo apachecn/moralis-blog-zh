@@ -98,7 +98,7 @@
 
 正如你在上面的截图中看到的，我们将我们的文件夹命名为“MOONNFTS”。此外，还要确保准备好您的终端。接下来，通过输入以下命令初始化 NodeJS 项目:
 
-```
+```js
 npm init
 ```
 
@@ -108,7 +108,7 @@ npm init
 
 接下来，创建一个“index.js”文件。您可以手动或使用“ *touch index.js* ”命令来完成。有了“index.js”文件，就可以安装所需的依赖项了。因此，使用您的终端并输入以下内容:
 
-```
+```js
 npm i firebase-admin uuid
 ```
 
@@ -126,7 +126,7 @@ npm i firebase-admin uuid
 
 如果您还没有这样做，请打开“index.js”文件。在顶部，要求您依赖以下代码行:
 
-```
+```js
 const firebaseAdmin = require("firebase-admin");
 const { v4: uuidv4 } = require("uuid");
 const serviceAccount = require("./serviceAccount.json");
@@ -134,7 +134,7 @@ const serviceAccount = require("./serviceAccount.json");
 
 然后，创建一个管理变量以使用您在“serviceAccount.json”文件中的凭据:
 
-```
+```js
 const admin = firebaseAdmin.initializeApp({
     credential: firebaseAdmin.credential.cert(serviceAccount),
   });
@@ -142,7 +142,7 @@ const admin = firebaseAdmin.initializeApp({
 
 上面几行代码将为您提供对 Firebase 项目的访问。接下来，您还希望确保能够访问您的存储桶:
 
-```
+```js
 const storageRef = admin.storage().bucket("REPLACE_WITH_YOUR_BUCKET_NAME");
 ```
 
@@ -156,7 +156,7 @@ Firebase 项目和存储桶访问就绪后，您需要创建一个函数，将�
 
 如果您还记得的话，NFT 元数据包括 NFT 文件的 URL。因此，您需要首先上传图像文件。为此，创建以下函数:
 
-```
+```js
 async function uploadFile(path, filename) {
 
     const storage = storageRef.upload(path, {
@@ -175,7 +175,7 @@ async function uploadFile(path, filename) {
 
 您还想调用上面创建的函数:
 
-```
+```js
 (async () => {
     for (let i = 1; i < 11; i++) {
     await uploadFile(img/${i}.png`, `${i}.png`);
@@ -192,7 +192,7 @@ async function uploadFile(path, filename) {
 
 准备好示例文件后，您可以运行以下命令开始上传它们:
 
-```
+```js
 node index.js
 ```
 
@@ -216,7 +216,7 @@ node index.js
 
 准备好元数据文件后，您可以使用“index.js”文件将它们上传到 Firebase 存储桶，它将充当 NFT 元数据存储。为此，只需将“*图像*替换为“*元数据*”，将“ *png* ”替换为“*JSON*”(10:40):
 
-```
+```js
 async function uploadFile(path, filename) {
 
     const storage = storageRef.upload(path, {

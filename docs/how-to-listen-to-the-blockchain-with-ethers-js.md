@@ -59,7 +59,7 @@
 
 以下是我们的示例脚本，您可以使用 ethers.js 收听区块链:
 
-```
+```js
 const ethers = require("ethers");
 const ABI = require("./abi.json");
 require("dotenv").config();
@@ -113,7 +113,7 @@ getTransfer()
 
 在这一节中，我们将集中讨论同样的事件——以太坊上的任何 USDC 转会——如上。但是，我们将使用 Moralis 的 Streams API，而不是使用 ether.js。因此，我们创建另一个“index.js”文件来导入 Moralis 及其实用程序:
 
-```
+```js
 const Moralis = require("moralis").default;
 const Chains = require("@moralisweb3/common-evm-utils");
 const EvmChain = Chains.EvmChain;

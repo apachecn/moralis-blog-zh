@@ -220,11 +220,11 @@
 
 随着你的智能合约的部署及其细节被粘贴到“游戏经理”脚本中，你已经准备好进入本教程的最后阶段。因此，从 57:00 开始，我们的内部专家将展示“铸造”脚本的细节。这也是你会看到道德令人印象深刻的力量的地方。如下面的代码行所示,“ExecuteMinting”函数完成了这个任务。它接受元数据 URL 作为参数:
 
-```
+```js
 string resp = await Moralis.ExecuteContractFunction(GameManager.ContractAddress, GameManager.ContractAbi, "mintItem", parameters, value, gas, gasPrice);
 ```
 
-```
+```js
 最后，这也是我们在整篇文章中引用的视频教程:https://www.youtube.com/watch?v=Ne33FSVnMzw如何创建 AR 元宇宙 NFT 神秘盒子–总结通过将本文与上述视频教程结合使用，您有机会创建自己的 AR 元宇宙 NFT dapp。因为我们为您提供了完整的代码和所有必需的资产，所以您只需要完成初始的 Moralis 设置就可以获得所需的凭证。一旦您将 Unity 与 Web3 功能连接，您还必须部署您自己的智能合约实例。当然，我们通过仔细查看重要的游戏状态和相应的脚本，为您提供了额外的上下文。最终，你现在知道如何使用 Unity 来创建交互式 AR Web3 游戏和 dapps。如果您想进一步拓展您的 Unity Web3 技能，我们鼓励您关注我们的其他 [Unity 教程](https://www.youtube.com/watch?v=rZSPIyB-0R4&list=PLFPZ8ai7J-iQcI05EXqRUPK2VXDQaAPIr)。比如可以学习[上传 Web3 Unity 元数据](https://moralis.io/uploading-web3-unity-metadata/)，如何[上传 Unity 资产到 IPFS](https://moralis.io/how-to-upload-unity-assets-to-ipfs/) ，[存储链外数据](https://moralis.io/how-to-store-off-chain-data-unity-web3-database/)，用 Unity 做[区块链游戏交易](https://moralis.io/how-to-do-blockchain-game-transactions-with-unity/)，搭建 [Web3 MMORPG](https://moralis.io/build-a-web3-mmorpg-with-unity-in-10-minutes/) 。另一方面，你可以使用 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)来探索区块链发展的其他方面。一些最新的文章涵盖了一个[以太坊 dapp API](https://moralis.io/what-is-an-ethereum-dapp-api-build-ethereum-dapps-easily/) ，一个[多边形 dapp API](https://moralis.io/polygon-dapp-api-how-to-efficiently-create-polygon-dapps/) ，[币安 dapp API](https://moralis.io/binance-dapp-api-how-to-easily-build-projects-on-binance/) ，[以太坊合并](https://moralis.io/ethereum-merge-what-is-ethereum-2-0-and-the-merge/)，创建一个 [Web3 博客 dapp](https://moralis.io/guide-to-creating-a-web3-blog-dapp/) (一个 [Web3 媒体](https://moralis.io/how-to-build-a-web3-medium-clone/)克隆)，构建一个 [Web3 角色扮演游戏](https://moralis.io/how-to-build-a-web3-action-role-playing-game/)，创建一个[社交媒体 dapp](https://moralis.io/how-to-create-a-social-media-dapp/) 等等。另外，如果你想满怀信心地[成为一名 Web3 开发者](https://moralis.io/how-to-become-a-web3-developer-full-guide/)，你应该考虑报读[道德学院](https://academy.moralis.io/)。除了获得专业的[区块链发展课程](https://academy.moralis.io/all-courses/)，您还将获得个性化的学习路径和专家指导。然而，可能最大的价值等待着你成为一个最惊人的加密社区的成员！    
 
 ```

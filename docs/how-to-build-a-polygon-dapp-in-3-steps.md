@@ -90,13 +90,13 @@ https://www.youtube.com/watch?v=Bb5Pc–kyAY
 
 使用新的终端，您可以使用之前获取的链接，通过以下命令克隆 GitHub repo。此外，确保在与刚刚设置的文件夹相对应的正确位置运行该命令:
 
-```
+```js
 git clone “BOILERPLATE_URL”
 ```
 
 从那里，您需要导航到该文件，这可以通过以下命令来完成:
 
-```
+```js
 cd ethereum-boilerplate
 ```
 
@@ -130,7 +130,7 @@ GitHub repo 克隆完成后，您可以进入第二步，我们将配置一些�
 
 这就是可变构型。剩下的就是将文件重命名为" . env.local "，最终的内容应该是这样的:
 
-```
+```js
 APP_CHAIN_ID=0x13881
 APP_DOMAIN=ethereum.boilerplate 
 MORALIS_API_KEY= "YOUR_API_KEY"
@@ -142,14 +142,14 @@ NEXTAUTH_URL=http://localhost:3000
 
 现在我们已经配置了环境变量，剩下的就是启动应用程序了。但是，在这样做之前，您需要安装一些依赖项。这相对简单，您只需在终端中输入以下命令之一:
 
-```
+```js
 npm i
 yarn
 ```
 
 从那里，您可以使用以下任一选项启动应用程序:
 
-```
+```js
 npm run dev
 yarn run dev
 ```

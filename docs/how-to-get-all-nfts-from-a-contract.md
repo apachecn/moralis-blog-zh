@@ -4,7 +4,7 @@
 
 从合同中提取 NFT 并将其呈现给用户是开发人员必须知道如何做的一项基本而重要的任务。使用 Moralis 的以下端点，开发人员可以很容易地从 contract 中获得所有的 NFT:
 
-```
+```js
 const response = await Moralis.EvmApi.nft.getContractNFTs({
 ```
 
@@ -101,7 +101,7 @@ const response = await Moralis.EvmApi.nft.getContractNFTs({
 
 此时，您应该已经准备好了一个基本的 NodeJS 应用程序，并且正在 Express 服务器上运行。因此，您可以专注于创建一个合适的“index.js”脚本来完成后端的繁重工作。因此，首先在文件顶部定义所需的常量:
 
-```
+```js
 const express = require("express");
 const Moralis = require("moralis").default;
 const app = express();
@@ -111,14 +111,14 @@ const port = 3000;
 
 接下来，添加这两行代码以使用“ *cors* 和“ *express* ”:
 
-```
+```js
 app.use(cors());
 app.use(express.json());
 ```
 
 最后，您要为所有的 NFT 创建" *get* "端点，在这里您将使用" *getContractNFTs* "端点从契约中获取所有的 NFT。最后，这些代码行还将检查 cursor 参数，以防用户想要加载更多的 NFT:
 
-```
+```js
 app.get("/allNft", async (req, res) => {
   try {
     const { query } = req;
@@ -159,7 +159,7 @@ app.get("/allNft", async (req, res) => {
 
 每次运行“index.js”文件时，您都希望启动 dapp。然而，在此之前，你要启动道德。这些代码行会解决这个问题:
 
-```
+```js
 Moralis.start({
   apiKey: "MORALIS_API_KEY",
 }).then(() => {
@@ -183,7 +183,7 @@ Moralis.start({
 
 因为您可能有一些创建 JavaScript 应用程序的经验，所以创建上面演示的前端应该没有任何问题。然而，为了确保你做得正确，我们在 [GitHub](https://github.com/MoralisWeb3/youtube-tutorials/tree/main/GetAllNfts/ap) 上提供了所需的脚本。因此，使用我们的回购让您的前端在创纪录的时间内准备好。然后，您将能够探索“ [App.js](https://github.com/MoralisWeb3/youtube-tutorials/blob/main/GetAllNfts/ap/src/App.js) ”文件的细节，这是我们 dapp 客户端的核心。此外，函数“ *fetchNFTs* ”获取输入的智能合同地址和选择的链:
 
-```
+```js
   async function fetchNFTs() {
     let res;
     if (cursor) {

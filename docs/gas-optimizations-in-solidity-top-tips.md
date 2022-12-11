@@ -26,26 +26,26 @@
 
 在我们开始应用任何调整之前，让我们看一下智能合约示例的第一个版本。像通常的做法一样，它从顶部的“pragma”行开始:
 
-```
+```js
 pragma solidity 0.8.7;
 ```
 
 然而，实际的契约从这行代码开始:
 
-```
+```js
 contract Gas_Test{
 ```
 
 在我们的契约中，我们首先定义了存储在区块链上的两个状态变量:
 
-```
+```js
     uint[] public arrayFunds;
     uint public totalFunds;
 ```
 
 接下来，我们使用构造函数来填充“arrayFunds”变量:
 
-```
+```js
    constructor() {
         arrayFunds = [1,2,3,4,5,6,7,8,9,10,11,12,13];
     }
@@ -53,7 +53,7 @@ contract Gas_Test{
 
 正如您在上面看到的，“arrayFunds”变量是一个包含一组数字的数组。此外，我们还有“optionA”功能:
 
-```
+```js
     function optionA() external {
         for (uint i =0; i < arrayFunds.length; i++){
             totalFunds = totalFunds + arrayFunds[i];
@@ -73,7 +73,7 @@ contract Gas_Test{
 
 此外，负责以太坊区块链或其他 EVM 兼容区块链采取行动的“操作码”(机器语言)可能相当昂贵。因此，我们希望尽可能避免这样做。因此，我们可以通过将变量缓存到内存变量(" _totalFunds ")来优化上面的函数。然后，在循环中使用内存变量:
 
-```
+```js
     function optionB() external {
         uint _totalFunds;
         for (uint i =0; i < arrayFunds.length; i++){
@@ -85,7 +85,7 @@ contract Gas_Test{
 
 仅仅通过这个简单的调整，我们就可以在执行" *for"* 循环的过程中节省很多费用。然而，即使我们没有在循环中写入区块链，我们仍然从每次迭代的区块链中读取。因此，这是一个明确的迹象，表明我们可以采取气体优化甚至更进一步。这将我们带到“optionC()”函数:
 
-```
+```js
    function optionC() external {
         uint _totalFunds;
         uint[] memory _arrayFunds = arrayFunds;
@@ -116,7 +116,7 @@ contract Gas_Test{
 
 作为 Solidity 中高级气体优化的一部分，我们将添加一个辅助函数。后者将帮助我们使用未经检查的算术技巧:
 
-```
+```js
     function unsafe_inc(uint x) private pure returns (uint) {
         unchecked { return x + 1; }
     }
@@ -124,7 +124,7 @@ contract Gas_Test{
 
 就执行而言，我们将创建一个名为“optionD”的新函数:
 
-```
+```js
   function optionD() external {
         uint _totalFunds;
         uint[] memory _arrayFunds = arrayFunds;

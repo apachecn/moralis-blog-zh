@@ -77,7 +77,7 @@
 
 6.  此时，您已经准备好调用 authenticate 函数了。后者接受几个参数。此外，客户机 ID(上面获得的)是唯一需要的。这些是您需要使用的代码行。*注意，确保将占位符替换为您的客户 ID:*
 
-```
+```js
 const user = await Moralis.authenticate({
 	provider: "web3Auth",
 	clientId: "ABC*****************",
@@ -116,7 +116,7 @@ https://www.youtube.com/watch?v=44ItBuw86AA
 
 3.  现在，您可以将无密码注册功能添加到您的 dApps 中了。使用以下代码行:
 
-```
+```js
 const user = await Moralis.authenticate({ 
   provider: "magicLink",
   email: "[email protected]",

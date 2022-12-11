@@ -58,14 +58,14 @@ https://www.youtube.com/watch?v=zd0pBsmJI8s
 
 有了这两个元素，我们导航到" [main.js](https://github.com/ChrisMoralis/Moralis-Tutorials/blob/main/05%20Creating%20A%20Web%20Wallet%20-%20part%201/main.js) "文件。该文件包含使 dapp 正常运行的基本逻辑；然而，我们将在另一个步骤中回到这个问题。现在，我们将通过以下方式输入服务器 URL 和应用程序 ID 来初始化 Moralis:
 
-```
+```js
 Moralis.initialize("APP ID");
 Moralis.serverURL = "SERVER URL";
 ```
 
 初始化 Moralis 后，我们还将看看如何将 SDK 连接到 Moralis。为此，我们需要导航到“[dashboard.html](https://github.com/ChrisMoralis/Moralis-Tutorials/blob/main/05%20Creating%20A%20Web%20Wallet%20-%20part%201/dashboard.html)”文件。在第 17 行和第 18 行，我们将 SDK 连接到 Moralis，它在代码中看起来像这样:
 
-```
+```js
   <script src="https://cdn.jsdelivr.net/npm/[email protected]/dist/web3.min.js"></script>
   <script src="https://npmcdn.com/[email protected]/dist/moralis.js"></script>
 ```
@@ -96,7 +96,7 @@ Moralis.serverURL = "SERVER URL";
 
 相反，我们将把大部分注意力放在分析实现账户间转账所需的函数上。然而，还有其他重要的功能，举几个例子，我们有登录、呈现内容、隐藏内容、注销等功能。这些非常简单明了；尽管如此，为了举例说明，登录函数看起来是这样的:
 
-```
+```js
 login = async () => {
     await Moralis.Web3.authenticate()
     .then(async function (user) {
@@ -124,7 +124,7 @@ login = async () => {
 
 我们要剖析的第一个函数是“transferETH”函数。该函数的完整代码如下所示:
 
-```
+```js
 transferETH = async () => {
     let _amount = String(document.querySelector('#amountOfETH').value);
     let _address = document.querySelector('#addressToReceive').value;
@@ -141,7 +141,7 @@ transferETH = async () => {
 
 “transferERC20”函数稍微复杂一些；然而，正如前面的函数一样，我们基本上只需要一行代码，因为我们使用的是 Moralis。因此，实现该功能相对容易，这是整个函数的样子:
 
-```
+```js
 transferERC20 = async () => {
     let _amount = String(document.querySelector('#ERC20TransferAmount').value);
     let _decimals = String(document.querySelector('#ERC20TransferDecimals').value);

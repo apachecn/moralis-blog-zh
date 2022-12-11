@@ -50,7 +50,7 @@
 
 *   **原生资产(如:ETH)转让:**
 
-```
+```js
 // sending 0.5 ETH
 const options = {type: "native", amount: Moralis.Units.ETH("0.5"), receiver: "0x.."}
 let result = await Moralis.transfer(options)
@@ -58,7 +58,7 @@ let result = await Moralis.transfer(options)
 
 *   **ERC20 传送**:
 
-```
+```js
 // sending 0.5 tokens with 18 decimals
 const options = {type: "erc20", 
                  amount: Moralis.Units.Token("0.5", "18"), 
@@ -69,7 +69,7 @@ let result = await Moralis.transfer(options)
 
 *   **ERC721 转账:**
 
-```
+```js
 // sending a token with token id = 1
 const options = {type: "erc721",  
                  receiver: "0x..",
@@ -80,7 +80,7 @@ let result = await Moralis.transfer(options)
 
 *   **ERC1155 转账:**
 
-```
+```js
 // sending 15 tokens with token id = 1
 const options = {type: "erc1155",  
                  receiver: "0x..",

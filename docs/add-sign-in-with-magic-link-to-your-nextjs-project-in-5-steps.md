@@ -72,19 +72,19 @@ Magic Auth 提供无密码和特定于应用程序的钱包认证基础架构。
 
 因此，要开始这个简短的指南，您可以跟随我们向您展示如何安装依赖项、库和 Magic Connector。此外，我们将添加必要的环境变量。因此，让我们从如何使用 Moralis、NextAuth 和 Axios 安装依赖项开始。要安装这三个元素，您只需要下面的" *npm"* 代码:
 
-```
+```js
 npm install moralis next-auth axios
 ```
 
 此外，安装完依赖项后，我们需要添加一个特定的库。在这种情况下，我们将添加 wagmi。要安装该库，可以使用以下命令:
 
-```
+```js
 npm install wagmi ethers
 ```
 
 所以，随着 wagmi 的安装，我们可以添加神奇的连接器。此外，为 dapp 添加神奇身份验证的最简单方法是通过 wagmi，更具体地说，是以下输入:
 
-```
+```js
 npm i @everipedia/wagmi-magic-connector
 ```
 
@@ -97,7 +97,7 @@ npm i @everipedia/wagmi-magic-connector
 
 为了说明它可能的样子，下面是一个“. env.local”文件的示例:
 
-```
+```js
 APP_DOMAIN=amazing.finance
 MORALIS_API_KEY=xxxx
 NEXTAUTH_URL=http://localhost:3000
@@ -110,7 +110,7 @@ NEXTAUTH_SECRET=7197b3e8dbee5ea6274cab37245eec212
 
 因此，第一步完成后，下一步是使用“*WagmiConfig”*和“SessionProvider”包装应用程序。这个过程相对简单，首先，您需要创建一个新的“pages/_app.jsx”文件，然后添加以下内容:
 
-```
+```js
 import { createClient, configureChains, defaultChains, WagmiConfig } from 'wagmi';
 import { publicProvider } from 'wagmi/providers/public';
 import { SessionProvider } from 'next-auth/react';
@@ -142,7 +142,7 @@ export default MyApp;
 
 尽管如此，要添加这个请求消息端点，您必须创建一个 API“pages/API/auth/request-message . js”文件。文件设置完毕后，您可以继续添加以下内容:
 
-```
+```js
 import Moralis from 'moralis';
 
 const config = {
@@ -177,7 +177,7 @@ export default async function handler(req, res) {
 
 第四步的第一部分是配置“ *NextAuth* ”。因此，您可以创建一个新的“pages/api/auth/[…nextauth]。js "文件，内容如下:
 
-```
+```js
 import CredentialsProvider from 'next-auth/providers/credentials';
 import NextAuth from 'next-auth';
 import Moralis from 'moralis';
@@ -238,7 +238,7 @@ export default NextAuth({
 
 此外，第四步的第二部分是创建一个登录页面。这是用户访问应用程序时首先到达的地方，也是他们可以使用 Magic 登录的地方。因此，要创建这个页面，您必须向存储库添加一个新的“pages/signin.jsx”文件。有了该文件，您可以使用以下内容来创建页面:
 
-```
+```js
 import { MagicConnector } from '@everipedia/wagmi-magic-connector'
 import { signIn } from 'next-auth/react'
 import { useAccount, useConnect, useSignMessage, useDisconnect } from 'wagmi'
@@ -307,7 +307,7 @@ export default SignIn
 
 最后，您需要创建一个页面，一旦用户通过身份验证，就会被引导到这个页面。因此，总结本教程的最后一部分，如何用魔法添加登录。链接，您需要创建一个新的“pages/user.jsx”文件，如下所示:
 
-```
+```js
 import { getSession, signOut } from 'next-auth/react';
 
 // gets a prop from getServerSideProps
@@ -348,7 +348,7 @@ export default User;
 
 因为您已经完成了关于如何使用 Magic 添加登录的所有五个步骤。链接，现在是测试一切正常工作的时候了。因此，要测试应用程序，首先需要通过以下命令启动 localhost 服务器:
 
-```
+```js
 npm run dev
 ```
 

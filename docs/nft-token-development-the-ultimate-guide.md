@@ -78,7 +78,7 @@ NFT 是代表独特价值、商品或对象的令牌。实际上，它们非常�
 
 dApp 是一个简单的 flask 应用程序，在 flask 应用程序中，有一个“run.py ”,如下所示:
 
-```
+```js
 from app import app
 
 if __name__ == "__main__":
@@ -97,14 +97,14 @@ if __name__ == "__main__":
 
 要初始化 Moralis，您只需要输入几行代码，以及来自您新创建的 Moralis 服务器的详细信息(应用程序 ID 和服务器 URL)。
 
-```
+```js
 Moralis.initialize(""); // Application ID from moralis.io
 Moralis.serverURL = ""; // Server URL from moralis.io
 ```
 
 初始化 Moralis 后，您需要获得智能契约。因此，您需要输入:
 
-```
+```js
 const nft_contract_address = "" // NFT minting contract, use this one "Batteries Included", code of this contract is in the GitHub repository under contract_base for your reference.
 /*
 Available deployed contracts
@@ -129,7 +129,7 @@ BSC Testnet 0x88624DD1c725C6A95E223170fa99ddB22E1C6DDD
 
 这段摘录指出了代码中的一些重要交互:
 
-```
+```js
 <div class="input-group mb-3">
             <input type="file" disabled = "true" id="file">
           </div>
@@ -147,7 +147,7 @@ BSC Testnet 0x88624DD1c725C6A95E223170fa99ddB22E1C6DDD
 
 现在，回到 JavaScript 文件。在初始化 Moralis 和智能契约之后，您现在可以通过创建一个在单击“连接元掩码”按钮时触发的函数来继续。这是启用该功能的代码:
 
-```
+```js
 async function login(){
   document.getElementById('submit').setAttribute("disabled", null);
   document.getElementById('username').setAttribute("disabled", null);
@@ -172,7 +172,7 @@ async function login(){
 
 下一步，您需要创建一个上传函数。当你点击“上传并创建”按钮时，这就是我们所说的功能。在第一部分中，该函数收集。HTML 文件中文件组件的“getElementByID”。此外，该组件捕获数组中的文件。这就是您需要指向元素零"[0]"的原因，它表示数组中的第一个元素。我们只想获得该交互捕获的第一个文件。下一行代码创建一个新的 Moralis 文件对象。需要这个对象来执行函数的其余部分。
 
-```
+```js
 async function upload(){
   const fileInput = document.getElementById("file");
   const data = fileInput.files[0];
@@ -201,7 +201,7 @@ async function upload(){
 
 在本指南中，我们选择以分散的方式存储数据。因此，我们选择 IPFS(星际文件系统)。要保存文件，请使用以下命令(包含在上面的代码中):
 
-```
+```js
 await imageFile.saveIPFS();
 ```
 
@@ -213,13 +213,13 @@ await imageFile.saveIPFS();
 
 这个命令允许 Moralis 获取 URI:
 
-```
+```js
 const imageURI = imageFile.ipfs();
 ```
 
 现在我们已经有了文件的 URI，我们可以创建一个元数据对象，其中包含存储的与 NFT 相关的所有内容，比如名称、描述和 URI。
 
-```
+```js
 Const metadata = {
 	“name”: document.getElementById(“name”).value,
 	“description”: document.getElementById (“description”).value,
@@ -231,7 +231,7 @@ Const metadata = {
 
 此外，准备好元数据后，您现在可以将其作为 JSON 对象或文件存储在 IPFS:
 
-```
+```js
 const metadataFile = new Moralis.File("metadata.json", {base64 : btoa(JSON.stringify(metadata))});
   await metadataFile.saveIPFS();
   const metadataURI = metadataFile.ipfs();
@@ -247,7 +247,7 @@ const metadataFile = new Moralis.File("metadata.json", {base64 : btoa(JSON.strin
 
 建立函数后，代码会将其添加到“transactionParameters”对象中。代码会将它添加到我们在初始步骤中引用的智能合约地址旁边。正如您在下面看到的，函数的最后一部分将把事务发送到区块链，它也将返回一个事务散列。此外，用户收到确认的交易 ID。
 
-```
+```js
 async function mintToken(_uri){
   const encodedFunction = web3.eth.abi.encodeFunctionCall({
     name: "mintToken",

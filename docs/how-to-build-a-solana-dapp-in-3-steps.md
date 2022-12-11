@@ -78,7 +78,7 @@ https://www.youtube.com/watch?v=ax5scht_s4U
 
 然而，在我们继续之前，我们还必须为 HTML 文件的起始行写一小段。第五行代码非常重要，因为这是我们导入 [Moralis SDK](https://docs.moralis.io/moralis-dapp/connect-the-sdk) 的地方，允许我们使用已经准备好的代码片段。尽管如此，代码看起来是这样的:
 
-```
+```js
 <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
 ```
 
@@ -88,7 +88,7 @@ https://www.youtube.com/watch?v=ax5scht_s4U
 
 初始化 Moralis 相对容易，现在是我们需要之前找到的 dapp URL 和应用程序 ID 的时候了。因此，您可以导航回 Moralis 管理面板并复制这些元素。一旦有了它们，您需要在代码的以下部分输入它们:
 
-```
+```js
 const serverUrl = "";
 const appId = "";
 Moralis.start({ serverUrl, appId });

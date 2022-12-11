@@ -77,7 +77,7 @@ Filecoin 网络实现了惊人的规模经济，这是非常了不起的。它�
 
 正如整篇文章所指出的，在我们看来，IPFS 是目前最好的 Web3 存储提供商。您还知道 Moralis 是最终的 Web3 API 提供者，这使得构建 dapps 变得非常简单。此外，Moralis 使您能够毫不费力地[将文件上传到 IPFS](https://moralis.io/how-to-upload-files-to-ipfs-full-guide/) ，多亏了 Moralis 的 IPFS API，以下代码片段实现了这一目的:
 
-```
+```js
 const response = await Moralis.EvmApi.ipfs.uploadFolder({ abi });
 ```
 

@@ -34,7 +34,7 @@
 
 关于 NFT 游戏资产(在我们的例子中是角色)的信息自动化是一个重要的方面，特别是当我们想要铸造成千上万的 NFT 游戏资产时。因此，为了创建元数据文件(“。JSON”)，我们需要合适的代码——“[metadata . js](https://github.com/ashbeech/moralis-nft-game-asset-factory/blob/main/src/metadata.js)”。后者确保自动生成关于我们资产的细节，比如名称或属性。我们还使用“ [generator.js](https://github.com/ashbeech/moralis-nft-game-asset-factory/blob/main/src/generator.js) ”文件将这些字段插入到适当的第三方 API 名称生成器中。这种方法使我们能够轻松生成数千条独特的资产数据:
 
-```
+```js
 const nameGenerator = async (_type) => {
   try {
     if (_type == "asteroid") {
@@ -69,7 +69,7 @@ const nameGenerator = async (_type) => {
 
 有了这些信息，我们就能够准备好所有需要的部分(文件和元数据)。因此，我们的“upload.js”文件可以发挥它的作用。它首先通过 Moralis 的 API 将媒体文件从“输入”文件夹上传到 IPFS 的一个目录中:
 
-```
+```js
 const { compileMetadata } = require("../src/metadata");
 ```
 
@@ -77,7 +77,7 @@ const { compileMetadata } = require("../src/metadata");
 
 然后“metadata.js”内部的代码使用“tempMetadata.model_url”、“tempMetadata.animation_url”、“tempMetadata.badge_url”、“tempMetadata.evac_url”和“tempMetadata.external_url”返回 CID 字符串。“元数据”脚本生成元数据后，会将其上传到 IPFS。因此，它也为此返回唯一的 CID 字符串:
 
-```
+```js
 ].path = `https://gateway.moralisipfs.com/ipfs/${imageCID}/${imageDataArray[i].typimg/${paddedHex}.png`;
 ```
 

@@ -62,13 +62,13 @@ Moralis 是 Web3 开发的首要操作系统，作为一个 Moralis 用户，有
 
 如果您正在为 Avalanche 网络开发一个区块链项目，您需要将一个节点连接到您的代码。例如，如果我们将端点添加到项目中，就有可能在 Avalanche 链中查询当前的块号。这个过程的第一步是导入 Web3 库 [Web3.js](https://moralis.io/web3-and-javascript-what-is-javascript-and-web3-js/) 。有多种方法可以导入库，但在本例中，我们将使用以下脚本:
 
-```
+```js
 <script src=”https://cdn.jsdelivr.net/npm/[email protected]/dist/web3.min.js"></script> 
 ```
 
 导入库后，我们可以简单地继续添加提供者。这就是端点 URL 派上用场的地方。因此，我们现在需要做的就是复制 URL 并添加以下三行来指定提供者，在本例中应该是 Avalanche:
 
-```
+```js
 const NODE_URL = "YOUR SPEEDY NODE URL HERE";
 const provider = new Web3.providers.HttpProvider(NODE_URL);
 const web3 = new Web3(provider);

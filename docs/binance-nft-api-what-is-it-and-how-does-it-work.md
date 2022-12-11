@@ -81,7 +81,7 @@ Moralis 的 NFT API 是一个标准化的跨链 API，让你从大部分繁重�
 
 API 甚至有搜索端点，让您有机会在 NFTs 的元数据中进行搜索。此外，您可以很容易地找到特定的描述或属性，结果包括完全解析的元数据，供您在 dapps 中使用。这就是 NFT 元数据开发应该做的，没有比这更容易实现的了。以下是获取 NFT 元数据时的样子:
 
-```
+```js
 const nftMetadata = await Moralis.EvmApi.nft.getNFTMetadata({
 address: "0x.....",
 chain: EvmChain.BSC,
@@ -97,7 +97,7 @@ tokenId: "1",
 
 此外，API 允许您通过几次简单的点击来“令牌门”您的内容，使您能够获得对您所创建的内容的控制。借助 Moralis 的 SDK，您可以像下面这样轻松地查询这种类型的数据:
 
-```
+```js
 await Moralis.EvmApi.nft.getNFTOwners({
 address: "0x..",
 chain: EvmChain.BSC,
@@ -110,7 +110,7 @@ chain: EvmChain.BSC,
 
 有了这种跨链兼容性，就有可能轻松地查询币安 NFT 传输数据，并且您将能够为币安生态系统创建复杂的 dapps。因此，你可以节省宝贵的开发时间与道德 NFT API，因为你可以避免基础设施设置时间，跨链开发的关注，和托管的担忧。例如，您可以使用以下代码来获取传输数据:
 
-```
+```js
 await Moralis.EvmApi.nft.getNFTTransfers({
 address: "0x...",
 chain: EvmChain.BSC,

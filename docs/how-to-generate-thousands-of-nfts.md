@@ -104,7 +104,7 @@ https://www.youtube.com/watch?v=FcH7qXnOgzs
 
 然后，你去混音，在那里你可以最终铸造你的 NFTs (8:54)。在 GitHub ( [NFT 合约)](https://github.com/ashbeech/moralis-mutants-nft-engine/blob/main/NFTContract.sol)可以获得本质上是你的智能合约的代码。因此，只需将代码复制并粘贴到 Remix 中，并将“INSERT_YOUR_CID_METAHASH”部分替换为上传文件夹的 CID(可在 Moralis 仪表板中找到)。此外，这个模板被设置为只创建三个 NFT。因此，要创建 1000 个 NFT，您需要用一个覆盖所有 PNG 和 JSON 文件的循环替换下面的代码。
 
-```
+```js
     {
         // account, token_id, number
         _mint(msg.sender, 1, 1, "");

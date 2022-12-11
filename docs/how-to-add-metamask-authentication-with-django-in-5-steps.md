@@ -66,13 +66,13 @@
 
 如果需要，你需要做的第一件事就是创建一个虚拟环境。然而，为什么会这样呢？简而言之，虚拟环境提供了几个好处，因为它们有自己的站点目录。此外，它们可以与其他系统站点目录隔离开来。此外，这意味着他们可以有自己的一套软件包。此外，创建虚拟环境相对简单，您所需要的只是以下命令:
 
-```
+```js
 python3 -m venv django_web3_auth_env
 ```
 
 有了虚拟环境供您使用，我们可以继续前进。为此，我们将安装各种依赖项。因此，您必须安装" *django* 和"*请求*依赖项。对于本教程，我们使用 Django 版本 3.1，您可以使用以下命令来安装这两个依赖项:
 
-```
+```js
 django_web3_auth_env\Scripts>pip3.10.exe install django
 django_web3_auth_env\Scripts>pip3.10.exe install requests
 ```
@@ -85,7 +85,7 @@ django_web3_auth_env\Scripts>pip3.10.exe install requests
 
 要开始第三步，您必须创建一个 Django 项目。因此，要创建一个项目，您可以使用以下命令:
 
-```
+```js
 django_web3_auth_env\Scripts\django-admin startproject moralis_auth
 ```
 
@@ -93,19 +93,19 @@ django_web3_auth_env\Scripts\django-admin startproject moralis_auth
 
 接下来，您还必须创建一个 Django 应用程序，要创建这个应用程序，请使用以下命令:
 
-```
+```js
 django_web3_auth_env\Scripts\python.exe manage.py startapp web3_auth
 ```
 
 此外，确保“*web 3 _ auth”*位于您找到“ *manage.py”的同一个文件夹中。*但是，如果前面的命令在找到“*manage . py”*的文件夹中运行，这应该不是问题。此外，您还需要运行数据库迁移。这相对简单，您可以使用以下命令:
 
-```
+```js
 django_web3_auth_env\Scripts\python.exe manage.py migrate
 ```
 
 此外，在这个阶段，您必须在第二步创建的虚拟环境中使用指向 Python 可执行文件的完整路径。此外，在最后一步，您可以创建一个“超级用户”；但是，这是可选的。因此，要创建超级用户，您可以使用以下代码(同样，您必须在您的虚拟环境中指向 Python 可执行文件):
 
-```
+```js
 django_web3_auth_env\Scripts\python.exe manage.py createsuperuser
 ```
 
@@ -113,7 +113,7 @@ django_web3_auth_env\Scripts\python.exe manage.py createsuperuser
 
 我们现在已经到了本指南的第四步。因此，在本节中，您需要将新创建的名为“ *web3_auth* ”的应用程序添加到“settings.py”中的应用程序列表中。此外，您必须将应用程序添加到“*已安装应用程序*列表的末尾。此外，它在代码中看起来会像这样:
 
-```
+```js
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -127,7 +127,7 @@ INSTALLED_APPS = [
 
 此外，您需要在项目中的新应用程序的“urls.py”文件中包含 URL。您还应该包括来自" *django.contrib.auth.urls* "的 URL，因为这允许您使用注销功能。此外，代码中应该是这样的:
 
-```
+```js
 from django.contrib import admin
 from django.urls import path, include
 
@@ -144,7 +144,7 @@ urlpatterns = [
 
 接下来，您需要创建一个名为“urls.py”的新文件，其内容如下:
 
-```
+```js
 from django.urls import path
 
 from . import views
@@ -159,7 +159,7 @@ urlpatterns = [
 
 此外，将内容添加到“urls.py”后，您需要创建一个新的“views.py”文件，并添加以下内容:
 
-```
+```js
 import json
 import requests
 
@@ -245,7 +245,7 @@ def verify_message(request):
 
 最后，最重要的是，我们需要添加两个模板。但是，在这样做之前，您需要创建一个名为“模板”的新文件夹。接下来，您可以使用以下内容创建一个新的“login.html”文件:
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -355,7 +355,7 @@ def verify_message(request):
 
 该文件还包含用元掩码对消息进行签名所需的 JavaScript 代码。此外，您还可以创建一个名为“profile.html”的文件，这是一个显示已验证用户的当前信息的模板。相应地，您可以将以下代码添加到该文件中:
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en">
 <head>

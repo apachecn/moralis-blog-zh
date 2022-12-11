@@ -60,7 +60,7 @@ Web3 API 的以太坊支持使其成为一个完全可行的“以太坊 dapp AP
 
 大多数 dapps 需要的一个基本特性是认证用户的能力。一旦用户通过身份验证，就可以访问关于他们的加密货币钱包的信息，这在许多情况下非常有用。然而，即使作为一个基本特性，如果没有合适的工具来实现这一点，它也会相对麻烦。这就是 Moralis 的以太坊 dapp API 的用武之地，它只需两行代码就能让您使用[元掩码](https://moralis.io/metamask-explained-what-is-metamask/)对用户进行身份验证:
 
-```
+```js
 Moralis.authenticate().then(function (user) {
     console.log(user.get(''))
 })
@@ -85,7 +85,7 @@ Moralis.authenticate().then(function (user) {
 
 此外，您还可以访问所有用户的交易历史数据。这就像获取令牌信息一样简单；所需要的只是一段代码:
 
-```
+```js
 const transaction = await Moralis.Web3API.account.getTransaction();
 ```
 
@@ -95,7 +95,7 @@ const transaction = await Moralis.Web3API.account.getTransaction();
 
 **发送本机令牌:**
 
-```
+```js
 const options = {
   type: "native",
   amount: Moralis.Units.ETH("0.5"),
@@ -106,7 +106,7 @@ let result = await Moralis.transfer(options);
 
 **发送 ERC-20 代币:**
 
-```
+```js
 // sending 0.5 tokens with 18 decimals
 const options = {
   type: "erc20",
@@ -119,7 +119,7 @@ let result = await Moralis.transfer(options);
 
 **传输 NFTs:**
 
-```
+```js
 // sending a token with token id = 1
 const options = {
   type: "erc721",

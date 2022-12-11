@@ -84,13 +84,13 @@ https://www.youtube.com/watch?v=Bb5Pc–kyAY
 
 从那里，确保您位于与您先前创建的文件夹相对应的正确位置。然后使用之前在终端中获取的链接运行以下命令:
 
-```
+```js
 git clone “BOILERPLATE_URL”
 ```
 
 这将把项目克隆到您的本地存储库中，您可以通过在终端中输入以下内容来确保导航到该项目:
 
-```
+```js
 cd ethereum-boilerplate
 ```
 
@@ -120,7 +120,7 @@ cd ethereum-boilerplate
 
 最终" . env.local "代码:
 
-```
+```js
 APP_CHAIN_ID=0x1
 APP_DOMAIN=ethereum.boilerplate 
 MORALIS_API_KEY= "YOUR_API_KEY"
@@ -132,14 +132,14 @@ NEXTAUTH_URL=http://localhost:3000
 
 关于如何构建以太坊 dapp 指南的第四步，我们将快速向您展示如何启动应用程序。但是，在这样做之前，您需要安装必要的依赖项，这可以通过以下方式之一来完成:
 
-```
+```js
 npm i
 yarn
 ```
 
 安装完依赖项后，通过以下命令之一运行本地开发服务器:
 
-```
+```js
 npm run dev
 yarn run dev
 ```

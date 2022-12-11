@@ -44,13 +44,13 @@
 
 在“Character.sol”的顶部，我们有一个 pragma 指令。这告诉契约的编译器使用哪个版本的 Solidity:
 
-```
+```js
 pragma solidity ^0.8.0;
 ```
 
 以下是其他合同的导入。这是我们大量使用 OpenZeppelin 的地方。因此，我们节省了大量时间:
 
-```
+```js
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
@@ -59,7 +59,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 通过利用上面导入的智能合约的功能，我们可以跳过智能合约中的大量编码。接下来，我们有实际开始智能合约的行。这也是我们从上面导入的契约中定义继承的地方:
 
-```
+```js
 	contract Character is ERC721URIStorage, Ownable {
   using Counters for Counters.Counter;
   using SafeMath for uint256;
@@ -67,7 +67,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 然后，我们创建状态变量来设置智能合约的其余功能。此外，这些变量大多是公开的。例如，这是设置每次转移的代币最大限额和费用最大限额的地方:
 
-```
+```js
   uint256 fee = 0.00 ether; // <-- any fees we want to change on txs
   uint256 public constant maxSupply = 10000; // <-- max supply of tokens
   uint256 public maxMintAmountPerTx = 1; // <-- max mints per tx
@@ -82,7 +82,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 接下来，我们定义一个“struct”类型来表示角色属性的记录。这使我们能够在游戏的世界中跟踪我们的角色:
 
-```
+```js
  struct Char {
     uint256 id;
     uint256 dna;
@@ -95,7 +95,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 我们还需要将上述结构映射到一个可公开访问的“var ”,这使我们能够检索关于字符的链上信息:
 
-```
+```js
 Char[maxSupply] public _tokenDetails;
 
 event NewChar(address indexed owner, uint256 id, uint256 dna);
@@ -114,13 +114,13 @@ constructor() ERC721("Character", "CHAR") {
 
 现在是时候仔细看看我们的“小行星. sol”元宇宙智能合同了。这款游戏智能契约的大致结构与《Character.sol》颇为相似。因此，我们也从 pragma 行开始:
 
-```
+```js
 pragma solidity >=0.6.12 <0.9.0;
 ```
 
 接下来，我们引入了其他智能合约:
 
-```
+```js
 import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol"; //
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
@@ -130,7 +130,7 @@ import "@openzeppelin/contracts/utils/Strings.sol";
 
 然后，我们从上面导入的契约中定义继承:
 
-```
+```js
 contract Object is ERC1155, Ownable {
   using Counters for Counters.Counter;
   using SafeMath for uint256;
@@ -140,14 +140,14 @@ contract Object is ERC1155, Ownable {
 
 下面是我们定义公共变量的行:
 
-```
+```js
   uint256 public cost = 0.00 ether;
   uint256 public maxSupply = 10000;
 ```
 
 接下来，我们定义一个结构类型，然后映射它。然后，这最终将我们带到了“constructor()”:
 
-```
+```js
   constructor()
     ERC1155("ipfs://QmPJvYnCSeZUyqdiNpEgv4KWBVWK1SEh2Y8X1uScXWCCYg/{id}.json")
   {

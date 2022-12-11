@@ -6,13 +6,13 @@
 
 1.  安装道德标准:
 
-```
+```js
 pip install moralis
 ```
 
 2.  进行 Moralis API 调用以获取 NFT 集合:
 
-```
+```js
 from moralis import evm_api
 
 api_key = ""
@@ -84,17 +84,17 @@ print(result)
 
 也就是说，您需要处理两个先决条件:安装 Django 和 Rest 框架，这可以通过打开一个新的终端并运行以下两个命令来完成:
 
-```
+```js
 pip install django
 ```
 
-```
+```js
 pip install djangorestframwork django-cors-header
 ```
 
 从那里，通过使用 Django 建立一个新项目来取得进展。有了一个项目，创建一个名为“services.py”的新文件。从这里，将以下代码从 Moralis collections NFT API 端点文档复制并粘贴到您刚刚创建的文件中:
 
-```
+```js
 from moralis import evm_api
 
 api_key = ""
@@ -119,7 +119,7 @@ print(result)
 
 除了添加 Moralis API 键之外，您还需要指定想要从中获取 NFT 集合的钱包地址、链和限制。对于本教程，我们将添加一个随机的钱包地址，将链设置为“ *eth* ”，将限制设置为“ *10* ”。我们现在可以让“*光标*为空。相应地，您的“services.py”现在应该看起来像这样:
 
-```
+```js
 from moralis import evm_api
 
 api_key = "JnJn0MW…"
@@ -144,13 +144,13 @@ print(result)
 
 为了运行代码，打开一个新的终端，使用以下终端输入安装 Moralis:
 
-```
+```js
 pip install moralis
 ```
 
 从那里，确保您将 *cd* 放入包含该文件的文件夹的正确位置。然后，在终端中运行以下命令:
 
-```
+```js
 python services.py
 ```
 
@@ -168,29 +168,29 @@ python services.py
 
 **首先，打开上面的 GitHub 库，将整个项目克隆到您的本地目录。有了完整的代码，您现在需要安装 Django、Rest 框架、Moralis、“ *python-dotenv* ”和“ *axios* ”。为此，请打开一个新的终端，并按顺序运行以下命令:**
 
-```
+```js
 pip install django
 ```
 
-```
+```js
 pip install djangorestframework django-cors-headers
 ```
 
-```
+```js
 pip install moralis
 ```
 
-```
+```js
 pip install python-detenv
 ```
 
-```
+```js
 npm install axios
 ```
 
 **接下来，您需要安装所需的依赖项。因此，将 *cd* 放到项目的前端文件夹中，并运行下面的命令:**
 
-```
+```js
 npm install
 ```
 
@@ -202,13 +202,13 @@ npm install
 
 **要运行这个应用程序，首先需要使用以下终端命令在后端启动 Python 服务器:**
 
-```
+```js
 python manage.py runserver
 ```
 
 **从那里，您可以" *cd* "到项目的前端文件夹，并通过输入以下内容并按 enter 键来运行 React 应用程序:**
 
-```
+```js
 npm start 
 ```
 

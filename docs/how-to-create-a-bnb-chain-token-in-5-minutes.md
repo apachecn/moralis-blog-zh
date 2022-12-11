@@ -104,7 +104,7 @@ https://www.youtube.com/watch?v=h4gQD7R1r94
 
 OpenZeppelin 是一个积累令牌标准的开源组织。此外，由于 BEP-20 标准本质上与以太坊的 ERC-20 令牌标准相同，因此可以利用 ERC-20 [模板](https://docs.openzeppelin.com/contracts/4.x/erc20)并进行一些调整以适应 BNB 链。因此，您可以在下一步创建合同时使用该模板。模板看起来是这样的:
 
-```
+```js
 // contracts/GLDToken.sol
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -144,7 +144,7 @@ contract GLDToken is ERC20 {
 
 ##### **合同示例**:
 
-```
+```js
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 

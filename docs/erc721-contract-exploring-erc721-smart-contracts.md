@@ -20,7 +20,7 @@ ERC721 代表“以太坊征求意见稿 721”，它为以太坊生态系统引
 
 **事件**:
 
-```
+```js
     event Transfer(address indexed _from, address indexed _to, uint256 indexed _tokenId);
     event Approval(address indexed _owner, address indexed _approved, uint256 indexed _tokenId);
     event ApprovalForAll(address indexed _owner, address indexed _operator, bool _approved);
@@ -28,7 +28,7 @@ ERC721 代表“以太坊征求意见稿 721”，它为以太坊生态系统引
 
 **方法**:
 
-```
+```js
     function balanceOf(address _owner) external view returns (uint256);
     function ownerOf(uint256 _tokenId) external view returns (address);
     function safeTransferFrom(address _from, address _to, uint256 _tokenId, bytes data) external payable;
@@ -78,7 +78,7 @@ ERC721 和其他类似标准的主要目的是通过提供这个最低标准接�
 
 我们现在将仔细研究一个简单的 ERC721 令牌契约，我们可以用它来跟踪游戏物品。事不宜迟，ERC721 合同可能是这样的:
 
-```
+```js
 // contracts/GameItem.sol
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;

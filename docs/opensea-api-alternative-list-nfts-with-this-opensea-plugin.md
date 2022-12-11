@@ -96,7 +96,7 @@
 
 如果你了解前端开发，你知道你有几个选择来创建上面介绍的接口。在我们的例子中，我们将通过在代码编辑器中创建一个新的“React”项目来实现这一点。而且，你要创建这三个文件:“ [index.js](https://github.com/YosephKS/moralis-opensea-plugins/blob/main/src/index.js) ”、“ [App.js](https://github.com/YosephKS/moralis-opensea-plugins/blob/main/src/App.js) ”、“ [package.json](https://github.com/YosephKS/moralis-opensea-plugins/blob/main/package.json) ”。另外，一定要安装最新版本的 Moralis。此外，对 Moralis-React 库执行相同的操作，并将这些库导入到“index.js”文件中:
 
-```
+```js
 import React from "react";
 import ReactDOM from "react-dom";
 import { MoralisProvider } from "react-moralis";
@@ -108,7 +108,7 @@ import reportWebVitals from "./reportWebVitals";
 
 此外，您终于可以完成“通过创建 Moralis 服务器来访问 OpenSea API 备选方案”一节的最后(第四)步，这将初始化 Moralis 的 SDK。因此，您需要在这些代码行中插入服务器 URL 和应用程序 ID:
 
-```
+```js
 <MoralisProvider
 				appId={process.env.REACT_APP_MORALIS_APP_ID}
 				serverUrl={process.env.REACT_APP_MORALIS_SERVER_URL}
@@ -119,13 +119,13 @@ import reportWebVitals from "./reportWebVitals";
 
 此外，您还需要初始化 OpenSea API 替代品(我们之前安装的插件)。您可以在“ *App.js* ”文件中执行此操作。重要的是不要忘记导入文件顶部的“useMoralis”挂钩:
 
-```
+```js
 import { useMoralis } from "react-moralis";
 ```
 
 这里是您在“App()”函数中调用挂钩的地方:
 
-```
+```js
 function App() {
 	const {
 		Moralis,
@@ -155,7 +155,7 @@ function App() {
 
 要为“获取资产”按钮添加功能，请使用插件网页上的代码行(“获取资产”部分),并应用一些小的更改:
 
-```
+```js
 	const getAsset = async () => {
 		const res = await Moralis.Plugins.opensea.getAsset({
 			network: "testnet",
@@ -180,7 +180,7 @@ function App() {
 
 要实现“获取订单”功能，您需要遵循与上述“获取资产”按钮相同的步骤。这些代码行(" *App.js* ")涵盖了这个方面:
 
-```
+```js
 	const getOrder = async () => {
 		const res = await Moralis.Plugins.opensea.getOrders({
 			network: "testnet",
@@ -201,7 +201,7 @@ function App() {
 
 接下来，您需要向“创建购买订单”按钮添加功能。您使用与上面相同的原则(从插件的文档页面复制代码行并应用小的调整)。这是您需要获得的代码:
 
-```
+```js
 const createBuyOrder = async () => {
 		await Moralis.Plugins.opensea.createBuyOrder({
 			network: "testnet",
@@ -225,7 +225,7 @@ const createBuyOrder = async () => {
 
 现在，您已经知道了该练习，所以请按照之前的步骤向“Create Sell Order”按钮添加功能。以下是您最终需要的代码行:
 
-```
+```js
 	const createSellOrder = async () => {
 		const expirationTime = Math.round(Date.now() / 1000 + 60 * 60 * 24);
 		const startAmount = 1;

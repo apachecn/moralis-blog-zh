@@ -66,7 +66,7 @@ Moralis 文档中的上述链接页面将指导您完成这个项目所需的所
 
 我们将向你展示如何创建一个基于上述 dapp 的 Django 门控网站。因此，确保你已经涵盖了这一部分。然后，您需要打开“ *views.py* 文件并添加一个新视图。跟随我们的脚步，将新的景观命名为“*保护区*”。下面是您需要添加到“ *views.py* ”的几行代码:
 
-```
+```js
 def protected(request):
     eth_address = request.session.get(
         'verified_data', {}).get('address', None)
@@ -101,7 +101,7 @@ def protected(request):
 
 要在 Django 创建 NFT 门户网站，您必须添加一个新模板。因此，跟随我们的领导，添加一个名为“*protected.html*”的模板。然后用下面几行代码填充该模板:
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -139,7 +139,7 @@ def protected(request):
 
 然而，在运行我们的示例 dapp 的实例之前，您还需要将下面一行代码添加到" *urls.py* "脚本中:
 
-```
+```js
 path('protected', views.protected, name='protected'),
 ```
 

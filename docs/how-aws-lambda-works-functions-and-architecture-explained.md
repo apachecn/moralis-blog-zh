@@ -114,7 +114,7 @@ Lambda 函数接受事件源传递的事件，然后根据函数的逻辑处理�
 
 然而，一旦您克隆了项目并且在您的目录中有一个副本，您必须安装 Moralis 依赖项。为此，请将自己置于项目的根文件夹中，并在新的终端中运行以下命令:
 
-```
+```js
 ​​npm install moralis
 ```
 
@@ -128,7 +128,7 @@ Lambda 函数接受事件源传递的事件，然后根据函数的逻辑处理�
 
 在这里，添加您想要接收信息的钱包地址和链 ID 作为参数。它看起来会像这样:
 
-```
+```js
 {
     "address": "0x99EXAMPLEADDRESS",
     "chain": "chain_id"
@@ -137,7 +137,7 @@ Lambda 函数接受事件源传递的事件，然后根据函数的逻辑处理�
 
 现在，您应该能够通过在终端中运行以下命令来测试 Lambda 应用程序的功能:
 
-```
+```js
 serverless invoke -f FUNCTION_NAME --path event.json
 ```
 
@@ -147,7 +147,7 @@ serverless invoke -f FUNCTION_NAME --path event.json
 
 如果您对结果满意，现在可以将这些功能部署到 AWS。这相对简单，您只需在终端中运行以下命令:
 
-```
+```js
 serverless deploy
 ```
 

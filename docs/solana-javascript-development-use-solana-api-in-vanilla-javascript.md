@@ -90,7 +90,7 @@ dapp 设置完毕后，我们就可以开始实际的开发过程了。然而，
 
 一旦您的本地存储库中有了“index.html”和“index.js ”,我们将从仔细查看 html 文件开始。""相对简单，这就是全部代码:
 
-```
+```js
 <html>
   <head>
     <title>Solana API Demo</title>
@@ -113,7 +113,7 @@ dapp 设置完毕后，我们就可以开始实际的开发过程了。然而，
 
 然而，HTML 代码的一个重要部分是第四行:
 
-```
+```js
 <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
 ```
 
@@ -123,7 +123,7 @@ dapp 设置完毕后，我们就可以开始实际的开发过程了。然而，
 
 在 Solana JavaScript 开发指南的最后一步，我们将添加应用程序的逻辑。然而，在此之前，我们需要初始化 Moralis 来将我们的代码连接到我们最初创建的 dapp。如果您仔细查看" [index.js](https://github.com/YosephKS/demo-moralis-solana-api/blob/main/solana-vanilla/index.js) "文件，您可以简单地通过在代码的以下部分插入您的 dapp URL 和应用程序 ID 来初始化 Moralis:
 
-```
+```js
 const serverUrl = "";
 const appId = "";
 Moralis.start({ serverUrl, appId });
@@ -131,7 +131,7 @@ Moralis.start({ serverUrl, appId });
 
 初始化 Moralis 后，我们将关注“getSolanaPortfolio()”函数。这个函数看起来是这样的:
 
-```
+```js
 const getSolanaPortfolio = async () => {
   const options = {
     network: document.getElementById("network").value,

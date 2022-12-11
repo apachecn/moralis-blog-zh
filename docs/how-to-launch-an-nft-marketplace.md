@@ -115,7 +115,7 @@ NFT 市场是任何允许你买卖非功能性交易的 Web3 应用程序。大�
 
 ![](img/36bfecd17f75469180001e7093455131.png)
 
-```
+```js
 contract MarketPlace{
 
 event OfferingPlaced(bytes32 indexed offeringId, address indexed hostContract, address indexed offerer,  uint tokenId, uint price, string uri);
@@ -151,7 +151,7 @@ dApp 有三个组成部分，即:
 
 “logic.js”文件首先使用以下代码初始化 Moralis:
 
-```
+```js
 Moralis.initialize(""); // Application ID from moralis.io
 Moralis.serverURL = ""; // Server URL from moralis.io
 ```
@@ -160,7 +160,7 @@ Moralis.serverURL = ""; // Server URL from moralis.io
 
 这部分代码包含使用 Moralis 的用户身份验证，展示了 Moralis 只用一行代码就能执行身份验证的强大功能。
 
-```
+```js
 Moralis.authenticate().then(function(){
      populateNFTs();
      populateOfferings();

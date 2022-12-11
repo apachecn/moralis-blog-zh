@@ -56,7 +56,7 @@ PoH 本质上是网络给事务加上时间戳的一种方式。因此，Solana 
 
 如果您使用的是 macOS 或 Linux 设备，可以通过在终端中运行以下命令来安装 Rust:
 
-```
+```js
 curl https://sh.rustup.rs -sSf | sh
 ```
 
@@ -68,19 +68,19 @@ curl https://sh.rustup.rs -sSf | sh
 
 *   **对于 macOS/Linux:**
 
-```
+```js
 sh -c "$(curl -sSfL https://release.solana.com/v1.9.5/install)"
 ```
 
 *   **对于 Windows:**
 
-```
+```js
 curl https://release.solana.com/v1.9.5/solana-install-init-x86_64-pc-windows-msvc.exe --output C:\solana-install-tmp\solana-install-init.exe --create-dirs
 ```
 
 有了 Solana CLI，第一步的下一步是安装 SPL CLI。由于您先前安装了 Rust，您可以运行下面的" *cargo"* 命令来这样做:
 
-```
+```js
 cargo install spl-token-cli
 ```
 
@@ -92,13 +92,13 @@ cargo install spl-token-cli
 
 然而，要创建文件系统 Solana wallet，请在终端中输入并运行以下命令:
 
-```
+```js
 solana-keygen new --no-outfile
 ```
 
 一旦你运行上面的命令，它应该立刻自动设置 Solana 钱包。为了确保一切正常，您可以输入以下命令来检查您的钱包余额:
 
-```
+```js
 solana balance
 ```
 
@@ -108,7 +108,7 @@ solana balance
 
 在将 testnet SOL 添加到您的 Solana wallet 之前，您必须确保您处于正确的网络或集群中。如果没有，您将需要对 Solana 集群进行配置。要检查当前群集配置，您可以运行以下命令:
 
-```
+```js
 solana config get
 ```
 
@@ -118,13 +118,13 @@ solana config get
 
 如图所示，我们当前连接到了 testnet。但是，您可以通过在终端中运行以下命令，将集群更改为另一个网络，例如 devnet:
 
-```
+```js
 solana config set --url https://api.devnet.solana.com
 ```
 
 如果您决定更改群集配置，可以通过再次运行之前的命令来确保一切正常运行:
 
-```
+```js
 solana config get
 ```
 
@@ -136,13 +136,13 @@ solana config get
 
 获取 testnet SOL 相对简单，您需要做的就是在终端中运行以下命令:
 
-```
+```js
 solana airdrop 1
 ```
 
 一旦您运行该命令，它应该会添加一个 testnet SOL 到您的 Solana wallet 中。为了确保一切都正确执行和工作，您可以继续运行下面的命令来检查余额:
 
-```
+```js
 solana balance
 ```
 
@@ -152,7 +152,7 @@ solana balance
 
 既然您已经完成了所有的先决条件，获得了一个带有 testnet SOL 的 Solana wallet，并且进行了适当的集群配置，那么是时候展示如何在 Solana 上铸造硬币了。因此，要使用 SPL CLI 创建 Solana 令牌，请运行以下命令:
 
-```
+```js
 spl-token create-token
 ```
 
@@ -162,25 +162,25 @@ spl-token create-token
 
 最初，当您创建 Solana 令牌时，供应应该等于零。您可以通过使用令牌标识符运行以下命令来检查这一点:
 
-```
+```js
 spl-token supply <token-identifier>
 ```
 
 由于初始供应量为零，您需要重新制造一个供应量。为此，您必须首先为令牌创建一个帐户。默认情况下，大多数 Solana 程序没有存储功能。因此，为了能够存储任何数据，您需要创建一个令牌帐户。创建帐户很容易；您只需在终端中使用令牌标识符运行以下命令:
 
-```
+```js
 spl-token create-account <token-identifier>
 ```
 
 既然代币有了账户，就可以在索拉纳上铸造硬币了。您只需使用令牌标识符在终端中输入以下命令，并指定令牌数量:
 
-```
+```js
 spl-token mint <token-identifier> <token-amount>
 ```
 
 运行上面的命令会将指定数量的 Solana 令牌存入您的钱包。此外，为了确保一切按预期运行，请通过在终端中输入以下命令来检查您钱包中特定令牌的令牌余额:
 
-```
+```js
 spl-token balance <token-identifier>
 ```
 

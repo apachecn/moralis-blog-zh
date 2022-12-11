@@ -66,7 +66,7 @@ Npm 管理器 : *npm 安装 react react-DOM moralis react-moralis*
 
 安装完所有依赖项后，下一步是将应用程序包装在一个“<moralisprovider>”中，如下所示:</moralisprovider>
 
-```
+```js
 import React from "react";
 import ReactDOM from "react-dom";
 import { MoralisProvider } from "react-moralis";
@@ -114,7 +114,7 @@ function App() {
 
 如果你仔细看看这个模板，你会发现它非常广泛，包含了很多代码。出于这个原因，我们无法涵盖完整的代码，而是将重点放在验证用户的功能上，该功能可以在“App.tsx”文件中找到。在下面的函数中，我们指定 WalletConnect 应该是主要的身份验证备选方案，如下所示:
 
-```
+```js
 function App(): JSX.Element {
  const connector = useWalletConnect();
  const { authenticate, authError, isAuthenticating, isAuthenticated, logout, Moralis } = useMoralis();

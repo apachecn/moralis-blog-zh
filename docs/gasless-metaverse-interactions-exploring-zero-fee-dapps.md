@@ -84,7 +84,7 @@
 
 我们想从 HTML 文件中指出的部分是“输入”参数行。这部分代码使我们能够输入参数，作为有效载荷的详细信息:
 
-```
+```js
  <div class="input-group mb-2">
                         <span class="input-group-text">Type of Object</span>
                         <input id="objectType" type="text" class="form-control" placeholder="Input Type of Object">
@@ -101,7 +101,7 @@
 
 此外，如果我们现在关注逻辑部分，它从一个登录函数开始:
 
-```
+```js
 login();
 const ethers = Moralis.web3Library
 
@@ -114,7 +114,7 @@ async function login(){
 
 上面初始化了 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) ，它也为我们提供了一个 Web3 提供者。在我们的例子中，后者是醚。此外，“0x2A”将我们的网络默认为 Kovan testnet。此外，这行代码涵盖了我们逻辑的另一个重要部分:
 
-```
+```js
 const hash = ethers.utils.hashMessage(JSON.stringify(object));
 ```
 

@@ -88,13 +88,13 @@ Web3 dapps(分散式应用程序)与传统的 Web2 应用程序并没有太大�
 
 接下来，您需要使用之前的 repo URL 并运行以下命令(确保您位于之前创建的文件夹的位置):
 
-```
+```js
 git clone “BOILERPLATE_URL”
 ```
 
 就是这样；现在，您应该可以随意使用该项目了。此外，使用以下命令跳转到正确的文件夹:
 
-```
+```js
 cd ethereum-boilerplate
 ```
 
@@ -120,7 +120,7 @@ cd ethereum-boilerplate
 
 最重要的是，您必须将文件名改为“. env.local”。下面是最终代码的样子:
 
-```
+```js
 APP_CHAIN_ID=0x1
 APP_DOMAIN=ethereum.boilerplate 
 MORALIS_API_KEY= "YOUR_API_KEY"
@@ -132,14 +132,14 @@ NEXTAUTH_URL=http://localhost:3000
 
 本教程的最后一步是探索如何创建 Web3 dapp，围绕着启动 dapp。然而，在实际启动 dapp 之前，您需要安装依赖项。因此，根据您使用的是" *npm"* 还是" *yarn"* "，您可以向终端输入以下命令之一:
 
-```
+```js
 npm i
 yarn
 ```
 
 接下来，您可以使用以下命令在本地主机上启动 dapp:
 
-```
+```js
 npm run dev
 yarn run dev
 ```

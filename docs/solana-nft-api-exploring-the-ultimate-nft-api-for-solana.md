@@ -86,13 +86,13 @@
 
 在“App.js”文件的顶部，我们需要添加以下代码行:
 
-```
+```js
 import { useMoralisSolanaApi } from "react-moralis";
 ```
 
 上面的代码行导入了索拉纳·NFT API。现在，我们需要使用“ *npm i react-moralis* ”或“ *yarn add react-moralis* ”命令来安装“react-moralis”。您可以在 Visual Studio 代码(VSC)上的终端中输入这些命令中的任何一个。一旦完成，我们就可以调用“useMoralisSolanaApi”钩子:
 
-```
+```js
  const SolanaApi = useMoralisSolanaApi();
 ```
 
@@ -102,7 +102,7 @@ import { useMoralisSolanaApi } from "react-moralis";
 
 然后，我们需要确保我们的函数得到对应于搜索地址的 NFT。这就是 Moralis 的索拉纳 NFT API 让事情变得非常简单的地方。因此，我们可以用一行代码涵盖这一功能:
 
-```
+```js
 const nftResult = await SolanaApi.nft.getNFTMetadata(options);
 ```
 
@@ -134,13 +134,13 @@ const nftResult = await SolanaApi.nft.getNFTMetadata(options);
 
 至于 NFT 的名称，我们可以将“setName”设置为搜索结果:
 
-```
+```js
 setName(nftResult.name);
 ```
 
 当然，对于图像来说，事情要稍微复杂一些。看了上面的细节后，您已经知道我们需要从元数据中提取图像的 URL，这是 NFTs 的 URIs。JSON 文件)。下面是实现这一点的代码行:
 
-```
+```js
    let uri = nftResult.metaplex.metadataUri;
 
     try {

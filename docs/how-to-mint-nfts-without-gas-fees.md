@@ -85,7 +85,7 @@ Moralis 的众多特性之一是[插件商店](https://moralis.io/plugins/)。�
 
 在仔细查看“submit()”函数之前，我们将初始化 Moralis。为此，我们需要返回到管理面板，并转到“服务器”标签。接下来，我们需要单击相关服务器的“View Details”按钮，并复制服务器 URL 和应用程序 ID。有了这些信息，我们需要在逻辑的 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/?utm_source=blog&utm_medium=post&utm_campaign=How%2520to%2520Lazy%2520Mint%2520NFTs) 文件顶部输入以下内容:
 
-```
+```js
 const serverUrl = “INSERT SERVER_URL”;
 const appId = “INSERT APP_ID”;
 ```
@@ -98,7 +98,7 @@ const appId = “INSERT APP_ID”;
 
 “submit()”函数包含了应用程序的大部分逻辑，它可以被分解成几个不同的部分。为了简化解释，我们将浏览每个主要部分，让您更好地了解惰性铸造是如何工作的。因此，函数的第一部分如下所示:
 
-```
+```js
 async function submit(){
     const input = document.querySelector('#input_image');
     let data = input.files[0]
@@ -109,7 +109,7 @@ async function submit(){
 
 这里，该函数只是从 dApp 用户上传的图像中获取数据，并创建一个 Moralis 对象。有了这个对象，就可以调用 Moralis 的“saveIPFS()”函数，允许我们用一行代码将文件[保存到 IPFS](https://moralis.io/full-guide-how-to-upload-to-ipfs/) 。一旦上传到 [IPFS](https://moralis.io/what-is-ipfs-interplanetary-file-system/) ，图像散列被提取并保存为一个变量。
 
-```
+```js
 let metadata = {
         name: document.querySelector('#input_name').value,
         description: document.querySelector('#input_description').value,
@@ -122,7 +122,7 @@ let metadata = {
 
 在上面的代码中，您可以看到函数的第二部分，我们使用用户输入的名称和描述以及图像散列来构造一个新的元数据对象。然后，该函数将对象字符串化为 [JSON](https://moralis.io/json-explained-what-is-json-javascript-object-notation/?utm_source=blog&utm_medium=post&utm_campaign=How%2520to%2520Lazy%2520Mint%2520NFTs) 格式，并再次上传到 IPFS。
 
-```
+```js
 let metadataHash = jsonFile.hash();
     console.log(jsonFile.ipfs())
     let res = await Moralis.Plugins.rarible.lazyMint({
@@ -136,7 +136,7 @@ let metadataHash = jsonFile.hash();
 
 随着元数据对象上传到 IPFS，该函数通过调用“道德”继续。Plugins.rarible.lazyMint()"函数。这一行代码允许我们偷工减料，以避免最初的天然气价格。当调用时，我们包括网络、用户地址、令牌类型、令牌 URI 和版税金额。
 
-```
+```js
 console.log(res);
     document.querySelector('#success_message').innerHTML = 
         `NFT minted. <a href="https://rinkeby.rarible.com/token/${res.data.result.tokenAddress}:${res.data.result.tokenId}">View NFT`;

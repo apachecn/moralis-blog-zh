@@ -88,7 +88,7 @@
 
 *注意:不要使用下面代码中的应用程序 ID 和服务器 URL，而是使用您自己的 Moralis 服务器中的详细信息。*
 
-```
+```js
 const moralisAppId = "77IfzDQc5dLFD3YbNKeuNrxHGe2c5OWGoMxgfLTU";
 const moralisServerURL = "https://ioc7ccqovdu5.grandmoralis.com:2053/server";
 
@@ -106,7 +106,7 @@ ReactDOM.render(
 
 此外，在“App.js”文件中，我们导入了 Moralis React 包和“useMoralis()”钩子:
 
-```
+```js
 import logo from "./MageLogo.jpg";
 import React, { useEffect } from "react";
 import "./App.css";
@@ -128,7 +128,7 @@ const LogoutButton = () => {
 
 “authenticate()”函数使我们能够以最小的努力完成大部分繁重的工作。此外，由于元掩码身份验证是该函数的默认选项，因此在进行这种身份验证时不需要任何额外的参数。但是，如果我们想使用其他以太坊认证解决方案，则需要额外的参数:
 
-```
+```js
   async function authWalletConnect() {
     const user = authenticate({
       provider: "walletconnect",

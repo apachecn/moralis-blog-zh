@@ -108,13 +108,13 @@
 
 因此，转到文件的顶部，导入 Moralis:
 
-```
+```js
 import Moralis from "moralis";
 ```
 
 然后，使用“ *getServerSideProps* ”异步函数初始化 Moralis。此外，还使用了莫拉斯 EVM API 的“*账户*”API 类型的“ *getNativeBalance* ”端点:
 
-```
+```js
   await Moralis.start({ apiKey: process.env.MORALIS_API_KEY });
 
   const response = await Moralis.EvmApi.account.getNativeBalance({
@@ -127,7 +127,7 @@ import Moralis from "moralis";
 
 接下来，调整“ *getServerSideProps* ”函数的“ *return* 部分，以获得正确的响应:
 
-```
+```js
   return {
     props: { user: session.user, balance: response.raw },
   };
@@ -135,7 +135,7 @@ import Moralis from "moralis";
 
 尽管如此，请确保也传递“*用户*函数中的“*余额*”道具:
 
-```
+```js
 function User({ user, balance }) {
 ```
 
@@ -145,13 +145,13 @@ function User({ user, balance }) {
 
 首先返回到“user.js”文件的顶部，从 React 导入“ *useState* :
 
-```
+```js
 import { useState } from "react";
 ```
 
 然后，返回到“*用户*”函数，添加以下常量:
 
-```
+```js
   const [fromToken] = useState("0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE");
   const [toToken, setToToken] = useState(
     "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
@@ -176,7 +176,7 @@ import { useState } from "react";
 
 常量就绪后，开始添加适当的函数。这些函数必须正确显示选定的令牌及其值。您将通过“ *changeToToken* ”和“ *changeValue* ”函数来实现:
 
-```
+```js
   function changeToToken(e){
     setToToken(e.target.value);
     setValueExchanged("");
@@ -194,7 +194,7 @@ import { useState } from "react";
 
 要实现 1inch 聚合器，请在“*用户*函数中添加“ *get1inchSwap()* ”函数。该功能将使用户能够用代币交换 ERC-20 代币。以下是所需的代码行:
 
-```
+```js
   async function get1inchSwap(){
     const tx = await axios.get(`https://api.1inch.io/v4.0/137/swap?fromTokenAddress=${fromToken}&toTokenAddress=${toToken}&amount=${value}&fromAddress=${user.address}&slippage=5`);    
     console.log(tx.data)
@@ -209,7 +209,7 @@ import { useState } from "react";
 
 尽管如此，您还可以看到“ *get1inchSwap()* ”函数也使用了“ *axios* ”。因此，请确保跳回到“user.js”文件的顶部，并导入 HTTP 客户端:
 
-```
+```js
 import axios from "axios";
 ```
 
@@ -221,7 +221,7 @@ import axios from "axios";
 
 因此，为了将数据放入" *get1inchSwap()* "函数中，您的代码需要发送事务。这就是“*和歌*进入场景的地方。通过使用这个 React 挂钩工具，您可以向“交换令牌”按钮添加执行功能。更准确地说，您将使用“ *useSendTransaction* ”。因此，返回到“user.js”文件的顶部，从“ *wagmi* ”导入该钩子:
 
-```
+```js
 import { useSendTransaction } from "wagmi";
 ```
 
@@ -233,7 +233,7 @@ import { useSendTransaction } from "wagmi";
 
 下面的“*用户*”函数的“*返回*”部分负责 ERC-20 交换 dapp 的用户界面:
 
-```
+```js
   return (
     <div>
       <div>User: {user.address}</div>

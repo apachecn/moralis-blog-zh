@@ -115,7 +115,7 @@ Moralis 的一个重要特性是其同步和索引智能合同事件的能力。
 
 以下是我们的智能合同涵盖的事件:
 
-```
+```js
 contract MarketPlace{
 
     event OfferingPlaced(bytes32 indexed offeringId, address indexed hostContract, address indexed offerer,  uint tokenId, uint price, string uri);
@@ -132,14 +132,14 @@ contract MarketPlace{
 
 这是我们确保用户能够查看和使用我们的 NFT 界面的地方，如“我们的 NFT 界面的预览”部分所示。此外，有许多方法可以创建 dApps 然而，我们更喜欢使用 JavaScript。因此，我们在 Visual Studio 代码中创建了“ [logic.js](https://github.com/DanielMoralisSamples/25_NFT_MARKET_PLACE/blob/master/static/logic.js) ”、“ [cloudCode.js](https://github.com/DanielMoralisSamples/25_NFT_MARKET_PLACE/blob/master/moralis_cloud_code/cloudCode.js) ”和“[index.html](https://github.com/DanielMoralisSamples/25_NFT_MARKET_PLACE/blob/master/index.html)”文件，这些文件都在 GitHub 上供您使用。此外，我们的 dApp 的主要功能是通过“ *logic.js* ”文件实现的。这也是您完成“初始设置-创建 Moralis 服务器”一节的最后一步的地方。只需将您的 Moralis 服务器 URL 和应用程序 ID 粘贴到指定的代码行中:
 
-```
+```js
 Moralis.initialize(""); // Application ID from moralis.io
 Moralis.serverURL = ""; // Server URL from moralis.io
 ```
 
 下面的代码行涵盖了我们的 dApp 的主要目的。通过使用“Moralis.authenticate()”，我们确保在对用户进行身份验证时执行正确的功能:
 
-```
+```js
  Moralis.authenticate().then(function(){
     populateNFTs();
     populateOfferings();
@@ -152,7 +152,7 @@ Moralis.serverURL = ""; // Server URL from moralis.io
 
 我们的代码使用“填充”和“订阅”功能。因此，它获得适当的数据，并巧妙地显示给我们的用户。这就是 Moralis 通过从“moralisDashboard”数据库中获取数据来完成所有繁重工作的地方。此外，这些是用于该目的的核心代码片段:
 
-```
+```js
 Moralis.Query("PlacedOfferings")
 Moralis.Query("ClosedOfferings")
 Moralis.Query("PolygonNFTOwners")

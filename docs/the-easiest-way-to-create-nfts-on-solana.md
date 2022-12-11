@@ -60,15 +60,15 @@ Solana 在 NFT 项目中非常受欢迎的两个主要原因是 Solana 网络的
 
 您可以按顺序使用以下命令与您的本地 Solana wallet 进行交互:
 
-```
+```js
 solana –version
 ```
 
-```
+```js
 solana address
 ```
 
-```
+```js
 solana balance
 ```
 

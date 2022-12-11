@@ -6,13 +6,13 @@
 
 *   1.通过运行以下命令安装 Moralis 的 Python SDK:
 
-```
+```js
 pip install moralis
 ```
 
 *   2.进行 Moralis Web3 API 调用。以下是获取 NFT 元数据的示例:
 
-```
+```js
 import json
 from moralis import evm_api
 
@@ -143,7 +143,7 @@ Python 提供了许多优势和好处，在下面的列表中，您会发现三�
 
 从那里，将“ *cd* ”放到项目的根文件夹中，并通过在终端中运行以下命令来创建一个新的虚拟环境:
 
-```
+```js
 python3 -m venv venv
 ```
 
@@ -153,27 +153,27 @@ python3 -m venv venv
 
 接下来，您需要初始化这个虚拟环境，您可以通过以下终端命令来完成:
 
-```
+```js
 source venv/bin/activate
 ```
 
 既然您已经初始化了虚拟环境，下一步就是确保您拥有最新的" *pip* "版本。您可以通过输入并运行以下代码来检查当前版本并安装任何最新的更新:
 
-```
+```js
 pip install --upgrade pip
 ```
 
 最后，您必须安装必要的依赖项，总共有三个。在下面，您会找到相应的命令。输入每个命令并连续运行它们:
 
-```
+```js
 pip install flask
 ```
 
-```
+```js
 pip install flask_cors
 ```
 
-```
+```js
 pip install moralis
 ```
 
@@ -185,7 +185,7 @@ pip install moralis
 
 首先，在项目的根文件夹中创建一个名为“app.py”的新文件并打开它。您需要做的第一件事是导入依赖项，这可以通过将以下代码片段添加到文件的顶部来完成:
 
-```
+```js
 from flask import Flask
 from flask import request
 from moralis import auth
@@ -194,14 +194,14 @@ from flask_cors import CORS
 
 接下来，添加下面的代码片段来初始化应用程序，并将其包装在“ *CORS* ”中:
 
-```
+```js
 app = Flask(__name__)
 CORS(app)
 ```
 
 从这里，将您的 Moralis API 密钥添加到代码中:
 
-```
+```js
 api_key = "xxx"
 ```
 
@@ -213,7 +213,7 @@ api_key = "xxx"
 
 *   "***/request challenge***"*——每当用户想要认证自己时，都需要向 Moralis 请求挑战，这就是这个初始路由所负责的。此路由包含一个" *reqChallenge()* "函数，该函数获取请求参数，创建一个" *body* "变量，从" */requestChallenge* "端点获取结果，并最终将其传递给客户端:*
 
-```
+```js
 *@app.route('/requestChallenge', methods=["GET"])
 def reqChallenge():
 
@@ -240,7 +240,7 @@ def reqChallenge():
 
 **   "***/verify challenge***"*–*当用户签署消息时，结果被返回到后端，并使用第二个" */verifyChallenge* 路线进行验证。该路由具有" *verifyChallenge()* "函数，该函数从请求中获取参数，创建一个" *body* "变量，从 Moralis 的 Auth API 端点获取结果，并最终将其返回给客户端:*
 
-```
+```js
 *@app.route('/verifyChallenge', methods=["GET"])
 def verifyChallenge():
 
@@ -260,14 +260,14 @@ def verifyChallenge():
 
 *最后，添加最后的代码片段，指定您希望在哪里运行应用程序:*
 
-```
+```js
 *if __name__ == "__main__":
     app.run(host="127.0.0.1", port=3000, debug=True)*
 ```
 
 *这包括了“app.py”的代码，总而言之，该文件现在应该是这样的:*
 
-```
+```js
 *from flask import Flask
 from flask import request
 from moralis import auth
@@ -325,7 +325,7 @@ if __name__ == "__main__":
 
 *Web3 Python Flask 应用程序的代码全部完成后，剩下的最后一件事就是运行项目。为此，再次打开一个新的终端并运行以下命令:*
 
-```
+```js
 *python3 app.py*
 ```
 
@@ -347,7 +347,7 @@ if __name__ == "__main__":
 
 从那里，您现在应该能够启动应用程序了。为此，请打开一个新的终端并运行以下命令:
 
-```
+```js
 npm run start
 ```
 

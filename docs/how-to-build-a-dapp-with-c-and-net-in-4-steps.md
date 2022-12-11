@@ -91,14 +91,14 @@
 
 道德家的。安装了. NET SDK 之后，您就可以将您的应用程序与 Moralis 服务集成了。这一步将使您能够用 C#构建一个 dapp。因此，首先在“解决方案资源管理器”窗口中打开“ *Program.cs* ”文件。然后，选择该文件的当前内容并将其删除。接下来，使用语句粘贴以下两个*:*
 
-```
+```js
 using Moralis;
 using Moralis.Web3Api.Models;
 ```
 
 有了" *using* "语句之后，继续添加"*名称空间*"、"*类*"和基本公共静态" *Main* "。此外，您需要确保设置"*道德客户端。ConnectionData* "与之前获得的 Moralis Web3 API 密钥。因此，只需用您的密钥替换“*您的道德 WEB3API 密钥*”。这些是你需要用来覆盖它的代码行:
 
-```
+```js
 namespace ConsoleDemo
 {
     internal class Program
@@ -128,7 +128,7 @@ internal static async Task DisplayCryptoData(string address, ChainList chainId)
 
 完成上述所有工作后，下面是“ *Main* 函数应该包含的代码行:
 
-```
+```js
         static void Main(string[] args)
         {
             if (args.Length < 2)
@@ -166,7 +166,7 @@ internal static async Task DisplayCryptoData(string address, ChainList chainId)
 
 为了将 Web3 功能添加到您的应用程序中，我们将重点关注" *DisplayCryptoData* "函数。本质上，您需要向这个先前创建的异步函数添加适当的代码行。首先，您需要显示有问题的地址:
 
-```
+```js
 Console.WriteLine($"For address: {address}...\n");
 ```
 
@@ -177,14 +177,14 @@ Console.WriteLine($"For address: {address}...\n");
 
 在前面的步骤中，您已经安装并集成了 Moralis SDK。因此，您现在可以利用 Moralis Web3 API。此外，您可以使用直观的端点来获取各种链上数据。在获取本机余额时，端点“ *GetNativeBalance* ”可以完成这项任务。因此，这是您需要添加到“ *DisplayCryptoData* ”函数中的代码行:
 
-```
+```js
 // Load native balance for address
 NativeBalance bal = await MoralisClient.Web3Api.Account.GetNativeBalance(address, chainId);
 ```
 
 此外，您还需要以下代码行来正确格式化和显示本机余额:
 
-```
+```js
 double nativeBal = 0;
 
 double.TryParse(bal.Balance, out nativeBal);
@@ -198,14 +198,14 @@ Console.WriteLine($"Your native balance is {nativeBal / Math.Pow(10,18)}");
 
 在获取和显示 ERC-20 代币余额时，您需要遵循与本机余额相同的原则。当然，您需要使用不同的端点。在这种情况下，它将是" *GetTokenBalances* ":
 
-```
+```js
 // Load ERC-20 Token List for address
 List<Erc20TokenBalance> erc20Balnaces = await MoralisClient.Web3Api.Account.GetTokenBalances(address, chainId);
 ```
 
 此外，与本地余额不同，在一个钱包地址中可以有多种 ERC-20 令牌类型。因此，我们需要使用列表并正确显示它。尽管如此，你也应该记住，在一个特定的 Web3 钱包里可能没有任何 ERC-20 代币。以下代码行将正确显示 ERC-20 令牌余额:
 
-```
+```js
 Console.WriteLine("\n\nYour ERC 20 Tokens:");
 
 if (erc20Balnaces != null && erc20Balnaces.Count > 0)
@@ -228,14 +228,14 @@ else
 
 当谈到获取 NFT，或者我们应该说它们的元数据时，事情遵循与上面两个例子相同的原则。当然，我们需要使用一个合适的端点。在这种情况下，“ *GetNFTs* ”完成了以下任务:
 
-```
+```js
 // Load first 10 NFTs for the address
 NftOwnerCollection nfts = await MoralisClient.Web3Api.Account.GetNFTs(address, (ChainList)chainId, "", null, 10);
 ```
 
 这些代码行显示了上述 10 个 NFT 的名称、余额和元数据:
 
-```
+```js
         // Load first 10 NFTs for the address
         NftOwnerCollection nfts = await MoralisClient.Web3Api.Account.GetNFTs(address, (ChainList)chainId, "", null, 10);
 
@@ -263,7 +263,7 @@ NftOwnerCollection nfts = await MoralisClient.Web3Api.Account.GetNFTs(address, (
 
 所有代码就绪后，您就可以在 Visual Studio 中运行 dapp 了。如果您使用这里提供的代码，输出将是:
 
-```
+```js
 Usage: ConsoleDemo.exe ADDRESS CLIENT_ID
 ```
 

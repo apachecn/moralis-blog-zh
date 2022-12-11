@@ -95,19 +95,19 @@ NFT 资产中的元数据起着至关重要的作用，因为它包含了使 NFT
 
 现在，保持您的 API 密钥，并专注于为您的项目安装 Moralis SDK。因此，运行与您的软件包管理器相匹配的命令行:
 
-```
+```js
 npm install moralis
 ```
 
-```
+```js
 yarn add moralis
 ```
 
-```
+```js
 pnpm add moralis
 ```
 
-```
+```js
 pip install moralis
 ```
 
@@ -115,7 +115,7 @@ pip install moralis
 
 为了使事情尽可能简单，您不需要自己编写代码。相反，您可以简单地复制粘贴以下“index.js”示例文件:
 
-```
+```js
 const Moralis = require('moralis').default;
 const { EvmChain } = require('@moralisweb3/evm-utils');
 
@@ -171,7 +171,7 @@ runApp();
 
 有了上面几行代码，就该执行程序了。因此，在终端中输入以下命令:
 
-```
+```js
 node index.js
 ```
 

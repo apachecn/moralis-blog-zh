@@ -68,7 +68,7 @@ Arbitrum 是 [Offchain Labs](https://offchainlabs.com/) 的成果，该平台利
 
 因此，这些节点的可能性是无限的，但是当它们派上用场时，我们将为您提供两个简短的示例。首先，我们可以在开发 dApps 时利用端点 URL，例如，可以查询当前块号的链。为此，我们需要做的就是复制 URL 并将其定义为一个变量。有了定义的变量，我们就可以简单地利用 Web3 库连接到网络。这个过程看起来像这样:
 
-```
+```js
 const NODE_URL = "YOUR SPEEDY NODE URL HERE";
 const provider = new Web3.providers.HttpProvider(NODE_URL);
 const web3 = new Web3(provider);

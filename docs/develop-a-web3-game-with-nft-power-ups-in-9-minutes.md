@@ -76,32 +76,32 @@
 
 使用以下代码行，我们导入 NFT 组件:
 
-```
+```js
   useNFTBalances,
 } from "react-moralis";
 ```
 
 接下来，我们需要声明一个函数，它将允许我们轻松地从用户的钱包中获取 NFT:
 
-```
+```js
   const { getNFTBalances } = useNFTBalances();
 ```
 
 然后，我们需要定义一个游戏认为有效的合同地址(我们可以添加多个地址),授予玩家访问权限:
 
-```
+```js
 const check_address = "0x…";
 ```
 
 您必须输入有效的“NFT 集合”合同地址，而不是“0x…”。此外，您还需要定义区块链的 ID。在我们的示例游戏中，我们使用 Polygon 的 testnet (Mumbai):
 
-```
+```js
 const network_chain_id = "0x13881";
 ```
 
 我们还必须检查用户的余额，以查看他们是否有与上述合同地址匹配的令牌:
 
-```
+```js
   const checkNFTBalance = async (__user) => {
     let valid = false;
     await getNFTBalances({
@@ -146,7 +146,7 @@ const network_chain_id = "0x13881";
 
 我们还需要让游戏中的数据可以渲染。这部分代码将会解决这个问题:
 
-```
+```js
   const nftMetadata = [];
   const findNFTMetadata = async (___data) => {
     let p = 0;
@@ -189,7 +189,7 @@ const network_chain_id = "0x13881";
 
 此外，我们还希望正确处理 NFTs 的元数据，以定位可渲染的图像数据。因此，我们的[反应](https://moralis.io/react-explained-what-is-react/)和我们的相位器组件将能够正确通信:
 
-```
+```js
   const compileNFT = async (___user, __data) => {
     await findNFTMetadata(__data);
     await getJSON(nftMetadata[0]);
@@ -209,7 +209,7 @@ const network_chain_id = "0x13881";
 
 如上所述，我们使用“MainMenu.js”来改变游戏场景。因此，我们需要在“constructor()”函数中添加以下代码行:
 
-```
+```js
    emitter.on("LOAD_NFT", (event) => {
       console.log("NFT:", event.nft);
       valid_nft_image = event.nft;
@@ -218,7 +218,7 @@ const network_chain_id = "0x13881";
 
 此外，我们需要遵循 Phaser 加载图像的方式:
 
-```
+```js
   preload() {
     // set identifier as 'validnft' for image url
     this.load.image("validnft", valid_nft_image);
@@ -227,7 +227,7 @@ const network_chain_id = "0x13881";
 
 此外，一旦创建了主菜单的场景，我们希望在我们的 Web3 游戏示例中显示相关的 NFT。因此，我们在“create()”函数中添加以下代码行:
 
-```
+```js
     this.add.image(512, 384, "validnft");
 ```
 

@@ -113,7 +113,7 @@ ERC1155 合同还允许您一次向多个收件人发送多个项目。这种类
 
 下面是一个游戏中令牌化物品的简单契约示例:
 
-```
+```js
 // contracts/GameItems.sol
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;

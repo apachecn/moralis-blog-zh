@@ -68,7 +68,7 @@
 
 3.  使用以下代码行:
 
-```
+```js
 const user = await Moralis.authenticate({ 
   provider: "magicLink",
   email: "[email protected]",
@@ -85,7 +85,7 @@ const user = await Moralis.authenticate({
 
 如你所见，在使用 Moralis 时，在 dApps 中提供带有电子邮件的 Web3 登录非常简单。只需要以上三个步骤。现在让我们来看一个示例项目。如果您还没有这样做，请确保完成上一节中的前两步。接下来，使用“ [SignIn.js](https://github.com/MoralisWeb3/youtube-tutorials/blob/main/magic-auth-demo/Components/SignIn.js) ”文件，这是我们为了这个示例项目而创建的。这是我们需要实现上一节第三步中的代码行的地方:
 
-```
+```js
   const [email, setEmail] = useState("[email protected]");
 
   const handleCustomLogin = async () => {

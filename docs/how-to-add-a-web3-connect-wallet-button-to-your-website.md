@@ -42,7 +42,7 @@ Moralis 附带 MetaMask 和 WalletConnect 集成。这两个选项足以将 Web3
 
 让我们从顶部开始，看看我们的”的前三行。js "文件:
 
-```
+```js
 const serverUrl = "https://xxxxx.grandmoralis.com:2053/server"; //Server url from moralis.io
 const appId = "YOUR_APP_ID"; // Application id from moralis.io
 Moralis.start({ serverUrl, appId });
@@ -54,7 +54,7 @@ Moralis.start({ serverUrl, appId });
 
 此外，我们的代码相当简单，只有不到 90 行代码。就用户而言，我们 app 的核心是以下几个功能:“authenticate()”，“logout()”和“testCall()”。因此，让我们仔细看看这些函数:
 
-```
+```js
 async function authenticate() {
   try {
     user = await Moralis.authenticate();
@@ -99,7 +99,7 @@ async function testCall() {
 
 从 Moralis 的默认 Web3 身份验证方法转而使用 WalletConnect 非常容易实现。只需在“Moralis.authenticate()”和“Moralis.enableWeb3()”方法中添加“*{ provider:' wallet connect ' }*”作为参数。因此，这就是我们调整后的“authenticate()”函数的样子:
 
-```
+```js
 async function authenticate() {
   try {
     user = await Moralis.authenticate({ provider: ‘walletconnect’});
@@ -113,7 +113,7 @@ async function authenticate() {
 
 此外，我们还必须在“enableWeb3()”函数中添加相同的参数:
 
-```
+```js
 async function enableWeb3() {
   try {
     web3 = await Moralis.enableWeb3({ provider: ‘walletconnect’});
@@ -126,7 +126,7 @@ async function enableWeb3() {
 
 此外，正如你在 GitHub 上看到的，如果我们定义一个新的常量，我们可以使代码更整洁:
 
-```
+```js
 const provider = 'walletconnect';
 ```
 

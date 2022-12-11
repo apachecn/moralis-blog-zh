@@ -68,7 +68,7 @@ Blockend 开发人员可以通过利用开发工具显著提高效率。一个�
 
 此外，您可以通过以下命令轻松地查询所有权数据:
 
-```
+```js
 const options = { address: "", chain: "" };
 const nftOwners = await Moralis.Web3API.token.getNFTOwners(options);
 ```
@@ -81,7 +81,7 @@ NFT 通常附有元数据，例如引用数字艺术或其他虚拟资产。还�
 
 此外，Moralis 的 NFT API 允许您通过所谓的“搜索端点”在 NFTs 的元数据内部进行搜索。这意味着您可以搜索在开发 NFT 项目时会有帮助的特定属性或描述。下面是一个通过 Moralis [Web3 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 看到的例子:
 
-```
+```js
 const options = { address: "", chain: "" };
 const metaData = await Moralis.Web3API.token.getNFTMetadata(options);
 ```
@@ -90,7 +90,7 @@ const metaData = await Moralis.Web3API.token.getNFTMetadata(options);
 
 最后，我们要仔细了解的关于多边形 NFT API 的最后一条信息是多边形 NFT 传输数据。通过 Moralis NFT API，可以跟踪区块链上发生的 NFT 转移。例如，您可以通过搜索特定块的所有令牌传输来获取传输信息。此外，您可以基于特定令牌、NFT 合同地址或钱包地址来搜索信息。此外，这并不局限于多边形 NFT，因为该工具是跨链兼容的。因此，相同的功能在其他类似的链上也是可用的。以下是如何使用 API 获取 NFT 传输数据的示例:
 
-```
+```js
 const options = { chain: "", address: "",  limit: "" };
 const transferNFT = await Moralis.Web3API.token.getNFTTransfer(options);
 ```

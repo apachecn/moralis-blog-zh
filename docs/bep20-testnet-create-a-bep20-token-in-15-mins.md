@@ -98,7 +98,7 @@ BSC 是“币安智能链”的缩写，BSC 是币安生态系统的两个组成
 
 因此，我们将使用 OpenZeppelin 提供的令牌模板。由于 ERC20 和 BEP20 令牌相似，在本例中，我们将使用 ERC20 模板，因为它非常适合我们的令牌。现在，我们已经方便地从 OpenZeppelin 中获取了[模板，代码如下所示:](https://docs.openzeppelin.com/contracts/4.x/erc20)
 
-```
+```js
 // contracts/GLDToken.sol
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -126,7 +126,7 @@ contract GLDToken is ERC20 {
 
 ### 合同代码:
 
-```
+```js
 // contracts/GLDToken.sol
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;

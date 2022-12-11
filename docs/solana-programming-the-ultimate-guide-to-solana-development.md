@@ -56,7 +56,7 @@ Moralis 的 Solana API 是开始 Solana 编程的最简单的方法。有了这�
 
 “网络”选项使您能够在 Solana 的 mainnet 和 devnet 之间进行选择。不过，mainnet 是默认值。另一方面,“地址”选项接受 SPL·NFT 的地址。为了进一步阐明“getNFTMetadata”的用法，让我们看看获取给定 SPL NFT 地址的 devnet 元数据的示例代码:
 
-```
+```js
 const options = {
   network: "devnet",
   address: "6XU36wCxWobLx5Rtsb58kmgAJKVYmMVqy4SHXxENAyAe",
@@ -66,7 +66,7 @@ const nftMetadata = await Moralis.SolanaAPI.nft.getNFTMetadata(options);
 
 下面是上面几行代码的结果:
 
-```
+```js
 {
   "mint": "string",
   "standard": "string",

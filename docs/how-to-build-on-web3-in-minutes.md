@@ -60,7 +60,7 @@ Moralis 是在 Web3 上构建的最佳方式，因为该平台通过提供对完
 
 一旦手头有了这些元素，就需要按照以下方式使用它们:
 
-```
+```js
 const serverUrl = "https://xxxxx/server";
 const appId = "YOUR_APP_ID";
 Moralis.start({ serverUrl, appId });
@@ -70,7 +70,7 @@ Moralis.start({ serverUrl, appId });
 
 安装 SDK 甚至比初始化 Moralis 更简单。您所需要的就是在您的项目中实现以下内容:
 
-```
+```js
 <script src="https://cdn.jsdelivr.net/npm/[email protected]/dist/web3.min.js"></script>
 <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
 ```

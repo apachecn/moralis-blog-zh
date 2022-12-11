@@ -66,7 +66,7 @@
 
 许多 dapps 共享一些他们需要实现的公共功能。一个明显的例子是认证用户并允许他们登录的能力。如果你选择自己实现它，它会变得很麻烦，并且会占用大量的时间。但是，使用 Moralis，您可以通过下面的代码片段用 MetaMask 对[进行认证:](https://moralis.io/how-to-authenticate-with-metamask/)
 
-```
+```js
 Moralis.authenticate().then(function (user) {
     console.log(user.get(''))
 })
@@ -84,19 +84,19 @@ Moralis.authenticate().then(function (user) {
 
 1.  **Mainnet 用户交易:**
 
-```
+```js
 const transaction = await Moralis.Web3API.account.getTransaction();
 ```
 
 1.  **本地令牌余额:**
 
-```
+```js
 const balance = await Moralis.Web3API.account.getNativeBalance();
 ```
 
 1.  **代币余额:**
 
-```
+```js
 const balances = await Moralis.Web3API.account.getTokenBalances();
 ```
 
@@ -110,7 +110,7 @@ const balances = await Moralis.Web3API.account.getTokenBalances();
 
 **发送本机令牌:**
 
-```
+```js
 const options = {
   type: "native",
   amount: Moralis.Units.ETH("0.5"),
@@ -121,7 +121,7 @@ let result = await Moralis.transfer(options);
 
 **发送 BEP-20 令牌:**
 
-```
+```js
 // sending 0.5 tokens with 18 decimals
 const options = {
   type: "erc20",
@@ -134,7 +134,7 @@ let result = await Moralis.transfer(options);
 
 **传输 NFTs:**
 
-```
+```js
 // sending a token with token id = 1
 const options = {
   type: "erc721",

@@ -70,7 +70,7 @@ Moralis 是首屈一指的 blockend 开发操作系统，作为该平台的一�
 
 例如，如果您希望 NFT 传输数据，可以使用以下命令:
 
-```
+```js
 const options = { chain: "", address: "",  limit: "" };
 const transferNFT = await Moralis.Web3API.token.getNFTTransfer(options);
 ```
@@ -81,7 +81,7 @@ NFT 通常附有所谓的元数据。一个例子是游戏中的物品，在令�
 
 此外，该 API 还提供了搜索端点，允许您在 NFT 的元数据中直接搜索特定属性或描述。这些信息可以直接在你的 dapp 中使用，并使开发 NFT 项目变得非常容易！以下是使用道德 NFT API 获取元数据的方法:
 
-```
+```js
 const options = { address: "", chain: "" };
 const metaData = await Moralis.Web3API.token.getNFTMetadata(options);
 ```
@@ -92,7 +92,7 @@ const metaData = await Moralis.Web3API.token.getNFTMetadata(options);
 
 因此，以太坊 NFT API 为您提供 NFT 所有权状态的相关和及时的信息。此外，通过几行简单的代码，您可以访问整个 NFT 收藏的所有所有者，就像我们前面提到的 CryptoPunks 一样。因此，如果您想要访问所有权数据，可以通过以下代码来实现:
 
-```
+```js
 const options = { address: "", chain: "" };
 const nftOwners = await Moralis.Web3API.token.getNFTOwners(options);
 ```

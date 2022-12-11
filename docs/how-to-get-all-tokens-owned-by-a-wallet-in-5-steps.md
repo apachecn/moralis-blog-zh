@@ -6,13 +6,13 @@
 
 ***   创建项目*   通过在终端中运行以下命令来安装 Moralis:**
 
-```
+```js
 npm install moralis @moralisweb3/common-evm-utils
 ```
 
 ***   建立一个新文件*   输入以下内容(添加 Moralis API 密钥、地址和所需的链):**
 
-```
+```js
 const Moralis = require('moralis').default;
 const { EvmChain } = require('@moralisweb3/common-evm-utils');
 
@@ -39,13 +39,13 @@ runApp();
 
 ***   通过使用以下终端命令运行程序，调用" *getWalletTokenBalances* "端点:**
 
-```
+```js
 node “FILE_NAME”
 ```
 
 **执行程序后，您会收到一个响应，其中包含指定钱包拥有的所有令牌。它应该是这样的:**
 
-```
+```js
 {
     "token_address": "0xff20817765cb7f73d4bde2e66e067e58d11095c2",
     "name": "Amp",
@@ -151,13 +151,13 @@ node “FILE_NAME”
 
 从这里，打开一个新的终端，将 *cd* 放入项目的根文件夹，并运行下面的命令来安装 Moralis SDK:
 
-```
+```js
 npm install moralis @moralisweb3/common-evm-utils
 ```
 
 接下来，创建一个名为“. env.local”的新文件，并为您的 Moralis API 键添加一个环境变量。它应该是这样的(用实际的键替换" *YOUR_API_KEY* ):
 
-```
+```js
 NEXT_PUBLIC_MORALIS_API_KEY=”YOUR_API_KEY”
 ```
 
@@ -169,7 +169,7 @@ NEXT_PUBLIC_MORALIS_API_KEY=”YOUR_API_KEY”
 
 *   **“index . js”**—“index . js”文件中包含的代码负责渲染应用的主页。该文件的内容相对简单，如下所示:
 
-```
+```js
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
@@ -198,7 +198,7 @@ export default function Home() {
 
 *   **" header . js "**-" header . js "文件的代码非常简单，并且只负责 UI 上显示的应用程序标题和徽标:
 
-```
+```js
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
@@ -220,7 +220,7 @@ export default function Header() {
 
 “main.js”文件包含应用程序的逻辑和代码，使我们能够获得钱包拥有的所有令牌。如果我们将它与我们在上一步中看到的其他文件进行比较，这个文件是相当大的。因此，我们将把文件分成更小的部分，集中在核心部分，这样更容易理解。因此，首先，让我们简要介绍一下文件的前四行:
 
-```
+```js
 import { useState } from "react";
 const Moralis = require("moralis").default;
 const { EvmChain } = require("@moralisweb3/common-evm-utils");
@@ -229,7 +229,7 @@ import styles from "../styles/Home.module.css";
 
 这些初始线路负责必要的进口。这也是安装 Moralis 和 EVM 实用程序的地方。在导入之后，代码的剩余部分是" *header()* "函数。反过来，该函数的特点是“ *handleSubmit()* ，包含获取钱包所拥有的令牌的逻辑:
 
-```
+```js
 const handleSubmit = async () => {
     address = document.querySelector("#walletAddress").value;
     const chain = EvmChain.ETHEREUM;
@@ -256,7 +256,7 @@ const handleSubmit = async () => {
 
 其余代码呈现应用程序的 UI 元素，并决定向用户显示哪些数据:
 
-```
+```js
 return (
     <section className={styles.main}>
       <form

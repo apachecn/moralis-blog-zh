@@ -88,7 +88,7 @@
 
 因此，如果您要将 Streams API 用于关注乐观主义的 dapp，您有两个选择。你可以使用 Moralis 的 JS SDK 或者 T2 的网络用户界面来着手这件事。对于前者，你必须把乐观主义链包括在区块链的列表中:
 
-```
+```js
  chains: [EvmChain.ETHEREUM, EvmChain.OPTIMISM], // List of blockchains to monitor
 ```
 

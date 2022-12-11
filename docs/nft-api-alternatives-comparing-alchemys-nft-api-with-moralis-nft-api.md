@@ -133,7 +133,7 @@
 
 以下是针对上述端点的示例 [Moralis 的 SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) :
 
-```
+```js
 const options = { chain: 'matic', address: '0x...' };
 const polygonNFTs = await Moralis.Web3API.account.getNFTs(options);
 
@@ -147,7 +147,7 @@ curl -X 'GET' \
 
 下面是上面的示例将返回的内容:
 
-```
+```js
 [
   {
     "token_address": "0x057Ec652A4F150f7FF94f089A38008f49a0DF88e",

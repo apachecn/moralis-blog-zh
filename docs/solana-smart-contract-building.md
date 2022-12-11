@@ -56,7 +56,7 @@ Solana 实现了一种结合了 PoH(历史证明)和 PoS(利害关系证明)的�
 
 这个初始步骤的第一部分是打开一个 Unix 终端。在终端打开的情况下，您可以通过输入以下命令启动 Rust 的安装过程:
 
-```
+```js
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
@@ -66,7 +66,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 一旦你选择了安装选项，它就会开始为你安装 Rust。安装完成后，第一步的下一步是安装 Solana CLI。要安装 CLI，请在终端中输入以下内容:
 
-```
+```js
  sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
 ```
 
@@ -76,23 +76,23 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 设置好路径后，您现在需要使用以下两个命令设置一个新的本地文件系统和 Solana wallet 密钥对:
 
-```
+```js
 mkdir ~/my-solana-wallet
 ```
 
-```
+```js
 solana-keygen new --outfile ~/my-solana-wallet/my-keypair.json
 ```
 
 有了本地的 Solana 钱包，是时候设定一个目标集群了。在这个实例中，我们将使用以下命令定位 devnet 集群:
 
-```
+```js
 solana config set --url https://api.devnet.solana.com
 ```
 
 最后，一旦您指定了 devnet 集群，这最后一个命令将向您的钱包添加一些测试 SOL:
 
-```
+```js
 solana airdrop 1
 ```
 
@@ -106,7 +106,7 @@ Rust 和 Solana CLI 都已设置好，是时候深入研究 Solana 智能合约�
 
 在终端打开的情况下，您可以通过在终端中运行以下命令，使用 Cargo 创建一个新项目:
 
-```
+```js
 cargo init hello_world --lib
 ```
 
@@ -116,13 +116,13 @@ cargo init hello_world --lib
 
 接下来，使用下面的命令导航到“hello_world”项目文件夹:
 
-```
+```js
 cd hello_world
 ```
 
 接下来，您可以打开“Cargo.toml”文件，并在文件末尾添加以下代码片段:
 
-```
+```js
 [lib]
 name = "hello_world"
 crate-type = ["cdylib", "lib"]
@@ -134,13 +134,13 @@ crate-type = ["cdylib", "lib"]
 
 现在，在编写实际的合同之前，通过在终端中运行以下命令来添加 Solana 程序包:
 
-```
+```js
 cargo add solana_program
 ```
 
 最后，现在是时候书写索拉纳智能合约本身了。为此，导航到“src/lib.rs”文件并删除所有代码。首先，通过将以下代码片段添加到文件中来导入 Solana 程序:
 
-```
+```js
 use solana_program::{
     account_info::AccountInfo,
     entrypoint,
@@ -152,13 +152,13 @@ use solana_program::{
 
 接下来，使用“*进程 _ 指令*函数指定“*入口点*”:
 
-```
+```js
 entrypoint!(process_instruction);
 ```
 
 最后，添加“ *process_instruction* 函数:
 
-```
+```js
 pub fn process_instruction(
     program_id: &Pubkey,
     accounts: &[AccountInfo],
@@ -173,7 +173,7 @@ pub fn process_instruction(
 
 然而，这应该是“src/lib.rs”文件的最终版本:
 
-```
+```js
 use solana_program::{
     account_info::AccountInfo,
     entrypoint,
@@ -200,13 +200,13 @@ pub fn process_instruction(
 
 写好合同后，您可以通过在终端中输入以下命令并按 enter 键来构建 Solana 智能合同:
 
-```
+```js
 cargo build-bpf
 ```
 
 最后，剩下的工作就是使用 Solana deploy 命令部署智能合约:
 
-```
+```js
 solana program deploy ./target/deploy/hello_world.so
 ```
 
@@ -228,7 +228,7 @@ solana program deploy ./target/deploy/hello_world.so
 
 接下来，再次打开 IDE，为项目创建一个新文件夹，并打开一个新终端。然后，您可以使用以下命令和存储库 URL 来克隆项目:
 
-```
+```js
 git clone “REPOSITORY_URL”
 ```
 

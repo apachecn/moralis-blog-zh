@@ -92,14 +92,14 @@ https://www.youtube.com/watch?v=jdx2H1alijQ
 
 此外，一个额外的基本步骤是安装 [Moralis SDK](https://moralis.io/exploring-moralis-sdk-the-ultimate-web3-sdk/) 并初始化 Moralis。要安装 SDK，您只需将以下内容输入到“index.html”文件中:
 
-```
+```js
 <script src="https://cdn.jsdelivr.net/npm/[email protected]/dist/web3.min.js"></script>
 <script src=”https://unpkg.com/moralis/dist/moralis.js"></script>
 ```
 
 要初始化 Moralis，只需在“main.js”文件中输入以下内容，并添加您的服务器 URL 和应用程序 ID:
 
-```
+```js
 const serverUrl = "https://xxxxx.yourserver.com:2053/server";
 const appId = "YOUR_APP_ID";
 ```
@@ -108,7 +108,7 @@ const appId = "YOUR_APP_ID";
 
 在“main.js”文件中，我们需要创建一个函数来处理认证用户的逻辑。为了使这个过程更容易，我们将使用 Moralis，允许我们只使用几行代码通过 MetaMask 进行认证。因此，该函数可能是这样的:
 
-```
+```js
 login = async () => {
     Moralis.authenticate().then(async function (user) {
         console.log(user.get(’logged in’))
@@ -134,7 +134,7 @@ login = async () => {
 
 ### **注销()**
 
-```
+```js
 logout = async () => {
     Moralis.User.logOut();
     window.location.href = ”index.html”;
@@ -147,7 +147,7 @@ logout = async () => {
 
 要获取关于用户交易历史的信息，我们只需几行代码就可以使用 Moralis 的 Web3 API。这是获取用户交易历史的函数的初始部分:
 
-```
+```js
 getTransactions = async () => {
   console.log(’get transactions clicked’);
   const options = {chain: "rinkeby", address: ”0x3d6…” };
@@ -164,7 +164,7 @@ getTransactions = async () => {
 
 下面的函数“getBalances()”用于获取关于用户余额的数据。同样，由于我们使用的是 Moralis，我们可以轻松地获取余额，并且只需要几行代码:
 
-```
+```js
 getBalances = async () => {
   console.log(’Get balances clicked’);
   const ethBalance = await Moralis.Web3API.account.getNativeBalance();
@@ -179,7 +179,7 @@ getBalances = async () => {
 
 我们要仔细研究的最后一个函数是“getNFTs()”。有了 Moralis 的 [NFT API](https://moralis.io/nft-api/) ，我们只用一行代码就可以获取用户的 NFT 余额。因此，函数的第一部分可能是这样的:
 
-```
+```js
 getNFTs = async () => {
   console.log(’get nfts clicked);
   let nfts = await Moralis.Web3API.account.getNFTs({ chain: ’rinkeby’ });

@@ -60,7 +60,7 @@
 
 以下四个事件是我们智能合约的核心:创建帖子、添加内容、创建新类别和投票(向上投票或向下投票)。
 
-```
+```js
 contract Decentradit {
 
     event PostCreated (bytes32 indexed postId, address indexed postOwner, bytes32 indexed parentId, bytes32 contentId, bytes32 categoryId);
@@ -71,7 +71,7 @@ contract Decentradit {
 
 必须设置适当的“映射”,以确保上述关键事件被正确触发并遵循预定义的规则。因此，我们需要为 Reddit 克隆映射类别注册中心、内容注册中心、帖子注册中心、投票注册中心和信誉注册中心:
 
-```
+```js
  mapping  (address => mapping (bytes32 => uint80)) reputationRegistry;
     mapping (bytes32 => string) categoryRegistry;
     mapping (bytes32 => string) contentRegistry;

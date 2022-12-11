@@ -138,13 +138,13 @@ Moralis 管理区的“服务器”部分将允许您创建一个新的服务器
 
 如果我们现在将注意力集中在“ [SelectionPanel](https://github.com/MoralisWeb3/youtube-tutorials/blob/main/unity/unity-web3-ipfs-uploader/Assets/_Project/Scripts/SelectionPanel.cs) ”脚本上，我们必须指出“SelectImage()”函数。一旦用户点击“选择”按钮，这个功能就具有最重要的作用。基本上，“SelectImage()”函数通过“OpenFilePanel”方法打开本机 Windows 文件浏览器:
 
-```
+```js
  *_imagePath = EditorUtility。OpenFilePanel("选择一个 PNG "，""，" PNG ")；*
 
 ```
 注意: *上面一行代码是你需要应用必要的改变来为其他类型的文件使用我们的 dapp。*一旦用户选择了一个文件，“选择图像”功能使用文件的路径，读取其所有字节，并返回图像数据。然后，它通过使用“LoadImage”从该图像数据创建一个 sprite。“应用管理器”脚本下一步是上传 sprite，输入“OnUploadButtonPressed()”(在“SelectionPanel”脚本中):
 
-```
+```js
         public void OnUploadButtonPressed()
         {
             if (image.sprite == null || nameInput.text == string.Empty || descriptionInput.text == string.Empty)
@@ -160,12 +160,12 @@ Moralis 管理区的“服务器”部分将允许您创建一个新的服务器
 
 上面几行代码显示“上传”按钮只有在三个条件都满足时才起作用。只有在用户选择一个图像(创建了一个精灵)并输入他们的文件名和描述后，它才会被激活。仅当所有条件都满足时，“ [AppManager](https://github.com/MoralisWeb3/youtube-tutorials/blob/main/unity/unity-web3-ipfs-uploader/Assets/_Project/Scripts/AppManager.cs) ”脚本才接管工作。该脚本包括“UploadToIpfs”函数，它完成了大部分繁重的工作。这个函数获取文件的细节并将文件保存到 IPFS。它首先使用“SaveImageToIpfs”上传图像文件:
 
-```
+```js
 List<IpfsFile> resp = await Moralis.GetClient().Web3Api.Storage.UploadFolder(requests);
 ```
 
 看着上面的代码行，你可以看到道德的力量。多亏了它的“UploadFolder”方法，一行代码就把图像上传到了 IPFS。最后，“AppManager”还确保上传文件的元数据被创建(“BuildMetadata”)。然后，它让“SaveToIpfs”上传 Web3 Unity 元数据文件(“.JSON”)到 IPFS。最后但同样重要的是，“AppManager”还通过“ResetUploadButton”函数重置上传按钮。这可以防止用户多次上传相同的文件。如果你更喜欢视频，请务必观看我们的“上传者”dapp 的教程:https://www.youtube.com/watch?v=rVlh2BzjmU4上传 Web3 Unity 元数据-摘要通过阅读本文，您有机会了解如何轻松地将 Web3 Unity 元数据上传到 IPFS。此外，如果你按照上述说明，你现在有我们的“团结 IPFS 上传”dapp 自己的实例。如果是这样，您必须已经完成了初始的 Moralis 设置，这意味着您已经准备好处理一些示例项目。如果你喜欢制作 Web3 游戏，我们推荐你使用我们的 Unity 教程。因此，你可以着手将一个 [Unity 游戏与 Web3 登录](https://moralis.io/connecting-a-unity-game-with-web3-login/)连接起来，学习如何[将一个 Unity 应用程序连接到 Web3 钱包](https://moralis.io/how-to-connect-a-unity-app-to-a-web3-wallet/)，或者甚至构建一个 [Web3 MMORPG](https://moralis.io/build-a-web3-mmorpg-with-unity-in-10-minutes/) 。另一方面，你可能更喜欢使用你的 [JavaScript](https://moralis.io/javascript-explained-what-is-javascript/) (JS)熟练程度。在这种情况下，你可能想要构建一个优秀的 [2D Web3 游戏](https://moralis.io/how-to-build-a-2d-web3-game-full-guide%ef%bf%bc/)或者关注其他使用 [React](https://moralis.io/react-explained-what-is-react/) 的 dapps。你可以在 [Moralis YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和 [Moralis 博客](https://moralis.io/blog/)上获得我们所有的教程和文章。一些最新的话题包括一个 [dapp 开发教程](https://moralis.io/dapp-development-tutorial-full-guide-to-building-a-dapp/)，一个[crypto perspective dapp](https://moralis.io/how-to-create-a-crypto-sentiment-dapp/)， [blockend 开发](https://moralis.io/blockend-development-what-is-it-and-how-to-become-a-blockend-developer/)，如何[用 Phantom wallet 认证 Solana 用户](https://moralis.io/how-to-authenticate-solana-users-with-the-phantom-wallet/)，以及创建一个[链上库存系统](https://moralis.io/create-an-nft-on-chain-inventory-system-for-gaming/)。此外，这两个出口也可以作为您的免费和持续的密码教育。然而，如果你渴望更快更自信地成为一名 Web3 开发者，你应该考虑一种更专业的方法。这正是道德学院所提供的。除了顶尖的[区块链发展课程](https://academy.moralis.io/all-courses/)，你还将获得个性化的学习路径和专家指导。最后但同样重要的是，你也将成为业内最先进、最受欢迎的社区之一的一员。    
 
-```
+```js
 
 ```

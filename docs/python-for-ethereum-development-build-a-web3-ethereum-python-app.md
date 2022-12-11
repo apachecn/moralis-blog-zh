@@ -6,13 +6,13 @@
 
 1.  使用以下终端命令安装 Moralis 的 Python SDK:
 
-```
+```js
 pip install moralis
 ```
 
 2.  进行 Moralis API 调用。下面是一个查询 NFT 元数据的示例:
 
-```
+```js
 import json
 from moralis import evm_api
 
@@ -154,7 +154,7 @@ SDK 是终极以太坊开发工具，允许您将 Web3 功能无缝集成到所�
 
 一旦您启动了一个新的终端，将" *cd* "放到项目的根文件夹中，并运行下面的命令来创建一个新的虚拟环境:
 
-```
+```js
 python3 -m venv venv
 ```
 
@@ -164,27 +164,27 @@ python3 -m venv venv
 
 从那里，您现在需要初始化环境，这可以通过运行以下终端命令来完成:
 
-```
+```js
 source venv/bin/activate
 ```
 
 接下来，确保您拥有最新的" *pip* "版本。您可以通过在终端中输入以下内容并按 enter 键来检查当前版本并安装任何最新的更新:
 
-```
+```js
 pip install --upgrade pip
 ```
 
 最重要的是，通过依次运行以下三个终端输入来安装所有必需的依赖项:
 
-```
+```js
 pip install flask
 ```
 
-```
+```js
 pip install flask_cors
 ```
 
-```
+```js
 pip install moralis
 ```
 
@@ -192,7 +192,7 @@ pip install moralis
 
 项目设置完毕后，是时候添加应用功能所需的端点和功能代码了。因此，首先，在项目的根文件夹中创建一个新的“app.py”文件。从那里，打开文件并在顶部添加所需的依赖项:
 
-```
+```js
 from flask import Flask
 from flask import request
 from moralis import auth
@@ -201,14 +201,14 @@ from flask_cors import CORS
 
 然后，您可以添加下面的代码来初始化应用程序，并将其包装在“ *CORS* ”中:
 
-```
+```js
 app = Flask(__name__)
 CORS(app)
 ```
 
 接下来，添加您的 Moralis API 密钥:
 
-```
+```js
 api_key = "xxx"
 ```
 
@@ -220,7 +220,7 @@ api_key = "xxx"
 
 *   "***/request challenge***"–初始路由称为" */requestChallenge* "，每当用户想要进行身份验证时，都会创建一个新的请求挑战。路由的中心部分是" *reqChallenge()* "函数，它获取请求参数，创建一个名为" *body* 的新变量，获取" */requestChallenge* "端点结果，并最终将其传递给客户端:
 
-```
+```js
 @app.route('/requestChallenge', methods=["GET"])
 def reqChallenge():
 
@@ -247,7 +247,7 @@ def reqChallenge():
 
 *   "***/verify challenge***"–一旦用户在客户端签署了消息，第二条路径就负责验证挑战。此外，“ */verifyChallenge* ”包含一个“ *verifyChallenge()* ”函数，负责从请求端点获取参数，创建另一个“ *body* ”变量，从 Auth API 获取结果，并最终将结果传递给客户端:
 
-```
+```js
 @app.route('/verifyChallenge', methods=["GET"])
 def verifyChallenge():
 
@@ -267,14 +267,14 @@ def verifyChallenge():
 
 最后，在两条路线之后添加下面的代码，以指定您希望运行应用程序的位置:
 
-```
+```js
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=3000, debug=True)
 ```
 
 这就是全部的代码！您的“app.py”文件现在应该看起来像这样:
 
-```
+```js
 from flask import Flask
 from flask import request
 from moralis import auth
@@ -332,7 +332,7 @@ if __name__ == "__main__":
 
 现在您已经为 Web3 Ethereum Python Flask 应用程序编写了所有代码，剩下的就是运行项目了。因此，再次打开一个新的终端，输入以下内容，然后按 enter 键:
 
-```
+```js
 python3 app.py
 ```
 

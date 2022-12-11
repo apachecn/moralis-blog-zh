@@ -101,7 +101,7 @@ Moralis 是业内发展最快的 Web3 开发平台。它涵盖了区块链跨越
 
 要创建实现所有后端功能的接口(如上所示)，您需要在代码编辑器中设置一个新的“React”项目。你要创建的文件有三个: [index.js](https://github.com/YosephKS/moralis-opensea-plugins/blob/main/src/index.js) 、 [App.js](https://github.com/YosephKS/moralis-opensea-plugins/blob/main/src/App.js) 、 [package.json](https://github.com/YosephKS/moralis-opensea-plugins/blob/main/package.json) 。此外，您需要安装最新版本的 Moralis 和 Moralis-React 库(在“package.json”文件中，或者使用您的代码编辑器的终端)，然后在“index.js”文件中导入这些库:
 
-```
+```js
 import React from "react";
 import ReactDOM from "react-dom";
 import { MoralisProvider } from "react-moralis";
@@ -113,7 +113,7 @@ import reportWebVitals from "./reportWebVitals";
 
 现在是时候完成“OpenSea 克隆创建–Moralis 设置”部分的最后一步了，通过插入您的服务器 URL 和应用程序 ID 来初始化 Moralis 的 SDK:
 
-```
+```js
 <MoralisProvider
 				appId={process.env.REACT_APP_MORALIS_APP_ID}
 				serverUrl={process.env.REACT_APP_MORALIS_SERVER_URL}
@@ -124,13 +124,13 @@ import reportWebVitals from "./reportWebVitals";
 
 此外，我们还需要初始化 Moralis OpenSea 插件，这是在“ *App.js* ”文件中完成的。当然，还要记住导入文件顶部的“useMoralis”钩子:
 
-```
+```js
 import { useMoralis } from "react-moralis";
 ```
 
 然后我们在“App”函数中调用这个钩子:
 
-```
+```js
 function App() {
 	const {
 		Moralis,
@@ -146,7 +146,7 @@ function App() {
 
 我们在“useEffect()”函数中设置插件初始化:
 
-```
+```js
 useEffect(() => {
 		if (isInitialized) {
 			Moralis.initPlugins();
@@ -171,7 +171,7 @@ useEffect(() => {
 
 如果我们现在想为“获取资产”按钮添加功能，我们只需从插件网站“获取资产”部分提供的代码行开始，并做一些调整。
 
-```
+```js
 const getAsset = async () => {
 		const res = await Moralis.Plugins.opensea.getAsset({
 			network: "testnet",
@@ -196,7 +196,7 @@ const getAsset = async () => {
 
 以“获取资产”为例，我们用“ *App.js* ”中的这些代码行来介绍“获取订单”功能:
 
-```
+```js
 const getOrder = async () => {
 		const res = await Moralis.Plugins.opensea.getOrders({
 			network: "testnet",
@@ -219,7 +219,7 @@ const getOrder = async () => {
 
 就像我们对前两个按钮所做的一样，我们现在对“Create Buy Order”按钮进行操作。在从插件的文档页面复制代码行并进行一些调整后，我们得到了这样的结果:
 
-```
+```js
 const createBuyOrder = async () => {
 		await Moralis.Plugins.opensea.createBuyOrder({
 			network: "testnet",
@@ -243,7 +243,7 @@ const createBuyOrder = async () => {
 
 为了添加“创建销售订单”按钮的功能，我们再次遵循与前面相同的步骤。我们以下面几行代码结束:
 
-```
+```js
 const createSellOrder = async () => {
 		const expirationTime = Math.round(Date.now() / 1000 + 60 * 60 * 24);
 		const startAmount = 1;

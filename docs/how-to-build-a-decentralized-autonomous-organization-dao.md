@@ -80,13 +80,13 @@ Dao 有许多好处，最突出的两个例子是透明度和建立群体信任�
 
 尽管如此，在 Visual Studio 代码打开的情况下，我们可以通过以下命令克隆项目:
 
-```
+```js
 git clone ”REPO LINK”
 ```
 
 此外，您还需要确保项目的所有依赖项都已安装，这可以通过在终端中输入以下命令来实现:
 
-```
+```js
 npm i
 ```
 
@@ -98,7 +98,7 @@ npm i
 
 打开文件后，您会发现下面两行代码:
 
-```
+```js
 REACT_APP_MORALIS_APPLICATION_ID = "xxx"
 REACT_APP_MORALIS_SERVER_URL = "xxx"
 ```
@@ -109,7 +109,7 @@ REACT_APP_MORALIS_SERVER_URL = "xxx"
 
 为了确保一切正常，您可以使用以下命令运行 dapp:
 
-```
+```js
 npm start
 ```
 

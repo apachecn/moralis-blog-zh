@@ -140,14 +140,14 @@
 
 2.  接下来，安装所有依赖项:
 
-```
+```js
 cd ethereum-boilerplate
 yarn install
 ```
 
 3.  随后将您的“appId”和“serverUrl”从您的 Moralis 服务器(以上“区块链 Firebase 替代方案-入门”部分中的说明)提供给“src/index.js”文件中的“ **< MoralisProvider >** ”:
 
-```
+```js
 <MoralisProvider appId={APP_ID} serverUrl={SERVER_URL}>
   <App />
 </MoralisProvider>

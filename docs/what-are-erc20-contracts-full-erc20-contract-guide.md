@@ -128,7 +128,7 @@ https://www.youtube.com/watch?v=KNBneUpFaGo
 
 此外，通过点击上面的链接，您还将了解到在使用 Moralis 时，将各种令牌转移功能集成到您的 dApps 中是多么容易。例如，如果您要发送 18 位小数的 0.5 个令牌，您只需复制这几行代码并添加相关令牌的详细信息:
 
-```
+```js
 const options = {type: "erc20", 
                  amount: Moralis.Units.Token("0.5", "18"), 
                  receiver: "0x..",

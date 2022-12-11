@@ -104,13 +104,13 @@ https://www.youtube.com/watch?v=Bb5Pc–kyAY
 
 现在，剩下的就是使用您之前获得的 URL 在终端中输入以下命令:
 
-```
+```js
 git clone “BOILERPLATE_URL”
 ```
 
 但是，在运行该命令之前，您需要确保您位于计算机的正确位置，这应该是您刚刚设置的文件夹。运行上面的命令后，您可以通过以下输入再次导航到正确的文件夹:
 
-```
+```js
 cd ethereum-boilerplate
 ```
 
@@ -138,7 +138,7 @@ cd ethereum-boilerplate
 
 您还必须通过删除“”将文件名更改为“. env.local”。例”放在最后。总而言之，文件的最终版本应该如下所示:
 
-```
+```js
 APP_CHAIN_ID=0x152
 APP_DOMAIN=ethereum.boilerplate 
 MORALIS_API_KEY= "YOUR_API_KEY"
@@ -150,14 +150,14 @@ NEXTAUTH_URL=http://localhost:3000
 
 指南的最后一步将说明如何启动 Cronos dapp。但是，您必须在此之前安装特定的依赖项。因此，您可以再次打开终端并输入以下命令之一(取决于您使用的是" *npm"* 还是" *yarn"* ):
 
-```
+```js
 npm i
 yarn
 ```
 
 一旦安装了依赖项，就可以使用以下输入之一启动 dapp:
 
-```
+```js
 npm run dev
 yarn run dev
 ```

@@ -50,21 +50,21 @@
 
 我们终于准备好为" *images.js"* 文件编写代码了。为了使用上面安装的“npm 包”,我们从导入这两个包开始:
 
-```
+```js
 let fs = require("fs");
 let axios = require("axios");
 ```
 
 接下来，我们需要创建一个代码来浏览我们所有的图像，从文件读取到 JavaScript，然后将它们上传到 IPFS。为了做到这一点，我们将使用一些简单的“循环”。然而，繁重的工作将由 Moralis 完成，它将确保我们的文件夹被上传到 IPFS。确切的说，这将是 Moralis 的端点名为“**上传文件夹**”。为了使用 Moralis 提供的这种快捷方式，我们还需要将图像分配给一个数组(对于我们的例子，我们需要在数组中有一个数组)。让我们定义这两个数组:
 
-```
+```js
 let ipfsArray = [];
 let promises = [];
 ```
 
 接下来，我们创建一个循环来遍历图像文件并正确导出它们。以下是用于此目的的代码行:
 
-```
+```js
 for (let i = 0; i < 100; i++) {
     let paddedHex = ("0000000000000000000000000000000000000000000000000000000000000000" + i.toString(16)).substr("-64");
 
@@ -99,7 +99,7 @@ for (let i = 0; i < 100; i++) {
 
 接下来，我们将使用上面几行代码作为例子。请记住，不要只是复制详细信息，请务必访问 [Moralis 的文档](https://docs.moralis.io/)了解更多详细信息，以便在有任何更新时获得最新版本。下面是我们的“*image . js”*文件中的其余代码:
 
-```
+```js
 Promise.all(promises).then( () => {
     axios.post("https://deep-index.moralis.io/api/v2/ipfs/uploadFolder", 
         ipfsArray,
@@ -137,7 +137,7 @@ Promise.all(promises).then( () => {
 
 如上所述，我们的示例项目集中于 ERC-1155 NFTs。这意味着我们必须遵循该协议的规则(ERC-1155 协议的细节可在网上获得)。遵循后者，我们需要包括图像、名称和描述。至于名称和描述，您可以使用任何您想要的。然而，我们希望使用相同的散列来确保我们使用刚刚上传到 IPFS 的图像。下面是代码的样子:
 
-```
+```js
 let fs = require("fs");
 let axios = require("axios");
 

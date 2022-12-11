@@ -4,7 +4,7 @@
 
 构建 NFT 相关的 dapps(去中心化应用)需要最好的工具。由于终极的 NFT API，您可以轻松地为您的 dapps 集成特定的功能，例如让一个地址拥有所有的 NFT。要获取 address 拥有的所有 NFT，您可以使用以下包含" [getWalletNFTs](https://docs.moralis.io/reference/getwalletnfts) "端点的脚本:
 
-```
+```js
 const Moralis = require("moralis").default;
 const { EvmChain } = require("@moralisweb3/evm-utils");
 
@@ -104,15 +104,15 @@ runApp();
 
 我们将很快向您展示粘贴 API 密钥的位置。然而，首先，您必须在您的项目中安装 Moralis SDK。为此，使用您的终端并输入以下命令之一(取决于您使用的软件包管理器):
 
-```
+```js
 npm install moralis
 ```
 
-```
+```js
 yarn add moralis
 ```
 
-```
+```js
 pnpm add moralis
 ```
 
@@ -144,7 +144,7 @@ pnpm add moralis
 
 下面是与简介中相同的代码。然而，我们在下面针对 TypeScript (TS)进行了优化，尽管它最初是 JavaScript (JS)格式的。这就是使您能够在以太坊上获得 address 拥有的所有 NFT 的“index.ts”脚本的样子:
 
-```
+```js
 import Moralis from "moralis";
 import { EvmChain } from "@moralisweb3/evm-utils";
 
@@ -175,17 +175,17 @@ runApp();
 
 准备好“index.js”或“index.ts”文件后，就该执行程序了。因此，请使用以下命令之一:
 
-```
+```js
 node index.js
 ```
 
-```
+```js
 node index.ts
 ```
 
 运行适当的命令后，您将在终端中看到结果。下面是以太坊上“*0 xd 8 da 6 BF 26964 af 9d 7 eed 9 e 03 e 53415d 37 aa 96045*”地址的结果:
 
-```
+```js
 {
   "total": 1456,
   "page": 1,

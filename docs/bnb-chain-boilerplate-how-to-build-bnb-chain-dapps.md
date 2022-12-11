@@ -82,13 +82,13 @@ https://www.youtube.com/watch?v=Bb5Pc–kyAY
 
 从那里，您可以通过在终端中输入以下命令来克隆模板(确保您在项目的文件夹中运行该命令):
 
-```
+```js
 git clone “BOILERPLATE_URL”
 ```
 
 接下来，您可以使用以下命令导航到正确的文件夹:
 
-```
+```js
 cd ethereum-boilerplate
 ```
 
@@ -100,7 +100,7 @@ cd ethereum-boilerplate
 
 接下来，将“. env.local.example”重命名为“. env.local”并打开该文件。这应该是文件的原始内容:
 
-```
+```js
 APP_CHAIN_ID=0x1
 APP_DOMAIN=ethereum.boilerplate 
 MORALIS_API_KEY= # Get your KEY https://admin.moralis.io/account/profile
@@ -120,7 +120,7 @@ NEXTAUTH_URL=http://localhost:3000 # replace for production
 
 下面是最终的" . env.local "代码的示例:
 
-```
+```js
 APP_CHAIN_ID=0x38
 APP_DOMAIN=ethereum.boilerplate 
 MORALIS_API_KEY= "YOUR_API_KEY"
@@ -132,14 +132,14 @@ NEXTAUTH_URL=http://localhost:3000
 
 所有的配置都最终形成了 BNB 链样板，您几乎已经完成了所有的工作，并准备好测试 dapp 了。但是，在这样做之前，您需要安装一些依赖项。为此，使用以下任一命令输入终端(取决于您使用的是“ *yarn* 还是“ *npm* ”):
 
-```
+```js
 npm i
 yarn
 ```
 
 一旦安装了所有依赖项，您就可以通过在终端中输入以下命令来运行应用程序:
 
-```
+```js
 npm run dev
 yarn run dev
 ```

@@ -100,13 +100,13 @@ Moralis(又名“ [Firebase for crypto](https://moralis.io/firebase-for-crypto-t
 
 在“App.js”文件(位于顶部)中，添加:
 
-```
+```js
 import { useMoralisSolanaApi } from "react-moralis";
 ```
 
 上面的代码行将导入 Solana API。但是，您还需要安装“react-moralis”来使其工作。您可以使用“ *npm i react-moralis* ”或“ *yarn add react-moralis* ”命令来完成此操作。然后，您可以调用上面导入的“useMoralisSolanaApi”钩子:
 
-```
+```js
  const SolanaApi = useMoralisSolanaApi();
 ```
 
@@ -118,7 +118,7 @@ import { useMoralisSolanaApi } from "react-moralis";
 
 定义网络后，您需要确保“NFT 搜索”获得与搜索到的地址相匹配的 NFT。感谢 Moralis Solana API，您可以使用“getNFTMetadata”的强大功能。因此，一行代码就能完成任务:
 
-```
+```js
 const nftResult = await SolanaApi.nft.getNFTMetadata(options);
 ```
 
@@ -146,13 +146,13 @@ const nftResult = await SolanaApi.nft.getNFTMetadata(options);
 
 对于集合名称和令牌 id,“set name”可以解决这个问题:
 
-```
+```js
 setName(nftResult.name);
 ```
 
 另一方面，显示图像有点棘手。毕竟，它们的 URL 被打包在 NFTs 的元数据中。因此，您需要使用正确提取这些细节的代码:
 
-```
+```js
     let uri = nftResult.metaplex.metadataUri;
 
     try {

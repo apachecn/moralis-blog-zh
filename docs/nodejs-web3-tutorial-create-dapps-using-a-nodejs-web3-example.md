@@ -52,7 +52,7 @@ NodeJS，也叫 Node.js，是一个编程平台或环境。它于 2009 年推出
 
 我们将首先创建一个新文件夹，并在 Visual Studio 代码(VSC)中打开它。我们将把我们的文件夹命名为“Simple-NodeJS”。然后，我们使用我们的终端并输入" *npm init* "命令。接下来，我们命名我们的项目，并通过按几次 enter 键来坚持默认选项。通过这样做，我们得到了一个新的“package.json”文件，其中包含以下代码行:
 
-```
+```js
 {
   "name": "simple-nodejs-demo",
   "version": "1.0.0",
@@ -70,7 +70,7 @@ NodeJS，也叫 Node.js，是一个编程平台或环境。它于 2009 年推出
 
 在导入和设置最新的 Moralis JS SDK 时，我们只需要执行一个命令。本质上，我们只需要安装" *moralis* "依赖项。然而，我们可以使用一个命令来安装“ *express* 依赖项。因此，我们在终端中输入“ *npm install moralis express* ”命令。
 
-```
+```js
 npm install moralis express
 ```
 
@@ -80,7 +80,7 @@ npm install moralis express
 
 通过输入上面的命令，我们已经安装了" *express* "依赖项。因此，我们可以继续设置一个简单的 Express 服务器。创建“index.js”文件，并使用以下代码行:
 
-```
+```js
 const express = require('express')
 const app = express()
 const port = 3000
@@ -94,7 +94,7 @@ app.listen(port, () => {
 
 我们还必须重新访问“package.json”文件，并添加“ *start* ”脚本:
 
-```
+```js
 "scripts": {
   "start": "node index.js"
 },
@@ -108,7 +108,7 @@ app.listen(port, () => {
 
 随着 NodeJS Web3 教程的前三个步骤的完成，是时候将我们的应用程序与 Moralis 服务集成在一起了。为了完成这一步，我们将使用上面创建的“index.js”文件。这是我们粘贴 Moralis Web3 API 密钥的地方。但是，我们必须首先导入 Moralis 和" *EvmChain* "数据类型:
 
-```
+```js
 // Import Moralis
 const Moralis = require('moralis').default
 // Import the EvmChain dataType
@@ -140,7 +140,7 @@ const chain = EvmChain.ETHEREUM
 
 在我们获得 Moralis Web3 API 密钥之前，我们还需要用以下代码行初始化 Moralis:
 
-```
+```js
 const startServer = async () => {
   await Moralis.start({
     apiKey: MORALIS_API_KEY,
@@ -155,7 +155,7 @@ const startServer = async () => {
 
 当然，我们必须返回到我们的“index.js”文件，并将上面复制的键粘贴到变量“ *apiKey* 的旁边。最终，这是我们到目前为止的“index.js”文件的内容:
 
-```
+```js
 const express = require('express')
 
 // Import Moralis
@@ -202,7 +202,7 @@ startServer()
 
 在获取本机余额时，在我们的例子中是以太坊余额，我们可以使用 Moralis 的" *getNativeBalance* "端点。为了在我们的“index.js”文件中使用这个端点，我们将创建“ *getDemoData* 函数:
 
-```
+```js
 async function getDemoData() {
   // Get native balance
   const nativeBalance = await Moralis.EvmApi.balance.getNativeBalance({
@@ -221,7 +221,7 @@ async function getDemoData() {
 
 此外，为了让我们的 dapp 正确地返回上述" *getDemoData* "函数的结果，我们还必须添加" */crypto-data* "端点:
 
-```
+```js
 app.get("/demo", async (req, res) => {
   try {
     // Get and return the crypto data
@@ -239,7 +239,7 @@ app.get("/demo", async (req, res) => {
 
 本质上，上面的代码行使我们能够使用“*http://localhost:3000/demo*”地址调用“ */crypto-data* ”端点。此调用以下列格式返回本机余额:
 
-```
+```js
 {
     "native": "0.169421625822962794"
 }
@@ -251,7 +251,7 @@ app.get("/demo", async (req, res) => {
 
 当谈到获取 ERC-20 余额时，事情遵循原生余额的领导。因此，我们需要完成与上面类似的步骤。但是，这一次我们重点使用来自“*令牌*API 组的“ *getWalletTokenBalances* ”端点:
 
-```
+```js
     // Get token balances
   const tokenBalances = await Moralis.EvmApi.token.getWalletTokenBalances({
     address,
@@ -272,7 +272,7 @@ app.get("/demo", async (req, res) => {
 
 最后，我们将完成 NodeJS Web3 示例的最后一个阶段——获取 NFT。为了成功做到这一点，我们将再次实现与本机和 ERC-20 天平类似的代码行。这一次，我们将使用来自“*NFT*API 组的“ *getWalletNFTs* ”端点。此外，我们将着重于获取给定地址的前十个 NFT。当然，我们将用我们的“ *getDemoData* ”函数来实现这一点。此外，我们还需要适当地格式化输出。尽管如此，我们不能忘记在“ *return* ”中添加“ *nfts* ”:
 
-```
+```js
   // Get the nfts
   const nftsBalances = await Moralis.EvmApi.nft.getWalletNFTs({
     address,
@@ -296,7 +296,7 @@ app.get("/demo", async (req, res) => {
 
 下面是“index.js”文件的完整代码:
 
-```
+```js
 const express = require("express")
 const Moralis = require("moralis").default
 const { EvmChain } = require("@moralisweb3/evm-utils")

@@ -98,13 +98,13 @@ Solana 令牌仪表板可以为用户提供多种功能。例如，它可以显�
 
 然后，打开您最喜欢的代码编辑器(我们更喜欢使用 Visual Studio 代码[VSC])来克隆代码。在 VSC 内部，您需要打开终端，然后输入“git clone”命令，后跟上面复制的地址来克隆代码:
 
-```
+```js
  *git 克隆 https://github . com/yoephks/Solana-defi 控制板. git* 克隆代码后，您将能够看到与我们的示例项目相关的以下文件夹和文件:安装所有依赖项您还需要安装所有的依赖项。因此，您想再次使用您的 VSC 航站楼。首先，将“光盘”放入正确的文件夹中。如果您使用与我们相同的名称，那么您需要使用以下命令行:
 
 ```
  *cd 道德可升级智能合同*
 
-```
+```js
 然后，进入“纱线安装”。安装完成后，您将获得“yarn.lock”文件:注意:你也可以使用 npm。在这种情况下，您将获得“package-lock.json”而不是“yarn.lock”。填充“.env "文件正如您在上面的图像中看到的，有一个“. env.example”文件，您可以将其复制并重命名为”。env”。当然也可以直接改名。然后，打开”。env”文件，并粘贴在“初始道德设置”一节的第三步中获得的详细信息:*注意* *:不要使用上面的服务器 URL 和应用 ID。相反，请确保粘贴您的服务器的详细信息。*运行应用程序现在，通过在终端命令行中输入“yarn start ”,您就可以运行应用程序了。如果您已经正确完成了上述所有步骤，您应该会看到以下屏幕:您应该已经熟悉上面的截图，因为我们在前面的演示中使用过它。此外，您知道一旦用户通过身份验证，Solana token dashboard 界面会是什么样子。然而，您还不知道 Web3 认证过程是如何执行的，以及它如何获取用户的投资组合数据。因此，接下来让我们关注这两个方面。*注* *:既然你已经克隆了我们的代码，那么 Web3 认证和用户的数据组合提取都已经实现了。因此，下面的部分只是一个代码演练。*Web3 身份验证和用户作品集数据提取我们的 dapp 的核心逻辑，也包括这两个基本但强大的特性，包含在“ [App.js](https://github.com/YosephKS/solana-defi-dashboard/blob/main/src/App.js) 文件中。就 Solana 网络上的认证而言，Moralis 实现了幻影钱包。首先，您需要从“react-moralis”导入 Moralis SDK 和 Solana API:
 
 ```
@@ -113,7 +113,7 @@ import {
   useMoralisSolanaApi,
   useMoralisSolanaCall,
 } from "react-moralis";
-```
+```js
 
 上面给了你一些非常强大的钩子。因此，您可以使用“ **authenticate** 来创建您的“onConnectPhantomWallet”函数:
 
@@ -123,14 +123,14 @@ import {
       type: "sol",
     });
   };
-```
+```js
 
 上面几行代码处理 [Web3 用幻影钱包登录](https://moralis.io/how-to-build-a-web3-login-in-5-steps/)。这意味着我们 dapp 的“连接钱包”按钮会调用这个功能。至于获取用户的投资组合数据，上面的“导入”已经确保了我们拥有完全的控制权。因此，我们可以使用这些钩子来定义必要的常量:
 
 ```
   const { account } = useMoralisSolanaApi();
   const { fetch, data, isLoading } = useMoralisSolanaCall(account.getPortfolio);
-```
+```js
 
 此外，“ **getPortfolio** ”做所有的重活。我们还使用“fetch”函数，该函数获取 mainnet 或 devnet 上的用户(登录)地址:
 
@@ -146,12 +146,12 @@ import {
       });
     }
   }, [fetch, isAuthenticated, user, network]);
-```
+```js
 
 如果你更喜欢视频教程，请务必在 23:16 开始观看下面的视频。在该视频中，Moralis 专家完成了上述所有步骤。在这里，您还可以获得我们的 dapps 认证和投资组合获取的更详细的代码演练(从 27:15 开始)。https://www.youtube.com/watch?v=IsTFNOedPkk如何构建 Solana 令牌控制面板—摘要我们希望你已经跟随我们的领导，你现在有你自己版本的索拉纳令牌仪表板。如果是这样，你已经学会了如何完成初始道德设置。因此，您现在知道了如何获得您的服务器 URL 和应用程序 ID 来填充一个。env "文件。此外，您还了解了如何轻松实现 Web3 身份验证以及如何获取用户的投资组合数据。多亏了 Moralis 的 SDK，这两个特性都只需要相对较短的代码片段。尽管如此，如果您喜欢这个示例项目，我们建议您也学习如何[创建一个 Solana 令牌](https://moralis.io/how-to-create-a-solana-token-in-5-steps/)。此外，您可能希望将注意力转移到其他可编程链上。因此，我们鼓励您了解如何[创建多边形令牌](https://moralis.io/how-to-create-a-polygon-token/)、 [BNB 链令牌](https://moralis.io/how-to-create-a-bnb-chain-token-in-5-minutes/)或[雪崩 dapp](https://moralis.io/how-to-create-an-avalanche-dapp-in-4-steps/) 。所有这些教程和许多其他教程都可以在[道德 YouTube 频道](https://www.youtube.com/c/MoralisWeb3)和[道德博客](https://moralis.io/blog/)上找到。这些是一些最新的话题:如何[创建 BNB NFT](https://moralis.io/how-to-create-a-bnb-nft/) ，[分数 NFTs](https://moralis.io/what-are-fractional-nfts-the-ultimate-2022-f-nft-guide/) 指南，关于[动态 NFTs](https://moralis.io/what-are-dynamic-nfts-the-ultimate-2022-guide/) ，[基于 NFT 的会员资格](https://moralis.io/what-are-nft-based-memberships-full-guide/)，一个[即玩即赚(P2E)游戏智能合约](https://moralis.io/how-to-build-a-play-to-earn-p2e-game-smart-contract/)，构建一个 [Uniswap DEX 克隆](https://moralis.io/build-a-uniswap-dex-clone-with-html-css-javascript-moralis-on-the-ethereum-network/)，如何[获得区块链短信通知](https://moralis.io/how-to-get-blockchain-sms-notifications/)，添加一个 [Web3 连接钱包按钮尽管如此，所有这些有价值的内容都可以作为你免费的区块链发展教育。](https://moralis.io/how-to-add-a-web3-connect-wallet-button-to-your-website/)另一方面，你可能渴望[成为一名 Web3 开发者](https://moralis.io/how-to-become-a-web3-developer-full-guide/)并成为全职加密高手。如果是这样的话，采取更专业的方法通常效果最好。因此，我们建议你报名参加[道德学院](https://academy.moralis.io/)，那里有专业水平的[课程](https://academy.moralis.io/all-courses/)等着你。最重要的是，你还将获得个性化的学习路径，专家指导，以及密码领域最令人难以置信的社区之一的会员资格。    
 
 ```
 
-```
+```js
 
 ```
